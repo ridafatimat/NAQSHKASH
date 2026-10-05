@@ -15,15 +15,22 @@ data/
 datasets/
 *.zip
 
+# Deskew validation data
+tests/input/
+tests/clean/
+tests/scanned/
+tests/phone_style/
+tests/ground_truth_sources/
+tests/real/
+
 # Generated test outputs
 tests/output/
 tests/robust_output/
 tests/review_overlays/
-tests/deskew_report.csv
-tests/deskew_ground_truth.csv
-tests/deskew_failures.csv
+tests/*.csv
+tests/*.zip
 
-# Model/training artifacts
+# Model / training artifacts
 outputs/
 checkpoints/
 *.pt
