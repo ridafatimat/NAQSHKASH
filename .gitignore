@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Datasets / large files
+data/
+datasets/
+*.zip
+
+# Generated test outputs
+tests/output/
+tests/robust_output/
+tests/review_overlays/
+tests/deskew_report.csv
+tests/deskew_ground_truth.csv
+tests/deskew_failures.csv
+
+# Model/training artifacts
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
