@@ -1,22 +1,24 @@
-# NAQSHKASH Preprocessing — Ayesha Amer (Day 1 & Day 2)
+# NAQSHKASH Preprocessing — Ayesha Amer
 
 **Author:** Ayesha Amer  
 **Team:** NAQSHKASH FYP  
-**Phase:** Preprocessing (Days 1 & 2 of 14-Day Plan)
+**Phase:** Preprocessing (Days 1–3 of 14-Day Plan)
 
 ---
 
 ## 1. Overview & Scope
 
-This package implements the foundational preprocessing stages for Kashmiri Carpet Talim document recognition:
-- **Day 1 Scope:** Content margin detection and bounding-box cropping (`preprocessing.crop`).
-- **Day 2 Scope:** 3-tier logical row detection and row separation (`preprocessing.rows`).
-- **Pipeline Integration:** Chained end-to-end wrapper returning structured dataclasses (`preprocessing.pipeline`).
+This package implements the core preprocessing pipeline for Kashmiri Carpet Talim document recognition:
+- **Margin Cropping:** Content margin detection and bounding-box cropping (`preprocessing.crop`).
+- **Row Detection & Separation:** 3-tier logical row detection and row separation (`preprocessing.rows`).
+- **Row Normalization:** Grayscale conversion, 64px aspect-preserving resizing (`cv2.INTER_AREA`), float32 normalization in `[0.0, 1.0]` (`preprocessing.normalize`).
+- **Model Preparation Pipeline:** End-to-end chained execution returning structured model-ready row dataclasses (`preprocessing.model_prep`).
 
 ### Strict Scope Boundaries
-- **In Scope (Days 1–2):** Standalone margin cropping, 3-tier logical row detection, unresized/un-normalized row slicing, bounding-box metadata mapping, test suite, and benchmark runner.
-- **Teammate Scopes (Untouched):** Deskewing / Rotation correction (Rida), Noise reduction & Ruling-line removal (Hareem), DataLoader & Model training (Rida / Hareem).
-- **Day 3 Hand-Off Scope (Next Step):** Resizing row crops to fixed 64px height, grayscale conversion, tensor normalization, and dataset integration.
+- **In Scope:** Document cropping, logical row grouping, row slicing, aspect-preserving 64px resizing, `[0.0, 1.0]` normalization, test suite, and verification tools.
+- **Teammate Scopes:** 
+  - **Rida (Days 1–3, 4–5):** Rotational deskewing (`preprocessing.deskew`), DataLoader, batching, variable-width padding (Day 5), and CTC preparation.
+  - **Hareem (Days 1–3, 4–6):** Noise reduction, ruling-line removal hook (`clean_fn`), and CRNN model architecture.
 
 ---
 
@@ -47,18 +49,27 @@ In Talim notation, **one logical row is defined as a 3-tier block**:
 
 ---
 
-## 3. Coordinate Convention
+## 3. Coordinate Convention & Polarity Standards
 
-All bounding boxes throughout this codebase strictly follow the **`(ymin, xmin, ymax, xmax)`** coordinate convention:
+### Coordinate Convention
+All bounding boxes throughout this codebase strictly follow **`(ymin, xmin, ymax, xmax)`**:
 - `ymin`: Top row pixel index (inclusive)
 - `xmin`: Left column pixel index (inclusive)
 - `ymax`: Bottom row pixel index (exclusive)
 - `xmax`: Right column pixel index (exclusive)
 
-**Python Slice Equivalent:**  
 ```python
 row_crop = image[ymin:ymax, xmin:xmax]
 ```
+
+### Polarity & Normalization Convention
+- **`0.0`** = Dark text ink (Black)
+- **`1.0`** = Light paper background (White)
+- **Data Type:** `float32` in `[0.0, 1.0]`
+
+> [!IMPORTANT]
+> **Contract for Rida's DataLoader (Day 5):** When padding variable-width row tensors to batch maximum width, **pad with `1.0`** (white paper background), never `0.0` (which would represent black ink).  
+> **Contract for Hareem's Cleaning Module:** Any row-level image cleaning / ruling-line removal stage must preserve this polarity convention (`0.0` = ink, `1.0` = background).
 
 ---
 
@@ -66,43 +77,38 @@ row_crop = image[ymin:ymax, xmin:xmax]
 
 ```text
 preprocessing/
-├── __init__.py        # Exports public API functions and dataclasses
-├── crop.py            # Day 1: Margin removal and content bounding-box extraction
-├── rows.py            # Day 2: 3-tier logical row detection and extraction
-└── pipeline.py        # Chained pipeline execution and coordinate mapping
+├── __init__.py        # Public API exports (additive and backward-compatible)
+├── deskew.py          # Rida: Rotational deskewing and skew estimation
+├── crop.py            # Margin removal and content bounding-box extraction
+├── rows.py            # 3-tier logical row detection and extraction
+├── pipeline.py        # Shared: Base crop-and-separate pipeline (deskew integrated)
+├── normalize.py       # Grayscale conversion, 64px resizing, and [0, 1] normalization
+└── model_prep.py      # End-to-end model-ready row preprocessing pipeline
 ```
 
 ### Public API Functions
 
-#### `crop_margins(image, padding=10, return_bbox=False, noise_filter=True)`
-- **Input:** 2D Grayscale or 3D BGR/RGB numpy array (uint8).
-- **Immutability Guarantee:** The input array is never mutated in-place.
-- **Robustness:** Handles dark scan borders, uneven illumination (Otsu thresholding), and filters isolated 1–2px speckle noise.
-- **Fallback:** Returns a clean full-image copy with `(0, 0, H, W)` on blank/uniform images.
+#### `to_grayscale(image)`
+- **Input:** 2D grayscale, 3D BGR/RGB, or float array.
+- **Output:** 2D `uint8` array of shape `(H, W)` in `[0, 255]`. Never mutates input.
 
-#### `detect_rows(image, padding=5, min_line_gap_merge=3, subline_height_ratio=0.8)`
-- **Input:** Cropped or full document image (2D/3D uint8).
-- **Algorithm:** Combines horizontal projection profiling, subline fragment merging, and anchor count tier clustering.
-- **Output:** List of row bounding boxes `[(ymin, xmin, ymax, xmax), ...]` ordered strictly from top to bottom.
+#### `resize_to_height(image, height=64, min_width=16)`
+- **Input:** 2D grayscale array.
+- **Output:** Resized 2D array of shape `(64, W)` where $W \ge \text{min\_width}$.
+- **Interpolation:** Uses `cv2.INTER_AREA` for downscaling (ensuring thin strokes, dots, and diacritics survive) and `cv2.INTER_LINEAR` for upscaling.
+- **No Padding:** Strictly preserves variable width without horizontal padding.
 
-#### `separate_rows(image, row_bboxes=None, padding=5)`
-- **Input:** Image array and optional pre-computed bounding boxes.
-- **Output:** `List[RowData]` containing:
-  - `row_index`: 0-indexed position from top.
-  - `image`: Cropped row array (**unresized, un-normalized, original dtype & channels preserved**).
-  - `bbox`: `(ymin, xmin, ymax, xmax)` local coordinates.
-  - `height`, `width`: Dimensions of the crop.
+#### `normalize(image)`
+- **Input:** Image array.
+- **Output:** 2D `float32` array in `[0.0, 1.0]` with zero NaNs/Infs.
 
-#### `crop_and_separate_rows(image, crop_padding=10, row_padding=5, noise_filter=True)`
-- **Chained Pipeline:** Executes `deskew` (optional/integrated) $\rightarrow$ `crop_margins` $\rightarrow$ `detect_rows` $\rightarrow$ `separate_rows`.
-- **Output:** `PreprocessingResult` dataclass holding:
-  - `deskewed_image`: Image array after rotational deskewing.
-  - `deskew_angle`: Detected skew angle in degrees.
-  - `cropped_image`: Image with outer margins removed.
-  - `crop_bbox`: Crop bounds in original/deskewed image coordinates.
-  - `rows`: List of `RowData` items.
-  - `num_rows`: Count of detected rows.
-  - `global_row_bboxes`: Bounding boxes mapped back to original uncropped image space.
+#### `preprocess_row(row_image, target_height=64, min_width=16)`
+- **Chained Row Transform:** `to_grayscale` $\rightarrow$ `resize_to_height(64)` $\rightarrow$ `normalize`.
+- **Output:** `(64, W)` float32 array in `[0.0, 1.0]`.
+
+#### `preprocess_image(image, clean_fn=None, target_height=64, min_width=16, apply_deskew=True, ...)`
+- **Full End-to-End Pipeline:** Calls `crop_and_separate_rows` $\rightarrow$ optional `clean_fn` per row $\rightarrow$ `preprocess_row`.
+- **Output:** `ModelPrepResult` holding `List[ModelReadyRow]`.
 
 ---
 
@@ -111,66 +117,69 @@ preprocessing/
 ```python
 import numpy as np
 from PIL import Image
-from preprocessing import crop_and_separate_rows
+from preprocessing import preprocess_image
 
-# Load input document (Grayscale or Color)
+# Load raw Talim page image
 raw_image = np.array(Image.open("datasets/baseline_normal/images/talim_000001.png"))
 
-# Execute Preprocessing Pipeline
-result = crop_and_separate_rows(raw_image, crop_padding=10, row_padding=5)
+# Run End-to-End Model Preparation Pipeline
+result = preprocess_image(raw_image, target_height=64, apply_deskew=True)
 
-print(f"Original Shape: {result.original_shape}")
-print(f"Cropped Shape:  {result.cropped_image.shape}")
-print(f"Detected Rows:  {result.num_rows}")
+print(f"Original Shape:   {result.original_shape}")
+print(f"Cropped Shape:    {result.cropped_image.shape}")
+print(f"Deskew Angle:     {result.deskew_angle:.2f}° (Corrected: {result.deskew_corrected})")
+print(f"Total Rows:       {result.num_rows}")
 
 for row in result.rows:
-    print(f"  Row {row.row_index}: bbox={row.bbox}, shape={row.image.shape}")
+    print(f"  Row {row.row_index}: tensor_shape={row.tensor_image.shape}, dtype={row.tensor_image.dtype}, range=[{row.tensor_image.min():.2f}, {row.tensor_image.max():.2f}]")
 ```
 
 ---
 
-## 6. Integration Contract for Day 3 (Ayesha) & Teammates (Rida, Hareem)
+## 6. Output Contract for Rida's DataLoader (Days 4–5)
 
-### Incoming Hand-off from Rida & Hareem (Day 3):
-- Rida's deskewed images and Hareem's noise-cleaned / ruling-line-removed images can be passed directly into `crop_and_separate_rows(cleaned_image)` without any modification.
+Each `ModelReadyRow` object in `result.rows` provides:
+1. `row.tensor_image`: `np.ndarray` of shape `(64, W)`, dtype `float32`, values $\in [0.0, 1.0]$.
+2. `row.height`: Fixed at `64`.
+3. `row.width`: Variable width $W \ge 16$.
+4. `row.bbox`: Local bounding box in cropped space `(ymin, xmin, ymax, xmax)`.
+5. `row.global_bbox`: Global bounding box in deskewed/input space `(ymin, xmin, ymax, xmax)`.
 
-### Outgoing Hand-off to Day 3 (Ayesha):
 ```python
-# Day 3 transformation loop:
-for row in result.rows:
-    # 1. Convert row.image to Grayscale (if 3D)
-    # 2. Resize row.image to fixed height 64px while maintaining aspect ratio
-    # 3. Normalize pixel values to [0, 1] or [-1, 1] for CRNN feature extractor
-    pass
+# Rida's Day 4-5 DataLoader Consumption:
+# Convert row.tensor_image (shape (64, W)) directly to torch.FloatTensor (1, 64, W)
+import torch
+
+tensor_input = torch.from_numpy(row.tensor_image).unsqueeze(0)  # Shape: (1, 64, W)
+# Pad width with 1.0 (white background) during batch collation
 ```
 
 ---
 
-## 7. Verification & Benchmarking
+## 7. Verification & Tests
 
 ### Running the Pytest Suite
 ```bash
-pytest tests -v
+pytest tests/ -v
 ```
-*Tests verify:* Blank images, edge-touching text, dark borders, speckle noise, ruling lines, tight row spacing, single-symbol rows, tilt, gray vs BGR, input immutability, and top-to-bottom ordering.
+All 36 unit and integration tests pass across cropping, row segmentation, deskew integration, resizing, grayscale conversion, and normalization.
 
-### Running the Dataset Benchmark & Visualization Tool
+### Running the Model Preparation Verification Script
 ```bash
-python run_ayesha_preprocessing.py
+python verify_model_prep.py
 ```
-*Generates debug visualizations in `debug_outputs/`:*
-1. `*_crop_overlay.png`: Document crop boundary.
-2. `*_row_overlay.png`: Color-coded row bounding boxes.
-3. `*_projection_plot.png`: Horizontal projection profile with row division cut lines.
-
-> **Note on `debug_outputs/`:** The `debug_outputs/` directory is intended for visual inspection and should be left unstaged in git.
+*Verifies:*
+1. Dot and thin-stroke retention under 64px area downscaling (100% dot retention).
+2. Dtype (`float32`), shape (`(64, W)`), value range (`[0.0, 1.0]`), zero NaNs/Infs across datasets.
+3. Row width distribution and CTC receptive field requirements.
+4. Saves visual inspection artifacts to `debug_outputs/model_prep/`.
 
 ---
 
 ## 8. Dependencies
-The implementation uses existing environment dependencies:
-- `numpy >= 1.24`
-- `scipy >= 1.10` (specifically `scipy.ndimage`)
-- `pillow >= 10.0`
-- `matplotlib >= 3.7` (for visualization generation)
-- `pytest >= 7.0` (for test suite)
+The implementation uses existing environment dependencies (from `requirements.txt`):
+- `numpy`
+- `opencv-python` (`cv2`)
+- `scipy` (`scipy.ndimage`)
+- `torch`
+- `pytest`
