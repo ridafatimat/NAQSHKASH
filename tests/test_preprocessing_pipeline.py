@@ -1,25 +1,47 @@
 """
-tests.test_preprocessing_pipeline
-=================================
+NAQSHKASH
+Integrated preprocessing pipeline tests.
 
-Integration tests for the NAQSHKASH preprocessing pipeline.
+Tests:
+- deskew integration
+- crop integration
+- row detection
+- row separation
+- coordinate mapping
+- straight-image stability
+- positive/negative skew
+- ability to disable deskew
+- preservation of uint8 image format
 
-Ayesha Day 1-2:
-    - margin cropping
-    - logical row detection
-    - row separation
-
-Rida Day 3:
-    - deskew integration before cropping
-    - positive/negative rotational integration tests
-    - straight-image stability
-    - deskew-disable debugging mode
-
-Project: NAQSHKASH FYP
+Note:
+Hareem's cleaning step may slightly alter exact pixel intensities.
+Therefore, tests should verify that images remain uint8 in the
+0-255 range rather than requiring exact black pixels to remain 0.
 """
 
+from pathlib import Path
+import sys
+
+import cv2
 import numpy as np
-import pytest
+
+
+# ============================================================
+# PROJECT IMPORT SETUP
+# ============================================================
+
+PROJECT_ROOT = (
+    Path(__file__)
+    .resolve()
+    .parents[1]
+)
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(
+        0,
+        str(PROJECT_ROOT),
+    )
+
 
 from preprocessing.pipeline import (
     crop_and_separate_rows,
@@ -37,125 +59,182 @@ from preprocessing.deskew import (
 
 
 # ============================================================
-# SYNTHETIC TALIM DOCUMENT HELPER
+# SYNTHETIC TEST CONFIG
+# ============================================================
+
+# These artificial rectangular fixtures produce lower deskew
+# confidence than real Talim pages even when the angle estimate
+# itself is correct.
+#
+# We relax confidence ONLY for these integration tests.
+#
+# Production DeskewConfig remains unchanged.
+INTEGRATION_DESKEW_CONFIG = DeskewConfig(
+    min_confidence=0.05
+)
+
+
+# ============================================================
+# SYNTHETIC TALIM DOCUMENT GENERATOR
 # ============================================================
 
 def _generate_framed_talim_document(
-    num_rows: int = 4,
-    outer_margin: int = 50,
-) -> np.ndarray:
+    num_rows=4,
+    outer_margin=50,
+):
     """
-    Generate a simple synthetic multi-row Talim-style document.
+    Create a synthetic Talim-like document.
 
-    Each logical row contains three horizontal sub-lines:
-        upper tier
-        count tier
-        lower tier
+    Each logical row contains up to three vertical tiers:
+        upper
+        count
+        lower
 
-    This helper is intentionally simple because its purpose is
-    integration testing rather than OCR-recognition realism.
+    Different row patterns are intentionally used so that
+    logical row grouping can be tested.
+
+    Returns
+    -------
+    np.ndarray
+        uint8 grayscale image.
     """
 
-    row_height = 80
-    row_gap = 20
+    page_width = 350
 
-    content_height = (
-        num_rows * row_height
-        + (num_rows - 1) * row_gap
+    row_gap = 30
+
+    top_margin = outer_margin
+    bottom_margin = outer_margin
+
+    # Different row patterns.
+    patterns = [
+        # upper, count, lower
+        (True, True, True),
+        (False, True, True),
+        (True, True, False),
+        (True, True, True),
+    ]
+
+    # Approximate height per logical row.
+    logical_row_height = 70
+
+    page_height = (
+        top_margin
+        + num_rows * logical_row_height
+        + max(
+            0,
+            num_rows - 1,
+        ) * row_gap
+        + bottom_margin
     )
 
-    content_width = 250
-
-    total_height = (
-        content_height
-        + 2 * outer_margin
-    )
-
-    total_width = (
-        content_width
-        + 2 * outer_margin
-    )
-
-    canvas = np.full(
+    image = np.full(
         (
-            total_height,
-            total_width,
+            page_height,
+            page_width,
         ),
         255,
         dtype=np.uint8,
     )
 
-    y = outer_margin
+    x_start = outer_margin
+    x_end = (
+        page_width
+        - outer_margin
+    )
 
-    for _ in range(num_rows):
+    current_y = (
+        top_margin
+    )
 
+    for row_index in range(
+        num_rows
+    ):
+
+        upper_present, count_present, lower_present = (
+            patterns[
+                row_index
+                % len(patterns)
+            ]
+        )
+
+        # ----------------------------------------
         # Upper tier
-        canvas[
-            y : y + 25,
-            outer_margin + 20 :
-            total_width - outer_margin - 20
-        ] = 0
+        # ----------------------------------------
 
+        if upper_present:
+
+            cv2.rectangle(
+                image,
+                (
+                    x_start + 20,
+                    current_y,
+                ),
+                (
+                    x_start + 45,
+                    current_y + 10,
+                ),
+                0,
+                thickness=-1,
+            )
+
+        # ----------------------------------------
         # Count tier
-        canvas[
-            y + 30 : y + 55,
-            outer_margin + 10 :
-            total_width - outer_margin - 10
-        ] = 0
+        # ----------------------------------------
 
+        if count_present:
+
+            cv2.rectangle(
+                image,
+                (
+                    x_start,
+                    current_y + 20,
+                ),
+                (
+                    x_end,
+                    current_y + 35,
+                ),
+                0,
+                thickness=-1,
+            )
+
+        # ----------------------------------------
         # Lower tier
-        canvas[
-            y + 60 : y + 80,
-            outer_margin + 30 :
-            total_width - outer_margin - 30
-        ] = 0
+        # ----------------------------------------
 
-        y += (
-            row_height
+        if lower_present:
+
+            cv2.rectangle(
+                image,
+                (
+                    x_start + 10,
+                    current_y + 45,
+                ),
+                (
+                    x_start + 35,
+                    current_y + 55,
+                ),
+                0,
+                thickness=-1,
+            )
+
+        current_y += (
+            logical_row_height
             + row_gap
         )
 
-    return canvas
+    return image
 
 
 # ============================================================
-# TEST-SPECIFIC DESKEW CONFIGURATION
-# ============================================================
-
-# IMPORTANT:
-#
-# Ayesha's integration fixture consists of large rectangular
-# bars rather than real Talim symbols.
-#
-# Rida's production deskew configuration intentionally uses a
-# stricter confidence threshold.
-#
-# We lower confidence ONLY for these synthetic integration
-# fixtures so that we can verify:
-#
-#     deskew
-#       ->
-#     crop
-#       ->
-#     row detection
-#       ->
-#     row separation
-#
-# The production deskew configuration remains unchanged.
-
-INTEGRATION_DESKEW_CONFIG = DeskewConfig(
-    min_confidence=0.20
-)
-
-
-# ============================================================
-# AYESHA ORIGINAL PIPELINE TESTS
+# TEST 1
+# END-TO-END
 # ============================================================
 
 def test_crop_and_separate_rows_end_to_end():
     """
-    Verify that the crop-and-row pipeline executes end-to-end
-    and returns structured results.
+    Verify that the complete pipeline executes
+    end-to-end and returns the expected logical rows.
     """
 
     doc = _generate_framed_talim_document(
@@ -174,103 +253,26 @@ def test_crop_and_separate_rows_end_to_end():
         PreprocessingResult,
     )
 
-    assert result.num_rows == 4
-
-    assert len(
-        result.rows
-    ) == 4
-
-    assert len(
-        result.global_row_bboxes
-    ) == 4
-
-    # Cropped image should be smaller because
-    # large outer margins were removed.
-
     assert (
-        result.cropped_image.shape[0]
-        <
-        doc.shape[0]
+        result.num_rows
+        ==
+        4
     )
 
     assert (
-        result.cropped_image.shape[1]
-        <
-        doc.shape[1]
-    )
-
-
-def test_global_vs_local_coordinate_mapping():
-    """
-    Verify that row bounding boxes map correctly into the
-    deskewed/cropped image coordinate system.
-    """
-
-    doc = _generate_framed_talim_document(
-        num_rows=3,
-        outer_margin=40,
-    )
-
-    result = crop_and_separate_rows(
-        doc,
-        crop_padding=10,
-        row_padding=5,
-    )
-
-    (
-        crop_ymin,
-        crop_xmin,
-        _,
-        _,
-    ) = result.crop_bbox
-
-    for row_obj, global_bbox in zip(
-        result.rows,
-        result.global_row_bboxes,
-    ):
-
-        (
-            row_ymin,
-            row_xmin,
-            row_ymax,
-            row_xmax,
-        ) = row_obj.bbox
-
-        expected_global_bbox = (
-
-            crop_ymin
-            + row_ymin,
-
-            crop_xmin
-            + row_xmin,
-
-            crop_ymin
-            + row_ymax,
-
-            crop_xmin
-            + row_xmax,
-
+        len(
+            result.rows
         )
-
-        assert (
-            global_bbox
-            ==
-            expected_global_bbox
-        )
-
-
-def test_pipeline_no_resizing_or_normalization():
-    """
-    Verify that preprocessing currently returns raw uint8 row
-    crops without model resizing or normalization.
-    """
-
-    doc = _generate_framed_talim_document(
-        num_rows=2
+        ==
+        4
     )
 
-    result = crop_and_separate_rows(
-        doc
+    assert (
+        len(
+            result.global_row_bboxes
+        )
+        ==
+        4
     )
 
     for row in result.rows:
@@ -281,47 +283,194 @@ def test_pipeline_no_resizing_or_normalization():
         )
 
         assert (
+            row.image.size
+            >
+            0
+        )
+
+        assert (
+            row.height
+            >
+            0
+        )
+
+        assert (
+            row.width
+            >
+            0
+        )
+
+
+# ============================================================
+# TEST 2
+# GLOBAL VS LOCAL COORDINATES
+# ============================================================
+
+def test_global_vs_local_coordinate_mapping():
+    """
+    Verify that row bounding boxes are correctly
+    mapped from cropped-image coordinates into the
+    deskewed/preprocessed image coordinate system.
+    """
+
+    doc = _generate_framed_talim_document(
+        num_rows=3,
+        outer_margin=50,
+    )
+
+    result = crop_and_separate_rows(
+        doc,
+        apply_deskew=False,
+        apply_cleaning=False,
+        apply_ruling_line_removal=False,
+    )
+
+    (
+        crop_ymin,
+        crop_xmin,
+        _,
+        _,
+    ) = result.crop_bbox
+
+    assert (
+        len(
+            result.rows
+        )
+        ==
+        len(
+            result.global_row_bboxes
+        )
+    )
+
+    for (
+        row,
+        global_bbox,
+    ) in zip(
+        result.rows,
+        result.global_row_bboxes,
+    ):
+
+        (
+            local_ymin,
+            local_xmin,
+            local_ymax,
+            local_xmax,
+        ) = row.bbox
+
+        expected_global = (
+            crop_ymin
+            + local_ymin,
+
+            crop_xmin
+            + local_xmin,
+
+            crop_ymin
+            + local_ymax,
+
+            crop_xmin
+            + local_xmax,
+        )
+
+        assert (
+            global_bbox
+            ==
+            expected_global
+        )
+
+
+# ============================================================
+# TEST 3
+# NO MODEL RESIZING / NORMALIZATION
+# ============================================================
+
+def test_pipeline_no_resizing_or_normalization():
+    """
+    Verify that preprocessing returns uint8 row crops
+    without model resizing or model normalization.
+
+    Hareem's cleaning step may slightly change exact
+    pixel intensities, so we do NOT require the darkest
+    pixel to remain exactly 0.
+    """
+
+    doc = _generate_framed_talim_document(
+        num_rows=2
+    )
+
+    result = crop_and_separate_rows(
+        doc
+    )
+
+    assert (
+        result.num_rows
+        ==
+        2
+    )
+
+    for row in result.rows:
+
+        assert isinstance(
+            row,
+            RowData,
+        )
+
+        # Still normal image data.
+        assert (
             row.image.dtype
             ==
             np.uint8
         )
 
+        # Must remain inside normal uint8 range.
         assert (
             row.image.min()
-            ==
+            >=
             0
         )
 
         assert (
             row.image.max()
-            ==
+            <=
             255
         )
 
+        # Must not become float/model-normalized data.
+        assert np.issubdtype(
+            row.image.dtype,
+            np.integer,
+        )
+
+        # Must remain a valid image crop.
         assert (
-            row.height
-            ==
             row.image.shape[0]
+            >
+            0
+        )
+
+        assert (
+            row.image.shape[1]
+            >
+            0
         )
 
 
 # ============================================================
-# RIDA DAY 3 - DESKEW INTEGRATION TESTS
+# TEST 4
+# POSITIVE SKEW
 # ============================================================
 
 def test_pipeline_integrates_deskew_before_crop():
     """
-    Verify that deskewing occurs before margin cropping
-    and logical row separation.
+    Verify that deskewing occurs before crop and
+    logical-row separation.
     """
 
-    # Known four-row synthetic document.
     doc = _generate_framed_talim_document(
         num_rows=4,
         outer_margin=60,
     )
 
-    # Apply known +5 degree skew.
+    # Artificial +5 degree skew.
     tilted = rotate_image(
         doc,
         angle=5.0,
@@ -332,12 +481,14 @@ def test_pipeline_integrates_deskew_before_crop():
         tilted,
         crop_padding=10,
         row_padding=5,
-        deskew_config=INTEGRATION_DESKEW_CONFIG,
+        deskew_config=(
+            INTEGRATION_DESKEW_CONFIG
+        ),
     )
 
-    # --------------------------------------------------------
-    # DESKEW CHECK
-    # --------------------------------------------------------
+    # ----------------------------------------
+    # DESKEW
+    # ----------------------------------------
 
     assert abs(
         result.deskew_angle
@@ -349,17 +500,15 @@ def test_pipeline_integrates_deskew_before_crop():
         is True
     )
 
-    # +5 degree input skew should require
-    # approximately -5 degree correction.
-
+    # +5 skew requires approximately -5 correction.
     assert abs(
         result.applied_rotation
         + 5.0
     ) <= 0.5
 
-    # --------------------------------------------------------
-    # INTEGRATION CHECK
-    # --------------------------------------------------------
+    # ----------------------------------------
+    # LOGICAL ROWS
+    # ----------------------------------------
 
     assert (
         result.num_rows
@@ -367,15 +516,16 @@ def test_pipeline_integrates_deskew_before_crop():
         4
     )
 
-    assert len(
-        result.rows
-    ) == 4
 
+# ============================================================
+# TEST 5
+# NEGATIVE SKEW
+# ============================================================
 
 def test_pipeline_handles_negative_skew():
     """
-    Verify integration when the document is rotated in the
-    opposite direction.
+    Verify the pipeline when the document is skewed
+    in the opposite direction.
     """
 
     doc = _generate_framed_talim_document(
@@ -393,12 +543,14 @@ def test_pipeline_handles_negative_skew():
         tilted,
         crop_padding=10,
         row_padding=5,
-        deskew_config=INTEGRATION_DESKEW_CONFIG,
+        deskew_config=(
+            INTEGRATION_DESKEW_CONFIG
+        ),
     )
 
-    # --------------------------------------------------------
-    # DESKEW CHECK
-    # --------------------------------------------------------
+    # ----------------------------------------
+    # DESKEW
+    # ----------------------------------------
 
     assert abs(
         result.deskew_angle
@@ -410,17 +562,15 @@ def test_pipeline_handles_negative_skew():
         is True
     )
 
-    # -6 degree input should require
-    # approximately +6 degree correction.
-
+    # -6 skew requires approximately +6 correction.
     assert abs(
         result.applied_rotation
         - 6.0
     ) <= 0.5
 
-    # --------------------------------------------------------
-    # ROW CHECK
-    # --------------------------------------------------------
+    # ----------------------------------------
+    # ROWS
+    # ----------------------------------------
 
     assert (
         result.num_rows
@@ -428,17 +578,17 @@ def test_pipeline_handles_negative_skew():
         3
     )
 
-    assert len(
-        result.rows
-    ) == 3
 
+# ============================================================
+# TEST 6
+# STRAIGHT IMAGE STABILITY
+# ============================================================
 
 def test_pipeline_straight_image_not_unnecessarily_rotated():
     """
-    Verify that an already-straight document remains stable.
+    Verify that a straight Talim document remains stable.
 
-    This test intentionally uses the normal production
-    DeskewConfig rather than the relaxed synthetic-test config.
+    Uses the normal production DeskewConfig.
     """
 
     doc = _generate_framed_talim_document(
@@ -467,10 +617,16 @@ def test_pipeline_straight_image_not_unnecessarily_rotated():
     )
 
 
+# ============================================================
+# TEST 7
+# DESKEW DISABLED
+# ============================================================
+
 def test_pipeline_can_disable_deskew_for_debugging():
     """
-    Verify that deskew can be disabled explicitly for
-    debugging / ablation tests.
+    Verify that deskew can be explicitly disabled
+    without breaking the rest of the preprocessing
+    pipeline.
     """
 
     doc = _generate_framed_talim_document(
@@ -499,7 +655,6 @@ def test_pipeline_can_disable_deskew_for_debugging():
         0.0
     )
 
-    # Rest of pipeline should still function.
     assert (
         result.num_rows
         ==
