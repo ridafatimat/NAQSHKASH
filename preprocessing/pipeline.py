@@ -1,4 +1,3 @@
-
 """
 preprocessing.pipeline
 ======================
@@ -20,14 +19,24 @@ Ayesha:
     - logical row detection
     - row separation
 
-Current preprocessing flow
+Default preprocessing flow
 --------------------------
 1. Deskew input document
 2. Clean / denoise image
-3. Remove ruling lines
-4. Remove outer margins
-5. Detect logical Talim rows
-6. Separate logical rows
+3. Remove outer margins
+4. Detect logical Talim rows
+5. Separate logical rows
+
+Important:
+Ruling-line removal is available, but DISABLED by default.
+
+Why?
+Because some genuine Talim strokes can look like long horizontal
+ruling lines. Automatically removing them from every image can damage
+the Talim structure and cause incorrect row detection.
+
+Ruling-line removal should only be enabled when the input actually
+contains unwanted horizontal ruling lines.
 
 Project: NAQSHKASH FYP
 """
@@ -81,7 +90,7 @@ class PreprocessingResult:
         crop_bbox
         global_row_bboxes
 
-    refer to coordinates in the deskewed image.
+    refer to coordinates in the deskewed/preprocessed image.
 
     The deskew affine matrix is retained so that later stages
     can map coordinates back to the original input image if
@@ -95,7 +104,7 @@ class PreprocessingResult:
     original_shape: Tuple[int, ...]
 
     # --------------------------------------------------------
-    # Preprocessed / deskewed image
+    # Final preprocessed image before cropping
     # --------------------------------------------------------
 
     deskewed_image: np.ndarray
@@ -158,26 +167,29 @@ def crop_and_separate_rows(
     ] = None,
     apply_deskew: bool = True,
     apply_cleaning: bool = True,
-    apply_ruling_line_removal: bool = True,
+    apply_ruling_line_removal: bool = False,
 ) -> PreprocessingResult:
     """
     Run the integrated NAQSHKASH preprocessing pipeline.
 
-    Pipeline
-    --------
+    Default pipeline
+    ----------------
     Input image
         ↓
     Deskew
         ↓
     Image cleaning / denoising
         ↓
-    Ruling-line removal
-        ↓
     Margin cropping
         ↓
     Logical row detection
         ↓
     Row separation
+
+    Optional stage
+    --------------
+    Ruling-line removal can be enabled explicitly for images
+    that contain genuine unwanted horizontal ruling lines.
 
     Parameters
     ----------
@@ -189,8 +201,7 @@ def crop_and_separate_rows(
             colour:    H x W x C
 
     crop_padding:
-        Padding around the document content after margin
-        detection.
+        Padding around document content after margin detection.
 
     row_padding:
         Padding around each detected logical Talim row.
@@ -202,7 +213,7 @@ def crop_and_separate_rows(
     deskew_config:
         Optional Rida DeskewConfig.
 
-        If None, the normal default configuration is used.
+        If None, normal default deskew configuration is used.
 
     apply_deskew:
         Whether rotational deskewing should run.
@@ -210,27 +221,27 @@ def crop_and_separate_rows(
         Default:
             True
 
-        Mainly useful for debugging and ablation tests.
-
     apply_cleaning:
-        Whether Hareem's image cleaning / denoising stage
-        should run.
+        Whether Hareem's cleaning / denoising stage should run.
 
         Default:
             True
 
     apply_ruling_line_removal:
-        Whether Hareem's ruling-line removal stage should run.
+        Whether Hareem's horizontal ruling-line removal should run.
 
         Default:
-            True
+            False
+
+        Enable only when an input image genuinely contains
+        unwanted horizontal ruling lines.
 
     Returns
     -------
     PreprocessingResult
         Combined result containing:
 
-        - preprocessing image
+        - preprocessed image
         - deskew metadata
         - crop information
         - detected rows
@@ -242,7 +253,10 @@ def crop_and_separate_rows(
     # VALIDATE INPUT
     # ========================================================
 
-    if not isinstance(image, np.ndarray):
+    if not isinstance(
+        image,
+        np.ndarray,
+    ):
         raise TypeError(
             f"Expected numpy.ndarray, got {type(image)}"
         )
@@ -252,20 +266,24 @@ def crop_and_separate_rows(
             "Cannot preprocess an empty image."
         )
 
-    if image.ndim not in (2, 3):
+    if image.ndim not in (
+        2,
+        3,
+    ):
         raise ValueError(
             f"Unsupported image shape: {image.shape}. "
             "Expected a grayscale or colour image."
         )
 
     # Preserve original shape before any transformation.
+    original_shape = (
+        image.shape
+    )
 
-    original_shape = image.shape
-
-    # Always work on our own copy so that the caller's
-    # original image is never modified.
-
-    working_image = image.copy()
+    # Work on a copy so the original input is not modified.
+    working_image = (
+        image.copy()
+    )
 
     # ========================================================
     # STEP 1
@@ -279,7 +297,9 @@ def crop_and_separate_rows(
             deskew_config,
         )
 
-        working_image = deskew_result.image
+        working_image = (
+            deskew_result.image
+        )
 
         deskew_angle = (
             deskew_result.skew_angle
@@ -307,9 +327,6 @@ def crop_and_separate_rows(
 
     else:
 
-        # Debug / ablation mode:
-        # pipeline continues without rotational correction.
-
         deskew_angle = 0.0
 
         applied_rotation = 0.0
@@ -331,19 +348,23 @@ def crop_and_separate_rows(
 
     if apply_cleaning:
 
-        working_image = clean_image(
-            working_image
+        working_image = (
+            clean_image(
+                working_image
+            )
         )
 
     # ========================================================
     # STEP 3
-    # HAREEM - RULING-LINE REMOVAL
+    # HAREEM - OPTIONAL RULING-LINE REMOVAL
     # ========================================================
 
     if apply_ruling_line_removal:
 
-        working_image = remove_ruling_lines(
-            working_image
+        working_image = (
+            remove_ruling_lines(
+                working_image
+            )
         )
 
     # ========================================================
@@ -351,7 +372,10 @@ def crop_and_separate_rows(
     # AYESHA - MARGIN CROPPING
     # ========================================================
 
-    cropped_image, crop_bbox = crop_margins(
+    (
+        cropped_image,
+        crop_bbox,
+    ) = crop_margins(
         working_image,
         padding=crop_padding,
         return_bbox=True,
@@ -388,7 +412,7 @@ def crop_and_separate_rows(
 
     # ========================================================
     # STEP 7
-    # MAP LOCAL ROW BOXES INTO DESKEWED IMAGE SPACE
+    # MAP LOCAL ROW BOXES INTO DESKEWED/PREPROCESSED SPACE
     # ========================================================
 
     global_bboxes = []
@@ -403,10 +427,17 @@ def crop_and_separate_rows(
         ) = row_bbox
 
         global_bbox = (
-            crop_ymin + row_ymin,
-            crop_xmin + row_xmin,
-            crop_ymin + row_ymax,
-            crop_xmin + row_xmax,
+            crop_ymin
+            + row_ymin,
+
+            crop_xmin
+            + row_xmin,
+
+            crop_ymin
+            + row_ymax,
+
+            crop_xmin
+            + row_xmax,
         )
 
         global_bboxes.append(
@@ -420,36 +451,59 @@ def crop_and_separate_rows(
     return PreprocessingResult(
 
         # Original input
-        original_shape=original_shape,
+        original_shape=(
+            original_shape
+        ),
 
-        # Final image after deskew + Hareem preprocessing
-        deskewed_image=working_image,
+        # Final image after deskew + optional Hareem processing
+        deskewed_image=(
+            working_image
+        ),
 
         # Deskew metadata
-        deskew_angle=deskew_angle,
+        deskew_angle=(
+            deskew_angle
+        ),
 
-        applied_rotation=applied_rotation,
+        applied_rotation=(
+            applied_rotation
+        ),
 
-        deskew_confidence=deskew_confidence,
+        deskew_confidence=(
+            deskew_confidence
+        ),
 
-        deskew_corrected=deskew_corrected,
+        deskew_corrected=(
+            deskew_corrected
+        ),
 
-        deskew_reason=deskew_reason,
+        deskew_reason=(
+            deskew_reason
+        ),
 
-        deskew_matrix=deskew_matrix,
+        deskew_matrix=(
+            deskew_matrix
+        ),
 
         # Crop
-        cropped_image=cropped_image,
+        cropped_image=(
+            cropped_image
+        ),
 
-        crop_bbox=crop_bbox,
+        crop_bbox=(
+            crop_bbox
+        ),
 
         # Rows
-        rows=row_data_list,
+        rows=(
+            row_data_list
+        ),
 
         num_rows=len(
             row_data_list
         ),
 
-        global_row_bboxes=global_bboxes,
+        global_row_bboxes=(
+            global_bboxes
+        ),
     )
-
