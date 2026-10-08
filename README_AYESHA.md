@@ -1,28 +1,29 @@
-# NAQSHKASH Preprocessing — Ayesha Amer
+# NAQSHKASH Preprocessing & Token Vocabulary — Ayesha Amer
 
 **Author:** Ayesha Amer  
 **Team:** NAQSHKASH FYP  
-**Phase:** Preprocessing (Days 1–3 of 14-Day Plan)
+**Phase:** Preprocessing & Data Representation (Days 1–4 of 14-Day Plan)
 
 ---
 
 ## 1. Overview & Scope
 
-This package implements the core preprocessing pipeline for Kashmiri Carpet Talim document recognition:
-- **Margin Cropping:** Content margin detection and bounding-box cropping (`preprocessing.crop`).
-- **Row Detection & Separation:** 3-tier logical row detection and row separation (`preprocessing.rows`).
-- **Row Normalization:** Grayscale conversion, 64px aspect-preserving resizing (`cv2.INTER_AREA`), float32 normalization in `[0.0, 1.0]` (`preprocessing.normalize`).
-- **Model Preparation Pipeline:** End-to-end chained execution returning structured model-ready row dataclasses (`preprocessing.model_prep`).
+This package implements the foundational preprocessing stages and token representation for Kashmiri Carpet Talim document recognition:
+- **Day 1 Scope:** Content margin detection and bounding-box cropping (`preprocessing.crop`).
+- **Day 2 Scope:** 3-tier logical row detection and row separation (`preprocessing.rows`).
+- **Day 3 Scope:** Grayscale conversion, 64px aspect-preserving resizing (`cv2.INTER_AREA`), float32 normalization in `[0.0, 1.0]`, and model preparation pipeline (`preprocessing.normalize`, `preprocessing.model_prep`).
+- **Day 4 Scope:** Token vocabulary and PyTorch CTC label encoder (`data.vocabulary`, `data.encoder`, `data/vocab.json`).
 
 ### Strict Scope Boundaries
-- **In Scope:** Document cropping, logical row grouping, row slicing, aspect-preserving 64px resizing, `[0.0, 1.0]` normalization, test suite, and verification tools.
+- **In Scope (Days 1–4):** Standalone margin cropping, 3-tier row grouping, 64px normalization, complete 67-class Talim vocabulary (30 symbols + 34 count glyphs + space + newline + CTC blank), and PyTorch `nn.CTCLoss` label encoding.
 - **Teammate Scopes:** 
-  - **Rida (Days 1–3, 4–5):** Rotational deskewing (`preprocessing.deskew`), DataLoader, batching, variable-width padding (Day 5), and CTC preparation.
-  - **Hareem (Days 1–3, 4–6):** Noise reduction, ruling-line removal hook (`clean_fn`), and CRNN model architecture.
+  - **Rida (Days 4–5):** `TalimDataset`, `DataLoader`, batch collation, and variable-width padding (`data.dataset`, `data.dataloader`, `data.collate`).
+  - **Hareem (Days 4–6):** CRNN architecture, BiLSTM layers, CTC Loss training loop (`models/`).
+  - **Ayesha (Days 5–6):** CTC decoding support and greedy CTC decoder (`data.ctc_decode`).
 
 ---
 
-## 2. Kashmiri Carpet Talim Row Definition
+## 2. Kashmiri Carpet Talim Row Definition & Flattening Convention
 
 In Talim notation, **one logical row is defined as a 3-tier block**:
 1. **Upper Tier (optional):** UP-direction color symbols (e.g. `CN`, `A`, `Q`).
@@ -43,33 +44,24 @@ In Talim notation, **one logical row is defined as a 3-tier block**:
 +-------------------------------------------------------------+
 ```
 
-**Rule Conformance:**  
-- `detect_rows` and `separate_rows` output the **entire 3-tier block as ONE row image**.
-- Sub-lines are never split into separate outputs, and adjacent logical rows are never merged.
+### 3-Line Label Flattening Convention
+Label text files flatten the multi-tier notation top-to-bottom:
+$$\text{Upper Tier Line} \xrightarrow{\backslash\text{n}} \text{Center Tier Line} \xrightarrow{\backslash\text{n}} \text{Lower Tier Line} \xrightarrow{\backslash\text{n}\backslash\text{n}} \text{Next Logical Row}$$
 
 ---
 
-## 3. Coordinate Convention & Polarity Standards
+## 3. Token Vocabulary Specification (Day 4)
 
-### Coordinate Convention
-All bounding boxes throughout this codebase strictly follow **`(ymin, xmin, ymax, xmax)`**:
-- `ymin`: Top row pixel index (inclusive)
-- `xmin`: Left column pixel index (inclusive)
-- `ymax`: Bottom row pixel index (exclusive)
-- `xmax`: Right column pixel index (exclusive)
-
-```python
-row_crop = image[ymin:ymax, xmin:xmax]
-```
-
-### Polarity & Normalization Convention
-- **`0.0`** = Dark text ink (Black)
-- **`1.0`** = Light paper background (White)
-- **Data Type:** `float32` in `[0.0, 1.0]`
-
-> [!IMPORTANT]
-> **Contract for Rida's DataLoader (Day 5):** When padding variable-width row tensors to batch maximum width, **pad with `1.0`** (white paper background), never `0.0` (which would represent black ink).  
-> **Contract for Hareem's Cleaning Module:** Any row-level image cleaning / ruling-line removal stage must preserve this polarity convention (`0.0` = ink, `1.0` = background).
+Total Classes: **67** (including CTC blank token at index 0):
+- **CTC Blank:** Index `0` (`<blank>`). 0 is never assigned to any valid character.
+- **30 Trusted Symbols:**
+  - 16 UP Symbols: `['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'P', 'Q']`
+  - 14 DOWN Symbols: `['R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '[', '\\', ']', '^', '_']`
+- **34 Authentic Count Glyphs (1–259):**
+  - Ones (1–9): `'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'`
+  - Tens (10–190): `'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', '|'`
+  - Hundreds (200–250): `"'", '(', ')', '*', '+', ','`
+- **2 Formatting Characters:** `' '` (space), `'\n'` (newline).
 
 ---
 
@@ -77,109 +69,63 @@ row_crop = image[ymin:ymax, xmin:xmax]
 
 ```text
 preprocessing/
-├── __init__.py        # Public API exports (additive and backward-compatible)
+├── __init__.py        # Public API exports
 ├── deskew.py          # Rida: Rotational deskewing and skew estimation
 ├── crop.py            # Margin removal and content bounding-box extraction
 ├── rows.py            # 3-tier logical row detection and extraction
-├── pipeline.py        # Shared: Base crop-and-separate pipeline (deskew integrated)
+├── pipeline.py        # Shared: Base crop-and-separate pipeline
 ├── normalize.py       # Grayscale conversion, 64px resizing, and [0, 1] normalization
 └── model_prep.py      # End-to-end model-ready row preprocessing pipeline
+
+data/
+├── vocabulary.py      # TalimVocabulary, build_vocabulary_from_labels, normalize_label_text
+├── encoder.py         # CTCLabelEncoder (text -> torch.LongTensor, batch encode)
+└── vocab.json         # Canonical 67-class token mapping JSON
 ```
-
-### Public API Functions
-
-#### `to_grayscale(image)`
-- **Input:** 2D grayscale, 3D BGR/RGB, or float array.
-- **Output:** 2D `uint8` array of shape `(H, W)` in `[0, 255]`. Never mutates input.
-
-#### `resize_to_height(image, height=64, min_width=16)`
-- **Input:** 2D grayscale array.
-- **Output:** Resized 2D array of shape `(64, W)` where $W \ge \text{min\_width}$.
-- **Interpolation:** Uses `cv2.INTER_AREA` for downscaling (ensuring thin strokes, dots, and diacritics survive) and `cv2.INTER_LINEAR` for upscaling.
-- **No Padding:** Strictly preserves variable width without horizontal padding.
-
-#### `normalize(image)`
-- **Input:** Image array.
-- **Output:** 2D `float32` array in `[0.0, 1.0]` with zero NaNs/Infs.
-
-#### `preprocess_row(row_image, target_height=64, min_width=16)`
-- **Chained Row Transform:** `to_grayscale` $\rightarrow$ `resize_to_height(64)` $\rightarrow$ `normalize`.
-- **Output:** `(64, W)` float32 array in `[0.0, 1.0]`.
-
-#### `preprocess_image(image, clean_fn=None, target_height=64, min_width=16, apply_deskew=True, ...)`
-- **Full End-to-End Pipeline:** Calls `crop_and_separate_rows` $\rightarrow$ optional `clean_fn` per row $\rightarrow$ `preprocess_row`.
-- **Output:** `ModelPrepResult` holding `List[ModelReadyRow]`.
 
 ---
 
-## 5. Usage Example
+## 5. Usage Example (Day 4 Vocabulary & Encoder)
 
 ```python
-import numpy as np
-from PIL import Image
-from preprocessing import preprocess_image
+from data.vocabulary import TalimVocabulary, build_vocabulary_from_labels
+from data.encoder import CTCLabelEncoder
 
-# Load raw Talim page image
-raw_image = np.array(Image.open("datasets/baseline_normal/images/talim_000001.png"))
+# 1. Initialize Canonical Vocabulary (or build from labels)
+vocab = TalimVocabulary()
+print(f"Total Classes (incl. blank): {len(vocab)}")  # 67
+print(f"CTC Blank Index: {vocab.blank_index}")       # 0
 
-# Run End-to-End Model Preparation Pipeline
-result = preprocess_image(raw_image, target_height=64, apply_deskew=True)
+# 2. Encode & Decode Text
+text = "CN\njjj\n  _\n\n"
+encoded_ids = vocab.encode(text)
+decoded_text = vocab.decode(encoded_ids)
+assert decoded_text == text
 
-print(f"Original Shape:   {result.original_shape}")
-print(f"Cropped Shape:    {result.cropped_image.shape}")
-print(f"Deskew Angle:     {result.deskew_angle:.2f}° (Corrected: {result.deskew_corrected})")
-print(f"Total Rows:       {result.num_rows}")
+# 3. Batch Encode for PyTorch CTCLoss
+encoder = CTCLabelEncoder(vocab)
+batch = ["CN\njjj\n  _", " N\njjj\n] U"]
+batch_encoded = encoder.encode_batch(batch)
 
-for row in result.rows:
-    print(f"  Row {row.row_index}: tensor_shape={row.tensor_image.shape}, dtype={row.tensor_image.dtype}, range=[{row.tensor_image.min():.2f}, {row.tensor_image.max():.2f}]")
+targets = batch_encoded["targets"]               # 1D LongTensor of shape (sum(lengths),)
+target_lengths = batch_encoded["target_lengths"] # 1D LongTensor of shape (B,)
 ```
 
 ---
 
-## 6. Output Contract for Rida's DataLoader (Days 4–5)
+## 6. Verification & Tests
 
-Each `ModelReadyRow` object in `result.rows` provides:
-1. `row.tensor_image`: `np.ndarray` of shape `(64, W)`, dtype `float32`, values $\in [0.0, 1.0]$.
-2. `row.height`: Fixed at `64`.
-3. `row.width`: Variable width $W \ge 16$.
-4. `row.bbox`: Local bounding box in cropped space `(ymin, xmin, ymax, xmax)`.
-5. `row.global_bbox`: Global bounding box in deskewed/input space `(ymin, xmin, ymax, xmax)`.
-
-```python
-# Rida's Day 4-5 DataLoader Consumption:
-# Convert row.tensor_image (shape (64, W)) directly to torch.FloatTensor (1, 64, W)
-import torch
-
-tensor_input = torch.from_numpy(row.tensor_image).unsqueeze(0)  # Shape: (1, 64, W)
-# Pad width with 1.0 (white background) during batch collation
-```
-
----
-
-## 7. Verification & Tests
-
-### Running the Pytest Suite
+### 1. Pytest Suite
 ```bash
-pytest tests/ -v
+# Run Ayesha Day 4 Vocabulary & Encoder tests:
+python -m pytest tests/test_ayesha_vocab_encoder.py -v
+
+# Run all Preprocessing tests (Days 1-3):
+python -m pytest tests/test_preprocessing_crop.py tests/test_preprocessing_rows.py tests/test_preprocessing_pipeline.py tests/test_preprocessing_normalize.py tests/test_preprocessing_model_prep.py -v
 ```
-All 36 unit and integration tests pass across cropping, row segmentation, deskew integration, resizing, grayscale conversion, and normalization.
 
-### Running the Model Preparation Verification Script
-```bash
-python verify_model_prep.py
-```
-*Verifies:*
-1. Dot and thin-stroke retention under 64px area downscaling (100% dot retention).
-2. Dtype (`float32`), shape (`(64, W)`), value range (`[0.0, 1.0]`), zero NaNs/Infs across datasets.
-3. Row width distribution and CTC receptive field requirements.
-4. Saves visual inspection artifacts to `debug_outputs/model_prep/`.
-
----
-
-## 8. Dependencies
-The implementation uses existing environment dependencies (from `requirements.txt`):
-- `numpy`
-- `opencv-python` (`cv2`)
-- `scipy` (`scipy.ndimage`)
-- `torch`
-- `pytest`
+### 2. Dataset Verification
+- Verified on 1,098 train/validation label files (57,705 characters):
+  - **Unknown tokens:** 0 (0.00%)
+  - **Round-trip accuracy:** 100.00%
+  - **All 66 non-blank classes active in dataset.**
