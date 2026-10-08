@@ -1,3 +1,4 @@
+
 """
 preprocessing.pipeline
 ======================
@@ -10,24 +11,23 @@ Rida:
     - rotational deskewing
     - preprocessing integration
 
+Hareem:
+    - image cleaning / noise reduction
+    - ruling-line removal
+
 Ayesha:
     - margin cropping
     - logical row detection
     - row separation
 
-Current pipeline
-----------------
+Current preprocessing flow
+--------------------------
 1. Deskew input document
-2. Remove outer margins
-3. Detect logical Talim rows
-4. Separate logical rows
-
-Later preprocessing stages can add:
-- image cleaning / denoising
-- ruling-line removal
-- grayscale normalization
-- resize to fixed model height
-- tensor conversion
+2. Clean / denoise image
+3. Remove ruling lines
+4. Remove outer margins
+5. Detect logical Talim rows
+6. Separate logical rows
 
 Project: NAQSHKASH FYP
 """
@@ -52,6 +52,14 @@ from .rows import (
     RowData,
 )
 
+from .cleaning import (
+    clean_image,
+)
+
+from .ruling_lines import (
+    remove_ruling_lines,
+)
+
 
 # ============================================================
 # PIPELINE RESULT
@@ -60,21 +68,24 @@ from .rows import (
 @dataclass
 class PreprocessingResult:
     """
-    Structured result returned by the integrated preprocessing pipeline.
+    Structured result returned by the integrated preprocessing
+    pipeline.
 
     Coordinate note
     ---------------
-    If deskewing rotates the image, cropping and row detection operate
-    in DESKEWED IMAGE SPACE.
+    If deskewing rotates the image, cropping and row detection
+    operate in DESKEWED IMAGE SPACE.
 
     Therefore:
+
         crop_bbox
         global_row_bboxes
 
     refer to coordinates in the deskewed image.
 
-    The deskew affine matrix is retained so later stages can map
-    coordinates back to the original input image if required.
+    The deskew affine matrix is retained so that later stages
+    can map coordinates back to the original input image if
+    required.
     """
 
     # --------------------------------------------------------
@@ -84,21 +95,20 @@ class PreprocessingResult:
     original_shape: Tuple[int, ...]
 
     # --------------------------------------------------------
-    # Rida - deskew information
+    # Preprocessed / deskewed image
     # --------------------------------------------------------
 
     deskewed_image: np.ndarray
 
+    # --------------------------------------------------------
+    # Rida - deskew information
+    # --------------------------------------------------------
+
     deskew_angle: float
-
     applied_rotation: float
-
     deskew_confidence: float
-
     deskew_corrected: bool
-
     deskew_reason: str
-
     deskew_matrix: Optional[np.ndarray]
 
     # --------------------------------------------------------
@@ -147,15 +157,21 @@ def crop_and_separate_rows(
         DeskewConfig
     ] = None,
     apply_deskew: bool = True,
+    apply_cleaning: bool = True,
+    apply_ruling_line_removal: bool = True,
 ) -> PreprocessingResult:
     """
-    Run the integrated preprocessing pipeline.
+    Run the integrated NAQSHKASH preprocessing pipeline.
 
     Pipeline
     --------
     Input image
         ↓
     Deskew
+        ↓
+    Image cleaning / denoising
+        ↓
+    Ruling-line removal
         ↓
     Margin cropping
         ↓
@@ -173,13 +189,15 @@ def crop_and_separate_rows(
             colour:    H x W x C
 
     crop_padding:
-        Padding around the document content after margin detection.
+        Padding around the document content after margin
+        detection.
 
     row_padding:
         Padding around each detected logical Talim row.
 
     noise_filter:
-        Enable Ayesha's speckle-noise filtering during crop detection.
+        Enable Ayesha's speckle-noise filtering during
+        crop detection.
 
     deskew_config:
         Optional Rida DeskewConfig.
@@ -187,43 +205,67 @@ def crop_and_separate_rows(
         If None, the normal default configuration is used.
 
     apply_deskew:
-        Whether deskewing should run.
+        Whether rotational deskewing should run.
 
         Default:
             True
 
-        This option is mainly useful for debugging or ablation tests.
+        Mainly useful for debugging and ablation tests.
+
+    apply_cleaning:
+        Whether Hareem's image cleaning / denoising stage
+        should run.
+
+        Default:
+            True
+
+    apply_ruling_line_removal:
+        Whether Hareem's ruling-line removal stage should run.
+
+        Default:
+            True
 
     Returns
     -------
     PreprocessingResult
-        Combined deskew + crop + row-separation result.
+        Combined result containing:
+
+        - preprocessing image
+        - deskew metadata
+        - crop information
+        - detected rows
+        - global row bounding boxes
     """
 
-    # --------------------------------------------------------
+    # ========================================================
+    # STEP 0
     # VALIDATE INPUT
-    # --------------------------------------------------------
+    # ========================================================
 
-    if not isinstance(
-        image,
-        np.ndarray,
-    ):
-
+    if not isinstance(image, np.ndarray):
         raise TypeError(
-            f"Expected numpy.ndarray, "
-            f"got {type(image)}"
+            f"Expected numpy.ndarray, got {type(image)}"
         )
 
     if image.size == 0:
-
         raise ValueError(
             "Cannot preprocess an empty image."
+        )
+
+    if image.ndim not in (2, 3):
+        raise ValueError(
+            f"Unsupported image shape: {image.shape}. "
+            "Expected a grayscale or colour image."
         )
 
     # Preserve original shape before any transformation.
 
     original_shape = image.shape
 
+    # Always work on our own copy so that the caller's
+    # original image is never modified.
+
+    working_image = image.copy()
 
     # ========================================================
     # STEP 1
@@ -233,13 +275,11 @@ def crop_and_separate_rows(
     if apply_deskew:
 
         deskew_result = deskew(
-            image,
+            working_image,
             deskew_config,
         )
 
-        working_image = (
-            deskew_result.image
-        )
+        working_image = deskew_result.image
 
         deskew_angle = (
             deskew_result.skew_angle
@@ -268,11 +308,7 @@ def crop_and_separate_rows(
     else:
 
         # Debug / ablation mode:
-        # pipeline runs without rotational correction.
-
-        working_image = (
-            image.copy()
-        )
+        # pipeline continues without rotational correction.
 
         deskew_angle = 0.0
 
@@ -288,28 +324,49 @@ def crop_and_separate_rows(
 
         deskew_matrix = None
 
-
     # ========================================================
     # STEP 2
-    # AYESHA - MARGIN CROPPING
+    # HAREEM - IMAGE CLEANING / DENOISING
     # ========================================================
 
-    cropped_image, crop_bbox = (
-        crop_margins(
-            working_image,
-            padding=crop_padding,
-            return_bbox=True,
-            noise_filter=noise_filter,
+    if apply_cleaning:
+
+        working_image = clean_image(
+            working_image
         )
-    )
-
-    crop_ymin, crop_xmin, _, _ = (
-        crop_bbox
-    )
-
 
     # ========================================================
     # STEP 3
+    # HAREEM - RULING-LINE REMOVAL
+    # ========================================================
+
+    if apply_ruling_line_removal:
+
+        working_image = remove_ruling_lines(
+            working_image
+        )
+
+    # ========================================================
+    # STEP 4
+    # AYESHA - MARGIN CROPPING
+    # ========================================================
+
+    cropped_image, crop_bbox = crop_margins(
+        working_image,
+        padding=crop_padding,
+        return_bbox=True,
+        noise_filter=noise_filter,
+    )
+
+    (
+        crop_ymin,
+        crop_xmin,
+        _,
+        _,
+    ) = crop_bbox
+
+    # ========================================================
+    # STEP 5
     # AYESHA - LOGICAL ROW DETECTION
     # ========================================================
 
@@ -318,9 +375,8 @@ def crop_and_separate_rows(
         padding=row_padding,
     )
 
-
     # ========================================================
-    # STEP 4
+    # STEP 6
     # AYESHA - ROW SEPARATION
     # ========================================================
 
@@ -330,9 +386,8 @@ def crop_and_separate_rows(
         padding=row_padding,
     )
 
-
     # ========================================================
-    # STEP 5
+    # STEP 7
     # MAP LOCAL ROW BOXES INTO DESKEWED IMAGE SPACE
     # ========================================================
 
@@ -348,25 +403,15 @@ def crop_and_separate_rows(
         ) = row_bbox
 
         global_bbox = (
-
-            crop_ymin
-            + row_ymin,
-
-            crop_xmin
-            + row_xmin,
-
-            crop_ymin
-            + row_ymax,
-
-            crop_xmin
-            + row_xmax,
-
+            crop_ymin + row_ymin,
+            crop_xmin + row_xmin,
+            crop_ymin + row_ymax,
+            crop_xmin + row_xmax,
         )
 
         global_bboxes.append(
             global_bbox
         )
-
 
     # ========================================================
     # RETURN STRUCTURED RESULT
@@ -374,11 +419,13 @@ def crop_and_separate_rows(
 
     return PreprocessingResult(
 
+        # Original input
         original_shape=original_shape,
 
-        # Deskew metadata
+        # Final image after deskew + Hareem preprocessing
         deskewed_image=working_image,
 
+        # Deskew metadata
         deskew_angle=deskew_angle,
 
         applied_rotation=applied_rotation,
@@ -404,5 +451,5 @@ def crop_and_separate_rows(
         ),
 
         global_row_bboxes=global_bboxes,
-
     )
+
