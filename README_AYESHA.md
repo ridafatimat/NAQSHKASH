@@ -129,3 +129,39 @@ python -m pytest tests/test_preprocessing_crop.py tests/test_preprocessing_rows.
   - **Unknown tokens:** 0 (0.00%)
   - **Round-trip accuracy:** 100.00%
   - **All 66 non-blank classes active in dataset.**
+
+---
+
+## 7. Day 5 — CTC label encoding / decoding support
+
+New files: `data/ctc_labels.py`, `data/ctc_decode.py`, `verify_ctc_labels.py`, `tests/test_ctc_labels.py`.
+Works for ANY dataset laid out as `<split>/labels/*.txt` (+ optional `json/`, `images/`).
+
+Label contract: one logical row = 4 lines (`upper`, `count`, `lower`, empty separator). Empty tiers are
+legal, so rows are parsed as 4-line groups — never by splitting on blank lines.
+
+```python
+from data.vocabulary import TalimVocabulary
+from data.ctc_labels import discover_samples, load_row_labels, row_texts, build_ctc_batch
+from data.ctc_decode import ctc_collapse, decode_path, parse_tier_text
+
+vocab = TalimVocabulary()
+for s in discover_samples("datasets/talim_1000/train"):
+    rows = load_row_labels(s.label_path, s.json_path)      # one RowLabel per logical row
+    texts = row_texts(rows, mode="tiers")                  # or mode="runs" (needs JSON)
+
+# one batch (widths = row-image widths BEFORE padding)
+batch = build_ctc_batch(texts, widths, vocab, downsample=4)
+# batch["targets"], ["target_lengths"], ["input_lengths"], ["targets_padded"]
+loss = nn.CTCLoss(blank=vocab.blank_index)(log_probs, batch["targets"],
+                                           batch["input_lengths"], batch["target_lengths"])
+
+text = decode_path(argmax_frames, vocab)     # frame path -> text
+tiers = parse_tier_text(text)                # upper / count / lower + valid + issues
+```
+
+Verify a dataset:
+```bash
+python verify_ctc_labels.py --dataset_dir datasets/talim_1000 --check_images --downsample 4
+NAQSHKASH_DATASET_DIR=datasets/talim_1000 python -m pytest tests/test_ctc_labels.py -v
+```
