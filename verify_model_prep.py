@@ -19,7 +19,7 @@ import glob
 import json
 import argparse
 from pathlib import Path
-from typing import Dict, List, Any, Tuple
+from typing import Dict, List, Any, Tuple, Optional
 
 import cv2
 import numpy as np
@@ -34,6 +34,11 @@ from preprocessing.normalize import (
     preprocess_row,
 )
 from preprocessing.model_prep import preprocess_image, ModelPrepResult
+
+
+def required_ctc_steps(label: str) -> int:
+    """Minimum CTC time steps for a label: its length + one blank per identical neighbour pair."""
+    return len(label) + sum(1 for a, b in zip(label, label[1:]) if a == b)
 
 
 def test_dot_and_stroke_retention() -> Dict[str, Any]:
@@ -106,6 +111,9 @@ def verify_dataset(
     json_dir: str,
     output_dir: Path,
     save_vis_count: int = 2,
+    labels_dir: Optional[str] = None,
+    downsample: int = 4,
+    ctc_summary: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Verify samples in a dataset split for model preparation specifications."""
     json_files = glob.glob(os.path.join(json_dir, "*.json"))
@@ -157,6 +165,26 @@ def verify_dataset(
             if w < 64:
                 narrow_rows.append({"sample": base, "row": row.row_index, "width": w})
 
+        if labels_dir is not None and ctc_summary is not None:
+            lf = os.path.join(labels_dir, base + ".txt")
+            if os.path.exists(lf):
+                # rows are 4-line groups (upper, count, lower, blank); NOT split on blank lines,
+                # because an empty upper/lower tier also creates a blank line inside a row
+                from data.ctc_labels import load_row_labels
+                blocks = [r.text("tiers") for r in load_row_labels(lf)]
+                if len(blocks) != len(result.rows):
+                    ctc_summary["row_count_mismatch"] += 1
+                else:
+                    for blk, row in zip(blocks, result.rows):
+                        need = required_ctc_steps(blk)
+                        have = row.tensor_image.shape[1] // downsample
+                        ctc_summary["checked"] += 1
+                        if have < need:
+                            ctc_summary["too_short"] += 1
+                            ctc_summary["examples"].append(
+                                f"{base} row {row.row_index}: width {row.tensor_image.shape[1]}px -> "
+                                f"{have} steps < required {need}")
+
         if vis_saved < save_vis_count:
             save_model_prep_visualizations(base, raw_arr, result, output_dir)
             vis_saved += 1
@@ -178,6 +206,26 @@ def main():
         type=str,
         default="debug_outputs/model_prep",
         help="Output directory for visual inspection artifacts.",
+    )
+    parser.add_argument(
+        "--labels_dir",
+        type=str,
+        default=None,
+        help="Optional folder with <sample_id>.txt label files. Enables the REAL CTC width check "
+             "(row labels = the 4-line row groups of each label file).",
+    )
+    parser.add_argument(
+        "--cnn_downsample",
+        type=int,
+        default=4,
+        help="Horizontal down-sampling factor of the CRNN CNN (time steps = width // factor).",
+    )
+    parser.add_argument(
+        "--dataset_dir",
+        type=str,
+        default=None,
+        help="Any dataset/split folder with <split>/images, <split>/json (and labels). "
+             "If omitted, the built-in list of datasets/<name> folders is used.",
     )
     args = parser.parse_args()
     out_dir = Path(args.output_dir)
@@ -204,9 +252,25 @@ def main():
         ("talim_1000_preflight (validation)", "datasets/talim_1000_preflight/validation/images", "datasets/talim_1000_preflight/validation/json"),
     ]
 
+    if args.dataset_dir:
+        from data.ctc_labels import discover_samples
+        seen = {}
+        for smp in discover_samples(args.dataset_dir):
+            split_dir = smp.label_path.parent.parent
+            seen[split_dir] = None
+        datasets_to_check = [
+            (f"{d.parent.name}/{d.name}" if d.parent != d else d.name,
+             str(d / "images"), str(d / "json"))
+            for d in sorted(seen)
+        ]
+        if args.labels_dir is None and len(seen) == 1:
+            args.labels_dir = str(next(iter(seen)) / "labels")
+
     all_widths = []
     total_docs_count = 0
     total_rows_count = 0
+    all_datasets_valid = True
+    ctc_summary = {"checked": 0, "too_short": 0, "row_count_mismatch": 0, "examples": []}
 
     print(f"\n{'Dataset Name':<36} | {'Docs':>5} | {'Rows':>6} | {'H==64 & [0,1]':>13} | {'Mean Width':>10}")
     print("-" * 80)
@@ -214,7 +278,10 @@ def main():
     for name, img_d, json_d in datasets_to_check:
         if not os.path.exists(json_d):
             continue
-        res = verify_dataset(name, img_d, json_d, output_dir=out_dir)
+        res = verify_dataset(name, img_d, json_d, output_dir=out_dir,
+                             labels_dir=args.labels_dir, downsample=args.cnn_downsample,
+                             ctc_summary=ctc_summary)
+        all_datasets_valid = all_datasets_valid and res["all_valid"]
         total_docs_count += res["total_docs"]
         total_rows_count += res["total_rows"]
         all_widths.extend(res["widths"])
@@ -223,7 +290,8 @@ def main():
         print(f"{name:<36} | {res['total_docs']:>5} | {res['total_rows']:>6} | {status_str:>13} | {mean_w:>9.1f}px")
 
     print("-" * 80)
-    print(f"{'OVERALL TOTALS':<36} | {total_docs_count:>5} | {total_rows_count:>6} | {'PASSED':>13} |")
+    overall_status = "PASSED" if all_datasets_valid else "FAILED"
+    print(f"{'OVERALL TOTALS':<36} | {total_docs_count:>5} | {total_rows_count:>6} | {overall_status:>13} |")
     print("=" * 80)
 
     if all_widths:
@@ -232,7 +300,16 @@ def main():
         print(f"    - Max Width:  {max(all_widths)} px")
         print(f"    - Mean Width: {np.mean(all_widths):.1f} px")
         print(f"    - Median Width: {np.median(all_widths):.1f} px")
-        print("    - CTC Width Check: All rows satisfy minimum width requirements for CRNN receptive field.")
+        if args.labels_dir is None:
+            print("    - CTC Width Check: NOT RUN (pass --labels_dir to compare row widths with label lengths).")
+        else:
+            print(f"    - CTC Width Check (time steps = width // {args.cnn_downsample}, "
+                  f"required = len(label) + repeated-neighbour count):")
+            print(f"        rows checked: {ctc_summary['checked']}, too short for their label: "
+                  f"{ctc_summary['too_short']}, docs where #rows != #label blocks: "
+                  f"{ctc_summary['row_count_mismatch']}")
+            for ex in ctc_summary["examples"][:10]:
+                print(f"        e.g. {ex}")
 
     print(f"\nVisual debug artifacts saved to: {out_dir.resolve()}\n")
 
