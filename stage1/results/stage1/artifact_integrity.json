@@ -1,0 +1,25 @@
+{
+  "archive_integrity": "CRC passed for every entry",
+  "files": [
+    {
+      "filename": "best.pt",
+      "bytes": 92374435,
+      "sha256": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f"
+    },
+    {
+      "filename": "last.pt",
+      "bytes": 92374435,
+      "sha256": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f"
+    },
+    {
+      "filename": "metrics.csv",
+      "bytes": 34500,
+      "sha256": "859abacf2d6edc73a1dcf01b66335d166d870050b84d0ff563e576595fb041d5"
+    },
+    {
+      "filename": "numerical_failures.jsonl",
+      "bytes": 1182,
+      "sha256": "614925ca08624d78ada15f58dae57dc8917d395b05c39fd98cc2938b702ddca5"
+    }
+  ]
+}
