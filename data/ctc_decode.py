@@ -182,3 +182,12 @@ def parse_run_text(text: str) -> DecodedRuns:
             issues.append(f"unexpected character {ch!r} in run text")
     flush()
     return DecodedRuns(runs=runs, valid=not issues and bool(runs), issues=issues)
+
+
+# Stage-1 recognition uses the same collapse algorithm as the row decoder.
+collapse_ctc_sequence = ctc_collapse
+
+
+def greedy_ctc_decode(indices: Iterable[int], vocabulary: TalimVocabulary) -> str:
+    """Strict greedy tier decoding; retain decode_path's tolerant row API."""
+    return vocabulary.decode(ctc_collapse(indices, vocabulary.blank_index))
