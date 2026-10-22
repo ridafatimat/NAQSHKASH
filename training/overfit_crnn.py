@@ -33,7 +33,7 @@ from data.collate import (
 )
 
 from data.vocabulary import (
-    build_vocabulary_from_labels,
+    build_tier_vocabulary_from_labels,
 )
 
 from data.encoder import (
@@ -491,7 +491,7 @@ def main():
     # ========================================================
 
     vocabulary = (
-        build_vocabulary_from_labels(
+        build_tier_vocabulary_from_labels(
             DATASET_PATH
             / "labels"
         )

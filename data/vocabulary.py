@@ -125,6 +125,19 @@ class TalimVocabulary:
             self.index_to_char[current_idx] = char
             current_idx += 1
 
+    @classmethod
+    def for_tiers(cls, characters: Iterable[str]) -> "TalimVocabulary":
+        """Build the sorted, explicit Stage-1 tier alphabet without canonical fallback.
+
+        The row API keeps its existing defaults and caller-supplied ordering.
+        Tier training instead derives characters from TRAIN or loads the fixed
+        65-character checkpoint alphabet, using <BLANK> at index zero.
+        """
+        chars = sorted(set(characters))
+        if "<BLANK>" in chars:
+            raise ValueError("CTC blank token must not appear in real label characters.")
+        return cls(characters=chars, blank_index=0, blank_token="<BLANK>")
+
     def __len__(self) -> int:
         """Return total vocabulary size including the CTC blank token."""
         return len(self.char_to_index) + 1
@@ -278,3 +291,22 @@ def build_vocabulary_from_labels(
 
     # Fallback to canonical full vocabulary
     return TalimVocabulary(characters=CANONICAL_CHARACTERS)
+
+
+def build_tier_vocabulary_from_labels(labels_dir: Union[str, Path]) -> TalimVocabulary:
+    """Build the TRAIN-only tier alphabet; missing/empty inputs fail explicitly.
+
+    Strip only trailing file newlines, preserving internal spaces and newlines.
+    The existing build_vocabulary_from_labels retains its canonical row fallback.
+    """
+    path = Path(labels_dir)
+    if not path.exists():
+        raise FileNotFoundError(f"Labels directory not found: {path}")
+    files = sorted(path.glob("*.txt"))
+    if not files:
+        raise ValueError(f"No TXT label files found in: {path}")
+    characters = set()
+    for label in files:
+        text = normalize_label_text(label.read_text(encoding="utf-8")).rstrip("\n")
+        characters.update(text)
+    return TalimVocabulary.for_tiers(characters)

@@ -165,3 +165,19 @@ Verify a dataset:
 python verify_ctc_labels.py --dataset_dir datasets/talim_1000 --check_images --downsample 4
 NAQSHKASH_DATASET_DIR=datasets/talim_1000 python -m pytest tests/test_ctc_labels.py -v
 ```
+
+
+## Root integration with Stage-1 tier OCR
+
+The Stage-1 code now lives in the repository root. All APIs documented above
+remain available, including the 67-class default row vocabulary, normalization,
+model-ready preprocessing, CTC label parsing and structured decoding.
+
+Tier OCR uses the same vocabulary class through
+`TalimVocabulary.for_tiers(characters)`, which explicitly creates a sorted
+alphabet with `<BLANK>` at index 0. The saved Stage-1 model uses 65 target
+characters plus blank. `build_tier_vocabulary_from_labels(path)` is strict about
+missing inputs and excludes only trailing file newlines; the existing
+`build_vocabulary_from_labels` continues to provide its canonical row fallback.
+
+See [README.md](README.md) for root-level dataset, training and evaluation commands.

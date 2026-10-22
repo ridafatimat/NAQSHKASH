@@ -11,7 +11,6 @@ venv/
 .idea/
 
 # Datasets / large files
-data/
 datasets/
 *.zip
 
@@ -57,9 +56,6 @@ kaggle.json
 *.key
 .ipynb_checkpoints/
 talim_100000_structure.txt
-stage1/tests/output/
-stage1/tests/robust_output/
-stage1/tests/review_overlays/
-# OCR data modules are source, despite the application Data/ exclusion above.
-!stage1/data/
-!stage1/data/*.py
+# Keep data/*.py and data/vocab.json tracked; generated corpora belong in datasets/.
+.pytest_cache/
+env/
