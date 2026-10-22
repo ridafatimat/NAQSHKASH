@@ -46,7 +46,7 @@ def test_atomic_checkpoint_and_resume(tmp_path, monkeypatch):
     step()
     scheduler.step(0.7)
     scheduler.step(0.8)
-    vocab = TalimVocabulary(['A'])
+    vocab = TalimVocabulary.for_tiers(['A'])
     progress = dict(next_batch=2, global_step=2, loss_sum=1., loss_batches=2)
     path = tmp_path / 'last.pt'
     def save():

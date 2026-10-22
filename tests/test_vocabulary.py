@@ -43,7 +43,7 @@ from data.ctc_decode import (
 
 
 DATASET_PATH = Path(
-    r"C:\FYP Dataset Generation\Day4_sample\train"
+    "datasets/Day4_sample/train"
 )
 
 

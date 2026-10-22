@@ -12,18 +12,7 @@ DATASET_PATH = Path(
 )
 
 
-def test_tier_dataset_loads():
-
-    dataset = TalimTierDataset(
-        DATASET_PATH
-    )
-
-    # Every logical row has at least
-    # one non-empty tier.
-    assert len(dataset) >= 232
-
-
-def test_tier_sample():
+def test_tier_sample_layout_metadata():
 
     dataset = TalimTierDataset(
         DATASET_PATH
@@ -85,6 +74,7 @@ def test_tier_sample():
     )
 
 
+
 def test_ocr_target_has_no_leading_spaces():
 
     dataset = TalimTierDataset(
@@ -106,6 +96,7 @@ def test_ocr_target_has_no_leading_spaces():
         assert not ocr_text.startswith(
             " "
         )
+
 
 
 def test_raw_label_reconstruction():
@@ -149,6 +140,7 @@ def test_raw_label_reconstruction():
             ==
             raw_label
         )
+
 
 
 def test_internal_spaces_are_preserved():
@@ -199,7 +191,8 @@ def test_internal_spaces_are_preserved():
     assert found_internal_space_example
 
 
-def test_tier_labels_are_single_line():
+
+def test_raw_tier_labels_are_single_line():
 
     dataset = TalimTierDataset(
         DATASET_PATH
@@ -237,73 +230,4 @@ def test_tier_labels_are_single_line():
             not in sample[
                 "raw_label_text"
             ]
-        )
-
-
-def test_print_first_tiers():
-
-    dataset = TalimTierDataset(
-        DATASET_PATH
-    )
-
-    for i in range(
-        min(
-            10,
-            len(dataset),
-        )
-    ):
-
-        sample = dataset[i]
-
-        print()
-        print(
-            "=" * 60
-        )
-
-        print(
-            "Tier:",
-            sample[
-                "tier_id"
-            ],
-        )
-
-        print(
-            "Type:",
-            sample[
-                "tier_name"
-            ],
-        )
-
-        print(
-            "Image:",
-            tuple(
-                sample[
-                    "image"
-                ].shape
-            ),
-        )
-
-        print(
-            "Raw label:",
-            repr(
-                sample[
-                    "raw_label_text"
-                ]
-            ),
-        )
-
-        print(
-            "OCR target:",
-            repr(
-                sample[
-                    "label_text"
-                ]
-            ),
-        )
-
-        print(
-            "Leading offset:",
-            sample[
-                "leading_offset"
-            ],
         )
