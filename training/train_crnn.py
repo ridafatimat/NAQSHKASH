@@ -1156,7 +1156,7 @@ def main():
         train_characters = extract_train_characters(TRAIN_PATH / "labels")
     if not train_characters:
         raise ValueError("TRAIN labels contain no OCR characters")
-    vocabulary = TalimVocabulary(train_characters)
+    vocabulary = TalimVocabulary.for_tiers(train_characters)
     if checkpoint and (checkpoint["char_to_idx"] != vocabulary.char_to_index or
                        checkpoint["idx_to_char"] != vocabulary.index_to_char or
                        checkpoint["blank_index"] != vocabulary.blank_index):

@@ -36,7 +36,7 @@ def load_vocabulary(path):
     mapping = data['char_to_idx']
     if len(mapping) != 65 or set(mapping.values()) != set(range(1, 66)):
         raise ValueError('Expected fixed 65-symbol vocabulary with blank=0')
-    vocabulary = TalimVocabulary(mapping)
+    vocabulary = TalimVocabulary.for_tiers(mapping)
     vocabulary.char_to_index = mapping
     vocabulary.index_to_char = {index: char for char, index in mapping.items()}
     vocabulary.index_to_char[0] = vocabulary.blank_token
