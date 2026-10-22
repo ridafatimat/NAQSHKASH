@@ -1,0 +1,196 @@
+"""
+preprocessing.crop
+==================
+Module for document cropping and margin removal in Kashmiri Carpet Talim OCR.
+
+Author: Ayesha Amer (Day 1 Scope)
+Project: NAQSHKASH FYP
+
+Provides robust automatic margin detection and content bounding-box cropping:
+- Supports 2D Grayscale (H, W) and 3D Color (H, W, C - BGR / RGB) arrays.
+- Preserves input immutability (never mutates input arrays).
+- Handles uneven lighting, dark borders, and speckle noise.
+- Preserves thin strokes, diacritics/dots, and edge-touching symbols.
+- Safe fallback on blank/uniform images.
+"""
+
+from typing import Tuple, Union, Optional
+import numpy as np
+from scipy import ndimage
+
+
+def _binarize_ink(
+    image: np.ndarray,
+    threshold: Optional[int] = None,
+    dark_ink: Optional[bool] = None,
+) -> np.ndarray:
+    """
+    Produce a boolean ink mask where True indicates text ink and False indicates background.
+    
+    Parameters
+    ----------
+    image : np.ndarray
+        Input image, 2D grayscale (H, W) or 3D color (H, W, C).
+    threshold : Optional[int]
+        Explicit binarization threshold (0-255). If None, Otsu's thresholding is computed.
+    dark_ink : Optional[bool]
+        Whether ink is darker than background. If None, automatically detected from border pixels.
+        
+    Returns
+    -------
+    np.ndarray
+        2D boolean array of shape (H, W) where True = ink pixel.
+    """
+    if image.ndim == 3:
+        # Standard luminance conversion: 0.299 R + 0.587 G + 0.114 B
+        gray = (
+            0.299 * image[:, :, 0].astype(np.float32)
+            + 0.587 * image[:, :, 1].astype(np.float32)
+            + 0.114 * image[:, :, 2].astype(np.float32)
+        ).astype(np.uint8)
+    elif image.ndim == 2:
+        gray = image.copy()
+    else:
+        raise ValueError(f"Unsupported image shape {image.shape}. Expected 2D or 3D array.")
+
+    # Detect polarity if not specified
+    if dark_ink is None:
+        border_pixels = np.concatenate([
+            gray[0, :], gray[-1, :],
+            gray[:, 0], gray[:, -1]
+        ])
+        bg_intensity = float(np.median(border_pixels))
+        is_dark_ink = bg_intensity > 127.0
+    else:
+        is_dark_ink = dark_ink
+
+    # Otsu thresholding if not provided
+    if threshold is None:
+        hist, _ = np.histogram(gray, bins=256, range=(0, 256))
+        total = float(gray.size)
+        current_max = -1.0
+        computed_thresh = 128
+        sum_total = float(np.dot(np.arange(256), hist))
+        sum_b = 0.0
+        w_b = 0.0
+
+        for i in range(256):
+            w_b += float(hist[i])
+            if w_b == 0:
+                continue
+            w_f = total - w_b
+            if w_f == 0:
+                break
+            sum_b += float(i * hist[i])
+            m_b = sum_b / w_b
+            m_f = (sum_total - sum_b) / w_f
+            var_between = w_b * w_f * ((m_b - m_f) ** 2)
+            if var_between > current_max:
+                current_max = var_between
+                computed_thresh = i
+        thresh = computed_thresh
+    else:
+        thresh = threshold
+
+    if is_dark_ink:
+        # For dark ink, pixels with intensity <= threshold are ink
+        ink_mask = gray <= thresh
+        # If threshold captured almost everything (e.g. uniform image), handle gracefully
+        if np.all(ink_mask) and np.std(gray) < 5.0:
+            ink_mask = np.zeros_like(gray, dtype=bool)
+    else:
+        # For light ink on dark background
+        ink_mask = gray >= thresh
+        if np.all(ink_mask) and np.std(gray) < 5.0:
+            ink_mask = np.zeros_like(gray, dtype=bool)
+
+    return ink_mask
+
+
+def crop_margins(
+    image: np.ndarray,
+    padding: int = 10,
+    return_bbox: bool = False,
+    noise_filter: bool = True,
+) -> Union[np.ndarray, Tuple[np.ndarray, Tuple[int, int, int, int]]]:
+    """
+    Remove empty margins around text in a Talim document image.
+    
+    Parameters
+    ----------
+    image : np.ndarray
+        Input image as numpy array (uint8). Can be 2D grayscale (H, W) or 3D BGR/RGB (H, W, C).
+        The input array is never modified in-place.
+    padding : int, default=10
+        Extra margin pixels added around detected ink boundary. Clamped to image dimensions.
+    return_bbox : bool, default=False
+        If True, returns a tuple `(cropped_image, bbox)` where bbox is `(ymin, xmin, ymax, xmax)`.
+        If False, returns `cropped_image` only.
+    noise_filter : bool, default=True
+        Whether to filter isolated 1-2px speckle noise during margin detection to avoid
+        stray noise pixels inflating the bounding box.
+        
+    Returns
+    -------
+    cropped_image : np.ndarray
+        Cropped sub-array with margins removed (same dtype and channel structure as input).
+    bbox : Tuple[int, int, int, int] (only if return_bbox=True)
+        Bounding box in `(ymin, xmin, ymax, xmax)` coordinates relative to original input.
+        
+    Notes
+    -----
+    Coordinate Convention:
+        `ymin` : Top row index (inclusive)
+        `xmin` : Left column index (inclusive)
+        `ymax` : Bottom row index (exclusive)
+        `xmax` : Right column index (exclusive)
+        Slicing: `image[ymin:ymax, xmin:xmax]`
+    """
+    if not isinstance(image, np.ndarray):
+        raise TypeError(f"Expected numpy.ndarray, got {type(image)}")
+    if image.size == 0:
+        raise ValueError("Cannot crop empty image array.")
+
+    H, W = image.shape[:2]
+    
+    # Generate ink mask
+    ink_mask = _binarize_ink(image)
+
+    # Filter isolated speckle noise if requested
+    if noise_filter and np.any(ink_mask):
+        clean_mask = ndimage.binary_opening(ink_mask, structure=np.ones((2, 2), dtype=bool))
+        if np.any(clean_mask):
+            eval_mask = clean_mask
+        else:
+            eval_mask = ink_mask
+    else:
+        eval_mask = ink_mask
+
+    y_indices, x_indices = np.where(eval_mask)
+
+    # Fallback on blank image: return full image copy
+    if len(y_indices) == 0 or len(x_indices) == 0:
+        bbox = (0, 0, H, W)
+        cropped = image.copy()
+        if return_bbox:
+            return cropped, bbox
+        return cropped
+
+    # Compute bounding box
+    raw_ymin = int(y_indices.min())
+    raw_ymax = int(y_indices.max() + 1)
+    raw_xmin = int(x_indices.min())
+    raw_xmax = int(x_indices.max() + 1)
+
+    # Apply padding and clamp
+    ymin = max(0, raw_ymin - padding)
+    ymax = min(H, raw_ymax + padding)
+    xmin = max(0, raw_xmin - padding)
+    xmax = min(W, raw_xmax + padding)
+
+    bbox = (ymin, xmin, ymax, xmax)
+    cropped = image[ymin:ymax, xmin:xmax].copy()
+
+    if return_bbox:
+        return cropped, bbox
+    return cropped

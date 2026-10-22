@@ -1,0 +1,1 @@
+Original Talamat rule references copied without modification from ridafatimat/FYP-Dataset_Generation at abfa12035374e0ad052fdcca609403d6b2e442d5: config.py and Utils/talamNumConverter.py. These supply authentic symbol and count mappings to the OCR rule loader. See https://github.com/ridafatimat/FYP-Dataset_Generation/tree/main for the original application.

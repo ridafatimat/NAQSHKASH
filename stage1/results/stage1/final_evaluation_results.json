@@ -1,0 +1,347 @@
+{
+  "checkpoint": "/kaggle/working/naqshkash_stage1/stage1_retrain_16k/best.pt",
+  "checkpoint_global_step": 16000,
+  "checkpoint_epoch": 4,
+  "checkpoint_best_fast_validation_cer": 0.0011806375442739079,
+  "num_classes": 66,
+  "full_validation_count": 66984,
+  "full_test_count": 66914,
+  "full_validation_time_seconds": 331.5374402999878,
+  "full_test_time_seconds": 339.2367067337036,
+  "full_validation": {
+    "loss": 0.006788485175356435,
+    "samples": 66984,
+    "exact_matches": 66586,
+    "exact_accuracy": 0.9940582825749432,
+    "edit_distance": 505,
+    "characters": 398549,
+    "cer": 0.0012670963921625697,
+    "per_tier": {
+      "upper": {
+        "samples": 22142,
+        "exact_accuracy": 0.985773642850691,
+        "cer": 0.0030114702815432744
+      },
+      "count": {
+        "samples": 23329,
+        "exact_accuracy": 0.9999571348964807,
+        "cer": 5.887790488863244e-06
+      },
+      "lower": {
+        "samples": 21513,
+        "exact_accuracy": 0.9961883512294891,
+        "cer": 0.0013139638522112265
+      }
+    },
+    "error_examples": [
+      {
+        "sample_id": "validation_000005_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000030_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000044_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000081_row_02_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000096_row_03_lower",
+        "tier_name": "lower",
+        "truth": "\\             UX",
+        "prediction": "\\        UX",
+        "edit_distance": 5
+      },
+      {
+        "sample_id": "validation_000105_row_02_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000161_row_01_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000199_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000204_row_03_lower",
+        "tier_name": "lower",
+        "truth": "Y       X",
+        "prediction": "Y      X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000287_row_01_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000297_row_02_upper",
+        "tier_name": "upper",
+        "truth": "B  B",
+        "prediction": "X  X",
+        "edit_distance": 2
+      },
+      {
+        "sample_id": "validation_000297_row_03_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000303_row_01_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000332_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B         L A",
+        "prediction": "B        L A",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000345_row_03_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000348_row_01_lower",
+        "tier_name": "lower",
+        "truth": "^         [",
+        "prediction": "^        [",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000440_row_01_upper",
+        "tier_name": "upper",
+        "truth": "M Q            B H PL",
+        "prediction": "M Q        B H PL",
+        "edit_distance": 4
+      },
+      {
+        "sample_id": "validation_000475_row_00_lower",
+        "tier_name": "lower",
+        "truth": "_          []",
+        "prediction": "_        []",
+        "edit_distance": 2
+      },
+      {
+        "sample_id": "validation_000480_row_02_upper",
+        "tier_name": "upper",
+        "truth": "K D         H",
+        "prediction": "K D        H",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "validation_000522_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B  B",
+        "prediction": "X  X",
+        "edit_distance": 2
+      }
+    ]
+  },
+  "full_test": {
+    "loss": 0.00666050476225082,
+    "samples": 66914,
+    "exact_matches": 66562,
+    "exact_accuracy": 0.9947395163941776,
+    "edit_distance": 418,
+    "characters": 395303,
+    "cer": 0.0010574167157851066,
+    "per_tier": {
+      "upper": {
+        "samples": 22085,
+        "exact_accuracy": 0.9873217115689382,
+        "cer": 0.0026072548970134317
+      },
+      "count": {
+        "samples": 23326,
+        "exact_accuracy": 1.0,
+        "cer": 0.0
+      },
+      "lower": {
+        "samples": 21503,
+        "exact_accuracy": 0.9966516300051156,
+        "cer": 0.0010038574150671561
+      }
+    },
+    "error_examples": [
+      {
+        "sample_id": "test_000008_row_01_upper",
+        "tier_name": "upper",
+        "truth": "B  N         N",
+        "prediction": "B  N        N",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000010_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000041_row_01_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000077_row_01_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000120_row_02_lower",
+        "tier_name": "lower",
+        "truth": "U          Y R",
+        "prediction": "U        Y R",
+        "edit_distance": 2
+      },
+      {
+        "sample_id": "test_000121_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000136_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000171_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000200_row_01_lower",
+        "tier_name": "lower",
+        "truth": "[         R",
+        "prediction": "[        R",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000222_row_03_lower",
+        "tier_name": "lower",
+        "truth": "W         ZU",
+        "prediction": "W        ZU",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000237_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000249_row_02_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000273_row_02_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000305_row_01_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000315_row_03_lower",
+        "tier_name": "lower",
+        "truth": "[  _          R  ]",
+        "prediction": "[  _        R  ]",
+        "edit_distance": 2
+      },
+      {
+        "sample_id": "test_000318_row_01_lower",
+        "tier_name": "lower",
+        "truth": "X         X",
+        "prediction": "X       X",
+        "edit_distance": 2
+      },
+      {
+        "sample_id": "test_000359_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000377_row_00_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000398_row_01_upper",
+        "tier_name": "upper",
+        "truth": "B",
+        "prediction": "X",
+        "edit_distance": 1
+      },
+      {
+        "sample_id": "test_000420_row_02_lower",
+        "tier_name": "lower",
+        "truth": "S Z         ]",
+        "prediction": "S Z        ]",
+        "edit_distance": 1
+      }
+    ]
+  }
+}

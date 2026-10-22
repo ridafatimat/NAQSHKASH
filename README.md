@@ -57,3 +57,7 @@ python run_ayesha_preprocessing.py
 ## Repository Policy
 
 Large datasets, generated outputs, reports, checkpoints and ZIP files are excluded from Git and should be stored separately.
+
+## Stage-1 CRNN-CTC results and training
+
+The completed synthetic Talim OCR pipeline, training commands, tests and held-out evaluation results are in [stage1/README.md](stage1/README.md). Existing root-level preprocessing and CTC utilities remain available.
