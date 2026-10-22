@@ -36,3 +36,30 @@ checkpoints/
 *.pt
 *.pth
 *.ckpt
+
+# Stage-1 generated data, private configuration and model artifacts
+**/datasets/
+**/checkpoints/
+**/outputs/
+**/training_outputs/
+**/runs/
+*.pt
+*.pth
+*.ckpt
+*.pt.tmp
+*.zip
+*.tmp
+.env
+.env.*
+kaggle.json
+*credentials*.json
+*.pem
+*.key
+.ipynb_checkpoints/
+talim_100000_structure.txt
+stage1/tests/output/
+stage1/tests/robust_output/
+stage1/tests/review_overlays/
+# OCR data modules are source, despite the application Data/ exclusion above.
+!stage1/data/
+!stage1/data/*.py
