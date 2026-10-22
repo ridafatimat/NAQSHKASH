@@ -24,7 +24,7 @@ def main():
     args = parser.parse_args()
     checkpoint = torch.load(args.checkpoint, map_location='cpu', weights_only=True)
     mapping = checkpoint['char_to_idx']
-    vocabulary = TalimVocabulary(mapping)
+    vocabulary = TalimVocabulary.for_tiers(mapping)
     vocabulary.char_to_index = mapping
     vocabulary.index_to_char = {i: c for c, i in mapping.items()}
     vocabulary.index_to_char[0] = vocabulary.blank_token
