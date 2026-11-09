@@ -1,61 +1,13 @@
-# Python
+*.zip
+*.pt
+*.npz
+*.bak
+*.lock
 __pycache__/
-*.py[cod]
-*.pyo
-.venv/
-venv/
-.env
-
-# IDE
-.vscode/
-.idea/
-
-# Datasets / large files
-datasets/
-*.zip
-
-# Deskew validation data
-tests/input/
-tests/clean/
-tests/scanned/
-tests/phone_style/
-tests/ground_truth_sources/
-tests/real/
-
-# Generated test outputs
-tests/output/
-tests/robust_output/
-tests/review_overlays/
-tests/*.csv
-tests/*.zip
-
-# Model / training artifacts
-outputs/
-checkpoints/
-*.pt
-*.pth
-*.ckpt
-
-# Stage-1 generated data, private configuration and model artifacts
-**/datasets/
-**/checkpoints/
-**/outputs/
-**/training_outputs/
-**/runs/
-*.pt
-*.pth
-*.ckpt
-*.pt.tmp
-*.zip
-*.tmp
-.env
-.env.*
-kaggle.json
-*credentials*.json
-*.pem
-*.key
-.ipynb_checkpoints/
-talim_100000_structure.txt
-# Keep data/*.py and data/vocab.json tracked; generated corpora belong in datasets/.
-.pytest_cache/
-env/
+**/per_image.jsonl
+**/observations.jsonl
+**/records/
+**/assets/
+**/metrics/*/results.json
+stage2f_negative_dataset_v2/dataset/
+stage2f_negative_dataset_v2/manifests/history_full_*.json

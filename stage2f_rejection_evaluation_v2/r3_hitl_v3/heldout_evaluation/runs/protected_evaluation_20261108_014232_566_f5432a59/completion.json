@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "kind": "evaluation",
+  "split": "protected_test",
+  "policy_id": "R3_HITL_V3",
+  "records": 600,
+  "parents": 150,
+  "release_sha256": "c64da891572188113f2ad9962892f4b022d978b18696841b1b1a3b8c42e292d3",
+  "outputs": {
+    "run_manifest.json": "691a175854a1f385df1e54ede47a6b985b565204c1a94b735272372e36ab257a",
+    "metrics.json": "97bff18745788baaecf50c15b3b649d9b26cfae4a9bcc1583ab6f4b3b6104a5b",
+    "per_image.jsonl": "f4cbf7899c9f573efded5fe3c9a717dd1c836db603a00279afcd83d40b238279",
+    "outcomes.csv": "d90a26c1a6470ec25e3171b7fb8064a2d88b99831c5e07648c821e3ab36116ca",
+    "report.md": "f55dca9ba0b538d5b3a4f1df266fb880c193b6c8dc01ea86dfa747061e9be399"
+  }
+}

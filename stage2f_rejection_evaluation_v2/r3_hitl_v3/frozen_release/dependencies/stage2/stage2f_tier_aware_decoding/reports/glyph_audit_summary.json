@@ -1,0 +1,53 @@
+{
+  "vocabulary_characters": 65,
+  "pairs_compared": 2080,
+  "sizes": [
+    24,
+    32,
+    48,
+    64,
+    96
+  ],
+  "font_path": "C:\\FYP Dataset Generation\\Assets\\Talamat.ttf",
+  "font_sha256": "db845e7da53991c2531dbe49b71e19cab4d5b6da314140e16a7e992f6c67381c",
+  "font_copied": false,
+  "exact_pairs_by_size": {
+    "24": [
+      [
+        "B",
+        "X"
+      ],
+      [
+        "C",
+        "Y"
+      ]
+    ],
+    "32": [],
+    "48": [
+      [
+        "B",
+        "X"
+      ]
+    ],
+    "64": [
+      [
+        "B",
+        "X"
+      ],
+      [
+        "C",
+        "Y"
+      ]
+    ],
+    "96": [
+      [
+        "B",
+        "X"
+      ]
+    ]
+  },
+  "project_render_size": 48,
+  "mapping_sha256": "7363c6ea7ea2e6ae846bc4014a5e5f9891f90af24450a4109057e0846b5f9321",
+  "correction_scope": "audited source font, L rendering, integer lt anchor, original source size48; scanning may transform an identical source mask",
+  "selection_data": "font and canonical role definitions only; no 434-image evaluation outcomes used"
+}

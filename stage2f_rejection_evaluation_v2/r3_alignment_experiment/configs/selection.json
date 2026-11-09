@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "split": "development_design",
+  "device": "cpu",
+  "seed": 42,
+  "maximum_images": 48,
+  "maximum_tier_forwards": 144,
+  "parents": [
+    {
+      "parent_id": "v2p_68beea701e9b9af01fbb2032",
+      "category": "wrong_tier",
+      "affected_row": 1,
+      "columns": 10,
+      "rationale": "wrong-tier D recognition error",
+      "images": [
+        {
+          "image_id": "v2p_68beea701e9b9af01fbb2032_valid",
+          "image_sha256": "caafb8f715cd0e64312f4c52b2a200b83259e60130b7e4e41999a4044dc50485"
+        },
+        {
+          "image_id": "v2p_68beea701e9b9af01fbb2032_valid_illumination",
+          "image_sha256": "1bca26b5b4953171f67d5308781bd8efb979c4ed5de798bae7149591bc80f104"
+        },
+        {
+          "image_id": "v2p_68beea701e9b9af01fbb2032_wrong_tier",
+          "image_sha256": "81b3043b34ac4577e5ae16cf8b964ebb6ea6a35412ae6196a9e3e22ba4bfedde"
+        },
+        {
+          "image_id": "v2p_68beea701e9b9af01fbb2032_wrong_tier_illumination",
+          "image_sha256": "f607682d3632895d7c93293e986d717e100ea352133aaff9e60fa7b1c3aeae2e"
+        }
+      ],
+      "focus_column": 5
+    },
+    {
+      "parent_id": "v2p_4b12b029685c7d963d5eb30b",
+      "category": "wrong_tier",
+      "affected_row": 0,
+      "columns": 11,
+      "rationale": "wrong-tier U recognition error",
+      "images": [
+        {
+          "image_id": "v2p_4b12b029685c7d963d5eb30b_valid",
+          "image_sha256": "93f5972393bbb18487c220a23901555d759622caf78bc42e3a108aa47bb5b3ed"
+        },
+        {
+          "image_id": "v2p_4b12b029685c7d963d5eb30b_valid_illumination",
+          "image_sha256": "c57fdc8c7b2916115b8d9934646229e034d9eacdc5166e08be633d46b95a9c7e"
+        },
+        {
+          "image_id": "v2p_4b12b029685c7d963d5eb30b_wrong_tier",
+          "image_sha256": "a15c7a4710345ec7c7be9cfb78ec025efdb52dcb8b2310abddc7cdfbf28665b3"
+        },
+        {
+          "image_id": "v2p_4b12b029685c7d963d5eb30b_wrong_tier_illumination",
+          "image_sha256": "38c1413224b9d4107adf915211a9fdc9772ba5b6ad81dc95826fc5ffd55632fb"
+        }
+      ],
+      "focus_column": 6
+    },
+    {
+      "parent_id": "v2p_c833bf3129532f19d065608d",
+      "category": "wrong_tier",
+      "affected_row": 2,
+      "columns": 14,
+      "rationale": "wrong-tier F recognition error",
+      "images": [
+        {
+          "image_id": "v2p_c833bf3129532f19d065608d_valid",
+          "image_sha256": "c30ed0e21670b6ff49e9e1267da49cb77103790550f1b8226e7037c574d72435"
+        },
+        {
+          "image_id": "v2p_c833bf3129532f19d065608d_valid_illumination",
+          "image_sha256": "5ae16543e0c21c43dc9dfb3d931ca7a1893e4992c7ab81b71bde9020c6d2e911"
+        },
+        {
+          "image_id": "v2p_c833bf3129532f19d065608d_wrong_tier",
+          "image_sha256": "c2a21c14d50c3c99a2d3a6b259d3a1bcccc32c16dcdf2d73f1f23eb07526ec19"
+        },
+        {
+          "image_id": "v2p_c833bf3129532f19d065608d_wrong_tier_illumination",
+          "image_sha256": "094aa6f3cf9d1f51b06f97364846af366e71637b8b62b70e388f184dbc99d78a"
+        }
+      ],
+      "focus_column": 3
+    },
+    {
+      "parent_id": "v2p_f107c8ac52c9c98c3569532b",
+      "category": "wrong_tier",
+      "affected_row": 0,
+      "columns": 15,
+      "rationale": "wrong-tier T recognition error",
+      "images": [
+        {
+          "image_id": "v2p_f107c8ac52c9c98c3569532b_valid",
+          "image_sha256": "dd8773b791e87552881980bb83a68e0137513c90ce7c70f069a14ee19de6bdb7"
+        },
+        {
+          "image_id": "v2p_f107c8ac52c9c98c3569532b_valid_illumination",
+          "image_sha256": "4778565584e538cafb57f6f56b3c26161dc3efc8747a20def719627e1aabcc82"
+        },
+        {
+          "image_id": "v2p_f107c8ac52c9c98c3569532b_wrong_tier",
+          "image_sha256": "1c32b08bf08dc4d58e925cfd0061782a176a5c822455cf90cd5d999286dac5e6"
+        },
+        {
+          "image_id": "v2p_f107c8ac52c9c98c3569532b_wrong_tier_illumination",
+          "image_sha256": "3ca3b7b207905e52080b0f72390957a0416fe875fe7198c320939f1b015b5731"
+        }
+      ],
+      "focus_column": 2
+    },
+    {
+      "parent_id": "v2p_28e3d898ee0000cfac2dcc39",
+      "category": "invalid_count_token",
+      "affected_row": 0,
+      "columns": 6,
+      "rationale": "preserved reversed count; size representative 6 (actual 6 columns)",
+      "images": [
+        {
+          "image_id": "v2p_28e3d898ee0000cfac2dcc39_invalid_count_token",
+          "image_sha256": "3506a78858f92c770a0df4d3f480224411adf9bbbf74bb84e13bdba128788464"
+        },
+        {
+          "image_id": "v2p_28e3d898ee0000cfac2dcc39_invalid_count_token_illumination",
+          "image_sha256": "e945cc845b65cd3a2fbd83adf2949a73898db2826d08bbed17085240ba28218c"
+        },
+        {
+          "image_id": "v2p_28e3d898ee0000cfac2dcc39_valid",
+          "image_sha256": "dd9f0fad7d559514cbc405d341ea3c2a3a2f4fc2e1d5819fa9ee963bbd46e759"
+        },
+        {
+          "image_id": "v2p_28e3d898ee0000cfac2dcc39_valid_illumination",
+          "image_sha256": "8a13387dae7a395240e775b74169631ad64f7bdde6714107a0bbfc8a4fd0857e"
+        }
+      ],
+      "focus_column": 0
+    },
+    {
+      "parent_id": "v2p_03ba113ef27076c6467f1604",
+      "category": "invalid_count_token",
+      "affected_row": 0,
+      "columns": 12,
+      "rationale": "preserved reversed count; size representative 12 (actual 12 columns)",
+      "images": [
+        {
+          "image_id": "v2p_03ba113ef27076c6467f1604_invalid_count_token",
+          "image_sha256": "1ea1f1e5db9b9596a12acc60378bd40735a7c6c1c78835e5ab0cbb710381bcac"
+        },
+        {
+          "image_id": "v2p_03ba113ef27076c6467f1604_invalid_count_token_illumination",
+          "image_sha256": "d9dbf5755aa8b177eb93c22d916066eb5907aa08a7c6a21e82ab18d8eea0aaf7"
+        },
+        {
+          "image_id": "v2p_03ba113ef27076c6467f1604_valid",
+          "image_sha256": "78f0074df154c4135ab61a08b3be63e9a42201f4ec8621c56e7254597d44e1db"
+        },
+        {
+          "image_id": "v2p_03ba113ef27076c6467f1604_valid_illumination",
+          "image_sha256": "4cc275079ed55c861f8c6094fe2ceba20f3bd6316b973801f8edea1268094b70"
+        }
+      ],
+      "focus_column": 0
+    },
+    {
+      "parent_id": "v2p_016d3be2ed6355ab8346beaf",
+      "category": "invalid_count_token",
+      "affected_row": 0,
+      "columns": 20,
+      "rationale": "preserved reversed count; size representative 20 (actual 20 columns)",
+      "images": [
+        {
+          "image_id": "v2p_016d3be2ed6355ab8346beaf_invalid_count_token",
+          "image_sha256": "aac9683e70f53b750934c938f1d908bb13b344db0e1c2248b6e5256f9b5354a8"
+        },
+        {
+          "image_id": "v2p_016d3be2ed6355ab8346beaf_invalid_count_token_illumination",
+          "image_sha256": "8fda02713cc158d73984e023d07fc9a41c094cdc64a2cc515d3f648592203033"
+        },
+        {
+          "image_id": "v2p_016d3be2ed6355ab8346beaf_valid",
+          "image_sha256": "d7948937ae70908be4569e21e452524f03f5a6580dc2d0c1e1f9b5995e6adde4"
+        },
+        {
+          "image_id": "v2p_016d3be2ed6355ab8346beaf_valid_illumination",
+          "image_sha256": "1907aadc99f9ef611a72f4bc4422a0258c03023d2756359d1bb2f1ec1ea47cd6"
+        }
+      ],
+      "focus_column": 11
+    },
+    {
+      "parent_id": "v2p_1025cd5d174e318f67b0d573",
+      "category": "invalid_count_token",
+      "affected_row": 0,
+      "columns": 23,
+      "rationale": "preserved reversed count; size representative 32 (actual 23 columns)",
+      "images": [
+        {
+          "image_id": "v2p_1025cd5d174e318f67b0d573_invalid_count_token",
+          "image_sha256": "be44b8cfd39a4a0f801b492c3dfa2a53d6d7600ea08b0da866ac4a64cd919a3f"
+        },
+        {
+          "image_id": "v2p_1025cd5d174e318f67b0d573_invalid_count_token_illumination",
+          "image_sha256": "a3a31ce94faa0936e00dcfe24697fafef745ea30ff9bc6f4ceef64434ca08add"
+        },
+        {
+          "image_id": "v2p_1025cd5d174e318f67b0d573_valid",
+          "image_sha256": "ca2d05e3fa90107a75a31c461f9bdd594b6d3a169d2a3382957f8b9f8a991495"
+        },
+        {
+          "image_id": "v2p_1025cd5d174e318f67b0d573_valid_illumination",
+          "image_sha256": "0178aca3abeab54ed1f79125353d7308668c493a6ff7f1858843fbd9553dbf61"
+        }
+      ],
+      "focus_column": 2
+    },
+    {
+      "parent_id": "v2p_8a19aa6c3ec8ffc04b1bd6c2",
+      "category": "missing_count",
+      "affected_row": 0,
+      "columns": 7,
+      "rationale": "lost internal single-cell count gap",
+      "images": [
+        {
+          "image_id": "v2p_8a19aa6c3ec8ffc04b1bd6c2_missing_count",
+          "image_sha256": "e33ba7922d70bef7d6005aa00d48474ae8d8f95d0da0dea55948e92b8a50d370"
+        },
+        {
+          "image_id": "v2p_8a19aa6c3ec8ffc04b1bd6c2_missing_count_illumination",
+          "image_sha256": "04f8c993e2844353428e0760bf014454d5d3ed93be66afe4ccf1b609e573d8b1"
+        },
+        {
+          "image_id": "v2p_8a19aa6c3ec8ffc04b1bd6c2_valid",
+          "image_sha256": "123c1bff4087470d535d10893bfb9fafbf2d0fbf80aa868808bf5c9ce084045b"
+        },
+        {
+          "image_id": "v2p_8a19aa6c3ec8ffc04b1bd6c2_valid_illumination",
+          "image_sha256": "9584b9f07a59f7e044d57d2310475883399150c3fd4a3bb5f0454fb5dd325013"
+        }
+      ],
+      "focus_column": 4
+    },
+    {
+      "parent_id": "v2p_9452e95e2c128e957edead94",
+      "category": "missing_count",
+      "affected_row": 0,
+      "columns": 6,
+      "rationale": "leading missing count",
+      "images": [
+        {
+          "image_id": "v2p_9452e95e2c128e957edead94_missing_count",
+          "image_sha256": "930c7fb3ddb28a67f16b6eefeca6ea488915a5236c9fc4b5c0d54f755514ba33"
+        },
+        {
+          "image_id": "v2p_9452e95e2c128e957edead94_missing_count_illumination",
+          "image_sha256": "b6b981cf716a11e370874d20f40a55e68d8b3dc34a30efc9498652637978f07d"
+        },
+        {
+          "image_id": "v2p_9452e95e2c128e957edead94_valid",
+          "image_sha256": "1cfbd2ad6941dc147991193e9f9299b1fdf072b3ffa32bbea24cefc1e457a79a"
+        },
+        {
+          "image_id": "v2p_9452e95e2c128e957edead94_valid_illumination",
+          "image_sha256": "f2424bc10983766b58f49ba407dd8e8e01963f513d351c917f20cf9f398a7cde"
+        }
+      ],
+      "focus_column": 0
+    },
+    {
+      "parent_id": "v2p_adaa99947b071410ea7d8cbd",
+      "category": "missing_count",
+      "affected_row": 0,
+      "columns": 6,
+      "rationale": "trailing missing count",
+      "images": [
+        {
+          "image_id": "v2p_adaa99947b071410ea7d8cbd_missing_count",
+          "image_sha256": "e913c87644c2a197d7c06a3650b1e3f30d737f1b7fa2784f6b0747c58f5ca881"
+        },
+        {
+          "image_id": "v2p_adaa99947b071410ea7d8cbd_missing_count_illumination",
+          "image_sha256": "816a3ac8226ee0b26178a3d010878bf36f94ac9cd3b511c9a41c84a899a8412d"
+        },
+        {
+          "image_id": "v2p_adaa99947b071410ea7d8cbd_valid",
+          "image_sha256": "d612e1111e7e0aa2298dc62032ecee712c5c753dfe0d87af63558a6beb512a26"
+        },
+        {
+          "image_id": "v2p_adaa99947b071410ea7d8cbd_valid_illumination",
+          "image_sha256": "4f463ad90841b529fd1a6825c3c95ada822f9b7e336ded35b7d49f30a9b08263"
+        }
+      ],
+      "focus_column": 4
+    },
+    {
+      "parent_id": "v2p_57534d8a89c1344a48246b5a",
+      "category": "missing_count",
+      "affected_row": 2,
+      "columns": 13,
+      "rationale": "lost internal two-cell count gap; medium example",
+      "images": [
+        {
+          "image_id": "v2p_57534d8a89c1344a48246b5a_missing_count",
+          "image_sha256": "be3ea2a6501a472c7c75e8e0b4bb83ae1891407906bc53000713103c2aadd7a5"
+        },
+        {
+          "image_id": "v2p_57534d8a89c1344a48246b5a_missing_count_illumination",
+          "image_sha256": "a84ea80b186af383c00b1b440db9e3b082b0f7c7629c6ac5f52f3a66cc57aaa9"
+        },
+        {
+          "image_id": "v2p_57534d8a89c1344a48246b5a_valid",
+          "image_sha256": "4cb1df6250ffb56e89523554cabcb7ebf4dca9c0df7e107e54981e444209b884"
+        },
+        {
+          "image_id": "v2p_57534d8a89c1344a48246b5a_valid_illumination",
+          "image_sha256": "b7c983531bdf754151bd7f65a657beba3f9130e181195232b577233c25258cf4"
+        }
+      ],
+      "focus_column": 6
+    }
+  ],
+  "baseline_raw_dir": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_raw",
+  "baseline_raw_sha256": "668bba76f8c385a07a9f77320cd41696142f4676842f07a45e632d57954eadec",
+  "dataset_manifest_sha256": "5b2ce4a3c6acb080ac14cbafb84d974684a2e3a475973d0470b83b8462cd29df",
+  "checkpoint_sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+  "selection_scope": "purposeful development pilot, 6..23 source-grid columns (within frozen 5..64 medium group); no long pages, no independent accuracy claim",
+  "association_method": "diagnostic monotone nonempty partition minimizing first-count/symbol center distance; no grammar decisions",
+  "font_path": "C:\\FYP Dataset Generation\\Assets\\Talamat.ttf",
+  "read_only_inputs": {
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\reports\\r3_ctc_alignment_audit.md": "37a6c150a9fb9974dc4652f5fac254feddf00dde3cb6616c6871ece1254904e5",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\reports\\r3_invalid_fidelity_audit.md": "300b33bf20e2a2a6bd14610160da5b769145dc0ff732a003e534543ebca721f8",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\reports\\r3_recommendation.md": "69a423e3a4a3e62525578c9c1303288a69a1bc7c30f11b5a52770e7050efff65",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\reports\\r3_wrong_tier_observability.md": "923cd6d02fbe737282b98639fcb0e2bf68f687725692063709777c8e169f42a4",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\src\\r3_fidelity_diagnostic.py": "ca65dc134bd5c150801e8e10c2e3b98aa0125094ac678195d116382f1023a003",
+    "C:\\NAQSHKASH\\models\\crnn.py": "04ab9cba3bbb734381cf5e9bbb67b0ed8ea7218392f51f483869fdc22d537daf",
+    "C:\\NAQSHKASH\\data\\collate.py": "74f39a431bca79c825e9690220eb861a6c7b4d3b59b3db5af08f7899bf5c246c",
+    "C:\\NAQSHKASH\\data\\ctc_decode.py": "44835d19fc48f7596a6c8615a21ab0cb0dd643b8db0476aa6adaa578244e3f34",
+    "C:\\NAQSHKASH\\stage2\\stage2f_negative_rejection\\src\\evaluate_baseline.py": "b1ff697a09be9cd0487f8808fa62a541d8901644a238eeddb3d7dc46f3ce56c7",
+    "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\pipeline_d1.py": "b6509e3fc26e8a5c8205ef2fafb7b197a11163dad9b20f6fc0e795f04d9afc9c",
+    "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\engine.py": "c29e6f09c7a15c72041a6c68d9827c2b04885e37eab1e60c1d14a1fb3214996d",
+    "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\preprocessing\\geometry.py": "40bd1cc19f66a8452643265c0689c09f34c12bdf3bdad57fa4fa68ef423e7de8",
+    "C:\\FYP Dataset Generation\\Assets\\Talamat.ttf": "db845e7da53991c2531dbe49b71e19cab4d5b6da314140e16a7e992f6c67381c",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_R0\\results.json": "af2310db1d6bbd4ebfa9c2e5ae9fb2dfb28d017e5253ecc0262c872e243052d0",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_R0\\summary.json": "2712e6e391696ebc440204ee4e7b816f699d890bf48807c86894b01b68088fb7",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_R0\\completion.json": "4d1e0478baabb9ba4d422b541ceaa103a5d21152f66b0b002859afdaa441800f",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_R1\\results.json": "281fb036f110963b22da016fc8678ab873eaec114d8cd043d284cc4ed83c555d",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_R1\\summary.json": "c1988f4a426ad50a8c81e88859781d39d6b1d2235c80e604ab5c397906f6b756",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_R1\\completion.json": "7e576f7bdfe2608157078ff8a10aa30eb244e7c0a1969aa67bf923c1456dd20e",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_raw\\completion.json": "c5b6c5993e1669970b747480c53f99220b8c976c63021f6780d4ad3fe68bd91d",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_raw\\plan.json": "91993427af9b49fdd181cfd6683c9e65087ea412af47a8a1ae2bbce782908e21",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261107_010212_401_R2\\results.json": "3d9c5cb814628a15abff858cabb03ce26919ed3b347af020d3bc56e5ca3ee2af",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261107_010212_401_R2\\summary.json": "04bb6e2735637feef67e5fd3655bc2f7627b6b8878178383e1cf6538ef31d7b9",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261107_010212_401_R2\\completion.json": "057b5b12d0659094f776a463c48eab70d6bae37cda9fd7760f96e956afd2cb5e",
+    "C:\\NAQSHKASH\\config\\vocabulary.json": "d988d951967399b64e45594153c345b09d5edb421940577ab038456b99defbb0"
+  }
+}

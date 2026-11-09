@@ -1,0 +1,7 @@
+{
+  "split": "validation_calibration",
+  "raw_directory": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\heldout_evaluation\\runs\\validation_raw_20261108_011211_584_9084ec2a",
+  "release_sha256": "c64da891572188113f2ad9962892f4b022d978b18696841b1b1a3b8c42e292d3",
+  "selection_sha256": "985fe7c07a535981fcde1630afd95aed61742bc2457c8ff344e52dac6c8749a7",
+  "plan_sha256": "eeba9eba9c408d31e40942f96e61aae68a498278a080e320aa71806dbb5bd13c"
+}
