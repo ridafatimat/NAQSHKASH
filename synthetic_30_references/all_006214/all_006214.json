@@ -1,0 +1,119 @@
+{
+  "sample_id": "all_006214",
+  "rows": 1,
+  "cells_per_row": 45,
+  "symbols_used": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "[",
+    "\\",
+    "]",
+    "^",
+    "_"
+  ],
+  "symbol_directions": {
+    "A": "UP",
+    "B": "UP",
+    "C": "UP",
+    "D": "UP",
+    "E": "UP",
+    "F": "UP",
+    "G": "UP",
+    "H": "UP",
+    "I": "UP",
+    "J": "UP",
+    "K": "UP",
+    "L": "UP",
+    "M": "UP",
+    "N": "UP",
+    "P": "UP",
+    "Q": "UP",
+    "R": "DOWN",
+    "S": "DOWN",
+    "T": "DOWN",
+    "U": "DOWN",
+    "V": "DOWN",
+    "W": "DOWN",
+    "X": "DOWN",
+    "Y": "DOWN",
+    "Z": "DOWN",
+    "[": "DOWN",
+    "\\": "DOWN",
+    "]": "DOWN",
+    "^": "DOWN",
+    "_": "DOWN"
+  },
+  "generation": {
+    "master_seed": 2026,
+    "sample_seed": 2725375967543353297,
+    "sample_seed_rule": "explicit sample_seed; dataset generation_config.json records derivation",
+    "dialect": "historical_simple_talim",
+    "pivot_separator_notation": false,
+    "min_run_length": 1,
+    "max_run_length": 259,
+    "run_pattern": "random",
+    "required_counts": [
+      15
+    ],
+    "controlled_row_pattern": []
+  },
+  "logical_rows": [
+    {
+      "row_index": 0,
+      "upper": "E   N",
+      "count_line": "jekai",
+      "lower": "  [",
+      "runs": [
+        {
+          "symbol": "E",
+          "count": 15,
+          "direction": "UP",
+          "encoded_count": "je"
+        },
+        {
+          "symbol": "[",
+          "count": 21,
+          "direction": "DOWN",
+          "encoded_count": "ka"
+        },
+        {
+          "symbol": "N",
+          "count": 9,
+          "direction": "UP",
+          "encoded_count": "i"
+        }
+      ]
+    }
+  ],
+  "rendering": {
+    "font_file": "Talamat.ttf",
+    "font_family": "IMTCRPET",
+    "font_size_px": 48,
+    "image_mode": "L",
+    "image_width_px": 299,
+    "image_height_px": 198
+  }
+}

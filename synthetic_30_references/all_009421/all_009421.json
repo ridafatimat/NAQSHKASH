@@ -1,0 +1,125 @@
+{
+  "sample_id": "all_009421",
+  "rows": 1,
+  "cells_per_row": 124,
+  "symbols_used": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "[",
+    "\\",
+    "]",
+    "^",
+    "_"
+  ],
+  "symbol_directions": {
+    "A": "UP",
+    "B": "UP",
+    "C": "UP",
+    "D": "UP",
+    "E": "UP",
+    "F": "UP",
+    "G": "UP",
+    "H": "UP",
+    "I": "UP",
+    "J": "UP",
+    "K": "UP",
+    "L": "UP",
+    "M": "UP",
+    "N": "UP",
+    "P": "UP",
+    "Q": "UP",
+    "R": "DOWN",
+    "S": "DOWN",
+    "T": "DOWN",
+    "U": "DOWN",
+    "V": "DOWN",
+    "W": "DOWN",
+    "X": "DOWN",
+    "Y": "DOWN",
+    "Z": "DOWN",
+    "[": "DOWN",
+    "\\": "DOWN",
+    "]": "DOWN",
+    "^": "DOWN",
+    "_": "DOWN"
+  },
+  "generation": {
+    "master_seed": 2026,
+    "sample_seed": 237320003019487457,
+    "sample_seed_rule": "explicit sample_seed; dataset generation_config.json records derivation",
+    "dialect": "historical_simple_talim",
+    "pivot_separator_notation": false,
+    "min_run_length": 1,
+    "max_run_length": 259,
+    "run_pattern": "random",
+    "required_counts": [
+      114
+    ],
+    "controlled_row_pattern": []
+  },
+  "logical_rows": [
+    {
+      "row_index": 0,
+      "upper": "F  D",
+      "count_line": "tdafc",
+      "lower": "  S \\",
+      "runs": [
+        {
+          "symbol": "F",
+          "count": 114,
+          "direction": "UP",
+          "encoded_count": "td"
+        },
+        {
+          "symbol": "S",
+          "count": 1,
+          "direction": "DOWN",
+          "encoded_count": "a"
+        },
+        {
+          "symbol": "D",
+          "count": 6,
+          "direction": "UP",
+          "encoded_count": "f"
+        },
+        {
+          "symbol": "\\",
+          "count": 3,
+          "direction": "DOWN",
+          "encoded_count": "c"
+        }
+      ]
+    }
+  ],
+  "rendering": {
+    "font_file": "Talamat.ttf",
+    "font_family": "IMTCRPET",
+    "font_size_px": 48,
+    "image_mode": "L",
+    "image_width_px": 294,
+    "image_height_px": 189
+  }
+}
