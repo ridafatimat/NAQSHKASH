@@ -1,0 +1,18 @@
+{
+  "focused_tests_passed": 13,
+  "cli_help_passed": true,
+  "python_AST_checks_passed": true,
+  "full_R2_evaluation_run": false,
+  "CRNN_inference_run": false,
+  "new_image_processing_pass_required": false,
+  "distinct_development_images_sampled": 10,
+  "validation_protected_image_bytes_opened": 0,
+  "original_workspace_files_preserved": 2844,
+  "historical_files_verified": 483,
+  "original_experiment_files_verified": 18,
+  "raw_results_hashes": {
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_raw\\observations.jsonl": "668bba76f8c385a07a9f77320cd41696142f4676842f07a45e632d57954eadec",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_R0\\results.json": "af2310db1d6bbd4ebfa9c2e5ae9fb2dfb28d017e5253ecc0262c872e243052d0",
+    "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_R1\\results.json": "281fb036f110963b22da016fc8678ab873eaec114d8cd043d284cc4ed83c555d"
+  }
+}
