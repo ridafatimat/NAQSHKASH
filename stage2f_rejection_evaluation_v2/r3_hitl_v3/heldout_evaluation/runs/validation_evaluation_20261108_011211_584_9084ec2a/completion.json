@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "kind": "evaluation",
+  "split": "validation_calibration",
+  "policy_id": "R3_HITL_V3",
+  "records": 600,
+  "parents": 150,
+  "release_sha256": "c64da891572188113f2ad9962892f4b022d978b18696841b1b1a3b8c42e292d3",
+  "outputs": {
+    "run_manifest.json": "10dfea17ccab3c8adac0572ed8cc72be0469c11851ee2f08218ea2aed9daaa38",
+    "metrics.json": "b3c87072eee25eb3be50bd57f21d59a703051b25ab6c12687c5720c99b404236",
+    "per_image.jsonl": "605f4ad42439f6ab8fdea142fbb8258415b6fcca6b9b137de89a3915b046a59c",
+    "outcomes.csv": "fe3e7ca8c8abdeace4f6a336bb52a1cd83f21515ae09a4e39c0eca47588217e0",
+    "report.md": "55fd0cfc50d1fb8860e9da471162434e7b618ffa629bac7779338abca53a05ee"
+  }
+}

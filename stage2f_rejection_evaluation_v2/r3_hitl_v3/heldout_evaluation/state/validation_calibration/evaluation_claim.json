@@ -1,0 +1,6 @@
+{
+  "output_directory": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\heldout_evaluation\\runs\\validation_evaluation_20261108_011211_584_9084ec2a",
+  "raw_completion_sha256": "fadd41da58224cc9f5fa81d62e63e878b3018433ddce6fc3daeeaeb02266f9c9",
+  "release_sha256": "c64da891572188113f2ad9962892f4b022d978b18696841b1b1a3b8c42e292d3",
+  "split": "validation_calibration"
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "dataset_dir": "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\full_20261106_194834_776",
+  "metadata_hashes": {
+    "manifest.json": "5b2ce4a3c6acb080ac14cbafb84d974684a2e3a475973d0470b83b8462cd29df",
+    "parents.json": "47fcc3a4af350d607e8221132bd5fecfdc45f58e85ecc1d112adaef4e551eaf6",
+    "completion.json": "3a86d0dccaeefdec381140cabc1b015b65e54005180c70faa6fa7aac7243b106",
+    "protected_test_seal.json": "892482f6f1d9a30b207754cd8d8ec592c274fac2ece6fafe13b03ad6401bd7ef",
+    "reports/generation_summary.json": "ae5b7218d0f615610c4cdf6530406b0e12da80b0a0fadf074f804a39a41c22b8",
+    "reports/construction_validation.json": "e7a5d41f94f62a9aa9c9eab48024aa5130007d0be42239bed2678f390f742a32"
+  },
+  "history_index": "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\manifests\\history_full_20261106_194834_776.json",
+  "total_records": 4000,
+  "development_records": 2800,
+  "development_parents": 700,
+  "reserved_parent_indexes": [
+    "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\preflight\\parents.json",
+    "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\quarantined_preflight_v0\\parents.json"
+  ],
+  "allowed_split": "development_design",
+  "other_image_access": "forbidden, including hash-only reads by evaluation commands",
+  "expert_review": false
+}
