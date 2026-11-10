@@ -1,0 +1,30 @@
+[
+  {
+    "dataset": "positive",
+    "partition": "validation",
+    "metric": "correct_segmentation_coverage_change",
+    "candidate": "C4",
+    "baseline": "C0",
+    "parent_count": 46,
+    "mean_change": 0.3768115942028986,
+    "lower95": 0.1956521739130435,
+    "upper95": 0.5434782608695653,
+    "seed": 42,
+    "resamples": 2000,
+    "claim": "Development-validation uncertainty, not independent test inference"
+  },
+  {
+    "dataset": "general",
+    "partition": "validation",
+    "metric": "correct_segmentation_coverage_change",
+    "candidate": "C4",
+    "baseline": "C0",
+    "parent_count": 50,
+    "mean_change": 0.16,
+    "lower95": 0.08,
+    "upper95": 0.24666666666666667,
+    "seed": 42,
+    "resamples": 2000,
+    "claim": "Development-validation uncertainty, not independent test inference"
+  }
+]
