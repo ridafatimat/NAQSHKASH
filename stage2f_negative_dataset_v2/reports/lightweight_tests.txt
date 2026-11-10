@@ -1,0 +1,33 @@
+test_duplicate_bytes_cannot_cross_split (test_dataset_v2.OwnershipTests.test_duplicate_bytes_cannot_cross_split) ... ok
+test_historical_inputs_and_frozen_design_unchanged (test_dataset_v2.OwnershipTests.test_historical_inputs_and_frozen_design_unchanged) ... ok
+test_history_collisions_are_excluded_not_backfilled (test_dataset_v2.OwnershipTests.test_history_collisions_are_excluded_not_backfilled) ... ok
+test_new_sources_are_deterministic_and_not_mutation_siblings (test_dataset_v2.OwnershipTests.test_new_sources_are_deterministic_and_not_mutation_siblings) ... ok
+test_parent_split_70_15_15 (test_dataset_v2.OwnershipTests.test_parent_split_70_15_15) ... ok
+test_preflight_full_lineage_annotation_duplicates (test_dataset_v2.OwnershipTests.test_preflight_full_lineage_annotation_duplicates) ... ok
+test_preflight_never_assigns_protected_test (test_dataset_v2.OwnershipTests.test_preflight_never_assigns_protected_test) ... ok
+test_quarantined_datasets_fail_closed (test_dataset_v2.OwnershipTests.test_quarantined_datasets_fail_closed) ... ok
+test_sealed_protected_examples_are_hash_only (test_dataset_v2.OwnershipTests.test_sealed_protected_examples_are_hash_only) ... ok
+test_variants_cannot_cross_parent_split (test_dataset_v2.OwnershipTests.test_variants_cannot_cross_parent_split) ... ok
+test_alias_only_wrong_tier_is_excluded_even_when_pixels_change (test_dataset_v2.RasterRuleTests.test_alias_only_wrong_tier_is_excluded_even_when_pixels_change) ... ok
+test_alignment_mutation_is_not_approved (test_dataset_v2.RasterRuleTests.test_alignment_mutation_is_not_approved) ... ok
+test_all_authentic_count_boundaries_stay_valid (test_dataset_v2.RasterRuleTests.test_all_authentic_count_boundaries_stay_valid) ... ok
+test_all_three_visible_mutations_independently_invalid (test_dataset_v2.RasterRuleTests.test_all_three_visible_mutations_independently_invalid) ... ok
+test_annotation_only_defect_cannot_enter_collection (test_dataset_v2.RasterRuleTests.test_annotation_only_defect_cannot_enter_collection) ... ok
+test_canonical_and_isolated_renderers_agree (test_dataset_v2.RasterRuleTests.test_canonical_and_isolated_renderers_agree) ... ok
+test_control_original_validator_and_inverse_parser (test_dataset_v2.RasterRuleTests.test_control_original_validator_and_inverse_parser) ... ok
+test_count_reverse_outside_authentic_set (test_dataset_v2.RasterRuleTests.test_count_reverse_outside_authentic_set) ... ok
+test_illumination_preserves_every_cell_and_label (test_dataset_v2.RasterRuleTests.test_illumination_preserves_every_cell_and_label) ... ok
+test_lossy_or_geometric_augmentation_not_silently_certified (test_dataset_v2.RasterRuleTests.test_lossy_or_geometric_augmentation_not_silently_certified) ... ok
+test_missing_count_requires_no_alternate_parse (test_dataset_v2.RasterRuleTests.test_missing_count_requires_no_alternate_parse) ... ok
+test_near_identical_raster_shades_cannot_manufacture_wrong_tier (test_dataset_v2.RasterRuleTests.test_near_identical_raster_shades_cannot_manufacture_wrong_tier) ... ok
+test_property_style_multiple_new_sources (test_dataset_v2.RasterRuleTests.test_property_style_multiple_new_sources) ... ok
+test_quality_failure_separate_from_semantic_invalidity (test_dataset_v2.RasterRuleTests.test_quality_failure_separate_from_semantic_invalidity) ... ok
+test_range_errors_are_not_invented_as_visible_glyphs (test_dataset_v2.RasterRuleTests.test_range_errors_are_not_invented_as_visible_glyphs) ... ok
+test_raw_annotation_agrees_with_image (test_dataset_v2.RasterRuleTests.test_raw_annotation_agrees_with_image) ... ok
+test_simply_changing_to_another_valid_instruction_is_not_negative (test_dataset_v2.RasterRuleTests.test_simply_changing_to_another_valid_instruction_is_not_negative) ... ok
+test_unknown_raster_is_not_labeled_invalid (test_dataset_v2.RasterRuleTests.test_unknown_raster_is_not_labeled_invalid) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 10.851s
+
+OK

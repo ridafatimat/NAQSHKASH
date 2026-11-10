@@ -1,0 +1,11 @@
+{
+  "provisional_images": 120,
+  "final_eligible_images": 120,
+  "total_model_pngs_generated_across_prototypes": 240,
+  "shared_image_hashes": 80,
+  "source_families_across_both": 40,
+  "provisional_status": "QUARANTINED_NOT_FOR_TRAINING_OR_EVALUATION",
+  "reason": "Exact-raster-only screening failed visual observability; strengthened conservative font-alias exclusions.",
+  "provisional_manifest_sha256": "26de7663ded9ee259f8cbdd3ee3cdcd6f1e79952c8b5c74d41616b21995f5735",
+  "final_manifest_sha256": "75af85dac10e66975bded05ea73814c84980fd89a9ce463adde564c5256f0e41"
+}

@@ -1,0 +1,11 @@
+{
+  "images": 4000,
+  "semantic_images_checked": 3400,
+  "protected_hash_only_images": 600,
+  "annotations_consistent": true,
+  "duplicates": 0,
+  "source_parents": 1000,
+  "parent_disjoint": true,
+  "mutation_family_disjoint": true,
+  "byte_hash_disjoint": true
+}
