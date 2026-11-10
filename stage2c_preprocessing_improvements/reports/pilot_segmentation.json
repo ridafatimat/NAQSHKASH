@@ -1,0 +1,68 @@
+{
+  "tuning_only": true,
+  "parents": 20,
+  "pages": 80,
+  "elapsed_seconds": 24.361042300006375,
+  "candidates": {
+    "C0": {
+      "pages": 80,
+      "proposed": 37,
+      "correct": 36,
+      "reasons": {
+        "blind_overlapping_padded_bands": 19,
+        "tier_role_or_grouping_mismatch": 1,
+        "blind_ambiguous_band_count:4": 24
+      }
+    },
+    "C1": {
+      "pages": 80,
+      "proposed": 37,
+      "correct": 36,
+      "reasons": {
+        "blind_overlapping_padded_bands": 19,
+        "tier_role_or_grouping_mismatch": 1,
+        "blind_ambiguous_band_count:4": 24
+      }
+    },
+    "C2": {
+      "pages": 80,
+      "proposed": 74,
+      "correct": 60,
+      "reasons": {
+        "tier_role_or_grouping_mismatch": 4,
+        "row_count_mismatch": 10,
+        "no_valid_row_grammar": 6
+      }
+    },
+    "C3": {
+      "pages": 80,
+      "proposed": 37,
+      "correct": 36,
+      "reasons": {
+        "blind_overlapping_padded_bands": 19,
+        "tier_role_or_grouping_mismatch": 1,
+        "blind_ambiguous_band_count:4": 24
+      }
+    },
+    "C4": {
+      "pages": 80,
+      "proposed": 74,
+      "correct": 60,
+      "reasons": {
+        "tier_role_or_grouping_mismatch": 4,
+        "row_count_mismatch": 10,
+        "no_valid_row_grammar": 6
+      }
+    },
+    "C5": {
+      "pages": 80,
+      "proposed": 64,
+      "correct": 60,
+      "reasons": {
+        "tier_role_or_grouping_mismatch": 4,
+        "ambiguous_role_or_row_assignment": 10,
+        "no_valid_row_grammar": 6
+      }
+    }
+  }
+}

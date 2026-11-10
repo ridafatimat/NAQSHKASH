@@ -1,0 +1,2922 @@
+{
+  "root": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements",
+  "file_count": 486,
+  "files": [
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\core.py",
+      "relative_path": "core.py",
+      "bytes": 3027,
+      "sha256": "ab816e49727e47450c29dd8963666624121dcf799e3cd1406b905345b121fee1"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\pipeline.py",
+      "relative_path": "pipeline.py",
+      "bytes": 2461,
+      "sha256": "b0df9c093e85542abe858d8ea182a80cb68274183a5460cb4b79574e0dbda090"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\README.md",
+      "relative_path": "README.md",
+      "bytes": 11695,
+      "sha256": "6be3374e5da4b6464eb6466fb832f77b6f3dd5e15840c31afcab2a815e5d9696"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\component_audit.py",
+      "relative_path": "evaluation\\component_audit.py",
+      "bytes": 4704,
+      "sha256": "b6843275264708a93e56e82d0137d4e48b7c9db5a9fc1d9cce21d2c46e1f8b0d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\diagnose_long_sequences.py",
+      "relative_path": "evaluation\\diagnose_long_sequences.py",
+      "bytes": 1946,
+      "sha256": "d17d65d0d9ca97be2d9164aa7e38923eb1d021cfc425eca8de23f9132e86a5e5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\launch.py",
+      "relative_path": "evaluation\\launch.py",
+      "bytes": 447,
+      "sha256": "d0f4b6b88cb3b9ce7d55c3c65ce0245f640eda53056768a563d4e5501bbf0e3b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\pilot.py",
+      "relative_path": "evaluation\\pilot.py",
+      "bytes": 2655,
+      "sha256": "f6f4ef53d10f4790e77f625f19aea152d2da9d5f88e5238780b5f109b0b1c68d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\reference.py",
+      "relative_path": "evaluation\\reference.py",
+      "bytes": 3962,
+      "sha256": "22559cedc9f8582c88dc92762d1ce4f344989c724dbec42c3672527cb03e09be"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\report.py",
+      "relative_path": "evaluation\\report.py",
+      "bytes": 23116,
+      "sha256": "e8b2a735cd2c5a697ebdfdc80be0752e76b6eed4c97b7148732c16d304d678ac"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\run.py",
+      "relative_path": "evaluation\\run.py",
+      "bytes": 11361,
+      "sha256": "aacca3b44358267a4fec3124f170b9c5384496a31fbe47612e88a15e4ede259d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\summarize.py",
+      "relative_path": "evaluation\\summarize.py",
+      "bytes": 4742,
+      "sha256": "bc5b89d005965cbcb7d7b64ae58e9cf4993fb697beda786df620462ee8d4d693"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\visualize_selected.py",
+      "relative_path": "evaluation\\visualize_selected.py",
+      "bytes": 4901,
+      "sha256": "f88628ecf04c705772b577ad0e488effac01f1814ce05d4ce3abcbad62f458dd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\manifests\\component_audit_pages.csv",
+      "relative_path": "manifests\\component_audit_pages.csv",
+      "bytes": 42815,
+      "sha256": "2299071d4d471d4edca670b61af8b47e6fe1f6722039d0140b77f10c475d2ea7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\manifests\\pages.csv",
+      "relative_path": "manifests\\pages.csv",
+      "bytes": 772351,
+      "sha256": "8ff08ea20a4def021832ded03b6bb21e0a41a9990cb2c662e406cb9244dd636e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\manifests\\parents.csv",
+      "relative_path": "manifests\\parents.csv",
+      "bytes": 92125,
+      "sha256": "21e7f1eae6edeedfec4a0267fca225c7d11ae2402931fd0ec29b3c5e47fcf1f5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\preprocessing\\geometry.py",
+      "relative_path": "preprocessing\\geometry.py",
+      "bytes": 2695,
+      "sha256": "40bd1cc19f66a8452643265c0689c09f34c12bdf3bdad57fa4fa68ef423e7de8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\preprocessing\\photometric.py",
+      "relative_path": "preprocessing\\photometric.py",
+      "bytes": 762,
+      "sha256": "a5544ed89d34b8165cd6c2befd2c540c2599d3cf6a90efea980fd99a9a821597"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\audit_annotations.py",
+      "relative_path": "protocol\\audit_annotations.py",
+      "bytes": 1233,
+      "sha256": "c8464409e42fd5fec7aad77be075b5619d41f542e08e3bd71532b8b47c8fc9f0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\candidates.json",
+      "relative_path": "protocol\\candidates.json",
+      "bytes": 683,
+      "sha256": "3a1f76b1a8d39b9fcb424f1054d1e2d1d5928e7de9048966c85fb979ebcd36dd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\component_audit_design.json",
+      "relative_path": "protocol\\component_audit_design.json",
+      "bytes": 410,
+      "sha256": "477e6b297c95dec4b24d395677e7cde2151e6ee5568c5178d4f134be97b29181"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\design.json",
+      "relative_path": "protocol\\design.json",
+      "bytes": 1157,
+      "sha256": "8880c2a6b5b8f50281ea23ea35eaed13499231bddbfc2594688d0cd23d865224"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\freeze.py",
+      "relative_path": "protocol\\freeze.py",
+      "bytes": 7364,
+      "sha256": "cf2f842fd9273ac0a6d4dbacefd4e69933982b0104c687f3284abd9f8ccbfbad"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\lock.json",
+      "relative_path": "protocol\\lock.json",
+      "bytes": 3223,
+      "sha256": "83ea2d7d42453b74ecdabacacf4b7e1a90ab2dd778bdec7dc42e31453ea3d121"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\protected_before.json",
+      "relative_path": "protocol\\protected_before.json",
+      "bytes": 1131109,
+      "sha256": "857a1ae07ceaffa63feb25065f106fb5bad6cc836fb12e9b232f8782879e9390"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\software_lock.json",
+      "relative_path": "protocol\\software_lock.json",
+      "bytes": 1464,
+      "sha256": "d94286eea7242d0d6e5dca3e8b1e3500f6cf2c0db7f07a41f642c13a093d1839"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\software_lock_pilot.json",
+      "relative_path": "protocol\\software_lock_pilot.json",
+      "bytes": 1320,
+      "sha256": "86ab4510f2d6271054caaf603d0c209b74d9bf8c5c1ff21ec5da8f380ebe3e3c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\verify.py",
+      "relative_path": "protocol\\verify.py",
+      "bytes": 718,
+      "sha256": "9c056df3766355c0aae15f0d50a23daa7e39a779f454ab49af4c7ef02815b59e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\annotation_correspondence.json",
+      "relative_path": "reports\\annotation_correspondence.json",
+      "bytes": 72530,
+      "sha256": "fbe8170f261c64d227b1ca8ba0b8905fad1a91d4e2c81b0e5ca409c232551669"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\environment.json",
+      "relative_path": "reports\\environment.json",
+      "bytes": 236,
+      "sha256": "cfe8e55a04a8320ef48ee56258a06999a2ad6d5621474d30a3513ea5e632f30a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\final_verification.json",
+      "relative_path": "reports\\final_verification.json",
+      "bytes": 421,
+      "sha256": "02553932ca576dc940471f4e8ac0d4f242488d596933b003085cdb61420b74c3"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\pilot_segmentation.csv",
+      "relative_path": "reports\\pilot_segmentation.csv",
+      "bytes": 33749,
+      "sha256": "f91759970655491d6f65010c12e1872a9e5efdfd0dccbe7753efdb6a81b5a4ae"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\pilot_segmentation.json",
+      "relative_path": "reports\\pilot_segmentation.json",
+      "bytes": 1590,
+      "sha256": "84009d256e39ae559c4ed0d60f6b43d91ebae595b522ae47077a00838ee8524a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\stage2c_final_report.md",
+      "relative_path": "reports\\stage2c_final_report.md",
+      "bytes": 21712,
+      "sha256": "2655015a92871e117de9640a55a17ee53d6f14e3bf797a06bb52623c331eb324"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\tests.json",
+      "relative_path": "reports\\tests.json",
+      "bytes": 107,
+      "sha256": "4153cca46fa65e5b5e94f003e4abb7a224bb607398cfc28f87ba66c9ad26e0db"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\tests.txt",
+      "relative_path": "reports\\tests.txt",
+      "bytes": 102,
+      "sha256": "820aeb64672f9da19cb5c0b6d83a636438e9fe12e8711fe3ae5ccc2990ee93f7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\tests.xml",
+      "relative_path": "reports\\tests.xml",
+      "bytes": 9402,
+      "sha256": "ff1e9e1d1d1339deac172d888d5bc2723f48e48a5988a81c2bafc185e2180e5d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\test_command.ps1",
+      "relative_path": "reports\\test_command.ps1",
+      "bytes": 908,
+      "sha256": "f2666ae3cbd8c9e7b8c1ffc34c204b995e37e9eff2b1c24606582ea973d6f1ab"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\segmentation\\engine.py",
+      "relative_path": "segmentation\\engine.py",
+      "bytes": 3899,
+      "sha256": "7787d35f84babaca4a7c4c1079b354a0413801ee2b7699d9f77c006b4cbcb860"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\tests\\test_contracts.py",
+      "relative_path": "tests\\test_contracts.py",
+      "bytes": 5815,
+      "sha256": "a47e5b9406565fc8b3912e83fc88eaac77eac0589f1b90eeb83f51ee860b5701"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\tests\\test_safety_and_experiments.py",
+      "relative_path": "tests\\test_safety_and_experiments.py",
+      "bytes": 6428,
+      "sha256": "32054fda37f6a131499fcb249547b0c7277aa1fa34af906741329727e3d855e8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\index.md",
+      "relative_path": "examples\\selected_candidate\\index.md",
+      "bytes": 4407,
+      "sha256": "9a9da183a15b0bcbf9acd60c4cea1e82a4d40ebe5b3f4e57fea57d4a606e3dc7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\review.json",
+      "relative_path": "examples\\selected_candidate\\review.json",
+      "bytes": 214341,
+      "sha256": "edaabe477ea47cc5f4fcc69e56e8b55ed0554aede07d7edf5d9110a27d83df29"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\C0_detail.png",
+      "bytes": 87241,
+      "sha256": "c6dcb755f4a31e7dfbe4ca441332cfe8b5cd95c8b313b7b4e4a1179581fa820e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\C0_full.png",
+      "bytes": 87241,
+      "sha256": "c6dcb755f4a31e7dfbe4ca441332cfe8b5cd95c8b313b7b4e4a1179581fa820e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\C4_detail.png",
+      "bytes": 87241,
+      "sha256": "c6dcb755f4a31e7dfbe4ca441332cfe8b5cd95c8b313b7b4e4a1179581fa820e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\C4_full.png",
+      "bytes": 87241,
+      "sha256": "c6dcb755f4a31e7dfbe4ca441332cfe8b5cd95c8b313b7b4e4a1179581fa820e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\comparison.png",
+      "bytes": 198813,
+      "sha256": "df79882ce2cae3aa0f447b6cd283adebae5122f4b18a1aa1398e053d48344bbe"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\source.png",
+      "relative_path": "examples\\selected_candidate\\general_all_000920__aug_01_resolution_jpeg\\source.png",
+      "bytes": 33643,
+      "sha256": "fd10acd3fd830549c8cc8771585a6bce2e6bfe531d39eacc39346255e65d01da"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_005202__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_005202__clean\\C0_detail.png",
+      "bytes": 58580,
+      "sha256": "9ff8e9d549d27c94108545adf803f7dedb0ce595a443102aad2de66e23d6feba"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_005202__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_005202__clean\\C0_full.png",
+      "bytes": 58580,
+      "sha256": "9ff8e9d549d27c94108545adf803f7dedb0ce595a443102aad2de66e23d6feba"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_005202__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_005202__clean\\C4_detail.png",
+      "bytes": 67915,
+      "sha256": "b652341140322ad2e69e215d4c126e2113f8dd9ba68fdd480cf3addf3ea21747"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_005202__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_005202__clean\\C4_full.png",
+      "bytes": 67915,
+      "sha256": "b652341140322ad2e69e215d4c126e2113f8dd9ba68fdd480cf3addf3ea21747"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_005202__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\general_all_005202__clean\\comparison.png",
+      "bytes": 114691,
+      "sha256": "96c97645625b10bcc3e52584af85307eeed4de2e9645d2ab0bbda8f49978c08a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_005202__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\general_all_005202__clean\\source.png",
+      "bytes": 24741,
+      "sha256": "3bb31487117c96af57b38771483cb29ff9170a14e9b3247fa73fe3a95af894c5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\C0_detail.png",
+      "bytes": 61580,
+      "sha256": "667f68e2092510b919b1cc7cfec1b414941df7305222db5756141ca50ec65e07"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\C0_full.png",
+      "bytes": 61580,
+      "sha256": "667f68e2092510b919b1cc7cfec1b414941df7305222db5756141ca50ec65e07"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\C4_detail.png",
+      "bytes": 58823,
+      "sha256": "af94a678d884194cb0611a12dac58bda9a5a48571640c829a62fa8bb2319b90a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\C4_full.png",
+      "bytes": 58823,
+      "sha256": "af94a678d884194cb0611a12dac58bda9a5a48571640c829a62fa8bb2319b90a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\comparison.png",
+      "bytes": 122537,
+      "sha256": "3b4db4fcf6546b42c77ac11ca54c92c0b8f5d2d8015938d3563487b12fa6543d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\source.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006677__aug_03_rotation_jpeg\\source.png",
+      "bytes": 22905,
+      "sha256": "089cd4a466a1aee50dd3fcbad12891e3dab29cbdc0e4b9270fd87f5337365b5b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\C0_detail.png",
+      "bytes": 176044,
+      "sha256": "222c81c9ea1c86210885d3d41ddd9b88774cbba9404bbe9479b1156687334bf3"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\C0_full.png",
+      "bytes": 176044,
+      "sha256": "222c81c9ea1c86210885d3d41ddd9b88774cbba9404bbe9479b1156687334bf3"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\C4_detail.png",
+      "bytes": 184221,
+      "sha256": "f28b7d3da12b1bed24d19a9f9af606395e2dc253018f95a67c663d28fb5066e7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\C4_full.png",
+      "bytes": 184221,
+      "sha256": "f28b7d3da12b1bed24d19a9f9af606395e2dc253018f95a67c663d28fb5066e7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\comparison.png",
+      "bytes": 240898,
+      "sha256": "271cfc571faad9d9ee0647e16e9b09abf86409b90414ada1077b0bef2b82b66c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\source.png",
+      "relative_path": "examples\\selected_candidate\\general_all_006708__aug_01_perspective_shadow\\source.png",
+      "bytes": 72259,
+      "sha256": "320e6505d6988555ca016ce49542e6120cbeae5b06720dcef6bed46ad79bd312"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_007085__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_007085__clean\\C0_detail.png",
+      "bytes": 35375,
+      "sha256": "5886b0e0b05a5db160a473011d09d50425b86ab120014ebb24e17015a6404b8f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_007085__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_007085__clean\\C0_full.png",
+      "bytes": 35375,
+      "sha256": "5886b0e0b05a5db160a473011d09d50425b86ab120014ebb24e17015a6404b8f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_007085__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_007085__clean\\C4_detail.png",
+      "bytes": 42242,
+      "sha256": "72eb6f26b7b58125124bef81c09b2418e092c8f0a7d0fe2a69a6a27623cf8ec9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_007085__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_007085__clean\\C4_full.png",
+      "bytes": 42242,
+      "sha256": "72eb6f26b7b58125124bef81c09b2418e092c8f0a7d0fe2a69a6a27623cf8ec9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_007085__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\general_all_007085__clean\\comparison.png",
+      "bytes": 105024,
+      "sha256": "8e636906226d4b8ba0c79c07bb503a6b64ae2a78146f6db474eb4086a6bef605"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_007085__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\general_all_007085__clean\\source.png",
+      "bytes": 13049,
+      "sha256": "156ed03c77a4996baeae33554d568174ca505217f13b52e215eddd8a99974465"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_008607__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_008607__clean\\C0_detail.png",
+      "bytes": 75998,
+      "sha256": "88df7716028427c40e959b5418eddf9725f703cb537e4c8b9c0f1642f825adaf"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_008607__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_008607__clean\\C0_full.png",
+      "bytes": 75998,
+      "sha256": "88df7716028427c40e959b5418eddf9725f703cb537e4c8b9c0f1642f825adaf"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_008607__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\general_all_008607__clean\\C4_detail.png",
+      "bytes": 75998,
+      "sha256": "88df7716028427c40e959b5418eddf9725f703cb537e4c8b9c0f1642f825adaf"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_008607__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\general_all_008607__clean\\C4_full.png",
+      "bytes": 75998,
+      "sha256": "88df7716028427c40e959b5418eddf9725f703cb537e4c8b9c0f1642f825adaf"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_008607__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\general_all_008607__clean\\comparison.png",
+      "bytes": 137825,
+      "sha256": "22c8f5a1a23e85f6b5141c9955f421db919c75bd106bab71609e650b8b7162fd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\general_all_008607__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\general_all_008607__clean\\source.png",
+      "bytes": 27996,
+      "sha256": "b5d3cbbc782f23e30cbd0acc702a228de929cea02c84148b5191f1b2741ff81d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_035170__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_035170__clean\\C0_detail.png",
+      "bytes": 12577,
+      "sha256": "ac0b3a05f244b9981486e3f10d0c34b6a197b0c8931a5f47077565a537b0ae0a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_035170__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_035170__clean\\C0_full.png",
+      "bytes": 12577,
+      "sha256": "ac0b3a05f244b9981486e3f10d0c34b6a197b0c8931a5f47077565a537b0ae0a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_035170__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_035170__clean\\C4_detail.png",
+      "bytes": 12577,
+      "sha256": "ac0b3a05f244b9981486e3f10d0c34b6a197b0c8931a5f47077565a537b0ae0a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_035170__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_035170__clean\\C4_full.png",
+      "bytes": 12577,
+      "sha256": "ac0b3a05f244b9981486e3f10d0c34b6a197b0c8931a5f47077565a537b0ae0a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_035170__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_035170__clean\\comparison.png",
+      "bytes": 93544,
+      "sha256": "3672f5fb2a56497094c9e564dc78a861c90911e6f5f8214454d5f671b0a7deaa"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_035170__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_035170__clean\\source.png",
+      "bytes": 4439,
+      "sha256": "3a74de4e03c15a941e0347758c69fefd393e2235fff5a53ebfd3cb77609c0239"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_063509__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_063509__clean\\C0_detail.png",
+      "bytes": 13308,
+      "sha256": "92f49eaeff36ebbe443271fc8a2b05af372d153dc2e1955f3cfcfa29f5901c80"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_063509__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_063509__clean\\C0_full.png",
+      "bytes": 13308,
+      "sha256": "92f49eaeff36ebbe443271fc8a2b05af372d153dc2e1955f3cfcfa29f5901c80"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_063509__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_063509__clean\\C4_detail.png",
+      "bytes": 20465,
+      "sha256": "805b50de900ea2de2d9ec3355ac402d9dd12a83c6ea9d41292a3c21d8f5bbb27"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_063509__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_063509__clean\\C4_full.png",
+      "bytes": 20465,
+      "sha256": "805b50de900ea2de2d9ec3355ac402d9dd12a83c6ea9d41292a3c21d8f5bbb27"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_063509__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_063509__clean\\comparison.png",
+      "bytes": 84018,
+      "sha256": "5469e3d650334d1a6df2e6b50cda094f7cfdce3acaf5489f98148c5880f1139c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\normal_train_063509__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\normal_train_063509__clean\\source.png",
+      "bytes": 5885,
+      "sha256": "e4d85ddb32145ed441af5d9aaed3e6f3e9588073d50ea61bb1c2985a3d0da296"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00002__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00002__clean\\C0_detail.png",
+      "bytes": 4103,
+      "sha256": "7739f85aafc3dac056dbdffe5932daa06acde31318863418adcd1c38db8b8206"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00002__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00002__clean\\C0_full.png",
+      "bytes": 4103,
+      "sha256": "7739f85aafc3dac056dbdffe5932daa06acde31318863418adcd1c38db8b8206"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00002__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00002__clean\\C4_detail.png",
+      "bytes": 6047,
+      "sha256": "18bb1dc4e06753a4dd92c9459fd2d8397ab4324c2c33d313cc0f60796514885c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00002__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00002__clean\\C4_full.png",
+      "bytes": 6047,
+      "sha256": "18bb1dc4e06753a4dd92c9459fd2d8397ab4324c2c33d313cc0f60796514885c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00002__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00002__clean\\comparison.png",
+      "bytes": 78049,
+      "sha256": "11e2b09bf212cba7fd1f3be0334906f9b19ae6778eb4c734ec345349eb45567d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00002__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00002__clean\\source.png",
+      "bytes": 1957,
+      "sha256": "68154c31093c996601939f63c358b7e253c1a7f94ef3b815141732a268cac0dc"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00016__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00016__clean\\C0_detail.png",
+      "bytes": 6311,
+      "sha256": "8886186085883e0fd80e501084dbfb7c62fb3a82980725eb5d82a8847d0c1549"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00016__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00016__clean\\C0_full.png",
+      "bytes": 6311,
+      "sha256": "8886186085883e0fd80e501084dbfb7c62fb3a82980725eb5d82a8847d0c1549"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00016__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00016__clean\\C4_detail.png",
+      "bytes": 6322,
+      "sha256": "29838ddf394898cc79b891f54458e5d33a623e0d971062f9bdf0b4c67be9a3e8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00016__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00016__clean\\C4_full.png",
+      "bytes": 6322,
+      "sha256": "29838ddf394898cc79b891f54458e5d33a623e0d971062f9bdf0b4c67be9a3e8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00016__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00016__clean\\comparison.png",
+      "bytes": 81016,
+      "sha256": "0c5daee314aedf36b995ed38f944ab0dddb792bc66cf32d8f7a720212e947ce4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00016__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00016__clean\\source.png",
+      "bytes": 2248,
+      "sha256": "b5f048749ddd9ecd1ee5603380ca182124c67a323d80529be530147e9b577d5f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\C0_detail.png",
+      "bytes": 9895,
+      "sha256": "af081126dbe26f4d496c46ae3a64c31142bb8d77c6e346075bced3a73b2295c9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\C0_full.png",
+      "bytes": 9895,
+      "sha256": "af081126dbe26f4d496c46ae3a64c31142bb8d77c6e346075bced3a73b2295c9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\C4_detail.png",
+      "bytes": 10278,
+      "sha256": "275d87b2373a385f769aa44749c47ee57c7587fe2704b97455a86363bf7b4372"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\C4_full.png",
+      "bytes": 10278,
+      "sha256": "275d87b2373a385f769aa44749c47ee57c7587fe2704b97455a86363bf7b4372"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\comparison.png",
+      "bytes": 87255,
+      "sha256": "0d48b514071a730d2723b9d0968d701636d2bd28f0e98cb8d7429883a9a24e66"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00039__aug_01_jpeg\\source.png",
+      "bytes": 3901,
+      "sha256": "2a64417c11f56d2d1b772a07598b829cc2029b50f0da89b32a92107728fff1ef"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\C0_detail.png",
+      "bytes": 21512,
+      "sha256": "b059386cd059679b6542eac6a57c06861bdda82c6f9ab43825027cd3cebf15a4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\C0_full.png",
+      "bytes": 21512,
+      "sha256": "b059386cd059679b6542eac6a57c06861bdda82c6f9ab43825027cd3cebf15a4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\C4_detail.png",
+      "bytes": 21547,
+      "sha256": "ec9ea2e7d75a38f277afe3ac0fdff07fde87e3af273f3b633feca97b03c052e8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\C4_full.png",
+      "bytes": 21547,
+      "sha256": "ec9ea2e7d75a38f277afe3ac0fdff07fde87e3af273f3b633feca97b03c052e8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\comparison.png",
+      "bytes": 202068,
+      "sha256": "d1d18f81e5b5e505d3caf3b02c81698ea1eccbf6cf7b1cbf911b1d0ab26178c2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00049__aug_03_noise\\source.png",
+      "bytes": 10226,
+      "sha256": "70eaf58a1b002692bee1140d934c8fca02d6d1dde6560d9bdcb1dba160480a66"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00193__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00193__clean\\C0_detail.png",
+      "bytes": 7106,
+      "sha256": "e56465ecde96cf67ed8301711b91c737e517d78ba871dd8efe7e9e1d8aea812b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00193__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00193__clean\\C0_full.png",
+      "bytes": 7106,
+      "sha256": "e56465ecde96cf67ed8301711b91c737e517d78ba871dd8efe7e9e1d8aea812b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00193__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00193__clean\\C4_detail.png",
+      "bytes": 7120,
+      "sha256": "c1ed352960cc82d670b28dc45b849bee6496ff3fbbd1770751d01f481e6a2b86"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00193__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00193__clean\\C4_full.png",
+      "bytes": 7120,
+      "sha256": "c1ed352960cc82d670b28dc45b849bee6496ff3fbbd1770751d01f481e6a2b86"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00193__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00193__clean\\comparison.png",
+      "bytes": 94483,
+      "sha256": "962e3c85f3272d60e82af2b2816a860fa742a4b6a35460deb2d8f9208a6eb024"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00193__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00193__clean\\source.png",
+      "bytes": 2503,
+      "sha256": "fc2d238bdfb6ea02107be6bdf30d06f3b13d76dffa004655ddc01c63569aba44"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\C0_detail.png",
+      "bytes": 10819,
+      "sha256": "f0749446a0f689289240b3c0aef3b787de7dd7e7c7f6ba6daaa6ac94ecf660b5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\C0_full.png",
+      "bytes": 10819,
+      "sha256": "f0749446a0f689289240b3c0aef3b787de7dd7e7c7f6ba6daaa6ac94ecf660b5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\C4_detail.png",
+      "bytes": 10819,
+      "sha256": "f0749446a0f689289240b3c0aef3b787de7dd7e7c7f6ba6daaa6ac94ecf660b5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\C4_full.png",
+      "bytes": 10819,
+      "sha256": "f0749446a0f689289240b3c0aef3b787de7dd7e7c7f6ba6daaa6ac94ecf660b5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\comparison.png",
+      "bytes": 98640,
+      "sha256": "1201e142ca6db3fd4b2107b217abd2bcd9fffab7f206b2ffb55f69a4cdcae85f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00238__aug_02_rotation_jpeg\\source.png",
+      "bytes": 4205,
+      "sha256": "6f683b5751bfde623c4ee5f9dc23529c4a037d48e2ed8d1a1481ed04df3b7ae3"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\C0_detail.png",
+      "bytes": 17897,
+      "sha256": "af93025636c0a0435c6ef75badb9d844df9bcabee3f4e6440bdf7aad313a30c1"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\C0_full.png",
+      "bytes": 17897,
+      "sha256": "af93025636c0a0435c6ef75badb9d844df9bcabee3f4e6440bdf7aad313a30c1"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\C4_detail.png",
+      "bytes": 17760,
+      "sha256": "2117bead2c27b710d246bf39b7d225895062cd75db4803df1976a326d81f0a14"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\C4_full.png",
+      "bytes": 17760,
+      "sha256": "2117bead2c27b710d246bf39b7d225895062cd75db4803df1976a326d81f0a14"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\comparison.png",
+      "bytes": 119348,
+      "sha256": "c4dbd4a7b1771f2e1aeab18f36f2fd39e8d531d37b081b0c6e15cf7798cc10bc"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00242__aug_03_jpeg\\source.png",
+      "bytes": 6835,
+      "sha256": "aa70eca925853d06b631f26de2ce63dbda1e05a5f702dc5b94a679b25eb2a0d2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00262__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00262__clean\\C0_detail.png",
+      "bytes": 5825,
+      "sha256": "6dea15097f31a7db8cf8570d093463b6de9d004cab81abd7bc06456b892f94b3"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00262__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00262__clean\\C0_full.png",
+      "bytes": 5825,
+      "sha256": "6dea15097f31a7db8cf8570d093463b6de9d004cab81abd7bc06456b892f94b3"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00262__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00262__clean\\C4_detail.png",
+      "bytes": 5825,
+      "sha256": "6dea15097f31a7db8cf8570d093463b6de9d004cab81abd7bc06456b892f94b3"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00262__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00262__clean\\C4_full.png",
+      "bytes": 5825,
+      "sha256": "6dea15097f31a7db8cf8570d093463b6de9d004cab81abd7bc06456b892f94b3"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00262__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00262__clean\\comparison.png",
+      "bytes": 69672,
+      "sha256": "7ec6a195d90b641348b6601a1210089eb469e74f42c46397f46342597e7220f2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00262__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00262__clean\\source.png",
+      "bytes": 2592,
+      "sha256": "04bae529c5f8253b56e29741275e81555703749c2bbfe4a6f7a5886f8dc90c36"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00270__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00270__clean\\C0_detail.png",
+      "bytes": 5200,
+      "sha256": "d8d6cb5438e3e92021482550b48679ac1b8afe3b1d998aba560807dcfe497efb"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00270__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00270__clean\\C0_full.png",
+      "bytes": 5200,
+      "sha256": "d8d6cb5438e3e92021482550b48679ac1b8afe3b1d998aba560807dcfe497efb"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00270__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00270__clean\\C4_detail.png",
+      "bytes": 6865,
+      "sha256": "053e85e9973243d6d86e6890d30e4af65bae6bfa2b10dddf5f8c6ad4301ddea9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00270__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00270__clean\\C4_full.png",
+      "bytes": 6865,
+      "sha256": "053e85e9973243d6d86e6890d30e4af65bae6bfa2b10dddf5f8c6ad4301ddea9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00270__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00270__clean\\comparison.png",
+      "bytes": 79416,
+      "sha256": "95323e166d9fa0347dfdaea05e414ef17718a456e62b334adfeb41ede369b50d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00270__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00270__clean\\source.png",
+      "bytes": 2296,
+      "sha256": "57e9d1b11a05f3740ab7fc92b3e1dd3cb5cf88d983b4a61f595434f6c30de01f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\C0_detail.png",
+      "bytes": 83726,
+      "sha256": "d30ad32aba1f820f4e7aa61b899b91bceab47c36a33cc0e6d2130577660c4d8a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\C0_full.png",
+      "bytes": 1331580,
+      "sha256": "6a450aaf4c2a672f8a688f4481608206d1a3ff86b3b075ac07fffff3744bc61d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\C4_detail.png",
+      "bytes": 83739,
+      "sha256": "57ce43825fd0aff1673a260e842c68ccd95ad2b4b807742299d4afb99701b4a4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\C4_full.png",
+      "bytes": 1331645,
+      "sha256": "e5100482ce1a422880a6bf42abfbd51159372c40b8188d69e3a83b487aa985bc"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\comparison.png",
+      "bytes": 59792,
+      "sha256": "37d05a7efde4f81e283beea03ace99ede7a041f11adc68445d428524adf813ab"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__aug_02_resolution\\source.png",
+      "bytes": 579460,
+      "sha256": "af9386bb6d224a859f7d80ecd4501d99d67ca2c2ebf97ab6058d101ca45e9ff9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__clean\\C0_detail.png",
+      "bytes": 38593,
+      "sha256": "f555eea94f40e64adb5f022cf661727ed48fbfe4272150190675f786bdfb1d51"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__clean\\C0_full.png",
+      "bytes": 460207,
+      "sha256": "505bfc4f9bd65736a6795d384b4b798a2247f58af26668c97decf23fe282cfd0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__clean\\C4_detail.png",
+      "bytes": 38599,
+      "sha256": "711cbb25d892f7bdee43ca75c49d5fbac07f343e1999eccfca287e3c0f93a271"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__clean\\C4_full.png",
+      "bytes": 460196,
+      "sha256": "73a227e15f43a8bf1173628f24916338605c0493d3ae66ab8aedf5afb28f0865"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__clean\\comparison.png",
+      "bytes": 42160,
+      "sha256": "78164fd7859e30ed315c88b7c82bf2694ce5e88acc40532490e4b64bb1f2ce2a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00324__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00324__clean\\source.png",
+      "bytes": 212601,
+      "sha256": "1c7e631362ead6e2d0fb3a1b480bde089abcf55b03b7fef9c85dcda8078715d0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00326__clean\\C0_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00326__clean\\C0_detail.png",
+      "bytes": 64607,
+      "sha256": "8537d395218fa9f7052fb8b31e1d9730d392e22013a3a66663fb1366bcb13299"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00326__clean\\C0_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00326__clean\\C0_full.png",
+      "bytes": 513292,
+      "sha256": "32c8edc8a853bb204d645595a947213eb1b974783b0d4d633bd7b3e22ab3c13b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00326__clean\\C4_detail.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00326__clean\\C4_detail.png",
+      "bytes": 72649,
+      "sha256": "bd93b175a24a27b12715befa7481a38b2a220781dbd1ea173d19afd47a1c7c91"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00326__clean\\C4_full.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00326__clean\\C4_full.png",
+      "bytes": 522250,
+      "sha256": "8dd397f5c3982d8c954859a2a245cd31bd0593d67d95c8f719c6430d57f4dc65"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00326__clean\\comparison.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00326__clean\\comparison.png",
+      "bytes": 62530,
+      "sha256": "e0a4372c51cc6937e7af05a69788e19abd076de90caa7eb4bec8c9022bcd8020"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\examples\\selected_candidate\\positive_edge_00326__clean\\source.png",
+      "relative_path": "examples\\selected_candidate\\positive_edge_00326__clean\\source.png",
+      "bytes": 233976,
+      "sha256": "a2f0d21803ea55efa635e86984fd36d1da50fc5261391ad279929e159fa7e1e3"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\augmentation_metrics.csv",
+      "relative_path": "reports\\experiments_v1\\augmentation_metrics.csv",
+      "bytes": 29113,
+      "sha256": "2b083ef36f848d70bf712cd04fc883f2f4304180801459cc5494664825163fdb"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\completion.json",
+      "relative_path": "reports\\experiments_v1\\completion.json",
+      "bytes": 977,
+      "sha256": "774102190e16afd9ce1ee6f1451c25b98bfbbfd62ffedc2487c24d41ae919c3a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\component_audit.json",
+      "relative_path": "reports\\experiments_v1\\component_audit.json",
+      "bytes": 1072,
+      "sha256": "f5502caa595a1e9e4229b092dcb0a74ee671ba1d2b19a052d53c1454595d806d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\component_audit_pages.csv",
+      "relative_path": "reports\\experiments_v1\\component_audit_pages.csv",
+      "bytes": 15921,
+      "sha256": "5238eb2c66526e1c0b5f53c02d0ce1c28d835fb44c72d255719025cbdb8bc951"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\component_loss_examples.csv",
+      "relative_path": "reports\\experiments_v1\\component_loss_examples.csv",
+      "bytes": 68,
+      "sha256": "24311a5c4b7b4d95b45ab4c84ecc36a200f2471ca7477a535b13ff48f7f23cc7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\long_sequence_diagnostic.json",
+      "relative_path": "reports\\experiments_v1\\long_sequence_diagnostic.json",
+      "bytes": 2258,
+      "sha256": "0db7885d0d468c9a116820f0891c418bd12d1e84f9d685846a1994fd73f8ad23"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\pages.csv",
+      "relative_path": "reports\\experiments_v1\\pages.csv",
+      "bytes": 1937764,
+      "sha256": "2d418694b78faf61b4090e70fd4c3daf4777e9da377534d4442d585ca2ff2892"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\parent_bootstrap.json",
+      "relative_path": "reports\\experiments_v1\\parent_bootstrap.json",
+      "bytes": 843,
+      "sha256": "b1d66b6c117cce5775ccc7814a81a216b28a14357710ed11f9ab5bdd7f44bd0c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\predictions.csv",
+      "relative_path": "reports\\experiments_v1\\predictions.csv",
+      "bytes": 4471665,
+      "sha256": "b4cccb33e4851b09ad70d61f0da4037d39a8eb276995e06a96a20b0de8431706"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\selection_before_validation.json",
+      "relative_path": "reports\\experiments_v1\\selection_before_validation.json",
+      "bytes": 1389,
+      "sha256": "b58247772a725598fd245797d35e37904b7b00d4264dd1f0f72c1f95700ded78"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\summary.csv",
+      "relative_path": "reports\\experiments_v1\\summary.csv",
+      "bytes": 12382,
+      "sha256": "a7158cd4e0941e1726d4583698a1c623b1a2ddd142efe7b4fd8b5aa48b0bb294"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\summary.json",
+      "relative_path": "reports\\experiments_v1\\summary.json",
+      "bytes": 50195,
+      "sha256": "8caa22947fb6807ea8bb9d5bc022cce64349322df5a59a2fec9980eb13cc6479"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C0_detail.png",
+      "bytes": 21263,
+      "sha256": "499a226c740d39226de633124d41405ba502bacff86799837343070f4a5fd2bd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C0_full.png",
+      "bytes": 21263,
+      "sha256": "499a226c740d39226de633124d41405ba502bacff86799837343070f4a5fd2bd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C2_detail.png",
+      "bytes": 21263,
+      "sha256": "499a226c740d39226de633124d41405ba502bacff86799837343070f4a5fd2bd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C2_full.png",
+      "bytes": 21263,
+      "sha256": "499a226c740d39226de633124d41405ba502bacff86799837343070f4a5fd2bd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C5_detail.png",
+      "bytes": 23261,
+      "sha256": "86e19c36615d50f1b74fb4e8ad7b5a18ea7e3a6f12685c26caf00cc5a571384f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\C5_full.png",
+      "bytes": 23261,
+      "sha256": "86e19c36615d50f1b74fb4e8ad7b5a18ea7e3a6f12685c26caf00cc5a571384f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\comparison.png",
+      "bytes": 120369,
+      "sha256": "d2e5ced9848e2f5e899a3d94b5f6b1fb3f8aaf7f1e3ff1d77e3f6e3303099209"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__aug_01_contrast_correct\\source.png",
+      "bytes": 9280,
+      "sha256": "8210d88acf9670b71ea03c3b274a6ae9690a4e4212b86c95a89b2cf9910fd639"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C0_detail.png",
+      "bytes": 14876,
+      "sha256": "3d04c6b22ae11cd05f12be95d606cd373703652fed2c693637177bd3c8ca01d0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C0_full.png",
+      "bytes": 14876,
+      "sha256": "3d04c6b22ae11cd05f12be95d606cd373703652fed2c693637177bd3c8ca01d0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C2_detail.png",
+      "bytes": 14876,
+      "sha256": "3d04c6b22ae11cd05f12be95d606cd373703652fed2c693637177bd3c8ca01d0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C2_full.png",
+      "bytes": 14876,
+      "sha256": "3d04c6b22ae11cd05f12be95d606cd373703652fed2c693637177bd3c8ca01d0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C5_detail.png",
+      "bytes": 14876,
+      "sha256": "3d04c6b22ae11cd05f12be95d606cd373703652fed2c693637177bd3c8ca01d0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\C5_full.png",
+      "bytes": 14876,
+      "sha256": "3d04c6b22ae11cd05f12be95d606cd373703652fed2c693637177bd3c8ca01d0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\comparison.png",
+      "bytes": 104104,
+      "sha256": "9db99de3671a86376b99f5ca6a58af39f2bdbd1790a2210c8b647068878cea32"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000025__clean_correct\\source.png",
+      "bytes": 5538,
+      "sha256": "1f0d318e87cdc8185c0ce1e158abb69f320621256ad0c20ea11596e5af2b0436"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C0_detail.png",
+      "bytes": 66005,
+      "sha256": "a033452742482ff22c26873e8bffd1d988e8373afd892ff612c439fecf67005e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C0_full.png",
+      "bytes": 66005,
+      "sha256": "a033452742482ff22c26873e8bffd1d988e8373afd892ff612c439fecf67005e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C2_detail.png",
+      "bytes": 61952,
+      "sha256": "4f5954cc441afabc386f8ad0cebf8b4ff1458374534e2ae20019b53051e99bb5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C2_full.png",
+      "bytes": 61952,
+      "sha256": "4f5954cc441afabc386f8ad0cebf8b4ff1458374534e2ae20019b53051e99bb5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C5_detail.png",
+      "bytes": 61952,
+      "sha256": "4f5954cc441afabc386f8ad0cebf8b4ff1458374534e2ae20019b53051e99bb5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\C5_full.png",
+      "bytes": 61952,
+      "sha256": "4f5954cc441afabc386f8ad0cebf8b4ff1458374534e2ae20019b53051e99bb5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\comparison.png",
+      "bytes": 194131,
+      "sha256": "9ce378652124bb67bf50f89475bb17877b91cd0c2cfbb1d76c9ded289186678d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000158__aug_01_rotation_jpeg_wrong_acceptance\\source.png",
+      "bytes": 24652,
+      "sha256": "8788dbff2ba54956420d0608f60ecc674fc5ce4116b0fbc4cb2673443296e152"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C0_detail.png",
+      "bytes": 160404,
+      "sha256": "e5ed756226be23d8d87cccbb94e32da6b32e5471e8d5265f3d6e203c1289f5fd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C0_full.png",
+      "bytes": 160404,
+      "sha256": "e5ed756226be23d8d87cccbb94e32da6b32e5471e8d5265f3d6e203c1289f5fd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C2_detail.png",
+      "bytes": 187682,
+      "sha256": "cc4adc167d0011ae242ef8ad973165f951183fa73fa985dd16e180bee5a6b3f4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C2_full.png",
+      "bytes": 187682,
+      "sha256": "cc4adc167d0011ae242ef8ad973165f951183fa73fa985dd16e180bee5a6b3f4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C5_detail.png",
+      "bytes": 156835,
+      "sha256": "d063826c69839d5c29451022ea9ac9b2ffc455efb9b10d26b9b2419f7bf8f56b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\C5_full.png",
+      "bytes": 156835,
+      "sha256": "d063826c69839d5c29451022ea9ac9b2ffc455efb9b10d26b9b2419f7bf8f56b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\comparison.png",
+      "bytes": 333482,
+      "sha256": "102ee8b47522e67b9f718c8fe2065788f65e99846e2c5f91bf23960eaf0c6459"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_01_perspective_shadow_wrong_acceptance\\source.png",
+      "bytes": 70690,
+      "sha256": "1cfa73995b301950d8325a42a3764d7e932d6883384f77f16ab683a3b5c94b3c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C0_detail.png",
+      "bytes": 150574,
+      "sha256": "c3f3f8c4a47046f76e55553350d4c62df99b3e7d2d2aaa9511356121f912ffea"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C0_full.png",
+      "bytes": 150574,
+      "sha256": "c3f3f8c4a47046f76e55553350d4c62df99b3e7d2d2aaa9511356121f912ffea"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C2_detail.png",
+      "bytes": 138143,
+      "sha256": "3358e08be3d6816dfaca75ab931e2c39402dcf8e896dede0c375f0e12d188ff7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C2_full.png",
+      "bytes": 138143,
+      "sha256": "3358e08be3d6816dfaca75ab931e2c39402dcf8e896dede0c375f0e12d188ff7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C5_detail.png",
+      "bytes": 138143,
+      "sha256": "3358e08be3d6816dfaca75ab931e2c39402dcf8e896dede0c375f0e12d188ff7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\C5_full.png",
+      "bytes": 138143,
+      "sha256": "3358e08be3d6816dfaca75ab931e2c39402dcf8e896dede0c375f0e12d188ff7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\comparison.png",
+      "bytes": 250564,
+      "sha256": "fe452a5807a47cb3299d80afdca3e5d9748bcf8ef0f6e8b7cdf30d97f16235e6"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_02_rotation_jpeg_recovered\\source.png",
+      "bytes": 55753,
+      "sha256": "6282176882e5a9431e4913ff64d4a692f77822e9ae4e96468a539b4ee0af3568"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C0_detail.png",
+      "bytes": 149402,
+      "sha256": "5f677577c6288e9bd6517e8e9ec8011ed78cd6883eb08e1c96f9827db1952f47"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C0_full.png",
+      "bytes": 149402,
+      "sha256": "5f677577c6288e9bd6517e8e9ec8011ed78cd6883eb08e1c96f9827db1952f47"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C2_detail.png",
+      "bytes": 149402,
+      "sha256": "5f677577c6288e9bd6517e8e9ec8011ed78cd6883eb08e1c96f9827db1952f47"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C2_full.png",
+      "bytes": 149402,
+      "sha256": "5f677577c6288e9bd6517e8e9ec8011ed78cd6883eb08e1c96f9827db1952f47"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C5_detail.png",
+      "bytes": 124693,
+      "sha256": "59c1e29c80bdaea13eec63bb2291c1425119d9081006197352af25eb7e91742c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\C5_full.png",
+      "bytes": 124693,
+      "sha256": "59c1e29c80bdaea13eec63bb2291c1425119d9081006197352af25eb7e91742c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\comparison.png",
+      "bytes": 295094,
+      "sha256": "f6c75800c0425c94e954c531df8f066230004c549a88f1fcf70634a52e5e436f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__aug_03_shadow_correct\\source.png",
+      "bytes": 59578,
+      "sha256": "06707e2ba29d53a407526ff09e9feedd645bcd7adbf25822dd0c17e27e04d3c5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C0_detail.png",
+      "bytes": 75740,
+      "sha256": "3302e6bffe73d01963f2b2590cbaabe20e8fdf29f37656fab96dabbafb8b5a03"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C0_full.png",
+      "bytes": 75740,
+      "sha256": "3302e6bffe73d01963f2b2590cbaabe20e8fdf29f37656fab96dabbafb8b5a03"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C2_detail.png",
+      "bytes": 75740,
+      "sha256": "3302e6bffe73d01963f2b2590cbaabe20e8fdf29f37656fab96dabbafb8b5a03"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C2_full.png",
+      "bytes": 75740,
+      "sha256": "3302e6bffe73d01963f2b2590cbaabe20e8fdf29f37656fab96dabbafb8b5a03"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C5_detail.png",
+      "bytes": 75740,
+      "sha256": "3302e6bffe73d01963f2b2590cbaabe20e8fdf29f37656fab96dabbafb8b5a03"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\C5_full.png",
+      "bytes": 75740,
+      "sha256": "3302e6bffe73d01963f2b2590cbaabe20e8fdf29f37656fab96dabbafb8b5a03"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\comparison.png",
+      "bytes": 184134,
+      "sha256": "b3bcde36870e2037e4b5d746908ebb5314bc32b478683d9b01a50c7ef6b35e16"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000171__clean_correct\\source.png",
+      "bytes": 28216,
+      "sha256": "cd0b00e66bfb23e8869493982c6ff73858c711d5d29d99b14c62aec55270bc7f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C0_detail.png",
+      "bytes": 187467,
+      "sha256": "95f1ab7f995e4eca5a34a1997cd1bf24a65bdacabbaee6965fda9e8ca19af3d5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C0_full.png",
+      "bytes": 187467,
+      "sha256": "95f1ab7f995e4eca5a34a1997cd1bf24a65bdacabbaee6965fda9e8ca19af3d5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C2_detail.png",
+      "bytes": 197573,
+      "sha256": "9ee23087f1ce17a28127668ac51ab796d5dc04d483dac7c1f176900d5abd916f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C2_full.png",
+      "bytes": 197573,
+      "sha256": "9ee23087f1ce17a28127668ac51ab796d5dc04d483dac7c1f176900d5abd916f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C5_detail.png",
+      "bytes": 181017,
+      "sha256": "5cffa1f225496a5182778e1f253723a6d274848425f378086d53e5f141604d6a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\C5_full.png",
+      "bytes": 181017,
+      "sha256": "5cffa1f225496a5182778e1f253723a6d274848425f378086d53e5f141604d6a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\comparison.png",
+      "bytes": 288470,
+      "sha256": "6c22ef8c9303f6e5a425291985a9c77a5c6cea3150af386fa9354b3d6bd4b309"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000336__aug_02_perspective_shadow_recovered\\source.png",
+      "bytes": 78522,
+      "sha256": "1bd6c3a16b64a81fbd526c9a3469897c35a19e3db0c88d094b4e24557c576370"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C0_detail.png",
+      "bytes": 26677,
+      "sha256": "69427db0b4b11b4c77881569e3d83f9b8b39a094a17ca97b9a85fa34558ce700"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C0_full.png",
+      "bytes": 26677,
+      "sha256": "69427db0b4b11b4c77881569e3d83f9b8b39a094a17ca97b9a85fa34558ce700"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C2_detail.png",
+      "bytes": 30305,
+      "sha256": "fe25ad7cc0d407d04ff2e63f43da3adb6a5a1fcd0f36933f22b7a41da135c46b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C2_full.png",
+      "bytes": 30305,
+      "sha256": "fe25ad7cc0d407d04ff2e63f43da3adb6a5a1fcd0f36933f22b7a41da135c46b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C5_detail.png",
+      "bytes": 30305,
+      "sha256": "fe25ad7cc0d407d04ff2e63f43da3adb6a5a1fcd0f36933f22b7a41da135c46b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\C5_full.png",
+      "bytes": 30305,
+      "sha256": "fe25ad7cc0d407d04ff2e63f43da3adb6a5a1fcd0f36933f22b7a41da135c46b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\comparison.png",
+      "bytes": 109394,
+      "sha256": "ff1bfb73b5d0d3f850f02a15492fc014653abbac9341257ccec2efae759f86a0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_000359__clean_recovered\\source.png",
+      "bytes": 11244,
+      "sha256": "5129c27dc062c4680e253cd3f9ab4d9c25310224d555f0e67e138b4e23c6f705"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C0_detail.png",
+      "bytes": 21348,
+      "sha256": "c7bf8e4e478823da8654cf264d16a3f3d76851bb1db316c4099a18766dcc867f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C0_full.png",
+      "bytes": 21348,
+      "sha256": "c7bf8e4e478823da8654cf264d16a3f3d76851bb1db316c4099a18766dcc867f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C2_detail.png",
+      "bytes": 25027,
+      "sha256": "e60ef251f824da174013b74d1be3679505288e7e94bd7027f788875e9568e6a2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C2_full.png",
+      "bytes": 25027,
+      "sha256": "e60ef251f824da174013b74d1be3679505288e7e94bd7027f788875e9568e6a2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C5_detail.png",
+      "bytes": 25027,
+      "sha256": "e60ef251f824da174013b74d1be3679505288e7e94bd7027f788875e9568e6a2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\C5_full.png",
+      "bytes": 25027,
+      "sha256": "e60ef251f824da174013b74d1be3679505288e7e94bd7027f788875e9568e6a2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\comparison.png",
+      "bytes": 159764,
+      "sha256": "d517bbb800a78b37a04913d37da2fb9ee22bd0d7d0f21cb0fede437f180d6994"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_001469__clean_recovered\\source.png",
+      "bytes": 9139,
+      "sha256": "33c67c0360ff5b10370f49caa3feedd0c8a4ca9d3cc2536276be457ea70c9a24"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C0_detail.png",
+      "bytes": 123522,
+      "sha256": "967d7e4b671a3387e4d7be238c51a0f16d9c8eb7fe953ad5106c61e5b4d3b703"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C0_full.png",
+      "bytes": 126394,
+      "sha256": "3ed03806b79cc248bfe2cad5c8fd8b7503d948070cf6885329a486043c7ddad8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C2_detail.png",
+      "bytes": 103475,
+      "sha256": "a4546839465ccd8d32db31a350c17a3400e88cd029fff9506b9e7a40293f98cb"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C2_full.png",
+      "bytes": 106209,
+      "sha256": "48af2240720a190eddaa9d97f2a2a0661c2f8004044e186723f0a8473f69e382"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C5_detail.png",
+      "bytes": 123522,
+      "sha256": "967d7e4b671a3387e4d7be238c51a0f16d9c8eb7fe953ad5106c61e5b4d3b703"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\C5_full.png",
+      "bytes": 126394,
+      "sha256": "3ed03806b79cc248bfe2cad5c8fd8b7503d948070cf6885329a486043c7ddad8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\comparison.png",
+      "bytes": 126588,
+      "sha256": "fd089d308cf5c8fcc3d2ce6eeb60c94e36e5b34bd6445e0e33bbf8baf2b1d97c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__aug_01_brightness_rejection\\source.png",
+      "bytes": 47773,
+      "sha256": "09a9dd7f8ee83bf4a1f04d248e83e22b7b571775a715aea3645e2a56f5c5001e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C0_detail.png",
+      "bytes": 70142,
+      "sha256": "57b198cb51e46e066ae0329296dc4d0bcd8050d6d1f4fb731dea622003705cdf"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C0_full.png",
+      "bytes": 70880,
+      "sha256": "08df9eeae6513f473b204233745022181e93092399b24f4eeeec7fbc7ee845dc"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C2_detail.png",
+      "bytes": 76278,
+      "sha256": "69cdf6d50855802b845751681c3d79fbbb0ea72e28d37717f5c525c59eedb46a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C2_full.png",
+      "bytes": 77835,
+      "sha256": "8881ed9cca97350438e5af38b2e1c3d6a555cdbfa2295502cb8796a0bb118499"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C5_detail.png",
+      "bytes": 70142,
+      "sha256": "57b198cb51e46e066ae0329296dc4d0bcd8050d6d1f4fb731dea622003705cdf"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\C5_full.png",
+      "bytes": 70880,
+      "sha256": "08df9eeae6513f473b204233745022181e93092399b24f4eeeec7fbc7ee845dc"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\comparison.png",
+      "bytes": 103739,
+      "sha256": "2bf583cb57ef594c3e00a99ea8f0950aa86b11a4a6caefd97ce4483f200da850"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_004200__clean_rejection\\source.png",
+      "bytes": 30003,
+      "sha256": "f856dfbaa907a6b660ace3d4cce85097ddaa672507f24d7211b29c471aea4b10"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C0_detail.png",
+      "bytes": 34681,
+      "sha256": "cffc3f2bfee50ff344d0365fb01abb789523e2c5ac85f743c3e2d489331f073b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C0_full.png",
+      "bytes": 34681,
+      "sha256": "cffc3f2bfee50ff344d0365fb01abb789523e2c5ac85f743c3e2d489331f073b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C2_detail.png",
+      "bytes": 34681,
+      "sha256": "cffc3f2bfee50ff344d0365fb01abb789523e2c5ac85f743c3e2d489331f073b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C2_full.png",
+      "bytes": 34681,
+      "sha256": "cffc3f2bfee50ff344d0365fb01abb789523e2c5ac85f743c3e2d489331f073b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C5_detail.png",
+      "bytes": 41547,
+      "sha256": "fa6fc6d38549562eb32ea4ba0e36322ccdfe6e104be201bd045fccaa085d6525"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\C5_full.png",
+      "bytes": 41547,
+      "sha256": "fa6fc6d38549562eb32ea4ba0e36322ccdfe6e104be201bd045fccaa085d6525"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\comparison.png",
+      "bytes": 117672,
+      "sha256": "e7b525631f2b1ec74ad37b16264c6fd6264994c20dcb8de9adbb6021ee4ad9c5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_007085__clean_regression\\source.png",
+      "bytes": 13049,
+      "sha256": "156ed03c77a4996baeae33554d568174ca505217f13b52e215eddd8a99974465"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C0_detail.png",
+      "bytes": 48122,
+      "sha256": "908965d2cdfdc2e29bdd6d3d0a2b89213aa4a6de8d70abf60f582b0d200c383e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C0_full.png",
+      "bytes": 48122,
+      "sha256": "908965d2cdfdc2e29bdd6d3d0a2b89213aa4a6de8d70abf60f582b0d200c383e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C2_detail.png",
+      "bytes": 48122,
+      "sha256": "908965d2cdfdc2e29bdd6d3d0a2b89213aa4a6de8d70abf60f582b0d200c383e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C2_full.png",
+      "bytes": 48122,
+      "sha256": "908965d2cdfdc2e29bdd6d3d0a2b89213aa4a6de8d70abf60f582b0d200c383e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C5_detail.png",
+      "bytes": 52697,
+      "sha256": "0702f4d7996cbe1504f94ed375d1c0ff14b4dc29c1a15170c1fa735a89a15f43"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\C5_full.png",
+      "bytes": 52697,
+      "sha256": "0702f4d7996cbe1504f94ed375d1c0ff14b4dc29c1a15170c1fa735a89a15f43"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\comparison.png",
+      "bytes": 177796,
+      "sha256": "25993b13528400de76f0085fa62eb62f0fd3c052740e081da31b63517e9ab743"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__aug_01_contrast_regression\\source.png",
+      "bytes": 20116,
+      "sha256": "bb4d272de1d0274085b12f377377fad7071234cfa2f875f578c2a7ccd262c3cf"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C0_detail.png",
+      "bytes": 29873,
+      "sha256": "a1d3da9413feb33adbdafabfa1c22d191c8a0ac07f45646bb991653ff63c5689"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C0_full.png",
+      "bytes": 29873,
+      "sha256": "a1d3da9413feb33adbdafabfa1c22d191c8a0ac07f45646bb991653ff63c5689"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C2_detail.png",
+      "bytes": 29873,
+      "sha256": "a1d3da9413feb33adbdafabfa1c22d191c8a0ac07f45646bb991653ff63c5689"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C2_full.png",
+      "bytes": 29873,
+      "sha256": "a1d3da9413feb33adbdafabfa1c22d191c8a0ac07f45646bb991653ff63c5689"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C5_detail.png",
+      "bytes": 34941,
+      "sha256": "466ca1614ea282f7784ce8c935b74eea8d632952e492f5f38bebe2e1da45b9c2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\C5_full.png",
+      "bytes": 34941,
+      "sha256": "466ca1614ea282f7784ce8c935b74eea8d632952e492f5f38bebe2e1da45b9c2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\comparison.png",
+      "bytes": 139891,
+      "sha256": "3447be73cfc0ccfdad3abb0ceaf65ee0975735298a8b2212b409d09cddb700a7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\general_all_009602__clean_regression\\source.png",
+      "bytes": 11023,
+      "sha256": "6ebd6f8f5ff4f3583eeaa863c366a9d799bf413f7fff82f33afd647dba3f15a8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C0_detail.png",
+      "bytes": 80189,
+      "sha256": "5621ab85f37be4a87aa0e10556ec0c43748e7d258f38796abb3b019af410f016"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C0_full.png",
+      "bytes": 80189,
+      "sha256": "5621ab85f37be4a87aa0e10556ec0c43748e7d258f38796abb3b019af410f016"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C2_detail.png",
+      "bytes": 88463,
+      "sha256": "5a18337f4e9564fcf8bdc4b2cc742592ccfaa97ebdf9808562cf1fb837d90245"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C2_full.png",
+      "bytes": 88463,
+      "sha256": "5a18337f4e9564fcf8bdc4b2cc742592ccfaa97ebdf9808562cf1fb837d90245"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C5_detail.png",
+      "bytes": 88463,
+      "sha256": "5a18337f4e9564fcf8bdc4b2cc742592ccfaa97ebdf9808562cf1fb837d90245"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\C5_full.png",
+      "bytes": 88463,
+      "sha256": "5a18337f4e9564fcf8bdc4b2cc742592ccfaa97ebdf9808562cf1fb837d90245"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\comparison.png",
+      "bytes": 163376,
+      "sha256": "4f27e551702c0e8952077015c2c628cece0b07dfc759764df3ce9492281dd0ba"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000471__clean_recovered\\source.png",
+      "bytes": 33504,
+      "sha256": "aefe75c2b3580dde97a592adfbeabb4437b62c952a00d82599b972243c8221e9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C0_detail.png",
+      "bytes": 117123,
+      "sha256": "c43cd43a65ae8b1c7299bc228ef095901436498abc97ca479d4bcd01e1ead382"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C0_full.png",
+      "bytes": 117123,
+      "sha256": "c43cd43a65ae8b1c7299bc228ef095901436498abc97ca479d4bcd01e1ead382"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C2_detail.png",
+      "bytes": 117123,
+      "sha256": "c43cd43a65ae8b1c7299bc228ef095901436498abc97ca479d4bcd01e1ead382"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C2_full.png",
+      "bytes": 117123,
+      "sha256": "c43cd43a65ae8b1c7299bc228ef095901436498abc97ca479d4bcd01e1ead382"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C5_detail.png",
+      "bytes": 117123,
+      "sha256": "c43cd43a65ae8b1c7299bc228ef095901436498abc97ca479d4bcd01e1ead382"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\C5_full.png",
+      "bytes": 117123,
+      "sha256": "c43cd43a65ae8b1c7299bc228ef095901436498abc97ca479d4bcd01e1ead382"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\comparison.png",
+      "bytes": 165055,
+      "sha256": "46ee004e6c962cc123692f316d49d15f904dbee6abffd21a044ab6180a4ea0be"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_000948__clean_correct\\source.png",
+      "bytes": 45451,
+      "sha256": "b7962cd54273c05ff0ff8430cb84d6660806d42cdc74193079b7bc79d53e3027"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C0_detail.png",
+      "bytes": 18318,
+      "sha256": "87dccd1e868e2506f9e9fbd2e651d6e0b73558a2301c7e603625a3eed2eab00c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C0_full.png",
+      "bytes": 18318,
+      "sha256": "87dccd1e868e2506f9e9fbd2e651d6e0b73558a2301c7e603625a3eed2eab00c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C2_detail.png",
+      "bytes": 18318,
+      "sha256": "87dccd1e868e2506f9e9fbd2e651d6e0b73558a2301c7e603625a3eed2eab00c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C2_full.png",
+      "bytes": 18318,
+      "sha256": "87dccd1e868e2506f9e9fbd2e651d6e0b73558a2301c7e603625a3eed2eab00c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C5_detail.png",
+      "bytes": 21025,
+      "sha256": "22d83dc508f823b50f198ab983d7b33aa38b4b81b56b4daef6c79ce578126995"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\C5_full.png",
+      "bytes": 21025,
+      "sha256": "22d83dc508f823b50f198ab983d7b33aa38b4b81b56b4daef6c79ce578126995"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\comparison.png",
+      "bytes": 133651,
+      "sha256": "e3a4827b701aa39d4809f7709bbe0989cb63fd883a993fca45c0f0cceb051581"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_023357__clean_regression\\source.png",
+      "bytes": 6522,
+      "sha256": "b4f65b6a65792592c68b43e397e67fd77ae1aaee6c6f33b68f96a33f389a6281"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C0_detail.png",
+      "bytes": 18967,
+      "sha256": "7f1996652a35753af58587ef88b7433b7288fc202dcdd85c4a5828b409540063"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C0_full.png",
+      "bytes": 18967,
+      "sha256": "7f1996652a35753af58587ef88b7433b7288fc202dcdd85c4a5828b409540063"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C2_detail.png",
+      "bytes": 22691,
+      "sha256": "d2955ff3d15edeb9ae210ecc69eb415954a7e1f0e0ad69b8df5a6e4db4a681f7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C2_full.png",
+      "bytes": 22691,
+      "sha256": "d2955ff3d15edeb9ae210ecc69eb415954a7e1f0e0ad69b8df5a6e4db4a681f7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C5_detail.png",
+      "bytes": 22691,
+      "sha256": "d2955ff3d15edeb9ae210ecc69eb415954a7e1f0e0ad69b8df5a6e4db4a681f7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\C5_full.png",
+      "bytes": 22691,
+      "sha256": "d2955ff3d15edeb9ae210ecc69eb415954a7e1f0e0ad69b8df5a6e4db4a681f7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\comparison.png",
+      "bytes": 117907,
+      "sha256": "74abccfaf1d95b42c87cafff41fe60fed99bf8789a1a9958e2d78365250c6686"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\normal_train_070997__clean_wrong_acceptance\\source.png",
+      "bytes": 8263,
+      "sha256": "b7505d8c5f863e93e53d74b9aabc3a658b60fbc5d5ae5e36d41edc6203be4226"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C0_detail.png",
+      "bytes": 17204,
+      "sha256": "39647bb4572c82c1b24c56a10832505940686ea8773acd4fe012d10981069b07"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C0_full.png",
+      "bytes": 17204,
+      "sha256": "39647bb4572c82c1b24c56a10832505940686ea8773acd4fe012d10981069b07"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C2_detail.png",
+      "bytes": 13635,
+      "sha256": "ca8914f5af6d6efbf96164f07bda8fa051fa8509ca091d0c89dc8aecdbf1a24a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C2_full.png",
+      "bytes": 13635,
+      "sha256": "ca8914f5af6d6efbf96164f07bda8fa051fa8509ca091d0c89dc8aecdbf1a24a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C5_detail.png",
+      "bytes": 17204,
+      "sha256": "39647bb4572c82c1b24c56a10832505940686ea8773acd4fe012d10981069b07"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\C5_full.png",
+      "bytes": 17204,
+      "sha256": "39647bb4572c82c1b24c56a10832505940686ea8773acd4fe012d10981069b07"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\comparison.png",
+      "bytes": 196020,
+      "sha256": "cde774b259c63ab064fededfd7158c65aee89956a0143715af67ea2c697bfd9c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__aug_01_noise_rejection\\source.png",
+      "bytes": 7173,
+      "sha256": "643349a84921fd6f5a2752d559758d76038e2a8ebd4b618eac070f166c28f6f6"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C0_detail.png",
+      "bytes": 2307,
+      "sha256": "8afc5a26ed1f6425e40e555fd0cff09b1ae49f6e95e124bc40e9e3e1d406625c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C0_full.png",
+      "bytes": 2307,
+      "sha256": "8afc5a26ed1f6425e40e555fd0cff09b1ae49f6e95e124bc40e9e3e1d406625c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C2_detail.png",
+      "bytes": 3381,
+      "sha256": "353c31eb4e06b79694149563c17283b25a99a876e6b46ddcc295011e92a8965a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C2_full.png",
+      "bytes": 3381,
+      "sha256": "353c31eb4e06b79694149563c17283b25a99a876e6b46ddcc295011e92a8965a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C5_detail.png",
+      "bytes": 2307,
+      "sha256": "8afc5a26ed1f6425e40e555fd0cff09b1ae49f6e95e124bc40e9e3e1d406625c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\C5_full.png",
+      "bytes": 2307,
+      "sha256": "8afc5a26ed1f6425e40e555fd0cff09b1ae49f6e95e124bc40e9e3e1d406625c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\comparison.png",
+      "bytes": 57461,
+      "sha256": "0791b8cc97c28c1eb1daf717b3ad1c775c2ac0f828af6e495603310afbf11d36"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00001__clean_rejection\\source.png",
+      "bytes": 1169,
+      "sha256": "63dfab9057840bdecc43c1d53203fdf3f62e899d6d9a2d6b64c71581ac4b966f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C0_detail.png",
+      "bytes": 15181,
+      "sha256": "84ad73d214d6a3e7dedb0f052f8b98537009af3b84c2a903cbe0b5b5a7700f35"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C0_full.png",
+      "bytes": 15181,
+      "sha256": "84ad73d214d6a3e7dedb0f052f8b98537009af3b84c2a903cbe0b5b5a7700f35"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C2_detail.png",
+      "bytes": 21169,
+      "sha256": "4fa0ea9e77e3f4f4ed48e605c8a8a57ee40212eecc755b26b2d2a15abd9c3c4c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C2_full.png",
+      "bytes": 21169,
+      "sha256": "4fa0ea9e77e3f4f4ed48e605c8a8a57ee40212eecc755b26b2d2a15abd9c3c4c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C5_detail.png",
+      "bytes": 11853,
+      "sha256": "1ba97bad32d34062e575ddbcec568a59451bc72358e808445d99575cca1ed2e8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\C5_full.png",
+      "bytes": 11853,
+      "sha256": "1ba97bad32d34062e575ddbcec568a59451bc72358e808445d99575cca1ed2e8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\comparison.png",
+      "bytes": 198799,
+      "sha256": "d42b93dad65bb896e3f3da6c408a1cddfdfd8bf526c35e3fd77faefa3482769b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__aug_01_shadow_recovered\\source.png",
+      "bytes": 7301,
+      "sha256": "64547d51085cae024d8fc8b51604f5cbe919792b9b9234368b7748edbcda7b72"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C0_detail.png",
+      "bytes": 4103,
+      "sha256": "7739f85aafc3dac056dbdffe5932daa06acde31318863418adcd1c38db8b8206"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C0_full.png",
+      "bytes": 4103,
+      "sha256": "7739f85aafc3dac056dbdffe5932daa06acde31318863418adcd1c38db8b8206"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C2_detail.png",
+      "bytes": 5666,
+      "sha256": "5bf21d4a3e937127fb69b4700076530cb6fbc91db91440e7c2ab6d95025808e9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C2_full.png",
+      "bytes": 5666,
+      "sha256": "5bf21d4a3e937127fb69b4700076530cb6fbc91db91440e7c2ab6d95025808e9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C5_detail.png",
+      "bytes": 5666,
+      "sha256": "5bf21d4a3e937127fb69b4700076530cb6fbc91db91440e7c2ab6d95025808e9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\C5_full.png",
+      "bytes": 5666,
+      "sha256": "5bf21d4a3e937127fb69b4700076530cb6fbc91db91440e7c2ab6d95025808e9"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\comparison.png",
+      "bytes": 114349,
+      "sha256": "8b6c5c8d34192c8f044a725906ebd6c75de89ee3b48b7ef6b7b6dc1c6087fa42"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00002__clean_recovered\\source.png",
+      "bytes": 1957,
+      "sha256": "68154c31093c996601939f63c358b7e253c1a7f94ef3b815141732a268cac0dc"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C0_detail.png",
+      "bytes": 15743,
+      "sha256": "8a23bb7f46e9efd5cab0173d74f137a51cf98734ea462cb0568a395e769dd2e7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C0_full.png",
+      "bytes": 15743,
+      "sha256": "8a23bb7f46e9efd5cab0173d74f137a51cf98734ea462cb0568a395e769dd2e7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C2_detail.png",
+      "bytes": 16138,
+      "sha256": "2670d757d62f052385bddb098ace61e5f243f2b36436cdea05061c107e73b910"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C2_full.png",
+      "bytes": 16138,
+      "sha256": "2670d757d62f052385bddb098ace61e5f243f2b36436cdea05061c107e73b910"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C5_detail.png",
+      "bytes": 16138,
+      "sha256": "2670d757d62f052385bddb098ace61e5f243f2b36436cdea05061c107e73b910"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\C5_full.png",
+      "bytes": 16138,
+      "sha256": "2670d757d62f052385bddb098ace61e5f243f2b36436cdea05061c107e73b910"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\comparison.png",
+      "bytes": 156193,
+      "sha256": "f3407b4b5051426fc76d61655f1a7b5f340c6ba056f223b231f2430f5234e80d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__aug_01_gaussian_blur_recovered\\source.png",
+      "bytes": 6194,
+      "sha256": "be3b05378c4e5a30fb5a49a8261ede8d81327bb5f5ccc92937e5941d9de63f6e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C0_detail.png",
+      "bytes": 5813,
+      "sha256": "fccd1a859ccf8dda7df1605d352a604177d25b05eedae24fb88081972ee3841e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C0_full.png",
+      "bytes": 5813,
+      "sha256": "fccd1a859ccf8dda7df1605d352a604177d25b05eedae24fb88081972ee3841e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C2_detail.png",
+      "bytes": 7417,
+      "sha256": "8d07e543ff129943e25875faad6db8e45e9d0a1f385d28c825410097c2810dde"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C2_full.png",
+      "bytes": 7417,
+      "sha256": "8d07e543ff129943e25875faad6db8e45e9d0a1f385d28c825410097c2810dde"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C5_detail.png",
+      "bytes": 7417,
+      "sha256": "8d07e543ff129943e25875faad6db8e45e9d0a1f385d28c825410097c2810dde"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\C5_full.png",
+      "bytes": 7417,
+      "sha256": "8d07e543ff129943e25875faad6db8e45e9d0a1f385d28c825410097c2810dde"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\comparison.png",
+      "bytes": 116774,
+      "sha256": "eddca69da3397d9ea06735cb2327ddd759a3d4b5d3187fd39ecfd317093e724f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00003__clean_recovered\\source.png",
+      "bytes": 2669,
+      "sha256": "da702384f0200fa0ca8ab828816f60ff058599b7eee08b9b9de7d038dd0e8d84"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C0_detail.png",
+      "bytes": 8914,
+      "sha256": "4ae8f363eef19c34265682bf6db9237c0f608b2de22c9cbbf21f93e66a52c510"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C0_full.png",
+      "bytes": 8914,
+      "sha256": "4ae8f363eef19c34265682bf6db9237c0f608b2de22c9cbbf21f93e66a52c510"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C2_detail.png",
+      "bytes": 8914,
+      "sha256": "4ae8f363eef19c34265682bf6db9237c0f608b2de22c9cbbf21f93e66a52c510"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C2_full.png",
+      "bytes": 8914,
+      "sha256": "4ae8f363eef19c34265682bf6db9237c0f608b2de22c9cbbf21f93e66a52c510"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C5_detail.png",
+      "bytes": 8583,
+      "sha256": "a590995675937347d3c011231ea2f00ddab8c5e0da5fa82a037430b84457ac87"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\C5_full.png",
+      "bytes": 8583,
+      "sha256": "a590995675937347d3c011231ea2f00ddab8c5e0da5fa82a037430b84457ac87"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\comparison.png",
+      "bytes": 106573,
+      "sha256": "0ab6cf5fc1ae3a9fc614207432db650919d557114b3acbc75c24169176a84af6"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__aug_01_gaussian_blur_contrast_correct\\source.png",
+      "bytes": 3253,
+      "sha256": "e8b448a88387da3006934a6f7cae73d48744b461dfed9ad456f27b2ae6884c10"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C0_detail.png",
+      "bytes": 4414,
+      "sha256": "3f81620ca04c795d7cfe84c23930fca50318d9ce83df57d1a5dd6365e4fe1174"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C0_full.png",
+      "bytes": 4414,
+      "sha256": "3f81620ca04c795d7cfe84c23930fca50318d9ce83df57d1a5dd6365e4fe1174"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C2_detail.png",
+      "bytes": 4414,
+      "sha256": "3f81620ca04c795d7cfe84c23930fca50318d9ce83df57d1a5dd6365e4fe1174"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C2_full.png",
+      "bytes": 4414,
+      "sha256": "3f81620ca04c795d7cfe84c23930fca50318d9ce83df57d1a5dd6365e4fe1174"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C5_detail.png",
+      "bytes": 4414,
+      "sha256": "3f81620ca04c795d7cfe84c23930fca50318d9ce83df57d1a5dd6365e4fe1174"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\C5_full.png",
+      "bytes": 4414,
+      "sha256": "3f81620ca04c795d7cfe84c23930fca50318d9ce83df57d1a5dd6365e4fe1174"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\comparison.png",
+      "bytes": 82776,
+      "sha256": "2b35354afe870c1678687abd608b7ff5f13422cec330e55decdf6f2338fe7291"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00008__clean_correct\\source.png",
+      "bytes": 1596,
+      "sha256": "db6d9a9e123cdf760c73070165dfe384efa12a1ab01fe714420aa88c6b1dc195"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C0_detail.png",
+      "bytes": 10759,
+      "sha256": "a01c60bace5acc237bb0b506fb6a75441b7fb7248b375b1b6df400235cfb1cb0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C0_full.png",
+      "bytes": 10759,
+      "sha256": "a01c60bace5acc237bb0b506fb6a75441b7fb7248b375b1b6df400235cfb1cb0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C2_detail.png",
+      "bytes": 10759,
+      "sha256": "a01c60bace5acc237bb0b506fb6a75441b7fb7248b375b1b6df400235cfb1cb0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C2_full.png",
+      "bytes": 10759,
+      "sha256": "a01c60bace5acc237bb0b506fb6a75441b7fb7248b375b1b6df400235cfb1cb0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C5_detail.png",
+      "bytes": 10759,
+      "sha256": "a01c60bace5acc237bb0b506fb6a75441b7fb7248b375b1b6df400235cfb1cb0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\C5_full.png",
+      "bytes": 10759,
+      "sha256": "a01c60bace5acc237bb0b506fb6a75441b7fb7248b375b1b6df400235cfb1cb0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\comparison.png",
+      "bytes": 128851,
+      "sha256": "36584509c832eda88fe646361abcbf8e4c333e5f17e4d2f3e9a6d64fc35e5558"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__aug_01_resolution_correct\\source.png",
+      "bytes": 4300,
+      "sha256": "d27adce309679964057ad2c696a8cc8b7bcae43869963bc797f440238a32fd35"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C0_detail.png",
+      "bytes": 6027,
+      "sha256": "62183158f6c7e658ad6a67486d338e420fe73381c1d7eee9fdc6a4d2037de448"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C0_full.png",
+      "bytes": 6027,
+      "sha256": "62183158f6c7e658ad6a67486d338e420fe73381c1d7eee9fdc6a4d2037de448"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C2_detail.png",
+      "bytes": 6036,
+      "sha256": "b6e574943c3ae34e70cddd9bc78955911f7148b6ebad0043070ab524fbf49750"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C2_full.png",
+      "bytes": 6036,
+      "sha256": "b6e574943c3ae34e70cddd9bc78955911f7148b6ebad0043070ab524fbf49750"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C5_detail.png",
+      "bytes": 6036,
+      "sha256": "b6e574943c3ae34e70cddd9bc78955911f7148b6ebad0043070ab524fbf49750"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\C5_full.png",
+      "bytes": 6036,
+      "sha256": "b6e574943c3ae34e70cddd9bc78955911f7148b6ebad0043070ab524fbf49750"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\comparison.png",
+      "bytes": 108803,
+      "sha256": "53792337d5676c1076f2786cb4467c241cb8d0729d080695bb70ff4ece112280"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00016__clean_correct\\source.png",
+      "bytes": 2248,
+      "sha256": "b5f048749ddd9ecd1ee5603380ca182124c67a323d80529be530147e9b577d5f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C0_detail.png",
+      "bytes": 6563,
+      "sha256": "fcc9304645275815a98a2bb5aff6cc24b05474bbdaa2216815bca0b2e885ea92"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C0_full.png",
+      "bytes": 6563,
+      "sha256": "fcc9304645275815a98a2bb5aff6cc24b05474bbdaa2216815bca0b2e885ea92"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C2_detail.png",
+      "bytes": 7015,
+      "sha256": "f149e18b1fea20c6f3ed01c2f8150bbd371be309a551b247ccd20aea89662656"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C2_full.png",
+      "bytes": 7015,
+      "sha256": "f149e18b1fea20c6f3ed01c2f8150bbd371be309a551b247ccd20aea89662656"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C5_detail.png",
+      "bytes": 6563,
+      "sha256": "fcc9304645275815a98a2bb5aff6cc24b05474bbdaa2216815bca0b2e885ea92"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\C5_full.png",
+      "bytes": 6563,
+      "sha256": "fcc9304645275815a98a2bb5aff6cc24b05474bbdaa2216815bca0b2e885ea92"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\comparison.png",
+      "bytes": 81442,
+      "sha256": "8d0e9f5a887473ff776c2c4967e2dba5f6f67306c0aa2aceb96c66d766af0f9f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__aug_01_jpeg_rejection\\source.png",
+      "bytes": 2692,
+      "sha256": "a74c529a7e06d6eb03878c8f14f263ad38ffaee8ee7279bb8cb356d1582d0ed0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C0_detail.png",
+      "bytes": 3543,
+      "sha256": "498dbfbf9d0e8a44c064bc0cc755fc90bbcd5a7f8dfc439bd6879c23a1de28b4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C0_full.png",
+      "bytes": 3543,
+      "sha256": "498dbfbf9d0e8a44c064bc0cc755fc90bbcd5a7f8dfc439bd6879c23a1de28b4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C2_detail.png",
+      "bytes": 4766,
+      "sha256": "6e2d911adcc4c5ca628ae0785e717b70150f7fd734bf5ae32868b2e1acd69306"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C2_full.png",
+      "bytes": 4766,
+      "sha256": "6e2d911adcc4c5ca628ae0785e717b70150f7fd734bf5ae32868b2e1acd69306"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C5_detail.png",
+      "bytes": 3543,
+      "sha256": "498dbfbf9d0e8a44c064bc0cc755fc90bbcd5a7f8dfc439bd6879c23a1de28b4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\C5_full.png",
+      "bytes": 3543,
+      "sha256": "498dbfbf9d0e8a44c064bc0cc755fc90bbcd5a7f8dfc439bd6879c23a1de28b4"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\comparison.png",
+      "bytes": 70527,
+      "sha256": "752bbc20640740c27ee18c4b11c05a38a37981345350d7ecfce17bddd5dee980"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00024__clean_rejection\\source.png",
+      "bytes": 1678,
+      "sha256": "85ad668623660d6e36133fafc4b430cd61f1e847fffbe3cf0aba312fc1f3695e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C0_detail.png",
+      "bytes": 24282,
+      "sha256": "208446c7f36d3b7c520898e3fdd97127d1c679a8e4b0f0e5b5f4bb36a59d6c1d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C0_full.png",
+      "bytes": 24282,
+      "sha256": "208446c7f36d3b7c520898e3fdd97127d1c679a8e4b0f0e5b5f4bb36a59d6c1d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C2_detail.png",
+      "bytes": 24298,
+      "sha256": "13d61f9789b56eb98b939ebe703de2d1fa1583d7ee9620d684a3a81f56cd836a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C2_full.png",
+      "bytes": 24298,
+      "sha256": "13d61f9789b56eb98b939ebe703de2d1fa1583d7ee9620d684a3a81f56cd836a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C5_detail.png",
+      "bytes": 24298,
+      "sha256": "13d61f9789b56eb98b939ebe703de2d1fa1583d7ee9620d684a3a81f56cd836a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\C5_full.png",
+      "bytes": 24298,
+      "sha256": "13d61f9789b56eb98b939ebe703de2d1fa1583d7ee9620d684a3a81f56cd836a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\comparison.png",
+      "bytes": 272821,
+      "sha256": "08d05543ea7cba1126da288cbe2a403593f41f2061f5716d56c1b2ee38fa40f5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__aug_01_brightness_noise_regression\\source.png",
+      "bytes": 12000,
+      "sha256": "78cfe633884d13ff24e7919e58d98ba2dcb2479a3856cf89eb0e51cd335da5f0"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C0_detail.png",
+      "bytes": 4826,
+      "sha256": "765e14e80ab04db79e37c17078f9806c0b4153d513c5eeeadc8e984f90bea4e5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C0_full.png",
+      "bytes": 4826,
+      "sha256": "765e14e80ab04db79e37c17078f9806c0b4153d513c5eeeadc8e984f90bea4e5"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C2_detail.png",
+      "bytes": 4852,
+      "sha256": "99baff3c60ac20c5cccaf49f0a96167f1898505ffb761feb9a308323add653a8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C2_full.png",
+      "bytes": 4852,
+      "sha256": "99baff3c60ac20c5cccaf49f0a96167f1898505ffb761feb9a308323add653a8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C5_detail.png",
+      "bytes": 4852,
+      "sha256": "99baff3c60ac20c5cccaf49f0a96167f1898505ffb761feb9a308323add653a8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\C5_full.png",
+      "bytes": 4852,
+      "sha256": "99baff3c60ac20c5cccaf49f0a96167f1898505ffb761feb9a308323add653a8"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\comparison.png",
+      "bytes": 92087,
+      "sha256": "c32dbfdadc1a9b237d939cf6491fab3c67e61b5d9e607cee5ede88c2de6649cc"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00025__clean_regression\\source.png",
+      "bytes": 1757,
+      "sha256": "6fdfbeb9782720af81030d991112048951f0b9d5605abe7979b4a32c15648a4c"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C0_detail.png",
+      "bytes": 16213,
+      "sha256": "43329ee39537f2ba6dab594ffab05618c6108f476854ac6bf65e28690a7fbf0d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C0_full.png",
+      "bytes": 16213,
+      "sha256": "43329ee39537f2ba6dab594ffab05618c6108f476854ac6bf65e28690a7fbf0d"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C2_detail.png",
+      "bytes": 21995,
+      "sha256": "163f2dd5eec4f0e8e5bfa37935deac72781f560bc71b6aaa99ea0287052715cd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C2_full.png",
+      "bytes": 21995,
+      "sha256": "163f2dd5eec4f0e8e5bfa37935deac72781f560bc71b6aaa99ea0287052715cd"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C5_detail.png",
+      "bytes": 10480,
+      "sha256": "a69570f1905b9cad5f63d8a4c2e8053af98c79bc5bd8f246ab8083382b12947e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\C5_full.png",
+      "bytes": 10480,
+      "sha256": "a69570f1905b9cad5f63d8a4c2e8053af98c79bc5bd8f246ab8083382b12947e"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\comparison.png",
+      "bytes": 166456,
+      "sha256": "e13068d7e5df11e5338f9688c7c306c936fb16f98262d395fb215eebe7031ef7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00026__aug_01_perspective_shadow_wrong_acceptance\\source.png",
+      "bytes": 7795,
+      "sha256": "098cd44772e3bad8175da8e4fed7eae97f21dc0d7df0f43dab7aa93a7061dc5b"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C0_detail.png",
+      "bytes": 5104,
+      "sha256": "b69411fb48782b468a462d3d6ec80a48ec59ec8ec5bcca7cccd6dd49b58ef620"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C0_full.png",
+      "bytes": 5104,
+      "sha256": "b69411fb48782b468a462d3d6ec80a48ec59ec8ec5bcca7cccd6dd49b58ef620"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C2_detail.png",
+      "bytes": 6237,
+      "sha256": "ccc1ff654a40ef03b836ac84a693e394d31f08afe5597669131e21eaf66473c1"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C2_full.png",
+      "bytes": 6237,
+      "sha256": "ccc1ff654a40ef03b836ac84a693e394d31f08afe5597669131e21eaf66473c1"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C5_detail.png",
+      "bytes": 6237,
+      "sha256": "ccc1ff654a40ef03b836ac84a693e394d31f08afe5597669131e21eaf66473c1"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\C5_full.png",
+      "bytes": 6237,
+      "sha256": "ccc1ff654a40ef03b836ac84a693e394d31f08afe5597669131e21eaf66473c1"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\comparison.png",
+      "bytes": 105295,
+      "sha256": "31307e9b2be75a3918e5ba9f48ee3c74a39b2f00fd2a5d836b549ab347dd6743"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00035__clean_wrong_acceptance\\source.png",
+      "bytes": 2312,
+      "sha256": "3d1061fcbd0135adef7f73997cfa6900c34b3c153c9519a727c73239a0efbc33"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C0_detail.png",
+      "bytes": 9045,
+      "sha256": "76dbc6c3dd36bbeb0cdd1d180bb6b1c128ccd08a934af12fbaeedb189c138844"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C0_full.png",
+      "bytes": 9045,
+      "sha256": "76dbc6c3dd36bbeb0cdd1d180bb6b1c128ccd08a934af12fbaeedb189c138844"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C2_detail.png",
+      "bytes": 9048,
+      "sha256": "7f64b2426506e6ccc14d9a50c6d03c96fc8575ffa27fa0959b0106ce9a235b32"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C2_full.png",
+      "bytes": 9048,
+      "sha256": "7f64b2426506e6ccc14d9a50c6d03c96fc8575ffa27fa0959b0106ce9a235b32"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C5_detail.png",
+      "bytes": 9045,
+      "sha256": "d0faf508b668d657235f0433be008b50d3ae8fd754cfd300a2066fbaee710fb7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\C5_full.png",
+      "bytes": 9045,
+      "sha256": "d0faf508b668d657235f0433be008b50d3ae8fd754cfd300a2066fbaee710fb7"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\comparison.png",
+      "bytes": 120891,
+      "sha256": "b1e3da3d00f42c3026b9ba513a5bb11fb966676ef38095aa18e8ecdf26cfc030"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__aug_01_perspective_regression\\source.png",
+      "bytes": 3575,
+      "sha256": "63a0e07d77c2be0a7be71a8cd8ce91c9d3a8887ed85a933d8798aa3f59045650"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C0_detail.png",
+      "bytes": 6174,
+      "sha256": "9572fa003f59b99dd4ad41f62dd395def1e4e013697be02809e14a9c0a32e8f2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C0_full.png",
+      "bytes": 6174,
+      "sha256": "9572fa003f59b99dd4ad41f62dd395def1e4e013697be02809e14a9c0a32e8f2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C2_detail.png",
+      "bytes": 6189,
+      "sha256": "0b55a4ee2a3779f7f0fbcde0291caa4ed6dfc9b58bce2547540b5ffe246b80b2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C2_full.png",
+      "bytes": 6189,
+      "sha256": "0b55a4ee2a3779f7f0fbcde0291caa4ed6dfc9b58bce2547540b5ffe246b80b2"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C5_detail.png",
+      "bytes": 5053,
+      "sha256": "78f4824b5cddaae66d91cf31fc31ba601c78f59b4b46793bc83f46ae5954172a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\C5_full.png",
+      "bytes": 5053,
+      "sha256": "78f4824b5cddaae66d91cf31fc31ba601c78f59b4b46793bc83f46ae5954172a"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\comparison.png",
+      "bytes": 111770,
+      "sha256": "9d609dffb596dba328eb0c711237bb9eae75cd6961d0f9eb61b9db61c759f004"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00049__clean_regression\\source.png",
+      "bytes": 2291,
+      "sha256": "2c55d53869093651b61d014b8082fd73d120169d23f2c5f9d737d88601488781"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C0_detail.png",
+      "bytes": 13448,
+      "sha256": "c28c0b0ad6dea1325788588d5035c24b9a0278039dec6a8445d74b9176573161"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C0_full.png",
+      "bytes": 13448,
+      "sha256": "c28c0b0ad6dea1325788588d5035c24b9a0278039dec6a8445d74b9176573161"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C2_detail.png",
+      "bytes": 13061,
+      "sha256": "774c5b9bc5f2f1f706d9f251df4cd029edfa0d20310cf51a211c3151cd21044f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C2_full.png",
+      "bytes": 13061,
+      "sha256": "774c5b9bc5f2f1f706d9f251df4cd029edfa0d20310cf51a211c3151cd21044f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C5_detail.png",
+      "bytes": 13061,
+      "sha256": "774c5b9bc5f2f1f706d9f251df4cd029edfa0d20310cf51a211c3151cd21044f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\C5_full.png",
+      "bytes": 13061,
+      "sha256": "774c5b9bc5f2f1f706d9f251df4cd029edfa0d20310cf51a211c3151cd21044f"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\comparison.png",
+      "bytes": 149289,
+      "sha256": "09d47c89a3e6e6ba1d359fdfeb42f64cb2c80350f28b01aa63a8e69244480689"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00231__aug_01_perspective_wrong_acceptance\\source.png",
+      "bytes": 5200,
+      "sha256": "3e32b9190e41eb28bdc271f7d242800848ce64833821c0dc5eb20ffc8517f256"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C0_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C0_detail.png",
+      "bytes": 5200,
+      "sha256": "d8d6cb5438e3e92021482550b48679ac1b8afe3b1d998aba560807dcfe497efb"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C0_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C0_full.png",
+      "bytes": 5200,
+      "sha256": "d8d6cb5438e3e92021482550b48679ac1b8afe3b1d998aba560807dcfe497efb"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C2_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C2_detail.png",
+      "bytes": 6519,
+      "sha256": "d163f822d82c43a3ff46a00cb19c7c0c503b5c207ff64dfa8e7f05dbe258d526"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C2_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C2_full.png",
+      "bytes": 6519,
+      "sha256": "d163f822d82c43a3ff46a00cb19c7c0c503b5c207ff64dfa8e7f05dbe258d526"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C5_detail.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C5_detail.png",
+      "bytes": 6519,
+      "sha256": "d163f822d82c43a3ff46a00cb19c7c0c503b5c207ff64dfa8e7f05dbe258d526"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C5_full.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\C5_full.png",
+      "bytes": 6519,
+      "sha256": "d163f822d82c43a3ff46a00cb19c7c0c503b5c207ff64dfa8e7f05dbe258d526"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\comparison.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\comparison.png",
+      "bytes": 115524,
+      "sha256": "9ee090d7b7a467d696330f37f047e0a520b831b8874c252d02476316ef07b760"
+    },
+    {
+      "path": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\source.png",
+      "relative_path": "reports\\experiments_v1\\examples\\positive_edge_00270__clean_wrong_acceptance\\source.png",
+      "bytes": 2296,
+      "sha256": "57e9d1b11a05f3740ab7fc92b3e1dd3cb5cf88d983b4a61f595434f6c30de01f"
+    }
+  ]
+}
