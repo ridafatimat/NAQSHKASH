@@ -1,0 +1,12 @@
+{
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\core.py": "ab816e49727e47450c29dd8963666624121dcf799e3cd1406b905345b121fee1",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\pipeline.py": "b0df9c093e85542abe858d8ea182a80cb68274183a5460cb4b79574e0dbda090",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\pilot.py": "f6f4ef53d10f4790e77f625f19aea152d2da9d5f88e5238780b5f109b0b1c68d",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\reference.py": "22559cedc9f8582c88dc92762d1ce4f344989c724dbec42c3672527cb03e09be",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\run.py": "aacca3b44358267a4fec3124f170b9c5384496a31fbe47612e88a15e4ede259d",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\preprocessing\\geometry.py": "40bd1cc19f66a8452643265c0689c09f34c12bdf3bdad57fa4fa68ef423e7de8",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\preprocessing\\photometric.py": "a5544ed89d34b8165cd6c2befd2c540c2599d3cf6a90efea980fd99a9a821597",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\freeze.py": "cf2f842fd9273ac0a6d4dbacefd4e69933982b0104c687f3284abd9f8ccbfbad",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\segmentation\\engine.py": "7787d35f84babaca4a7c4c1079b354a0413801ee2b7699d9f77c006b4cbcb860",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\tests\\test_contracts.py": "a47e5b9406565fc8b3912e83fc88eaac77eac0589f1b90eeb83f51ee860b5701"
+}

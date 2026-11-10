@@ -1,0 +1,27 @@
+{
+  "locked_files": {
+    "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\manifests\\parents.csv": "21e7f1eae6edeedfec4a0267fca225c7d11ae2402931fd0ec29b3c5e47fcf1f5",
+    "C:\\NAQSHKASH\\stage2\\positive_edge_cases\\checkpoints\\stage1\\best.pt": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f",
+    "C:\\NAQSHKASH\\stage2\\positive_edge_cases\\manifests\\parent_assignments_complete_v1.json": "4b905d61fbc0da0837161e2850acca59f0319f288a4d290512bb9d8d92c7c799",
+    "C:\\FYP Dataset Generation\\datasets\\talim_edge_cases_positive_v1.zip": "620bb2d4fab20bf1c483e8537ba0a8b17eadc2f1b057392e071345d5e5dd64fc",
+    "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\design.json": "8880c2a6b5b8f50281ea23ea35eaed13499231bddbfc2594688d0cd23d865224",
+    "C:\\FYP Dataset Generation\\datasets\\talim_10000.zip": "1b514073c523f1d6edff608a242dc49626c4c44f83f2aeaef6a2a14222203206",
+    "C:\\NAQSHKASH\\stage2\\scanned_robustness\\manifests\\parents.csv": "9f86130c6822f2fc535fc569e088c896e4094fa35822c9752c74ceb49b465098",
+    "C:\\FYP Dataset Generation\\datasets\\talim_10000_scanned.zip": "72e4442fc3dd161ab9bf794006adb35da52b39f196db4bfbd5319d08cfaf2798",
+    "C:\\NAQSHKASH\\stage2\\scanned_robustness\\reports\\dataset_audit.json": "9e3b4b99b2ad2a4c4599ab90bc6e74d3b4b302e8f83fdc9536c0afb04f9558ab",
+    "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\manifests\\pages.csv": "8ff08ea20a4def021832ded03b6bb21e0a41a9990cb2c662e406cb9244dd636e",
+    "C:\\FYP Dataset Generation\\dataset_tools\\talim\\renderer.py": "2969d4a71c33b4c935c9125ba517b77413c57cd9b27e8391f4a6f7d0e62bc068",
+    "C:\\FYP Dataset Generation\\talamat_scan_scripts_v1_1\\talamat_scan_augment.py": "39ab58f6402626135e4752f1736384b28a2641f2647180e43b03dbc47abe04fe",
+    "C:\\NAQSHKASH\\stage2\\scanned_robustness\\manifests\\all_variants.csv": "c5b908e797afc7f3b8ecd33f96d2459cfe18defc660a08ef4a5eed754d91128a",
+    "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\protocol\\candidates.json": "3a1f76b1a8d39b9fcb424f1054d1e2d1d5928e7de9048966c85fb979ebcd36dd",
+    "C:\\NAQSHKASH\\data\\collate.py": "74f39a431bca79c825e9690220eb861a6c7b4d3b59b3db5af08f7899bf5c246c",
+    "C:\\NAQSHKASH\\data\\ctc_decode.py": "44835d19fc48f7596a6c8615a21ab0cb0dd643b8db0476aa6adaa578244e3f34",
+    "C:\\FYP Dataset Generation\\Final dataset\\talim_100000.zip": "8de344a69052075adb6659d19c75c640fd9dfb7f13335535df88289749320efa",
+    "C:\\NAQSHKASH\\stage2\\scanned_robustness\\manifests\\evaluation_pages.csv": "b5d38b2f393665a832a4ef00d7034107f4958dcb9e5681693bb986a3ccaf0262",
+    "C:\\FYP Dataset Generation\\datasets\\talim_edge_cases_positive_scanned_v1.zip": "abafe1b8556633ed965caf286a6789981e5f43b0f5dc051dc0f678b3573aeb0b",
+    "C:\\NAQSHKASH\\config\\vocabulary.json": "d988d951967399b64e45594153c345b09d5edb421940577ab038456b99defbb0",
+    "C:\\FYP Dataset Generation\\NAQSHKASH_Stage1_Kaggle_Training\\manifests\\stratified_train_150k.csv": "728fdd76402d5502cddf2ee32c8d198e893100d9d08e0f81888f96b75abdca7f"
+  },
+  "scope": "Parent-isolated preprocessing development; no independent test claim",
+  "stage1_checkpoint_sha256": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f"
+}
