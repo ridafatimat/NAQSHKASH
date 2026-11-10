@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "admission_revision": "conservative_visual_alias_guard_v2",
+  "seed": 20261106,
+  "preflight_per_category": 10,
+  "full_parents": 1000,
+  "categories": ["wrong_tier", "invalid_count_token", "missing_count"],
+  "font_size_px": 48,
+  "variants_per_clean_image": 1,
+  "rule_scope": "existing fixed-font canonical three-tier renderer; no claims about unverified historical dialects",
+  "full_requires_complete_history_index": true,
+  "preflight_namespace": "v2_preflight_design_only",
+  "full_namespace": "v2_full_independent_sources",
+  "scan_policy": "lossless mild illumination-style PNG only; every cell must match independently transformed glyph evidence; lossy/spatial recipes deferred",
+  "human_review": "not_reviewed",
+  "no_ctc_target_for_invalid": true
+}

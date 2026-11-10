@@ -1,0 +1,34 @@
+{
+  "dataset": "dataset/preflight",
+  "manifest_sha256": "75af85dac10e66975bded05ea73814c84980fd89a9ce463adde564c5256f0e41",
+  "counts": {
+    "mode": "preflight",
+    "source_parents": 30,
+    "images": 120,
+    "clean_invalid": 30,
+    "clean_valid_controls": 30,
+    "scanned_style_images": 60,
+    "independently_verified_invalid_images": 60,
+    "domain_review_images": 0,
+    "validity_counts": {
+      "VALID": 60,
+      "INVALID": 60
+    },
+    "clean_invalid_by_category": {
+      "wrong_tier": 10,
+      "invalid_count_token": 10,
+      "missing_count": 10
+    },
+    "split_source_parents": {
+      "development_design": 30
+    },
+    "human_reviewed_images": 0,
+    "excluded_parent_candidates": 0,
+    "duplicate_images": [],
+    "parent_disjoint": true,
+    "mutation_family_disjoint": true,
+    "byte_hash_disjoint": true
+  },
+  "excluded_provisional_collection": "dataset/quarantined_preflight_v0",
+  "provisional_images_not_eligible": 120
+}

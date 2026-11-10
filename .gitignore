@@ -1,9 +1,9 @@
 *.zip
 *.pt
-*.npz
+*.pth
+*.ckpt*.npz
 *.bak
 *.lock
-__pycache__/
 **/per_image.jsonl
 **/observations.jsonl
 **/records/
