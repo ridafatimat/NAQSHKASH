@@ -35,4 +35,13 @@ outputs/
 checkpoints/
 *.pt
 *.pth
-*.ckpt
+*.ckpt*.npz
+*.bak
+*.lock
+**/per_image.jsonl
+**/observations.jsonl
+**/records/
+**/assets/
+**/metrics/*/results.json
+stage2f_negative_dataset_v2/dataset/
+stage2f_negative_dataset_v2/manifests/history_full_*.json
