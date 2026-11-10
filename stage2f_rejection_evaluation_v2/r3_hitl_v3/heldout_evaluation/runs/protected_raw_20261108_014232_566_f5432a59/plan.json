@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "kind": "authorized_heldout_raw",
+  "split": "protected_test",
+  "dataset_manifest_sha256": "5b2ce4a3c6acb080ac14cbafb84d974684a2e3a475973d0470b83b8462cd29df",
+  "selection_sha256": "eb57395119cdd7908a59036aec42aa3b8d22a2a3b416190440779f000add7541",
+  "release_sha256": "c64da891572188113f2ad9962892f4b022d978b18696841b1b1a3b8c42e292d3",
+  "policy_id": "R3_HITL_V3",
+  "checkpoint_sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+  "execution_environment": {
+    "actual_device": "cpu",
+    "python": "3.12.10",
+    "torch": "2.2.2+cpu",
+    "numpy": "1.26.4",
+    "opencv": "4.13.0",
+    "Pillow": "10.2.0",
+    "batching": "original single-tier forward",
+    "seed_policy": "per-record deterministic42"
+  },
+  "authorization": "I_AUTHORIZE_PROTECTED_TEST_AFTER_VALIDATION_REVIEW",
+  "validation_reviewed_completion_sha256": "1e5a5564b789dfba075d636cdd5b22e22a606324eba4cf6017bfa63e595648ab",
+  "inference_contract": "original FrozenPipeline.observe(bytes), CPU, unchanged D1/E1, same per-record seed; no labels/targets",
+  "records": 600,
+  "parents": 150
+}

@@ -1,0 +1,6 @@
+"Algorithm","Hash","Path"
+"SHA256","0A7BB8AB601F81F28D70CBBBE2A69CA93FEE2BF75C731E3A3E98B897CA877940","C:\NAQSHKASH\stage2\stage2f_rejection_evaluation_v2\r3_hitl_v3\frozen_release\configs\policy_v3.json"
+"SHA256","C81CC8EC3D1C799042144D94261ACDFD95CE56E7DC088F731E5F63D51F49ADD0","C:\NAQSHKASH\stage2\stage2f_rejection_evaluation_v2\r3_hitl_v3\frozen_release\src\evaluate_v3.py"
+"SHA256","0AD3146060C84F0456ADDD5345C97DDAFA7993789E3DC5B950372951619C2890","C:\NAQSHKASH\stage2\stage2f_rejection_evaluation_v2\r3_hitl_v3\frozen_release\src\localization_metrics.py"
+"SHA256","BB32C65D70662A5FB415D62435D1510C7EF3D1CAC250579D548BA2096E8307C1","C:\NAQSHKASH\stage2\stage2f_rejection_evaluation_v2\r3_hitl_v3\frozen_release\src\policy_v3.py"
+"SHA256","6B65028BE40A3ED9EA32ECA8B8604C356BAD7EE54A2B31D470905A2C2E68E88D","C:\NAQSHKASH\stage2\stage2f_rejection_evaluation_v2\r3_hitl_v3\frozen_release\src\review_overlay.py"

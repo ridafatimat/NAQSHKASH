@@ -1,0 +1,22 @@
+{
+  "passed": 71,
+  "failed": 0,
+  "tests_run": 71,
+  "created_UTC": "2026-11-07T16:27:35.998500+00:00",
+  "python": "3.12.10",
+  "command": "python -B -m unittest discover -s tests",
+  "scope": "Lightweight synthetic tests plus three cached pitch fixtures and a mocked single-record evaluator. No full development run, real D1 rerun, OCR, training or held-out image reads.",
+  "source_sha256": {
+    "src/evaluate_v3_1.py": "0e4851840caf98769160af8b004923a60a4c1605aada0c1f51995171f0c30c3d",
+    "src/ink_measurement.py": "cc2c568abc0b4944af00c6098ea2485416b2718309c21021c1275f1fa8244ab3",
+    "src/offline_scoring.py": "3a1dd641f4e89181b3076e0b9bcef8dfc741518f5f9be4adc82c81b8f312d761",
+    "src/paths_v3_1.py": "4dd381aae76e83f90bec6292ed4e5fb4362fec49a873011c2673a09c94a29a3c",
+    "src/policy_v3_1.py": "566c2a7180e595a10c65b27ac698c0de02907ae4b3adae4e4e5ffdc5e84a6390",
+    "configs/policy_v3_1.json": "2d05463e903763c64bf4e832c910fbe7d508fde9d2d4c3b9e174a966fa9b531d",
+    "tests/cached_pitch_examples.json": "48147f9c3e105bba706223743347c7113703c077d4a73539d156f2d416832b3a",
+    "tests/test_evaluation.py": "826f99b7c5a2ac1ca9499fab4b300c91842e88b62f5bc771b72b99bd572d19bc",
+    "tests/test_ink_measurement.py": "b8d9763bb72ed6101d219b1f256a2148267f0e3e8c5a22b6bc7745aece418389",
+    "tests/test_policy_v3_1.py": "6b20d91cda94f6669d86f284b78ac1d101452ce6935ac5e204924e338395073a",
+    "tests/test_targeted_fix.py": "ec87192c97f1f506e9dd0ab3780c6d830153597ffe23e876c7996c161897e061"
+  }
+}

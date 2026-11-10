@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "status": "COMPLETE",
+  "policy_id": "R3_HITL_V3",
+  "images": 2800,
+  "parents": 700,
+  "outputs": {
+    "run_manifest.json": "26c18d104a98e87c99648e30ce4b5b662ed0c3746f68998de1f09d7466e611af",
+    "geometry_provenance.json": "ec8ab2b1f33a8f290dd21353a32b55e486ffc19f96965874d55353d839ea94e8",
+    "metrics.json": "c93ced71da5d1b197c41d08a295fedb3e16d6cc3f3d81c067e8c32404ace9b38",
+    "per_image.jsonl": "e563ce135d37ecca4484eb14b166a5aa0b47086b6aa7376b9017f8787a3f96e2",
+    "Stage1_differences.csv": "5baf8ca3e20ab403591aa5736a5ad74e5fd233b0e94985c29e8c2048818c6984",
+    "outcomes.csv": "f19c1e87c6fcf61e6589fd2791ed7f815bc5632bdf760f9c914fba067ced3bc1",
+    "report.md": "e7d4250e37f2436417eafd5764fcd223745259770f93664d4606925444a0c3a3"
+  }
+}

@@ -53,14 +53,21 @@ def _binarize_ink(
     else:
         raise ValueError(f"Unsupported image shape {image.shape}. Expected 2D or 3D array.")
 
-    # Detect polarity if not specified
+    # Detect polarity if not specified.
+    # Paper is "bright" if EITHER the outer 1px ring OR the whole image is mostly bright:
+    #  * ring only  -> fails on scans with a dark scanner border / shadow (ring is dark but
+    #                  the page inside is bright paper);
+    #  * median only -> fails on dense, tightly cropped crops where ink covers >50% of pixels.
+    # Using "either is bright" handles both; a genuinely inverted page (light ink on dark
+    # paper) is dark in both statistics and is still detected.
     if dark_ink is None:
         border_pixels = np.concatenate([
             gray[0, :], gray[-1, :],
             gray[:, 0], gray[:, -1]
         ])
-        bg_intensity = float(np.median(border_pixels))
-        is_dark_ink = bg_intensity > 127.0
+        ring_bright = float(np.median(border_pixels)) > 127.0
+        global_bright = float(np.median(gray)) > 127.0
+        is_dark_ink = ring_bright or global_bright
     else:
         is_dark_ink = dark_ink
 
@@ -104,7 +111,32 @@ def _binarize_ink(
         if np.all(ink_mask) and np.std(gray) < 5.0:
             ink_mask = np.zeros_like(gray, dtype=bool)
 
-    return ink_mask
+    return _remove_border_artifacts(ink_mask)
+
+
+def _remove_border_artifacts(mask: np.ndarray, span_ratio: float = 0.6) -> np.ndarray:
+    """
+    Remove scanner-border / frame / shadow-edge blobs from a boolean ink mask.
+
+    A connected component is treated as an artefact only if it TOUCHES the image edge and
+    spans at least `span_ratio` of the image width or height (a page frame or dark scanner
+    bar). Small edge-touching glyphs (real symbols cut by the border) are preserved.
+    """
+    if not mask.any():
+        return mask
+    H, W = mask.shape
+    labeled, n = ndimage.label(mask)
+    if n == 0:
+        return mask
+    out = mask.copy()
+    for k, sl in enumerate(ndimage.find_objects(labeled), start=1):
+        ys, xs = sl
+        touches = ys.start == 0 or xs.start == 0 or ys.stop == H or xs.stop == W
+        if not touches:
+            continue
+        if (ys.stop - ys.start) >= span_ratio * H or (xs.stop - xs.start) >= span_ratio * W:
+            out[labeled == k] = False
+    return out
 
 
 def crop_margins(

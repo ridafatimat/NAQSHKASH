@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "status": "COMPLETE",
+  "policy_id": "R3_HITL_V3_1",
+  "split": "development_design",
+  "images": 2800,
+  "parents": 700,
+  "outputs": {
+    "run_manifest.json": "b6f0b7fb48a364f9aba1693ad77fcff143cb945a001cd89a0fd3f9d747fc6cc2",
+    "metrics.json": "7997ff398444ce9d15fac519d662af0247fb1847318f47f9870cbf2c8d65f6b1",
+    "per_image.jsonl": "d43bc0743f58d3fcc31677f95baf04ac9e847caaba3e8aa07341b41c52337d38",
+    "outcomes.csv": "f925d396c5dec09814009109e4c817d978586d9c70afd7d678afb428901f592c",
+    "R3_differences.csv": "f8b9d0609732d2bec9212262b1a81fb7dfb995823ec3a820e3f576bed4559bae",
+    "measurement_diagnostics.json": "6b35eca946d29e3693b8d0c086b8626c59485ce24304a956e6072ba8770278f3",
+    "report.md": "a72353c604956bec8c867bda774dc654e7c5d4380603aa7e56a2093342975faa"
+  },
+  "input_R3_completion_sha256": "73bdd6f8b0cc302dacb76cf12b6ad6c056808f92ef8151256cbdba05ea34b972"
+}

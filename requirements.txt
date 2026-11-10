@@ -1,5 +1,7 @@
-numpy
-opencv-python
-scipy
-torch
-pytest
+numpy>=1.26,<2
+opencv-python>=4.8
+scipy>=1.11
+pillow>=10
+torch>=2.3
+pytest>=8
+matplotlib>=3.8
