@@ -1,0 +1,38 @@
+{
+  "C0": {
+    "normalize": false,
+    "robust": false,
+    "geometry": false,
+    "conservative": false
+  },
+  "C1": {
+    "normalize": true,
+    "robust": false,
+    "geometry": false,
+    "conservative": false
+  },
+  "C2": {
+    "normalize": false,
+    "robust": true,
+    "geometry": false,
+    "conservative": false
+  },
+  "C3": {
+    "normalize": false,
+    "robust": false,
+    "geometry": true,
+    "conservative": false
+  },
+  "C4": {
+    "normalize": true,
+    "robust": true,
+    "geometry": true,
+    "conservative": false
+  },
+  "C5": {
+    "normalize": true,
+    "robust": true,
+    "geometry": true,
+    "conservative": true
+  }
+}
