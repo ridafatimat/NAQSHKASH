@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "candidate": "T1",
+  "enabled": true,
+  "description": "Verified role-resolvable glyph interpretation followed by unchanged F1 v2, with an explicit unresolved-context review guard.",
+  "role_confidence": "Use only existing D1 accepted path and frozen D1 margin; no new confidence threshold.",
+  "rendering_scope": "Known canonical source metadata for the locally audited font, L mode, source48 and integer lt anchor. Unknown source/font stays uncertain.",
+  "unresolved_correction_policy": "No partial correction within a tier; retain raw text and review uncertainty.",
+  "evidence_claim": "Contextual interpretation is not proof of correct transcription or valid image content."
+}
