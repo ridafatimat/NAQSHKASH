@@ -1,0 +1,31 @@
+{
+  "images": 776,
+  "scorable_images": 776,
+  "characters": 13489,
+  "outcome_counts": {
+    "ACCEPT": 757,
+    "REVIEW_UNCERTAIN": 19
+  },
+  "exact_transcription_accuracy": 0.9458762886597938,
+  "raw_CER": 0.38846467492030545,
+  "interpreted_CER": 0.38846467492030545,
+  "review_rate": 0.024484536082474227,
+  "wrong_tier_reviews": 4,
+  "accepted_output_correctness": 0.9696169088507266,
+  "accepted_output_denominator": 757,
+  "end_to_end_page_correctness": 0.9458762886597938,
+  "corrected_images": 0,
+  "contextual_corrections": 0,
+  "correct_corrections": 0,
+  "incorrect_corrections": 0,
+  "unscorable_corrections": 0,
+  "syntax_failures_resolved": 0,
+  "worsened_CER_images": 0,
+  "independent_parents": 230,
+  "macro_parent": {
+    "exact_transcription_accuracy": 0.9478260869565217,
+    "interpreted_CER": 0.0312908615651285,
+    "review_rate": 0.02717391304347826,
+    "end_to_end_page_correctness": 0.9478260869565217
+  }
+}
