@@ -1,0 +1,56 @@
+{
+  "protected_files_verified": 6451,
+  "stage1_and_stage2a_unchanged": true,
+  "input_archives": {
+    "general": {
+      "scanned_sha256_unchanged": true,
+      "clean_sha256_unchanged": true
+    },
+    "positive": {
+      "scanned_sha256_unchanged": true,
+      "clean_sha256_unchanged": true
+    }
+  },
+  "checkpoint_sha256": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f",
+  "model_state_unchanged": true,
+  "tests": {
+    "tests_run": 12,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true
+  },
+  "deterministic_replays": [
+    {
+      "cohort": "general_unassigned_exploratory",
+      "mode": "blind",
+      "prediction_equal": true
+    },
+    {
+      "cohort": "general_unassigned_exploratory",
+      "mode": "assisted",
+      "prediction_equal": true
+    },
+    {
+      "cohort": "general_test_structure_match_exploratory",
+      "mode": "blind",
+      "prediction_equal": true
+    },
+    {
+      "cohort": "general_test_structure_match_exploratory",
+      "mode": "assisted",
+      "prediction_equal": true
+    },
+    {
+      "cohort": "positive_frozen_test",
+      "mode": "blind",
+      "prediction_equal": true
+    },
+    {
+      "cohort": "positive_frozen_test",
+      "mode": "assisted",
+      "prediction_equal": true
+    }
+  ],
+  "training_started": false
+}
