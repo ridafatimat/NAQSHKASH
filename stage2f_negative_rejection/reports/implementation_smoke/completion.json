@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "rows": 3,
+  "smoke": true,
+  "manifest": "C:\\NAQSHKASH\\stage2\\stage2f_negative_rejection\\manifests\\evaluation_manifest.csv",
+  "manifest_sha256": "22f18e265817a004406b91c28505bbae0adf69ad3b56a40d2c4406fdb326d90c",
+  "checkpoint_sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+  "d1_config_sha256": "050cafcb7c26403a4e21cf6f1e764ba90350cb37ff0a8ee74bb7fedb73af3141",
+  "seconds": 2.3037073999876156,
+  "device": "cpu",
+  "recognizer_frozen": true,
+  "observations_sha256": "7a086327f3295371c1347ce907cffb4407d44c5e987d55f4010ab334a3b87806",
+  "software": {
+    "src\\calibrate.py": "84fc333d570dfb35c0fc56ce534fc8cff0847d3855a962cfc1e0f87ba51d3af8",
+    "src\\common.py": "11f95f1a1d1790cc03bee2c2270147bd8fd580b684c90a206c71a9dd9f55d509",
+    "src\\compare_candidates.py": "c57d52ec7642af238377a02852037534bc0d0c6ac5bfe4eba858ad28f2a0f5cc",
+    "src\\confidence.py": "87721ccc217113a58ca981fa3ab30cc725a19789fbdf208989cd635eb317a308",
+    "src\\evaluate_baseline.py": "cae9e855c0b6481054217764b3844e400a01dc7ca574ef1140ac547614c87f23",
+    "src\\evaluate_rejection.py": "065b9280d41b97bd2115651c763241a18a7ae638e427f78892709ed2011513fe",
+    "src\\prepare.py": "5f736d205d6ff4a59f4cca03d726ed4277d19648993182ac2989f3540a413b1a",
+    "src\\rejection_pipeline.py": "454248e6a9dff29a1878818015e75a6a212eb8f283fb654417d030046ea439ce",
+    "src\\report_generator.py": "08ebe65382d917b33b123c0a25959a3538312f80d5e5e44bbe2bd3fee577b4ae",
+    "src\\talim_validator.py": "d4ab21db9546e7332f07939d2ac42c7038d0a6969c2b70ce3b08357bea929dd0"
+  }
+}
