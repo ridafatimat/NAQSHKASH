@@ -1,0 +1,16 @@
+{
+  "protected_files_checked": 271,
+  "protected_files_changed": [],
+  "saved_observation_hash_verified": true,
+  "saved_f1_results_hash_verified": true,
+  "wrong_case_count_checked": 180,
+  "fixture_record_count_checked": 198,
+  "unique_parent_count_checked": 3,
+  "full_ocr_or_preprocessing_executed": false,
+  "policies_or_manifests_modified": false,
+  "font_B_X_visible_mask_equality_verified": true,
+  "csv_exports_validated": true,
+  "representative_gallery_images": 13,
+  "checkpoint_matches_saved_lineage": true,
+  "frozen_manifest_matches_saved_lineage": true
+}

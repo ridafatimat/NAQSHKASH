@@ -1,0 +1,41 @@
+test_blank_sequence_and_nonfinite (test_confidence.ConfidenceTests.test_blank_sequence_and_nonfinite) ... ok
+test_invalid_policy (test_confidence.ConfidenceTests.test_invalid_policy) ... ok
+test_sequence_score_sums_alignments (test_confidence.ConfidenceTests.test_sequence_score_sums_alignments) ... ok
+test_threshold_boundary_and_missing (test_confidence.ConfidenceTests.test_threshold_boundary_and_missing) ... ok
+test_calibration_rejects_evaluation (test_contracts.ContractTests.test_calibration_rejects_evaluation) ... ok
+test_candidate_comparison_rejects_unpaired (test_contracts.ContractTests.test_candidate_comparison_rejects_unpaired) ... ok
+test_checkpoint_strict_compatible_frozen_no_forward (test_contracts.ContractTests.test_checkpoint_strict_compatible_frozen_no_forward) ... ok
+test_confidence_does_not_claim_invalidity (test_contracts.ContractTests.test_confidence_does_not_claim_invalidity) ... ok
+test_current_calibration_reports_not_trained (test_contracts.ContractTests.test_current_calibration_reports_not_trained) ... ok
+test_fixture_category_and_label_distinction (test_contracts.ContractTests.test_fixture_category_and_label_distinction) ... ok
+test_frozen_paths_schema_parent_integrity (test_contracts.ContractTests.test_frozen_paths_schema_parent_integrity) ... ok
+test_metrics_three_way_denominators (test_contracts.ContractTests.test_metrics_three_way_denominators) ... ok
+test_three_way_decisions (test_contracts.ContractTests.test_three_way_decisions) ... ok
+test_f0_exact_legacy_schema_and_actions (test_f1_policy_v2.F1PolicyV2Tests.test_f0_exact_legacy_schema_and_actions) ... ok
+test_f1_f2_consistent_provenance (test_f1_policy_v2.F1PolicyV2Tests.test_f1_f2_consistent_provenance) ... ok
+test_f2_retains_quality_and_ocr_reasons (test_f1_policy_v2.F1PolicyV2Tests.test_f2_retains_quality_and_ocr_reasons) ... ok
+test_four_saved_development_regressions (test_f1_policy_v2.F1PolicyV2Tests.test_four_saved_development_regressions) ... ok
+test_ground_truth_and_claimed_invalid_flags_are_not_runtime_evidence (test_f1_policy_v2.F1PolicyV2Tests.test_ground_truth_and_claimed_invalid_flags_are_not_runtime_evidence) ... ok
+test_historical_results_rules_checkpoint_and_manifests_unchanged (test_f1_policy_v2.F1PolicyV2Tests.test_historical_results_rules_checkpoint_and_manifests_unchanged) ... ok
+test_independent_artifact_checks_keep_existing_actions (test_f1_policy_v2.F1PolicyV2Tests.test_independent_artifact_checks_keep_existing_actions) ... ok
+test_independent_invalidity_overrides_ocr_only_error (test_f1_policy_v2.F1PolicyV2Tests.test_independent_invalidity_overrides_ocr_only_error) ... ok
+test_observation_not_mutated (test_f1_policy_v2.F1PolicyV2Tests.test_observation_not_mutated) ... ok
+test_ocr_error_and_segmentation_uncertainty_preserve_both (test_f1_policy_v2.F1PolicyV2Tests.test_ocr_error_and_segmentation_uncertainty_preserve_both) ... ok
+test_policy_is_versioned_and_cannot_change_image_rules (test_f1_policy_v2.F1PolicyV2Tests.test_policy_is_versioned_and_cannot_change_image_rules) ... ok
+test_saved_output_evaluation_retains_provenance (test_f1_policy_v2.F1PolicyV2Tests.test_saved_output_evaluation_retains_provenance) ... ok
+test_unsupported_glyph_is_review (test_f1_policy_v2.F1PolicyV2Tests.test_unsupported_glyph_is_review) ... ok
+test_valid_recognition_accepts (test_f1_policy_v2.F1PolicyV2Tests.test_valid_recognition_accepts) ... ok
+test_wrong_tier_rule_still_detects_violation (test_f1_policy_v2.F1PolicyV2Tests.test_wrong_tier_rule_still_detects_violation) ... ok
+test_aligned_wrong_sum_and_direction (test_talim_validator.TalimTests.test_aligned_wrong_sum_and_direction) ... ok
+test_all_authentic_counts_aligned (test_talim_validator.TalimTests.test_all_authentic_counts_aligned) ... ok
+test_annotation_scope (test_talim_validator.TalimTests.test_annotation_scope) ... ok
+test_uncertain (test_talim_validator.TalimTests.test_uncertain) ... ok
+test_valid_observable (test_talim_validator.TalimTests.test_valid_observable) ... ok
+test_wrong_tier (test_talim_validator.TalimTests.test_wrong_tier) ... ok
+test_evaluate_comparison_roundtrip_and_groups (test_workflow.WorkflowTests.test_evaluate_comparison_roundtrip_and_groups) ... ok
+test_quality_gate_quantile_and_positive_only_scope (test_workflow.WorkflowTests.test_quality_gate_quantile_and_positive_only_scope) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 7.691s
+
+OK
