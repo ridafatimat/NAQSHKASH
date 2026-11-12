@@ -1,0 +1,4 @@
+source_parent_id,wrong_tier_reviews,unique_image_hashes,causes
+negative_embedded_base_A11_R19_S20_B10,178,133,"{'B_X_identical_ink_role_context_not_supplied_to_E1': 175, 'non_talim_patch_interpreted_as_count_tier': 3}"
+normal:train_011358,1,1,{'B_X_identical_ink_role_context_not_supplied_to_E1': 1}
+normal:train_079690,1,1,{'glyph_substitution_in_correctly_assigned_lower_tier': 1}

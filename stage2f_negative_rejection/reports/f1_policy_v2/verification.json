@@ -1,0 +1,22 @@
+{
+  "policy_version": "f1_ocr_uncertainty_v2",
+  "tests_passed": 36,
+  "protected_files_verified": 23,
+  "protected_files_unchanged": true,
+  "saved_development_regression_cases": 4,
+  "full_development_evaluation_run": false,
+  "evaluation_outcomes_inspected": false,
+  "ocr_inference_run": false,
+  "calibration_run": false,
+  "training_run": false,
+  "tested_files": {
+    "src/rejection_pipeline.py": "69fa66c41f472eca4c20f247bd3e44513cd74d36f381a14042540afcaf704c04",
+    "src/evaluate_rejection.py": "5e1152f9ad70ea96d89ddc2f9126da220e9e8d8c917a0a179a525b07492dcf8a",
+    "configs/f1_ocr_uncertainty_policy_v2.yaml": "cb47e78b81d4a0596358a599fb87a8f541cacd0bbf384aa607f64150be140b51",
+    "tests/test_f1_policy_v2.py": "15a1b6c28cfffd43a08908392bf9bdab4a452a5de108bcd2ea294914a8c2b3de",
+    "tests/fixtures/f1_v2_development_cases.json": "8423701ff1305c7b3ca2a24a32c67178f629fbd1593472a57b703d2746b4c41d",
+    "RUN_F1_POLICY_V2.md": "b696ff2f46088182071e93b8b47c5cdb0a0031f065a51972d2f89d660f9d3991"
+  },
+  "policy_sha256": "cb47e78b81d4a0596358a599fb87a8f541cacd0bbf384aa607f64150be140b51",
+  "checkpoint_sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1"
+}
