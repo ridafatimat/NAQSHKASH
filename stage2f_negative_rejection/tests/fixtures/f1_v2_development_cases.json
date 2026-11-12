@@ -1,0 +1,1039 @@
+{
+  "source_baseline": "C:\\NAQSHKASH\\stage2\\stage2f_negative_rejection\\metrics\\20261106_154728_812_dev_baseline",
+  "observations_sha256": "ea12dbd1da139ccae81d64c95855ae3c7481dad35f94115fd3c0fa0f856e52db",
+  "cases": [
+    {
+      "image_id": "normal_train_044361__clean",
+      "observation": {
+        "preprocessing_status": "ok",
+        "segmentation_accepted": true,
+        "segmentation_reason": "",
+        "segmentation_rows": [
+          [
+            {
+              "row": 0,
+              "role": "upper",
+              "box": [
+                22,
+                20,
+                128,
+                55
+              ]
+            },
+            {
+              "row": 0,
+              "role": "count",
+              "box": [
+                22,
+                70,
+                128,
+                120
+              ]
+            }
+          ],
+          [
+            {
+              "row": 1,
+              "role": "upper",
+              "box": [
+                20,
+                190,
+                172,
+                206
+              ]
+            },
+            {
+              "row": 1,
+              "role": "count",
+              "box": [
+                20,
+                240,
+                172,
+                290
+              ]
+            },
+            {
+              "row": 1,
+              "role": "lower",
+              "box": [
+                20,
+                290,
+                172,
+                328
+              ]
+            }
+          ],
+          [
+            {
+              "row": 2,
+              "role": "upper",
+              "box": [
+                20,
+                360,
+                167,
+                399
+              ]
+            },
+            {
+              "row": 2,
+              "role": "count",
+              "box": [
+                20,
+                410,
+                167,
+                460
+              ]
+            },
+            {
+              "row": 2,
+              "role": "lower",
+              "box": [
+                20,
+                460,
+                167,
+                476
+              ]
+            }
+          ],
+          [
+            {
+              "row": 3,
+              "role": "upper",
+              "box": [
+                32,
+                532,
+                172,
+                565
+              ]
+            },
+            {
+              "row": 3,
+              "role": "count",
+              "box": [
+                32,
+                580,
+                172,
+                630
+              ]
+            },
+            {
+              "row": 3,
+              "role": "lower",
+              "box": [
+                32,
+                630,
+                172,
+                646
+              ]
+            }
+          ]
+        ],
+        "diagnostics": {
+          "perspective_applied": false,
+          "reason": "weak_line_support",
+          "noise_filter_applied": false,
+          "component_scale": 38.0,
+          "band_aware_scale": 42.0,
+          "bands": [
+            [
+              24,
+              51
+            ],
+            [
+              74,
+              116
+            ],
+            [
+              194,
+              202
+            ],
+            [
+              244,
+              286
+            ],
+            [
+              294,
+              324
+            ],
+            [
+              364,
+              395
+            ],
+            [
+              414,
+              456
+            ],
+            [
+              464,
+              472
+            ],
+            [
+              536,
+              561
+            ],
+            [
+              584,
+              626
+            ],
+            [
+              634,
+              642
+            ]
+          ],
+          "features": [
+            {
+              "prob": 0.3877203567294799,
+              "height": 27,
+              "component_height": 23.8,
+              "width": 28.799999999999997,
+              "mass": 339
+            },
+            {
+              "prob": 0.7484265538413438,
+              "height": 42,
+              "component_height": 39.0,
+              "width": 45.0,
+              "mass": 1105
+            },
+            {
+              "prob": 0.15820209539625416,
+              "height": 8,
+              "component_height": 8.0,
+              "width": 9.0,
+              "mass": 56
+            },
+            {
+              "prob": 0.8040662007693373,
+              "height": 42,
+              "component_height": 39.2,
+              "width": 36.3,
+              "mass": 1437
+            },
+            {
+              "prob": 0.4302786681077596,
+              "height": 30,
+              "component_height": 11.0,
+              "width": 32.4,
+              "mass": 474
+            },
+            {
+              "prob": 0.43899591108548236,
+              "height": 31,
+              "component_height": 11.0,
+              "width": 32.5,
+              "mass": 761
+            },
+            {
+              "prob": 0.8040662007693373,
+              "height": 42,
+              "component_height": 39.2,
+              "width": 36.3,
+              "mass": 1434
+            },
+            {
+              "prob": 0.15820209539625416,
+              "height": 8,
+              "component_height": 8.0,
+              "width": 9.0,
+              "mass": 56
+            },
+            {
+              "prob": 0.32860001531535216,
+              "height": 25,
+              "component_height": 25.0,
+              "width": 19.0,
+              "mass": 153
+            },
+            {
+              "prob": 0.8040662007693373,
+              "height": 42,
+              "component_height": 39.2,
+              "width": 36.3,
+              "mass": 1436
+            },
+            {
+              "prob": 0.15820209539625416,
+              "height": 8,
+              "component_height": 8.0,
+              "width": 9.0,
+              "mass": 56
+            }
+          ],
+          "legal_alternatives": 2,
+          "heuristic_scores": [
+            -6.852843734901782,
+            -8.39998659204464
+          ],
+          "score_is_calibrated_probability": false,
+          "role_margin": 1.5471428571428572,
+          "path": [
+            [
+              0,
+              [
+                "upper",
+                "count"
+              ]
+            ],
+            [
+              2,
+              [
+                "upper",
+                "count",
+                "lower"
+              ]
+            ],
+            [
+              5,
+              [
+                "upper",
+                "count",
+                "lower"
+              ]
+            ],
+            [
+              8,
+              [
+                "upper",
+                "count",
+                "lower"
+              ]
+            ]
+          ],
+          "inferred_rows": 4,
+          "rejection": ""
+        },
+        "ocr_status": "ok",
+        "decoded_rows": [
+          {
+            "upper": "IE",
+            "count": "cj"
+          },
+          {
+            "upper": "X",
+            "count": "jba",
+            "lower": "^"
+          },
+          {
+            "upper": "KD",
+            "count": "jab",
+            "lower": "X"
+          },
+          {
+            "upper": "M",
+            "count": "bja",
+            "lower": "X"
+          }
+        ],
+        "tiers": [
+          {
+            "row": 0,
+            "role": "upper",
+            "prediction": "IE",
+            "box": [
+              22,
+              20,
+              128,
+              55
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.00034429540392011404,
+              "ctc_log_score_per_frame": -7.172820915002376e-06,
+              "greedy_log_score_per_frame": -1.8953453036374412e-05,
+              "nonblank_geomean": 0.9997444180601993,
+              "mean_top2_log_margin": 18.11601448059082,
+              "blank_fraction": 0.9375,
+              "frames": 48,
+              "decoded_tokens": 2,
+              "calibrated_probability": false
+            },
+            "resized_width": 194
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "prediction": "cj",
+            "box": [
+              22,
+              70,
+              128,
+              120
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -2.7701229555532336e-05,
+              "ctc_log_score_per_frame": -8.147420457509511e-07,
+              "greedy_log_score_per_frame": -0.0042274147272109985,
+              "nonblank_geomean": 0.9555723936016292,
+              "mean_top2_log_margin": 16.98453712463379,
+              "blank_fraction": 0.9117646813392639,
+              "frames": 34,
+              "decoded_tokens": 2,
+              "calibrated_probability": false
+            },
+            "resized_width": 136
+          },
+          {
+            "row": 1,
+            "role": "upper",
+            "prediction": "X",
+            "box": [
+              20,
+              190,
+              172,
+              206
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.5865159034729004,
+              "ctc_log_score_per_frame": -0.003858657259690134,
+              "greedy_log_score_per_frame": -0.0038587709423154593,
+              "nonblank_geomean": 0.5562712665834586,
+              "mean_top2_log_margin": 22.18560791015625,
+              "blank_fraction": 0.9934210777282715,
+              "frames": 152,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 608
+          },
+          {
+            "row": 1,
+            "role": "count",
+            "prediction": "jba",
+            "box": [
+              20,
+              240,
+              172,
+              290
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -1.2725591659545898e-05,
+              "ctc_log_score_per_frame": -2.6511649290720624e-07,
+              "greedy_log_score_per_frame": -0.007255894597619772,
+              "nonblank_geomean": 0.9999964237388497,
+              "mean_top2_log_margin": 17.731714248657227,
+              "blank_fraction": 0.9375,
+              "frames": 48,
+              "decoded_tokens": 3,
+              "calibrated_probability": false
+            },
+            "resized_width": 195
+          },
+          {
+            "row": 1,
+            "role": "lower",
+            "prediction": "^",
+            "box": [
+              20,
+              290,
+              172,
+              328
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -1.0848035344679374e-05,
+              "ctc_log_score_per_frame": -1.6950055226061522e-07,
+              "greedy_log_score_per_frame": -2.3859280190663412e-05,
+              "nonblank_geomean": 0.999997854237364,
+              "mean_top2_log_margin": 20.020889282226562,
+              "blank_fraction": 0.984375,
+              "frames": 64,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 256
+          },
+          {
+            "row": 2,
+            "role": "upper",
+            "prediction": "KD",
+            "box": [
+              20,
+              360,
+              167,
+              399
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.00012966865324415267,
+              "ctc_log_score_per_frame": -2.161144220735878e-06,
+              "greedy_log_score_per_frame": -0.00048745330423116684,
+              "nonblank_geomean": 0.9999591135775078,
+              "mean_top2_log_margin": 19.258800506591797,
+              "blank_fraction": 0.9666666388511658,
+              "frames": 60,
+              "decoded_tokens": 2,
+              "calibrated_probability": false
+            },
+            "resized_width": 241
+          },
+          {
+            "row": 2,
+            "role": "count",
+            "prediction": "jab",
+            "box": [
+              20,
+              410,
+              167,
+              460
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -1.2507662177085876e-05,
+              "ctc_log_score_per_frame": -2.66120471852891e-07,
+              "greedy_log_score_per_frame": -0.0010089214192703366,
+              "nonblank_geomean": 0.9963013465276243,
+              "mean_top2_log_margin": 17.49180793762207,
+              "blank_fraction": 0.914893627166748,
+              "frames": 47,
+              "decoded_tokens": 3,
+              "calibrated_probability": false
+            },
+            "resized_width": 188
+          },
+          {
+            "row": 2,
+            "role": "lower",
+            "prediction": "X",
+            "box": [
+              20,
+              460,
+              167,
+              476
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.5808313488960266,
+              "ctc_log_score_per_frame": -0.003951233665959365,
+              "greedy_log_score_per_frame": -0.00395135348662734,
+              "nonblank_geomean": 0.559442092278513,
+              "mean_top2_log_margin": 22.179304122924805,
+              "blank_fraction": 0.9931972622871399,
+              "frames": 147,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 588
+          },
+          {
+            "row": 3,
+            "role": "upper",
+            "prediction": "M",
+            "box": [
+              32,
+              532,
+              172,
+              565
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -2.5987370463553816e-05,
+              "ctc_log_score_per_frame": -3.821672126993208e-07,
+              "greedy_log_score_per_frame": -5.60980083719187e-07,
+              "nonblank_geomean": 0.9999774699527387,
+              "mean_top2_log_margin": 21.375097274780273,
+              "blank_fraction": 0.9852941036224365,
+              "frames": 68,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 272
+          },
+          {
+            "row": 3,
+            "role": "count",
+            "prediction": "bja",
+            "box": [
+              32,
+              580,
+              172,
+              630
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -1.1622876627370715e-05,
+              "ctc_log_score_per_frame": -2.641562869856981e-07,
+              "greedy_log_score_per_frame": -0.01395391020923853,
+              "nonblank_geomean": 0.8844536793099156,
+              "mean_top2_log_margin": 17.658103942871094,
+              "blank_fraction": 0.8863636255264282,
+              "frames": 44,
+              "decoded_tokens": 3,
+              "calibrated_probability": false
+            },
+            "resized_width": 179
+          },
+          {
+            "row": 3,
+            "role": "lower",
+            "prediction": "X",
+            "box": [
+              32,
+              630,
+              172,
+              646
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.6296229362487793,
+              "ctc_log_score_per_frame": -0.0044973066874912804,
+              "greedy_log_score_per_frame": -0.004497417248785496,
+              "nonblank_geomean": 0.5328051723074965,
+              "mean_top2_log_margin": 20.96826934814453,
+              "blank_fraction": 0.9928571581840515,
+              "frames": 140,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 560
+          }
+        ],
+        "confidence": {
+          "nonblank_geomean": 0.5328051723074965,
+          "ctc_log_score_per_frame": -0.0044973066874912804,
+          "mean_top2_log_margin": 16.98453712463379,
+          "role_margin": 1.5471428571428572,
+          "legal_alternatives": 2,
+          "component_preservation": "D1 unassigned-foreground check only; no independent component oracle",
+          "row_consistency": "observable tier grammar only",
+          "segmentation_score": -6.852843734901782
+        }
+      }
+    },
+    {
+      "image_id": "positive_edge_00297__aug_01_perspective_shadow",
+      "observation": {
+        "preprocessing_status": "ok",
+        "segmentation_accepted": true,
+        "segmentation_reason": "",
+        "segmentation_rows": [
+          [
+            {
+              "row": 0,
+              "role": "upper",
+              "box": [
+                38,
+                35,
+                82,
+                53
+              ]
+            },
+            {
+              "row": 0,
+              "role": "count",
+              "box": [
+                38,
+                72,
+                82,
+                107
+              ]
+            }
+          ]
+        ],
+        "diagnostics": {
+          "perspective_applied": false,
+          "reason": "weak_line_support",
+          "noise_filter_applied": false,
+          "component_scale": 24.45,
+          "band_aware_scale": 24.45,
+          "bands": [
+            [
+              39,
+              49
+            ],
+            [
+              76,
+              103
+            ]
+          ],
+          "features": [
+            {
+              "prob": 0.5119123670178479,
+              "height": 10,
+              "component_height": 10.0,
+              "width": 31.0,
+              "mass": 141
+            },
+            {
+              "prob": 0.9381757796341084,
+              "height": 27,
+              "component_height": 27.0,
+              "width": 34.0,
+              "mass": 423
+            }
+          ],
+          "legal_alternatives": 2,
+          "heuristic_scores": [
+            -2.264685934099818,
+            -2.9791252974346984
+          ],
+          "score_is_calibrated_probability": false,
+          "role_margin": 0.7144393633348805,
+          "path": [
+            [
+              0,
+              [
+                "upper",
+                "count"
+              ]
+            ]
+          ],
+          "inferred_rows": 1,
+          "rejection": ""
+        },
+        "ocr_status": "ok",
+        "decoded_rows": [
+          {
+            "upper": "Z",
+            "count": "a"
+          }
+        ],
+        "tiers": [
+          {
+            "row": 0,
+            "role": "upper",
+            "prediction": "Z",
+            "box": [
+              38,
+              35,
+              82,
+              53
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.0008281621267087758,
+              "ctc_log_score_per_frame": -2.1234926325866047e-05,
+              "greedy_log_score_per_frame": -2.138775926141534e-05,
+              "nonblank_geomean": 0.9991728953687891,
+              "mean_top2_log_margin": 18.38565444946289,
+              "blank_fraction": 0.9743589758872986,
+              "frames": 39,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 156
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "prediction": "a",
+            "box": [
+              38,
+              72,
+              82,
+              107
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.0036604104097932577,
+              "ctc_log_score_per_frame": -0.0001830205204896629,
+              "greedy_log_score_per_frame": -0.00018324106349609792,
+              "nonblank_geomean": 0.9963467558208426,
+              "mean_top2_log_margin": 18.928613662719727,
+              "blank_fraction": 0.949999988079071,
+              "frames": 20,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 80
+          }
+        ],
+        "confidence": {
+          "nonblank_geomean": 0.9963467558208426,
+          "ctc_log_score_per_frame": -0.0001830205204896629,
+          "mean_top2_log_margin": 18.38565444946289,
+          "role_margin": 0.7144393633348805,
+          "legal_alternatives": 2,
+          "component_preservation": "D1 unassigned-foreground check only; no independent component oracle",
+          "row_consistency": "observable tier grammar only",
+          "segmentation_score": -2.264685934099818
+        }
+      }
+    },
+    {
+      "image_id": "positive_edge_00314__aug_02_resolution",
+      "observation": {
+        "preprocessing_status": "ok",
+        "segmentation_accepted": true,
+        "segmentation_reason": "",
+        "segmentation_rows": [
+          [
+            {
+              "row": 0,
+              "role": "count",
+              "box": [
+                38,
+                74,
+                83,
+                111
+              ]
+            },
+            {
+              "row": 0,
+              "role": "lower",
+              "box": [
+                38,
+                116,
+                83,
+                132
+              ]
+            }
+          ]
+        ],
+        "diagnostics": {
+          "perspective_applied": false,
+          "reason": "weak_line_support",
+          "noise_filter_applied": false,
+          "component_scale": 22.7,
+          "band_aware_scale": 25.85,
+          "bands": [
+            [
+              78,
+              107
+            ],
+            [
+              120,
+              128
+            ]
+          ],
+          "features": [
+            {
+              "prob": 0.9370340623000154,
+              "height": 29,
+              "component_height": 29.0,
+              "width": 35.0,
+              "mass": 472
+            },
+            {
+              "prob": 0.2129516778811932,
+              "height": 8,
+              "component_height": 8.0,
+              "width": 9.0,
+              "mass": 113
+            }
+          ],
+          "legal_alternatives": 2,
+          "heuristic_scores": [
+            -1.7047225729913433,
+            -5.712072669703143
+          ],
+          "score_is_calibrated_probability": false,
+          "role_margin": 4.007350096711799,
+          "path": [
+            [
+              0,
+              [
+                "count",
+                "lower"
+              ]
+            ]
+          ],
+          "inferred_rows": 1,
+          "rejection": ""
+        },
+        "ocr_status": "ok",
+        "decoded_rows": [
+          {
+            "count": "a",
+            "lower": "C"
+          }
+        ],
+        "tiers": [
+          {
+            "row": 0,
+            "role": "count",
+            "prediction": "a",
+            "box": [
+              38,
+              74,
+              83,
+              111
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.0004130941233597696,
+              "ctc_log_score_per_frame": -2.1741795966303662e-05,
+              "greedy_log_score_per_frame": -2.2588803403778e-05,
+              "nonblank_geomean": 0.9995871103483321,
+              "mean_top2_log_margin": 19.221054077148438,
+              "blank_fraction": 0.9473684430122375,
+              "frames": 19,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 78
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "prediction": "C",
+            "box": [
+              38,
+              116,
+              83,
+              132
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.0005113973747938871,
+              "ctc_log_score_per_frame": -1.1364386106530825e-05,
+              "greedy_log_score_per_frame": -1.6982407032628544e-05,
+              "nonblank_geomean": 0.999490997129436,
+              "mean_top2_log_margin": 19.92037010192871,
+              "blank_fraction": 0.9777777791023254,
+              "frames": 45,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 180
+          }
+        ],
+        "confidence": {
+          "nonblank_geomean": 0.999490997129436,
+          "ctc_log_score_per_frame": -2.1741795966303662e-05,
+          "mean_top2_log_margin": 19.221054077148438,
+          "role_margin": 4.007350096711799,
+          "legal_alternatives": 2,
+          "component_preservation": "D1 unassigned-foreground check only; no independent component oracle",
+          "row_consistency": "observable tier grammar only",
+          "segmentation_score": -1.7047225729913433
+        }
+      }
+    },
+    {
+      "image_id": "positive_edge_00314__aug_03_perspective",
+      "observation": {
+        "preprocessing_status": "ok",
+        "segmentation_accepted": true,
+        "segmentation_reason": "",
+        "segmentation_rows": [
+          [
+            {
+              "row": 0,
+              "role": "count",
+              "box": [
+                37,
+                74,
+                81,
+                111
+              ]
+            },
+            {
+              "row": 0,
+              "role": "lower",
+              "box": [
+                37,
+                115,
+                81,
+                131
+              ]
+            }
+          ]
+        ],
+        "diagnostics": {
+          "perspective_applied": false,
+          "reason": "weak_line_support",
+          "noise_filter_applied": false,
+          "component_scale": 22.7,
+          "band_aware_scale": 25.85,
+          "bands": [
+            [
+              78,
+              107
+            ],
+            [
+              119,
+              127
+            ]
+          ],
+          "features": [
+            {
+              "prob": 0.9340008564605169,
+              "height": 29,
+              "component_height": 29.0,
+              "width": 34.0,
+              "mass": 442
+            },
+            {
+              "prob": 0.20263703474555322,
+              "height": 8,
+              "component_height": 7.8,
+              "width": 8.0,
+              "mass": 101
+            }
+          ],
+          "legal_alternatives": 2,
+          "heuristic_scores": [
+            -1.6958244557374265,
+            -5.715553662700677
+          ],
+          "score_is_calibrated_probability": false,
+          "role_margin": 4.019729206963251,
+          "path": [
+            [
+              0,
+              [
+                "count",
+                "lower"
+              ]
+            ]
+          ],
+          "inferred_rows": 1,
+          "rejection": ""
+        },
+        "ocr_status": "ok",
+        "decoded_rows": [
+          {
+            "count": "a",
+            "lower": "C"
+          }
+        ],
+        "tiers": [
+          {
+            "row": 0,
+            "role": "count",
+            "prediction": "a",
+            "box": [
+              37,
+              74,
+              81,
+              111
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.0006831939681433141,
+              "ctc_log_score_per_frame": -3.5957577270700745e-05,
+              "greedy_log_score_per_frame": -3.759511309908703e-05,
+              "nonblank_geomean": 0.9993178732511856,
+              "mean_top2_log_margin": 18.7933292388916,
+              "blank_fraction": 0.9473684430122375,
+              "frames": 19,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 76
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "prediction": "C",
+            "box": [
+              37,
+              115,
+              81,
+              131
+            ],
+            "signals": {
+              "ctc_log_sequence_score": -0.00021991824905853719,
+              "ctc_log_score_per_frame": -4.998142024057663e-06,
+              "greedy_log_score_per_frame": -1.8259015632793307e-05,
+              "nonblank_geomean": 0.9997878524828802,
+              "mean_top2_log_margin": 19.847558975219727,
+              "blank_fraction": 0.9772727489471436,
+              "frames": 44,
+              "decoded_tokens": 1,
+              "calibrated_probability": false
+            },
+            "resized_width": 176
+          }
+        ],
+        "confidence": {
+          "nonblank_geomean": 0.9993178732511856,
+          "ctc_log_score_per_frame": -3.5957577270700745e-05,
+          "mean_top2_log_margin": 18.7933292388916,
+          "role_margin": 4.019729206963251,
+          "legal_alternatives": 2,
+          "component_preservation": "D1 unassigned-foreground check only; no independent component oracle",
+          "row_consistency": "observable tier grammar only",
+          "segmentation_score": -1.6958244557374265
+        }
+      }
+    }
+  ]
+}
