@@ -1,0 +1,14 @@
+[
+  {
+    "path": "C:\\FYP Dataset Generation\\Final dataset\\talim_10000_scanned.zip",
+    "audited_path": "C:\\FYP Dataset Generation\\datasets\\talim_10000_scanned.zip",
+    "expected_sha256": "72e4442fc3dd161ab9bf794006adb35da52b39f196db4bfbd5319d08cfaf2798",
+    "status": "not_present"
+  },
+  {
+    "path": "C:\\FYP Dataset Generation\\Final dataset\\talim_edge_cases_positive_scanned_v1.zip",
+    "audited_path": "C:\\FYP Dataset Generation\\datasets\\talim_edge_cases_positive_scanned_v1.zip",
+    "expected_sha256": "abafe1b8556633ed965caf286a6789981e5f43b0f5dc051dc0f678b3573aeb0b",
+    "status": "not_present"
+  }
+]

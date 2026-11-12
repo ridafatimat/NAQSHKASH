@@ -1,0 +1,249 @@
+{
+  "status": "passed",
+  "datasets": {
+    "general": {
+      "scanned": "C:\\FYP Dataset Generation\\datasets\\talim_10000_scanned.zip",
+      "clean": "C:\\FYP Dataset Generation\\datasets\\talim_10000.zip",
+      "prefix": "talim_10000_scanned/",
+      "clean_prefix": "talim_10000/",
+      "archive_sha256": "72e4442fc3dd161ab9bf794006adb35da52b39f196db4bfbd5319d08cfaf2798",
+      "clean_archive_sha256": "1b514073c523f1d6edff608a242dc49626c4c44f83f2aeaef6a2a14222203206",
+      "variants": 30000,
+      "parents": 10000,
+      "image_members": 30000,
+      "non_dataset_image_members": [
+        "talim_10000_scanned/qa_preview.jpg"
+      ],
+      "embedded_label_files": 0,
+      "labels": "external clean TXT and JSON verified via source_inventory hashes",
+      "augmentation_combinations": {
+        "shadow": 2024,
+        "resolution": 1982,
+        "rotation": 1923,
+        "perspective+shadow": 1986,
+        "noise": 1994,
+        "gaussian_blur": 2021,
+        "rotation+jpeg": 2056,
+        "resolution+jpeg": 2049,
+        "gaussian_blur+contrast": 2051,
+        "jpeg": 1959,
+        "motion_blur": 1998,
+        "brightness": 1989,
+        "perspective": 1998,
+        "contrast": 1921,
+        "brightness+noise": 2049
+      },
+      "operation_counts": {
+        "shadow": 4010,
+        "resolution": 4031,
+        "rotation": 3979,
+        "perspective": 3984,
+        "noise": 4043,
+        "gaussian_blur": 4072,
+        "jpeg": 6064,
+        "contrast": 3972,
+        "motion_blur": 1998,
+        "brightness": 4038
+      },
+      "severities": {
+        "medium": 10544,
+        "mild": 16386,
+        "strong": 3070
+      },
+      "raw_manifest_declares_splits": false,
+      "source_inventory_files_verified": 30001,
+      "generation_summary": {
+        "augmentation_counts": {
+          "brightness": 4038,
+          "contrast": 3972,
+          "gaussian_blur": 4072,
+          "jpeg": 6064,
+          "motion_blur": 1998,
+          "noise": 4043,
+          "perspective": 3984,
+          "resolution": 4031,
+          "rotation": 3979,
+          "shadow": 4010
+        },
+        "available_source_images": 10000,
+        "combination_counts": {
+          "brightness": 1989,
+          "brightness+noise": 2049,
+          "contrast": 1921,
+          "gaussian_blur": 2021,
+          "gaussian_blur+contrast": 2051,
+          "jpeg": 1959,
+          "motion_blur": 1998,
+          "noise": 1994,
+          "perspective": 1998,
+          "perspective+shadow": 1986,
+          "resolution": 1982,
+          "resolution+jpeg": 2049,
+          "rotation": 1923,
+          "rotation+jpeg": 2056,
+          "shadow": 2024
+        },
+        "expected_augmented_images": 30000,
+        "failed_images": [],
+        "input_dir": "C:\\FYP\\datasets\\talim_10000",
+        "limit": null,
+        "official_archive_sha256": "1b514073c523f1d6edff608a242dc49626c4c44f83f2aeaef6a2a14222203206",
+        "pipeline_version": "1.2.0",
+        "rejected_variants": [],
+        "seed": 42,
+        "severity_counts": {
+          "medium": 10544,
+          "mild": 16386,
+          "strong": 3070
+        },
+        "source_archive": "talim_10000.zip",
+        "source_release": "https://github.com/ridafatimat/FYP-Dataset_Generation/releases/tag/dataset-v1.0.0",
+        "status": "READY_FOR_VALIDATION",
+        "total_augmented_images": 30000,
+        "total_source_images": 10000,
+        "variants_per_image": 3
+      }
+    },
+    "positive": {
+      "scanned": "C:\\FYP Dataset Generation\\datasets\\talim_edge_cases_positive_scanned_v1.zip",
+      "clean": "C:\\FYP Dataset Generation\\datasets\\talim_edge_cases_positive_v1.zip",
+      "prefix": "talim_edge_cases_positive_scanned_v1/",
+      "clean_prefix": "talim_edge_cases_positive_v1/",
+      "archive_sha256": "abafe1b8556633ed965caf286a6789981e5f43b0f5dc051dc0f678b3573aeb0b",
+      "clean_archive_sha256": "620bb2d4fab20bf1c483e8537ba0a8b17eadc2f1b057392e071345d5e5dd64fc",
+      "variants": 978,
+      "parents": 326,
+      "image_members": 978,
+      "non_dataset_image_members": [
+        "talim_edge_cases_positive_scanned_v1/qa_preview.jpg"
+      ],
+      "embedded_label_files": 0,
+      "labels": "external clean TXT and JSON verified via source_inventory hashes",
+      "augmentation_combinations": {
+        "noise": 56,
+        "brightness+noise": 69,
+        "jpeg": 67,
+        "shadow": 66,
+        "gaussian_blur+contrast": 74,
+        "perspective+shadow": 70,
+        "gaussian_blur": 63,
+        "resolution+jpeg": 62,
+        "resolution": 58,
+        "brightness": 68,
+        "rotation": 61,
+        "rotation+jpeg": 61,
+        "perspective": 84,
+        "motion_blur": 62,
+        "contrast": 57
+      },
+      "operation_counts": {
+        "noise": 125,
+        "brightness": 137,
+        "jpeg": 190,
+        "shadow": 136,
+        "gaussian_blur": 137,
+        "contrast": 131,
+        "perspective": 154,
+        "resolution": 120,
+        "rotation": 122,
+        "motion_blur": 62
+      },
+      "severities": {
+        "medium": 346,
+        "strong": 95,
+        "mild": 537
+      },
+      "raw_manifest_declares_splits": false,
+      "source_inventory_files_verified": 979,
+      "generation_summary": {
+        "augmentation_counts": {
+          "brightness": 137,
+          "contrast": 131,
+          "gaussian_blur": 137,
+          "jpeg": 190,
+          "motion_blur": 62,
+          "noise": 125,
+          "perspective": 154,
+          "resolution": 120,
+          "rotation": 122,
+          "shadow": 136
+        },
+        "available_source_images": 326,
+        "combination_counts": {
+          "brightness": 68,
+          "brightness+noise": 69,
+          "contrast": 57,
+          "gaussian_blur": 63,
+          "gaussian_blur+contrast": 74,
+          "jpeg": 67,
+          "motion_blur": 62,
+          "noise": 56,
+          "perspective": 84,
+          "perspective+shadow": 70,
+          "resolution": 58,
+          "resolution+jpeg": 62,
+          "rotation": 61,
+          "rotation+jpeg": 61,
+          "shadow": 66
+        },
+        "dataset_type": "positive_edge_cases_scanned",
+        "expected_augmented_images": 978,
+        "failed_images": [],
+        "input_dir": "C:\\FYP\\datasets\\talim_edge_cases_positive_v1",
+        "limit": null,
+        "official_archive_sha256": "620bb2d4fab20bf1c483e8537ba0a8b17eadc2f1b057392e071345d5e5dd64fc",
+        "pipeline_version": "1.2.0",
+        "purpose": "OCR robustness dataset derived from valid positive Talamat edge cases.",
+        "rejected_variants": [],
+        "seed": 42,
+        "severity_counts": {
+          "medium": 346,
+          "mild": 537,
+          "strong": 95
+        },
+        "source_archive": "talim_edge_cases_positive_v1.zip",
+        "source_release": "https://github.com/ridafatimat/FYP-Dataset_Generation/releases/tag/dataset-v1.0.0",
+        "status": "READY_FOR_VALIDATION",
+        "total_augmented_images": 978,
+        "total_source_images": 326,
+        "variants_per_image": 3
+      }
+    }
+  },
+  "stage1_archive": "C:\\FYP Dataset Generation\\Final dataset\\talim_100000.zip",
+  "stage1_scan": {
+    "json": 100000,
+    "images": 100000
+  },
+  "parents_by_cohort": {
+    "general_unassigned_exploratory": 9999,
+    "general_test_structure_match_exploratory": 1,
+    "excluded_stage2a_train": 228,
+    "excluded_stage2a_validation": 49,
+    "positive_frozen_test": 49
+  },
+  "variants_by_cohort": {
+    "general_unassigned_exploratory": 29997,
+    "general_test_structure_match_exploratory": 3,
+    "excluded_stage2a_train": 684,
+    "excluded_stage2a_validation": 147,
+    "positive_frozen_test": 147
+  },
+  "selected_by_cohort": {
+    "general_unassigned_exploratory": 300,
+    "general_test_structure_match_exploratory": 3,
+    "positive_frozen_test": 147
+  },
+  "selected_pages": 450,
+  "selection_protocol": "All 49 positive frozen-test parents (147 variants); 100 unknown general parents by SHA256(42:parent_id) (300 variants); one test-content-only general match (3 variants), separately exploratory. All frozen before inference.",
+  "duplicate_augmented_hashes": 0,
+  "cross_split_parent_augmentation_leakage": false,
+  "split_note": "No random augmented-image split. All variants inherit the same source-parent classification. Matches to any train/validation split are excluded.",
+  "caveats": [
+    "General requested filename talim_scanned_augmented_v1.zip not found; actual manifest-verified 30k archive is talim_10000_scanned.zip.",
+    "No Stage1 match does not establish eligibility under a previously frozen test protocol; such general parents are exploratory.",
+    "Positive test parents inherit all 326 Stage2A frozen assignments; prior test exposure is retained and disclosed.",
+    "Whole-page image hashes and full logical structures detect exact relationships; arbitrary partial or transformed overlaps are not ruled out."
+  ],
+  "source_identity_rule": "A complete logical-structure match without image-hash identity is explicitly exploratory, even when the content match is confined to Stage1 test."
+}
