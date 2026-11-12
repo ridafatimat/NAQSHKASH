@@ -1,0 +1,23 @@
+{
+  "categories": 49,
+  "source_records": 51,
+  "clean_image_files": 50,
+  "scanned_image_files": 147,
+  "total_image_files": 197,
+  "independent_source_parents": 1,
+  "missing_image_records": 1,
+  "clean_unique_file_hashes": 6,
+  "clean_byte_identical_to_base": 45,
+  "truth_counts": {
+    "valid": 184,
+    "empty_input": 1,
+    "unadjudicated": 3,
+    "corrupted_unreadable": 1,
+    "missing_artifact": 1,
+    "ambiguous_potentially_valid": 4,
+    "unsupported_representation": 4
+  },
+  "clean_annotation_only_records": 46,
+  "existing_frozen_test_pages_excluded": 0,
+  "classifier_justified": false
+}
