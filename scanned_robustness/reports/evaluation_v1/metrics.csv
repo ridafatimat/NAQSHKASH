@@ -1,0 +1,7 @@
+cohort,mode,pages_attempted,pages_processed,pages_failed,substitutions,deletions,insertions,samples,characters,exact_matches,cer,exact_accuracy
+general_test_structure_match_exploratory,blind,3,2,1,0,0,0,6,8,6,0.0,1.0
+general_test_structure_match_exploratory,assisted,3,2,1,0,0,0,6,8,6,0.0,1.0
+general_unassigned_exploratory,blind,300,224,76,107,240,1,1592,10405,1461,0.033445458913983664,0.917713567839196
+general_unassigned_exploratory,assisted,300,244,56,120,246,1,1717,10982,1571,0.03341832088872701,0.9149679673849738
+positive_frozen_test,blind,147,41,106,1,0,0,82,108,81,0.009259259259259259,0.9878048780487805
+positive_frozen_test,assisted,147,142,5,14,11,0,334,653,321,0.03828483920367534,0.9610778443113772
