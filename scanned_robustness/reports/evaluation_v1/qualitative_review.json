@@ -1,0 +1,19 @@
+{
+  "sample_id": "all_001893__aug_03_brightness_noise",
+  "mode": "assisted",
+  "tier_name": "upper",
+  "row_index": 0,
+  "truth": "BH",
+  "scanned_prediction": "U",
+  "clean_prediction": "BH",
+  "clean_p50": 255.0,
+  "clean_p95": 255.0,
+  "scanned_p50": 193.0,
+  "scanned_p95": 199.0,
+  "notes": [
+    "Visual review confirms the two symbol clusters are present in the recorded BH tier crop; scanned prediction U differs from paired clean BH.",
+    "The reviewed scanned crop has a visibly grey grainy background whereas the clean reference has a white background. Quantiles describe the full crop, not a certified background-only mask.",
+    "Perspective examples show sloping ink bands with overlapping vertical extents; fixed row projection and padded tier boundaries can become ambiguous.",
+    "These observations support investigation of illumination/background normalization and geometric segmentation before any training; they are not isolated causal ablations."
+  ]
+}
