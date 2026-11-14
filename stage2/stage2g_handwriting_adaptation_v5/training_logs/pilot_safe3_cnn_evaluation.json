@@ -1,0 +1,90 @@
+[
+  {
+    "step": 100,
+    "metrics": {
+      "tiers": 10,
+      "characters": 60,
+      "nonspace_characters": 42,
+      "errors": 42,
+      "cer": 0.7,
+      "cer_no_whitespace": 0.8571428571428571,
+      "exact_tiers": 0,
+      "exact_accuracy": 0.0,
+      "substitutions": 35,
+      "deletions": 3,
+      "insertions": 4,
+      "no_space_substitutions": 34,
+      "no_space_deletions": 2,
+      "no_space_insertions": 0,
+      "mean_ctc_loss": 7.329218554496765
+    },
+    "handwritten_eval_per_character_CTC": 4.399713397026062,
+    "clipping_rate": 0.02
+  },
+  {
+    "step": 200,
+    "metrics": {
+      "tiers": 10,
+      "characters": 60,
+      "nonspace_characters": 42,
+      "errors": 41,
+      "cer": 0.6833333333333333,
+      "cer_no_whitespace": 0.8571428571428571,
+      "exact_tiers": 0,
+      "exact_accuracy": 0.0,
+      "substitutions": 34,
+      "deletions": 1,
+      "insertions": 6,
+      "no_space_substitutions": 33,
+      "no_space_deletions": 1,
+      "no_space_insertions": 2,
+      "mean_ctc_loss": 7.088480687141418
+    },
+    "handwritten_eval_per_character_CTC": 10.42536719640096,
+    "clipping_rate": 0.02
+  },
+  {
+    "step": 300,
+    "metrics": {
+      "tiers": 10,
+      "characters": 60,
+      "nonspace_characters": 42,
+      "errors": 40,
+      "cer": 0.6666666666666666,
+      "cer_no_whitespace": 0.8095238095238095,
+      "exact_tiers": 0,
+      "exact_accuracy": 0.0,
+      "substitutions": 31,
+      "deletions": 4,
+      "insertions": 5,
+      "no_space_substitutions": 31,
+      "no_space_deletions": 3,
+      "no_space_insertions": 0,
+      "mean_ctc_loss": 6.709676802158356
+    },
+    "handwritten_eval_per_character_CTC": 9.21038850148519,
+    "clipping_rate": 0.013333333333333334
+  },
+  {
+    "step": 400,
+    "metrics": {
+      "tiers": 10,
+      "characters": 60,
+      "nonspace_characters": 42,
+      "errors": 42,
+      "cer": 0.7,
+      "cer_no_whitespace": 0.8095238095238095,
+      "exact_tiers": 0,
+      "exact_accuracy": 0.0,
+      "substitutions": 34,
+      "deletions": 0,
+      "insertions": 8,
+      "no_space_substitutions": 34,
+      "no_space_deletions": 0,
+      "no_space_insertions": 0,
+      "mean_ctc_loss": 6.923860883712768
+    },
+    "handwritten_eval_per_character_CTC": 8.75096853574117,
+    "clipping_rate": 0.025
+  }
+]
