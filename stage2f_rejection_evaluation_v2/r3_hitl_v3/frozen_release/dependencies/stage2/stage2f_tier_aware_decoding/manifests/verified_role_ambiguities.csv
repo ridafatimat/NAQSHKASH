@@ -1,0 +1,3 @@
+anchor,evidence,font_sha256,source,source_mode,status,target,target_role,verified_sizes
+lt_integer,font_mask_audit; crop-to-visible-ink; project renderer integer anchor lt,db845e7da53991c2531dbe49b71e19cab4d5b6da314140e16a7e992f6c67381c,B,L,verified_exact_in_scope,X,lower,"[24, 48, 64, 96]"
+lt_integer,font_mask_audit; crop-to-visible-ink; project renderer integer anchor lt,db845e7da53991c2531dbe49b71e19cab4d5b6da314140e16a7e992f6c67381c,X,L,verified_exact_in_scope,B,upper,"[24, 48, 64, 96]"

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "split": "development_design",
+  "dataset_dir": "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\full_20261106_194834_776",
+  "dataset_manifest_sha256": "5b2ce4a3c6acb080ac14cbafb84d974684a2e3a475973d0470b83b8462cd29df",
+  "selection_sha256": "9747bc71feb392063cb33ccfe9743c1f1d84e66c26e6509e5809ba739893aab9",
+  "requested_device": "cpu",
+  "seed": 42,
+  "checkpoint": "C:\\NAQSHKASH\\stage2\\stage2e_finetuning\\checkpoints\\selected_model\\best.pt",
+  "checkpoint_sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+  "d1_config_sha256": "050cafcb7c26403a4e21cf6f1e764ba90350cb37ff0a8ee74bb7fedb73af3141",
+  "vocabulary_sha256": "d988d951967399b64e45594153c345b09d5edb421940577ab038456b99defbb0",
+  "experiment_lock_sha256": "47059d8fce9962903552fcf1f1b1283c6961c3145f5364584739756411019192",
+  "contract": "original FrozenPipeline.observe(bytes), one image/tier at a time; no target loss or labels",
+  "execution_environment": {
+    "actual_device": "cpu",
+    "python": "3.12.10",
+    "torch": "2.2.2+cpu",
+    "numpy": "1.26.4",
+    "opencv": "4.13.0",
+    "Pillow": "10.2.0",
+    "batching": "original single-tier forward",
+    "seed_policy": "per-record deterministic42"
+  }
+}

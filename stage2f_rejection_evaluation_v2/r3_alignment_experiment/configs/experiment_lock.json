@@ -1,0 +1,9 @@
+{
+  "configs/selection.json": "0efdaebe9802138b2920d7daf5bf2d7e971c83dc08b5cd69fdeba45d2ebafd1b",
+  "gallery/index.html": "9732feb9132e69843efa9c6b473f4ab9c97c8fa1add7af802e8d33733eda0c2e",
+  "README.md": "64cb1098532217576898f4bb1507a7b318e66efa83c194438241ca6fa6017cbd",
+  "report.md": "e65be6b384d16478a68c45d1572b997145ad6bb257ed188fab7736a133435322",
+  "src/alignment.py": "1c35eac162874fe5ebf17b895d2b2706dbe49ec556701cf09e578447a563fc93",
+  "src/experiment.py": "10a683f8487a51845e84f3a68a5350d13f658a6638f0b7d5f3dd15d7ed5059f6",
+  "tests/test_alignment.py": "83142d93d9eff0a178cbb1cd8c49a9b1ab97375ec0fe8c06d40f35fa5470a24e"
+}

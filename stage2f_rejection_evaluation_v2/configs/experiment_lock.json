@@ -1,0 +1,20 @@
+{
+  "configs\\dataset.json": "2d004afd90e283861ad8dca8093d5fbd397aabdf4be67d8c58a95586547d5c73",
+  "configs\\historical_lock.json": "5c577847759b8e0c8fe0f723a5b6b34651f1702f28bf5c8bdb80cf5b874f203b",
+  "configs\\r0_baseline.yaml": "7507cc67066ba40fd3a0b3f38584de89064963db98ec2770b33a3df833e0dc08",
+  "configs\\r1_tier_aware.yaml": "9e9872494c212248bbe72b9e6ff8f35afdcb3054e5a50cfa71d7fc236026cab6",
+  "README.md": "ad8260f14b0d5509484e7641a5f00a34a596a058efc96ccce818684ffcac96d3",
+  "reports\\evaluation_protocol.md": "69f3d023bed9b38e8de73c6939c839654f93b3e3979a4c8b6200dd9505d3ff5c",
+  "reports\\integration_audit.md": "cbfd674525a509fa1800c2f383d37b07d3708a6421f2db9401f45695555f32f5",
+  "RUN_REJECTION_EVALUATION_IN_VSCODE.md": "27d5d988696cfe433893899843a49225ab7c62f1fd54cd318a5af9ab9fe2c44e",
+  "src\\compare_rejection.py": "a177bd10ff167ba255f8daad4f0ed7b337d54ce6b44816479389f112c295318b",
+  "src\\dataset_loader.py": "04a6f02e2a7461619dd0932c92071be799f6214dd0dea48349eddc82e3934ec4",
+  "src\\evaluate_rejection.py": "f2091446f258b9881dbeb8f21e9f309ef15cbd4b480dd96ce0799ec26ce1b3ce",
+  "src\\evaluation_metrics.py": "d83b20c6704dbacd0e14b716107a6e62c116acf211146ff9af80283366ca4e21",
+  "src\\generate_error_gallery.py": "66975c59c9013571d015d94f8b6f5fe9c946b7093f3d73ca63d74a76a107c846",
+  "src\\integration.py": "b4c534cb158b478c1389f3eb384391e2ff39c856015cc4e925124caade258a68",
+  "src\\observation_store.py": "f18d648a2f1aa85e354672a173abc5ecdae4aae2ae189f5616094a09cae39f21",
+  "src\\run_ocr_baseline.py": "902e4701f5575760aca83f048440b0125e5c1749cd5b62133a649e3200898cf3",
+  "src\\verify_artifacts.py": "38adc3af6f91b582bce2b8e160e1cc7bb5acf3967a351d6614bf2326632df52e",
+  "tests\\test_evaluation_v2.py": "4f6a463beca44d6886941d0f0861dee94e6d4fc888a6522b0259ef06847c44cc"
+}

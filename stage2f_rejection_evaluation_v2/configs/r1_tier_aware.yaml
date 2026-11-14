@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "candidate": "R1",
+  "tier_aware": true,
+  "description": "Same raw observations, unchanged T1 contextual interpretation/gates and F1 v2.",
+  "split": "development_design",
+  "unknown_rendering": "No forced correction; use original T1 uncertainty behavior."
+}

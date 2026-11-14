@@ -1,0 +1,59 @@
+{
+  "clean_historical_regression": {
+    "tiers": 645,
+    "parents": 98,
+    "characters": 4055,
+    "cer": 0.0017262638717632551,
+    "exact_accuracy": 0.9906976744186047,
+    "space_normalized_diagnostic_cer": 0.001429388221841052,
+    "macro_parent_cer": 0.002300069341069164,
+    "substitutions": 5,
+    "deletions": 2,
+    "insertions": 0,
+    "cer_excluding_whitespace": 0.001694915254237288,
+    "no_space_edit_counts": {
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 0
+    },
+    "mean_loss": 0.011869993526375033
+  },
+  "clean_validation": {
+    "tiers": 63,
+    "parents": 60,
+    "characters": 380,
+    "cer": 0.005263157894736842,
+    "exact_accuracy": 0.9682539682539683,
+    "space_normalized_diagnostic_cer": 0.006060606060606061,
+    "macro_parent_cer": 0.019047619047619046,
+    "substitutions": 2,
+    "deletions": 0,
+    "insertions": 0,
+    "cer_excluding_whitespace": 0.007326007326007326,
+    "no_space_edit_counts": {
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0
+    },
+    "mean_loss": 0.026410535812948138
+  },
+  "positive_development": {
+    "tiers": 431,
+    "parents": 46,
+    "characters": 2950,
+    "cer": 0.12033898305084746,
+    "exact_accuracy": 0.9466357308584686,
+    "space_normalized_diagnostic_cer": 0.007929515418502203,
+    "macro_parent_cer": 0.026341066807970562,
+    "substitutions": 17,
+    "deletions": 338,
+    "insertions": 0,
+    "cer_excluding_whitespace": 0.008144796380090498,
+    "no_space_edit_counts": {
+      "substitutions": 17,
+      "deletions": 1,
+      "insertions": 0
+    },
+    "mean_loss": 0.10172345469897245
+  }
+}

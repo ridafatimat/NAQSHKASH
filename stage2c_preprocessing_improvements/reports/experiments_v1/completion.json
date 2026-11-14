@@ -1,0 +1,38 @@
+{
+  "page_count": 1612,
+  "candidate_page_evaluations": 9672,
+  "prediction_count": 31367,
+  "model_state_unchanged": true,
+  "determinism_replays": [
+    {
+      "candidate": "C0",
+      "uncached_prediction_equal": true
+    },
+    {
+      "candidate": "C1",
+      "uncached_prediction_equal": true
+    },
+    {
+      "candidate": "C2",
+      "uncached_prediction_equal": true
+    },
+    {
+      "candidate": "C3",
+      "uncached_prediction_equal": true
+    },
+    {
+      "candidate": "C4",
+      "uncached_prediction_equal": true
+    },
+    {
+      "candidate": "C5",
+      "uncached_prediction_equal": true
+    }
+  ],
+  "cache_hits": 23971,
+  "unique_model_inputs": 7396,
+  "elapsed_seconds": 2052.6908560000593,
+  "checkpoint_sha256": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f",
+  "vocabulary_hash": "3a6a370c6940b737301025ac5182bf1862490b2e93d55307488c86c86c674bb5",
+  "validation_selection_unchanged": true
+}

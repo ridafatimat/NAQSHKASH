@@ -1,0 +1,46 @@
+{
+  "evaluation_records": 434,
+  "wrong_tier_reviews": 180,
+  "wrong_tier_by_origin": {
+    "negative_clean": 47,
+    "negative_scanned": 131,
+    "normal_clean": 2
+  },
+  "wrong_tier_by_cause": {
+    "B_X_identical_ink_role_context_not_supplied_to_E1": 176,
+    "non_talim_patch_interpreted_as_count_tier": 3,
+    "glyph_substitution_in_correctly_assigned_lower_tier": 1
+  },
+  "wrong_tier_independent_parents": 3,
+  "wrong_tier_unique_image_byte_hashes": 135,
+  "negative_wrong_tier_reviews": 178,
+  "negative_fixture_records": 198,
+  "negative_fixture_image_files": 197,
+  "negative_independent_source_families": 1,
+  "negative_mutation_types": 49,
+  "negative_wrong_tier_mutation_types": 46,
+  "diagnostic_image_classes": {
+    "valid_talim_content_annotation_fixture": 184,
+    "blank_white_artifact": 4,
+    "corrupt_unreadable_artifact": 1,
+    "missing_image_record": 1,
+    "non_talim_black_patch_artifact": 4,
+    "valid_talim_content_representation_fixture": 4
+  },
+  "genuine_invalid_talim_content_images": 0,
+  "negative_fixture_outcomes": {
+    "REVIEW_UNCERTAIN": 180,
+    "REJECT_INVALID": 5,
+    "ACCEPT": 13
+  },
+  "clean_byte_identical_base_files": 45,
+  "clean_grayscale_identical_base_files": 46,
+  "historical_metrics_not_rewritten": true,
+  "exposed_evaluation_diagnostic_only": true,
+  "ordinary_B_tier_controls": {
+    "('B_with_context', True, True)": 29,
+    "('B_only', False, True)": 1,
+    "('B_with_context', False, True)": 3,
+    "('B_with_context', False, False)": 1
+  }
+}

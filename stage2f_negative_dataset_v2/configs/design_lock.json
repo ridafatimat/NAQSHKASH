@@ -1,0 +1,23 @@
+{
+  "src\\build_history_index.py": "c96a7d4ba5a803a1d6345aec6a12eb82969688ca8ecc1d737ec3b08e6177734c",
+  "src\\common_v2.py": "bcb2ffeffff31bee8de7e4b242ccf314535a57c0a8a812a2e10c30937cbc30a6",
+  "src\\create_splits.py": "70ad8ee2d8e34587938533ccf59498af69c97b00302c0f46a1f26697dae50dc1",
+  "src\\gallery.py": "0ab91cdd0405c4f0f1133288517a771b47385fdc0978ebc69520629ff0faa6ec",
+  "src\\generate_negative_v2.py": "738953075a4707d1f3637e80504e5a6892884e55f7e97f4fab99580cfb8aaded",
+  "src\\independent_verify.py": "08a80657031b9807463a93ce84f7e2254d74b89dd041b1d8d7ea6f5e23926ba3",
+  "src\\mutations.py": "85a7b810ba731c2ac405700a69afaacd16493e41e42f0fc9cb993d68d2717ab7",
+  "src\\render_invalid.py": "edf9cb755426a94f7da5ffe0ffa5504099717feea3a8f1e7d52364d69cdf1d96",
+  "src\\scan_variants.py": "38adbb76525efa04b49031575586950cb6579e2a77dae6fb83a780492f66464b",
+  "src\\validate_dataset.py": "5529c28bccb6e42ab6b8a9a7f5711916914fad5a39a55abe4987050b32c4fb1d",
+  "tests\\test_dataset_v2.py": "5a285fd681e380515b2166315b6f6d5915c61856e9574ad0688ebaf12381c13a",
+  "configs\\generation_v2.yaml": "f871cbcd858adf040e630787070bfbab90ab2c5e8c98d49f534b6727b9e24eb1",
+  "configs\\historical_lock.json": "c4852b89da6ce11801a0f0340b499b9b734b139a61742663f1c8a8990776d01b",
+  "manifests\\history_bounded.json": "e88fa80ec1bcbfeeed3aaf5a3ab8a7242acb5f14c2f9669a0c9ef4a999fc2b56",
+  "README.md": "50a724afcca3d625423f70f608ee04636950a1ab5d53ef97afc83983f461c8c7",
+  "RUN_IN_VSCODE.md": "0647c5361a8aac0cada3d3fd5b8afbe27ca942e49cf3e7a0926645f0bf83fcaf",
+  "reports\\canonical_rule_audit.md": "97178841101394d560b0b00de94f8af6221fcf52e03f2584c31993a18fdf28a4",
+  "reports\\invalidity_categories.md": "25bfe1518a143e39be16236de30f686f3017223795182cb0d786f689370a8ef0",
+  "reports\\manual_review_checklist.md": "7a8bb97a14e7db6897f539f443d16efe45e944c3ab9c3f29ee86052c6a16f435",
+  "configs\\visual_alias_exclusions.json": "e3845a97320e61ff68fe1cb1cd9e7f8e1f310f824e4e88aa4596fd409c0df394",
+  "reports\\glyph_observability_audit.md": "06c1475815ae48539754bfa04869c70fb0d357c330dc6c7b9bd935f01ce33e05"
+}

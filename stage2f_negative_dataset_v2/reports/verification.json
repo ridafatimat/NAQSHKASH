@@ -1,0 +1,59 @@
+{
+  "final_preflight": {
+    "mode": "preflight",
+    "source_parents": 30,
+    "images": 120,
+    "clean_invalid": 30,
+    "clean_valid_controls": 30,
+    "scanned_style_images": 60,
+    "independently_verified_invalid_images": 60,
+    "domain_review_images": 0,
+    "validity_counts": {
+      "VALID": 60,
+      "INVALID": 60
+    },
+    "clean_invalid_by_category": {
+      "wrong_tier": 10,
+      "invalid_count_token": 10,
+      "missing_count": 10
+    },
+    "split_source_parents": {
+      "development_design": 30
+    },
+    "human_reviewed_images": 0,
+    "excluded_parent_candidates": 0,
+    "duplicate_images": [],
+    "parent_disjoint": true,
+    "mutation_family_disjoint": true,
+    "byte_hash_disjoint": true
+  },
+  "lightweight_tests_passed": 28,
+  "cli_help_checks_passed": 4,
+  "historical_files_verified": 427,
+  "frozen_design_files_verified": 21,
+  "all_historical_files_unchanged": true,
+  "D1_E1_T1_F1_unchanged": true,
+  "full_generation_executed": false,
+  "full_history_sweep_executed": false,
+  "CRNN_inference_executed": false,
+  "training_executed": false,
+  "protected_test_images_generated_or_evaluated": 0,
+  "font_files_copied": false,
+  "python": "3.12.10",
+  "Pillow": "10.2.0",
+  "numpy": "1.26.4",
+  "final_manifest_sha256": "75af85dac10e66975bded05ea73814c84980fd89a9ce463adde564c5256f0e41",
+  "quarantine": {
+    "provisional_images": 120,
+    "final_eligible_images": 120,
+    "total_model_pngs_generated_across_prototypes": 240,
+    "shared_image_hashes": 80,
+    "source_families_across_both": 40,
+    "provisional_status": "QUARANTINED_NOT_FOR_TRAINING_OR_EVALUATION",
+    "reason": "Exact-raster-only screening failed visual observability; strengthened conservative font-alias exclusions.",
+    "provisional_manifest_sha256": "26de7663ded9ee259f8cbdd3ee3cdcd6f1e79952c8b5c74d41616b21995f5735",
+    "final_manifest_sha256": "75af85dac10e66975bded05ea73814c84980fd89a9ce463adde564c5256f0e41"
+  },
+  "human_reviewed_images": 0,
+  "next_step": "User visual review of final preflight and canonical scope before authorization of full generation."
+}

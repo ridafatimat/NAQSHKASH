@@ -1,0 +1,7 @@
+cohort,mode,clean_parents_processed,clean_parents_attempted,scan_pages_processed,scan_pages_attempted,new_scan_failures_from_clean_success,failed_clean_and_scan
+general_test_structure_match_exploratory,blind,1,1,2,3,1,0
+general_test_structure_match_exploratory,assisted,1,1,2,3,1,0
+general_unassigned_exploratory,blind,92,100,224,300,52,24
+general_unassigned_exploratory,assisted,100,100,244,300,56,0
+positive_frozen_test,blind,14,49,41,147,1,105
+positive_frozen_test,assisted,49,49,142,147,5,0

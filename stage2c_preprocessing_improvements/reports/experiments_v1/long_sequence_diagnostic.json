@@ -1,0 +1,81 @@
+{
+  "C0": {
+    "scored_parents": 15,
+    "macro_parent_cer": 0.02222222222222222,
+    "micro_cer": 0.023809523809523808,
+    "errors": 3,
+    "characters": 126,
+    "dense_parent": "edge_00323",
+    "dense_errors": 0,
+    "dense_characters": 0,
+    "error_share": 0.0,
+    "character_share": 0.0
+  },
+  "C1": {
+    "scored_parents": 15,
+    "macro_parent_cer": 0.02222222222222222,
+    "micro_cer": 0.023809523809523808,
+    "errors": 3,
+    "characters": 126,
+    "dense_parent": "edge_00323",
+    "dense_errors": 0,
+    "dense_characters": 0,
+    "error_share": 0.0,
+    "character_share": 0.0
+  },
+  "C2": {
+    "scored_parents": 32,
+    "macro_parent_cer": 0.05790518420795466,
+    "micro_cer": 0.27837014470677834,
+    "errors": 731,
+    "characters": 2626,
+    "dense_parent": "edge_00323",
+    "dense_errors": 710,
+    "dense_characters": 2274,
+    "error_share": 0.9712722298221614,
+    "character_share": 0.865955826351866
+  },
+  "C3": {
+    "scored_parents": 15,
+    "macro_parent_cer": 0.02222222222222222,
+    "micro_cer": 0.023809523809523808,
+    "errors": 3,
+    "characters": 126,
+    "dense_parent": "edge_00323",
+    "dense_errors": 0,
+    "dense_characters": 0,
+    "error_share": 0.0,
+    "character_share": 0.0
+  },
+  "C4": {
+    "scored_parents": 32,
+    "macro_parent_cer": 0.04494222124499169,
+    "micro_cer": 0.2753236862147753,
+    "errors": 723,
+    "characters": 2626,
+    "dense_parent": "edge_00323",
+    "dense_errors": 710,
+    "dense_characters": 2274,
+    "error_share": 0.9820193637621023,
+    "character_share": 0.865955826351866
+  },
+  "C5": {
+    "scored_parents": 33,
+    "macro_parent_cer": 0.04358033575271922,
+    "micro_cer": 0.27521888085268364,
+    "errors": 723,
+    "characters": 2627,
+    "dense_parent": "edge_00323",
+    "dense_errors": 710,
+    "dense_characters": 2274,
+    "error_share": 0.9820193637621023,
+    "character_share": 0.8656261895698515
+  },
+  "clean_dense_diagnostic": {
+    "parent_id": "edge_00323",
+    "errors": 112,
+    "all_nonspace_sequences_equal": true,
+    "main_metrics_unchanged": true,
+    "notes": "Removing spaces is a diagnostic equality check only; actual targets/CER remain unchanged."
+  }
+}

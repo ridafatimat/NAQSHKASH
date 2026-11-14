@@ -1,0 +1,33 @@
+{
+  "total": 776,
+  "valid_denominator": 776,
+  "invalid_denominator": 0,
+  "invalid_content_denominator": 0,
+  "other_denominator": 0,
+  "outcome_counts": {
+    "ACCEPT": 757,
+    "REJECT_INVALID": 4,
+    "REVIEW_UNCERTAIN": 15
+  },
+  "negative_rejection_recall": null,
+  "false_acceptance_rate": null,
+  "invalid_review_rate": null,
+  "content_rejection_recall": null,
+  "positive_acceptance_rate": 0.9755154639175257,
+  "false_rejection_rate": 0.005154639175257732,
+  "positive_review_rate": 0.019329896907216496,
+  "positive_nonacceptance_rate": 0.024484536082474227,
+  "accepted_output_correctness": 0.9696169088507266,
+  "accepted_output_denominator": 757,
+  "end_to_end_page_correctness": 0.9458762886597938,
+  "end_to_end_denominator": 776,
+  "expected_action_accuracy": 0.9755154639175257,
+  "rejection_reason_accuracy": null,
+  "rejection_reason_denominator": 0,
+  "macro_parent": {
+    "negative_rejection_recall": null,
+    "false_acceptance_rate": null,
+    "positive_acceptance_rate": 0.9728260869565217,
+    "false_rejection_rate": 0.007608695652173913
+  }
+}

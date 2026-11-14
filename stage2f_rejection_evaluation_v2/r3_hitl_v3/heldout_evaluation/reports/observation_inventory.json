@@ -1,0 +1,17 @@
+{
+  "compatible_heldout_observations": [],
+  "manual_frozen_inference_required": true,
+  "selected_dataset_manifest_sha256": "5b2ce4a3c6acb080ac14cbafb84d974684a2e3a475973d0470b83b8462cd29df",
+  "available_v2_raw_observations": [
+    {"path": "stage2f_rejection_evaluation_v2/metrics/20261106_204802_280_raw", "split": "development_design", "use_for_heldout": false},
+    {"path": "stage2f_rejection_evaluation_v2/r3_alignment_experiment/runs/20261107_021046_514_extraction", "split": "development_design", "use_for_heldout": false}
+  ],
+  "other_observation_files": [
+    "stage2f_negative_rejection/reports/implementation_smoke/observations.jsonl",
+    "stage2f_negative_rejection/metrics/20261106_154728_812_eval_baseline/observations.jsonl",
+    "stage2f_negative_rejection/metrics/20261106_154728_812_dev_baseline/observations.jsonl"
+  ],
+  "other_observation_scope": "Legacy fixture/development caches, not the selected v2 validation/protected splits; never substituted.",
+  "searched_workspaces": ["stage2f_rejection_evaluation_v2", "stage2f_negative_rejection", "stage2f_tier_aware_decoding"],
+  "image_bytes_read_for_inventory": 0
+}

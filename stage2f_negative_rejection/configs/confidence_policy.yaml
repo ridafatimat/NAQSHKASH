@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "action": "REVIEW_UNCERTAIN",
+  "minimum": {
+    "nonblank_geomean": null,
+    "ctc_log_score_per_frame": null,
+    "mean_top2_log_margin": null,
+    "role_margin": null
+  },
+  "calibrated_validity_probability": false,
+  "scope": "Unselected thresholds. F2 equals F1 until manual development-only quality calibration."
+}

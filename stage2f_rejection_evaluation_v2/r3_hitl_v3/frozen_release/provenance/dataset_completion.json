@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "mode": "full",
+  "manifest_sha256": "5b2ce4a3c6acb080ac14cbafb84d974684a2e3a475973d0470b83b8462cd29df",
+  "history_index_sha256": "b06a22994e3e6f4f0d6d22be06c492c3526abfca26c6bcd6032a43c307636975",
+  "history_coverage": "full",
+  "design_lock_sha256": "39720bdff3b6150e4ea4276bf94c9a21f649aeaa97b0f7c4d99890944ea3fa36",
+  "counts": {
+    "mode": "full",
+    "source_parents": 1000,
+    "images": 4000,
+    "clean_invalid": 1000,
+    "clean_valid_controls": 1000,
+    "scanned_style_images": 2000,
+    "independently_verified_invalid_images": 2000,
+    "domain_review_images": 0,
+    "validity_counts": {
+      "VALID": 2000,
+      "INVALID": 2000
+    },
+    "clean_invalid_by_category": {
+      "wrong_tier": 334,
+      "invalid_count_token": 333,
+      "missing_count": 333
+    },
+    "split_source_parents": {
+      "development_design": 700,
+      "validation_calibration": 150,
+      "protected_test": 150
+    },
+    "human_reviewed_images": 0,
+    "excluded_parent_candidates": 0,
+    "duplicate_images": [],
+    "parent_disjoint": true,
+    "mutation_family_disjoint": true,
+    "byte_hash_disjoint": true
+  },
+  "independent_source_claim_scope": "new seeded canonical parents; exact semantic exclusion within indexed archives, not independent real-world evidence"
+}

@@ -1,0 +1,163 @@
+{
+  "sample_id": "all_000917",
+  "rows": 2,
+  "cells_per_row": 167,
+  "symbols_used": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "[",
+    "\\",
+    "]",
+    "^",
+    "_"
+  ],
+  "symbol_directions": {
+    "A": "UP",
+    "B": "UP",
+    "C": "UP",
+    "D": "UP",
+    "E": "UP",
+    "F": "UP",
+    "G": "UP",
+    "H": "UP",
+    "I": "UP",
+    "J": "UP",
+    "K": "UP",
+    "L": "UP",
+    "M": "UP",
+    "N": "UP",
+    "P": "UP",
+    "Q": "UP",
+    "R": "DOWN",
+    "S": "DOWN",
+    "T": "DOWN",
+    "U": "DOWN",
+    "V": "DOWN",
+    "W": "DOWN",
+    "X": "DOWN",
+    "Y": "DOWN",
+    "Z": "DOWN",
+    "[": "DOWN",
+    "\\": "DOWN",
+    "]": "DOWN",
+    "^": "DOWN",
+    "_": "DOWN"
+  },
+  "generation": {
+    "master_seed": 2026,
+    "sample_seed": 4107725524004259181,
+    "sample_seed_rule": "explicit sample_seed; dataset generation_config.json records derivation",
+    "dialect": "historical_simple_talim",
+    "pivot_separator_notation": false,
+    "min_run_length": 1,
+    "max_run_length": 259,
+    "run_pattern": "random",
+    "required_counts": [
+      157
+    ],
+    "controlled_row_pattern": []
+  },
+  "logical_rows": [
+    {
+      "row_index": 0,
+      "upper": "M AMB",
+      "count_line": "xgcdc",
+      "lower": "",
+      "runs": [
+        {
+          "symbol": "M",
+          "count": 157,
+          "direction": "UP",
+          "encoded_count": "xg"
+        },
+        {
+          "symbol": "A",
+          "count": 3,
+          "direction": "UP",
+          "encoded_count": "c"
+        },
+        {
+          "symbol": "M",
+          "count": 4,
+          "direction": "UP",
+          "encoded_count": "d"
+        },
+        {
+          "symbol": "B",
+          "count": 3,
+          "direction": "UP",
+          "encoded_count": "c"
+        }
+      ]
+    },
+    {
+      "row_index": 1,
+      "upper": "E      M",
+      "count_line": "qhnhjgac",
+      "lower": "  ] X U",
+      "runs": [
+        {
+          "symbol": "E",
+          "count": 88,
+          "direction": "UP",
+          "encoded_count": "qh"
+        },
+        {
+          "symbol": "]",
+          "count": 58,
+          "direction": "DOWN",
+          "encoded_count": "nh"
+        },
+        {
+          "symbol": "X",
+          "count": 17,
+          "direction": "DOWN",
+          "encoded_count": "jg"
+        },
+        {
+          "symbol": "U",
+          "count": 1,
+          "direction": "DOWN",
+          "encoded_count": "a"
+        },
+        {
+          "symbol": "M",
+          "count": 3,
+          "direction": "UP",
+          "encoded_count": "c"
+        }
+      ]
+    }
+  ],
+  "rendering": {
+    "font_file": "Talamat.ttf",
+    "font_family": "IMTCRPET",
+    "font_size_px": 48,
+    "image_mode": "L",
+    "image_width_px": 449,
+    "image_height_px": 368
+  }
+}

@@ -1,0 +1,36 @@
+test_already_valid_prediction_unchanged (test_tier_aware.DecoderTests.test_already_valid_prediction_unchanged) ... ok
+test_conflicting_evidence_blocks (test_tier_aware.DecoderTests.test_conflicting_evidence_blocks) ... ok
+test_disabled_is_exact_baseline (test_tier_aware.DecoderTests.test_disabled_is_exact_baseline) ... ok
+test_existing_d1_reliability_and_metadata_conflict (test_tier_aware.DecoderTests.test_existing_d1_reliability_and_metadata_conflict) ... ok
+test_f1_v2_compatibility (test_tier_aware.DecoderTests.test_f1_v2_compatibility) ... ok
+test_four_development_regressions_only_verified_pair_changes (test_tier_aware.DecoderTests.test_four_development_regressions_only_verified_pair_changes) ... ok
+test_independent_artifact_rejection_is_not_overridden (test_tier_aware.DecoderTests.test_independent_artifact_rejection_is_not_overridden) ... ok
+test_long_sequences_internal_spaces (test_tier_aware.DecoderTests.test_long_sequences_internal_spaces) ... ok
+test_lower_context (test_tier_aware.DecoderTests.test_lower_context) ... ok
+test_missing_and_ambiguous_role (test_tier_aware.DecoderTests.test_missing_and_ambiguous_role) ... ok
+test_multiple_targets_remain_uncertain (test_tier_aware.DecoderTests.test_multiple_targets_remain_uncertain) ... ok
+test_no_partial_correction_or_count_replacement (test_tier_aware.DecoderTests.test_no_partial_correction_or_count_replacement) ... ok
+test_preserve_original_f1_code_and_evidence (test_tier_aware.DecoderTests.test_preserve_original_f1_code_and_evidence) ... ok
+test_raw_output_and_input_objects_preserved (test_tier_aware.DecoderTests.test_raw_output_and_input_objects_preserved) ... ok
+test_runtime_ground_truth_independence (test_tier_aware.DecoderTests.test_runtime_ground_truth_independence) ... ok
+test_similar_not_equivalent (test_tier_aware.DecoderTests.test_similar_not_equivalent) ... ok
+test_unknown_character_is_not_repaired (test_tier_aware.DecoderTests.test_unknown_character_is_not_repaired) ... ok
+test_upper_context (test_tier_aware.DecoderTests.test_upper_context) ... ok
+test_verified_pair_at_multiple_sizes_and_limit (test_tier_aware.DecoderTests.test_verified_pair_at_multiple_sizes_and_limit) ... ok
+test_wrong_render_scope_blocks_correction (test_tier_aware.DecoderTests.test_wrong_render_scope_blocks_correction) ... ok
+test_all_optimal_alignments_not_favorable_tie (test_tier_aware.MetricTests.test_all_optimal_alignments_not_favorable_tie) ... ok
+test_completed_output_and_gallery_roundtrip (test_tier_aware.MetricTests.test_completed_output_and_gallery_roundtrip) ... ok
+test_exact_and_cer_track_transcription_not_just_accept (test_tier_aware.MetricTests.test_exact_and_cer_track_transcription_not_just_accept) ... ok
+test_experiment_code_and_configuration_frozen (test_tier_aware.MetricTests.test_experiment_code_and_configuration_frozen) ... ok
+test_exposed_partition_is_rejected_before_loading (test_tier_aware.MetricTests.test_exposed_partition_is_rejected_before_loading) ... ok
+test_historical_inputs_checkpoint_and_f1_unchanged (test_tier_aware.MetricTests.test_historical_inputs_checkpoint_and_f1_unchanged) ... ok
+test_internal_spaces_in_cer (test_tier_aware.MetricTests.test_internal_spaces_in_cer) ... ok
+test_missing_tiers_are_not_dropped (test_tier_aware.MetricTests.test_missing_tiers_are_not_dropped) ... ok
+test_paired_comparison_guards (test_tier_aware.MetricTests.test_paired_comparison_guards) ... ok
+test_parent_macro_weighting (test_tier_aware.MetricTests.test_parent_macro_weighting) ... ok
+test_unresolved_context_cannot_turn_into_accept (test_tier_aware.MetricTests.test_unresolved_context_cannot_turn_into_accept) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.738s
+
+OK

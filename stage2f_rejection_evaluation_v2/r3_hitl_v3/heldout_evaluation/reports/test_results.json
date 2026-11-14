@@ -1,0 +1,18 @@
+{
+  "passed": 48,
+  "failed": 0,
+  "tests_run": 48,
+  "created_UTC": "2026-11-07T17:35:46.195398+00:00",
+  "python": "3.12.10",
+  "command": "python -B -m unittest discover -s heldout_evaluation/tests -v",
+  "scope": "Lightweight synthetic observations/temp journals/development metadata; no held-out inference/evaluation or image bytes; no model initialized.",
+  "source_sha256": {
+    "frozen_release/freeze_runtime.py": "6a6170136e2e813b2aa650f77fbc488687910b8d6719786a21c0980d2297fd7a",
+    "frozen_release/verify_freeze.py": "6d73be5f89708ef7d3ba066b69e4767157a968257f8d41ef1022c441eecc2d30",
+    "heldout_evaluation/src/heldout_cli.py": "4747df5f2cce629d5b0002f79b8f48f5d1ef5db8220f427ab3639f12c4bbcc30",
+    "heldout_evaluation/src/heldout_dataset.py": "f2f0a81d0218f0344e2fb4839dda9ec43f17a68949103789a394074ce52abd3f",
+    "heldout_evaluation/src/journal.py": "7c2eba0670870ff33c2aa5c95b2c86caff08f917ce4e6fc8ce8d39b4e16211ff",
+    "heldout_evaluation/src/release_io.py": "af34298b3b5c1e248b9cc7432955082512c224b583f8832bb1d866e38101a511",
+    "heldout_evaluation/tests/test_release.py": "fc3a12a080966fbe17ca7862a3ea7cd0c261678bfa7ebb3977c9554994824740"
+  }
+}

@@ -1,0 +1,292 @@
+dataset,cohort,sample_id,parent_id,mode,augmentation,operations,severity,row_index,tier_name,truth,prediction,raw_label,leading_offset,resized_width,paired_clean_available,clean_prediction,substitutions,deletions,insertions
+general,general_unassigned_exploratory,all_000031__aug_01_shadow,all_000031,blind,shadow,shadow,strong,0,count,mhimbfc,mhmbfc,mhimbfc,0,454,True,mhimbfc,0,1,0
+general,general_unassigned_exploratory,all_000031__aug_01_shadow,all_000031,blind,shadow,shadow,strong,0,lower,V SW  _,VW  _,V SW  _,0,583,True,V SW  _,0,2,0
+general,general_unassigned_exploratory,all_000031__aug_01_shadow,all_000031,assisted,shadow,shadow,strong,0,count,mhimbfc,mhmbfc,mhimbfc,0,454,True,mhimbfc,0,1,0
+general,general_unassigned_exploratory,all_000031__aug_01_shadow,all_000031,assisted,shadow,shadow,strong,0,lower,V SW  _,VW  _,V SW  _,0,583,True,V SW  _,0,2,0
+general,general_unassigned_exploratory,all_000548__aug_01_gaussian_blur,all_000548,blind,gaussian_blur,gaussian_blur,medium,0,count,mgofnd,ugofnd,mgofnd,0,389,True,mgofnd,1,0,0
+general,general_unassigned_exploratory,all_000548__aug_01_gaussian_blur,all_000548,blind,gaussian_blur,gaussian_blur,medium,1,lower,Z,C,    Z,4,1252,True,Z,1,0,0
+general,general_unassigned_exploratory,all_000548__aug_01_gaussian_blur,all_000548,assisted,gaussian_blur,gaussian_blur,medium,0,count,mgofnd,ugofnd,mgofnd,0,389,True,mgofnd,1,0,0
+general,general_unassigned_exploratory,all_000548__aug_01_gaussian_blur,all_000548,assisted,gaussian_blur,gaussian_blur,medium,1,lower,Z,C,    Z,4,1252,True,Z,1,0,0
+general,general_unassigned_exploratory,all_000548__aug_03_resolution,all_000548,blind,resolution,resolution,mild,1,lower,Z,C,    Z,4,1252,True,Z,1,0,0
+general,general_unassigned_exploratory,all_000548__aug_03_resolution,all_000548,assisted,resolution,resolution,mild,1,lower,Z,C,    Z,4,1252,True,Z,1,0,0
+general,general_unassigned_exploratory,all_000658__aug_01_resolution,all_000658,blind,resolution,resolution,medium,0,lower,X  Z,X Z,  X  Z,2,1354,True,X  Z,0,1,0
+general,general_unassigned_exploratory,all_000658__aug_01_resolution,all_000658,assisted,resolution,resolution,medium,0,lower,X  Z,X Z,  X  Z,2,1354,True,X  Z,0,1,0
+general,general_unassigned_exploratory,all_000658__aug_02_rotation,all_000658,blind,rotation,rotation,mild,0,lower,X  Z,B  E,  X  Z,2,1357,True,X  Z,2,0,0
+general,general_unassigned_exploratory,all_000658__aug_02_rotation,all_000658,assisted,rotation,rotation,mild,0,lower,X  Z,B  E,  X  Z,2,1357,True,X  Z,2,0,0
+general,general_unassigned_exploratory,all_000681__aug_03_resolution_jpeg,all_000681,blind,resolution+jpeg,resolution;jpeg,medium,3,count,rbocjhfgaba,|bocjhfgaba,rbocjhfgaba,0,707,True,rbocjhfgaba,1,0,0
+general,general_unassigned_exploratory,all_000681__aug_03_resolution_jpeg,all_000681,assisted,resolution+jpeg,resolution;jpeg,medium,3,count,rbocjhfgaba,|bocjhfgaba,rbocjhfgaba,0,707,True,rbocjhfgaba,1,0,0
+general,general_unassigned_exploratory,all_000685__aug_03_gaussian_blur_contrast,all_000685,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,count,{dhb,bbhb,{dhb,0,267,True,{dhb,2,0,0
+general,general_unassigned_exploratory,all_000685__aug_03_gaussian_blur_contrast,all_000685,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,lower,X  _,X U,X  _,0,433,True,X  _,1,1,0
+general,general_unassigned_exploratory,all_000703__aug_01_gaussian_blur_contrast,all_000703,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,upper,AL,AN,      AL,6,887,True,AL,1,0,0
+general,general_unassigned_exploratory,all_000703__aug_01_gaussian_blur_contrast,all_000703,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,count,'bjdlfia,sbjdlfia,'bjdlfia,0,515,True,'bjdlfia,1,0,0
+general,general_unassigned_exploratory,all_000703__aug_01_gaussian_blur_contrast,all_000703,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,upper,AL,AN,      AL,6,887,True,AL,1,0,0
+general,general_unassigned_exploratory,all_000703__aug_01_gaussian_blur_contrast,all_000703,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,count,'bjdlfia,sbjdlfia,'bjdlfia,0,515,True,'bjdlfia,1,0,0
+general,general_unassigned_exploratory,all_000921__aug_01_shadow,all_000921,blind,shadow,shadow,mild,2,lower,R      X,R     X,R      X,0,830,True,R      X,0,1,0
+general,general_unassigned_exploratory,all_000921__aug_01_shadow,all_000921,assisted,shadow,shadow,mild,2,lower,R      X,R     X,R      X,0,830,True,R      X,0,1,0
+general,general_unassigned_exploratory,all_000921__aug_02_contrast,all_000921,blind,contrast,contrast,strong,2,lower,R      X,R     X,R      X,0,830,True,R      X,0,1,0
+general,general_unassigned_exploratory,all_000921__aug_02_contrast,all_000921,assisted,contrast,contrast,strong,2,lower,R      X,R     X,R      X,0,830,True,R      X,0,1,0
+general,general_unassigned_exploratory,all_000921__aug_03_rotation,all_000921,blind,rotation,rotation,mild,2,lower,R      X,R     X,R      X,0,830,True,R      X,0,1,0
+general,general_unassigned_exploratory,all_000921__aug_03_rotation,all_000921,blind,rotation,rotation,mild,3,upper,N  MI   B F  MI C,N  MI   B F  M\ C,N  MI   B F  MI C,0,1655,True,N  MI   B F  MI C,1,0,0
+general,general_unassigned_exploratory,all_000921__aug_03_rotation,all_000921,assisted,rotation,rotation,mild,2,lower,R      X,R     X,R      X,0,830,True,R      X,0,1,0
+general,general_unassigned_exploratory,all_000921__aug_03_rotation,all_000921,assisted,rotation,rotation,mild,3,upper,N  MI   B F  MI C,N  MI   B F  M\ C,N  MI   B F  MI C,0,1655,True,N  MI   B F  MI C,1,0,0
+general,general_unassigned_exploratory,all_001853__aug_03_gaussian_blur_contrast,all_001853,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,1,lower,T_    _,T    _, T_    _,1,1097,True,T_    _,0,1,0
+general,general_unassigned_exploratory,all_001853__aug_03_gaussian_blur_contrast,all_001853,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,1,lower,T_    _,T    _, T_    _,1,1097,True,T_    _,0,1,0
+general,general_unassigned_exploratory,all_001893__aug_02_gaussian_blur,all_001893,blind,gaussian_blur,gaussian_blur,medium,0,count,rgcfa,*gcfa,rgcfa,0,343,True,rgcfa,1,0,0
+general,general_unassigned_exploratory,all_001893__aug_02_gaussian_blur,all_001893,assisted,gaussian_blur,gaussian_blur,medium,0,count,rgcfa,*gcfa,rgcfa,0,343,True,rgcfa,1,0,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,0,upper,BH,U,  BH,2,461,True,BH,1,1,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,0,count,rgcfa,U,rgcfa,0,343,True,rgcfa,1,4,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,0,lower,U   _,U,U   _,0,538,True,U   _,0,4,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,1,upper,G Q NJ,C,  G Q NJ,2,735,True,G Q NJ,1,5,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,1,count,kcnbkhca,b,kcnbkhca,0,515,True,kcnbkhca,0,7,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,1,lower,_,C,_,0,887,True,_,1,0,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,2,upper,H QC K,Y,   H QC K,3,909,True,H QC K,1,5,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,2,count,pecjagbbabd,U,pecjagbbabd,0,709,True,pecjagbbabd,1,10,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,2,lower,U T    X \U,U,U T    X \U,0,1043,True,U T    X \U,0,10,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,3,upper,I  A N,C,    I  A N,4,918,True,I  A N,1,5,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,3,count,jaldndeaaa,b,jaldndeaaa,0,643,True,jaldndeaaa,1,9,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,blind,brightness+noise,brightness;noise,strong,3,lower,U W   _ ^,U,U W   _ ^,0,824,True,U W   _ ^,0,8,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,0,upper,BH,U,  BH,2,461,True,BH,1,1,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,0,count,rgcfa,U,rgcfa,0,343,True,rgcfa,1,4,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,0,lower,U   _,U,U   _,0,538,True,U   _,0,4,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,1,upper,G Q NJ,C,  G Q NJ,2,735,True,G Q NJ,1,5,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,1,count,kcnbkhca,b,kcnbkhca,0,515,True,kcnbkhca,0,7,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,1,lower,_,C,_,0,887,True,_,1,0,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,2,upper,H QC K,Y,   H QC K,3,909,True,H QC K,1,5,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,2,count,pecjagbbabd,U,pecjagbbabd,0,709,True,pecjagbbabd,1,10,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,2,lower,U T    X \U,U,U T    X \U,0,1043,True,U T    X \U,0,10,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,3,upper,I  A N,C,    I  A N,4,918,True,I  A N,1,5,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,3,count,jaldndeaaa,b,jaldndeaaa,0,643,True,jaldndeaaa,1,9,0
+general,general_unassigned_exploratory,all_001893__aug_03_brightness_noise,all_001893,assisted,brightness+noise,brightness;noise,strong,3,lower,U W   _ ^,U,U W   _ ^,0,824,True,U W   _ ^,0,8,0
+general,general_unassigned_exploratory,all_002020__aug_01_resolution_jpeg,all_002020,blind,resolution+jpeg,resolution;jpeg,mild,0,upper,N   N,N  N,   N   N,3,1115,True,N   N,0,1,0
+general,general_unassigned_exploratory,all_002020__aug_01_resolution_jpeg,all_002020,assisted,resolution+jpeg,resolution;jpeg,mild,0,upper,N   N,N  N,   N   N,3,1115,True,N   N,0,1,0
+general,general_unassigned_exploratory,all_002032__aug_01_resolution_jpeg,all_002032,blind,resolution+jpeg,resolution;jpeg,medium,0,count,*fjhoakicdda,ufjhoakicdda,*fjhoakicdda,0,771,True,*fjhoakicdda,1,0,0
+general,general_unassigned_exploratory,all_002032__aug_01_resolution_jpeg,all_002032,assisted,resolution+jpeg,resolution;jpeg,medium,0,count,*fjhoakicdda,ufjhoakicdda,*fjhoakicdda,0,771,True,*fjhoakicdda,1,0,0
+general,general_unassigned_exploratory,all_002260__aug_01_gaussian_blur,all_002260,blind,gaussian_blur,gaussian_blur,medium,0,count,'ehjcpbjjeb,sehjcpbjjeb,'ehjcpbjjeb,0,700,True,'ehjcpbjjeb,1,0,0
+general,general_unassigned_exploratory,all_002260__aug_01_gaussian_blur,all_002260,assisted,gaussian_blur,gaussian_blur,medium,0,count,'ehjcpbjjeb,sehjcpbjjeb,'ehjcpbjjeb,0,700,True,'ehjcpbjjeb,1,0,0
+general,general_unassigned_exploratory,all_002446__aug_02_resolution_jpeg,all_002446,blind,resolution+jpeg,resolution;jpeg,mild,0,lower,Z,C,    Z,4,1252,True,Z,1,0,0
+general,general_unassigned_exploratory,all_002446__aug_02_resolution_jpeg,all_002446,assisted,resolution+jpeg,resolution;jpeg,mild,0,lower,Z,C,    Z,4,1252,True,Z,1,0,0
+general,general_unassigned_exploratory,all_002446__aug_03_gaussian_blur_contrast,all_002446,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,lower,Z,C,    Z,4,1252,True,Z,1,0,0
+general,general_unassigned_exploratory,all_002446__aug_03_gaussian_blur_contrast,all_002446,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,lower,Z,C,    Z,4,1252,True,Z,1,0,0
+general,general_unassigned_exploratory,all_002486__aug_02_shadow,all_002486,blind,shadow,shadow,medium,0,upper,D  QF,N,  D  QF,2,735,True,D  QF,1,4,0
+general,general_unassigned_exploratory,all_002486__aug_02_shadow,all_002486,blind,shadow,shadow,medium,0,lower,Z   T  _,Z   ,Z   T  _,0,887,True,Z   T  _,0,4,0
+general,general_unassigned_exploratory,all_002486__aug_02_shadow,all_002486,assisted,shadow,shadow,medium,0,upper,D  QF,N,  D  QF,2,735,True,D  QF,1,4,0
+general,general_unassigned_exploratory,all_002486__aug_02_shadow,all_002486,assisted,shadow,shadow,medium,0,lower,Z   T  _,Z   ,Z   T  _,0,887,True,Z   T  _,0,4,0
+general,general_unassigned_exploratory,all_002775__aug_01_gaussian_blur_contrast,all_002775,blind,gaussian_blur+contrast,gaussian_blur;contrast,mild,2,upper,N        A,N       A,N        A,0,1225,True,N        A,0,1,0
+general,general_unassigned_exploratory,all_002775__aug_01_gaussian_blur_contrast,all_002775,assisted,gaussian_blur+contrast,gaussian_blur;contrast,mild,2,upper,N        A,N       A,N        A,0,1225,True,N        A,0,1,0
+general,general_unassigned_exploratory,all_002775__aug_03_gaussian_blur,all_002775,blind,gaussian_blur,gaussian_blur,mild,2,upper,N        A,N       A,N        A,0,1225,True,N        A,0,1,0
+general,general_unassigned_exploratory,all_002775__aug_03_gaussian_blur,all_002775,assisted,gaussian_blur,gaussian_blur,mild,2,upper,N        A,N       A,N        A,0,1225,True,N        A,0,1,0
+general,general_unassigned_exploratory,all_002849__aug_03_resolution,all_002849,assisted,resolution,resolution,strong,0,upper,J,],J,0,326,True,J,1,0,0
+general,general_unassigned_exploratory,all_002849__aug_03_resolution,all_002849,assisted,resolution,resolution,strong,0,lower,_,D,  _,2,349,True,_,1,0,0
+general,general_unassigned_exploratory,all_003304__aug_01_rotation,all_003304,blind,rotation,rotation,medium,0,count,(ctbbbca,*cubbbca,(ctbbbca,0,506,True,(ctbbbca,2,0,0
+general,general_unassigned_exploratory,all_003304__aug_01_rotation,all_003304,assisted,rotation,rotation,medium,0,count,(ctbbbca,*cubbbca,(ctbbbca,0,506,True,(ctbbbca,2,0,0
+general,general_unassigned_exploratory,all_003404__aug_03_gaussian_blur_contrast,all_003404,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,count,ndmdpbca,bdmdpbca,ndmdpbca,0,515,True,ndmdpbca,1,0,0
+general,general_unassigned_exploratory,all_003404__aug_03_gaussian_blur_contrast,all_003404,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,count,ndmdpbca,bdmdpbca,ndmdpbca,0,515,True,ndmdpbca,1,0,0
+general,general_unassigned_exploratory,all_003497__aug_01_resolution_jpeg,all_003497,blind,resolution+jpeg,resolution;jpeg,medium,1,lower,UW   X,UW  X,   UW   X,3,829,True,UW   X,0,1,0
+general,general_unassigned_exploratory,all_003497__aug_01_resolution_jpeg,all_003497,assisted,resolution+jpeg,resolution;jpeg,medium,1,lower,UW   X,UW  X,   UW   X,3,829,True,UW   X,0,1,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,upper,E  NK,E  Nv,E  NK,0,412,True,E  NK,1,0,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,count,wgcaf,zgcaf,wgcaf,0,349,True,wgcaf,1,0,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,upper,BL    IN G,BN   IN G,BL    IN G,0,925,True,BL    IN G,1,1,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,count,pnehjhaaac,ubehhaaac,pnehjhaaac,0,648,True,pnehjhaaac,2,1,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,lower,UW   X,UW  X,   UW   X,3,830,True,UW   X,0,1,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,upper,E  NK,E  Nv,E  NK,0,412,True,E  NK,1,0,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,count,wgcaf,zgcaf,wgcaf,0,349,True,wgcaf,1,0,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,upper,BL    IN G,BN   IN G,BL    IN G,0,925,True,BL    IN G,1,1,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,count,pnehjhaaac,ubehhaaac,pnehjhaaac,0,648,True,pnehjhaaac,2,1,0
+general,general_unassigned_exploratory,all_003497__aug_03_gaussian_blur_contrast,all_003497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,lower,UW   X,UW  X,   UW   X,3,830,True,UW   X,0,1,0
+general,general_unassigned_exploratory,all_003725__aug_03_resolution_jpeg,all_003725,blind,resolution+jpeg,resolution;jpeg,medium,0,count,tfbga,bfbga,tfbga,0,351,True,tfbga,1,0,0
+general,general_unassigned_exploratory,all_003725__aug_03_resolution_jpeg,all_003725,blind,resolution+jpeg,resolution;jpeg,medium,1,count,kepdkaf,kewdkaf,kepdkaf,0,447,True,kepdkaf,1,0,0
+general,general_unassigned_exploratory,all_003725__aug_03_resolution_jpeg,all_003725,assisted,resolution+jpeg,resolution;jpeg,medium,0,count,tfbga,bfbga,tfbga,0,351,True,tfbga,1,0,0
+general,general_unassigned_exploratory,all_003725__aug_03_resolution_jpeg,all_003725,assisted,resolution+jpeg,resolution;jpeg,medium,1,count,kepdkaf,kewdkaf,kepdkaf,0,447,True,kepdkaf,1,0,0
+general,general_unassigned_exploratory,all_004384__aug_01_brightness,all_004384,blind,brightness,brightness,medium,0,upper,C K M D  J,C K D ,C K M D  J,0,824,True,C K M D  J,0,4,0
+general,general_unassigned_exploratory,all_004384__aug_01_brightness,all_004384,assisted,brightness,brightness,medium,0,upper,C K M D  J,C K D ,C K M D  J,0,824,True,C K M D  J,0,4,0
+general,general_unassigned_exploratory,all_004460__aug_02_perspective,all_004460,blind,perspective,perspective,medium,1,count,xbmb,xbmub,xbmb,0,265,True,xbmb,0,0,1
+general,general_unassigned_exploratory,all_004460__aug_02_perspective,all_004460,assisted,perspective,perspective,medium,1,count,xbmb,xbmub,xbmb,0,265,True,xbmb,0,0,1
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,upper,L PDQ,NND,L PDQ,0,552,True,L PDQ,2,2,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,count,tabdca,babbca,tabdca,0,420,True,tabdca,2,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,lower,[,G,     [,5,586,True,[,1,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,upper,Q,B,  Q,2,452,True,Q,1,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,lower,_   ],N   J,_   ],0,510,True,_   ],2,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,2,upper,M L PI G,A NBI G,M L PI G,0,918,True,M L PI G,3,1,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,2,count,pijccjhfaa,viccjhfaa,pijccjhfaa,0,643,True,pijccjhfaa,1,1,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,3,upper,AQ E J,AB E J,AQ E J,0,549,True,AQ E J,1,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,blind,gaussian_blur+contrast,gaussian_blur;contrast,strong,3,count,qkcjag,(scjag,qkcjag,0,384,True,qkcjag,2,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,upper,L PDQ,NND,L PDQ,0,552,True,L PDQ,2,2,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,count,tabdca,babbca,tabdca,0,420,True,tabdca,2,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,0,lower,[,G,     [,5,586,True,[,1,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,upper,Q,B,  Q,2,452,True,Q,1,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,1,lower,_   ],N   J,_   ],0,510,True,_   ],2,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,2,upper,M L PI G,A NBI G,M L PI G,0,918,True,M L PI G,3,1,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,2,count,pijccjhfaa,viccjhfaa,pijccjhfaa,0,643,True,pijccjhfaa,1,1,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,3,upper,AQ E J,AB E J,AQ E J,0,549,True,AQ E J,1,0,0
+general,general_unassigned_exploratory,all_004497__aug_02_gaussian_blur_contrast,all_004497,assisted,gaussian_blur+contrast,gaussian_blur;contrast,strong,3,count,qkcjag,(scjag,qkcjag,0,384,True,qkcjag,2,0,0
+general,general_unassigned_exploratory,all_004717__aug_01_jpeg,all_004717,blind,jpeg,jpeg,mild,0,upper,B,X,  B,2,816,True,X,1,0,0
+general,general_unassigned_exploratory,all_004717__aug_01_jpeg,all_004717,assisted,jpeg,jpeg,mild,0,upper,B,X,  B,2,816,True,X,1,0,0
+general,general_unassigned_exploratory,all_004717__aug_02_gaussian_blur_contrast,all_004717,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,upper,B,X,  B,2,816,True,X,1,0,0
+general,general_unassigned_exploratory,all_004717__aug_02_gaussian_blur_contrast,all_004717,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,upper,B,X,  B,2,816,True,X,1,0,0
+general,general_unassigned_exploratory,all_004799__aug_03_shadow,all_004799,blind,shadow,shadow,medium,0,upper,G   N,G    ,G   N,0,873,True,G   N,1,0,0
+general,general_unassigned_exploratory,all_004799__aug_03_shadow,all_004799,assisted,shadow,shadow,medium,0,upper,G   N,G    ,G   N,0,873,True,G   N,1,0,0
+general,general_unassigned_exploratory,all_005022__aug_03_resolution_jpeg,all_005022,blind,resolution+jpeg,resolution;jpeg,mild,0,upper,J,],  J,2,520,True,J,1,0,0
+general,general_unassigned_exploratory,all_005022__aug_03_resolution_jpeg,all_005022,assisted,resolution+jpeg,resolution;jpeg,mild,0,upper,J,],  J,2,520,True,J,1,0,0
+general,general_unassigned_exploratory,all_005053__aug_03_brightness,all_005053,blind,brightness,brightness,mild,0,upper,L  JC,L JC,L  JC,0,714,True,L  JC,0,1,0
+general,general_unassigned_exploratory,all_005053__aug_03_brightness,all_005053,blind,brightness,brightness,mild,0,lower,\  SY,\  Y,  \  SY,2,615,True,\  SY,0,1,0
+general,general_unassigned_exploratory,all_005053__aug_03_brightness,all_005053,assisted,brightness,brightness,mild,0,upper,L  JC,L JC,L  JC,0,714,True,L  JC,0,1,0
+general,general_unassigned_exploratory,all_005053__aug_03_brightness,all_005053,assisted,brightness,brightness,mild,0,lower,\  SY,\  Y,  \  SY,2,615,True,\  SY,0,1,0
+general,general_unassigned_exploratory,all_005525__aug_01_shadow,all_005525,assisted,shadow,shadow,medium,0,upper,B,X,B,0,800,True,X,1,0,0
+general,general_unassigned_exploratory,all_005525__aug_01_shadow,all_005525,assisted,shadow,shadow,medium,1,lower,R_  S_\ ],R_ _\ ],R_  S_\ ],0,804,True,R_  S_\ ],0,2,0
+general,general_unassigned_exploratory,all_005525__aug_02_brightness,all_005525,assisted,brightness,brightness,mild,0,upper,B,X,B,0,800,True,X,1,0,0
+general,general_unassigned_exploratory,all_005525__aug_03_jpeg,all_005525,assisted,jpeg,jpeg,strong,0,upper,B,X,B,0,800,True,X,1,0,0
+general,general_unassigned_exploratory,all_005728__aug_02_brightness_noise,all_005728,blind,brightness+noise,brightness;noise,mild,0,upper,Q     M C,Q     C,  Q     M C,2,1000,True,Q     M C,0,2,0
+general,general_unassigned_exploratory,all_005728__aug_02_brightness_noise,all_005728,assisted,brightness+noise,brightness;noise,mild,0,upper,Q     M C,Q     C,  Q     M C,2,1000,True,Q     M C,0,2,0
+general,general_unassigned_exploratory,all_005731__aug_01_rotation_jpeg,all_005731,blind,rotation+jpeg,rotation;jpeg,mild,0,upper,I B,\ X,  I B,2,663,True,I B,2,0,0
+general,general_unassigned_exploratory,all_005731__aug_01_rotation_jpeg,all_005731,assisted,rotation+jpeg,rotation;jpeg,mild,0,upper,I B,\ X,  I B,2,663,True,I B,2,0,0
+general,general_unassigned_exploratory,all_005823__aug_01_jpeg,all_005823,blind,jpeg,jpeg,medium,1,upper,B,X,B,0,1388,True,X,1,0,0
+general,general_unassigned_exploratory,all_005823__aug_01_jpeg,all_005823,assisted,jpeg,jpeg,medium,1,upper,B,X,B,0,1388,True,X,1,0,0
+general,general_unassigned_exploratory,all_005823__aug_02_brightness,all_005823,blind,brightness,brightness,mild,1,upper,B,X,B,0,1388,True,X,1,0,0
+general,general_unassigned_exploratory,all_005823__aug_02_brightness,all_005823,assisted,brightness,brightness,mild,1,upper,B,X,B,0,1388,True,X,1,0,0
+general,general_unassigned_exploratory,all_006041__aug_03_shadow,all_006041,blind,shadow,shadow,medium,1,lower,U     _,U   , U     _,1,928,True,U     _,0,3,0
+general,general_unassigned_exploratory,all_006041__aug_03_shadow,all_006041,assisted,shadow,shadow,medium,1,lower,U     _,U   , U     _,1,928,True,U     _,0,3,0
+general,general_unassigned_exploratory,all_006078__aug_03_brightness,all_006078,blind,brightness,brightness,mild,1,lower,Y  X,C  B,  Y  X,2,1208,True,Y  X,2,0,0
+general,general_unassigned_exploratory,all_006078__aug_03_brightness,all_006078,assisted,brightness,brightness,mild,1,lower,Y  X,C  B,  Y  X,2,1208,True,Y  X,2,0,0
+general,general_unassigned_exploratory,all_006240__aug_01_gaussian_blur,all_006240,assisted,gaussian_blur,gaussian_blur,medium,0,upper,LB  D,DB  D,    LB  D,4,960,True,LB  D,1,0,0
+general,general_unassigned_exploratory,all_006240__aug_01_gaussian_blur,all_006240,assisted,gaussian_blur,gaussian_blur,medium,0,count,maqcblabb,uaqcblabb,maqcblabb,0,576,True,maqcblabb,1,0,0
+general,general_unassigned_exploratory,all_006240__aug_01_gaussian_blur,all_006240,assisted,gaussian_blur,gaussian_blur,medium,0,lower,[ ]    R,[ ]   R,[ ]    R,0,873,True,[ ]    R,0,1,0
+general,general_unassigned_exploratory,all_006240__aug_01_gaussian_blur,all_006240,assisted,gaussian_blur,gaussian_blur,medium,1,upper,J M FPIDE,J M FIDE,J M FPIDE,0,827,True,J M FPIDE,0,1,0
+general,general_unassigned_exploratory,all_006240__aug_01_gaussian_blur,all_006240,assisted,gaussian_blur,gaussian_blur,medium,3,lower,Y T Y,C T C,Y T Y,0,919,True,Y T Y,2,0,0
+general,general_unassigned_exploratory,all_006334__aug_02_shadow,all_006334,blind,shadow,shadow,strong,0,upper,B  QP BN,CP BN,B  QP BN,0,739,True,B  QP BN,1,3,0
+general,general_unassigned_exploratory,all_006334__aug_02_shadow,all_006334,assisted,shadow,shadow,strong,0,upper,B  QP BN,CP BN,B  QP BN,0,739,True,B  QP BN,1,3,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,blind,resolution+jpeg,resolution;jpeg,medium,1,upper,A     F,A    F,A     F,0,772,True,A     F,0,1,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,blind,resolution+jpeg,resolution;jpeg,medium,1,count,omckcjb,{mckcjb,omckcjb,0,448,True,omckcjb,1,0,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,blind,resolution+jpeg,resolution;jpeg,medium,2,lower,W [ ]  [,W G ]  G,W [ ]  [,0,651,True,W [ ]  [,2,0,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,blind,resolution+jpeg,resolution;jpeg,medium,3,upper,L,N,  L,2,435,True,L,1,0,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,blind,resolution+jpeg,resolution;jpeg,medium,3,count,mfrb,mf|b,mfrb,0,252,True,mfrb,1,0,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,assisted,resolution+jpeg,resolution;jpeg,medium,1,upper,A     F,A    F,A     F,0,772,True,A     F,0,1,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,assisted,resolution+jpeg,resolution;jpeg,medium,1,count,omckcjb,{mckcjb,omckcjb,0,448,True,omckcjb,1,0,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,assisted,resolution+jpeg,resolution;jpeg,medium,2,lower,W [ ]  [,W G ]  G,W [ ]  [,0,651,True,W [ ]  [,2,0,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,assisted,resolution+jpeg,resolution;jpeg,medium,3,upper,L,N,  L,2,435,True,L,1,0,0
+general,general_unassigned_exploratory,all_006795__aug_01_resolution_jpeg,all_006795,assisted,resolution+jpeg,resolution;jpeg,medium,3,count,mfrb,mf|b,mfrb,0,252,True,mfrb,1,0,0
+general,general_unassigned_exploratory,all_006795__aug_03_gaussian_blur_contrast,all_006795,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,upper,I    N  C,I   N  C,I    N  C,0,817,True,I    N  C,0,1,0
+general,general_unassigned_exploratory,all_006795__aug_03_gaussian_blur_contrast,all_006795,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,1,upper,A     F,A    F,A     F,0,772,True,A     F,0,1,0
+general,general_unassigned_exploratory,all_006795__aug_03_gaussian_blur_contrast,all_006795,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,3,upper,L,N,  L,2,435,True,L,1,0,0
+general,general_unassigned_exploratory,all_006795__aug_03_gaussian_blur_contrast,all_006795,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,3,count,mfrb,mf|b,mfrb,0,252,True,mfrb,1,0,0
+general,general_unassigned_exploratory,all_006795__aug_03_gaussian_blur_contrast,all_006795,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,0,upper,I    N  C,I   N  C,I    N  C,0,817,True,I    N  C,0,1,0
+general,general_unassigned_exploratory,all_006795__aug_03_gaussian_blur_contrast,all_006795,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,1,upper,A     F,A    F,A     F,0,772,True,A     F,0,1,0
+general,general_unassigned_exploratory,all_006795__aug_03_gaussian_blur_contrast,all_006795,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,3,upper,L,N,  L,2,435,True,L,1,0,0
+general,general_unassigned_exploratory,all_006795__aug_03_gaussian_blur_contrast,all_006795,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,3,count,mfrb,mf|b,mfrb,0,252,True,mfrb,1,0,0
+general,general_unassigned_exploratory,all_007056__aug_03_resolution_jpeg,all_007056,blind,resolution+jpeg,resolution;jpeg,mild,1,upper,E,C,    E,4,1866,True,E,1,0,0
+general,general_unassigned_exploratory,all_007056__aug_03_resolution_jpeg,all_007056,blind,resolution+jpeg,resolution;jpeg,mild,1,lower,_ Y   Y _ \,L C   C _ \,_ Y   Y _ \,0,1013,True,_ Y   Y _ \,3,0,0
+general,general_unassigned_exploratory,all_007056__aug_03_resolution_jpeg,all_007056,assisted,resolution+jpeg,resolution;jpeg,mild,1,upper,E,C,    E,4,1866,True,E,1,0,0
+general,general_unassigned_exploratory,all_007056__aug_03_resolution_jpeg,all_007056,assisted,resolution+jpeg,resolution;jpeg,mild,1,lower,_ Y   Y _ \,L C   C _ \,_ Y   Y _ \,0,1013,True,_ Y   Y _ \,3,0,0
+general,general_unassigned_exploratory,all_007134__aug_03_brightness_noise,all_007134,blind,brightness+noise,brightness;noise,mild,1,upper,ML    Q,ML   Q,ML    Q,0,638,True,ML    Q,0,1,0
+general,general_unassigned_exploratory,all_007134__aug_03_brightness_noise,all_007134,assisted,brightness+noise,brightness;noise,mild,1,upper,ML    Q,ML   Q,ML    Q,0,638,True,ML    Q,0,1,0
+general,general_unassigned_exploratory,all_007752__aug_02_noise,all_007752,blind,noise,noise,mild,1,lower,U _         T,U _        T,U _         T,0,1487,True,U _        T,0,1,0
+general,general_unassigned_exploratory,all_007752__aug_02_noise,all_007752,assisted,noise,noise,mild,1,lower,U _         T,U _        T,U _         T,0,1487,True,U _        T,0,1,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,blind,brightness+noise,brightness;noise,mild,0,upper,Q G E B,Q  ,  Q G E B,2,914,True,Q G E B,0,4,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,blind,brightness+noise,brightness;noise,mild,1,upper,K FB LPB B,K FB LPB ,    K FB LPB B,4,1144,True,K FB LPB B,0,1,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,blind,brightness+noise,brightness;noise,mild,1,lower,U _         T,U  ,U _         T,0,1487,True,U _        T,0,10,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,blind,brightness+noise,brightness;noise,mild,3,upper,K HIBJ,K IBJ,    K HIBJ,4,824,True,K HIBJ,0,1,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,blind,brightness+noise,brightness;noise,mild,3,lower,_ Z,_,_ Z,0,1108,True,_ Z,0,2,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,assisted,brightness+noise,brightness;noise,mild,0,upper,Q G E B,Q  ,  Q G E B,2,914,True,Q G E B,0,4,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,assisted,brightness+noise,brightness;noise,mild,1,upper,K FB LPB B,K FB LPB ,    K FB LPB B,4,1144,True,K FB LPB B,0,1,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,assisted,brightness+noise,brightness;noise,mild,1,lower,U _         T,U  ,U _         T,0,1487,True,U _        T,0,10,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,assisted,brightness+noise,brightness;noise,mild,3,upper,K HIBJ,K IBJ,    K HIBJ,4,824,True,K HIBJ,0,1,0
+general,general_unassigned_exploratory,all_007752__aug_03_brightness_noise,all_007752,assisted,brightness+noise,brightness;noise,mild,3,lower,_ Z,_,_ Z,0,1108,True,_ Z,0,2,0
+general,general_unassigned_exploratory,all_007773__aug_01_contrast,all_007773,blind,contrast,contrast,mild,3,upper,B,X,   B,3,760,True,X,1,0,0
+general,general_unassigned_exploratory,all_007773__aug_01_contrast,all_007773,assisted,contrast,contrast,mild,3,upper,B,X,   B,3,760,True,X,1,0,0
+general,general_unassigned_exploratory,all_007773__aug_02_resolution_jpeg,all_007773,blind,resolution+jpeg,resolution;jpeg,mild,3,upper,B,X,   B,3,760,True,X,1,0,0
+general,general_unassigned_exploratory,all_007773__aug_02_resolution_jpeg,all_007773,assisted,resolution+jpeg,resolution;jpeg,mild,3,upper,B,X,   B,3,760,True,X,1,0,0
+general,general_unassigned_exploratory,all_007773__aug_03_jpeg,all_007773,blind,jpeg,jpeg,mild,3,upper,B,X,   B,3,760,True,X,1,0,0
+general,general_unassigned_exploratory,all_007773__aug_03_jpeg,all_007773,assisted,jpeg,jpeg,mild,3,upper,B,X,   B,3,760,True,X,1,0,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,blind,brightness,brightness,medium,0,upper,K Q FH,K,    K Q FH,4,824,True,K Q FH,0,5,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,blind,brightness,brightness,medium,0,count,lalenikdaa,lal*tdaa,lalenikdaa,0,643,True,lalenikdaa,2,2,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,blind,brightness,brightness,medium,0,lower,R [,R,R [,0,974,True,R [,0,2,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,blind,brightness,brightness,medium,1,upper,EIAF,C,  EIAF,2,653,True,EIAF,1,3,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,blind,brightness,brightness,medium,1,lower,Y     [,U,Y     [,0,692,True,Y     [,1,6,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,assisted,brightness,brightness,medium,0,upper,K Q FH,K,    K Q FH,4,824,True,K Q FH,0,5,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,assisted,brightness,brightness,medium,0,count,lalenikdaa,lal*tdaa,lalenikdaa,0,643,True,lalenikdaa,2,2,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,assisted,brightness,brightness,medium,0,lower,R [,R,R [,0,974,True,R [,0,2,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,assisted,brightness,brightness,medium,1,upper,EIAF,C,  EIAF,2,653,True,EIAF,1,3,0
+general,general_unassigned_exploratory,all_007784__aug_02_brightness,all_007784,assisted,brightness,brightness,medium,1,lower,Y     [,U,Y     [,0,692,True,Y     [,1,6,0
+general,general_unassigned_exploratory,all_007844__aug_01_resolution,all_007844,blind,resolution,resolution,medium,0,count,ratdcc,*atdcc,ratdcc,0,415,True,ratdcc,1,0,0
+general,general_unassigned_exploratory,all_007844__aug_01_resolution,all_007844,blind,resolution,resolution,medium,1,upper,B G C      K,B G C     K,B G C      K,0,1152,True,B G C      K,0,1,0
+general,general_unassigned_exploratory,all_007844__aug_01_resolution,all_007844,assisted,resolution,resolution,medium,0,count,ratdcc,*atdcc,ratdcc,0,415,True,ratdcc,1,0,0
+general,general_unassigned_exploratory,all_007844__aug_01_resolution,all_007844,assisted,resolution,resolution,medium,1,upper,B G C      K,B G C     K,B G C      K,0,1152,True,B G C      K,0,1,0
+general,general_unassigned_exploratory,all_008107__aug_03_shadow,all_008107,blind,shadow,shadow,medium,0,lower,Z   ^X S,Z   ^X ,Z   ^X S,0,677,True,Z   ^X S,0,1,0
+general,general_unassigned_exploratory,all_008107__aug_03_shadow,all_008107,assisted,shadow,shadow,medium,0,lower,Z   ^X S,Z   ^X ,Z   ^X S,0,677,True,Z   ^X S,0,1,0
+general,general_unassigned_exploratory,all_008676__aug_01_gaussian_blur,all_008676,blind,gaussian_blur,gaussian_blur,medium,0,lower,[R   V\,UR   V\,  [R   V\,2,827,True,[R   V\,1,0,0
+general,general_unassigned_exploratory,all_008676__aug_01_gaussian_blur,all_008676,blind,gaussian_blur,gaussian_blur,medium,1,upper,P DE J    Q,P DE J   Q,P DE J    Q,0,1097,True,P DE J    Q,0,1,0
+general,general_unassigned_exploratory,all_008676__aug_01_gaussian_blur,all_008676,blind,gaussian_blur,gaussian_blur,medium,3,count,tgrfemfaa,tg|feufaa,tgrfemfaa,0,579,True,tgrfemfaa,2,0,0
+general,general_unassigned_exploratory,all_008676__aug_01_gaussian_blur,all_008676,assisted,gaussian_blur,gaussian_blur,medium,0,lower,[R   V\,UR   V\,  [R   V\,2,827,True,[R   V\,1,0,0
+general,general_unassigned_exploratory,all_008676__aug_01_gaussian_blur,all_008676,assisted,gaussian_blur,gaussian_blur,medium,1,upper,P DE J    Q,P DE J   Q,P DE J    Q,0,1097,True,P DE J    Q,0,1,0
+general,general_unassigned_exploratory,all_008676__aug_01_gaussian_blur,all_008676,assisted,gaussian_blur,gaussian_blur,medium,3,count,tgrfemfaa,tg|feufaa,tgrfemfaa,0,579,True,tgrfemfaa,2,0,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,0,upper,E    FM,C,E    FM,0,827,True,E    FM,1,6,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,0,count,wflpecjaa,bb,wflpecjaa,0,579,True,wflpecjaa,2,7,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,0,lower,[R   V\,C,  [R   V\,2,827,True,[R   V\,1,6,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,1,upper,P DE J    Q,U,P DE J    Q,0,1097,True,P DE J    Q,1,10,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,1,count,ycckbdnbjfdb,U,ycckbdnbjfdb,0,768,True,ycckbdnbjfdb,1,11,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,1,lower,W R  V,U,      W R  V,6,985,True,W R  V,1,5,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,2,upper,G,C,      G,6,869,True,G,1,0,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,2,count,udthjajab,U,udthjajab,0,573,True,udthjajab,1,8,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,2,lower,_ [ Z   R,U,_ [ Z   R,0,869,True,_ [ Z   R,1,8,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,3,upper,P NL  N,U,  P NL  N,2,827,True,P NL  N,1,6,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,3,count,tgrfemfaa,b,tgrfemfaa,0,579,True,tgrfemfaa,1,8,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,blind,brightness+noise,brightness;noise,strong,3,lower,R      R,C,R      R,0,933,True,R      R,1,7,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,0,upper,E    FM,C,E    FM,0,827,True,E    FM,1,6,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,0,count,wflpecjaa,bb,wflpecjaa,0,579,True,wflpecjaa,2,7,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,0,lower,[R   V\,C,  [R   V\,2,827,True,[R   V\,1,6,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,1,upper,P DE J    Q,U,P DE J    Q,0,1097,True,P DE J    Q,1,10,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,1,count,ycckbdnbjfdb,U,ycckbdnbjfdb,0,768,True,ycckbdnbjfdb,1,11,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,1,lower,W R  V,U,      W R  V,6,985,True,W R  V,1,5,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,2,upper,G,C,      G,6,869,True,G,1,0,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,2,count,udthjajab,U,udthjajab,0,573,True,udthjajab,1,8,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,2,lower,_ [ Z   R,U,_ [ Z   R,0,869,True,_ [ Z   R,1,8,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,3,upper,P NL  N,U,  P NL  N,2,827,True,P NL  N,1,6,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,3,count,tgrfemfaa,b,tgrfemfaa,0,579,True,tgrfemfaa,1,8,0
+general,general_unassigned_exploratory,all_008676__aug_02_brightness_noise,all_008676,assisted,brightness+noise,brightness;noise,strong,3,lower,R      R,C,R      R,0,933,True,R      R,1,7,0
+general,general_unassigned_exploratory,all_008676__aug_03_gaussian_blur_contrast,all_008676,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,1,upper,P DE J    Q,P DE J   Q,P DE J    Q,0,1097,True,P DE J    Q,0,1,0
+general,general_unassigned_exploratory,all_008676__aug_03_gaussian_blur_contrast,all_008676,blind,gaussian_blur+contrast,gaussian_blur;contrast,medium,3,count,tgrfemfaa,tg|femfaa,tgrfemfaa,0,579,True,tgrfemfaa,1,0,0
+general,general_unassigned_exploratory,all_008676__aug_03_gaussian_blur_contrast,all_008676,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,1,upper,P DE J    Q,P DE J   Q,P DE J    Q,0,1097,True,P DE J    Q,0,1,0
+general,general_unassigned_exploratory,all_008676__aug_03_gaussian_blur_contrast,all_008676,assisted,gaussian_blur+contrast,gaussian_blur;contrast,medium,3,count,tgrfemfaa,tg|femfaa,tgrfemfaa,0,579,True,tgrfemfaa,1,0,0
+general,general_unassigned_exploratory,all_008781__aug_02_resolution_jpeg,all_008781,blind,resolution+jpeg,resolution;jpeg,mild,2,lower,^      X ^,^     X ^,^      X ^,0,930,True,^      X ^,0,1,0
+general,general_unassigned_exploratory,all_008781__aug_02_resolution_jpeg,all_008781,assisted,resolution+jpeg,resolution;jpeg,mild,2,lower,^      X ^,^     X ^,^      X ^,0,930,True,^      X ^,0,1,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,blind,gaussian_blur,gaussian_blur,strong,0,upper,A   C  HEG,A   C HEG,A   C  HEG,0,918,True,A   C  HEG,0,1,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,blind,gaussian_blur,gaussian_blur,strong,0,lower,R   Y,U   Y,  R   Y,2,1036,True,R   Y,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,blind,gaussian_blur,gaussian_blur,strong,1,upper,K,H,  K,2,496,True,K,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,blind,gaussian_blur,gaussian_blur,strong,1,count,jfmdfa,jfudfa,jfmdfa,0,387,True,jfmdfa,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,blind,gaussian_blur,gaussian_blur,strong,2,upper,J,],J,0,423,True,J,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,blind,gaussian_blur,gaussian_blur,strong,3,upper,P      E,P     E,P      E,0,741,True,P      E,0,1,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,blind,gaussian_blur,gaussian_blur,strong,3,lower,T Z T,T Y T,  T Z T,2,926,True,T Z T,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,assisted,gaussian_blur,gaussian_blur,strong,0,upper,A   C  HEG,A   C HEG,A   C  HEG,0,918,True,A   C  HEG,0,1,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,assisted,gaussian_blur,gaussian_blur,strong,0,lower,R   Y,U   Y,  R   Y,2,1036,True,R   Y,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,assisted,gaussian_blur,gaussian_blur,strong,1,upper,K,H,  K,2,496,True,K,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,assisted,gaussian_blur,gaussian_blur,strong,1,count,jfmdfa,jfudfa,jfmdfa,0,387,True,jfmdfa,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,assisted,gaussian_blur,gaussian_blur,strong,2,upper,J,],J,0,423,True,J,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,assisted,gaussian_blur,gaussian_blur,strong,3,upper,P      E,P     E,P      E,0,741,True,P      E,0,1,0
+general,general_unassigned_exploratory,all_008826__aug_01_gaussian_blur,all_008826,assisted,gaussian_blur,gaussian_blur,strong,3,lower,T Z T,T Y T,  T Z T,2,926,True,T Z T,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_03_motion_blur,all_008826,blind,motion_blur,motion_blur,mild,2,upper,J,],J,0,423,True,J,1,0,0
+general,general_unassigned_exploratory,all_008826__aug_03_motion_blur,all_008826,assisted,motion_blur,motion_blur,mild,2,upper,J,],J,0,423,True,J,1,0,0
+general,general_unassigned_exploratory,all_008966__aug_02_gaussian_blur,all_008966,blind,gaussian_blur,gaussian_blur,mild,0,lower,XY,BC,   XY,3,1008,True,XY,2,0,0
+general,general_unassigned_exploratory,all_008966__aug_02_gaussian_blur,all_008966,assisted,gaussian_blur,gaussian_blur,mild,0,lower,XY,BC,   XY,3,1008,True,XY,2,0,0
+general,general_unassigned_exploratory,all_009180__aug_03_resolution,all_009180,assisted,resolution,resolution,strong,2,count,)hkd,thkd,)hkd,0,261,True,)hkd,1,0,0
+general,general_unassigned_exploratory,all_009180__aug_03_resolution,all_009180,assisted,resolution,resolution,strong,3,lower,U        W,U       W,U        W,0,824,True,U        W,0,1,0
+general,general_unassigned_exploratory,all_009470__aug_02_gaussian_blur_contrast,all_009470,blind,gaussian_blur+contrast,gaussian_blur;contrast,mild,0,upper,E,C,  E,2,1196,True,E,1,0,0
+general,general_unassigned_exploratory,all_009470__aug_02_gaussian_blur_contrast,all_009470,assisted,gaussian_blur+contrast,gaussian_blur;contrast,mild,0,upper,E,C,  E,2,1196,True,E,1,0,0
+general,general_unassigned_exploratory,all_009784__aug_03_resolution,all_009784,blind,resolution,resolution,mild,0,upper,H       LQ,H      LQ,H       LQ,0,918,True,H       LQ,0,1,0
+general,general_unassigned_exploratory,all_009784__aug_03_resolution,all_009784,assisted,resolution,resolution,mild,0,upper,H       LQ,H      LQ,H       LQ,0,918,True,H       LQ,0,1,0
+general,general_unassigned_exploratory,all_009851__aug_01_perspective_shadow,all_009851,blind,perspective+shadow,perspective;shadow,mild,0,upper,C     G,Y     [,C     G,0,872,True,C     G,2,0,0
+general,general_unassigned_exploratory,all_009851__aug_01_perspective_shadow,all_009851,blind,perspective+shadow,perspective;shadow,mild,1,count,djdodbb,"djd,dbb",djdodbb,0,443,True,djdodbb,1,0,0
+general,general_unassigned_exploratory,all_009851__aug_01_perspective_shadow,all_009851,assisted,perspective+shadow,perspective;shadow,mild,0,upper,C     G,Y     [,C     G,0,872,True,C     G,2,0,0
+general,general_unassigned_exploratory,all_009851__aug_01_perspective_shadow,all_009851,assisted,perspective+shadow,perspective;shadow,mild,1,count,djdodbb,"djd,dbb",djdodbb,0,443,True,djdodbb,1,0,0
+positive,positive_frozen_test,edge_00033__aug_03_brightness,edge_00033,assisted,brightness,brightness,medium,0,upper,A,U,A,0,214,True,A,1,0,0
+positive,positive_frozen_test,edge_00096__aug_01_rotation,edge_00096,assisted,rotation,rotation,mild,0,count,aub,atb,aub,0,184,True,aub,1,0,0
+positive,positive_frozen_test,edge_00106__aug_02_resolution,edge_00106,assisted,resolution,resolution,strong,0,count,vb,ub,vb,0,134,True,vb,1,0,0
+positive,positive_frozen_test,edge_00135__aug_03_rotation,edge_00135,assisted,rotation,rotation,strong,0,count,axb,dob,axb,0,155,True,axb,2,0,0
+positive,positive_frozen_test,edge_00227__aug_03_gaussian_blur,edge_00227,assisted,gaussian_blur,gaussian_blur,medium,0,count,),t,),0,81,True,),1,0,0
+positive,positive_frozen_test,edge_00257__aug_01_brightness_noise,edge_00257,assisted,brightness+noise,brightness;noise,strong,0,upper,A,C,A,0,234,True,A,1,0,0
+positive,positive_frozen_test,edge_00257__aug_01_brightness_noise,edge_00257,assisted,brightness+noise,brightness;noise,strong,0,count,*i,y,*i,0,144,True,*i,1,1,0
+positive,positive_frozen_test,edge_00264__aug_02_shadow,edge_00264,assisted,shadow,shadow,strong,0,upper,A,U,A,0,221,True,A,1,0,0
+positive,positive_frozen_test,edge_00264__aug_03_resolution,edge_00264,assisted,resolution,resolution,mild,0,count,a+,av,a+,0,136,True,a+,1,0,0
+positive,positive_frozen_test,edge_00275__aug_01_gaussian_blur,edge_00275,assisted,gaussian_blur,gaussian_blur,medium,0,count,a+i,avi,a+i,0,203,True,a+i,1,0,0
+positive,positive_frozen_test,edge_00302__aug_01_rotation,edge_00302,blind,rotation,rotation,medium,0,upper,J,],J,0,93,True,J,1,0,0
+positive,positive_frozen_test,edge_00302__aug_01_rotation,edge_00302,assisted,rotation,rotation,medium,0,upper,J,],J,0,93,True,J,1,0,0
+positive,positive_frozen_test,edge_00322__aug_02_perspective_shadow,edge_00322,assisted,perspective+shadow,perspective;shadow,medium,0,count,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,aaaaaaaaaaaaaaaaaaaaaa,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,0,2551,True,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,0,8,0
+positive,positive_frozen_test,edge_00322__aug_02_perspective_shadow,edge_00322,assisted,perspective+shadow,perspective;shadow,medium,0,lower,RSTUVWXYZ[\]^_,RSTUVWXYZUW^,                RSTUVWXYZ[\]^_,16,2413,True,RSTUVWXYZ[\]^_,2,2,0

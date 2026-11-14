@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "selected_policy": "R3_HITL_V3",
+  "existing_11_snapshots_and_original_hashes_match": true,
+  "original_sources_rechecked_at_seal": true,
+  "tests": {
+    "passed": 48,
+    "failed": 0
+  },
+  "approved_cached_decision_reproduction": {
+    "saved_decisions_reproduced": 2800,
+    "post_OCR_pipeline_smoke_cases": 16,
+    "parents": 700,
+    "counts": {
+      "VALID": {
+        "ACCEPT": 1318,
+        "REVIEW_UNCERTAIN": 82,
+        "REJECT_INVALID": 0
+      },
+      "INVALID": {
+        "ACCEPT": 48,
+        "REVIEW_UNCERTAIN": 1352,
+        "REJECT_INVALID": 0
+      }
+    },
+    "pixel_reads": 0,
+    "OCR_inference": false,
+    "scope": "Integrity preflight of approved cached R3 evidence, not a new OCR/development experiment"
+  },
+  "frozen_local_imports": {
+    "__main__": "verify_freeze.py",
+    "verify_freeze": "verify_freeze.py",
+    "freeze_runtime": "freeze_runtime.py",
+    "common": "dependencies\\stage2\\stage2f_negative_rejection\\src\\common.py",
+    "talim": "dependencies\\talim\\__init__.py",
+    "talim.talim_rules": "dependencies\\talim\\talim_rules.py",
+    "talim_validator": "dependencies\\stage2\\stage2f_negative_rejection\\src\\talim_validator.py",
+    "confidence": "dependencies\\stage2\\stage2f_negative_rejection\\src\\confidence.py",
+    "rejection_pipeline": "dependencies\\stage2\\stage2f_negative_rejection\\src\\rejection_pipeline.py",
+    "runtime": "dependencies\\stage2\\stage2f_tier_aware_decoding\\src\\runtime.py",
+    "tier_aware_decoder": "dependencies\\stage2\\stage2f_tier_aware_decoding\\src\\tier_aware_decoder.py",
+    "contextual_pipeline": "dependencies\\stage2\\stage2f_tier_aware_decoding\\src\\contextual_pipeline.py",
+    "measurements": "dependencies\\stage2\\stage2f_tier_aware_decoding\\src\\measurements.py",
+    "integration": "dependencies\\stage2\\stage2f_rejection_evaluation_v2\\src\\integration.py",
+    "text_alignment": "dependencies\\stage2\\stage2f_rejection_evaluation_v2\\r3_text_alignment_experiment\\src\\text_alignment.py",
+    "policy_v3": "src\\policy_v3.py",
+    "r2_structural": "dependencies\\stage2\\stage2f_rejection_evaluation_v2\\src\\r2_structural.py",
+    "review_overlay": "src\\review_overlay.py",
+    "localization_metrics": "src\\localization_metrics.py"
+  },
+  "validation_preflight": {
+    "preflight_passed": true,
+    "split": "validation_calibration",
+    "selection_images": 600,
+    "selection_parents": 150,
+    "image_bytes_read": 0,
+    "model_initialized": false,
+    "OCR_inference": false
+  },
+  "protected_preflight": {
+    "preflight_passed": true,
+    "split": "protected_test",
+    "selection_images": 600,
+    "selection_parents": 150,
+    "image_bytes_read": 0,
+    "model_initialized": false,
+    "OCR_inference": false
+  },
+  "heldout_evaluation_executed": false,
+  "heldout_observations_exist": false,
+  "manual_inference_required": true,
+  "freeze_identity": "Final seal is RELEASE_SHA256.txt; this report excludes its own manifest digest to avoid a circular hash"
+}

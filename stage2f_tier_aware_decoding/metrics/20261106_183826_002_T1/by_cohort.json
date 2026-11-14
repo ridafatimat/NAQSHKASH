@@ -1,0 +1,122 @@
+{
+  "long_tier_ge65_descriptive_only": {
+    "images": 8,
+    "scorable_images": 8,
+    "characters": 9020,
+    "outcome_counts": {
+      "ACCEPT": 4,
+      "REVIEW_UNCERTAIN": 4
+    },
+    "exact_transcription_accuracy": 0.0,
+    "raw_CER": 0.5726164079822617,
+    "interpreted_CER": 0.5726164079822617,
+    "review_rate": 0.5,
+    "wrong_tier_reviews": 0,
+    "accepted_output_correctness": 0.0,
+    "accepted_output_denominator": 4,
+    "end_to_end_page_correctness": 0.0,
+    "corrected_images": 0,
+    "contextual_corrections": 0,
+    "correct_corrections": 0,
+    "incorrect_corrections": 0,
+    "unscorable_corrections": 0,
+    "syntax_failures_resolved": 0,
+    "worsened_CER_images": 0
+  },
+  "multi_logical_row_descriptive_only": {
+    "images": 46,
+    "scorable_images": 46,
+    "characters": 6158,
+    "outcome_counts": {
+      "ACCEPT": 41,
+      "REVIEW_UNCERTAIN": 5
+    },
+    "exact_transcription_accuracy": 0.8913043478260869,
+    "raw_CER": 0.7419616758687886,
+    "interpreted_CER": 0.7417992854822995,
+    "review_rate": 0.10869565217391304,
+    "wrong_tier_reviews": 0,
+    "accepted_output_correctness": 1.0,
+    "accepted_output_denominator": 41,
+    "end_to_end_page_correctness": 0.8913043478260869,
+    "corrected_images": 1,
+    "contextual_corrections": 1,
+    "correct_corrections": 1,
+    "incorrect_corrections": 0,
+    "unscorable_corrections": 0,
+    "syntax_failures_resolved": 1,
+    "worsened_CER_images": 0
+  },
+  "normal_clean": {
+    "images": 48,
+    "scorable_images": 48,
+    "characters": 1661,
+    "outcome_counts": {
+      "ACCEPT": 47,
+      "REVIEW_UNCERTAIN": 1
+    },
+    "exact_transcription_accuracy": 0.9791666666666666,
+    "raw_CER": 0.012642986152919929,
+    "interpreted_CER": 0.012040939193257074,
+    "review_rate": 0.020833333333333332,
+    "wrong_tier_reviews": 0,
+    "accepted_output_correctness": 1.0,
+    "accepted_output_denominator": 47,
+    "end_to_end_page_correctness": 0.9791666666666666,
+    "corrected_images": 1,
+    "contextual_corrections": 1,
+    "correct_corrections": 1,
+    "incorrect_corrections": 0,
+    "unscorable_corrections": 0,
+    "syntax_failures_resolved": 1,
+    "worsened_CER_images": 0
+  },
+  "positive_clean": {
+    "images": 182,
+    "scorable_images": 182,
+    "characters": 2957,
+    "outcome_counts": {
+      "ACCEPT": 179,
+      "REVIEW_UNCERTAIN": 3
+    },
+    "exact_transcription_accuracy": 0.9725274725274725,
+    "raw_CER": 0.4392965843760568,
+    "interpreted_CER": 0.4392965843760568,
+    "review_rate": 0.016483516483516484,
+    "wrong_tier_reviews": 0,
+    "accepted_output_correctness": 0.9888268156424581,
+    "accepted_output_denominator": 179,
+    "end_to_end_page_correctness": 0.9725274725274725,
+    "corrected_images": 1,
+    "contextual_corrections": 1,
+    "correct_corrections": 0,
+    "incorrect_corrections": 0,
+    "unscorable_corrections": 1,
+    "syntax_failures_resolved": 0,
+    "worsened_CER_images": 0
+  },
+  "positive_scanned": {
+    "images": 546,
+    "scorable_images": 546,
+    "characters": 8871,
+    "outcome_counts": {
+      "ACCEPT": 532,
+      "REVIEW_UNCERTAIN": 14
+    },
+    "exact_transcription_accuracy": 0.9358974358974359,
+    "raw_CER": 0.4418893022207192,
+    "interpreted_CER": 0.4418893022207192,
+    "review_rate": 0.02564102564102564,
+    "wrong_tier_reviews": 3,
+    "accepted_output_correctness": 0.9605263157894737,
+    "accepted_output_denominator": 532,
+    "end_to_end_page_correctness": 0.9358974358974359,
+    "corrected_images": 3,
+    "contextual_corrections": 3,
+    "correct_corrections": 0,
+    "incorrect_corrections": 0,
+    "unscorable_corrections": 3,
+    "syntax_failures_resolved": 0,
+    "worsened_CER_images": 0
+  }
+}

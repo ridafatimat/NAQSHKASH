@@ -1,0 +1,20 @@
+{
+  "passed": 59,
+  "failed": 0,
+  "tests_run": 59,
+  "created_UTC": "2026-11-07T15:33:38.137615+00:00",
+  "python": "3.12.10",
+  "command": "python -B -m unittest discover -s tests",
+  "scope": "Synthetic lightweight tests, original D1 blank-image smoke and mocked single-record evaluation only; no development image pixels, E1 model construction, OCR, training or held-out images.",
+  "source_sha256": {
+    "src/evaluate_v3_1.py": "9a6ccd611d25c96b960f792b1ec6f30873903faf257c62410a3d064fbcf90e7e",
+    "src/ink_measurement.py": "ab057dbfeefbbd712e66cf07c64de2ea474a6fc0df0b1ada7c5bd769b3e8587f",
+    "src/offline_scoring.py": "9ddc9ecc9703d8a32144debf02ed4ca361584edd52da0e070ae56f9add994285",
+    "src/paths_v3_1.py": "77c32fe5753628cbecd585c704456a110538208523b15706b244cd8c4415681d",
+    "src/policy_v3_1.py": "566c2a7180e595a10c65b27ac698c0de02907ae4b3adae4e4e5ffdc5e84a6390",
+    "configs/policy_v3_1.json": "3396a928971b450bcc9c35e470a1ceb858e2c9d493cb4b42888aa731a8e3b042",
+    "tests/test_evaluation.py": "826f99b7c5a2ac1ca9499fab4b300c91842e88b62f5bc771b72b99bd572d19bc",
+    "tests/test_ink_measurement.py": "dbfab731d2cd7d8063f4d1f9af55df13d46ea43fd68676e90d70795487f50f11",
+    "tests/test_policy_v3_1.py": "6b20d91cda94f6669d86f284b78ac1d101452ce6935ac5e204924e338395073a"
+  }
+}

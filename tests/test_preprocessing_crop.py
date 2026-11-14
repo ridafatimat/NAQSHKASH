@@ -159,3 +159,28 @@ def test_crop_margins_padding_clamping():
     assert ymax == 100
     assert xmax == 100
     assert cropped.shape == (100, 100)
+
+
+# ---------------------------------------------------------------------------
+# Added after review: dark scanner border / polarity robustness
+# ---------------------------------------------------------------------------
+
+def test_crop_dark_scanner_border_does_not_flip_polarity():
+    """A bright page with text, surrounded by a dark scanner border, must crop to the TEXT."""
+    page = np.full((300, 400), 235, dtype=np.uint8)
+    page[100:130, 150:250] = 20          # text block
+    framed = np.full((360, 460), 30, dtype=np.uint8)   # dark scanner border
+    framed[30:330, 30:430] = page
+    cropped, (ymin, xmin, ymax, xmax) = crop_margins(framed, padding=5, return_bbox=True)
+    # crop must be tight around the text block (130..160 x 180..280 in framed coords), not the whole scan
+    assert ymax - ymin < 60
+    assert xmax - xmin < 130
+    assert ymin <= 130 and ymax >= 160 and xmin <= 180 and xmax >= 280
+
+
+def test_crop_dense_ink_crop_keeps_polarity():
+    """Tightly cropped blocks where ink covers >50% of the pixels must still be dark-ink."""
+    img = np.full((100, 100), 255, dtype=np.uint8)
+    img[5:95, 5:95] = 0
+    _, bbox = crop_margins(img, padding=0, return_bbox=True)
+    assert bbox == (5, 5, 95, 95)

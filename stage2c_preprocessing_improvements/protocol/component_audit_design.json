@@ -1,0 +1,7 @@
+{
+  "rule": "Diagnostic only, never candidate selection; evaluate C0 and already selected candidate on fixed sample. Reference connected components of area>=3 pixels; flag each component with <95% crop retention. No deployment ground truth.",
+  "pages": 90,
+  "parents": 30,
+  "manifest_sha256": "2299071d4d471d4edca670b61af8b47e6fe1f6722039d0140b77f10c475d2ea7",
+  "registered_before_validation": true
+}

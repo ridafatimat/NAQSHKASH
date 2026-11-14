@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "candidate": "R0",
+  "tier_aware": false,
+  "description": "One saved frozen D1/E1 pixel inference pass, original F1 v2 unchanged.",
+  "split": "development_design"
+}

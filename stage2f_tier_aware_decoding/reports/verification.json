@@ -1,0 +1,24 @@
+{
+  "tests_passed": 31,
+  "cli_help_checks_passed": [
+    "audit_glyphs",
+    "evaluate_tier_aware",
+    "compare_tier_aware",
+    "verify_artifacts"
+  ],
+  "integrity": {
+    "historical_files": 365,
+    "experiment_files": 22,
+    "unchanged": true
+  },
+  "checkpoint_sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+  "full_T0_evaluation_executed": false,
+  "full_T1_evaluation_executed": false,
+  "OCR_inference_executed": false,
+  "training_executed": false,
+  "calibration_executed": false,
+  "exposed_evaluation_used_for_mapping": false,
+  "font_files_copied": false,
+  "mapping_sha256": "7363c6ea7ea2e6ae846bc4014a5e5f9891f90af24450a4109057e0846b5f9321",
+  "next_step": "User manually executes RUN_TIER_AWARE_IN_VSCODE.md; no performance improvement claimed yet"
+}

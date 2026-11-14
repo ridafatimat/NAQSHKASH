@@ -1,0 +1,53 @@
+{
+  "selected": "C4",
+  "ranking": [
+    {
+      "candidate": "C4",
+      "correct_pages": 600,
+      "attempted": 846,
+      "wrong_acceptances": 226,
+      "common_cer": 0.014953446816514624
+    },
+    {
+      "candidate": "C2",
+      "correct_pages": 599,
+      "attempted": 846,
+      "wrong_acceptances": 227,
+      "common_cer": 0.03413900122260886
+    },
+    {
+      "candidate": "C5",
+      "correct_pages": 598,
+      "attempted": 846,
+      "wrong_acceptances": 75,
+      "common_cer": 0.014765353145866642
+    },
+    {
+      "candidate": "C1",
+      "correct_pages": 376,
+      "attempted": 846,
+      "wrong_acceptances": 14,
+      "common_cer": 0.014577259475218658
+    },
+    {
+      "candidate": "C0",
+      "correct_pages": 376,
+      "attempted": 846,
+      "wrong_acceptances": 14,
+      "common_cer": 0.03413900122260886
+    },
+    {
+      "candidate": "C3",
+      "correct_pages": 375,
+      "attempted": 846,
+      "wrong_acceptances": 14,
+      "common_cer": 0.03451518856390483
+    }
+  ],
+  "selection_inputs_partition": "tuning",
+  "common_scanned_pages": 337,
+  "completed_page_evaluations": 6768,
+  "validation_started": false,
+  "protocol_sha256": "83ea2d7d42453b74ecdabacacf4b7e1a90ab2dd778bdec7dc42e31453ea3d121",
+  "software_lock_sha256": "d94286eea7242d0d6e5dca3e8b1e3500f6cf2c0db7f07a41f642c13a093d1839"
+}

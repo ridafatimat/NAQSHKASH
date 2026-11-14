@@ -1,0 +1,1552 @@
+dataset,cohort,parent_id,mode,row_index,tier_name,truth,prediction,substitutions,deletions,insertions
+general,general_unassigned_exploratory,all_000031,blind,0,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_000031,blind,0,count,mhimbfc,mhimbfc,0,0,0
+general,general_unassigned_exploratory,all_000031,blind,0,lower,V SW  _,V SW  _,0,0,0
+general,general_unassigned_exploratory,all_000031,assisted,0,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_000031,assisted,0,count,mhimbfc,mhimbfc,0,0,0
+general,general_unassigned_exploratory,all_000031,assisted,0,lower,V SW  _,V SW  _,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,0,count,qnfd,qnfd,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,0,lower,WX [,WX [,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,1,upper,K G  K,K G  K,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,1,count,jatdjcaa,jatdjcaa,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,1,lower,\     [,\     [,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,2,upper,K      C  G,K      C  G,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,2,count,hnekhjikfca,hnekhjikfca,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,2,lower,T Y T   T,T Y T   T,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,3,upper,M  N A,M  N A,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,3,count,nbdmblbdcba,nbdmblbdcba,0,0,0
+general,general_unassigned_exploratory,all_000063,blind,3,lower,Z YW   U U,Z YW   U U,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,0,count,qnfd,qnfd,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,0,lower,WX [,WX [,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,1,upper,K G  K,K G  K,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,1,count,jatdjcaa,jatdjcaa,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,1,lower,\     [,\     [,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,2,upper,K      C  G,K      C  G,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,2,count,hnekhjikfca,hnekhjikfca,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,2,lower,T Y T   T,T Y T   T,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,3,upper,M  N A,M  N A,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,3,count,nbdmblbdcba,nbdmblbdcba,0,0,0
+general,general_unassigned_exploratory,all_000063,assisted,3,lower,Z YW   U U,Z YW   U U,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,0,upper,C   Q  IC,C   Q  IC,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,0,count,+esdjabba,+esdjabba,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,0,lower,Z   U,Z   U,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,1,upper,F   CJP   F,F   CJP   F,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,1,count,(emankkiafc,(emankkiafc,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,1,lower,X     RZ,X     RZ,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,2,upper,Q    N    D,Q    N    D,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,2,count,{gcpbocleda,{gcpbocleda,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,2,lower,]_   S Z,]_   S Z,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,3,upper,KI,KI,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,3,count,a'gsgjakjha,a'gsgjakjha,0,0,0
+general,general_unassigned_exploratory,all_000228,blind,3,lower,_T W S    W,_T W S    W,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,0,upper,C   Q  IC,C   Q  IC,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,0,count,+esdjabba,+esdjabba,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,0,lower,Z   U,Z   U,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,1,upper,F   CJP   F,F   CJP   F,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,1,count,(emankkiafc,(emankkiafc,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,1,lower,X     RZ,X     RZ,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,2,upper,Q    N    D,Q    N    D,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,2,count,{gcpbocleda,{gcpbocleda,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,2,lower,]_   S Z,]_   S Z,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,3,upper,KI,KI,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,3,count,a'gsgjakjha,a'gsgjakjha,0,0,0
+general,general_unassigned_exploratory,all_000228,assisted,3,lower,_T W S    W,_T W S    W,0,0,0
+general,general_unassigned_exploratory,all_000509,blind,0,upper,IMDP,IMDP,0,0,0
+general,general_unassigned_exploratory,all_000509,blind,0,count,hagb,hagb,0,0,0
+general,general_unassigned_exploratory,all_000509,blind,1,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_000509,blind,1,count,iha,iha,0,0,0
+general,general_unassigned_exploratory,all_000509,blind,1,lower,V\,V\,0,0,0
+general,general_unassigned_exploratory,all_000509,assisted,0,upper,IMDP,IMDP,0,0,0
+general,general_unassigned_exploratory,all_000509,assisted,0,count,hagb,hagb,0,0,0
+general,general_unassigned_exploratory,all_000509,assisted,1,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_000509,assisted,1,count,iha,iha,0,0,0
+general,general_unassigned_exploratory,all_000509,assisted,1,lower,V\,V\,0,0,0
+general,general_unassigned_exploratory,all_000548,blind,0,upper,P,P,0,0,0
+general,general_unassigned_exploratory,all_000548,blind,0,count,mgofnd,mgofnd,0,0,0
+general,general_unassigned_exploratory,all_000548,blind,0,lower,_ Z,_ Z,0,0,0
+general,general_unassigned_exploratory,all_000548,blind,1,upper,D HK MF,D HK MF,0,0,0
+general,general_unassigned_exploratory,all_000548,blind,1,count,xdgbaba,xdgbaba,0,0,0
+general,general_unassigned_exploratory,all_000548,blind,1,lower,Z,Z,0,0,0
+general,general_unassigned_exploratory,all_000548,assisted,0,upper,P,P,0,0,0
+general,general_unassigned_exploratory,all_000548,assisted,0,count,mgofnd,mgofnd,0,0,0
+general,general_unassigned_exploratory,all_000548,assisted,0,lower,_ Z,_ Z,0,0,0
+general,general_unassigned_exploratory,all_000548,assisted,1,upper,D HK MF,D HK MF,0,0,0
+general,general_unassigned_exploratory,all_000548,assisted,1,count,xdgbaba,xdgbaba,0,0,0
+general,general_unassigned_exploratory,all_000548,assisted,1,lower,Z,Z,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,0,upper,K     G,K     G,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,0,count,sekaaag,sekaaag,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,0,lower,YU[^,YU[^,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,1,upper,Q     L,Q     L,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,1,count,flbqfbcdaa,flbqfbcdaa,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,1,lower,[^   RSRX,[^   RSRX,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,2,upper,N G    I,N G    I,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,2,count,pbneacca,pbneacca,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,2,lower,WTV,WTV,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,3,upper,H      KJ,H      KJ,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,3,count,nfjaoaaea,nfjaoaaea,0,0,0
+general,general_unassigned_exploratory,all_000606,blind,3,lower,\ Y R,\ Y R,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,0,upper,K     G,K     G,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,0,count,sekaaag,sekaaag,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,0,lower,YU[^,YU[^,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,1,upper,Q     L,Q     L,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,1,count,flbqfbcdaa,flbqfbcdaa,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,1,lower,[^   RSRX,[^   RSRX,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,2,upper,N G    I,N G    I,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,2,count,pbneacca,pbneacca,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,2,lower,WTV,WTV,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,3,upper,H      KJ,H      KJ,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,3,count,nfjaoaaea,nfjaoaaea,0,0,0
+general,general_unassigned_exploratory,all_000606,assisted,3,lower,\ Y R,\ Y R,0,0,0
+general,general_unassigned_exploratory,all_000649,blind,0,count,whia,whia,0,0,0
+general,general_unassigned_exploratory,all_000649,blind,0,lower,[ T],[ T],0,0,0
+general,general_unassigned_exploratory,all_000649,assisted,0,count,whia,whia,0,0,0
+general,general_unassigned_exploratory,all_000649,assisted,0,lower,[ T],[ T],0,0,0
+general,general_unassigned_exploratory,all_000658,blind,0,upper,Q   Q QE,Q   Q QE,0,0,0
+general,general_unassigned_exploratory,all_000658,blind,0,count,xgjicdca,xgjicdca,0,0,0
+general,general_unassigned_exploratory,all_000658,blind,0,lower,X  Z,X  Z,0,0,0
+general,general_unassigned_exploratory,all_000658,assisted,0,upper,Q   Q QE,Q   Q QE,0,0,0
+general,general_unassigned_exploratory,all_000658,assisted,0,count,xgjicdca,xgjicdca,0,0,0
+general,general_unassigned_exploratory,all_000658,assisted,0,lower,X  Z,X  Z,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,0,upper,C,C,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,0,count,{ia,{ia,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,0,lower,R \,R \,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,1,upper,D K,D K,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,1,count,selne,selne,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,1,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,2,upper,B N AM,B N AM,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,2,count,navbfa,navbfa,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,3,upper,N JP I,N JP I,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,3,count,rbocjhfgaba,rbocjhfgaba,0,0,0
+general,general_unassigned_exploratory,all_000681,blind,3,lower,\ V     [ W,\ V     [ W,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,0,upper,C,C,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,0,count,{ia,{ia,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,0,lower,R \,R \,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,1,upper,D K,D K,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,1,count,selne,selne,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,1,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,2,upper,B N AM,B N AM,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,2,count,navbfa,navbfa,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,3,upper,N JP I,N JP I,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,3,count,rbocjhfgaba,rbocjhfgaba,0,0,0
+general,general_unassigned_exploratory,all_000681,assisted,3,lower,\ V     [ W,\ V     [ W,0,0,0
+general,general_unassigned_exploratory,all_000685,assisted,0,upper,A,A,0,0,0
+general,general_unassigned_exploratory,all_000685,assisted,0,count,{dhb,{dhb,0,0,0
+general,general_unassigned_exploratory,all_000685,assisted,0,lower,X  _,X  _,0,0,0
+general,general_unassigned_exploratory,all_000703,blind,0,upper,AL,AL,0,0,0
+general,general_unassigned_exploratory,all_000703,blind,0,count,'bjdlfia,'bjdlfia,0,0,0
+general,general_unassigned_exploratory,all_000703,blind,0,lower,Z _ Z,Z _ Z,0,0,0
+general,general_unassigned_exploratory,all_000703,assisted,0,upper,AL,AL,0,0,0
+general,general_unassigned_exploratory,all_000703,assisted,0,count,'bjdlfia,'bjdlfia,0,0,0
+general,general_unassigned_exploratory,all_000703,assisted,0,lower,Z _ Z,Z _ Z,0,0,0
+general,general_unassigned_exploratory,all_000766,blind,0,upper,NEH  G H,NEH  G H,0,0,0
+general,general_unassigned_exploratory,all_000766,blind,0,count,fakbdaaa,fakbdaaa,0,0,0
+general,general_unassigned_exploratory,all_000766,blind,0,lower,\ _,\ _,0,0,0
+general,general_unassigned_exploratory,all_000766,assisted,0,upper,NEH  G H,NEH  G H,0,0,0
+general,general_unassigned_exploratory,all_000766,assisted,0,count,fakbdaaa,fakbdaaa,0,0,0
+general,general_unassigned_exploratory,all_000766,assisted,0,lower,\ _,\ _,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,0,count,wfkee,wfkee,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,0,lower,\ U R,\ U R,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,1,upper,J G   QE,J G   QE,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,1,count,pcolcbdca,pcolcbdca,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,1,lower,[ T  _,[ T  _,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,2,upper,D  I,D  I,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,2,count,lvgbg,lvgbg,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,2,lower,[  W,[  W,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,3,upper,H K  A H,H K  A H,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,3,count,odjeqjfa,odjeqjfa,0,0,0
+general,general_unassigned_exploratory,all_000906,blind,3,lower,],],0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,0,count,wfkee,wfkee,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,0,lower,\ U R,\ U R,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,1,upper,J G   QE,J G   QE,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,1,count,pcolcbdca,pcolcbdca,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,1,lower,[ T  _,[ T  _,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,2,upper,D  I,D  I,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,2,count,lvgbg,lvgbg,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,2,lower,[  W,[  W,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,3,upper,H K  A H,H K  A H,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,3,count,odjeqjfa,odjeqjfa,0,0,0
+general,general_unassigned_exploratory,all_000906,assisted,3,lower,],],0,0,0
+general,general_unassigned_exploratory,all_000921,blind,0,upper,M C CEG,M C CEG,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,0,count,yaaaeab,yaaaeab,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,0,lower,R,R,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,1,upper,KAM A  B,KAM A  B,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,1,count,ugfjjbjada,ugfjjbjada,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,1,lower,S       [,S       [,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,2,upper,D I H,D I H,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,2,count,lardmcba,lardmcba,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,2,lower,R      X,R      X,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,3,upper,N  MI   B F  MI C,N  MI   B F  MI C,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,3,count,lagfkdlikejibgfaac,lagfkdlikejibgfaac,0,0,0
+general,general_unassigned_exploratory,all_000921,blind,3,lower,[   T     Z  T _,[   T     Z  T _,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,0,upper,M C CEG,M C CEG,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,0,count,yaaaeab,yaaaeab,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,0,lower,R,R,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,1,upper,KAM A  B,KAM A  B,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,1,count,ugfjjbjada,ugfjjbjada,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,1,lower,S       [,S       [,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,2,upper,D I H,D I H,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,2,count,lardmcba,lardmcba,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,2,lower,R      X,R      X,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,3,upper,N  MI   B F  MI C,N  MI   B F  MI C,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,3,count,lagfkdlikejibgfaac,lagfkdlikejibgfaac,0,0,0
+general,general_unassigned_exploratory,all_000921,assisted,3,lower,[   T     Z  T _,[   T     Z  T _,0,0,0
+general,general_unassigned_exploratory,all_000998,assisted,0,upper,I Q,I Q,0,0,0
+general,general_unassigned_exploratory,all_000998,assisted,0,count,*hjbjh,*hjbjh,0,0,0
+general,general_unassigned_exploratory,all_000998,assisted,0,lower,U,U,0,0,0
+general,general_unassigned_exploratory,all_000998,assisted,1,upper,I,I,0,0,0
+general,general_unassigned_exploratory,all_000998,assisted,1,count,zgqhc,zgqhc,0,0,0
+general,general_unassigned_exploratory,all_000998,assisted,1,lower,^ W,^ W,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,0,count,ocgc,ocgc,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,0,lower,V XV,V XV,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,1,upper,J E   B DE,J E   B DE,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,1,count,jekdehcide,jekdehcide,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,1,lower,Z\ \,Z\ \,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,2,upper,NHN,NHN,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,2,count,lijbihbc,lijbihbc,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,2,lower,Z R    \,Z R    \,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,3,upper,AI,AI,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,3,count,lgjiabicaa,lgjiabicaa,0,0,0
+general,general_unassigned_exploratory,all_001341,blind,3,lower,] W TWSV,] W TWSV,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,0,count,ocgc,ocgc,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,0,lower,V XV,V XV,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,1,upper,J E   B DE,J E   B DE,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,1,count,jekdehcide,jekdehcide,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,1,lower,Z\ \,Z\ \,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,2,upper,NHN,NHN,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,2,count,lijbihbc,lijbihbc,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,2,lower,Z R    \,Z R    \,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,3,upper,AI,AI,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,3,count,lgjiabicaa,lgjiabicaa,0,0,0
+general,general_unassigned_exploratory,all_001341,assisted,3,lower,] W TWSV,] W TWSV,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,0,upper,C    D,C    D,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,0,count,xcilfdja,xcilfdja,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,0,lower,SW  [,SW  [,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,1,upper,I  CLQ,I  CLQ,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,1,count,qugcba,qugcba,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,1,lower,[,[,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,2,upper,K M A  J,K M A  J,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,2,count,zbkibacdaa,zbkibacdaa,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,2,lower,SZ SV,SZ SV,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,3,upper,L     NKPE,L     NKPE,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,3,count,ugkhligjaa,ugkhligjaa,0,0,0
+general,general_unassigned_exploratory,all_001431,blind,3,lower,T _,T _,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,0,upper,C    D,C    D,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,0,count,xcilfdja,xcilfdja,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,0,lower,SW  [,SW  [,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,1,upper,I  CLQ,I  CLQ,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,1,count,qugcba,qugcba,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,1,lower,[,[,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,2,upper,K M A  J,K M A  J,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,2,count,zbkibacdaa,zbkibacdaa,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,2,lower,SZ SV,SZ SV,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,3,upper,L     NKPE,L     NKPE,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,3,count,ugkhligjaa,ugkhligjaa,0,0,0
+general,general_unassigned_exploratory,all_001431,assisted,3,lower,T _,T _,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,0,upper,H N B,H N B,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,0,count,|bkgc,|bkgc,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,1,upper,H     M,H     M,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,1,count,oepapgcdaa,oepapgcdaa,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,1,lower,\ Z  ^]Y,\ Z  ^]Y,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,2,upper,K M,K M,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,2,count,|djbifa,|djbifa,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,2,lower,YW[,YW[,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,3,upper,E PC L D,E PC L D,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,3,count,xdlehkaaab,xdlehkaaab,0,0,0
+general,general_unassigned_exploratory,all_001470,blind,3,lower,Z       [,Z       [,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,0,upper,H N B,H N B,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,0,count,|bkgc,|bkgc,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,1,upper,H     M,H     M,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,1,count,oepapgcdaa,oepapgcdaa,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,1,lower,\ Z  ^]Y,\ Z  ^]Y,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,2,upper,K M,K M,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,2,count,|djbifa,|djbifa,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,2,lower,YW[,YW[,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,3,upper,E PC L D,E PC L D,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,3,count,xdlehkaaab,xdlehkaaab,0,0,0
+general,general_unassigned_exploratory,all_001470,assisted,3,lower,Z       [,Z       [,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,0,upper,E H,E H,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,0,count,ncl,ncl,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,1,upper,E      DG,E      DG,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,1,count,leblbjbaa,leblbjbaa,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,1,lower,SR \,SR \,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,2,upper,K  M H A  Q,K  M H A  Q,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,2,count,ijelajbjdaa,ijelajbjdaa,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,2,lower,\       Y,\       Y,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,3,upper,GK N,GK N,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,3,count,ngbakab,ngbakab,0,0,0
+general,general_unassigned_exploratory,all_001590,blind,3,lower,_ X,_ X,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,0,upper,E H,E H,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,0,count,ncl,ncl,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,1,upper,E      DG,E      DG,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,1,count,leblbjbaa,leblbjbaa,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,1,lower,SR \,SR \,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,2,upper,K  M H A  Q,K  M H A  Q,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,2,count,ijelajbjdaa,ijelajbjdaa,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,2,lower,\       Y,\       Y,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,3,upper,GK N,GK N,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,3,count,ngbakab,ngbakab,0,0,0
+general,general_unassigned_exploratory,all_001590,assisted,3,lower,_ X,_ X,0,0,0
+general,general_unassigned_exploratory,all_001637,blind,0,count,sdf,sdf,0,0,0
+general,general_unassigned_exploratory,all_001637,blind,0,lower,RUX,RUX,0,0,0
+general,general_unassigned_exploratory,all_001637,blind,1,upper,D  C N,D  C N,0,0,0
+general,general_unassigned_exploratory,all_001637,blind,1,count,oiekfcdba,oiekfcdba,0,0,0
+general,general_unassigned_exploratory,all_001637,blind,1,lower,\  T  S ],\  T  S ],0,0,0
+general,general_unassigned_exploratory,all_001637,assisted,0,count,sdf,sdf,0,0,0
+general,general_unassigned_exploratory,all_001637,assisted,0,lower,RUX,RUX,0,0,0
+general,general_unassigned_exploratory,all_001637,assisted,1,upper,D  C N,D  C N,0,0,0
+general,general_unassigned_exploratory,all_001637,assisted,1,count,oiekfcdba,oiekfcdba,0,0,0
+general,general_unassigned_exploratory,all_001637,assisted,1,lower,\  T  S ],\  T  S ],0,0,0
+general,general_unassigned_exploratory,all_001713,blind,0,upper,M   IM,M   IM,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,0,count,zfdcaaa,zfdcaaa,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,0,lower,[Y  Y,[Y  Y,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,1,upper,G L KCH BM,G L KCH BM,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,1,count,jbpfncjfakga,jbpfncjfakga,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,1,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,2,upper,D        DG,D        DG,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,2,count,jcjbudgjcjaacaa,jcjbudgjcjaacaa,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,2,lower,W ^   ^Y R VU,W ^   ^Y R VU,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,3,upper,J  QI J B,J  QI J B,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,3,count,rclikbjejeaa,rclikbjejeaa,0,0,0
+general,general_unassigned_exploratory,all_001713,blind,3,lower,Z   W    S _,Z   W    S _,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,0,upper,M   IM,M   IM,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,0,count,zfdcaaa,zfdcaaa,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,0,lower,[Y  Y,[Y  Y,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,1,upper,G L KCH BM,G L KCH BM,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,1,count,jbpfncjfakga,jbpfncjfakga,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,1,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,2,upper,D        DG,D        DG,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,2,count,jcjbudgjcjaacaa,jcjbudgjcjaacaa,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,2,lower,W ^   ^Y R VU,W ^   ^Y R VU,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,3,upper,J  QI J B,J  QI J B,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,3,count,rclikbjejeaa,rclikbjejeaa,0,0,0
+general,general_unassigned_exploratory,all_001713,assisted,3,lower,Z   W    S _,Z   W    S _,0,0,0
+general,general_unassigned_exploratory,all_001853,blind,0,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_001853,blind,0,count,nggc,nggc,0,0,0
+general,general_unassigned_exploratory,all_001853,blind,0,lower,^ X,^ X,0,0,0
+general,general_unassigned_exploratory,all_001853,blind,1,upper,F   NM  LC,F   NM  LC,0,0,0
+general,general_unassigned_exploratory,all_001853,blind,1,count,jbjfjjbifb,jbjfjjbifb,0,0,0
+general,general_unassigned_exploratory,all_001853,blind,1,lower,T_    _,T_    _,0,0,0
+general,general_unassigned_exploratory,all_001853,assisted,0,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_001853,assisted,0,count,nggc,nggc,0,0,0
+general,general_unassigned_exploratory,all_001853,assisted,0,lower,^ X,^ X,0,0,0
+general,general_unassigned_exploratory,all_001853,assisted,1,upper,F   NM  LC,F   NM  LC,0,0,0
+general,general_unassigned_exploratory,all_001853,assisted,1,count,jbjfjjbifb,jbjfjjbifb,0,0,0
+general,general_unassigned_exploratory,all_001853,assisted,1,lower,T_    _,T_    _,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,0,upper,BH,BH,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,0,count,rgcfa,rgcfa,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,0,lower,U   _,U   _,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,1,upper,G Q NJ,G Q NJ,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,1,count,kcnbkhca,kcnbkhca,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,1,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,2,upper,H QC K,H QC K,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,2,count,pecjagbbabd,pecjagbbabd,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,2,lower,U T    X \U,U T    X \U,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,3,upper,I  A N,I  A N,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,3,count,jaldndeaaa,jaldndeaaa,0,0,0
+general,general_unassigned_exploratory,all_001893,blind,3,lower,U W   _ ^,U W   _ ^,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,0,upper,BH,BH,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,0,count,rgcfa,rgcfa,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,0,lower,U   _,U   _,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,1,upper,G Q NJ,G Q NJ,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,1,count,kcnbkhca,kcnbkhca,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,1,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,2,upper,H QC K,H QC K,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,2,count,pecjagbbabd,pecjagbbabd,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,2,lower,U T    X \U,U T    X \U,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,3,upper,I  A N,I  A N,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,3,count,jaldndeaaa,jaldndeaaa,0,0,0
+general,general_unassigned_exploratory,all_001893,assisted,3,lower,U W   _ ^,U W   _ ^,0,0,0
+general,general_unassigned_exploratory,all_002020,blind,0,upper,N   N,N   N,0,0,0
+general,general_unassigned_exploratory,all_002020,blind,0,count,)dpledfda,)dpledfda,0,0,0
+general,general_unassigned_exploratory,all_002020,blind,0,lower,[ T  WR V,[ T  WR V,0,0,0
+general,general_unassigned_exploratory,all_002020,assisted,0,upper,N   N,N   N,0,0,0
+general,general_unassigned_exploratory,all_002020,assisted,0,count,)dpledfda,)dpledfda,0,0,0
+general,general_unassigned_exploratory,all_002020,assisted,0,lower,[ T  WR V,[ T  WR V,0,0,0
+general,general_unassigned_exploratory,all_002032,blind,0,upper,A        BFH,A        BFH,0,0,0
+general,general_unassigned_exploratory,all_002032,blind,0,count,*fjhoakicdda,*fjhoakicdda,0,0,0
+general,general_unassigned_exploratory,all_002032,blind,0,lower,] W [ X,] W [ X,0,0,0
+general,general_unassigned_exploratory,all_002032,assisted,0,upper,A        BFH,A        BFH,0,0,0
+general,general_unassigned_exploratory,all_002032,assisted,0,count,*fjhoakicdda,*fjhoakicdda,0,0,0
+general,general_unassigned_exploratory,all_002032,assisted,0,lower,] W [ X,] W [ X,0,0,0
+general,general_unassigned_exploratory,all_002260,blind,0,upper,Q FA    A,Q FA    A,0,0,0
+general,general_unassigned_exploratory,all_002260,blind,0,count,'ehjcpbjjeb,'ehjcpbjjeb,0,0,0
+general,general_unassigned_exploratory,all_002260,blind,0,lower,U V  X,U V  X,0,0,0
+general,general_unassigned_exploratory,all_002260,assisted,0,upper,Q FA    A,Q FA    A,0,0,0
+general,general_unassigned_exploratory,all_002260,assisted,0,count,'ehjcpbjjeb,'ehjcpbjjeb,0,0,0
+general,general_unassigned_exploratory,all_002260,assisted,0,lower,U V  X,U V  X,0,0,0
+general,general_unassigned_exploratory,all_002446,blind,0,upper,Q J  JF,Q J  JF,0,0,0
+general,general_unassigned_exploratory,all_002446,blind,0,count,vbkfbaa,vbkfbaa,0,0,0
+general,general_unassigned_exploratory,all_002446,blind,0,lower,Z,Z,0,0,0
+general,general_unassigned_exploratory,all_002446,assisted,0,upper,Q J  JF,Q J  JF,0,0,0
+general,general_unassigned_exploratory,all_002446,assisted,0,count,vbkfbaa,vbkfbaa,0,0,0
+general,general_unassigned_exploratory,all_002446,assisted,0,lower,Z,Z,0,0,0
+general,general_unassigned_exploratory,all_002486,blind,0,upper,D  QF,D  QF,0,0,0
+general,general_unassigned_exploratory,all_002486,blind,0,count,zbkabeaa,zbkabeaa,0,0,0
+general,general_unassigned_exploratory,all_002486,blind,0,lower,Z   T  _,Z   T  _,0,0,0
+general,general_unassigned_exploratory,all_002486,blind,1,upper,IJ PJ M,IJ PJ M,0,0,0
+general,general_unassigned_exploratory,all_002486,blind,1,count,zegjbcaca,zegjbcaca,0,0,0
+general,general_unassigned_exploratory,all_002486,blind,1,lower,Z      _,Z      _,0,0,0
+general,general_unassigned_exploratory,all_002486,assisted,0,upper,D  QF,D  QF,0,0,0
+general,general_unassigned_exploratory,all_002486,assisted,0,count,zbkabeaa,zbkabeaa,0,0,0
+general,general_unassigned_exploratory,all_002486,assisted,0,lower,Z   T  _,Z   T  _,0,0,0
+general,general_unassigned_exploratory,all_002486,assisted,1,upper,IJ PJ M,IJ PJ M,0,0,0
+general,general_unassigned_exploratory,all_002486,assisted,1,count,zegjbcaca,zegjbcaca,0,0,0
+general,general_unassigned_exploratory,all_002486,assisted,1,lower,Z      _,Z      _,0,0,0
+general,general_unassigned_exploratory,all_002568,blind,0,upper,D IM N D JL,D IM N D JL,0,0,0
+general,general_unassigned_exploratory,all_002568,blind,0,count,",dkaenekejbaa",",dkaenekejbaa",0,0,0
+general,general_unassigned_exploratory,all_002568,blind,0,lower,Y,Y,0,0,0
+general,general_unassigned_exploratory,all_002568,blind,1,upper,P G MK,P G MK,0,0,0
+general,general_unassigned_exploratory,all_002568,blind,1,count,'excfbeba,'excfbeba,0,0,0
+general,general_unassigned_exploratory,all_002568,blind,1,lower,RT],RT],0,0,0
+general,general_unassigned_exploratory,all_002568,blind,2,upper,AM   G E KL,AM   G E KL,0,0,0
+general,general_unassigned_exploratory,all_002568,blind,2,count,vrckngjhkhjbeja,vrckngjhkhjbeja,0,0,0
+general,general_unassigned_exploratory,all_002568,blind,2,lower,[T    S       \,[T    S       \,0,0,0
+general,general_unassigned_exploratory,all_002568,blind,3,count,jh|merheaajbbb,jh|merheaajbbb,0,0,0
+general,general_unassigned_exploratory,all_002568,blind,3,lower,T WU Y RXWS Z^,T WU Y RXWS Z^,0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,0,upper,D IM N D JL,D IM N D JL,0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,0,count,",dkaenekejbaa",",dkaenekejbaa",0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,0,lower,Y,Y,0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,1,upper,P G MK,P G MK,0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,1,count,'excfbeba,'excfbeba,0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,1,lower,RT],RT],0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,2,upper,AM   G E KL,AM   G E KL,0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,2,count,vrckngjhkhjbeja,vrckngjhkhjbeja,0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,2,lower,[T    S       \,[T    S       \,0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,3,count,jh|merheaajbbb,jh|merheaajbbb,0,0,0
+general,general_unassigned_exploratory,all_002568,assisted,3,lower,T WU Y RXWS Z^,T WU Y RXWS Z^,0,0,0
+general,general_unassigned_exploratory,all_002775,blind,0,upper,E   Q,E   Q,0,0,0
+general,general_unassigned_exploratory,all_002775,blind,0,count,'bnia,'bnia,0,0,0
+general,general_unassigned_exploratory,all_002775,blind,0,lower,^,^,0,0,0
+general,general_unassigned_exploratory,all_002775,blind,1,count,",ic",",ic",0,0,0
+general,general_unassigned_exploratory,all_002775,blind,1,lower,S ],S ],0,0,0
+general,general_unassigned_exploratory,all_002775,blind,2,upper,N        A,N        A,0,0,0
+general,general_unassigned_exploratory,all_002775,blind,2,count,thlapdjbdkc,thlapdjbdkc,0,0,0
+general,general_unassigned_exploratory,all_002775,blind,2,lower,] W U _,] W U _,0,0,0
+general,general_unassigned_exploratory,all_002775,blind,3,upper,E C P,E C P,0,0,0
+general,general_unassigned_exploratory,all_002775,blind,3,count,yejinhk,yejinhk,0,0,0
+general,general_unassigned_exploratory,all_002775,blind,3,lower,T,T,0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,0,upper,E   Q,E   Q,0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,0,count,'bnia,'bnia,0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,0,lower,^,^,0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,1,count,",ic",",ic",0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,1,lower,S ],S ],0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,2,upper,N        A,N        A,0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,2,count,thlapdjbdkc,thlapdjbdkc,0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,2,lower,] W U _,] W U _,0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,3,upper,E C P,E C P,0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,3,count,yejinhk,yejinhk,0,0,0
+general,general_unassigned_exploratory,all_002775,assisted,3,lower,T,T,0,0,0
+general,general_unassigned_exploratory,all_002849,assisted,0,upper,J,J,0,0,0
+general,general_unassigned_exploratory,all_002849,assisted,0,count,jgj,jgj,0,0,0
+general,general_unassigned_exploratory,all_002849,assisted,0,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_002849,assisted,1,upper,A,A,0,0,0
+general,general_unassigned_exploratory,all_002849,assisted,1,count,jdfg,jdfg,0,0,0
+general,general_unassigned_exploratory,all_002849,assisted,1,lower,YU,YU,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,0,upper,P,P,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,0,count,rchaa,rchaa,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,0,lower,Y R_,Y R_,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,1,upper,E B J E A H,E B J E A H,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,1,count,nbjbjakcaca,nbjbjakcaca,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,1,lower,R,R,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,2,upper,A G D,A G D,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,2,count,qjdbdaaa,qjdbdaaa,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,2,lower,SZ  Z T,SZ  Z T,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,3,upper,P   C  L,P   C  L,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,3,count,pcjbjfaa,pcjbjfaa,0,0,0
+general,general_unassigned_exploratory,all_002925,blind,3,lower,]   Y,]   Y,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,0,upper,P,P,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,0,count,rchaa,rchaa,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,0,lower,Y R_,Y R_,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,1,upper,E B J E A H,E B J E A H,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,1,count,nbjbjakcaca,nbjbjakcaca,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,1,lower,R,R,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,2,upper,A G D,A G D,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,2,count,qjdbdaaa,qjdbdaaa,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,2,lower,SZ  Z T,SZ  Z T,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,3,upper,P   C  L,P   C  L,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,3,count,pcjbjfaa,pcjbjfaa,0,0,0
+general,general_unassigned_exploratory,all_002925,assisted,3,lower,]   Y,]   Y,0,0,0
+general,general_unassigned_exploratory,all_003304,blind,0,upper,M QNPM,M QNPM,0,0,0
+general,general_unassigned_exploratory,all_003304,blind,0,count,(ctbbbca,(ctbbbca,0,0,0
+general,general_unassigned_exploratory,all_003304,blind,0,lower,X,X,0,0,0
+general,general_unassigned_exploratory,all_003304,assisted,0,upper,M QNPM,M QNPM,0,0,0
+general,general_unassigned_exploratory,all_003304,assisted,0,count,(ctbbbca,(ctbbbca,0,0,0
+general,general_unassigned_exploratory,all_003304,assisted,0,lower,X,X,0,0,0
+general,general_unassigned_exploratory,all_003404,blind,0,upper,E   AF G,E   AF G,0,0,0
+general,general_unassigned_exploratory,all_003404,blind,0,count,ndmdpbca,ndmdpbca,0,0,0
+general,general_unassigned_exploratory,all_003404,blind,0,lower,Z   V,Z   V,0,0,0
+general,general_unassigned_exploratory,all_003404,blind,1,count,xfjh,xfjh,0,0,0
+general,general_unassigned_exploratory,all_003404,blind,1,lower,\ Z,\ Z,0,0,0
+general,general_unassigned_exploratory,all_003404,assisted,0,upper,E   AF G,E   AF G,0,0,0
+general,general_unassigned_exploratory,all_003404,assisted,0,count,ndmdpbca,ndmdpbca,0,0,0
+general,general_unassigned_exploratory,all_003404,assisted,0,lower,Z   V,Z   V,0,0,0
+general,general_unassigned_exploratory,all_003404,assisted,1,count,xfjh,xfjh,0,0,0
+general,general_unassigned_exploratory,all_003404,assisted,1,lower,\ Z,\ Z,0,0,0
+general,general_unassigned_exploratory,all_003413,blind,0,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_003413,blind,0,count,ocia,ocia,0,0,0
+general,general_unassigned_exploratory,all_003413,blind,0,lower,[ U,[ U,0,0,0
+general,general_unassigned_exploratory,all_003413,blind,1,upper,E,E,0,0,0
+general,general_unassigned_exploratory,all_003413,blind,1,count,pba,pba,0,0,0
+general,general_unassigned_exploratory,all_003413,blind,1,lower,^,^,0,0,0
+general,general_unassigned_exploratory,all_003413,assisted,0,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_003413,assisted,0,count,ocia,ocia,0,0,0
+general,general_unassigned_exploratory,all_003413,assisted,0,lower,[ U,[ U,0,0,0
+general,general_unassigned_exploratory,all_003413,assisted,1,upper,E,E,0,0,0
+general,general_unassigned_exploratory,all_003413,assisted,1,count,pba,pba,0,0,0
+general,general_unassigned_exploratory,all_003413,assisted,1,lower,^,^,0,0,0
+general,general_unassigned_exploratory,all_003497,blind,0,upper,E  NK,E  NK,0,0,0
+general,general_unassigned_exploratory,all_003497,blind,0,count,wgcaf,wgcaf,0,0,0
+general,general_unassigned_exploratory,all_003497,blind,0,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_003497,blind,1,upper,BL    IN G,BL    IN G,0,0,0
+general,general_unassigned_exploratory,all_003497,blind,1,count,pnehjhaaac,pnehjhaaac,0,0,0
+general,general_unassigned_exploratory,all_003497,blind,1,lower,UW   X,UW   X,0,0,0
+general,general_unassigned_exploratory,all_003497,assisted,0,upper,E  NK,E  NK,0,0,0
+general,general_unassigned_exploratory,all_003497,assisted,0,count,wgcaf,wgcaf,0,0,0
+general,general_unassigned_exploratory,all_003497,assisted,0,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_003497,assisted,1,upper,BL    IN G,BL    IN G,0,0,0
+general,general_unassigned_exploratory,all_003497,assisted,1,count,pnehjhaaac,pnehjhaaac,0,0,0
+general,general_unassigned_exploratory,all_003497,assisted,1,lower,UW   X,UW   X,0,0,0
+general,general_test_structure_match_exploratory,all_003613,blind,0,upper,F,F,0,0,0
+general,general_test_structure_match_exploratory,all_003613,blind,0,count,dj,dj,0,0,0
+general,general_test_structure_match_exploratory,all_003613,blind,0,lower,],],0,0,0
+general,general_test_structure_match_exploratory,all_003613,assisted,0,upper,F,F,0,0,0
+general,general_test_structure_match_exploratory,all_003613,assisted,0,count,dj,dj,0,0,0
+general,general_test_structure_match_exploratory,all_003613,assisted,0,lower,],],0,0,0
+general,general_unassigned_exploratory,all_003670,blind,0,upper,M DQ,M DQ,0,0,0
+general,general_unassigned_exploratory,all_003670,blind,0,count,oajajdbc,oajajdbc,0,0,0
+general,general_unassigned_exploratory,all_003670,blind,0,lower,T V,T V,0,0,0
+general,general_unassigned_exploratory,all_003670,assisted,0,upper,M DQ,M DQ,0,0,0
+general,general_unassigned_exploratory,all_003670,assisted,0,count,oajajdbc,oajajdbc,0,0,0
+general,general_unassigned_exploratory,all_003670,assisted,0,lower,T V,T V,0,0,0
+general,general_unassigned_exploratory,all_003725,blind,0,upper,H,H,0,0,0
+general,general_unassigned_exploratory,all_003725,blind,0,count,tfbga,tfbga,0,0,0
+general,general_unassigned_exploratory,all_003725,blind,0,lower,W  T_,W  T_,0,0,0
+general,general_unassigned_exploratory,all_003725,blind,1,upper,G NFQ,G NFQ,0,0,0
+general,general_unassigned_exploratory,all_003725,blind,1,count,kepdkaf,kepdkaf,0,0,0
+general,general_unassigned_exploratory,all_003725,blind,1,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_003725,assisted,0,upper,H,H,0,0,0
+general,general_unassigned_exploratory,all_003725,assisted,0,count,tfbga,tfbga,0,0,0
+general,general_unassigned_exploratory,all_003725,assisted,0,lower,W  T_,W  T_,0,0,0
+general,general_unassigned_exploratory,all_003725,assisted,1,upper,G NFQ,G NFQ,0,0,0
+general,general_unassigned_exploratory,all_003725,assisted,1,count,kepdkaf,kepdkaf,0,0,0
+general,general_unassigned_exploratory,all_003725,assisted,1,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_004082,blind,0,upper,Q   MCDF  E,Q   MCDF  E,0,0,0
+general,general_unassigned_exploratory,all_004082,blind,0,count,(dcicaeacaaba,(dcicaeacaaba,0,0,0
+general,general_unassigned_exploratory,all_004082,blind,0,lower,^X    _^ R\,^X    _^ R\,0,0,0
+general,general_unassigned_exploratory,all_004082,blind,1,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_004082,blind,1,count,+bb,+bb,0,0,0
+general,general_unassigned_exploratory,all_004082,blind,1,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_004082,assisted,0,upper,Q   MCDF  E,Q   MCDF  E,0,0,0
+general,general_unassigned_exploratory,all_004082,assisted,0,count,(dcicaeacaaba,(dcicaeacaaba,0,0,0
+general,general_unassigned_exploratory,all_004082,assisted,0,lower,^X    _^ R\,^X    _^ R\,0,0,0
+general,general_unassigned_exploratory,all_004082,assisted,1,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_004082,assisted,1,count,+bb,+bb,0,0,0
+general,general_unassigned_exploratory,all_004082,assisted,1,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_004235,blind,0,upper,N   QB,N   QB,0,0,0
+general,general_unassigned_exploratory,all_004235,blind,0,count,shndbca,shndbca,0,0,0
+general,general_unassigned_exploratory,all_004235,blind,0,lower,]   [,]   [,0,0,0
+general,general_unassigned_exploratory,all_004235,blind,1,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_004235,blind,1,count,xbcjba,xbcjba,0,0,0
+general,general_unassigned_exploratory,all_004235,blind,1,lower,W _U,W _U,0,0,0
+general,general_unassigned_exploratory,all_004235,assisted,0,upper,N   QB,N   QB,0,0,0
+general,general_unassigned_exploratory,all_004235,assisted,0,count,shndbca,shndbca,0,0,0
+general,general_unassigned_exploratory,all_004235,assisted,0,lower,]   [,]   [,0,0,0
+general,general_unassigned_exploratory,all_004235,assisted,1,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_004235,assisted,1,count,xbcjba,xbcjba,0,0,0
+general,general_unassigned_exploratory,all_004235,assisted,1,lower,W _U,W _U,0,0,0
+general,general_unassigned_exploratory,all_004289,blind,0,upper,H DJ,H DJ,0,0,0
+general,general_unassigned_exploratory,all_004289,blind,0,count,ybee,ybee,0,0,0
+general,general_unassigned_exploratory,all_004289,blind,1,upper,H  N   GB,H  N   GB,0,0,0
+general,general_unassigned_exploratory,all_004289,blind,1,count,nbofcjejbjachaa,nbofcjejbjachaa,0,0,0
+general,general_unassigned_exploratory,all_004289,blind,1,lower,_ Z  T   Z   _Z,_ Z  T   Z   _Z,0,0,0
+general,general_unassigned_exploratory,all_004289,assisted,0,upper,H DJ,H DJ,0,0,0
+general,general_unassigned_exploratory,all_004289,assisted,0,count,ybee,ybee,0,0,0
+general,general_unassigned_exploratory,all_004289,assisted,1,upper,H  N   GB,H  N   GB,0,0,0
+general,general_unassigned_exploratory,all_004289,assisted,1,count,nbofcjejbjachaa,nbofcjejbjachaa,0,0,0
+general,general_unassigned_exploratory,all_004289,assisted,1,lower,_ Z  T   Z   _Z,_ Z  T   Z   _Z,0,0,0
+general,general_unassigned_exploratory,all_004384,blind,0,upper,C K M D  J,C K M D  J,0,0,0
+general,general_unassigned_exploratory,all_004384,blind,0,count,",gkenildaa",",gkenildaa",0,0,0
+general,general_unassigned_exploratory,all_004384,blind,0,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_004384,assisted,0,upper,C K M D  J,C K M D  J,0,0,0
+general,general_unassigned_exploratory,all_004384,assisted,0,count,",gkenildaa",",gkenildaa",0,0,0
+general,general_unassigned_exploratory,all_004384,assisted,0,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_004405,blind,0,count,jiia,jiia,0,0,0
+general,general_unassigned_exploratory,all_004405,blind,0,lower,W Y[,W Y[,0,0,0
+general,general_unassigned_exploratory,all_004405,assisted,0,count,jiia,jiia,0,0,0
+general,general_unassigned_exploratory,all_004405,assisted,0,lower,W Y[,W Y[,0,0,0
+general,general_unassigned_exploratory,all_004460,blind,0,upper,Q  J  P   N G,Q  J  P   N G,0,0,0
+general,general_unassigned_exploratory,all_004460,blind,0,count,pdkekembibjeb,pdkekembibjeb,0,0,0
+general,general_unassigned_exploratory,all_004460,blind,0,lower,U R   X],U R   X],0,0,0
+general,general_unassigned_exploratory,all_004460,blind,1,upper,I L,I L,0,0,0
+general,general_unassigned_exploratory,all_004460,blind,1,count,xbmb,xbmb,0,0,0
+general,general_unassigned_exploratory,all_004460,assisted,0,upper,Q  J  P   N G,Q  J  P   N G,0,0,0
+general,general_unassigned_exploratory,all_004460,assisted,0,count,pdkekembibjeb,pdkekembibjeb,0,0,0
+general,general_unassigned_exploratory,all_004460,assisted,0,lower,U R   X],U R   X],0,0,0
+general,general_unassigned_exploratory,all_004460,assisted,1,upper,I L,I L,0,0,0
+general,general_unassigned_exploratory,all_004460,assisted,1,count,xbmb,xbmb,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,0,upper,L PDQ,L PDQ,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,0,count,tabdca,tabdca,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,0,lower,[,[,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,1,upper,Q,Q,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,1,count,sdjeb,sdjeb,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,1,lower,_   ],_   ],0,0,0
+general,general_unassigned_exploratory,all_004497,blind,2,upper,M L PI G,M L PI G,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,2,count,pijccjhfaa,pijccjhfaa,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,2,lower,]V,]V,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,3,upper,AQ E J,AQ E J,0,0,0
+general,general_unassigned_exploratory,all_004497,blind,3,count,qkcjag,qkcjag,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,0,upper,L PDQ,L PDQ,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,0,count,tabdca,tabdca,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,0,lower,[,[,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,1,upper,Q,Q,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,1,count,sdjeb,sdjeb,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,1,lower,_   ],_   ],0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,2,upper,M L PI G,M L PI G,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,2,count,pijccjhfaa,pijccjhfaa,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,2,lower,]V,]V,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,3,upper,AQ E J,AQ E J,0,0,0
+general,general_unassigned_exploratory,all_004497,assisted,3,count,qkcjag,qkcjag,0,0,0
+general,general_unassigned_exploratory,all_004717,blind,0,upper,B,X,1,0,0
+general,general_unassigned_exploratory,all_004717,blind,0,count,pbai,pbai,0,0,0
+general,general_unassigned_exploratory,all_004717,blind,0,lower,Y  _,Y  _,0,0,0
+general,general_unassigned_exploratory,all_004717,assisted,0,upper,B,X,1,0,0
+general,general_unassigned_exploratory,all_004717,assisted,0,count,pbai,pbai,0,0,0
+general,general_unassigned_exploratory,all_004717,assisted,0,lower,Y  _,Y  _,0,0,0
+general,general_unassigned_exploratory,all_004799,blind,0,upper,G   N,G   N,0,0,0
+general,general_unassigned_exploratory,all_004799,blind,0,count,xdlejajbb,xdlejajbb,0,0,0
+general,general_unassigned_exploratory,all_004799,blind,0,lower,W   Z V,W   Z V,0,0,0
+general,general_unassigned_exploratory,all_004799,blind,1,upper,D G    K L,D G    K L,0,0,0
+general,general_unassigned_exploratory,all_004799,blind,1,count,ngsabeflahd,ngsabeflahd,0,0,0
+general,general_unassigned_exploratory,all_004799,blind,1,lower,YVR   R,YVR   R,0,0,0
+general,general_unassigned_exploratory,all_004799,assisted,0,upper,G   N,G   N,0,0,0
+general,general_unassigned_exploratory,all_004799,assisted,0,count,xdlejajbb,xdlejajbb,0,0,0
+general,general_unassigned_exploratory,all_004799,assisted,0,lower,W   Z V,W   Z V,0,0,0
+general,general_unassigned_exploratory,all_004799,assisted,1,upper,D G    K L,D G    K L,0,0,0
+general,general_unassigned_exploratory,all_004799,assisted,1,count,ngsabeflahd,ngsabeflahd,0,0,0
+general,general_unassigned_exploratory,all_004799,assisted,1,lower,YVR   R,YVR   R,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,0,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,0,count,lanai,lanai,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,0,lower,U   R,U   R,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,1,upper,K DQD  QP,K DQD  QP,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,1,count,jajcdlaicjbeba,jajcdlaicjbeba,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,1,lower,^ Z X      ],^ Z X      ],0,0,0
+general,general_unassigned_exploratory,all_004935,blind,2,upper,PF M CLN,PF M CLN,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,2,count,fnfjhceba,fnfjhceba,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,2,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,3,count,linb,linb,0,0,0
+general,general_unassigned_exploratory,all_004935,blind,3,lower,T U,T U,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,0,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,0,count,lanai,lanai,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,0,lower,U   R,U   R,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,1,upper,K DQD  QP,K DQD  QP,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,1,count,jajcdlaicjbeba,jajcdlaicjbeba,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,1,lower,^ Z X      ],^ Z X      ],0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,2,upper,PF M CLN,PF M CLN,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,2,count,fnfjhceba,fnfjhceba,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,2,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,3,count,linb,linb,0,0,0
+general,general_unassigned_exploratory,all_004935,assisted,3,lower,T U,T U,0,0,0
+general,general_unassigned_exploratory,all_005014,assisted,0,upper,A   B,A   B,0,0,0
+general,general_unassigned_exploratory,all_005014,assisted,0,count,tjija,tjija,0,0,0
+general,general_unassigned_exploratory,all_005014,assisted,0,lower,V T,V T,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,0,upper,J,J,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,0,count,thika,thika,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,0,lower,U  W,U  W,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,1,count,wfaa,wfaa,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,1,lower,_ VX,_ VX,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,2,upper,M  B L,M  B L,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,2,count,jilbqcacdae,jilbqcacdae,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,2,lower,U R   U _ W,U R   U _ W,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,3,upper,KA,KA,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,3,count,olekhckaa,olekhckaa,0,0,0
+general,general_unassigned_exploratory,all_005022,blind,3,lower,T W] [,T W] [,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,0,upper,J,J,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,0,count,thika,thika,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,0,lower,U  W,U  W,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,1,count,wfaa,wfaa,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,1,lower,_ VX,_ VX,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,2,upper,M  B L,M  B L,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,2,count,jilbqcacdae,jilbqcacdae,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,2,lower,U R   U _ W,U R   U _ W,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,3,upper,KA,KA,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,3,count,olekhckaa,olekhckaa,0,0,0
+general,general_unassigned_exploratory,all_005022,assisted,3,lower,T W] [,T W] [,0,0,0
+general,general_unassigned_exploratory,all_005053,blind,0,upper,L  JC,L  JC,0,0,0
+general,general_unassigned_exploratory,all_005053,blind,0,count,wicdaaa,wicdaaa,0,0,0
+general,general_unassigned_exploratory,all_005053,blind,0,lower,\  SY,\  SY,0,0,0
+general,general_unassigned_exploratory,all_005053,assisted,0,upper,L  JC,L  JC,0,0,0
+general,general_unassigned_exploratory,all_005053,assisted,0,count,wicdaaa,wicdaaa,0,0,0
+general,general_unassigned_exploratory,all_005053,assisted,0,lower,\  SY,\  SY,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,0,upper,E   E   Q,E   E   Q,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,0,count,zeefjhkhab,zeefjhkhab,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,0,lower,YV  [  W,YV  [  W,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,1,upper,F       G,F       G,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,1,count,nhmsajfjdcba,nhmsajfjdcba,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,1,lower,Z X  _ T US,Z X  _ T US,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,2,upper,D H   K  P Q,D H   K  P Q,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,2,count,sbohkakfjdca,sbohkakfjdca,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,2,lower,S   V _,S   V _,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,3,upper,C   N    M,C   N    M,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,3,count,nepildoaae,nepildoaae,0,0,0
+general,general_unassigned_exploratory,all_005079,blind,3,lower,T   U T,T   U T,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,0,upper,E   E   Q,E   E   Q,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,0,count,zeefjhkhab,zeefjhkhab,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,0,lower,YV  [  W,YV  [  W,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,1,upper,F       G,F       G,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,1,count,nhmsajfjdcba,nhmsajfjdcba,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,1,lower,Z X  _ T US,Z X  _ T US,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,2,upper,D H   K  P Q,D H   K  P Q,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,2,count,sbohkakfjdca,sbohkakfjdca,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,2,lower,S   V _,S   V _,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,3,upper,C   N    M,C   N    M,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,3,count,nepildoaae,nepildoaae,0,0,0
+general,general_unassigned_exploratory,all_005079,assisted,3,lower,T   U T,T   U T,0,0,0
+general,general_unassigned_exploratory,all_005203,blind,0,upper,P DQ F,P DQ F,0,0,0
+general,general_unassigned_exploratory,all_005203,blind,0,count,mlgcffh,mlgcffh,0,0,0
+general,general_unassigned_exploratory,all_005203,blind,0,lower,X    \,X    \,0,0,0
+general,general_unassigned_exploratory,all_005203,assisted,0,upper,P DQ F,P DQ F,0,0,0
+general,general_unassigned_exploratory,all_005203,assisted,0,count,mlgcffh,mlgcffh,0,0,0
+general,general_unassigned_exploratory,all_005203,assisted,0,lower,X    \,X    \,0,0,0
+general,general_unassigned_exploratory,all_005312,blind,0,upper,D      K F,D      K F,0,0,0
+general,general_unassigned_exploratory,all_005312,blind,0,count,wijejipgafaa,wijejipgafaa,0,0,0
+general,general_unassigned_exploratory,all_005312,blind,0,lower,T   _ ] Y R,T   _ ] Y R,0,0,0
+general,general_unassigned_exploratory,all_005312,blind,1,upper,C Q  J,C Q  J,0,0,0
+general,general_unassigned_exploratory,all_005312,blind,1,count,mwilblgja,mwilblgja,0,0,0
+general,general_unassigned_exploratory,all_005312,blind,1,lower,S    V ]S,S    V ]S,0,0,0
+general,general_unassigned_exploratory,all_005312,assisted,0,upper,D      K F,D      K F,0,0,0
+general,general_unassigned_exploratory,all_005312,assisted,0,count,wijejipgafaa,wijejipgafaa,0,0,0
+general,general_unassigned_exploratory,all_005312,assisted,0,lower,T   _ ] Y R,T   _ ] Y R,0,0,0
+general,general_unassigned_exploratory,all_005312,assisted,1,upper,C Q  J,C Q  J,0,0,0
+general,general_unassigned_exploratory,all_005312,assisted,1,count,mwilblgja,mwilblgja,0,0,0
+general,general_unassigned_exploratory,all_005312,assisted,1,lower,S    V ]S,S    V ]S,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,0,upper,I FD,I FD,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,0,count,)bia,)bia,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,1,upper,I  JG L      M,I  JG L      M,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,1,count,hlhlsbjejfdjed,hlhlsbjejfdjed,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,1,lower,Z      ^ RV,Z      ^ RV,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,2,upper,E,E,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,2,count,rfneecoeh,rfneecoeh,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,2,lower,T S ^W  _,T S ^W  _,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,3,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,3,count,ucrcjcaaa,ucrcjcaaa,0,0,0
+general,general_unassigned_exploratory,all_005385,blind,3,lower,^  [V ]_],^  [V ]_],0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,0,upper,I FD,I FD,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,0,count,)bia,)bia,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,1,upper,I  JG L      M,I  JG L      M,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,1,count,hlhlsbjejfdjed,hlhlsbjejfdjed,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,1,lower,Z      ^ RV,Z      ^ RV,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,2,upper,E,E,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,2,count,rfneecoeh,rfneecoeh,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,2,lower,T S ^W  _,T S ^W  _,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,3,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,3,count,ucrcjcaaa,ucrcjcaaa,0,0,0
+general,general_unassigned_exploratory,all_005385,assisted,3,lower,^  [V ]_],^  [V ]_],0,0,0
+general,general_unassigned_exploratory,all_005525,assisted,0,upper,B,X,1,0,0
+general,general_unassigned_exploratory,all_005525,assisted,0,count,sccg,sccg,0,0,0
+general,general_unassigned_exploratory,all_005525,assisted,0,lower,UX,UX,0,0,0
+general,general_unassigned_exploratory,all_005525,assisted,1,upper,C   G,C   G,0,0,0
+general,general_unassigned_exploratory,all_005525,assisted,1,count,jpfbkabaa,jpfbkabaa,0,0,0
+general,general_unassigned_exploratory,all_005525,assisted,1,lower,R_  S_\ ],R_  S_\ ],0,0,0
+general,general_unassigned_exploratory,all_005728,blind,0,upper,Q     M C,Q     M C,0,0,0
+general,general_unassigned_exploratory,all_005728,blind,0,count,mgodjckhidb,mgodjckhidb,0,0,0
+general,general_unassigned_exploratory,all_005728,blind,0,lower,S   _ X  R,S   _ X  R,0,0,0
+general,general_unassigned_exploratory,all_005728,assisted,0,upper,Q     M C,Q     M C,0,0,0
+general,general_unassigned_exploratory,all_005728,assisted,0,count,mgodjckhidb,mgodjckhidb,0,0,0
+general,general_unassigned_exploratory,all_005728,assisted,0,lower,S   _ X  R,S   _ X  R,0,0,0
+general,general_unassigned_exploratory,all_005731,blind,0,upper,I B,I B,0,0,0
+general,general_unassigned_exploratory,all_005731,blind,0,count,nbmggca,nbmggca,0,0,0
+general,general_unassigned_exploratory,all_005731,blind,0,lower,ZV   VT,ZV   VT,0,0,0
+general,general_unassigned_exploratory,all_005731,assisted,0,upper,I B,I B,0,0,0
+general,general_unassigned_exploratory,all_005731,assisted,0,count,nbmggca,nbmggca,0,0,0
+general,general_unassigned_exploratory,all_005731,assisted,0,lower,ZV   VT,ZV   VT,0,0,0
+general,general_unassigned_exploratory,all_005756,blind,0,upper,CLQ,CLQ,0,0,0
+general,general_unassigned_exploratory,all_005756,blind,0,count,pemnbkeba,pemnbkeba,0,0,0
+general,general_unassigned_exploratory,all_005756,blind,0,lower,_ UR \,_ UR \,0,0,0
+general,general_unassigned_exploratory,all_005756,blind,1,upper,N   P   FN H,N   P   FN H,0,0,0
+general,general_unassigned_exploratory,all_005756,blind,1,count,kfogkhkbbkhjeg,kfogkhkbbkhjeg,0,0,0
+general,general_unassigned_exploratory,all_005756,blind,1,lower,V   \      \,V   \      \,0,0,0
+general,general_unassigned_exploratory,all_005756,assisted,0,upper,CLQ,CLQ,0,0,0
+general,general_unassigned_exploratory,all_005756,assisted,0,count,pemnbkeba,pemnbkeba,0,0,0
+general,general_unassigned_exploratory,all_005756,assisted,0,lower,_ UR \,_ UR \,0,0,0
+general,general_unassigned_exploratory,all_005756,assisted,1,upper,N   P   FN H,N   P   FN H,0,0,0
+general,general_unassigned_exploratory,all_005756,assisted,1,count,kfogkhkbbkhjeg,kfogkhkbbkhjeg,0,0,0
+general,general_unassigned_exploratory,all_005756,assisted,1,lower,V   \      \,V   \      \,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,0,upper,L  P,L  P,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,0,count,wbjeejgajbia,wbjeejgajbia,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,0,lower,X [ _  T  ZR,X [ _  T  ZR,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,1,upper,B,X,1,0,0
+general,general_unassigned_exploratory,all_005823,blind,1,count,thamglf,thamglf,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,1,lower,[S [,[S [,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,2,upper,I,I,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,2,count,mgsnbba,mgsnbba,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,2,lower,X[ R],X[ R],0,0,0
+general,general_unassigned_exploratory,all_005823,blind,3,upper,A   AE,A   AE,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,3,count,sarabh,sarabh,0,0,0
+general,general_unassigned_exploratory,all_005823,blind,3,lower,^,^,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,0,upper,L  P,L  P,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,0,count,wbjeejgajbia,wbjeejgajbia,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,0,lower,X [ _  T  ZR,X [ _  T  ZR,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,1,upper,B,X,1,0,0
+general,general_unassigned_exploratory,all_005823,assisted,1,count,thamglf,thamglf,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,1,lower,[S [,[S [,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,2,upper,I,I,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,2,count,mgsnbba,mgsnbba,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,2,lower,X[ R],X[ R],0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,3,upper,A   AE,A   AE,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,3,count,sarabh,sarabh,0,0,0
+general,general_unassigned_exploratory,all_005823,assisted,3,lower,^,^,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,0,upper,I   Q,I   Q,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,0,count,",fbga",",fbga",0,0,0
+general,general_unassigned_exploratory,all_005937,blind,0,lower,^T,^T,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,1,upper,Q     K B    I,Q     K B    I,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,1,count,mejcngnfoejjhaa,mejcngnfoejjhaa,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,1,lower,W S     ^[  ],W S     ^[  ],0,0,0
+general,general_unassigned_exploratory,all_005937,blind,2,upper,QL  J,QL  J,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,2,count,|dmbkia,|dmbkia,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,2,lower,X   W,X   W,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,3,upper,K H D,K H D,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,3,count,zekineeb,zekineeb,0,0,0
+general,general_unassigned_exploratory,all_005937,blind,3,lower,W[,W[,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,0,upper,I   Q,I   Q,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,0,count,",fbga",",fbga",0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,0,lower,^T,^T,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,1,upper,Q     K B    I,Q     K B    I,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,1,count,mejcngnfoejjhaa,mejcngnfoejjhaa,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,1,lower,W S     ^[  ],W S     ^[  ],0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,2,upper,QL  J,QL  J,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,2,count,|dmbkia,|dmbkia,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,2,lower,X   W,X   W,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,3,upper,K H D,K H D,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,3,count,zekineeb,zekineeb,0,0,0
+general,general_unassigned_exploratory,all_005937,assisted,3,lower,W[,W[,0,0,0
+general,general_unassigned_exploratory,all_006041,blind,0,count,safd,safd,0,0,0
+general,general_unassigned_exploratory,all_006041,blind,0,lower,_ TR,_ TR,0,0,0
+general,general_unassigned_exploratory,all_006041,blind,1,upper,N FC P  I,N FC P  I,0,0,0
+general,general_unassigned_exploratory,all_006041,blind,1,count,bcinamacb,bcinamacb,0,0,0
+general,general_unassigned_exploratory,all_006041,blind,1,lower,U     _,U     _,0,0,0
+general,general_unassigned_exploratory,all_006041,assisted,0,count,safd,safd,0,0,0
+general,general_unassigned_exploratory,all_006041,assisted,0,lower,_ TR,_ TR,0,0,0
+general,general_unassigned_exploratory,all_006041,assisted,1,upper,N FC P  I,N FC P  I,0,0,0
+general,general_unassigned_exploratory,all_006041,assisted,1,count,bcinamacb,bcinamacb,0,0,0
+general,general_unassigned_exploratory,all_006041,assisted,1,lower,U     _,U     _,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,0,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,0,count,vhjgjba,vhjgjba,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,0,lower,_ Y ^,_ Y ^,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,1,upper,K   E,K   E,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,1,count,wijgaa,wijgaa,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,1,lower,Y  X,Y  X,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,2,upper,G D  M,G D  M,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,2,count,rcohfa,rcohfa,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,2,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,3,upper,D L,D L,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,3,count,nhmejclffia,nhmejclffia,0,0,0
+general,general_unassigned_exploratory,all_006078,blind,3,lower,R X     ]R],R X     ]R],0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,0,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,0,count,vhjgjba,vhjgjba,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,0,lower,_ Y ^,_ Y ^,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,1,upper,K   E,K   E,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,1,count,wijgaa,wijgaa,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,1,lower,Y  X,Y  X,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,2,upper,G D  M,G D  M,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,2,count,rcohfa,rcohfa,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,2,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,3,upper,D L,D L,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,3,count,nhmejclffia,nhmejclffia,0,0,0
+general,general_unassigned_exploratory,all_006078,assisted,3,lower,R X     ]R],R X     ]R],0,0,0
+general,general_unassigned_exploratory,all_006082,blind,0,upper,J  MEG,J  MEG,0,0,0
+general,general_unassigned_exploratory,all_006082,blind,0,count,wbjdheab,wbjdheab,0,0,0
+general,general_unassigned_exploratory,all_006082,blind,0,lower,U   V,U   V,0,0,0
+general,general_unassigned_exploratory,all_006082,assisted,0,upper,J  MEG,J  MEG,0,0,0
+general,general_unassigned_exploratory,all_006082,assisted,0,count,wbjdheab,wbjdheab,0,0,0
+general,general_unassigned_exploratory,all_006082,assisted,0,lower,U   V,U   V,0,0,0
+general,general_unassigned_exploratory,all_006193,blind,0,upper,P DP,P DP,0,0,0
+general,general_unassigned_exploratory,all_006193,blind,0,count,",cbdd",",cbdd",0,0,0
+general,general_unassigned_exploratory,all_006193,blind,0,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_006193,assisted,0,upper,P DP,P DP,0,0,0
+general,general_unassigned_exploratory,all_006193,assisted,0,count,",cbdd",",cbdd",0,0,0
+general,general_unassigned_exploratory,all_006193,assisted,0,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_006197,blind,0,upper,P Q,P Q,0,0,0
+general,general_unassigned_exploratory,all_006197,blind,0,count,",gcbe",",gcbe",0,0,0
+general,general_unassigned_exploratory,all_006197,blind,0,lower,ZV,ZV,0,0,0
+general,general_unassigned_exploratory,all_006197,blind,1,upper,L     PD,L     PD,0,0,0
+general,general_unassigned_exploratory,all_006197,blind,1,count,sgjfjenhpa,sgjfjenhpa,0,0,0
+general,general_unassigned_exploratory,all_006197,blind,1,lower,X   ^ Z,X   ^ Z,0,0,0
+general,general_unassigned_exploratory,all_006197,assisted,0,upper,P Q,P Q,0,0,0
+general,general_unassigned_exploratory,all_006197,assisted,0,count,",gcbe",",gcbe",0,0,0
+general,general_unassigned_exploratory,all_006197,assisted,0,lower,ZV,ZV,0,0,0
+general,general_unassigned_exploratory,all_006197,assisted,1,upper,L     PD,L     PD,0,0,0
+general,general_unassigned_exploratory,all_006197,assisted,1,count,sgjfjenhpa,sgjfjenhpa,0,0,0
+general,general_unassigned_exploratory,all_006197,assisted,1,lower,X   ^ Z,X   ^ Z,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,0,upper,LB  D,LB  D,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,0,count,maqcblabb,maqcblabb,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,0,lower,[ ]    R,[ ]    R,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,1,upper,J M FPIDE,J M FPIDE,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,1,count,vdjdcacea,vdjdcacea,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,2,upper,MG,MG,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,2,count,xhab,xhab,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,2,lower,U,U,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,3,upper,AF,AF,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,3,count,thjdkgaa,thjdkgaa,0,0,0
+general,general_unassigned_exploratory,all_006240,assisted,3,lower,Y T Y,Y T Y,0,0,0
+general,general_unassigned_exploratory,all_006334,blind,0,upper,B  QP BN,B  QP BN,0,0,0
+general,general_unassigned_exploratory,all_006334,blind,0,count,vegdjadd,vegdjadd,0,0,0
+general,general_unassigned_exploratory,all_006334,blind,0,lower,X,X,0,0,0
+general,general_unassigned_exploratory,all_006334,assisted,0,upper,B  QP BN,B  QP BN,0,0,0
+general,general_unassigned_exploratory,all_006334,assisted,0,count,vegdjadd,vegdjadd,0,0,0
+general,general_unassigned_exploratory,all_006334,assisted,0,lower,X,X,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,0,upper,K,K,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,0,count,qhjccjd,qhjccjd,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,0,lower,T X  Z,T X  Z,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,1,upper,A   CQ,A   CQ,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,1,count,rbkcaaa,rbkcaaa,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,1,lower,T   R,T   R,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,2,upper,C L,C L,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,2,count,sajcaba,sajcaba,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,2,lower,^    T],^    T],0,0,0
+general,general_unassigned_exploratory,all_006546,blind,3,upper,L  Q,L  Q,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,3,count,teba,teba,0,0,0
+general,general_unassigned_exploratory,all_006546,blind,3,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,0,upper,K,K,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,0,count,qhjccjd,qhjccjd,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,0,lower,T X  Z,T X  Z,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,1,upper,A   CQ,A   CQ,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,1,count,rbkcaaa,rbkcaaa,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,1,lower,T   R,T   R,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,2,upper,C L,C L,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,2,count,sajcaba,sajcaba,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,2,lower,^    T],^    T],0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,3,upper,L  Q,L  Q,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,3,count,teba,teba,0,0,0
+general,general_unassigned_exploratory,all_006546,assisted,3,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_006580,blind,0,upper,L I D,L I D,0,0,0
+general,general_unassigned_exploratory,all_006580,blind,0,count,ubrijhaaa,ubrijhaaa,0,0,0
+general,general_unassigned_exploratory,all_006580,blind,0,lower,Y W    _,Y W    _,0,0,0
+general,general_unassigned_exploratory,all_006580,assisted,0,upper,L I D,L I D,0,0,0
+general,general_unassigned_exploratory,all_006580,assisted,0,count,ubrijhaaa,ubrijhaaa,0,0,0
+general,general_unassigned_exploratory,all_006580,assisted,0,lower,Y W    _,Y W    _,0,0,0
+general,general_unassigned_exploratory,all_006599,blind,0,upper,QJP,QJP,0,0,0
+general,general_unassigned_exploratory,all_006599,blind,0,count,walejefaba,walejefaba,0,0,0
+general,general_unassigned_exploratory,all_006599,blind,0,lower,V ^ T Y,V ^ T Y,0,0,0
+general,general_unassigned_exploratory,all_006599,blind,1,upper,A H D,A H D,0,0,0
+general,general_unassigned_exploratory,all_006599,blind,1,count,wcnbada,wcnbada,0,0,0
+general,general_unassigned_exploratory,all_006599,blind,1,lower,^    \,^    \,0,0,0
+general,general_unassigned_exploratory,all_006599,assisted,0,upper,QJP,QJP,0,0,0
+general,general_unassigned_exploratory,all_006599,assisted,0,count,walejefaba,walejefaba,0,0,0
+general,general_unassigned_exploratory,all_006599,assisted,0,lower,V ^ T Y,V ^ T Y,0,0,0
+general,general_unassigned_exploratory,all_006599,assisted,1,upper,A H D,A H D,0,0,0
+general,general_unassigned_exploratory,all_006599,assisted,1,count,wcnbada,wcnbada,0,0,0
+general,general_unassigned_exploratory,all_006599,assisted,1,lower,^    \,^    \,0,0,0
+general,general_unassigned_exploratory,all_006635,blind,0,upper,E   BEF,E   BEF,0,0,0
+general,general_unassigned_exploratory,all_006635,blind,0,count,zgmgdgb,zgmgdgb,0,0,0
+general,general_unassigned_exploratory,all_006635,blind,0,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_006635,blind,1,upper,J  N,J  N,0,0,0
+general,general_unassigned_exploratory,all_006635,blind,1,count,'ckhea,'ckhea,0,0,0
+general,general_unassigned_exploratory,all_006635,blind,1,lower,X   W,X   W,0,0,0
+general,general_unassigned_exploratory,all_006635,assisted,0,upper,E   BEF,E   BEF,0,0,0
+general,general_unassigned_exploratory,all_006635,assisted,0,count,zgmgdgb,zgmgdgb,0,0,0
+general,general_unassigned_exploratory,all_006635,assisted,0,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_006635,assisted,1,upper,J  N,J  N,0,0,0
+general,general_unassigned_exploratory,all_006635,assisted,1,count,'ckhea,'ckhea,0,0,0
+general,general_unassigned_exploratory,all_006635,assisted,1,lower,X   W,X   W,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,0,upper,I    N  C,I    N  C,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,0,count,phlbfidcf,phlbfidcf,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,0,lower,X ^ \R,X ^ \R,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,1,upper,A     F,A     F,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,1,count,omckcjb,omckcjb,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,1,lower,X ] X,X ] X,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,2,upper,C,C,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,2,count,qhldjbbb,qhldjbbb,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,2,lower,W [ ]  [,W [ ]  [,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,3,upper,L,L,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,3,count,mfrb,mfrb,0,0,0
+general,general_unassigned_exploratory,all_006795,blind,3,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,0,upper,I    N  C,I    N  C,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,0,count,phlbfidcf,phlbfidcf,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,0,lower,X ^ \R,X ^ \R,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,1,upper,A     F,A     F,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,1,count,omckcjb,omckcjb,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,1,lower,X ] X,X ] X,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,2,upper,C,C,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,2,count,qhldjbbb,qhldjbbb,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,2,lower,W [ ]  [,W [ ]  [,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,3,upper,L,L,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,3,count,mfrb,mfrb,0,0,0
+general,general_unassigned_exploratory,all_006795,assisted,3,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,0,upper,G KMC IG BQDC,G KMC IG BQDC,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,0,count,{fcfkaigfdaab,{fcfkaigfdaab,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,0,lower,[,[,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,1,upper,PQ,PQ,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,1,count,tcsbla,tcsbla,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,1,lower,R ],R ],0,0,0
+general,general_unassigned_exploratory,all_006903,blind,2,upper,E   C   M,E   C   M,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,2,count,nwjdjkeaf,nwjdjkeaf,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,2,lower,V\  U\R,V\  U\R,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,3,upper,J B    C  K  NM BL,J B    C  K  NM BL,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,3,count,lhvakfbjdijgdaaaaa,lhvakfbjdijgdaaaaa,0,0,0
+general,general_unassigned_exploratory,all_006903,blind,3,lower,] V  X  S  [,] V  X  S  [,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,0,upper,G KMC IG BQDC,G KMC IG BQDC,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,0,count,{fcfkaigfdaab,{fcfkaigfdaab,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,0,lower,[,[,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,1,upper,PQ,PQ,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,1,count,tcsbla,tcsbla,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,1,lower,R ],R ],0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,2,upper,E   C   M,E   C   M,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,2,count,nwjdjkeaf,nwjdjkeaf,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,2,lower,V\  U\R,V\  U\R,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,3,upper,J B    C  K  NM BL,J B    C  K  NM BL,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,3,count,lhvakfbjdijgdaaaaa,lhvakfbjdijgdaaaaa,0,0,0
+general,general_unassigned_exploratory,all_006903,assisted,3,lower,] V  X  S  [,] V  X  S  [,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,0,upper,D B,D B,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,0,count,|hnceaa,|hnceaa,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,0,lower,T    _],T    _],0,0,0
+general,general_unassigned_exploratory,all_006915,blind,1,upper,M   A BG,M   A BG,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,1,count,vbkbrfag,vbkbrfag,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,1,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,2,upper,M   Q   LJK,M   Q   LJK,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,2,count,khrhtcibccaa,khrhtcibccaa,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,2,lower,]   VY   Y,]   VY   Y,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,3,upper,Q  B Q,Q  B Q,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,3,count,mbqjdsgje,mbqjdsgje,0,0,0
+general,general_unassigned_exploratory,all_006915,blind,3,lower,V    X,V    X,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,0,upper,D B,D B,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,0,count,|hnceaa,|hnceaa,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,0,lower,T    _],T    _],0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,1,upper,M   A BG,M   A BG,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,1,count,vbkbrfag,vbkbrfag,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,1,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,2,upper,M   Q   LJK,M   Q   LJK,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,2,count,khrhtcibccaa,khrhtcibccaa,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,2,lower,]   VY   Y,]   VY   Y,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,3,upper,Q  B Q,Q  B Q,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,3,count,mbqjdsgje,mbqjdsgje,0,0,0
+general,general_unassigned_exploratory,all_006915,assisted,3,lower,V    X,V    X,0,0,0
+general,general_unassigned_exploratory,all_006991,blind,0,upper,J P,J P,0,0,0
+general,general_unassigned_exploratory,all_006991,blind,0,count,jenagb,jenagb,0,0,0
+general,general_unassigned_exploratory,all_006991,blind,0,lower,^    W,^    W,0,0,0
+general,general_unassigned_exploratory,all_006991,assisted,0,upper,J P,J P,0,0,0
+general,general_unassigned_exploratory,all_006991,assisted,0,count,jenagb,jenagb,0,0,0
+general,general_unassigned_exploratory,all_006991,assisted,0,lower,^    W,^    W,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,0,upper,Q AK PI,Q AK PI,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,0,count,qjcmdlgbjchc,qjcmdlgbjchc,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,0,lower,^S _,^S _,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,1,upper,E,E,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,1,count,ugjbjbjclbd,ugjbjbjclbd,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,1,lower,_ Y   Y _ \,_ Y   Y _ \,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,2,upper,Q E   N M,Q E   N M,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,2,count,lhocqidcc,lhocqidcc,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,2,lower,T  \,T  \,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,3,upper,L C P,L C P,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,3,count,vgjekhjbec,vgjekhjbec,0,0,0
+general,general_unassigned_exploratory,all_007056,blind,3,lower,T Y      ^,T Y      ^,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,0,upper,Q AK PI,Q AK PI,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,0,count,qjcmdlgbjchc,qjcmdlgbjchc,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,0,lower,^S _,^S _,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,1,upper,E,E,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,1,count,ugjbjbjclbd,ugjbjbjclbd,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,1,lower,_ Y   Y _ \,_ Y   Y _ \,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,2,upper,Q E   N M,Q E   N M,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,2,count,lhocqidcc,lhocqidcc,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,2,lower,T  \,T  \,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,3,upper,L C P,L C P,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,3,count,vgjekhjbec,vgjekhjbec,0,0,0
+general,general_unassigned_exploratory,all_007056,assisted,3,lower,T Y      ^,T Y      ^,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,0,upper,F,F,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,0,count,xhkia,xhkia,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,0,lower,X [,X [,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,1,upper,ML    Q,ML    Q,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,1,count,hxckdba,hxckdba,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,1,lower,_ Y,_ Y,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,2,upper,B   A C M,B   A C M,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,2,count,takfmcbcc,takfmcbcc,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,2,lower,T    T,T    T,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,3,upper,C I J,C I J,0,0,0
+general,general_unassigned_exploratory,all_007134,blind,3,count,mgvhc,mgvhc,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,0,upper,F,F,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,0,count,xhkia,xhkia,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,0,lower,X [,X [,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,1,upper,ML    Q,ML    Q,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,1,count,hxckdba,hxckdba,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,1,lower,_ Y,_ Y,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,2,upper,B   A C M,B   A C M,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,2,count,takfmcbcc,takfmcbcc,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,2,lower,T    T,T    T,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,3,upper,C I J,C I J,0,0,0
+general,general_unassigned_exploratory,all_007134,assisted,3,count,mgvhc,mgvhc,0,0,0
+general,general_unassigned_exploratory,all_007259,blind,0,upper,I   P   AD,I   P   AD,0,0,0
+general,general_unassigned_exploratory,all_007259,blind,0,count,kdjglafbaaaa,kdjglafbaaaa,0,0,0
+general,general_unassigned_exploratory,all_007259,blind,0,lower,S   [^  TZ,S   [^  TZ,0,0,0
+general,general_unassigned_exploratory,all_007259,blind,1,upper,F K   G J,F K   G J,0,0,0
+general,general_unassigned_exploratory,all_007259,blind,1,count,jdldkaibd,jdldkaibd,0,0,0
+general,general_unassigned_exploratory,all_007259,blind,1,lower,\  R,\  R,0,0,0
+general,general_unassigned_exploratory,all_007259,assisted,0,upper,I   P   AD,I   P   AD,0,0,0
+general,general_unassigned_exploratory,all_007259,assisted,0,count,kdjglafbaaaa,kdjglafbaaaa,0,0,0
+general,general_unassigned_exploratory,all_007259,assisted,0,lower,S   [^  TZ,S   [^  TZ,0,0,0
+general,general_unassigned_exploratory,all_007259,assisted,1,upper,F K   G J,F K   G J,0,0,0
+general,general_unassigned_exploratory,all_007259,assisted,1,count,jdldkaibd,jdldkaibd,0,0,0
+general,general_unassigned_exploratory,all_007259,assisted,1,lower,\  R,\  R,0,0,0
+general,general_unassigned_exploratory,all_007394,blind,0,upper,N   PB,N   PB,0,0,0
+general,general_unassigned_exploratory,all_007394,blind,0,count,xikeda,xikeda,0,0,0
+general,general_unassigned_exploratory,all_007394,blind,0,lower,W,W,0,0,0
+general,general_unassigned_exploratory,all_007394,blind,1,upper,P L    D,P L    D,0,0,0
+general,general_unassigned_exploratory,all_007394,blind,1,count,tjbmdjiaba,tjbmdjiaba,0,0,0
+general,general_unassigned_exploratory,all_007394,blind,1,lower,W    _ \ ^,W    _ \ ^,0,0,0
+general,general_unassigned_exploratory,all_007394,assisted,0,upper,N   PB,N   PB,0,0,0
+general,general_unassigned_exploratory,all_007394,assisted,0,count,xikeda,xikeda,0,0,0
+general,general_unassigned_exploratory,all_007394,assisted,0,lower,W,W,0,0,0
+general,general_unassigned_exploratory,all_007394,assisted,1,upper,P L    D,P L    D,0,0,0
+general,general_unassigned_exploratory,all_007394,assisted,1,count,tjbmdjiaba,tjbmdjiaba,0,0,0
+general,general_unassigned_exploratory,all_007394,assisted,1,lower,W    _ \ ^,W    _ \ ^,0,0,0
+general,general_unassigned_exploratory,all_007409,assisted,0,upper,N E,N E,0,0,0
+general,general_unassigned_exploratory,all_007409,assisted,0,count,zdagb,zdagb,0,0,0
+general,general_unassigned_exploratory,all_007409,assisted,0,lower,W  Z,W  Z,0,0,0
+general,general_unassigned_exploratory,all_007409,assisted,1,upper,N Q,N Q,0,0,0
+general,general_unassigned_exploratory,all_007409,assisted,1,count,hting,hting,0,0,0
+general,general_unassigned_exploratory,all_007409,assisted,1,lower,U,U,0,0,0
+general,general_unassigned_exploratory,all_007752,blind,0,upper,Q G E B,Q G E B,0,0,0
+general,general_unassigned_exploratory,all_007752,blind,0,count,",hkekfndje",",hkekfndje",0,0,0
+general,general_unassigned_exploratory,all_007752,blind,0,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_007752,blind,1,upper,K FB LPB B,K FB LPB B,0,0,0
+general,general_unassigned_exploratory,all_007752,blind,1,count,"pf,fjhdjbbbdbb","pf,fjhdjbbbdbb",0,0,0
+general,general_unassigned_exploratory,all_007752,blind,1,lower,U _         T,U _        T,0,1,0
+general,general_unassigned_exploratory,all_007752,blind,2,upper,Q B F PNGH,Q B F PNGH,0,0,0
+general,general_unassigned_exploratory,all_007752,blind,2,count,(elalfoldaa,(elalfoldaa,0,0,0
+general,general_unassigned_exploratory,all_007752,blind,2,lower,[,[,0,0,0
+general,general_unassigned_exploratory,all_007752,blind,3,upper,K HIBJ,K HIBJ,0,0,0
+general,general_unassigned_exploratory,all_007752,blind,3,count,kczcyhceea,kczcyhceea,0,0,0
+general,general_unassigned_exploratory,all_007752,blind,3,lower,_ Z,_ Z,0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,0,upper,Q G E B,Q G E B,0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,0,count,",hkekfndje",",hkekfndje",0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,0,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,1,upper,K FB LPB B,K FB LPB B,0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,1,count,"pf,fjhdjbbbdbb","pf,fjhdjbbbdbb",0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,1,lower,U _         T,U _        T,0,1,0
+general,general_unassigned_exploratory,all_007752,assisted,2,upper,Q B F PNGH,Q B F PNGH,0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,2,count,(elalfoldaa,(elalfoldaa,0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,2,lower,[,[,0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,3,upper,K HIBJ,K HIBJ,0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,3,count,kczcyhceea,kczcyhceea,0,0,0
+general,general_unassigned_exploratory,all_007752,assisted,3,lower,_ Z,_ Z,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,0,upper,A M,A M,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,0,count,kia,kia,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,0,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,1,upper,JH,JH,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,1,count,jgadce,jgadce,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,1,lower,Y   V\,Y   V\,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,2,upper,F G,F G,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,2,count,gjcbbae,gjcbbae,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,2,lower,WV  X R,WV  X R,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,3,upper,B,X,1,0,0
+general,general_unassigned_exploratory,all_007773,blind,3,count,bkga,bkga,0,0,0
+general,general_unassigned_exploratory,all_007773,blind,3,lower,XZR,XZR,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,0,upper,A M,A M,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,0,count,kia,kia,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,0,lower,_,_,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,1,upper,JH,JH,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,1,count,jgadce,jgadce,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,1,lower,Y   V\,Y   V\,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,2,upper,F G,F G,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,2,count,gjcbbae,gjcbbae,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,2,lower,WV  X R,WV  X R,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,3,upper,B,X,1,0,0
+general,general_unassigned_exploratory,all_007773,assisted,3,count,bkga,bkga,0,0,0
+general,general_unassigned_exploratory,all_007773,assisted,3,lower,XZR,XZR,0,0,0
+general,general_unassigned_exploratory,all_007784,blind,0,upper,K Q FH,K Q FH,0,0,0
+general,general_unassigned_exploratory,all_007784,blind,0,count,lalenikdaa,lalenikdaa,0,0,0
+general,general_unassigned_exploratory,all_007784,blind,0,lower,R [,R [,0,0,0
+general,general_unassigned_exploratory,all_007784,blind,1,upper,EIAF,EIAF,0,0,0
+general,general_unassigned_exploratory,all_007784,blind,1,count,laqbkjh,laqbkjh,0,0,0
+general,general_unassigned_exploratory,all_007784,blind,1,lower,Y     [,Y     [,0,0,0
+general,general_unassigned_exploratory,all_007784,assisted,0,upper,K Q FH,K Q FH,0,0,0
+general,general_unassigned_exploratory,all_007784,assisted,0,count,lalenikdaa,lalenikdaa,0,0,0
+general,general_unassigned_exploratory,all_007784,assisted,0,lower,R [,R [,0,0,0
+general,general_unassigned_exploratory,all_007784,assisted,1,upper,EIAF,EIAF,0,0,0
+general,general_unassigned_exploratory,all_007784,assisted,1,count,laqbkjh,laqbkjh,0,0,0
+general,general_unassigned_exploratory,all_007784,assisted,1,lower,Y     [,Y     [,0,0,0
+general,general_unassigned_exploratory,all_007844,blind,0,upper,Q LB,Q LB,0,0,0
+general,general_unassigned_exploratory,all_007844,blind,0,count,ratdcc,ratdcc,0,0,0
+general,general_unassigned_exploratory,all_007844,blind,0,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_007844,blind,1,upper,B G C      K,B G C      K,0,0,0
+general,general_unassigned_exploratory,all_007844,blind,1,count,jaqaofkijaceda,jaqaofkijaceda,0,0,0
+general,general_unassigned_exploratory,all_007844,blind,1,lower,^ ] [ ^S,^ ] [ ^S,0,0,0
+general,general_unassigned_exploratory,all_007844,assisted,0,upper,Q LB,Q LB,0,0,0
+general,general_unassigned_exploratory,all_007844,assisted,0,count,ratdcc,ratdcc,0,0,0
+general,general_unassigned_exploratory,all_007844,assisted,0,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_007844,assisted,1,upper,B G C      K,B G C      K,0,0,0
+general,general_unassigned_exploratory,all_007844,assisted,1,count,jaqaofkijaceda,jaqaofkijaceda,0,0,0
+general,general_unassigned_exploratory,all_007844,assisted,1,lower,^ ] [ ^S,^ ] [ ^S,0,0,0
+general,general_unassigned_exploratory,all_008107,blind,0,upper,I   L,I   L,0,0,0
+general,general_unassigned_exploratory,all_008107,blind,0,count,remcicda,remcicda,0,0,0
+general,general_unassigned_exploratory,all_008107,blind,0,lower,Z   ^X S,Z   ^X S,0,0,0
+general,general_unassigned_exploratory,all_008107,assisted,0,upper,I   L,I   L,0,0,0
+general,general_unassigned_exploratory,all_008107,assisted,0,count,remcicda,remcicda,0,0,0
+general,general_unassigned_exploratory,all_008107,assisted,0,lower,Z   ^X S,Z   ^X S,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,0,upper,F D C,F D C,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,0,count,",ckaea",",ckaea",0,0,0
+general,general_unassigned_exploratory,all_008262,blind,0,lower,X   _,X   _,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,1,count,ybtfaa,ybtfaa,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,1,lower,T S [^,T S [^,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,2,upper,G MJ  I,G MJ  I,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,2,count,raaugoa,raaugoa,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,2,lower,R,R,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,3,upper,N    D,N    D,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,3,count,yhsbia,yhsbia,0,0,0
+general,general_unassigned_exploratory,all_008262,blind,3,lower,R Z,R Z,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,0,upper,F D C,F D C,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,0,count,",ckaea",",ckaea",0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,0,lower,X   _,X   _,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,1,count,ybtfaa,ybtfaa,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,1,lower,T S [^,T S [^,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,2,upper,G MJ  I,G MJ  I,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,2,count,raaugoa,raaugoa,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,2,lower,R,R,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,3,upper,N    D,N    D,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,3,count,yhsbia,yhsbia,0,0,0
+general,general_unassigned_exploratory,all_008262,assisted,3,lower,R Z,R Z,0,0,0
+general,general_unassigned_exploratory,all_008497,blind,0,count,)fj,)fj,0,0,0
+general,general_unassigned_exploratory,all_008497,blind,0,lower,^ T,^ T,0,0,0
+general,general_unassigned_exploratory,all_008497,assisted,0,count,)fj,)fj,0,0,0
+general,general_unassigned_exploratory,all_008497,assisted,0,lower,^ T,^ T,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,0,upper,E    FM,E    FM,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,0,count,wflpecjaa,wflpecjaa,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,0,lower,[R   V\,[R   V\,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,1,upper,P DE J    Q,P DE J    Q,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,1,count,ycckbdnbjfdb,ycckbdnbjfdb,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,1,lower,W R  V,W R  V,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,2,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,2,count,udthjajab,udthjajab,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,2,lower,_ [ Z   R,_ [ Z   R,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,3,upper,P NL  N,P NL  N,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,3,count,tgrfemfaa,tgrfemfaa,0,0,0
+general,general_unassigned_exploratory,all_008676,blind,3,lower,R      R,R      R,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,0,upper,E    FM,E    FM,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,0,count,wflpecjaa,wflpecjaa,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,0,lower,[R   V\,[R   V\,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,1,upper,P DE J    Q,P DE J    Q,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,1,count,ycckbdnbjfdb,ycckbdnbjfdb,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,1,lower,W R  V,W R  V,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,2,upper,G,G,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,2,count,udthjajab,udthjajab,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,2,lower,_ [ Z   R,_ [ Z   R,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,3,upper,P NL  N,P NL  N,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,3,count,tgrfemfaa,tgrfemfaa,0,0,0
+general,general_unassigned_exploratory,all_008676,assisted,3,lower,R      R,R      R,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,0,upper,CB FD,CB FD,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,0,count,",abaaabaaa",",abaaabaaa",0,0,0
+general,general_unassigned_exploratory,all_008781,blind,0,lower,V _[]  ],V _[]  ],0,0,0
+general,general_unassigned_exploratory,all_008781,blind,1,upper,G Q,G Q,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,1,count,*hjgea,*hjgea,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,1,lower,S[,S[,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,2,upper,A F K    C,A F K    C,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,2,count,nlgocqgjida,nlgocqgjida,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,2,lower,^      X ^,^      X ^,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,3,upper,I  QDQ,I  QDQ,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,3,count,xgribc,xgribc,0,0,0
+general,general_unassigned_exploratory,all_008781,blind,3,lower,S,S,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,0,upper,CB FD,CB FD,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,0,count,",abaaabaaa",",abaaabaaa",0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,0,lower,V _[]  ],V _[]  ],0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,1,upper,G Q,G Q,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,1,count,*hjgea,*hjgea,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,1,lower,S[,S[,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,2,upper,A F K    C,A F K    C,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,2,count,nlgocqgjida,nlgocqgjida,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,2,lower,^      X ^,^      X ^,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,3,upper,I  QDQ,I  QDQ,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,3,count,xgribc,xgribc,0,0,0
+general,general_unassigned_exploratory,all_008781,assisted,3,lower,S,S,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,0,upper,A   C  HEG,A   C  HEG,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,0,count,lgjcjaaaca,lgjcjaaaca,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,0,lower,R   Y,R   Y,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,1,upper,K,K,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,1,count,jfmdfa,jfmdfa,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,1,lower,V   WT,V   WT,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,2,upper,J,J,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,2,count,nhfc,nhfc,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,2,lower,R\,R\,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,3,upper,P      E,P      E,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,3,count,jijdkbic,jijdkbic,0,0,0
+general,general_unassigned_exploratory,all_008826,blind,3,lower,T Z T,T Z T,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,0,upper,A   C  HEG,A   C  HEG,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,0,count,lgjcjaaaca,lgjcjaaaca,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,0,lower,R   Y,R   Y,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,1,upper,K,K,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,1,count,jfmdfa,jfmdfa,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,1,lower,V   WT,V   WT,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,2,upper,J,J,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,2,count,nhfc,nhfc,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,2,lower,R\,R\,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,3,upper,P      E,P      E,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,3,count,jijdkbic,jijdkbic,0,0,0
+general,general_unassigned_exploratory,all_008826,assisted,3,lower,T Z T,T Z T,0,0,0
+general,general_unassigned_exploratory,all_008966,blind,0,upper,F L,F L,0,0,0
+general,general_unassigned_exploratory,all_008966,blind,0,count,zgika,zgika,0,0,0
+general,general_unassigned_exploratory,all_008966,blind,0,lower,XY,XY,0,0,0
+general,general_unassigned_exploratory,all_008966,blind,1,upper,H     G  NA,H     G  NA,0,0,0
+general,general_unassigned_exploratory,all_008966,blind,1,count,mamfjbrfecd,mamfjbrfecd,0,0,0
+general,general_unassigned_exploratory,all_008966,blind,1,lower,W T   ^,W T   ^,0,0,0
+general,general_unassigned_exploratory,all_008966,assisted,0,upper,F L,F L,0,0,0
+general,general_unassigned_exploratory,all_008966,assisted,0,count,zgika,zgika,0,0,0
+general,general_unassigned_exploratory,all_008966,assisted,0,lower,XY,XY,0,0,0
+general,general_unassigned_exploratory,all_008966,assisted,1,upper,H     G  NA,H     G  NA,0,0,0
+general,general_unassigned_exploratory,all_008966,assisted,1,count,mamfjbrfecd,mamfjbrfecd,0,0,0
+general,general_unassigned_exploratory,all_008966,assisted,1,lower,W T   ^,W T   ^,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,0,upper,A   E D,A   E D,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,0,count,vblfqbb,vblfqbb,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,0,lower,S,S,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,1,upper,F   G   I JK,F   G   I JK,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,1,count,lijgpdqhkacj,lijgpdqhkacj,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,1,lower,X   V,X   V,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,2,upper,AB,AB,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,2,count,)hkd,)hkd,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,2,lower,W,W,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,3,upper,FIFP NP,FIFP NP,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,3,count,xdobhjfhca,xdobhjfhca,0,0,0
+general,general_unassigned_exploratory,all_009180,assisted,3,lower,U        W,U        W,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,0,upper,H C N,H C N,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,0,count,wgdmjcab,wgdmjcab,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,0,lower,R  _[,R  _[,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,1,upper,I     G,I     G,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,1,count,mgpehojfa,mgpehojfa,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,1,lower,[ S]  [,[ S]  [,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,2,upper,L E,L E,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,2,count,mdrdoi,mdrdoi,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,2,lower,_    W,_    W,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,3,upper,H M     E,H M     E,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,3,count,xdjijgjdc,xdjijgjdc,0,0,0
+general,general_unassigned_exploratory,all_009195,blind,3,lower,X_ W,X_ W,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,0,upper,H C N,H C N,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,0,count,wgdmjcab,wgdmjcab,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,0,lower,R  _[,R  _[,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,1,upper,I     G,I     G,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,1,count,mgpehojfa,mgpehojfa,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,1,lower,[ S]  [,[ S]  [,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,2,upper,L E,L E,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,2,count,mdrdoi,mdrdoi,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,2,lower,_    W,_    W,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,3,upper,H M     E,H M     E,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,3,count,xdjijgjdc,xdjijgjdc,0,0,0
+general,general_unassigned_exploratory,all_009195,assisted,3,lower,X_ W,X_ W,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,0,upper,GN,GN,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,0,count,rhccd,rhccd,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,0,lower,\ T,\ T,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,1,upper,N  EN,N  EN,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,1,count,rfgad,rfgad,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,1,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,2,upper,D  L,D  L,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,2,count,cmaod,cmaod,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,2,lower,S  Z,S  Z,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,3,upper,P  E DA KHI,P  E DA KHI,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,3,count,mghjggjiead,mghjggjiead,0,0,0
+general,general_unassigned_exploratory,all_009405,blind,3,lower,R,R,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,0,upper,GN,GN,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,0,count,rhccd,rhccd,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,0,lower,\ T,\ T,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,1,upper,N  EN,N  EN,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,1,count,rfgad,rfgad,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,1,lower,\,\,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,2,upper,D  L,D  L,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,2,count,cmaod,cmaod,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,2,lower,S  Z,S  Z,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,3,upper,P  E DA KHI,P  E DA KHI,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,3,count,mghjggjiead,mghjggjiead,0,0,0
+general,general_unassigned_exploratory,all_009405,assisted,3,lower,R,R,0,0,0
+general,general_unassigned_exploratory,all_009470,blind,0,upper,E,E,0,0,0
+general,general_unassigned_exploratory,all_009470,blind,0,count,ycjajfc,ycjajfc,0,0,0
+general,general_unassigned_exploratory,all_009470,blind,0,lower,\   ^ U,\   ^ U,0,0,0
+general,general_unassigned_exploratory,all_009470,blind,1,upper,C,C,0,0,0
+general,general_unassigned_exploratory,all_009470,blind,1,count,zegib,zegib,0,0,0
+general,general_unassigned_exploratory,all_009470,blind,1,lower,URS,URS,0,0,0
+general,general_unassigned_exploratory,all_009470,assisted,0,upper,E,E,0,0,0
+general,general_unassigned_exploratory,all_009470,assisted,0,count,ycjajfc,ycjajfc,0,0,0
+general,general_unassigned_exploratory,all_009470,assisted,0,lower,\   ^ U,\   ^ U,0,0,0
+general,general_unassigned_exploratory,all_009470,assisted,1,upper,C,C,0,0,0
+general,general_unassigned_exploratory,all_009470,assisted,1,count,zegib,zegib,0,0,0
+general,general_unassigned_exploratory,all_009470,assisted,1,lower,URS,URS,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,0,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,0,count,zee,zee,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,0,lower,R\,R\,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,1,upper,F PAGI,F PAGI,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,1,count,bxhgffa,bxhgffa,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,1,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,2,upper,L F  J  E  L,L F  J  E  L,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,2,count,pfodhjjfacaa,pfodhjjfacaa,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,2,lower,[ R  \Z,[ R  \Z,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,3,upper,C E G,C E G,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,3,count,naudcaa,naudcaa,0,0,0
+general,general_unassigned_exploratory,all_009477,blind,3,lower,SU,SU,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,0,upper,N,N,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,0,count,zee,zee,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,0,lower,R\,R\,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,1,upper,F PAGI,F PAGI,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,1,count,bxhgffa,bxhgffa,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,1,lower,V,V,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,2,upper,L F  J  E  L,L F  J  E  L,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,2,count,pfodhjjfacaa,pfodhjjfacaa,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,2,lower,[ R  \Z,[ R  \Z,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,3,upper,C E G,C E G,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,3,count,naudcaa,naudcaa,0,0,0
+general,general_unassigned_exploratory,all_009477,assisted,3,lower,SU,SU,0,0,0
+general,general_unassigned_exploratory,all_009625,blind,0,upper,I KP,I KP,0,0,0
+general,general_unassigned_exploratory,all_009625,blind,0,count,niai,niai,0,0,0
+general,general_unassigned_exploratory,all_009625,assisted,0,upper,I KP,I KP,0,0,0
+general,general_unassigned_exploratory,all_009625,assisted,0,count,niai,niai,0,0,0
+general,general_unassigned_exploratory,all_009784,blind,0,upper,H       LQ,H       LQ,0,0,0
+general,general_unassigned_exploratory,all_009784,blind,0,count,(hjdpfkgba,(hjdpfkgba,0,0,0
+general,general_unassigned_exploratory,all_009784,blind,0,lower,^ S U,^ S U,0,0,0
+general,general_unassigned_exploratory,all_009784,assisted,0,upper,H       LQ,H       LQ,0,0,0
+general,general_unassigned_exploratory,all_009784,assisted,0,count,(hjdpfkgba,(hjdpfkgba,0,0,0
+general,general_unassigned_exploratory,all_009784,assisted,0,lower,^ S U,^ S U,0,0,0
+general,general_unassigned_exploratory,all_009851,blind,0,upper,C     G,C     G,0,0,0
+general,general_unassigned_exploratory,all_009851,blind,0,count,kfjfkdfie,kfjfkdfie,0,0,0
+general,general_unassigned_exploratory,all_009851,blind,0,lower,V ]  WT,V ]  WT,0,0,0
+general,general_unassigned_exploratory,all_009851,blind,1,upper,AD A KC,AD A KC,0,0,0
+general,general_unassigned_exploratory,all_009851,blind,1,count,djdodbb,djdodbb,0,0,0
+general,general_unassigned_exploratory,all_009851,assisted,0,upper,C     G,C     G,0,0,0
+general,general_unassigned_exploratory,all_009851,assisted,0,count,kfjfkdfie,kfjfkdfie,0,0,0
+general,general_unassigned_exploratory,all_009851,assisted,0,lower,V ]  WT,V ]  WT,0,0,0
+general,general_unassigned_exploratory,all_009851,assisted,1,upper,AD A KC,AD A KC,0,0,0
+general,general_unassigned_exploratory,all_009851,assisted,1,count,djdodbb,djdodbb,0,0,0
+positive,positive_frozen_test,edge_00011,blind,0,count,jb,jb,0,0,0
+positive,positive_frozen_test,edge_00011,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00011,assisted,0,count,jb,jb,0,0,0
+positive,positive_frozen_test,edge_00011,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00028,blind,0,count,ma,ma,0,0,0
+positive,positive_frozen_test,edge_00028,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00028,assisted,0,count,ma,ma,0,0,0
+positive,positive_frozen_test,edge_00028,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00032,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00032,assisted,0,count,na,na,0,0,0
+positive,positive_frozen_test,edge_00033,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00033,assisted,0,count,nb,nb,0,0,0
+positive,positive_frozen_test,edge_00044,blind,0,count,p,p,0,0,0
+positive,positive_frozen_test,edge_00044,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00044,assisted,0,count,p,p,0,0,0
+positive,positive_frozen_test,edge_00044,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00048,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00048,assisted,0,count,pi,pi,0,0,0
+positive,positive_frozen_test,edge_00051,blind,0,count,q,q,0,0,0
+positive,positive_frozen_test,edge_00051,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00051,assisted,0,count,q,q,0,0,0
+positive,positive_frozen_test,edge_00051,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00055,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00055,assisted,0,count,qb,qb,0,0,0
+positive,positive_frozen_test,edge_00070,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00070,assisted,0,count,as,as,0,0,0
+positive,positive_frozen_test,edge_00070,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00071,blind,0,count,sa,sa,0,0,0
+positive,positive_frozen_test,edge_00071,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00071,assisted,0,count,sa,sa,0,0,0
+positive,positive_frozen_test,edge_00071,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00075,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00075,assisted,0,count,si,si,0,0,0
+positive,positive_frozen_test,edge_00090,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00090,assisted,0,count,ua,ua,0,0,0
+positive,positive_frozen_test,edge_00093,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00093,assisted,0,count,ub,ub,0,0,0
+positive,positive_frozen_test,edge_00094,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00094,assisted,0,count,aub,aub,0,0,0
+positive,positive_frozen_test,edge_00094,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00096,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00096,assisted,0,count,aub,aub,0,0,0
+positive,positive_frozen_test,edge_00096,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00102,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00102,assisted,0,count,av,av,0,0,0
+positive,positive_frozen_test,edge_00102,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00104,blind,0,count,va,va,0,0,0
+positive,positive_frozen_test,edge_00104,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00104,assisted,0,count,va,va,0,0,0
+positive,positive_frozen_test,edge_00104,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00106,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00106,assisted,0,count,vb,vb,0,0,0
+positive,positive_frozen_test,edge_00108,blind,0,count,vb,vb,0,0,0
+positive,positive_frozen_test,edge_00108,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00108,assisted,0,count,vb,vb,0,0,0
+positive,positive_frozen_test,edge_00108,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00116,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00116,assisted,0,count,aw,aw,0,0,0
+positive,positive_frozen_test,edge_00116,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00120,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00120,assisted,0,count,wb,wb,0,0,0
+positive,positive_frozen_test,edge_00135,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00135,assisted,0,count,axb,axb,0,0,0
+positive,positive_frozen_test,edge_00135,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00137,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00137,assisted,0,count,axb,axb,0,0,0
+positive,positive_frozen_test,edge_00137,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00151,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00151,assisted,0,count,ayb,ayb,0,0,0
+positive,positive_frozen_test,edge_00151,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00155,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00155,assisted,0,count,z,z,0,0,0
+positive,positive_frozen_test,edge_00160,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00160,assisted,0,count,aza,aza,0,0,0
+positive,positive_frozen_test,edge_00160,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00164,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00164,assisted,0,count,azb,azb,0,0,0
+positive,positive_frozen_test,edge_00164,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00172,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00172,assisted,0,count,a{a,a{a,0,0,0
+positive,positive_frozen_test,edge_00172,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00178,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00178,assisted,0,count,{i,{i,0,0,0
+positive,positive_frozen_test,edge_00184,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00184,assisted,0,count,a|,a|,0,0,0
+positive,positive_frozen_test,edge_00184,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00199,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00199,assisted,0,count,'a,'a,0,0,0
+positive,positive_frozen_test,edge_00200,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00200,assisted,0,count,a'a,a'a,0,0,0
+positive,positive_frozen_test,edge_00200,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00201,blind,0,count,'a,'a,0,0,0
+positive,positive_frozen_test,edge_00201,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00201,assisted,0,count,'a,'a,0,0,0
+positive,positive_frozen_test,edge_00201,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00225,blind,0,count,(i,(i,0,0,0
+positive,positive_frozen_test,edge_00225,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00225,assisted,0,count,(i,(i,0,0,0
+positive,positive_frozen_test,edge_00225,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00227,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00227,assisted,0,count,),),0,0,0
+positive,positive_frozen_test,edge_00240,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00240,assisted,0,count,)i,)i,0,0,0
+positive,positive_frozen_test,edge_00251,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00251,assisted,0,count,a*a,a*a,0,0,0
+positive,positive_frozen_test,edge_00251,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00257,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00257,assisted,0,count,*i,*i,0,0,0
+positive,positive_frozen_test,edge_00259,blind,0,count,*i,*i,0,0,0
+positive,positive_frozen_test,edge_00259,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00259,assisted,0,count,*i,*i,0,0,0
+positive,positive_frozen_test,edge_00259,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00264,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00264,assisted,0,count,a+,a+,0,0,0
+positive,positive_frozen_test,edge_00264,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00265,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00265,assisted,0,count,+a,+a,0,0,0
+positive,positive_frozen_test,edge_00275,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00275,assisted,0,count,a+i,a+i,0,0,0
+positive,positive_frozen_test,edge_00275,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00283,assisted,0,upper,A,A,0,0,0
+positive,positive_frozen_test,edge_00283,assisted,0,count,"a,a","a,a",0,0,0
+positive,positive_frozen_test,edge_00283,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00288,blind,0,count,",b",",b",0,0,0
+positive,positive_frozen_test,edge_00288,blind,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00288,assisted,0,count,",b",",b",0,0,0
+positive,positive_frozen_test,edge_00288,assisted,0,lower,R,R,0,0,0
+positive,positive_frozen_test,edge_00300,assisted,0,upper,H,H,0,0,0
+positive,positive_frozen_test,edge_00300,assisted,0,count,a,a,0,0,0
+positive,positive_frozen_test,edge_00302,blind,0,upper,J,J,0,0,0
+positive,positive_frozen_test,edge_00302,blind,0,count,a,a,0,0,0
+positive,positive_frozen_test,edge_00302,assisted,0,upper,J,J,0,0,0
+positive,positive_frozen_test,edge_00302,assisted,0,count,a,a,0,0,0
+positive,positive_frozen_test,edge_00304,blind,0,upper,L,L,0,0,0
+positive,positive_frozen_test,edge_00304,blind,0,count,a,a,0,0,0
+positive,positive_frozen_test,edge_00304,assisted,0,upper,L,L,0,0,0
+positive,positive_frozen_test,edge_00304,assisted,0,count,a,a,0,0,0
+positive,positive_frozen_test,edge_00306,blind,0,upper,N,N,0,0,0
+positive,positive_frozen_test,edge_00306,blind,0,count,a,a,0,0,0
+positive,positive_frozen_test,edge_00306,assisted,0,upper,N,N,0,0,0
+positive,positive_frozen_test,edge_00306,assisted,0,count,a,a,0,0,0
+positive,positive_frozen_test,edge_00322,assisted,0,upper,ABCDEFGHIJKLMNPQ,ABCDEFGHIJKLMNPQ,0,0,0
+positive,positive_frozen_test,edge_00322,assisted,0,count,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,0,0,0
+positive,positive_frozen_test,edge_00322,assisted,0,lower,RSTUVWXYZ[\]^_,RSTUVWXYZ[\]^_,0,0,0

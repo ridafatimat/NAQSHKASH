@@ -1,0 +1,70 @@
+{
+  "images": 2800,
+  "valid_denominator": 1400,
+  "invalid_denominator": 1400,
+  "three_way_confusion": {
+    "VALID": {
+      "ACCEPT": 1376,
+      "REJECT_INVALID": 0,
+      "REVIEW_UNCERTAIN": 24
+    },
+    "INVALID": {
+      "ACCEPT": 896,
+      "REJECT_INVALID": 0,
+      "REVIEW_UNCERTAIN": 504
+    }
+  },
+  "true_invalid_rejection_rate": 0.0,
+  "invalid_accepted_rate": 0.64,
+  "invalid_review_rate": 0.36,
+  "invalid_images_incorrectly_accepted_as_valid": 896,
+  "invalid_interpreted_syntax_passes": 896,
+  "invalid_interpreted_syntax_pass_rate": 0.64,
+  "valid_acceptance_rate": 0.9828571428571429,
+  "false_definitive_rejection_rate": 0.0,
+  "valid_review_rate": 0.017142857142857144,
+  "review_rate": 0.18857142857142858,
+  "exact_transcription_accuracy": 0.9371428571428572,
+  "raw_exact_transcription_accuracy": 0.9285714285714286,
+  "valid_raw_CER": 0.02392733564013841,
+  "valid_interpreted_CER": 0.023823529411764705,
+  "valid_transcription_denominator": 1400,
+  "valid_character_denominator": 173400,
+  "accepted_output_transcription_correctness": 0.9534883720930233,
+  "accepted_transcription_denominator": 1376,
+  "valid_end_to_end_page_correctness": 0.9371428571428572,
+  "semantic_expected_outcome_accuracy": 0.49142857142857144,
+  "preprocessing_failures": 0,
+  "D1_segmentation_failures": 30,
+  "OCR_decoding_failures": 0,
+  "pipeline_exceptions": 0,
+  "raw_wrong_tier_images": 522,
+  "wrong_tier_reviews": 498,
+  "corrected_images": 24,
+  "contextual_edits": 36,
+  "correct_T1_edits": 18,
+  "incorrect_T1_edits": 0,
+  "unknown_or_unscorable_T1_edits": 18,
+  "valid_images_with_worsened_edits": 0,
+  "rule_trigger_image_counts": {
+    "OBSERVABLE_CHECKS_PASSED": 2272,
+    "DECODED_UNSUPPORTED_OR_WRONG_TIER_GLYPH": 498,
+    "D1_NO_SAFE_PROPOSAL": 30
+  },
+  "source_parents": 700,
+  "macro_parent": {
+    "true_invalid_rejection_rate": 0.0,
+    "invalid_accepted_rate": 0.64,
+    "valid_acceptance_rate": 0.9828571428571429,
+    "false_definitive_rejection_rate": 0.0,
+    "invalid_review_rate": 0.36,
+    "valid_review_rate": 0.017142857142857144,
+    "exact_transcription_accuracy": 0.9371428571428572,
+    "accepted_output_transcription_correctness": 0.9528301886792453,
+    "valid_interpreted_CER": 0.010570941668971144
+  },
+  "parent_worst_case_counts": {
+    "critical_failure": 457,
+    "unresolved_review": 243
+  }
+}

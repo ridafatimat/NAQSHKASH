@@ -1,0 +1,6 @@
+{
+  "font_sha256": "db845e7da53991c2531dbe49b71e19cab4d5b6da314140e16a7e992f6c67381c",
+  "scope": "Conservative dataset-admission exclusions from direct local-font visual audit; NOT runtime T1 corrections or new Talim grammar",
+  "groups": [["B", "X"], ["C", "Y"], ["E", "Z"], ["G", "["], ["I", "\\"], ["J", "]"], ["K", "^"], ["L", "_"]],
+  "basis": "Single/double dots, single/double/triple bars, vertical strokes and hooked strokes can be visually indistinguishable across tier variants despite raster/hinting differences. Fail closed rather than label them image-invalid."
+}

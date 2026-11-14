@@ -1,0 +1,9 @@
+{
+  "image_count": 179,
+  "modes": {
+    "L": 179
+  },
+  "nonwhite_outer_borders": 0,
+  "identical_image_hashes_across_splits": 0,
+  "visual_inspection": "All 14 validation tiers and one crop per each of 24 training sources inspected in visual_review.png. Handwriting and retained faint grey strokes/dots visible. This is representative appearance inspection, not independent Talim transcription verification or source-mask pixel-level reconstruction."
+}

@@ -1,0 +1,17 @@
+{
+  "passed": 47,
+  "failed": 0,
+  "tests_run": 47,
+  "created_utc": "2026-11-07T14:21:39.048782+00:00",
+  "command": "python -B -m unittest discover -s tests",
+  "scope": "Lightweight synthetic tests only; no full evaluation, OCR, training or held-out images.",
+  "source_sha256": {
+    "src/evaluate_v3.py": "c81cc8ec3d1c799042144d94261acdfd95ce56e7dc088f731e5f63d51f49add0",
+    "src/localization_metrics.py": "0ad3146060c84f0456addd5345c97ddafa7993789e3dc5b950372951619c2890",
+    "src/policy_v3.py": "bb32c65d70662a5fb415d62435d1510c7ef3d1cac250579d548ba2096e8307c1",
+    "src/review_overlay.py": "6b65028be40a3ed9ea32eca8b8604c356bad7ee54a2b31d470905a2c2e68e88d",
+    "configs/policy_v3.json": "0a7bb8ab601f81f28d70cbbbe2a69ca93fee2bf75c731e3a3e98b897ca877940",
+    "tests/test_policy_v3.py": "4a1551cf4e3b0d6c6bf37073cd1a5df7c16b0f46204f63fd425b13eb6f827e1d",
+    "tests/test_review_findings.py": "6bb6eeb44500c796495d9bdb7d73c47f1db299faeb04fbdd3dfa1c8d2de268d7"
+  }
+}

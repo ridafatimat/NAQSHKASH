@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "candidate": "T0",
+  "enabled": false,
+  "description": "Unchanged E1 greedy output and F1 v2 decision; no contextual interpretation."
+}

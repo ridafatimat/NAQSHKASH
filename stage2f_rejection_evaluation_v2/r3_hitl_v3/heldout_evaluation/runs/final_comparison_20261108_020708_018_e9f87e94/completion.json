@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "kind": "comparison",
+  "release_sha256": "c64da891572188113f2ad9962892f4b022d978b18696841b1b1a3b8c42e292d3",
+  "outputs": {
+    "comparison.json": "9c89a6c13e8c532959bc60da9379d6cc4787b4e15f385087aa0424f29438eac5",
+    "report.md": "7c5b3da1b33840b784099b994a17eae5c7d17326516fd10a71a9d190f74e24db"
+  }
+}

@@ -1,0 +1,222 @@
+dataset,cohort,parent_id,sample_id,mode,augmentation,event,image_path,truth,prediction,description
+general,general_unassigned_exploratory,all_000031,all_000031__aug_01_shadow,blind,shadow,recognition,examples\general_all_000031__aug_01_shadow_blind_recognition.png,mhimbfc,mhmbfc,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000031,all_000031__aug_01_shadow,assisted,shadow,recognition,examples\general_all_000031__aug_01_shadow_assisted_recognition.png,mhimbfc,mhmbfc,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000228,all_000228__aug_01_rotation,blind,rotation,segmentation,examples\general_all_000228__aug_01_rotation_blind_segmentation.jpg,"C   Q  IC
++esdjabba
+  Z   U
+
+F   CJP   F
+(emankkiafc
+  X     RZ
+
+Q    N    D
+{gcpbocleda
+  ]_   S Z
+
+       KI
+a'gsgjakjha
+_T W S    W",,blind_overlapping_padded_bands
+general,general_unassigned_exploratory,all_000228,all_000228__aug_01_rotation,assisted,rotation,segmentation,examples\general_all_000228__aug_01_rotation_assisted_segmentation.jpg,"C   Q  IC
++esdjabba
+  Z   U
+
+F   CJP   F
+(emankkiafc
+  X     RZ
+
+Q    N    D
+{gcpbocleda
+  ]_   S Z
+
+       KI
+a'gsgjakjha
+_T W S    W",,assisted_overlapping_padded_bands
+general,general_unassigned_exploratory,all_000228,all_000228__aug_03_perspective,blind,perspective,segmentation,examples\general_all_000228__aug_03_perspective_blind_segmentation.jpg,"C   Q  IC
++esdjabba
+  Z   U
+
+F   CJP   F
+(emankkiafc
+  X     RZ
+
+Q    N    D
+{gcpbocleda
+  ]_   S Z
+
+       KI
+a'gsgjakjha
+_T W S    W",,blind_overlapping_padded_bands
+general,general_unassigned_exploratory,all_000228,all_000228__aug_03_perspective,assisted,perspective,segmentation,examples\general_all_000228__aug_03_perspective_assisted_segmentation.jpg,"C   Q  IC
++esdjabba
+  Z   U
+
+F   CJP   F
+(emankkiafc
+  X     RZ
+
+Q    N    D
+{gcpbocleda
+  ]_   S Z
+
+       KI
+a'gsgjakjha
+_T W S    W",,assisted_overlapping_padded_bands
+general,general_unassigned_exploratory,all_000548,all_000548__aug_01_gaussian_blur,blind,gaussian_blur,recognition,examples\general_all_000548__aug_01_gaussian_blur_blind_recognition.png,mgofnd,ugofnd,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000548,all_000548__aug_01_gaussian_blur,assisted,gaussian_blur,recognition,examples\general_all_000548__aug_01_gaussian_blur_assisted_recognition.png,mgofnd,ugofnd,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000548,all_000548__aug_02_perspective_shadow,blind,perspective+shadow,segmentation,examples\general_all_000548__aug_02_perspective_shadow_blind_segmentation.jpg,"P
+mgofnd
+  _ Z
+
+D HK MF
+xdgbaba
+    Z",,blind_overlapping_padded_bands
+general,general_unassigned_exploratory,all_000548,all_000548__aug_02_perspective_shadow,assisted,perspective+shadow,segmentation,examples\general_all_000548__aug_02_perspective_shadow_assisted_segmentation.jpg,"P
+mgofnd
+  _ Z
+
+D HK MF
+xdgbaba
+    Z",,assisted_overlapping_padded_bands
+general,general_unassigned_exploratory,all_000548,all_000548__aug_03_resolution,blind,resolution,recognition,examples\general_all_000548__aug_03_resolution_blind_recognition.png,Z,C,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000548,all_000548__aug_03_resolution,assisted,resolution,recognition,examples\general_all_000548__aug_03_resolution_assisted_recognition.png,Z,C,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000658,all_000658__aug_02_rotation,blind,rotation,recognition,examples\general_all_000658__aug_02_rotation_blind_recognition.png,X  Z,B  E,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000658,all_000658__aug_02_rotation,assisted,rotation,recognition,examples\general_all_000658__aug_02_rotation_assisted_recognition.png,X  Z,B  E,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000681,all_000681__aug_03_resolution_jpeg,blind,resolution+jpeg,recognition,examples\general_all_000681__aug_03_resolution_jpeg_blind_recognition.png,rbocjhfgaba,|bocjhfgaba,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000681,all_000681__aug_03_resolution_jpeg,assisted,resolution+jpeg,recognition,examples\general_all_000681__aug_03_resolution_jpeg_assisted_recognition.png,rbocjhfgaba,|bocjhfgaba,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000685,all_000685__aug_01_jpeg,blind,jpeg,segmentation,examples\general_all_000685__aug_01_jpeg_blind_segmentation.jpg,"  A
+{dhb
+X  _",,blind_ambiguous_band_count:4
+general,general_unassigned_exploratory,all_000685,all_000685__aug_02_contrast,blind,contrast,segmentation,examples\general_all_000685__aug_02_contrast_blind_segmentation.jpg,"  A
+{dhb
+X  _",,blind_ambiguous_band_count:4
+general,general_unassigned_exploratory,all_000685,all_000685__aug_03_gaussian_blur_contrast,blind,gaussian_blur+contrast,segmentation,examples\general_all_000685__aug_03_gaussian_blur_contrast_blind_segmentation.jpg,"  A
+{dhb
+X  _",,blind_ambiguous_band_count:4
+general,general_unassigned_exploratory,all_000685,all_000685__aug_03_gaussian_blur_contrast,assisted,gaussian_blur+contrast,recognition,examples\general_all_000685__aug_03_gaussian_blur_contrast_assisted_recognition.png,{dhb,bbhb,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000703,all_000703__aug_01_gaussian_blur_contrast,blind,gaussian_blur+contrast,recognition,examples\general_all_000703__aug_01_gaussian_blur_contrast_blind_recognition.png,AL,AN,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000703,all_000703__aug_03_rotation_jpeg,blind,rotation+jpeg,segmentation,examples\general_all_000703__aug_03_rotation_jpeg_blind_segmentation.jpg,"      AL
+'bjdlfia
+Z _ Z",,alignment_tier_presence_or_role_mismatch
+general,general_unassigned_exploratory,all_000703,all_000703__aug_03_rotation_jpeg,assisted,rotation+jpeg,segmentation,examples\general_all_000703__aug_03_rotation_jpeg_assisted_segmentation.jpg,"      AL
+'bjdlfia
+Z _ Z",,assisted_tier_band_mismatch
+general,general_unassigned_exploratory,all_000921,all_000921__aug_02_contrast,blind,contrast,recognition,examples\general_all_000921__aug_02_contrast_blind_recognition.png,R      X,R     X,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000921,all_000921__aug_02_contrast,assisted,contrast,recognition,examples\general_all_000921__aug_02_contrast_assisted_recognition.png,R      X,R     X,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_000998,all_000998__aug_01_noise,blind,noise,segmentation,examples\general_all_000998__aug_01_noise_blind_segmentation.jpg,"  I Q
+*hjbjh
+U
+
+I
+zgqhc
+  ^ W",,blind_ambiguous_band_count:4
+general,general_unassigned_exploratory,all_000998,all_000998__aug_03_shadow,blind,shadow,segmentation,examples\general_all_000998__aug_03_shadow_blind_segmentation.jpg,"  I Q
+*hjbjh
+U
+
+I
+zgqhc
+  ^ W",,blind_ambiguous_band_count:4
+general,general_unassigned_exploratory,all_001893,all_001893__aug_03_brightness_noise,blind,brightness+noise,recognition,examples\general_all_001893__aug_03_brightness_noise_blind_recognition.png,BH,U,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_001893,all_001893__aug_03_brightness_noise,assisted,brightness+noise,recognition,examples\general_all_001893__aug_03_brightness_noise_assisted_recognition.png,BH,U,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_002849,all_002849__aug_03_resolution,blind,resolution,segmentation,examples\general_all_002849__aug_03_resolution_blind_segmentation.jpg,"J
+jgj
+  _
+
+A
+jdfg
+  YU",,blind_ambiguous_band_count:5
+general,general_test_structure_match_exploratory,all_003613,all_003613__aug_02_perspective,blind,perspective,segmentation,examples\general_all_003613__aug_02_perspective_blind_segmentation.jpg," F
+dj
+]",,blind_overlapping_padded_bands
+general,general_test_structure_match_exploratory,all_003613,all_003613__aug_02_perspective,assisted,perspective,segmentation,examples\general_all_003613__aug_02_perspective_assisted_segmentation.jpg," F
+dj
+]",,assisted_overlapping_padded_bands
+general,general_unassigned_exploratory,all_004384,all_004384__aug_01_brightness,blind,brightness,recognition,examples\general_all_004384__aug_01_brightness_blind_recognition.png,C K M D  J,C K D ,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_004384,all_004384__aug_01_brightness,assisted,brightness,recognition,examples\general_all_004384__aug_01_brightness_assisted_recognition.png,C K M D  J,C K D ,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_004460,all_004460__aug_02_perspective,blind,perspective,recognition,examples\general_all_004460__aug_02_perspective_blind_recognition.png,xbmb,xbmub,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_004460,all_004460__aug_02_perspective,assisted,perspective,recognition,examples\general_all_004460__aug_02_perspective_assisted_recognition.png,xbmb,xbmub,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_004717,all_004717__aug_01_jpeg,blind,jpeg,recognition,examples\general_all_004717__aug_01_jpeg_blind_recognition.png,B,X,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_004717,all_004717__aug_01_jpeg,assisted,jpeg,recognition,examples\general_all_004717__aug_01_jpeg_assisted_recognition.png,B,X,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_005014,all_005014__aug_01_resolution_jpeg,blind,resolution+jpeg,segmentation,examples\general_all_005014__aug_01_resolution_jpeg_blind_segmentation.jpg,"A   B
+tjija
+ V T",,blind_ambiguous_band_count:4
+general,general_unassigned_exploratory,all_005014,all_005014__aug_03_gaussian_blur,blind,gaussian_blur,segmentation,examples\general_all_005014__aug_03_gaussian_blur_blind_segmentation.jpg,"A   B
+tjija
+ V T",,blind_ambiguous_band_count:4
+general,general_unassigned_exploratory,all_005525,all_005525__aug_02_brightness,blind,brightness,segmentation,examples\general_all_005525__aug_02_brightness_blind_segmentation.jpg,"B
+sccg
+  UX
+
+   C   G
+jpfbkabaa
+R_  S_\ ]",,blind_ambiguous_band_count:4
+general,general_unassigned_exploratory,all_005731,all_005731__aug_01_rotation_jpeg,blind,rotation+jpeg,recognition,examples\general_all_005731__aug_01_rotation_jpeg_blind_recognition.png,I B,\ X,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_005731,all_005731__aug_01_rotation_jpeg,assisted,rotation+jpeg,recognition,examples\general_all_005731__aug_01_rotation_jpeg_assisted_recognition.png,I B,\ X,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_007752,all_007752__aug_02_noise,blind,noise,recognition,examples\general_all_007752__aug_02_noise_blind_recognition.png,U _         T,U _        T,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_007752,all_007752__aug_02_noise,assisted,noise,recognition,examples\general_all_007752__aug_02_noise_assisted_recognition.png,U _         T,U _        T,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_008826,all_008826__aug_03_motion_blur,blind,motion_blur,recognition,examples\general_all_008826__aug_03_motion_blur_blind_recognition.png,J,],Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_008826,all_008826__aug_03_motion_blur,assisted,motion_blur,recognition,examples\general_all_008826__aug_03_motion_blur_assisted_recognition.png,J,],Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_009851,all_009851__aug_01_perspective_shadow,blind,perspective+shadow,recognition,examples\general_all_009851__aug_01_perspective_shadow_blind_recognition.png,C     G,Y     [,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+general,general_unassigned_exploratory,all_009851,all_009851__aug_01_perspective_shadow,assisted,perspective+shadow,recognition,examples\general_all_009851__aug_01_perspective_shadow_assisted_recognition.png,C     G,Y     [,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+positive,positive_frozen_test,edge_00032,edge_00032__aug_01_motion_blur,blind,motion_blur,segmentation,examples\positive_edge_00032__aug_01_motion_blur_blind_segmentation.jpg,"A
+na
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00032,edge_00032__aug_02_jpeg,blind,jpeg,segmentation,examples\positive_edge_00032__aug_02_jpeg_blind_segmentation.jpg,"A
+na
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00032,edge_00032__aug_03_brightness_noise,blind,brightness+noise,segmentation,examples\positive_edge_00032__aug_03_brightness_noise_blind_segmentation.jpg,"A
+na
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00033,edge_00033__aug_01_perspective,blind,perspective,segmentation,examples\positive_edge_00033__aug_01_perspective_blind_segmentation.jpg,"A
+nb
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00033,edge_00033__aug_02_rotation,blind,rotation,segmentation,examples\positive_edge_00033__aug_02_rotation_blind_segmentation.jpg,"A
+nb
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00033,edge_00033__aug_03_brightness,blind,brightness,segmentation,examples\positive_edge_00033__aug_03_brightness_blind_segmentation.jpg,"A
+nb
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00033,edge_00033__aug_03_brightness,assisted,brightness,recognition,examples\positive_edge_00033__aug_03_brightness_assisted_recognition.png,A,U,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+positive,positive_frozen_test,edge_00048,edge_00048__aug_02_resolution,blind,resolution,segmentation,examples\positive_edge_00048__aug_02_resolution_blind_segmentation.jpg,"A
+pi
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00048,edge_00048__aug_03_gaussian_blur_contrast,blind,gaussian_blur+contrast,segmentation,examples\positive_edge_00048__aug_03_gaussian_blur_contrast_blind_segmentation.jpg,"A
+pi
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00070,edge_00070__aug_01_perspective_shadow,blind,perspective+shadow,segmentation,examples\positive_edge_00070__aug_01_perspective_shadow_blind_segmentation.jpg,"A
+as
+ R",,blind_ambiguous_band_count:4
+positive,positive_frozen_test,edge_00070,edge_00070__aug_02_rotation_jpeg,blind,rotation+jpeg,segmentation,examples\positive_edge_00070__aug_02_rotation_jpeg_blind_segmentation.jpg,"A
+as
+ R",,blind_ambiguous_band_count:4
+positive,positive_frozen_test,edge_00071,edge_00071__aug_02_perspective_shadow,assisted,perspective+shadow,segmentation,examples\positive_edge_00071__aug_02_perspective_shadow_assisted_segmentation.jpg,"
+sa
+R",,assisted_overlapping_padded_bands
+positive,positive_frozen_test,edge_00075,edge_00075__aug_01_resolution_jpeg,blind,resolution+jpeg,segmentation,examples\positive_edge_00075__aug_01_resolution_jpeg_blind_segmentation.jpg,"A
+si
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00075,edge_00075__aug_03_contrast,blind,contrast,segmentation,examples\positive_edge_00075__aug_03_contrast_blind_segmentation.jpg,"A
+si
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00090,edge_00090__aug_02_shadow,blind,shadow,segmentation,examples\positive_edge_00090__aug_02_shadow_blind_segmentation.jpg,"A
+ua
+",,blind_overlapping_padded_bands
+positive,positive_frozen_test,edge_00094,edge_00094__aug_02_rotation_jpeg,assisted,rotation+jpeg,segmentation,examples\positive_edge_00094__aug_02_rotation_jpeg_assisted_segmentation.jpg," A
+aub
+R",,assisted_overlapping_padded_bands
+positive,positive_frozen_test,edge_00096,edge_00096__aug_01_rotation,assisted,rotation,recognition,examples\positive_edge_00096__aug_01_rotation_assisted_recognition.png,aub,atb,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+positive,positive_frozen_test,edge_00096,edge_00096__aug_02_gaussian_blur,blind,gaussian_blur,segmentation,examples\positive_edge_00096__aug_02_gaussian_blur_blind_segmentation.jpg,"A
+aub
+ R",,blind_ambiguous_band_count:4
+positive,positive_frozen_test,edge_00102,edge_00102__aug_01_noise,blind,noise,segmentation,examples\positive_edge_00102__aug_01_noise_blind_segmentation.jpg,"A
+av
+ R",,blind_ambiguous_band_count:4
+positive,positive_frozen_test,edge_00102,edge_00102__aug_03_rotation,assisted,rotation,segmentation,examples\positive_edge_00102__aug_03_rotation_assisted_segmentation.jpg,"A
+av
+ R",,assisted_overlapping_padded_bands
+positive,positive_frozen_test,edge_00106,edge_00106__aug_02_resolution,assisted,resolution,recognition,examples\positive_edge_00106__aug_02_resolution_assisted_recognition.png,vb,ub,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+positive,positive_frozen_test,edge_00227,edge_00227__aug_03_gaussian_blur,assisted,gaussian_blur,recognition,examples\positive_edge_00227__aug_03_gaussian_blur_assisted_recognition.png,),t,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+positive,positive_frozen_test,edge_00257,edge_00257__aug_01_brightness_noise,assisted,brightness+noise,recognition,examples\positive_edge_00257__aug_01_brightness_noise_assisted_recognition.png,A,C,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+positive,positive_frozen_test,edge_00264,edge_00264__aug_02_shadow,assisted,shadow,recognition,examples\positive_edge_00264__aug_02_shadow_assisted_recognition.png,A,U,Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+positive,positive_frozen_test,edge_00302,edge_00302__aug_01_rotation,blind,rotation,recognition,examples\positive_edge_00302__aug_01_rotation_blind_recognition.png,J,],Structurally aligned tier differs from label; residual crop/warp effects may contribute.
+positive,positive_frozen_test,edge_00322,edge_00322__aug_02_perspective_shadow,assisted,perspective+shadow,recognition,examples\positive_edge_00322__aug_02_perspective_shadow_assisted_recognition.png,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,aaaaaaaaaaaaaaaaaaaaaa,Structurally aligned tier differs from label; residual crop/warp effects may contribute.

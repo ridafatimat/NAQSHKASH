@@ -1,0 +1,37 @@
+{
+  "tests_passed": 32,
+  "cli_help_checks_passed": 5,
+  "integrity": {
+    "historical_files": 483,
+    "experiment_files": 18,
+    "unchanged": true
+  },
+  "CPU_dependency_check": {
+    "actual_device": "cpu",
+    "python": "3.12.10",
+    "torch": "2.2.2+cpu",
+    "numpy": "1.26.4",
+    "opencv": "4.13.0",
+    "Pillow": "10.2.0",
+    "batching": "original single-tier forward",
+    "seed_policy": "per-record deterministic42"
+  },
+  "checkpoint_path": "C:\\NAQSHKASH\\stage2\\stage2e_finetuning\\checkpoints\\selected_model\\best.pt",
+  "checkpoint_sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+  "dataset_dir": "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\full_20261106_194834_776",
+  "dataset_metadata_compatibility_audit": {
+    "development_images": 2800,
+    "development_parents": 700,
+    "real_image_bytes_opened": false
+  },
+  "CRNN_model_loaded_by_agent": false,
+  "CRNN_inference_executed": false,
+  "full_R0_or_R1_evaluation_executed": false,
+  "validation_or_protected_image_bytes_opened_by_agent": 0,
+  "training_executed": false,
+  "calibration_executed": false,
+  "original_dataset_or_D1_E1_T1_F1_modified": false,
+  "raw_inference_status": "ready for user execution; one immutable resumable raw run shared by both candidates",
+  "real_performance_results": "not executed or claimed",
+  "metrics_directory_empty": true
+}

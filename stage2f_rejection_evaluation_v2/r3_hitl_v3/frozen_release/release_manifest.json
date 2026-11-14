@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "status": "FINAL_FROZEN",
+  "policy_id": "R3_HITL_V3",
+  "release_id": "Stage2F_R3_HITL_V3_APPROVED_20261107",
+  "created_UTC": "2026-11-07T17:20:04.416726+00:00",
+  "files": {
+    "ADDITIONAL_SNAPSHOTS.csv": {
+      "sha256": "2f896a377cf758e07f81cae41a343c93a79322b5d9562d35347005ffc683892e",
+      "bytes": 13186,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "configs/policy_v3.json": {
+      "sha256": "0a7bb8ab601f81f28d70cbbbe2a69ca93fee2bf75c731e3a3e98b897ca877940",
+      "bytes": 4817,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\configs\\policy_v3.json",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/config/vocabulary.json": {
+      "sha256": "d988d951967399b64e45594153c345b09d5edb421940577ab038456b99defbb0",
+      "bytes": 1044,
+      "original_source": "C:\\NAQSHKASH\\config\\vocabulary.json",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/data/build_full_tier_dataset.py": {
+      "sha256": "192962441c81c5ae98ad06aa7543750ccaa2655702a57933538fa5094434d49b",
+      "bytes": 26794,
+      "original_source": "C:\\NAQSHKASH\\data\\build_full_tier_dataset.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/data/collate.py": {
+      "sha256": "74f39a431bca79c825e9690220eb861a6c7b4d3b59b3db5af08f7899bf5c246c",
+      "bytes": 8864,
+      "original_source": "C:\\NAQSHKASH\\data\\collate.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/data/ctc_decode.py": {
+      "sha256": "44835d19fc48f7596a6c8615a21ab0cb0dd643b8db0476aa6adaa578244e3f34",
+      "bytes": 1275,
+      "original_source": "C:\\NAQSHKASH\\data\\ctc_decode.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/data/encoder.py": {
+      "sha256": "3c6b09daa5e97bbd6feb2759c01f95f5cfdd6ecaaec0599854480a2cbffe983b",
+      "bytes": 2416,
+      "original_source": "C:\\NAQSHKASH\\data\\encoder.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/data/manifest_dataset.py": {
+      "sha256": "26d5a09b4ca2a17be7fd93660547bf243fa3a76a930fa085bd99073b8dc92426",
+      "bytes": 3790,
+      "original_source": "C:\\NAQSHKASH\\data\\manifest_dataset.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/data/vocabulary.py": {
+      "sha256": "9514752e12ae6d6cc0677b0b2620a2ac8c0999edb42242811c50c5a7e88dd2dd",
+      "bytes": 5090,
+      "original_source": "C:\\NAQSHKASH\\data\\vocabulary.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/data/width_sampler.py": {
+      "sha256": "488138e6bfd38e46e8aa1679176a7270b89d7ea20daff51529e7172631b1bccf",
+      "bytes": 4137,
+      "original_source": "C:\\NAQSHKASH\\data\\width_sampler.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/models/crnn.py": {
+      "sha256": "04ab9cba3bbb734381cf5e9bbb67b0ed8ea7218392f51f483869fdc22d537daf",
+      "bytes": 6797,
+      "original_source": "C:\\NAQSHKASH\\models\\crnn.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/preprocessing/__init__.py": {
+      "sha256": "804e4b1dd4faee2264eedba8a3ad5c4eb96c089fb78a95dba2fbc3a26cc742b1",
+      "bytes": 1682,
+      "original_source": "C:\\NAQSHKASH\\preprocessing\\__init__.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/preprocessing/cleaning.py": {
+      "sha256": "cbceddeb9fb3e54cad884e67b20dd3be3f04e816ca3109a9330f8ac3ac53d5cf",
+      "bytes": 1931,
+      "original_source": "C:\\NAQSHKASH\\preprocessing\\cleaning.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/preprocessing/crop.py": {
+      "sha256": "0c3db98b0a9a67fd3e4e2569ac394275b0f1d3cc87f2d6b79bcd556915191c5d",
+      "bytes": 6580,
+      "original_source": "C:\\NAQSHKASH\\preprocessing\\crop.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/preprocessing/deskew.py": {
+      "sha256": "49ba467362e0845b5ce3787fa6a3941bc6450c9b56b57d793c16106341476f71",
+      "bytes": 12728,
+      "original_source": "C:\\NAQSHKASH\\preprocessing\\deskew.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/preprocessing/pipeline.py": {
+      "sha256": "6c1d4a6a49ebfa886c51faa17c72fa60cae55e2f8c3d0d0f61e42fcbf6c5b398",
+      "bytes": 11392,
+      "original_source": "C:\\NAQSHKASH\\preprocessing\\pipeline.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/preprocessing/rows.py": {
+      "sha256": "6d654d2f47c90c5000f603e70e11654d6a6ad69ddeb71ab4030564d6777e618d",
+      "bytes": 11662,
+      "original_source": "C:\\NAQSHKASH\\preprocessing\\rows.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/preprocessing/ruling_lines.py": {
+      "sha256": "e866c4b0b1c4e1138f67178d7e22b2f4d9f0af40793aec2d6a65991116f39c28",
+      "bytes": 2434,
+      "original_source": "C:\\NAQSHKASH\\preprocessing\\ruling_lines.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/positive_edge_cases/evaluate.py": {
+      "sha256": "1c85e9e4731ed60d42e8b5e8e2fa72680ed6f077c6646628d932a0615c423129",
+      "bytes": 9341,
+      "original_source": "C:\\NAQSHKASH\\stage2\\positive_edge_cases\\evaluate.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/positive_edge_cases/inspect_local.py": {
+      "sha256": "b254936dd5143a026622ece130b7a5e1935c3828b63ebda81e78822983e8d159",
+      "bytes": 5359,
+      "original_source": "C:\\NAQSHKASH\\stage2\\positive_edge_cases\\inspect_local.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/positive_edge_cases/segmentation.py": {
+      "sha256": "3e6bd8a5909c23852f7f2cee889431579f689f0f5029457eb926530e567cb66d",
+      "bytes": 3096,
+      "original_source": "C:\\NAQSHKASH\\stage2\\positive_edge_cases\\segmentation.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/preprocessing_improvements/core.py": {
+      "sha256": "ab816e49727e47450c29dd8963666624121dcf799e3cd1406b905345b121fee1",
+      "bytes": 3027,
+      "original_source": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\core.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/preprocessing_improvements/preprocessing/geometry.py": {
+      "sha256": "40bd1cc19f66a8452643265c0689c09f34c12bdf3bdad57fa4fa68ef423e7de8",
+      "bytes": 2695,
+      "original_source": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\preprocessing\\geometry.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/preprocessing_improvements/preprocessing/photometric.py": {
+      "sha256": "a5544ed89d34b8165cd6c2befd2c540c2599d3cf6a90efea980fd99a9a821597",
+      "bytes": 762,
+      "original_source": "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\preprocessing\\photometric.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/scanned_robustness/modes.py": {
+      "sha256": "f8d89902ebc140ae11071f5e17d4874dc74ff3008f9cd7282fcac85a56ef3c31",
+      "bytes": 3845,
+      "original_source": "C:\\NAQSHKASH\\stage2\\scanned_robustness\\modes.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2d_experiments/configs/D1.json": {
+      "sha256": "050cafcb7c26403a4e21cf6f1e764ba90350cb37ff0a8ee74bb7fedb73af3141",
+      "bytes": 164,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\configs\\D1.json",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2d_experiments/engine.py": {
+      "sha256": "c29e6f09c7a15c72041a6c68d9827c2b04885e37eab1e60c1d14a1fb3214996d",
+      "bytes": 5181,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\engine.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2d_experiments/pipeline_d1.py": {
+      "sha256": "b6509e3fc26e8a5c8205ef2fafb7b197a11163dad9b20f6fc0e795f04d9afc9c",
+      "bytes": 1947,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\pipeline_d1.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2e_finetuning/checkpoints/selected_model/best.pt": {
+      "sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+      "bytes": 92578041,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2e_finetuning\\checkpoints\\selected_model\\best.pt",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_negative_rejection/configs/f1_ocr_uncertainty_policy_v2.yaml": {
+      "sha256": "cb47e78b81d4a0596358a599fb87a8f541cacd0bbf384aa607f64150be140b51",
+      "bytes": 506,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_rejection\\configs\\f1_ocr_uncertainty_policy_v2.yaml",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_negative_rejection/src/common.py": {
+      "sha256": "d222b9390f4f8f93f0ee5d5b5fd9ffc3f272b6d6ff770af65cd77e0eee9bacc6",
+      "bytes": 3066,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_rejection\\src\\common.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_negative_rejection/src/confidence.py": {
+      "sha256": "87721ccc217113a58ca981fa3ab30cc725a19789fbdf208989cd635eb317a308",
+      "bytes": 3538,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_rejection\\src\\confidence.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_negative_rejection/src/evaluate_baseline.py": {
+      "sha256": "b1ff697a09be9cd0487f8808fa62a541d8901644a238eeddb3d7dc46f3ce56c7",
+      "bytes": 8323,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_rejection\\src\\evaluate_baseline.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_negative_rejection/src/rejection_pipeline.py": {
+      "sha256": "69fa66c41f472eca4c20f247bd3e44513cd74d36f381a14042540afcaf704c04",
+      "bytes": 7033,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_rejection\\src\\rejection_pipeline.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_negative_rejection/src/talim_validator.py": {
+      "sha256": "d4ab21db9546e7332f07939d2ac42c7038d0a6969c2b70ce3b08357bea929dd0",
+      "bytes": 5062,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_rejection\\src\\talim_validator.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/configs/dataset.json": {
+      "sha256": "2d004afd90e283861ad8dca8093d5fbd397aabdf4be67d8c58a95586547d5c73",
+      "bytes": 1364,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\configs\\dataset.json",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/r3_text_alignment_experiment/src/evaluate_text_alignment.py": {
+      "sha256": "82189b256a67287f570575c0b6b120c797f15923f123d2107a60fbc7e5f5ab0a",
+      "bytes": 13897,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_text_alignment_experiment\\src\\evaluate_text_alignment.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/r3_text_alignment_experiment/src/text_alignment.py": {
+      "sha256": "af10ab619325c08a102521db373030adebda263b486aba93478061637b682cb5",
+      "bytes": 8399,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_text_alignment_experiment\\src\\text_alignment.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/src/dataset_loader.py": {
+      "sha256": "04a6f02e2a7461619dd0932c92071be799f6214dd0dea48349eddc82e3934ec4",
+      "bytes": 10021,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\src\\dataset_loader.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/src/evaluate_r2.py": {
+      "sha256": "b39621cad7d7b6d6a032cc9e068ec4a98444eddd74429b93e86209d969b6893d",
+      "bytes": 5505,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\src\\evaluate_r2.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/src/evaluate_rejection.py": {
+      "sha256": "f2091446f258b9881dbeb8f21e9f309ef15cbd4b480dd96ce0799ec26ce1b3ce",
+      "bytes": 8378,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\src\\evaluate_rejection.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/src/evaluation_metrics.py": {
+      "sha256": "d83b20c6704dbacd0e14b716107a6e62c116acf211146ff9af80283366ca4e21",
+      "bytes": 6041,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\src\\evaluation_metrics.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/src/integration.py": {
+      "sha256": "b4c534cb158b478c1389f3eb384391e2ff39c856015cc4e925124caade258a68",
+      "bytes": 4786,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\src\\integration.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/src/observation_store.py": {
+      "sha256": "f18d648a2f1aa85e354672a173abc5ecdae4aae2ae189f5616094a09cae39f21",
+      "bytes": 5750,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\src\\observation_store.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/src/r2_structural.py": {
+      "sha256": "1595cd081feb5608f9b90658fac747192bf6b37638777a5cdcad712a5eca641a",
+      "bytes": 1836,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\src\\r2_structural.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_rejection_evaluation_v2/src/run_ocr_baseline.py": {
+      "sha256": "902e4701f5575760aca83f048440b0125e5c1749cd5b62133a649e3200898cf3",
+      "bytes": 4676,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\src\\run_ocr_baseline.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_tier_aware_decoding/configs/rendering_profile.json": {
+      "sha256": "cb8186e0c5065634bdcf82e419a75e8eea0fd0b860a8821b8c9eb8b5ebe3b385",
+      "bytes": 248,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_tier_aware_decoding\\configs\\rendering_profile.json",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_tier_aware_decoding/manifests/verified_role_ambiguities.csv": {
+      "sha256": "7363c6ea7ea2e6ae846bc4014a5e5f9891f90af24450a4109057e0846b5f9321",
+      "bytes": 499,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_tier_aware_decoding\\manifests\\verified_role_ambiguities.csv",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_tier_aware_decoding/reports/glyph_audit_summary.json": {
+      "sha256": "e7c415996fe7791bad1237be1c537a22cc1f75c27997135978c71fa3681648b0",
+      "bytes": 1082,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_tier_aware_decoding\\reports\\glyph_audit_summary.json",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_tier_aware_decoding/src/contextual_pipeline.py": {
+      "sha256": "83e8276285bfbe4800ce2205fb81f42558b34e54ac8d331d3bdf6612c77752ca",
+      "bytes": 6120,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_tier_aware_decoding\\src\\contextual_pipeline.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_tier_aware_decoding/src/measurements.py": {
+      "sha256": "7dfe9b64beccb43621379cbdc1e64ec7cee5b2d490190ffc3e3e0140de6089b9",
+      "bytes": 5508,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_tier_aware_decoding\\src\\measurements.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_tier_aware_decoding/src/runtime.py": {
+      "sha256": "39dfcd319ad74cbb3652ce85d074cef02b572cab76b8c88fb22754878a998ec9",
+      "bytes": 2582,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_tier_aware_decoding\\src\\runtime.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/stage2/stage2f_tier_aware_decoding/src/tier_aware_decoder.py": {
+      "sha256": "37266d66f56804fd94fa1c7830c19aa7b2d2370c89e3c6b2d2cb8908894ed0fb",
+      "bytes": 3716,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_tier_aware_decoding\\src\\tier_aware_decoder.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/talim/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "original_source": "C:\\NAQSHKASH\\talim\\__init__.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/talim/talim_rules.py": {
+      "sha256": "bd56369be0370bfb4320dc5b5c84b3405a856f50da7570af518b4e0a4c080398",
+      "bytes": 15395,
+      "original_source": "C:\\NAQSHKASH\\talim\\talim_rules.py",
+      "role": "byte-identical snapshot"
+    },
+    "dependencies/training/manifest_training.py": {
+      "sha256": "3fce1dfdd36ed84503ca196b304060ff1cbd3368f890899bd23d3c723fa537ff",
+      "bytes": 26354,
+      "original_source": "C:\\NAQSHKASH\\training\\manifest_training.py",
+      "role": "byte-identical snapshot"
+    },
+    "DEPENDENCY_AUDIT.md": {
+      "sha256": "5c76c9de1dc8fa5aa8c92245ac5bc0d0a150432907458f9479bdb9f147437bae",
+      "bytes": 2216,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "DEVELOPMENT_CHECKPOINT_NOTES.txt": {
+      "sha256": "9f0434bc26cd681bac1e039e7cd5c268a8a4810590910df61326d7ac776f687f",
+      "bytes": 798,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "external/Talamat/config.py": {
+      "sha256": "1272a532df2a6b62ea3433cc4df5986e6814060d6e6b24d9ba9942268815b58a",
+      "bytes": 497,
+      "original_source": "C:\\FYP Dataset Generation\\config.py",
+      "role": "byte-identical snapshot"
+    },
+    "external/Talamat/Utils/talamNumConverter.py": {
+      "sha256": "02756b6b839679e932a573a41a605700bb96133dae9a554b30ab736cdf171163",
+      "bytes": 813,
+      "original_source": "C:\\FYP Dataset Generation\\Utils\\talamNumConverter.py",
+      "role": "byte-identical snapshot"
+    },
+    "file_hashes.csv": {
+      "sha256": "1ccf0f173eeb7d62c699e644c7f8bbbf26b3dba540591500194f7c0faef0b81a",
+      "bytes": 921,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "freeze_runtime.py": {
+      "sha256": "6a6170136e2e813b2aa650f77fbc488687910b8d6719786a21c0980d2297fd7a",
+      "bytes": 7388,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "provenance/approved_development/completion.json": {
+      "sha256": "73bdd6f8b0cc302dacb76cf12b6ad6c056808f92ef8151256cbdba05ea34b972",
+      "bytes": 788,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\runs\\20261107_192326_500_058300e0\\completion.json",
+      "role": "byte-identical snapshot"
+    },
+    "provenance/approved_development/metrics.json": {
+      "sha256": "d2fcacbc0b8fdedf212eb41d2c447a9ef8fb046d8314fe83fd3d27fd7df71ba6",
+      "bytes": 6618454,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\runs\\20261107_192326_500_058300e0\\metrics.json",
+      "role": "byte-identical snapshot"
+    },
+    "provenance/approved_development/report.md": {
+      "sha256": "ca9d7117241b833ea41c9b6ce36141df17693ada49c18de238d37701f0616df1",
+      "bytes": 10887,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\runs\\20261107_192326_500_058300e0\\report.md",
+      "role": "byte-identical snapshot"
+    },
+    "provenance/approved_development/run_manifest.json": {
+      "sha256": "55e35679764741a1d58a39d909b51d1b3f9313a4b0a495992ac373e290de1edf",
+      "bytes": 12601,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\runs\\20261107_192326_500_058300e0\\run_manifest.json",
+      "role": "byte-identical snapshot"
+    },
+    "provenance/dataset_completion.json": {
+      "sha256": "3a86d0dccaeefdec381140cabc1b015b65e54005180c70faa6fa7aac7243b106",
+      "bytes": 1335,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\full_20261106_194834_776\\completion.json",
+      "role": "byte-identical snapshot"
+    },
+    "provenance/dataset_manifest.json": {
+      "sha256": "5b2ce4a3c6acb080ac14cbafb84d974684a2e3a475973d0470b83b8462cd29df",
+      "bytes": 56484019,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\full_20261106_194834_776\\manifest.json",
+      "role": "byte-identical snapshot"
+    },
+    "provenance/development_raw_completion.json": {
+      "sha256": "c5b6c5993e1669970b747480c53f99220b8c976c63021f6780d4ad3fe68bd91d",
+      "bytes": 383,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_raw\\completion.json",
+      "role": "byte-identical snapshot"
+    },
+    "provenance/development_raw_plan.json": {
+      "sha256": "91993427af9b49fdd181cfd6683c9e65087ea412af47a8a1ae2bbce782908e21",
+      "bytes": 1273,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\metrics\\20261106_204802_280_raw\\plan.json",
+      "role": "byte-identical snapshot"
+    },
+    "provenance/development_replay.jsonl": {
+      "sha256": "89ac3dfbf4df30665104b2df61366b798eb9a335ee42412dd8110748c93e7477",
+      "bytes": 18517064,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "provenance/freeze_verification.json": {
+      "sha256": "c778e5f39313226593c2a5185ff41f941799d6aac9202939cd2d1673a059f511",
+      "bytes": 3082,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "provenance/parents.json": {
+      "sha256": "47fcc3a4af350d607e8221132bd5fecfdc45f58e85ecc1d112adaef4e551eaf6",
+      "bytes": 682395,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\full_20261106_194834_776\\parents.json",
+      "role": "byte-identical snapshot"
+    },
+    "provenance/post_OCR_pipeline_smoke.jsonl": {
+      "sha256": "f72621a5b8b17e6b6adda1da4b9ed556aec0ad031bafdabba6f2462aede83a63",
+      "bytes": 89995,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "provenance/protected_test_seal.json": {
+      "sha256": "892482f6f1d9a30b207754cd8d8ec592c274fac2ece6fafe13b03ad6401bd7ef",
+      "bytes": 187810,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\full_20261106_194834_776\\protected_test_seal.json",
+      "role": "byte-identical snapshot"
+    },
+    "README_RELEASE.md": {
+      "sha256": "eef1356a79b912b6ffcdb022adde26b576fb1e010a9f38bd27e781add5237da2",
+      "bytes": 4259,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "snapshot_hashes.csv": {
+      "sha256": "7f5bc3f92b08164c1c1439b45ace462df07c10e009ac8d1c10f215e9d73c67fb",
+      "bytes": 1409,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    },
+    "src/evaluate_v3.py": {
+      "sha256": "c81cc8ec3d1c799042144d94261acdfd95ce56e7dc088f731e5f63d51f49add0",
+      "bytes": 17229,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\src\\evaluate_v3.py",
+      "role": "byte-identical snapshot"
+    },
+    "src/localization_metrics.py": {
+      "sha256": "0ad3146060c84f0456addd5345c97ddafa7993789e3dc5b950372951619c2890",
+      "bytes": 5409,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\src\\localization_metrics.py",
+      "role": "byte-identical snapshot"
+    },
+    "src/policy_v3.py": {
+      "sha256": "bb32c65d70662a5fb415d62435d1510c7ef3d1cac250579d548ba2096e8307c1",
+      "bytes": 11131,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\src\\policy_v3.py",
+      "role": "byte-identical snapshot"
+    },
+    "src/review_overlay.py": {
+      "sha256": "6b65028be40a3ed9ea32eca8b8604c356bad7ee54a2b31d470905a2c2e68e88d",
+      "bytes": 9034,
+      "original_source": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\src\\review_overlay.py",
+      "role": "byte-identical snapshot"
+    },
+    "verify_freeze.py": {
+      "sha256": "6d73be5f89708ef7d3ba066b69e4767157a968257f8d41ef1022c441eecc2d30",
+      "bytes": 3925,
+      "original_source": null,
+      "role": "release adapter/provenance"
+    }
+  },
+  "existing_snapshot_count": 11,
+  "heldout_adapter_sha256": {
+    "README.md": "36c29aace113c115b19f9d05636e86aa9d3e24cf6292e170d8390e96b546219c",
+    "reports/observation_inventory.json": "93b8483eb695370faa5b9716dc004cc1aa0dab318146c09e1b4e6006a684dcfd",
+    "reports/test_results.json": "1e63b1ae3da7d63415c97db7b324f79c54a1429507b8196f2f59d9ca12332bff",
+    "src/heldout_cli.py": "4747df5f2cce629d5b0002f79b8f48f5d1ef5db8220f427ab3639f12c4bbcc30",
+    "src/heldout_dataset.py": "f2f0a81d0218f0344e2fb4839dda9ec43f17a68949103789a394074ce52abd3f",
+    "src/journal.py": "7c2eba0670870ff33c2aa5c95b2c86caff08f917ce4e6fc8ce8d39b4e16211ff",
+    "src/release_io.py": "af34298b3b5c1e248b9cc7432955082512c224b583f8832bb1d866e38101a511",
+    "tests/test_release.py": "fc3a12a080966fbe17ca7862a3ea7cd0c261678bfa7ebb3977c9554994824740"
+  },
+  "checkpoint": {
+    "snapshot": "dependencies/stage2/stage2e_finetuning/checkpoints/selected_model/best.pt",
+    "original": "C:\\NAQSHKASH\\stage2\\stage2e_finetuning\\checkpoints\\selected_model\\best.pt",
+    "sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1"
+  },
+  "approved_development": {
+    "original_run": "C:\\NAQSHKASH\\stage2\\stage2f_rejection_evaluation_v2\\r3_hitl_v3\\runs\\20261107_192326_500_058300e0",
+    "completion_sha256": "73bdd6f8b0cc302dacb76cf12b6ad6c056808f92ef8151256cbdba05ea34b972",
+    "per_image_sha256": "cca669d75e0105c7cae6af23502f277681aa541353d6eff02a816400e6ab0f61",
+    "raw_sha256": "668bba76f8c385a07a9f77320cd41696142f4676842f07a45e632d57954eadec",
+    "images": 2800,
+    "parents": 700,
+    "three_way_confusion": {
+      "VALID": {
+        "ACCEPT": 1318,
+        "REJECT_INVALID": 0,
+        "REVIEW_UNCERTAIN": 82
+      },
+      "INVALID": {
+        "ACCEPT": 48,
+        "REJECT_INVALID": 0,
+        "REVIEW_UNCERTAIN": 1352
+      }
+    },
+    "Stage1_differences": 0,
+    "R2_reviews_preserved": 636
+  },
+  "dataset": {
+    "original_directory": "C:\\NAQSHKASH\\stage2\\stage2f_negative_dataset_v2\\dataset\\full_20261106_194834_776",
+    "manifest_snapshot": "provenance/dataset_manifest.json",
+    "parents_snapshot": "provenance/parents.json",
+    "protected_seal_snapshot": "provenance/protected_test_seal.json",
+    "manifest_sha256": "5b2ce4a3c6acb080ac14cbafb84d974684a2e3a475973d0470b83b8462cd29df",
+    "original_metadata_sha256": {
+      "manifest.json": "5b2ce4a3c6acb080ac14cbafb84d974684a2e3a475973d0470b83b8462cd29df",
+      "parents.json": "47fcc3a4af350d607e8221132bd5fecfdc45f58e85ecc1d112adaef4e551eaf6",
+      "completion.json": "3a86d0dccaeefdec381140cabc1b015b65e54005180c70faa6fa7aac7243b106",
+      "protected_test_seal.json": "892482f6f1d9a30b207754cd8d8ec592c274fac2ece6fafe13b03ad6401bd7ef",
+      "reports/generation_summary.json": "ae5b7218d0f615610c4cdf6530406b0e12da80b0a0fadf074f804a39a41c22b8",
+      "reports/construction_validation.json": "e7a5d41f94f62a9aa9c9eab48024aa5130007d0be42239bed2678f390f742a32"
+    },
+    "split_counts": {
+      "development_design": {
+        "images": 2800,
+        "parents": 700
+      },
+      "validation_calibration": {
+        "images": 600,
+        "parents": 150
+      },
+      "protected_test": {
+        "images": 600,
+        "parents": 150
+      }
+    }
+  },
+  "inference_environment": {
+    "actual_device": "cpu",
+    "python": "3.12.10",
+    "torch": "2.2.2+cpu",
+    "numpy": "1.26.4",
+    "opencv": "4.13.0",
+    "Pillow": "10.2.0",
+    "batching": "original single-tier forward",
+    "seed_policy": "per-record deterministic42"
+  },
+  "additional_software": {
+    "scipy": "1.17.1"
+  },
+  "heldout_observation_inventory": {
+    "compatible_heldout_observations": [],
+    "manual_inference_required": true,
+    "searched_workspaces": [
+      "stage2f_rejection_evaluation_v2",
+      "stage2f_negative_rejection",
+      "stage2f_tier_aware_decoding"
+    ],
+    "available_v2_raw_splits": [
+      "development_design"
+    ],
+    "legacy_observations": "Unrelated old fixture caches; not validation/protected v2 observations"
+  },
+  "carpet_generation_contract": {
+    "ACCEPT_is_not_alignment": true,
+    "carpet_generation_ready": false,
+    "ambiguous_readings": "Blocked pending separate authorized alignment resolution; no arbitrary candidate selection"
+  },
+  "preservation": {
+    "existing_11_snapshots_unchanged": true,
+    "R3_1_excluded": true,
+    "original_development_loader_unchanged": true
+  },
+  "authorized_protocol": "validation once, then protected test once after explicit separate authorization and validation review; no tuning",
+  "freeze_verification": {
+    "status": "PASS",
+    "saved_decisions_reproduced": 2800,
+    "post_OCR_pipeline_smoke_cases": 16,
+    "lightweight_tests_passed": 48,
+    "lightweight_tests_failed": 0,
+    "validation_preflight": "PASS_METADATA_ONLY",
+    "protected_test_preflight": "PASS_METADATA_ONLY",
+    "heldout_execution": "NOT_RUN"
+  },
+  "sealed_UTC": "2026-11-07T17:35:46.780654+00:00"
+}

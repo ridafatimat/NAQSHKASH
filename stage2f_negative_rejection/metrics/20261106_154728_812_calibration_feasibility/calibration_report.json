@@ -1,0 +1,7 @@
+{
+  "status": "NOT_CALIBRATED",
+  "reason": "No justified content-rejection calibration experiment for current one-family fixtures",
+  "positive_f1_accepted": 757,
+  "invalid_content_examples": 0,
+  "next_action": "Acquire independent, image-adjudicated invalid development parents, review/freeze a new protocol. Or explicitly choose positive-only quality gating."
+}

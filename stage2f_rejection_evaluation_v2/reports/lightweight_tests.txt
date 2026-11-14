@@ -1,0 +1,37 @@
+test_completed_candidate_artifacts_roundtrip (test_evaluation_v2.JournalTests.test_completed_candidate_artifacts_roundtrip) ... ok
+test_incomplete_raw_run_not_evaluable (test_evaluation_v2.JournalTests.test_incomplete_raw_run_not_evaluable) ... ok
+test_observations_are_not_overwritten (test_evaluation_v2.JournalTests.test_observations_are_not_overwritten) ... ok
+test_payload_tampering_detected (test_evaluation_v2.JournalTests.test_payload_tampering_detected) ... ok
+test_resumable_one_pass_and_identical_candidate_ids (test_evaluation_v2.JournalTests.test_resumable_one_pass_and_identical_candidate_ids) ... ok
+test_resume_changed_lineage_rejected (test_evaluation_v2.JournalTests.test_resume_changed_lineage_rejected) ... ok
+test_runtime_failure_is_recorded_and_not_definitive_invalidity (test_evaluation_v2.JournalTests.test_runtime_failure_is_recorded_and_not_definitive_invalidity) ... ok
+test_cross_split_duplicate_hash_rejected (test_evaluation_v2.LoaderTests.test_cross_split_duplicate_hash_rejected) ... ok
+test_exact_development_selection (test_evaluation_v2.LoaderTests.test_exact_development_selection) ... ok
+test_fabricated_invalid_ctc_target_forbidden (test_evaluation_v2.LoaderTests.test_fabricated_invalid_ctc_target_forbidden) ... ok
+test_image_access_guard_does_not_read_other_splits (test_evaluation_v2.LoaderTests.test_image_access_guard_does_not_read_other_splits) ... ok
+test_image_hash_drift_detected (test_evaluation_v2.LoaderTests.test_image_hash_drift_detected) ... ok
+test_manifest_hash_drift_detected (test_evaluation_v2.LoaderTests.test_manifest_hash_drift_detected) ... ok
+test_parent_and_lineage_preserved (test_evaluation_v2.LoaderTests.test_parent_and_lineage_preserved) ... ok
+test_protected_and_validation_block_before_file_access (test_evaluation_v2.LoaderTests.test_protected_and_validation_block_before_file_access) ... ok
+test_quarantined_dataset_blocked (test_evaluation_v2.LoaderTests.test_quarantined_dataset_blocked) ... ok
+test_accepted_output_correctness_is_not_acceptance (test_evaluation_v2.RuntimeAndMetricsTests.test_accepted_output_correctness_is_not_acceptance) ... ok
+test_empty_denominators_are_null (test_evaluation_v2.RuntimeAndMetricsTests.test_empty_denominators_are_null) ... ok
+test_explicit_preprocessing_and_ocr_failures_are_separate (test_evaluation_v2.RuntimeAndMetricsTests.test_explicit_preprocessing_and_ocr_failures_are_separate) ... ok
+test_failure_reporting_lists_overlap_without_merging_review (test_evaluation_v2.RuntimeAndMetricsTests.test_failure_reporting_lists_overlap_without_merging_review) ... ok
+test_gallery_uses_only_declared_development_images (test_evaluation_v2.RuntimeAndMetricsTests.test_gallery_uses_only_declared_development_images) ... ok
+test_historical_artifact_integrity (test_evaluation_v2.RuntimeAndMetricsTests.test_historical_artifact_integrity) ... ok
+test_invalid_has_no_fabricated_cer_or_reference (test_evaluation_v2.RuntimeAndMetricsTests.test_invalid_has_no_fabricated_cer_or_reference) ... ok
+test_invalid_t1_edits_are_unscorable_not_claimed_correct (test_evaluation_v2.RuntimeAndMetricsTests.test_invalid_t1_edits_are_unscorable_not_claimed_correct) ... ok
+test_pairing_requires_identical_raw_reuse_and_ids (test_evaluation_v2.RuntimeAndMetricsTests.test_pairing_requires_identical_raw_reuse_and_ids) ... ok
+test_parent_macro_and_worst_cases (test_evaluation_v2.RuntimeAndMetricsTests.test_parent_macro_and_worst_cases) ... ok
+test_review_is_not_rejection (test_evaluation_v2.RuntimeAndMetricsTests.test_review_is_not_rejection) ... ok
+test_runtime_rendering_extractor_ignores_ground_truth (test_evaluation_v2.RuntimeAndMetricsTests.test_runtime_rendering_extractor_ignores_ground_truth) ... ok
+test_t1_gate_and_raw_reason_preservation (test_evaluation_v2.RuntimeAndMetricsTests.test_t1_gate_and_raw_reason_preservation) ... ok
+test_three_way_confusion_and_critical_denominators (test_evaluation_v2.RuntimeAndMetricsTests.test_three_way_confusion_and_critical_denominators) ... ok
+test_unknown_rendering_does_not_force_t1_correction (test_evaluation_v2.RuntimeAndMetricsTests.test_unknown_rendering_does_not_force_t1_correction) ... ok
+test_validity_does_not_change_runtime_decision (test_evaluation_v2.RuntimeAndMetricsTests.test_validity_does_not_change_runtime_decision) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 2.493s
+
+OK

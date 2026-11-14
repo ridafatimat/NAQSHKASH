@@ -1,0 +1,9 @@
+{
+  "policy_version": "f1_ocr_uncertainty_v2",
+  "ocr_only_violation_action": "REVIEW_UNCERTAIN",
+  "independent_invalid_preprocessing_statuses": ["unreadable", "no_ink"],
+  "applies_to": ["F1", "F2"],
+  "scope": "Decision mapping only; canonical Talim rules and F0 remain unchanged.",
+  "development_basis": "Four confirmed wrong-tier OCR errors from saved 776-image development observations. No evaluation outcomes used.",
+  "thresholds": "No confidence or length-dependent thresholds are introduced."
+}

@@ -1,0 +1,5 @@
+{
+  "manifests\\development_manifest.csv": "1a1ca5d52eee460ee4efd3226e4507813c74fdcf268882e0072853f022a51d64",
+  "manifests\\evaluation_manifest.csv": "22f18e265817a004406b91c28505bbae0adf69ad3b56a40d2c4406fdb326d90c",
+  "manifests\\negative_inventory.csv": "218f5f15f1a03fdf9c8da7546cc43dca231a861353be61b0ffc1314964c44fb3"
+}

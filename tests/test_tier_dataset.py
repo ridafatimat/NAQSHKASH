@@ -8,7 +8,7 @@ from data.tier_dataset import (
 
 
 DATASET_PATH = Path(
-    r"C:\FYP Dataset Generation\Day4_tier_dataset\train"
+    "datasets/Day4_tier_dataset/train"
 )
 
 

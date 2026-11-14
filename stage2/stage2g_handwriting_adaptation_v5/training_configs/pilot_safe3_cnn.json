@@ -1,0 +1,22 @@
+{
+  "name": "cnn",
+  "groups": [
+    "cnn"
+  ],
+  "lr_cnn": 0.0001,
+  "lr_rnn": 3e-05,
+  "lr_classifier": 3e-05,
+  "augmentation_version": "safe3",
+  "heldout": "W04",
+  "max_steps": 400,
+  "min_steps": 400,
+  "patience": 4,
+  "generated_only": false,
+  "without_review": false,
+  "BN": "running statistics update on mixed training domains",
+  "warmup": 100,
+  "clip": "first 50 observed norms: no clipping; then rolling 95th percentile times 1.2",
+  "KL_weight": 0.5,
+  "loss": "CTC mean reduction: negative log likelihood divided by target length",
+  "selection": "heldout writer CER, then no-whitespace CER, then exact tiers; never W05"
+}

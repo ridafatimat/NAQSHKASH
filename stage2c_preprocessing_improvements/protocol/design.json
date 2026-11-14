@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "retention_min": 0.98,
+  "contamination_max": 0.02,
+  "reference": "Audited renderer slots (padding24, gap8, rowgap20), verified all clean ink and tier presence; nearest-neighbour label-only recorded geometric transforms offline; no regenerated datasets.",
+  "selection": "Rank candidate configurations only on tuning parents. Highest correctly segmented scanned-page fraction; then lowest wrong acceptance, then common-subset CER; validation not used in selection.",
+  "claims": "Development validation, not an independent test. General sources remain exploratory. Exposed Stage2A/2B positive tests and general Stage2B parents excluded.",
+  "split_summary": {
+    "tuning": {
+      "positive": 182,
+      "general": 100,
+      "normal": 0
+    },
+    "validation": {
+      "positive": 46,
+      "general": 50,
+      "normal": 0
+    },
+    "clean_regression": {
+      "positive": 0,
+      "general": 0,
+      "normal": 100
+    }
+  },
+  "page_count": 1612,
+  "parent_count": 478,
+  "exposed_parent_exclusion_count": 150,
+  "candidate_ids": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ]
+}

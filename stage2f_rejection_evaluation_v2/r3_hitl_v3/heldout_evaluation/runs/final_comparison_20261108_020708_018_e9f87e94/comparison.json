@@ -1,0 +1,315 @@
+{
+  "policy_id": "R3_HITL_V3",
+  "release_sha256": "c64da891572188113f2ad9962892f4b022d978b18696841b1b1a3b8c42e292d3",
+  "development": {
+    "images": 2800,
+    "valid_denominator": 1400,
+    "invalid_denominator": 1400,
+    "three_way_confusion": {
+      "VALID": {
+        "ACCEPT": 1318,
+        "REJECT_INVALID": 0,
+        "REVIEW_UNCERTAIN": 82
+      },
+      "INVALID": {
+        "ACCEPT": 48,
+        "REJECT_INVALID": 0,
+        "REVIEW_UNCERTAIN": 1352
+      }
+    },
+    "true_invalid_rejection_rate": 0.0,
+    "invalid_accepted_rate": 0.03428571428571429,
+    "invalid_review_rate": 0.9657142857142857,
+    "invalid_images_incorrectly_accepted_as_valid": 48,
+    "invalid_interpreted_syntax_passes": 896,
+    "invalid_interpreted_syntax_pass_rate": 0.64,
+    "valid_acceptance_rate": 0.9414285714285714,
+    "false_definitive_rejection_rate": 0.0,
+    "valid_review_rate": 0.05857142857142857,
+    "review_rate": 0.5121428571428571,
+    "exact_transcription_accuracy": 0.9371428571428572,
+    "raw_exact_transcription_accuracy": 0.9285714285714286,
+    "valid_raw_CER": 0.02392733564013841,
+    "valid_interpreted_CER": 0.023823529411764705,
+    "valid_transcription_denominator": 1400,
+    "valid_character_denominator": 173400,
+    "accepted_output_transcription_correctness": 0.9954476479514416,
+    "accepted_transcription_denominator": 1318,
+    "valid_end_to_end_page_correctness": 0.9371428571428572,
+    "semantic_expected_outcome_accuracy": 0.4707142857142857,
+    "preprocessing_failures": 0,
+    "D1_segmentation_failures": 30,
+    "OCR_decoding_failures": 0,
+    "pipeline_exceptions": 0,
+    "raw_wrong_tier_images": 522,
+    "wrong_tier_reviews": 498,
+    "corrected_images": 24,
+    "contextual_edits": 36,
+    "correct_T1_edits": 18,
+    "incorrect_T1_edits": 0,
+    "unknown_or_unscorable_T1_edits": 18,
+    "valid_images_with_worsened_edits": 0,
+    "rule_trigger_image_counts": {
+      "R3_COMPLETE_TEXT_CONTRADICTION": 782,
+      "OBSERVABLE_CHECKS_PASSED": 2272,
+      "DECODED_UNSUPPORTED_OR_WRONG_TIER_GLYPH": 498,
+      "R2_INTERNAL_DECODED_COUNT_GAP": 114,
+      "D1_NO_SAFE_PROPOSAL": 30,
+      "R3_ROW_TOTAL_CONFLICT": 16
+    },
+    "source_parents": 700,
+    "macro_parent": {
+      "true_invalid_rejection_rate": 0.0,
+      "invalid_accepted_rate": 0.03428571428571429,
+      "valid_acceptance_rate": 0.9414285714285714,
+      "false_definitive_rejection_rate": 0.0,
+      "invalid_review_rate": 0.9657142857142857,
+      "valid_review_rate": 0.05857142857142857,
+      "exact_transcription_accuracy": 0.9371428571428572,
+      "accepted_output_transcription_correctness": 0.9954545454545455,
+      "valid_interpreted_CER": 0.010570941668971144
+    },
+    "parent_worst_case_counts": {
+      "unresolved_review": 673,
+      "critical_failure": 27
+    },
+    "outcome_counts_and_rates": {
+      "VALID": {
+        "ACCEPT": {
+          "count": 1318,
+          "rate": 0.9414285714285714
+        },
+        "REVIEW_UNCERTAIN": {
+          "count": 82,
+          "rate": 0.05857142857142857
+        },
+        "REJECT_INVALID": {
+          "count": 0,
+          "rate": 0.0
+        }
+      },
+      "INVALID": {
+        "ACCEPT": {
+          "count": 48,
+          "rate": 0.03428571428571429
+        },
+        "REVIEW_UNCERTAIN": {
+          "count": 1352,
+          "rate": 0.9657142857142857
+        },
+        "REJECT_INVALID": {
+          "count": 0,
+          "rate": 0.0
+        }
+      }
+    }
+  },
+  "validation": {
+    "images": 600,
+    "valid_denominator": 300,
+    "invalid_denominator": 300,
+    "three_way_confusion": {
+      "VALID": {
+        "ACCEPT": 270,
+        "REJECT_INVALID": 0,
+        "REVIEW_UNCERTAIN": 30
+      },
+      "INVALID": {
+        "ACCEPT": 12,
+        "REJECT_INVALID": 0,
+        "REVIEW_UNCERTAIN": 288
+      }
+    },
+    "true_invalid_rejection_rate": 0.0,
+    "invalid_accepted_rate": 0.04,
+    "invalid_review_rate": 0.96,
+    "invalid_images_incorrectly_accepted_as_valid": 12,
+    "invalid_interpreted_syntax_passes": 207,
+    "invalid_interpreted_syntax_pass_rate": 0.69,
+    "valid_acceptance_rate": 0.9,
+    "false_definitive_rejection_rate": 0.0,
+    "valid_review_rate": 0.1,
+    "review_rate": 0.53,
+    "exact_transcription_accuracy": 0.8866666666666667,
+    "raw_exact_transcription_accuracy": 0.8666666666666667,
+    "valid_raw_CER": 0.11572142496905231,
+    "valid_interpreted_CER": 0.11553803126862593,
+    "valid_transcription_denominator": 300,
+    "valid_character_denominator": 43622,
+    "accepted_output_transcription_correctness": 0.9851851851851852,
+    "accepted_transcription_denominator": 270,
+    "valid_end_to_end_page_correctness": 0.8866666666666667,
+    "semantic_expected_outcome_accuracy": 0.45,
+    "preprocessing_failures": 0,
+    "D1_segmentation_failures": 28,
+    "OCR_decoding_failures": 0,
+    "pipeline_exceptions": 0,
+    "raw_wrong_tier_images": 89,
+    "wrong_tier_reviews": 77,
+    "corrected_images": 12,
+    "contextual_edits": 16,
+    "correct_T1_edits": 8,
+    "incorrect_T1_edits": 0,
+    "unknown_or_unscorable_T1_edits": 8,
+    "valid_images_with_worsened_edits": 0,
+    "rule_trigger_image_counts": {
+      "DECODED_UNSUPPORTED_OR_WRONG_TIER_GLYPH": 77,
+      "OBSERVABLE_CHECKS_PASSED": 495,
+      "R3_COMPLETE_TEXT_CONTRADICTION": 191,
+      "D1_NO_SAFE_PROPOSAL": 28,
+      "R2_INTERNAL_DECODED_COUNT_GAP": 16,
+      "R3_ROW_TOTAL_CONFLICT": 6
+    },
+    "source_parents": 150,
+    "macro_parent": {
+      "true_invalid_rejection_rate": 0.0,
+      "invalid_accepted_rate": 0.04,
+      "valid_acceptance_rate": 0.9,
+      "false_definitive_rejection_rate": 0.0,
+      "invalid_review_rate": 0.96,
+      "valid_review_rate": 0.1,
+      "exact_transcription_accuracy": 0.8866666666666667,
+      "accepted_output_transcription_correctness": 0.9851851851851852,
+      "valid_interpreted_CER": 0.04197817384524879
+    },
+    "parent_worst_case_counts": {
+      "unresolved_review": 142,
+      "critical_failure": 8
+    },
+    "outcome_counts_and_rates": {
+      "VALID": {
+        "ACCEPT": {
+          "count": 270,
+          "rate": 0.9
+        },
+        "REJECT_INVALID": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "REVIEW_UNCERTAIN": {
+          "count": 30,
+          "rate": 0.1
+        }
+      },
+      "INVALID": {
+        "ACCEPT": {
+          "count": 12,
+          "rate": 0.04
+        },
+        "REJECT_INVALID": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "REVIEW_UNCERTAIN": {
+          "count": 288,
+          "rate": 0.96
+        }
+      }
+    }
+  },
+  "protected_test": {
+    "images": 600,
+    "valid_denominator": 300,
+    "invalid_denominator": 300,
+    "three_way_confusion": {
+      "VALID": {
+        "ACCEPT": 274,
+        "REJECT_INVALID": 0,
+        "REVIEW_UNCERTAIN": 26
+      },
+      "INVALID": {
+        "ACCEPT": 6,
+        "REJECT_INVALID": 0,
+        "REVIEW_UNCERTAIN": 294
+      }
+    },
+    "true_invalid_rejection_rate": 0.0,
+    "invalid_accepted_rate": 0.02,
+    "invalid_review_rate": 0.98,
+    "invalid_images_incorrectly_accepted_as_valid": 6,
+    "invalid_interpreted_syntax_passes": 204,
+    "invalid_interpreted_syntax_pass_rate": 0.68,
+    "valid_acceptance_rate": 0.9133333333333333,
+    "false_definitive_rejection_rate": 0.0,
+    "valid_review_rate": 0.08666666666666667,
+    "review_rate": 0.5333333333333333,
+    "exact_transcription_accuracy": 0.9,
+    "raw_exact_transcription_accuracy": 0.8866666666666667,
+    "valid_raw_CER": 0.12256630755108942,
+    "valid_interpreted_CER": 0.1224696845258225,
+    "valid_transcription_denominator": 300,
+    "valid_character_denominator": 41398,
+    "accepted_output_transcription_correctness": 0.9854014598540146,
+    "accepted_transcription_denominator": 274,
+    "valid_end_to_end_page_correctness": 0.9,
+    "semantic_expected_outcome_accuracy": 0.45666666666666667,
+    "preprocessing_failures": 0,
+    "D1_segmentation_failures": 24,
+    "OCR_decoding_failures": 0,
+    "pipeline_exceptions": 0,
+    "raw_wrong_tier_images": 98,
+    "wrong_tier_reviews": 90,
+    "corrected_images": 8,
+    "contextual_edits": 8,
+    "correct_T1_edits": 4,
+    "incorrect_T1_edits": 0,
+    "unknown_or_unscorable_T1_edits": 4,
+    "valid_images_with_worsened_edits": 0,
+    "rule_trigger_image_counts": {
+      "OBSERVABLE_CHECKS_PASSED": 486,
+      "DECODED_UNSUPPORTED_OR_WRONG_TIER_GLYPH": 90,
+      "R3_COMPLETE_TEXT_CONTRADICTION": 181,
+      "D1_NO_SAFE_PROPOSAL": 24,
+      "R2_INTERNAL_DECODED_COUNT_GAP": 25
+    },
+    "source_parents": 150,
+    "macro_parent": {
+      "true_invalid_rejection_rate": 0.0,
+      "invalid_accepted_rate": 0.02,
+      "valid_acceptance_rate": 0.9133333333333333,
+      "false_definitive_rejection_rate": 0.0,
+      "invalid_review_rate": 0.98,
+      "valid_review_rate": 0.08666666666666667,
+      "exact_transcription_accuracy": 0.9,
+      "accepted_output_transcription_correctness": 0.9854014598540146,
+      "valid_interpreted_CER": 0.046761863803081144
+    },
+    "parent_worst_case_counts": {
+      "unresolved_review": 145,
+      "critical_failure": 5
+    },
+    "outcome_counts_and_rates": {
+      "VALID": {
+        "ACCEPT": {
+          "count": 274,
+          "rate": 0.9133333333333333
+        },
+        "REJECT_INVALID": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "REVIEW_UNCERTAIN": {
+          "count": 26,
+          "rate": 0.08666666666666667
+        }
+      },
+      "INVALID": {
+        "ACCEPT": {
+          "count": 6,
+          "rate": 0.02
+        },
+        "REJECT_INVALID": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "REVIEW_UNCERTAIN": {
+          "count": 294,
+          "rate": 0.98
+        }
+      }
+    }
+  },
+  "validation_completion_sha256": "1e5a5564b789dfba075d636cdd5b22e22a606324eba4cf6017bfa63e595648ab",
+  "protected_completion_sha256": "5ce156fc388a2a6181b6929f71f578b7856d9aeeb768d972671acbbb18a9fddb",
+  "limitations": "Synthetic fixed-grid Talim; three mutation categories; REVIEW is not definitive REJECT; OCR can normalize wrong-tier glyphs; no expert validation or physical carpet alignment established"
+}

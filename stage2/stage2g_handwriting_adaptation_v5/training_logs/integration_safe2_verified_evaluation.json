@@ -1,0 +1,24 @@
+[
+  {
+    "step": 2,
+    "metrics": {
+      "tiers": 10,
+      "characters": 60,
+      "nonspace_characters": 42,
+      "errors": 40,
+      "cer": 0.6666666666666666,
+      "cer_no_whitespace": 0.8095238095238095,
+      "exact_tiers": 1,
+      "exact_accuracy": 0.1,
+      "substitutions": 33,
+      "deletions": 2,
+      "insertions": 5,
+      "no_space_substitutions": 32,
+      "no_space_deletions": 2,
+      "no_space_insertions": 0,
+      "mean_ctc_loss": 6.623415863513946
+    },
+    "handwritten_eval_per_character_CTC": 6.711718718210856,
+    "clipping_rate": 0.0
+  }
+]

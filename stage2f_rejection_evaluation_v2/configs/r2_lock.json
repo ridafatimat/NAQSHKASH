@@ -1,0 +1,13 @@
+{
+  "configs/r2_preservation_lock.json": "fcc6573051603d578d3f9de9aef4dc4aeac171a9279724a4a294b18033bbe1f7",
+  "reports/diagnosis_counts.json": "7a6da7949b3cfb767a52edc21619b776e9fc309c4efc7237cb27bc5f54596960",
+  "reports/failure_causes.csv": "6687582b66b764da3efd594d7d3a035ca02d67b08e77bf98079cdc8ebc66d34c",
+  "reports/r2_verification.json": "0b0c0d5c3d85279aa4d18d000d029a43918d8439271ff610076c1ecaa62c8f94",
+  "reports/representative_pairs.png": "706dac3387225063724c88d27682070c6a6050fc39b2aa5ed6fd13b70c1648c5",
+  "reports/root_cause_diagnosis.md": "2bc8dce8380b2c0896a4795afa212848f5e51640fcb96451fdecefbe0186e37e",
+  "RUN_R2_IN_VSCODE.md": "d6ef2af6eeb3ea288992dcdfe2a4634a21634e1f0d86125528a5894c6e3dc942",
+  "src/diagnose_saved.py": "71330476c9b4c4fdfe588b67a206eea4bc31b05fc883e955524080dd0d0fe69c",
+  "src/evaluate_r2.py": "b39621cad7d7b6d6a032cc9e068ec4a98444eddd74429b93e86209d969b6893d",
+  "src/r2_structural.py": "1595cd081feb5608f9b90658fac747192bf6b37638777a5cdcad712a5eca641a",
+  "tests/test_r2_structural.py": "725940c65cdaa49e114e5b58773efdfc977d4be0918c5cca8672218497105527"
+}

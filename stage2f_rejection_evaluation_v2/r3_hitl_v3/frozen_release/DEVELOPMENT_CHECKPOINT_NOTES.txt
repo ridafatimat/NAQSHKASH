@@ -1,0 +1,31 @@
+﻿NAQSHKASH Stage 2F - Development Checkpoint
+Date: 2026-11-07
+
+Policy: R3_HITL_V3
+
+Development results:
+Valid ACCEPT: 1318 / 1400
+Valid REVIEW: 82 / 1400
+Valid REJECT: 0
+
+Invalid ACCEPT: 48 / 1400
+Invalid REVIEW: 1352 / 1400
+Invalid REJECT: 0
+
+Stage 1 decision differences: 0
+R2 REVIEW decisions preserved: 636
+
+Checkpoint status:
+Development approved; final freeze pending.
+Validation: NOT RUN.
+Protected test: NOT RUN.
+
+Proposed ink-offset experiment claims, pending verification:
+Exact tier offsets: 16434 / 16442
+Ambiguous valid images resolved: 138
+Invalid ACCEPT after offset: approximately 32 / 1400
+
+Important:
+Do not treat proposed offset figures as verified.
+Do not run held-out evaluation before the final policy is selected.
+Do not select arbitrary alignments for carpet generation.

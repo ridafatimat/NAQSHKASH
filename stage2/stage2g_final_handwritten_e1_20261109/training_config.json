@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.0001,
+  "epochs": 2,
+  "microbatch": 1,
+  "effective_batch": 4,
+  "handwritten_per_update": 2,
+  "replay_per_update": 2,
+  "augmentations": "none",
+  "batchnorm": "frozen running statistics, affine trainable",
+  "selection": "lowest handwritten CER, tie no-space CER; report all regression; readiness requires clean CER delta <=0.001 and positive delta <=0.005",
+  "frozen_e1_sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+  "status": "PROVISIONAL"
+}
