@@ -1,0 +1,11 @@
+{
+  "accepted": 200,
+  "failures": 15,
+  "dot_component_guard": true,
+  "all_component_guard": true,
+  "body_hole_guard": true,
+  "full_ink_support_inside_frame": true,
+  "optional_unconfirmed_variants": false,
+  "real_training_only": true,
+  "darkness_measurement": "Median grayscale at distance-transform ridges; blackpoint separately reported"
+}
