@@ -1,0 +1,4 @@
+{
+  "status": "RESOLVED before baseline/training",
+  "details": "Audit adapter corrected metadata naming: test equals protected_test; existing clean validation cohort permits split=validation. All 3266 audit checks subsequently passed. No dataset integrity defect found."
+}
