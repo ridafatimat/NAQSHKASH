@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "training_writers": [
+    "W01",
+    "W03",
+    "W04",
+    "W06"
+  ],
+  "W05_selection": false,
+  "forbidden_images_opened": false,
+  "counts": {
+    "original": 105,
+    "augmented": 2413
+  },
+  "audit_archive_sha256": "98e10512c7541d04328b0282744be5813704760f4e6f85a99203ef797fdf6eec",
+  "gates": {
+    "minimum_error_reduction": 3,
+    "clean_cer_delta": 0.001,
+    "clean_exact_drop": 0.01,
+    "positive_cer_delta": 0.005,
+    "long_cer_delta": 0.005
+  },
+  "optional_unconfirmed_variants": false
+}
