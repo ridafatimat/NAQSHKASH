@@ -1,0 +1,10 @@
+test_historical_clean_preprocessing_unchanged (__main__.Regression) ... ok
+test_hough_old_and_new_return_shapes (__main__.Regression) ... ok
+test_image_only_segmentation_and_blank (__main__.Regression) ... ok
+test_no_hough_lines_safe_fallback (__main__.Regression) ... ok
+test_no_unverified_scoring_or_silent_page_omission (__main__.Regression) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.072s
+
+OK
