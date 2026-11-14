@@ -35,4 +35,11 @@ outputs/
 checkpoints/
 *.pt
 *.pth
-*.ckpt
+*.ckpt*.npz
+*.bak
+*.lock
+**/per_image.jsonl
+**/observations.jsonl
+**/records/
+**/assets/
+**/metrics/*/results.json
