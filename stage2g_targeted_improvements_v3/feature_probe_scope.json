@@ -1,0 +1,19 @@
+{
+  "training_tiers": 16,
+  "synthetic_tiers": 31,
+  "classes": [
+    "C",
+    "D",
+    "K",
+    "P",
+    "R",
+    "S",
+    "V",
+    "W",
+    "X",
+    "Z",
+    "[",
+    "_"
+  ],
+  "scope": "Only original training-writer isolated-single-character tiers and existing synthetic development tiers. H lacks a matched single-class control and is excluded from this descriptive probe, not from OCR evaluation. No W05 class centroid fitting. No count-tier isolated glyph correspondence is available; count localization uses posterior/whole-tier evidence instead."
+}
