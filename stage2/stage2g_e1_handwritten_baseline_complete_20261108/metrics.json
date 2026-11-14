@@ -1,0 +1,75 @@
+﻿{
+    "status":  "PROVISIONAL_ALIGNMENT_UNVERIFIED",
+    "checkpoint":  "stage2/stage2e_finetuning/checkpoints/selected_model/best.pt",
+    "checkpoint_sha256":  "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+    "source_photographs_attempted":  3,
+    "source_photographs_with_candidate_inference":  3,
+    "sources_scored":  0,
+    "expected_nonempty_tiers":  14,
+    "segmented_candidate_tiers":  15,
+    "verified_segmented_tiers":  0,
+    "successfully_inferred_candidate_tiers":  15,
+    "ocr_inference_failures":  0,
+    "tiers_scored":  0,
+    "cer":  null,
+    "exact_tier_accuracy":  null,
+    "substitutions":  null,
+    "deletions":  null,
+    "insertions":  null,
+    "per_source":  [
+                       {
+                           "source_id":  "all_003191",
+                           "expected_tiers":  6,
+                           "candidate_tiers":  6,
+                           "d1_rejected":  false,
+                           "d1_reason":  "",
+                           "cer":  null,
+                           "exact_tier_accuracy":  null,
+                           "scoring_exclusion":  "D1 falsely accepts a layout whose bands/roles do not match the visible writing. Adaptation separates two count rows but lower row 2 collapses to a narrow pair of strokes; other small marks overlap the count band. Full tier contents are not isolated.",
+                           "successfully_inferred_candidates":  6,
+                           "verified_segmented_tiers":  0
+                       },
+                       {
+                           "source_id":  "all_003556",
+                           "expected_tiers":  3,
+                           "candidate_tiers":  3,
+                           "d1_rejected":  true,
+                           "d1_reason":  "bands:unresolved_vertical_merge",
+                           "cer":  null,
+                           "exact_tier_accuracy":  null,
+                           "scoring_exclusion":  "D1 rejects unresolved vertical merge. Adapted count candidate clips the first glyph and omits the right-hand glyphs; curved count descenders enter the lower candidate. Faint blue ink is not consistently recovered.",
+                           "successfully_inferred_candidates":  3,
+                           "verified_segmented_tiers":  0
+                       },
+                       {
+                           "source_id":  "all_009197",
+                           "expected_tiers":  5,
+                           "candidate_tiers":  6,
+                           "d1_rejected":  true,
+                           "d1_reason":  "grammar:no_legal_layout",
+                           "cer":  null,
+                           "exact_tier_accuracy":  null,
+                           "scoring_exclusion":  "D1 rejects no legal layout. Adaptation splits count descenders and sloped adjacent tiers across boundaries; it creates an extra lower candidate for row 2, whose reference lower tier is empty. A raw pen fragment is not proof of an annotation error.",
+                           "successfully_inferred_candidates":  6,
+                           "verified_segmented_tiers":  0
+                       }
+                   ],
+    "expected_logical_rows":  5,
+    "expected_tier_slots_including_empty":  15,
+    "expected_empty_tiers":  1,
+    "segmentation_failures":  3,
+    "d1_rejected_sources":  2,
+    "d1_false_accepted_sources_after_visual_review":  1,
+    "unreliable_adaptation_sources":  3,
+    "scoring_excluded_candidate_tiers":  15,
+    "regression_tests":  {
+                             "passed":  5,
+                             "failed":  0
+                         },
+    "prediction_frequencies":  {
+                                   "Y":  14,
+                                   "X":  1
+                               },
+    "metric_definition":  "Stage 2E: micro CER=(S+D+I)/reference characters; exact-tier accuracy=full-string matches/scored tiers; preserve internal spaces, remove leading layout offset. No metrics computed without verified crop-role alignment.",
+    "alignment_status":  "NOT_VERIFIED; no original label correction established"
+}
