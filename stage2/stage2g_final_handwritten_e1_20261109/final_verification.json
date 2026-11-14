@@ -1,0 +1,14 @@
+{
+  "all_import_checks_pass": true,
+  "selected_checkpoint_sha256": true,
+  "frozen_E1_unchanged": true,
+  "reused_software_unchanged": true,
+  "handwritten_exposures": true,
+  "all_165_training_tiers_used": true,
+  "replay_exposures": true,
+  "no_validation_training": true,
+  "baseline_coverage_and_metric": true,
+  "epoch_1_coverage_and_metric": true,
+  "epoch_2_coverage_and_metric": true,
+  "training_steps": true
+}
