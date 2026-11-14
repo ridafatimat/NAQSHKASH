@@ -1,0 +1,12 @@
+test_frozen_e1_and_vocabulary (__main__.main.<locals>.ValidationTests) ... ok
+test_mapping_and_hashes (__main__.main.<locals>.ValidationTests) ... ok
+test_metrics_and_whitespace (__main__.main.<locals>.ValidationTests) ... ok
+test_no_failures_and_training_metadata (__main__.main.<locals>.ValidationTests) ... ok
+test_rephotograph_current (__main__.main.<locals>.ValidationTests) ... ok
+test_split_isolation (__main__.main.<locals>.ValidationTests) ... ok
+test_validation_coverage (__main__.main.<locals>.ValidationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.330s
+
+OK
