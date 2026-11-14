@@ -1,0 +1,10 @@
+{
+  "status": "PROVISIONAL",
+  "new_training": false,
+  "primary_tiers": 14,
+  "source_of_old_metrics": "C:\\NAQSHKASH\\stage2\\stage2g_writer_independent_finetune_v2",
+  "protected_writers_images_used": false,
+  "role_constraints_directly_motivated_by_invalid_role_emissions": true,
+  "weight_shrinkage_directly_motivated_by_B_D_regression": true,
+  "all_saved_W05_predictions_reproduced": true
+}

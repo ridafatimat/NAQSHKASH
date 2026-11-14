@@ -1,0 +1,15 @@
+﻿id,writer_id,source_id,role,truth,A_prediction,B_prediction,C_prediction,D_prediction
+all_003801_row_00_count,W05,all_003801,count,|bee,{ii,{i{c,{ii,zid
+all_003801_row_00_lower,W05,all_003801,lower,X [S,X GS,X [S,X GS,X [S
+all_003801_row_01_upper,W05,all_003801,upper,K   K   HI,^   L   F\,^   _   F\,^   L   F\,^   _   F\
+all_003801_row_01_count,W05,all_003801,count,xbjgdjdcjaa,oceibbccaa,oce{a{ccaa,{baiabccaa,{cag{abcaaa
+all_003801_row_01_lower,W05,all_003801,lower,X  R U  V,X Z R Z,X Z R S,X Z R Z,X Z R Z
+all_003801_row_02_upper,W05,all_003801,upper,E   C,Z   Y,Z   Y,Z   Y,Z   Y
+all_003801_row_02_count,W05,all_003801,count,xakekf,rahd,rahioo,rahdo,)ahdo
+all_003801_row_02_lower,W05,all_003801,lower,[,G,G,G,C
+all_003801_row_03_upper,W05,all_003801,upper,K     F   IB,D  H H,D  H HH,D   H,D   H HH
+all_003801_row_03_count,W05,all_003801,count,ofnamcekehca,ofcaeiiiQaiE,ofcaeiccQaQF,ofcaeiiiQaQE,ofcaiccQaQF
+all_003801_row_03_lower,W05,all_003801,lower,^ W  W ^,_ \ \_,_ W Q_,_ \ \_,_ W \_
+all_003191_row_00_upper,W05,all_003191,upper,P    F,F   ,F   H,F   ,L   H
+all_003191_row_00_count,W05,all_003191,count,slijdfa,ziiq{|ca,ziiM{|a,ziii{Ia,zii'{fa
+all_003191_row_00_lower,W05,all_003191,lower,R ]  V,F J  V,F J  V,F ]  V,F ]  V

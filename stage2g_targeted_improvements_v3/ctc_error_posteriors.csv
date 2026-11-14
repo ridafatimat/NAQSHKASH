@@ -1,0 +1,309 @@
+﻿condition,id,role,operation,reference,predicted,reference_index,hypothesis_index,frame_start,frame_end,peak_frame,reference_probability_at_peak,predicted_probability_at_peak,blank_mean_on_span,reference_rank_at_peak,span_type
+A,all_003801_row_00_count,count,deletion,|,,0,0,0,1,0,0.09333661198616028,,0.0001404401264153421,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_00_count,count,substitution,b,{,1,0,0,1,0,2.0562154077197192e-06,0.8912508487701416,0.0001404401264153421,22,observed greedy emission run
+A,all_003801_row_00_count,count,substitution,e,i,2,1,20,21,20,6.142224447103217e-05,0.9681876301765442,0.0008002534159459174,15,observed greedy emission run
+A,all_003801_row_00_count,count,substitution,e,i,3,2,28,30,28,0.0005750040290877223,0.7874780893325806,0.02419791743159294,10,observed greedy emission run
+A,all_003801_row_00_lower,lower,substitution,[,G,2,2,43,44,43,0.32184895873069763,0.6075795292854309,0.021693995222449303,2,observed greedy emission run
+A,all_003801_row_01_upper,upper,substitution,K,^,0,0,0,1,0,0.0005542177241295576,0.9914843440055847,1.2097967555746436e-05,4,observed greedy emission run
+A,all_003801_row_01_upper,upper,substitution,K,L,4,4,77,78,77,0.00023457618954125792,0.7709270119667053,0.00022423156769946218,6,observed greedy emission run
+A,all_003801_row_01_upper,upper,substitution,H,F,8,8,155,156,155,1.584468009241391e-05,0.9948182702064514,0.0003777256060857326,12,observed greedy emission run
+A,all_003801_row_01_upper,upper,substitution,I,\,9,9,178,179,178,1.8214796000393108e-06,0.9903705716133118,0.0019468864193186164,21,observed greedy emission run
+A,all_003801_row_01_count,count,deletion,x,,0,0,0,1,0,2.6783884550241055e-06,,7.294886745512486e-05,23,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_01_count,count,substitution,b,o,1,0,0,1,0,5.846598583048035e-07,0.773260772228241,7.294886745512486e-05,28,observed greedy emission run
+A,all_003801_row_01_count,count,substitution,j,c,2,1,21,22,21,1.530411395833653e-06,0.6310125589370728,0.0004223788564559072,44,observed greedy emission run
+A,all_003801_row_01_count,count,substitution,g,e,3,2,28,29,28,2.441288188492763e-06,0.813188374042511,0.00041431112913414836,25,observed greedy emission run
+A,all_003801_row_01_count,count,substitution,d,i,4,3,49,50,49,0.03533853963017464,0.48174259066581726,0.05105449631810188,6,observed greedy emission run
+A,all_003801_row_01_count,count,substitution,j,b,5,4,62,63,62,2.7821939511341043e-05,0.3927259147167206,0.002699438249692321,25,observed greedy emission run
+A,all_003801_row_01_count,count,substitution,d,b,6,5,79,80,79,0.010768167674541473,0.5656409859657288,0.0006242466624826193,7,observed greedy emission run
+A,all_003801_row_01_count,count,substitution,j,c,8,7,101,103,101,4.648839421861339e-06,0.9926803708076477,0.21940475702285767,12,observed greedy emission run
+A,all_003801_row_01_lower,lower,deletion, ,,1,1,44,46,45,0.9999634027481079,,0.006254060659557581,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_01_lower,lower,substitution,R,Z,3,2,75,76,75,4.392997539071075e-07,0.999089241027832,0.0002749491250142455,28,observed greedy emission run
+A,all_003801_row_01_lower,lower,deletion,U,,5,4,109,110,109,0.022850915789604187,,0.0013397990260273218,5,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_01_lower,lower,substitution, ,R,6,4,109,110,109,8.537654503015801e-05,0.5564100742340088,0.0013397990260273218,22,observed greedy emission run
+A,all_003801_row_01_lower,lower,substitution,V,Z,8,6,154,155,154,0.0001290267682634294,0.7842269539833069,0.0005941667477600276,15,observed greedy emission run
+A,all_003801_row_02_upper,upper,substitution,E,Z,0,0,0,1,0,4.962486400472699e-06,0.9999183416366577,1.3922276593802962e-06,4,observed greedy emission run
+A,all_003801_row_02_upper,upper,substitution,C,Y,4,4,166,167,166,0.00011637346324278042,0.9979177117347717,0.0008549617487005889,4,observed greedy emission run
+A,all_003801_row_02_count,count,substitution,x,r,0,0,0,1,0,2.780929889922845e-06,0.9971596002578735,1.5101481949386653e-06,19,observed greedy emission run
+A,all_003801_row_02_count,count,deletion,k,,2,2,31,32,31,0.045641567558050156,,0.00021376139193307608,5,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_02_count,count,deletion,e,,3,2,45,46,45,0.0002838953514583409,,0.00018846071907319129,15,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_02_count,count,substitution,k,h,4,2,31,32,31,0.045641567558050156,0.597038209438324,0.00021376139193307608,5,observed greedy emission run
+A,all_003801_row_02_count,count,substitution,f,d,5,3,45,46,45,0.0003158137551508844,0.7908042073249817,0.00018846071907319129,14,observed greedy emission run
+A,all_003801_row_02_lower,lower,substitution,[,G,0,0,0,1,0,1.5097600225999486e-05,0.897469699382782,0.0001282746670767665,22,observed greedy emission run
+A,all_003801_row_03_upper,upper,deletion,K,,0,0,0,1,0,4.200869170745136e-06,,3.1825068163016113e-06,8,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_03_upper,upper,deletion, ,,1,0,13,14,13,0.3739064037799835,,0.6260828375816345,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_03_upper,upper,deletion, ,,2,0,15,16,15,0.9992374181747437,,0.0007622824632562697,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_03_upper,upper,deletion, ,,3,0,22,25,23,0.9999845027923584,,0.0036613072734326124,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_03_upper,upper,substitution, ,D,4,0,0,1,0,7.133720281160549e-09,0.9995817542076111,3.1825068163016113e-06,36,observed greedy emission run
+A,all_003801_row_03_upper,upper,deletion,F,,6,2,73,74,73,0.0012608753750100732,,0.28557923436164856,10,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_03_upper,upper,substitution, ,H,8,3,73,74,73,1.2022615919704549e-05,0.48940902948379517,0.28557923436164856,28,observed greedy emission run
+A,all_003801_row_03_upper,upper,deletion,I,,10,5,118,119,118,0.00011627623462118208,,0.05693131312727928,22,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_03_upper,upper,substitution,B,H,11,5,118,119,118,0.00044416062883101404,0.4976819157600403,0.05693131312727928,16,observed greedy emission run
+A,all_003801_row_03_count,count,substitution,n,c,2,2,25,26,25,1.752596972437459e-06,0.7460389137268066,0.00010448032844578847,35,observed greedy emission run
+A,all_003801_row_03_count,count,substitution,m,e,4,4,47,48,47,9.320384464217568e-10,0.9735397100448608,0.018455270677804947,51,observed greedy emission run
+A,all_003801_row_03_count,count,substitution,c,i,5,5,59,61,60,0.0004842779308091849,0.9948434829711914,0.21010853350162506,4,observed greedy emission run
+A,all_003801_row_03_count,count,substitution,e,i,6,6,70,71,70,4.141509270993993e-05,0.7564570307731628,1.1701019502652343e-05,12,observed greedy emission run
+A,all_003801_row_03_count,count,substitution,k,i,7,7,78,79,78,9.159231595390338e-09,0.5141658782958984,0.00017241320165339857,51,observed greedy emission run
+A,all_003801_row_03_count,count,substitution,e,Q,8,8,90,91,90,0.0004918173654004931,0.5964778065681458,3.45263906638138e-05,6,observed greedy emission run
+A,all_003801_row_03_count,count,substitution,h,a,9,9,98,99,98,0.035223338752985,0.5939943790435791,0.042900968343019485,4,observed greedy emission run
+A,all_003801_row_03_count,count,substitution,c,i,10,10,110,112,110,0.0003637404879555106,0.8875512480735779,0.14141102135181427,12,observed greedy emission run
+A,all_003801_row_03_count,count,substitution,a,E,11,11,125,126,125,0.028614256531000137,0.6921682953834534,0.004030656535178423,5,observed greedy emission run
+A,all_003801_row_03_lower,lower,substitution,^,_,0,0,0,1,0,0.30989012122154236,0.4493391215801239,0.0004835411091335118,2,observed greedy emission run
+A,all_003801_row_03_lower,lower,deletion,W,,2,2,64,65,64,0.18406018614768982,,0.0004897360340692103,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_03_lower,lower,substitution, ,\,3,2,64,65,64,0.0005172914825379848,0.6666991114616394,0.0004897360340692103,9,observed greedy emission run
+A,all_003801_row_03_lower,lower,deletion,W,,5,4,102,103,102,0.06898009777069092,,9.87936437013559e-05,3,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003801_row_03_lower,lower,substitution, ,\,6,4,102,103,102,0.000542283640243113,0.61873859167099,9.87936437013559e-05,8,observed greedy emission run
+A,all_003801_row_03_lower,lower,substitution,^,_,7,5,127,128,127,0.003826824715360999,0.9340029358863831,0.0001567379804328084,3,observed greedy emission run
+A,all_003191_row_00_upper,upper,deletion,P,,0,0,0,1,0,6.31035845799488e-06,,4.266350515536033e-06,10,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003191_row_00_upper,upper,substitution, ,F,1,0,0,1,0,3.6889062471345824e-08,0.9893080592155457,4.266350515536033e-06,38,observed greedy emission run
+A,all_003191_row_00_upper,upper,deletion,F,,5,4,83,84,83,0.0007159044616855681,,0.7292516231536865,12,hypothetical truth-constrained Viterbi span; not a verified glyph box
+A,all_003191_row_00_count,count,substitution,s,z,0,0,0,1,0,4.731662617274424e-09,0.9913327097892761,2.3015320493868785e-06,49,observed greedy emission run
+A,all_003191_row_00_count,count,substitution,l,i,1,1,18,19,18,0.0008633973775431514,0.982390284538269,2.1189356630202383e-05,4,observed greedy emission run
+A,all_003191_row_00_count,count,insertion,,q,3,3,50,51,50,,0.7298641800880432,0.00435304082930088,,observed greedy emission run
+A,all_003191_row_00_count,count,substitution,j,{,3,4,69,70,69,4.922171683574561e-06,0.7133392691612244,0.001682450994849205,36,observed greedy emission run
+A,all_003191_row_00_count,count,substitution,d,|,4,5,83,84,83,1.0312473932572175e-06,0.434084415435791,0.021980658173561096,40,observed greedy emission run
+A,all_003191_row_00_count,count,substitution,f,c,5,6,93,94,93,2.113384667268292e-08,0.5296162366867065,0.009461806155741215,56,observed greedy emission run
+A,all_003191_row_00_lower,lower,substitution,R,F,0,0,0,1,0,1.8633523168887223e-08,0.6996645927429199,0.000866108515765518,64,observed greedy emission run
+A,all_003191_row_00_lower,lower,substitution,],J,2,2,62,63,62,0.09008930623531342,0.9097205996513367,2.6144336516154e-05,2,observed greedy emission run
+B,all_003801_row_00_count,count,substitution,|,{,0,0,0,1,0,0.33019357919692993,0.6028933525085449,0.0004345126508269459,2,observed greedy emission run
+B,all_003801_row_00_count,count,substitution,b,i,1,1,20,21,20,0.0009210732532665133,0.7725419998168945,0.00038487440906465054,8,observed greedy emission run
+B,all_003801_row_00_count,count,substitution,e,{,2,2,28,29,28,0.0003884081670548767,0.4100337326526642,0.0014336485182866454,11,observed greedy emission run
+B,all_003801_row_00_count,count,substitution,e,c,3,3,29,30,29,0.00043566754902713,0.37131592631340027,0.08923271298408508,10,observed greedy emission run
+B,all_003801_row_01_upper,upper,substitution,K,^,0,0,0,1,0,0.0012964945053681731,0.9616751670837402,2.3990069166757166e-05,4,observed greedy emission run
+B,all_003801_row_01_upper,upper,substitution,K,_,4,4,77,78,77,5.608092760667205e-05,0.734298825263977,5.914649955229834e-05,6,observed greedy emission run
+B,all_003801_row_01_upper,upper,substitution,H,F,8,8,155,156,155,4.6896941057639197e-05,0.9906594753265381,0.0004966455744579434,11,observed greedy emission run
+B,all_003801_row_01_upper,upper,substitution,I,\,9,9,178,179,178,1.0929107929769089e-06,0.985960841178894,0.0007295818068087101,27,observed greedy emission run
+B,all_003801_row_01_count,count,deletion,x,,0,0,0,1,0,6.920918167452328e-06,,4.7002067731227726e-06,17,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_01_count,count,substitution,b,o,1,0,0,1,0,1.11279085501792e-07,0.9678313136100769,4.7002067731227726e-06,31,observed greedy emission run
+B,all_003801_row_01_count,count,substitution,j,c,2,1,21,22,21,3.6607789866138774e-07,0.8515229225158691,0.000945401843637228,52,observed greedy emission run
+B,all_003801_row_01_count,count,substitution,g,e,3,2,28,29,28,8.538232236787735e-07,0.6730026602745056,0.0015395585214719176,29,observed greedy emission run
+B,all_003801_row_01_count,count,substitution,d,{,4,3,49,50,49,0.13939574360847473,0.43679624795913696,0.002831673249602318,3,observed greedy emission run
+B,all_003801_row_01_count,count,substitution,j,a,5,4,62,63,62,3.060715607716702e-05,0.431412011384964,0.0017988643376156688,25,observed greedy emission run
+B,all_003801_row_01_count,count,substitution,d,{,6,5,79,80,79,0.010775765404105186,0.8104473948478699,8.61853186506778e-05,3,observed greedy emission run
+B,all_003801_row_01_count,count,substitution,j,c,8,7,101,102,101,9.099526323552709e-07,0.9964459538459778,2.29852412303444e-06,15,observed greedy emission run
+B,all_003801_row_01_lower,lower,deletion, ,,1,1,44,45,44,0.3464057147502899,,0.6535899639129639,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_01_lower,lower,substitution,R,Z,3,2,75,76,75,2.517981272376346e-07,0.999670147895813,4.311623706598766e-05,26,observed greedy emission run
+B,all_003801_row_01_lower,lower,deletion,U,,5,4,109,110,109,0.10784052312374115,,0.000959886412601918,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_01_lower,lower,substitution, ,R,6,4,109,110,109,6.492200191132724e-05,0.5968093276023865,0.000959886412601918,23,observed greedy emission run
+B,all_003801_row_01_lower,lower,substitution,V,S,8,6,154,155,154,0.00014107595779933035,0.622180700302124,0.00019256242376286536,14,observed greedy emission run
+B,all_003801_row_02_upper,upper,substitution,E,Z,0,0,0,1,0,4.92280196340289e-06,0.9999277591705322,1.384481947752647e-06,4,observed greedy emission run
+B,all_003801_row_02_upper,upper,substitution,C,Y,4,4,165,166,165,0.0001872567954706028,0.9986287355422974,0.0004907136899419129,4,observed greedy emission run
+B,all_003801_row_02_count,count,substitution,x,r,0,0,0,1,0,1.0497314178792294e-05,0.9956915974617004,2.6536531549936626e-06,15,observed greedy emission run
+B,all_003801_row_02_count,count,substitution,k,h,2,2,31,32,31,0.044810663908720016,0.6067854166030884,0.0001883718214230612,5,observed greedy emission run
+B,all_003801_row_02_count,count,substitution,e,i,3,3,45,46,45,0.0003209553542546928,0.5580129623413086,4.5025833969702944e-05,12,observed greedy emission run
+B,all_003801_row_02_count,count,substitution,k,o,4,4,52,53,52,3.92361516787787e-06,0.7950507402420044,0.20474925637245178,10,observed greedy emission run
+B,all_003801_row_02_count,count,substitution,f,o,5,5,66,67,66,0.0005193050019443035,0.41218963265419006,0.3057383596897125,12,observed greedy emission run
+B,all_003801_row_02_lower,lower,substitution,[,G,0,0,0,1,0,1.2705119843303692e-05,0.5535251498222351,0.0002214427659055218,28,observed greedy emission run
+B,all_003801_row_03_upper,upper,deletion,K,,0,0,0,1,0,7.77386321715312e-06,,8.601287845522165e-06,9,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_03_upper,upper,deletion, ,,1,0,14,16,15,0.9999743700027466,,0.000405077007599175,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_03_upper,upper,deletion, ,,2,0,22,24,23,0.9999889135360718,,0.00020996533567085862,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_03_upper,upper,deletion, ,,3,0,25,26,25,0.02736019156873226,,0.972639799118042,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_03_upper,upper,substitution, ,D,4,0,0,1,0,6.958649123589566e-08,0.9992187023162842,8.601287845522165e-06,33,observed greedy emission run
+B,all_003801_row_03_upper,upper,deletion,F,,6,2,72,73,72,0.0014495407231152058,,0.08470895141363144,10,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_03_upper,upper,substitution, ,H,8,3,72,73,72,2.589107907624566e-06,0.7528737187385559,0.08470895141363144,38,observed greedy emission run
+B,all_003801_row_03_upper,upper,substitution,I,H,10,5,118,119,118,8.710097608854994e-05,0.539665162563324,0.03729329630732536,21,observed greedy emission run
+B,all_003801_row_03_upper,upper,substitution,B,H,11,6,134,135,134,0.00018883537268266082,0.5983749032020569,0.16386406123638153,13,observed greedy emission run
+B,all_003801_row_03_count,count,substitution,n,c,2,2,25,26,25,7.485975856980076e-07,0.9158453941345215,2.468403363309335e-05,37,observed greedy emission run
+B,all_003801_row_03_count,count,substitution,m,e,4,4,47,48,47,2.0064900851934908e-08,0.4256545901298523,0.1280229240655899,51,observed greedy emission run
+B,all_003801_row_03_count,count,substitution,c,i,5,5,59,61,59,0.007647690363228321,0.9753507971763611,0.0025053753051906824,3,observed greedy emission run
+B,all_003801_row_03_count,count,substitution,e,c,6,6,70,71,70,1.3106458027323242e-05,0.9419891238212585,5.828243047290016e-06,11,observed greedy emission run
+B,all_003801_row_03_count,count,substitution,k,c,7,7,78,79,78,1.579354780290032e-08,0.9948792457580566,6.560891051776707e-05,39,observed greedy emission run
+B,all_003801_row_03_count,count,substitution,e,Q,8,8,90,91,90,0.000642037543002516,0.5088124871253967,5.4076812375569716e-05,7,observed greedy emission run
+B,all_003801_row_03_count,count,substitution,h,a,9,9,98,99,98,0.015784485265612602,0.533769965171814,0.02981688641011715,7,observed greedy emission run
+B,all_003801_row_03_count,count,substitution,c,Q,10,10,110,111,110,0.00023084392887540162,0.7020363211631775,0.00017247762298211455,10,observed greedy emission run
+B,all_003801_row_03_count,count,substitution,a,F,11,11,125,126,125,0.04373224824666977,0.4751037657260895,0.00299965962767601,5,observed greedy emission run
+B,all_003801_row_03_lower,lower,substitution,^,_,0,0,0,1,0,0.27902865409851074,0.6840242743492126,0.0003124584909528494,2,observed greedy emission run
+B,all_003801_row_03_lower,lower,deletion, ,,3,3,65,66,65,5.0573566113598645e-05,,0.999830961227417,3,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_03_lower,lower,deletion,W,,5,4,102,103,102,0.16751666367053986,,9.057228453457355e-05,3,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003801_row_03_lower,lower,substitution, ,Q,6,4,102,103,102,0.0009477796265855432,0.5084925293922424,9.057228453457355e-05,8,observed greedy emission run
+B,all_003801_row_03_lower,lower,substitution,^,_,7,5,127,128,127,0.009462864138185978,0.9335554242134094,0.00020456849597394466,3,observed greedy emission run
+B,all_003191_row_00_upper,upper,deletion,P,,0,0,0,1,0,0.00043785793241113424,,1.3801291061099619e-05,4,hypothetical truth-constrained Viterbi span; not a verified glyph box
+B,all_003191_row_00_upper,upper,substitution, ,F,1,0,0,1,0,1.3619184358049097e-07,0.9771730899810791,1.3801291061099619e-05,34,observed greedy emission run
+B,all_003191_row_00_upper,upper,substitution,F,H,5,4,83,84,83,0.0020993396174162626,0.7543473839759827,0.06818168610334396,9,observed greedy emission run
+B,all_003191_row_00_count,count,substitution,s,z,0,0,0,1,0,1.1437417679616146e-09,0.998374342918396,1.8113537691988313e-07,46,observed greedy emission run
+B,all_003191_row_00_count,count,substitution,l,i,1,1,18,19,18,0.002204118063673377,0.9819005131721497,2.744048833847046e-05,4,observed greedy emission run
+B,all_003191_row_00_count,count,substitution,j,M,3,3,50,51,50,9.384166332893074e-05,0.22274772822856903,0.004299909807741642,24,observed greedy emission run
+B,all_003191_row_00_count,count,substitution,d,{,4,4,69,70,69,0.11602607369422913,0.7306923270225525,0.0014962272252887487,2,observed greedy emission run
+B,all_003191_row_00_count,count,substitution,f,|,5,5,83,84,83,0.09736515581607819,0.6905267238616943,0.01562517322599888,3,observed greedy emission run
+B,all_003191_row_00_lower,lower,substitution,R,F,0,0,0,1,0,8.775734805510638e-09,0.6937175989151001,0.0005825472762808204,66,observed greedy emission run
+B,all_003191_row_00_lower,lower,substitution,],J,2,2,62,63,62,0.006887488532811403,0.9930239915847778,9.444280294701457e-06,2,observed greedy emission run
+C,all_003801_row_00_count,count,deletion,|,,0,0,0,1,0,0.4357701539993286,,0.00025711196940392256,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_00_count,count,substitution,b,{,1,0,0,1,0,2.621390376589261e-05,0.4894181191921234,0.00025711196940392256,16,observed greedy emission run
+C,all_003801_row_00_count,count,substitution,e,i,2,1,20,21,20,0.00011667577200569212,0.8977901339530945,0.0014152630465105176,17,observed greedy emission run
+C,all_003801_row_00_count,count,substitution,e,i,3,2,28,29,28,0.0003172126889694482,0.8416410088539124,0.001160787302069366,12,observed greedy emission run
+C,all_003801_row_00_lower,lower,substitution,[,G,2,2,43,44,43,0.26260262727737427,0.46815675497055054,0.022588171064853668,2,observed greedy emission run
+C,all_003801_row_01_upper,upper,substitution,K,^,0,0,0,1,0,0.0005092865903861821,0.9926020503044128,1.2159392099420074e-05,4,observed greedy emission run
+C,all_003801_row_01_upper,upper,substitution,K,L,4,4,77,78,77,0.00019847073417622596,0.7348385453224182,0.00019736993999686092,5,observed greedy emission run
+C,all_003801_row_01_upper,upper,substitution,H,F,8,8,155,156,155,8.48139916342916e-06,0.997000515460968,0.00021354480122681707,11,observed greedy emission run
+C,all_003801_row_01_upper,upper,substitution,I,\,9,9,178,179,178,1.2410700946929865e-06,0.9906118512153625,0.0010644723661243916,22,observed greedy emission run
+C,all_003801_row_01_count,count,substitution,x,{,0,0,0,1,0,5.40197606824222e-06,0.8904388546943665,8.548350160708651e-05,23,observed greedy emission run
+C,all_003801_row_01_count,count,deletion,j,,2,2,28,29,28,1.051076287694741e-05,,0.0006758915260434151,18,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_01_count,count,substitution,g,a,3,2,28,29,28,5.265424078970682e-07,0.9050442576408386,0.0006758915260434151,30,observed greedy emission run
+C,all_003801_row_01_count,count,substitution,d,i,4,3,49,50,49,0.051869917660951614,0.41202688217163086,0.0028315072413533926,6,observed greedy emission run
+C,all_003801_row_01_count,count,substitution,j,a,5,4,62,63,62,2.7458092517917976e-05,0.5199432373046875,0.0014521930133923888,24,observed greedy emission run
+C,all_003801_row_01_count,count,substitution,d,b,6,5,79,80,79,0.005210197065025568,0.8276448249816895,0.00045779519132338464,7,observed greedy emission run
+C,all_003801_row_01_count,count,substitution,j,c,8,7,101,102,101,1.7081614714697935e-05,0.8688032627105713,0.00011623199679888785,15,observed greedy emission run
+C,all_003801_row_01_lower,lower,deletion, ,,1,1,44,46,45,0.9999575614929199,,0.005222881678491831,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_01_lower,lower,substitution,R,Z,3,2,75,76,75,1.2313218178405805e-07,0.9998836517333984,3.159297921229154e-05,17,observed greedy emission run
+C,all_003801_row_01_lower,lower,deletion,U,,5,4,109,110,109,0.05416936054825783,,0.0005723427166230977,4,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_01_lower,lower,substitution, ,R,6,4,109,110,109,9.955372661352158e-05,0.6747677326202393,0.0005723427166230977,21,observed greedy emission run
+C,all_003801_row_01_lower,lower,substitution,V,Z,8,6,154,155,154,6.308355659712106e-05,0.9014338254928589,0.0003201081999577582,15,observed greedy emission run
+C,all_003801_row_02_upper,upper,substitution,E,Z,0,0,0,1,0,4.5699862312176265e-06,0.999919056892395,1.3814943713441608e-06,4,observed greedy emission run
+C,all_003801_row_02_upper,upper,substitution,C,Y,4,4,165,167,166,0.00015633201110176742,0.9632329344749451,0.03967977315187454,4,observed greedy emission run
+C,all_003801_row_02_count,count,substitution,x,r,0,0,0,1,0,1.1665753845591098e-05,0.8344987034797668,2.969509114336688e-05,22,observed greedy emission run
+C,all_003801_row_02_count,count,deletion,k,,2,2,31,32,31,0.03735315799713135,,0.00014310033293440938,3,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_02_count,count,substitution,e,h,3,2,31,32,31,1.908859849208966e-05,0.718659520149231,0.00014310033293440938,27,observed greedy emission run
+C,all_003801_row_02_count,count,substitution,k,d,4,3,45,46,45,1.1979046576016117e-05,0.9010353684425354,2.805041367537342e-05,21,observed greedy emission run
+C,all_003801_row_02_count,count,substitution,f,o,5,4,66,67,66,0.005696932785212994,0.574612021446228,0.2986394464969635,8,observed greedy emission run
+C,all_003801_row_02_lower,lower,substitution,[,G,0,0,0,1,0,0.00011232609540456906,0.5829113721847534,0.0005323291406966746,17,observed greedy emission run
+C,all_003801_row_03_upper,upper,deletion,K,,0,0,0,1,0,8.618798688075913e-07,,1.2739824342133943e-06,10,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_03_upper,upper,deletion, ,,1,0,13,14,13,0.5208317637443542,,0.47915786504745483,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_03_upper,upper,deletion, ,,2,0,15,16,15,0.998580813407898,,0.0014188720379024744,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_03_upper,upper,deletion, ,,3,0,22,25,23,0.9999810457229614,,0.00373460934497416,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_03_upper,upper,deletion, ,,4,0,27,28,27,0.00017579065752215683,,0.9998242259025574,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_03_upper,upper,deletion, ,,5,0,29,30,29,0.006849593482911587,,0.9931142926216125,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_03_upper,upper,substitution,F,D,6,0,0,1,0,1.074027181857673e-06,0.9997592568397522,1.2739824342133943e-06,9,observed greedy emission run
+C,all_003801_row_03_upper,upper,deletion,I,,10,4,118,119,118,6.935294368304312e-05,,0.06728601455688477,23,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_03_upper,upper,substitution,B,H,11,4,118,119,118,0.0005735645536333323,0.4695359468460083,0.06728601455688477,16,observed greedy emission run
+C,all_003801_row_03_count,count,substitution,n,c,2,2,25,26,25,9.516573982182308e-07,0.9156139492988586,0.00022077902394812554,33,observed greedy emission run
+C,all_003801_row_03_count,count,substitution,m,e,4,4,47,48,47,7.839520699270963e-11,0.7844018340110779,0.2089061737060547,56,observed greedy emission run
+C,all_003801_row_03_count,count,substitution,c,i,5,5,59,61,60,0.0015597626334056258,0.9864088296890259,0.012259656563401222,4,observed greedy emission run
+C,all_003801_row_03_count,count,substitution,e,i,6,6,70,71,70,0.0001309442741330713,0.5469643473625183,7.57724410505034e-05,8,observed greedy emission run
+C,all_003801_row_03_count,count,substitution,k,i,7,7,78,79,78,3.65851260397676e-09,0.7245923280715942,0.004577221814543009,56,observed greedy emission run
+C,all_003801_row_03_count,count,substitution,e,Q,8,8,90,91,90,0.00044415725278668106,0.7824119925498962,2.7219115509069525e-05,5,observed greedy emission run
+C,all_003801_row_03_count,count,substitution,h,a,9,9,98,99,98,0.009790138341486454,0.8622633814811707,0.04357841983437538,5,observed greedy emission run
+C,all_003801_row_03_count,count,substitution,c,Q,10,10,110,111,110,0.0005680751637555659,0.4914129674434662,0.010818871669471264,14,observed greedy emission run
+C,all_003801_row_03_count,count,substitution,a,E,11,11,125,126,125,0.05339513346552849,0.8080799579620361,0.00783812627196312,2,observed greedy emission run
+C,all_003801_row_03_lower,lower,substitution,^,_,0,0,0,1,0,0.08468285202980042,0.8649809956550598,0.00015317850920837373,2,observed greedy emission run
+C,all_003801_row_03_lower,lower,deletion,W,,2,2,64,65,64,0.2012716382741928,,0.0003807152097579092,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_03_lower,lower,substitution, ,\,3,2,64,65,64,0.00041728460928425193,0.7254342436790466,0.0003807152097579092,8,observed greedy emission run
+C,all_003801_row_03_lower,lower,deletion,W,,5,4,102,103,102,0.053805649280548096,,7.755675324006006e-05,3,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003801_row_03_lower,lower,substitution, ,\,6,4,102,103,102,0.00041260948637500405,0.7985317707061768,7.755675324006006e-05,8,observed greedy emission run
+C,all_003801_row_03_lower,lower,substitution,^,_,7,5,127,128,127,0.001679573324508965,0.9721010327339172,5.730753400712274e-05,3,observed greedy emission run
+C,all_003191_row_00_upper,upper,deletion,P,,0,0,0,1,0,1.0043752808996942e-05,,4.02091427531559e-06,7,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003191_row_00_upper,upper,substitution, ,F,1,0,0,1,0,3.726054131902856e-08,0.9908208250999451,4.02091427531559e-06,36,observed greedy emission run
+C,all_003191_row_00_upper,upper,deletion,F,,5,4,83,84,83,0.0012868659105151892,,0.6432698369026184,12,hypothetical truth-constrained Viterbi span; not a verified glyph box
+C,all_003191_row_00_count,count,substitution,s,z,0,0,0,1,0,3.904163392576265e-08,0.9763306975364685,4.4027801777701825e-06,44,observed greedy emission run
+C,all_003191_row_00_count,count,substitution,l,i,1,1,18,19,18,0.00023452450113836676,0.9891791343688965,7.867451131460257e-06,5,observed greedy emission run
+C,all_003191_row_00_count,count,substitution,j,i,3,3,50,51,50,9.207062248606235e-05,0.3688046336174011,0.0018585027428343892,19,observed greedy emission run
+C,all_003191_row_00_count,count,substitution,d,{,4,4,69,70,69,0.06989806890487671,0.567701518535614,0.0025397546123713255,3,observed greedy emission run
+C,all_003191_row_00_count,count,substitution,f,I,5,5,83,84,83,0.22324253618717194,0.5879448056221008,0.0077160377986729145,2,observed greedy emission run
+C,all_003191_row_00_lower,lower,substitution,R,F,0,0,0,1,0,8.055190647837662e-08,0.4140883684158325,0.0011896640062332153,63,observed greedy emission run
+D,all_003801_row_00_count,count,deletion,|,,0,0,0,1,0,0.012503637000918388,,5.000483724870719e-05,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_00_count,count,substitution,b,z,1,0,0,1,0,3.327666490804404e-06,0.9736412763595581,5.000483724870719e-05,23,observed greedy emission run
+D,all_003801_row_00_count,count,substitution,e,i,2,1,20,21,20,0.00012542134209070355,0.41929638385772705,0.001209686161018908,16,observed greedy emission run
+D,all_003801_row_00_count,count,substitution,e,d,3,2,28,29,28,0.0006570842815563083,0.5961499810218811,4.2233870772179216e-05,7,observed greedy emission run
+D,all_003801_row_01_upper,upper,substitution,K,^,0,0,0,1,0,0.0006365511799231172,0.9839012026786804,1.8074830222758465e-05,4,observed greedy emission run
+D,all_003801_row_01_upper,upper,substitution,K,_,4,4,77,78,77,2.7824788048746996e-05,0.9182878136634827,6.53581737424247e-05,6,observed greedy emission run
+D,all_003801_row_01_upper,upper,substitution,H,F,8,8,155,156,155,4.707586413132958e-05,0.9811434745788574,0.0005025307764299214,12,observed greedy emission run
+D,all_003801_row_01_upper,upper,substitution,I,\,9,9,178,179,178,9.162430956166645e-07,0.9806185364723206,0.000903151580132544,32,observed greedy emission run
+D,all_003801_row_01_count,count,substitution,x,{,0,0,0,1,0,4.996817006031051e-05,0.5382708311080933,9.88663305179216e-05,15,observed greedy emission run
+D,all_003801_row_01_count,count,substitution,b,c,1,1,21,22,21,0.20420964062213898,0.38387277722358704,0.051303740590810776,2,observed greedy emission run
+D,all_003801_row_01_count,count,substitution,j,a,2,2,28,29,28,7.179821750469273e-07,0.7213295102119446,0.001522206817753613,24,observed greedy emission run
+D,all_003801_row_01_count,count,substitution,d,{,4,4,49,50,49,0.16823840141296387,0.732725977897644,7.800957246217877e-05,2,observed greedy emission run
+D,all_003801_row_01_count,count,substitution,j,a,5,5,62,63,62,2.6181762677879306e-06,0.9352773427963257,0.0003207876579836011,23,observed greedy emission run
+D,all_003801_row_01_count,count,substitution,d,b,6,6,79,80,79,0.0017216383712366223,0.5678704380989075,0.00011996790999546647,7,observed greedy emission run
+D,all_003801_row_01_count,count,substitution,j,a,8,8,101,102,101,2.4698916604393162e-05,0.534724771976471,0.00011682936747092754,20,observed greedy emission run
+D,all_003801_row_01_lower,lower,deletion, ,,1,1,44,45,44,0.6031741499900818,,0.39682042598724365,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_01_lower,lower,substitution,R,Z,3,2,75,76,75,1.750231461983276e-07,0.9999181032180786,8.72771670401562e-06,13,observed greedy emission run
+D,all_003801_row_01_lower,lower,deletion,U,,5,4,109,110,109,0.11953218281269073,,0.0005507432506419718,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_01_lower,lower,substitution, ,R,6,4,109,110,109,1.4814602764090523e-05,0.7404986023902893,0.0005507432506419718,23,observed greedy emission run
+D,all_003801_row_01_lower,lower,substitution,V,Z,8,6,154,155,154,0.0001451408170396462,0.6120790839195251,0.00021995112183503807,14,observed greedy emission run
+D,all_003801_row_02_upper,upper,substitution,E,Z,0,0,0,1,0,4.774900389747927e-06,0.999927282333374,1.3656685950991232e-06,4,observed greedy emission run
+D,all_003801_row_02_upper,upper,substitution,C,Y,4,4,165,166,165,0.00022835866548120975,0.99928879737854,0.00015341486141551286,2,observed greedy emission run
+D,all_003801_row_02_count,count,substitution,x,),0,0,0,1,0,1.0074538295157254e-05,0.7510121464729309,9.859852434601635e-05,25,observed greedy emission run
+D,all_003801_row_02_count,count,deletion,k,,2,2,31,32,31,0.05295083299279213,,0.00011291680129943416,4,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_02_count,count,substitution,e,h,3,2,31,32,31,7.453087164321914e-05,0.7546425461769104,0.00011291680129943416,21,observed greedy emission run
+D,all_003801_row_02_count,count,substitution,k,d,4,3,45,46,45,3.5985347494715825e-05,0.9865400195121765,5.667018285748782e-06,10,observed greedy emission run
+D,all_003801_row_02_count,count,substitution,f,o,5,4,65,67,66,0.0011621172307059169,0.47355952858924866,0.25134655833244324,8,observed greedy emission run
+D,all_003801_row_02_lower,lower,substitution,[,C,0,0,0,1,0,7.059069321257994e-05,0.46127399802207947,0.0006027065683156252,21,observed greedy emission run
+D,all_003801_row_03_upper,upper,deletion,K,,0,0,0,1,0,1.369393544337072e-06,,1.5630905181751586e-05,16,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_03_upper,upper,deletion, ,,1,0,14,16,15,0.999962568283081,,0.00030278629856184125,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_03_upper,upper,deletion, ,,2,0,22,24,23,0.9999814033508301,,6.685988773824647e-05,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_03_upper,upper,substitution, ,D,3,0,0,1,0,2.92455322181695e-08,0.9971458315849304,1.5630905181751586e-05,38,observed greedy emission run
+D,all_003801_row_03_upper,upper,deletion,F,,6,3,72,73,72,0.007226388435810804,,0.08704714477062225,7,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_03_upper,upper,substitution, ,H,8,4,72,73,72,2.9438861020025797e-06,0.748679518699646,0.08704714477062225,39,observed greedy emission run
+D,all_003801_row_03_upper,upper,substitution,I,H,10,6,118,119,118,6.974087591515854e-05,0.27946001291275024,0.0611288957297802,23,observed greedy emission run
+D,all_003801_row_03_upper,upper,substitution,B,H,11,7,134,135,134,0.0003685496049001813,0.4395344853401184,0.2819046974182129,10,observed greedy emission run
+D,all_003801_row_03_count,count,substitution,n,c,2,2,25,26,25,5.155011990609637e-07,0.9776256680488586,1.1074847861891612e-05,40,observed greedy emission run
+D,all_003801_row_03_count,count,substitution,m,i,4,4,59,61,59,1.731996235321276e-07,0.8832175731658936,0.0007156179053708911,46,observed greedy emission run
+D,all_003801_row_03_count,count,deletion,e,,6,6,70,71,70,5.1493501814547926e-05,,9.243689419236034e-05,12,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_03_count,count,substitution,k,c,7,6,78,79,78,3.064392046780995e-07,0.8488886952400208,0.010205595754086971,37,observed greedy emission run
+D,all_003801_row_03_count,count,substitution,e,Q,8,7,90,91,90,0.0006543762283399701,0.539319634437561,4.98450972372666e-05,7,observed greedy emission run
+D,all_003801_row_03_count,count,substitution,h,a,9,8,98,99,98,0.006854443345218897,0.8772114515304565,0.01589692197740078,5,observed greedy emission run
+D,all_003801_row_03_count,count,substitution,c,Q,10,9,110,111,110,0.00010644249414326623,0.9063541889190674,8.341447392012924e-05,13,observed greedy emission run
+D,all_003801_row_03_count,count,substitution,a,F,11,10,125,126,125,0.08995138108730316,0.47743964195251465,0.0053608613088727,3,observed greedy emission run
+D,all_003801_row_03_lower,lower,substitution,^,_,0,0,0,1,0,0.06958494335412979,0.9294588565826416,4.590902244672179e-05,2,observed greedy emission run
+D,all_003801_row_03_lower,lower,deletion, ,,3,3,65,66,65,2.22954240598483e-05,,0.9999551773071289,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_03_lower,lower,deletion,W,,5,4,102,103,102,0.05000881478190422,,0.00014190847286954522,4,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003801_row_03_lower,lower,substitution, ,\,6,4,102,103,102,0.0006694257608614862,0.5115233063697815,0.00014190847286954522,8,observed greedy emission run
+D,all_003801_row_03_lower,lower,substitution,^,_,7,5,127,128,127,0.006171057000756264,0.9912926554679871,4.5766289986204356e-05,2,observed greedy emission run
+D,all_003191_row_00_upper,upper,deletion,P,,0,0,0,1,0,0.00022670277394354343,,1.5061525118653663e-05,4,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D,all_003191_row_00_upper,upper,substitution, ,L,1,0,0,1,0,1.3362438266995014e-07,0.9726052284240723,1.5061525118653663e-05,32,observed greedy emission run
+D,all_003191_row_00_upper,upper,substitution,F,H,5,4,83,84,83,0.004903145134449005,0.563345193862915,0.09016978740692139,8,observed greedy emission run
+D,all_003191_row_00_count,count,substitution,s,z,0,0,0,1,0,7.546351810105989e-08,0.9439948201179504,2.6715758849604754e-06,41,observed greedy emission run
+D,all_003191_row_00_count,count,substitution,l,i,1,1,18,19,18,0.007745236624032259,0.8724501132965088,6.037351340637542e-05,5,observed greedy emission run
+D,all_003191_row_00_count,count,substitution,j,',3,3,50,51,50,0.0001923096860991791,0.494083434343338,0.0014172516530379653,22,observed greedy emission run
+D,all_003191_row_00_count,count,substitution,d,{,4,4,69,70,69,0.08032417297363281,0.8069517612457275,0.0007787935901433229,2,observed greedy emission run
+D,all_003191_row_00_lower,lower,substitution,R,F,0,0,0,1,0,1.4472511189467241e-08,0.7115172147750854,0.0006254648906178772,66,observed greedy emission run
+D_raw,all_003801_row_00_count,count,deletion,|,,0,0,0,1,0,0.07490209490060806,,3.6221954360371456e-05,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_00_count,count,substitution,b,z,1,0,0,1,0,3.409130295040086e-05,0.9156761169433594,3.6221954360371456e-05,12,observed greedy emission run
+D_raw,all_003801_row_00_count,count,substitution,e,i,2,1,20,21,20,0.00014472854672931135,0.6701604127883911,0.002569683128967881,17,observed greedy emission run
+D_raw,all_003801_row_00_count,count,substitution,e,i,3,2,28,29,28,0.000502812908962369,0.5124267339706421,0.0007638554670847952,10,observed greedy emission run
+D_raw,all_003801_row_00_lower,lower,substitution,[,U,2,2,43,44,43,0.16123376786708832,0.39894136786460876,0.01783042401075363,3,observed greedy emission run
+D_raw,all_003801_row_01_upper,upper,substitution,K,^,0,0,0,1,0,0.00019505739328451455,0.9979636669158936,5.756646260124398e-06,4,observed greedy emission run
+D_raw,all_003801_row_01_upper,upper,substitution,K,L,4,4,77,78,77,0.00017677769938018173,0.5837259888648987,0.00027067927294410765,6,observed greedy emission run
+D_raw,all_003801_row_01_upper,upper,substitution,H,F,8,8,155,156,155,2.0033361579407938e-05,0.9911292791366577,0.0004215049266349524,12,observed greedy emission run
+D_raw,all_003801_row_01_upper,upper,substitution,I,\,9,9,178,179,178,1.4860082728773705e-06,0.9900235533714294,0.0028777685947716236,22,observed greedy emission run
+D_raw,all_003801_row_01_count,count,substitution,x,{,0,0,0,1,0,1.1335623639752157e-05,0.9248952269554138,8.848198194755241e-05,20,observed greedy emission run
+D_raw,all_003801_row_01_count,count,deletion,j,,2,2,28,29,28,6.764339559595101e-06,,0.000764892902225256,19,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_01_count,count,substitution,g,a,3,2,28,29,28,2.745850906649139e-07,0.7810417413711548,0.000764892902225256,33,observed greedy emission run
+D_raw,all_003801_row_01_count,count,substitution,d,i,4,3,49,50,49,0.11420657485723495,0.22408230602741241,0.0007803251501172781,5,observed greedy emission run
+D_raw,all_003801_row_01_count,count,substitution,j,a,5,4,62,63,62,1.8187698515248485e-05,0.8085646629333496,0.0005348969134502113,21,observed greedy emission run
+D_raw,all_003801_row_01_count,count,substitution,d,b,6,5,79,80,79,0.0022267834283411503,0.9085333347320557,0.00025837362045422196,7,observed greedy emission run
+D_raw,all_003801_row_01_count,count,substitution,j,a,8,7,101,102,101,2.6398716727271676e-05,0.6505815982818604,0.00040028928196989,20,observed greedy emission run
+D_raw,all_003801_row_01_lower,lower,deletion, ,,1,1,44,46,45,0.9999538660049438,,0.0026546972803771496,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_01_lower,lower,substitution,R,Z,3,2,75,76,75,1.457344183108944e-07,0.9999350309371948,1.715339567454066e-05,13,observed greedy emission run
+D_raw,all_003801_row_01_lower,lower,deletion,U,,5,4,109,110,109,0.03201622888445854,,0.0006467881612479687,4,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_01_lower,lower,substitution, ,R,6,4,109,110,109,5.951554703642614e-05,0.8035576939582825,0.0006467881612479687,20,observed greedy emission run
+D_raw,all_003801_row_01_lower,lower,substitution,V,Z,8,6,154,155,154,6.650848081335425e-05,0.9075655341148376,0.0003201631479896605,15,observed greedy emission run
+D_raw,all_003801_row_02_upper,upper,substitution,E,Z,0,0,0,1,0,4.541514044831274e-06,0.9999186992645264,1.3306594155437779e-06,4,observed greedy emission run
+D_raw,all_003801_row_02_upper,upper,substitution,C,Y,4,4,165,167,166,0.00017061042308341712,0.9938663840293884,0.0583358034491539,4,observed greedy emission run
+D_raw,all_003801_row_02_count,count,substitution,x,n,0,0,0,1,0,6.100877271819627e-06,0.5259754657745361,2.084498009935487e-05,20,observed greedy emission run
+D_raw,all_003801_row_02_count,count,deletion,k,,2,2,31,32,31,0.16024184226989746,,0.00013076829782221466,3,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_02_count,count,substitution,e,p,3,2,31,32,31,6.982008198974654e-05,0.4504443109035492,0.00013076829782221466,21,observed greedy emission run
+D_raw,all_003801_row_02_count,count,substitution,k,d,4,3,45,46,45,2.2299514967016876e-05,0.9213595986366272,1.01302730399766e-05,17,observed greedy emission run
+D_raw,all_003801_row_02_count,count,substitution,f,o,5,4,66,67,66,0.008468148298561573,0.6946802735328674,0.22849757969379425,6,observed greedy emission run
+D_raw,all_003801_row_02_lower,lower,substitution,[,G,0,0,0,1,0,0.00046982979984022677,0.43340766429901123,0.0012756556970998645,16,observed greedy emission run
+D_raw,all_003801_row_03_upper,upper,deletion,K,,0,0,0,1,0,1.7460930394008756e-05,,1.3881480299460236e-05,6,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_upper,upper,deletion, ,,1,0,13,14,13,0.6948167681694031,,0.30517247319221497,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_upper,upper,deletion, ,,2,0,15,16,15,0.9970345497131348,,0.002964922459796071,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_upper,upper,deletion, ,,3,0,21,23,22,0.9999780654907227,,0.10100177675485611,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_upper,upper,deletion, ,,4,0,24,25,24,0.784787654876709,,0.21521112322807312,1,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_upper,upper,deletion, ,,5,0,28,29,28,0.1597159206867218,,0.8399863243103027,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_upper,upper,substitution,F,D,6,0,0,1,0,1.5408737681354978e-06,0.9754718542098999,1.3881480299460236e-05,16,observed greedy emission run
+D_raw,all_003801_row_03_upper,upper,deletion,I,,10,4,118,119,118,5.705842704628594e-05,,0.05295877531170845,25,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_upper,upper,substitution,B,H,11,4,118,119,118,0.000960818724706769,0.5134683847427368,0.05295877531170845,15,observed greedy emission run
+D_raw,all_003801_row_03_count,count,substitution,n,c,2,2,25,26,25,1.920431941471179e-06,0.8476452231407166,0.00030498363776132464,33,observed greedy emission run
+D_raw,all_003801_row_03_count,count,substitution,m,i,4,4,59,61,60,2.0987840798625257e-08,0.9792420864105225,0.005670579150319099,44,observed greedy emission run
+D_raw,all_003801_row_03_count,count,deletion,e,,6,6,70,71,70,0.00011753931175917387,,7.708496559644118e-05,9,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_count,count,substitution,k,c,7,6,78,79,78,8.745466573145677e-09,0.6544022560119629,0.030149677768349648,56,observed greedy emission run
+D_raw,all_003801_row_03_count,count,substitution,e,Q,8,7,90,91,90,0.0005246105720289052,0.833462655544281,2.6640585929271765e-05,5,observed greedy emission run
+D_raw,all_003801_row_03_count,count,substitution,h,a,9,8,98,99,98,0.007343166973441839,0.912385880947113,0.03852442279458046,5,observed greedy emission run
+D_raw,all_003801_row_03_count,count,substitution,c,Q,10,9,110,111,110,0.00030803217669017613,0.7446826696395874,0.00535605987533927,14,observed greedy emission run
+D_raw,all_003801_row_03_count,count,substitution,a,E,11,10,125,126,125,0.07061809301376343,0.7237788438796997,0.021692955866456032,2,observed greedy emission run
+D_raw,all_003801_row_03_lower,lower,substitution,^,_,0,0,0,1,0,0.08287861943244934,0.9098386764526367,6.603333895327523e-05,2,observed greedy emission run
+D_raw,all_003801_row_03_lower,lower,deletion,W,,2,2,64,65,64,0.2881193161010742,,0.0003266415442340076,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_lower,lower,substitution, ,\,3,2,64,65,64,0.0003076941065955907,0.6722507476806641,0.0003266415442340076,9,observed greedy emission run
+D_raw,all_003801_row_03_lower,lower,deletion,W,,5,4,102,103,102,0.16680704057216644,,0.00013430249236989766,2,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003801_row_03_lower,lower,substitution, ,\,6,4,102,103,102,0.0009978562593460083,0.6296979188919067,0.00013430249236989766,8,observed greedy emission run
+D_raw,all_003801_row_03_lower,lower,substitution,^,_,7,5,127,128,127,0.001257962780073285,0.992161214351654,2.214277265011333e-05,3,observed greedy emission run
+D_raw,all_003191_row_00_upper,upper,deletion,P,,0,0,0,1,0,0.00026794025325216353,,2.406335624982603e-05,4,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003191_row_00_upper,upper,substitution, ,F,1,0,0,1,0,3.606595839755755e-07,0.5540289282798767,2.406335624982603e-05,33,observed greedy emission run
+D_raw,all_003191_row_00_upper,upper,deletion,F,,5,4,83,84,83,0.0012986618094146252,,0.7738341689109802,12,hypothetical truth-constrained Viterbi span; not a verified glyph box
+D_raw,all_003191_row_00_count,count,substitution,s,z,0,0,0,1,0,1.0163254415829215e-07,0.954832911491394,6.270428457355592e-06,39,observed greedy emission run
+D_raw,all_003191_row_00_count,count,substitution,l,i,1,1,18,19,18,0.0027669917326420546,0.8651313185691833,3.7524667277466506e-05,4,observed greedy emission run
+D_raw,all_003191_row_00_count,count,substitution,j,h,3,3,50,51,50,0.00013241720444057137,0.1981796771287918,0.0028482270427048206,23,observed greedy emission run
+D_raw,all_003191_row_00_count,count,substitution,d,{,4,4,69,70,69,0.06074393913149834,0.603472888469696,0.0012946316273882985,3,observed greedy emission run
+D_raw,all_003191_row_00_count,count,substitution,f,I,5,5,83,84,83,0.452117919921875,0.4793325960636139,0.004148554522544146,2,observed greedy emission run
+D_raw,all_003191_row_00_lower,lower,substitution,R,F,0,0,0,1,0,2.9450617944348778e-08,0.6963560581207275,0.0008476049406453967,64,observed greedy emission run
+D_raw,all_003191_row_00_lower,lower,deletion, ,,3,3,68,70,69,0.9999865293502808,,0.0032849472481757402,1,hypothetical truth-constrained Viterbi span; not a verified glyph box

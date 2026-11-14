@@ -1,0 +1,212 @@
+﻿approach,role,operation,reference,predicted,count
+A,upper,deletion, ,,3
+A,upper,deletion,F,,2
+A,upper,substitution,K,^,1
+A,upper,substitution,K,L,1
+A,upper,substitution,H,F,1
+A,upper,substitution,I,\,1
+A,upper,substitution,E,Z,1
+A,upper,substitution,C,Y,1
+A,upper,deletion,K,,1
+A,upper,substitution, ,D,1
+A,upper,substitution, ,H,1
+A,upper,deletion,I,,1
+A,upper,substitution,B,H,1
+A,upper,deletion,P,,1
+A,upper,substitution, ,F,1
+A,count,substitution,e,i,3
+A,count,substitution,j,c,2
+A,count,substitution,c,i,2
+A,count,deletion,|,,1
+A,count,substitution,b,{,1
+A,count,deletion,x,,1
+A,count,substitution,b,o,1
+A,count,substitution,g,e,1
+A,count,substitution,d,i,1
+A,count,substitution,j,b,1
+A,count,substitution,d,b,1
+A,count,substitution,x,r,1
+A,count,deletion,k,,1
+A,count,deletion,e,,1
+A,count,substitution,k,h,1
+A,count,substitution,f,d,1
+A,count,substitution,n,c,1
+A,count,substitution,m,e,1
+A,count,substitution,k,i,1
+A,count,substitution,e,Q,1
+A,count,substitution,h,a,1
+A,count,substitution,a,E,1
+A,count,substitution,s,z,1
+A,count,substitution,l,i,1
+A,count,insertion,,q,1
+A,count,substitution,j,{,1
+A,count,substitution,d,|,1
+A,count,substitution,f,c,1
+A,lower,substitution,[,G,2
+A,lower,substitution,^,_,2
+A,lower,deletion,W,,2
+A,lower,substitution, ,\,2
+A,lower,deletion, ,,1
+A,lower,substitution,R,Z,1
+A,lower,deletion,U,,1
+A,lower,substitution, ,R,1
+A,lower,substitution,V,Z,1
+A,lower,substitution,R,F,1
+A,lower,substitution,],J,1
+B,upper,deletion, ,,3
+B,upper,substitution,K,^,1
+B,upper,substitution,K,_,1
+B,upper,substitution,H,F,1
+B,upper,substitution,I,\,1
+B,upper,substitution,E,Z,1
+B,upper,substitution,C,Y,1
+B,upper,deletion,K,,1
+B,upper,substitution, ,D,1
+B,upper,deletion,F,,1
+B,upper,substitution, ,H,1
+B,upper,substitution,I,H,1
+B,upper,substitution,B,H,1
+B,upper,deletion,P,,1
+B,upper,substitution, ,F,1
+B,upper,substitution,F,H,1
+B,count,substitution,d,{,3
+B,count,substitution,e,c,2
+B,count,substitution,j,c,2
+B,count,substitution,|,{,1
+B,count,substitution,b,i,1
+B,count,substitution,e,{,1
+B,count,deletion,x,,1
+B,count,substitution,b,o,1
+B,count,substitution,g,e,1
+B,count,substitution,j,a,1
+B,count,substitution,x,r,1
+B,count,substitution,k,h,1
+B,count,substitution,e,i,1
+B,count,substitution,k,o,1
+B,count,substitution,f,o,1
+B,count,substitution,n,c,1
+B,count,substitution,m,e,1
+B,count,substitution,c,i,1
+B,count,substitution,k,c,1
+B,count,substitution,e,Q,1
+B,count,substitution,h,a,1
+B,count,substitution,c,Q,1
+B,count,substitution,a,F,1
+B,count,substitution,s,z,1
+B,count,substitution,l,i,1
+B,count,substitution,j,M,1
+B,count,substitution,f,|,1
+B,lower,deletion, ,,2
+B,lower,substitution,^,_,2
+B,lower,substitution,R,Z,1
+B,lower,deletion,U,,1
+B,lower,substitution, ,R,1
+B,lower,substitution,V,S,1
+B,lower,substitution,[,G,1
+B,lower,deletion,W,,1
+B,lower,substitution, ,Q,1
+B,lower,substitution,R,F,1
+B,lower,substitution,],J,1
+C,upper,deletion, ,,5
+C,upper,substitution,K,^,1
+C,upper,substitution,K,L,1
+C,upper,substitution,H,F,1
+C,upper,substitution,I,\,1
+C,upper,substitution,E,Z,1
+C,upper,substitution,C,Y,1
+C,upper,deletion,K,,1
+C,upper,substitution,F,D,1
+C,upper,deletion,I,,1
+C,upper,substitution,B,H,1
+C,upper,deletion,P,,1
+C,upper,substitution, ,F,1
+C,upper,deletion,F,,1
+C,count,substitution,e,i,3
+C,count,deletion,|,,1
+C,count,substitution,b,{,1
+C,count,substitution,x,{,1
+C,count,deletion,j,,1
+C,count,substitution,g,a,1
+C,count,substitution,d,i,1
+C,count,substitution,j,a,1
+C,count,substitution,d,b,1
+C,count,substitution,j,c,1
+C,count,substitution,x,r,1
+C,count,deletion,k,,1
+C,count,substitution,e,h,1
+C,count,substitution,k,d,1
+C,count,substitution,f,o,1
+C,count,substitution,n,c,1
+C,count,substitution,m,e,1
+C,count,substitution,c,i,1
+C,count,substitution,k,i,1
+C,count,substitution,e,Q,1
+C,count,substitution,h,a,1
+C,count,substitution,c,Q,1
+C,count,substitution,a,E,1
+C,count,substitution,s,z,1
+C,count,substitution,l,i,1
+C,count,substitution,j,i,1
+C,count,substitution,d,{,1
+C,count,substitution,f,I,1
+C,lower,substitution,[,G,2
+C,lower,substitution,^,_,2
+C,lower,deletion,W,,2
+C,lower,substitution, ,\,2
+C,lower,deletion, ,,1
+C,lower,substitution,R,Z,1
+C,lower,deletion,U,,1
+C,lower,substitution, ,R,1
+C,lower,substitution,V,Z,1
+C,lower,substitution,R,F,1
+D,upper,deletion, ,,2
+D,upper,substitution,K,^,1
+D,upper,substitution,K,_,1
+D,upper,substitution,H,F,1
+D,upper,substitution,I,\,1
+D,upper,substitution,E,Z,1
+D,upper,substitution,C,Y,1
+D,upper,deletion,K,,1
+D,upper,substitution, ,D,1
+D,upper,deletion,F,,1
+D,upper,substitution, ,H,1
+D,upper,substitution,I,H,1
+D,upper,substitution,B,H,1
+D,upper,deletion,P,,1
+D,upper,substitution, ,L,1
+D,upper,substitution,F,H,1
+D,count,substitution,j,a,3
+D,count,substitution,d,{,2
+D,count,deletion,|,,1
+D,count,substitution,b,z,1
+D,count,substitution,e,i,1
+D,count,substitution,e,d,1
+D,count,substitution,x,{,1
+D,count,substitution,b,c,1
+D,count,substitution,d,b,1
+D,count,substitution,x,),1
+D,count,deletion,k,,1
+D,count,substitution,e,h,1
+D,count,substitution,k,d,1
+D,count,substitution,f,o,1
+D,count,substitution,n,c,1
+D,count,substitution,m,i,1
+D,count,deletion,e,,1
+D,count,substitution,k,c,1
+D,count,substitution,e,Q,1
+D,count,substitution,h,a,1
+D,count,substitution,c,Q,1
+D,count,substitution,a,F,1
+D,count,substitution,s,z,1
+D,count,substitution,l,i,1
+D,count,substitution,j,',1
+D,lower,deletion, ,,2
+D,lower,substitution,^,_,2
+D,lower,substitution,R,Z,1
+D,lower,deletion,U,,1
+D,lower,substitution, ,R,1
+D,lower,substitution,V,Z,1
+D,lower,substitution,[,C,1
+D,lower,deletion,W,,1
+D,lower,substitution, ,\,1
+D,lower,substitution,R,F,1

@@ -1,0 +1,247 @@
+﻿approach,id,source_id,writer_id,role,operation,reference_position,prediction_position,reference,predicted,whitespace_involved,predicted_outside_authentic_role
+A,all_003801_row_00_count,all_003801,W05,count,deletion,0,0,|,,False,False
+A,all_003801_row_00_count,all_003801,W05,count,substitution,1,0,b,{,False,False
+A,all_003801_row_00_count,all_003801,W05,count,substitution,2,1,e,i,False,False
+A,all_003801_row_00_count,all_003801,W05,count,substitution,3,2,e,i,False,False
+B,all_003801_row_00_count,all_003801,W05,count,substitution,0,0,|,{,False,False
+B,all_003801_row_00_count,all_003801,W05,count,substitution,1,1,b,i,False,False
+B,all_003801_row_00_count,all_003801,W05,count,substitution,2,2,e,{,False,False
+B,all_003801_row_00_count,all_003801,W05,count,substitution,3,3,e,c,False,False
+C,all_003801_row_00_count,all_003801,W05,count,deletion,0,0,|,,False,False
+C,all_003801_row_00_count,all_003801,W05,count,substitution,1,0,b,{,False,False
+C,all_003801_row_00_count,all_003801,W05,count,substitution,2,1,e,i,False,False
+C,all_003801_row_00_count,all_003801,W05,count,substitution,3,2,e,i,False,False
+D,all_003801_row_00_count,all_003801,W05,count,deletion,0,0,|,,False,False
+D,all_003801_row_00_count,all_003801,W05,count,substitution,1,0,b,z,False,False
+D,all_003801_row_00_count,all_003801,W05,count,substitution,2,1,e,i,False,False
+D,all_003801_row_00_count,all_003801,W05,count,substitution,3,2,e,d,False,False
+A,all_003801_row_00_lower,all_003801,W05,lower,substitution,2,2,[,G,False,True
+C,all_003801_row_00_lower,all_003801,W05,lower,substitution,2,2,[,G,False,True
+A,all_003801_row_01_upper,all_003801,W05,upper,substitution,0,0,K,^,False,True
+A,all_003801_row_01_upper,all_003801,W05,upper,substitution,4,4,K,L,False,False
+A,all_003801_row_01_upper,all_003801,W05,upper,substitution,8,8,H,F,False,False
+A,all_003801_row_01_upper,all_003801,W05,upper,substitution,9,9,I,\,False,True
+B,all_003801_row_01_upper,all_003801,W05,upper,substitution,0,0,K,^,False,True
+B,all_003801_row_01_upper,all_003801,W05,upper,substitution,4,4,K,_,False,True
+B,all_003801_row_01_upper,all_003801,W05,upper,substitution,8,8,H,F,False,False
+B,all_003801_row_01_upper,all_003801,W05,upper,substitution,9,9,I,\,False,True
+C,all_003801_row_01_upper,all_003801,W05,upper,substitution,0,0,K,^,False,True
+C,all_003801_row_01_upper,all_003801,W05,upper,substitution,4,4,K,L,False,False
+C,all_003801_row_01_upper,all_003801,W05,upper,substitution,8,8,H,F,False,False
+C,all_003801_row_01_upper,all_003801,W05,upper,substitution,9,9,I,\,False,True
+D,all_003801_row_01_upper,all_003801,W05,upper,substitution,0,0,K,^,False,True
+D,all_003801_row_01_upper,all_003801,W05,upper,substitution,4,4,K,_,False,True
+D,all_003801_row_01_upper,all_003801,W05,upper,substitution,8,8,H,F,False,False
+D,all_003801_row_01_upper,all_003801,W05,upper,substitution,9,9,I,\,False,True
+A,all_003801_row_01_count,all_003801,W05,count,deletion,0,0,x,,False,False
+A,all_003801_row_01_count,all_003801,W05,count,substitution,1,0,b,o,False,False
+A,all_003801_row_01_count,all_003801,W05,count,substitution,2,1,j,c,False,False
+A,all_003801_row_01_count,all_003801,W05,count,substitution,3,2,g,e,False,False
+A,all_003801_row_01_count,all_003801,W05,count,substitution,4,3,d,i,False,False
+A,all_003801_row_01_count,all_003801,W05,count,substitution,5,4,j,b,False,False
+A,all_003801_row_01_count,all_003801,W05,count,substitution,6,5,d,b,False,False
+A,all_003801_row_01_count,all_003801,W05,count,substitution,8,7,j,c,False,False
+B,all_003801_row_01_count,all_003801,W05,count,deletion,0,0,x,,False,False
+B,all_003801_row_01_count,all_003801,W05,count,substitution,1,0,b,o,False,False
+B,all_003801_row_01_count,all_003801,W05,count,substitution,2,1,j,c,False,False
+B,all_003801_row_01_count,all_003801,W05,count,substitution,3,2,g,e,False,False
+B,all_003801_row_01_count,all_003801,W05,count,substitution,4,3,d,{,False,False
+B,all_003801_row_01_count,all_003801,W05,count,substitution,5,4,j,a,False,False
+B,all_003801_row_01_count,all_003801,W05,count,substitution,6,5,d,{,False,False
+B,all_003801_row_01_count,all_003801,W05,count,substitution,8,7,j,c,False,False
+C,all_003801_row_01_count,all_003801,W05,count,substitution,0,0,x,{,False,False
+C,all_003801_row_01_count,all_003801,W05,count,deletion,2,2,j,,False,False
+C,all_003801_row_01_count,all_003801,W05,count,substitution,3,2,g,a,False,False
+C,all_003801_row_01_count,all_003801,W05,count,substitution,4,3,d,i,False,False
+C,all_003801_row_01_count,all_003801,W05,count,substitution,5,4,j,a,False,False
+C,all_003801_row_01_count,all_003801,W05,count,substitution,6,5,d,b,False,False
+C,all_003801_row_01_count,all_003801,W05,count,substitution,8,7,j,c,False,False
+D,all_003801_row_01_count,all_003801,W05,count,substitution,0,0,x,{,False,False
+D,all_003801_row_01_count,all_003801,W05,count,substitution,1,1,b,c,False,False
+D,all_003801_row_01_count,all_003801,W05,count,substitution,2,2,j,a,False,False
+D,all_003801_row_01_count,all_003801,W05,count,substitution,4,4,d,{,False,False
+D,all_003801_row_01_count,all_003801,W05,count,substitution,5,5,j,a,False,False
+D,all_003801_row_01_count,all_003801,W05,count,substitution,6,6,d,b,False,False
+D,all_003801_row_01_count,all_003801,W05,count,substitution,8,8,j,a,False,False
+A,all_003801_row_01_lower,all_003801,W05,lower,deletion,1,1, ,,True,False
+A,all_003801_row_01_lower,all_003801,W05,lower,substitution,3,2,R,Z,False,False
+A,all_003801_row_01_lower,all_003801,W05,lower,deletion,5,4,U,,False,False
+A,all_003801_row_01_lower,all_003801,W05,lower,substitution,6,4, ,R,True,False
+A,all_003801_row_01_lower,all_003801,W05,lower,substitution,8,6,V,Z,False,False
+B,all_003801_row_01_lower,all_003801,W05,lower,deletion,1,1, ,,True,False
+B,all_003801_row_01_lower,all_003801,W05,lower,substitution,3,2,R,Z,False,False
+B,all_003801_row_01_lower,all_003801,W05,lower,deletion,5,4,U,,False,False
+B,all_003801_row_01_lower,all_003801,W05,lower,substitution,6,4, ,R,True,False
+B,all_003801_row_01_lower,all_003801,W05,lower,substitution,8,6,V,S,False,False
+C,all_003801_row_01_lower,all_003801,W05,lower,deletion,1,1, ,,True,False
+C,all_003801_row_01_lower,all_003801,W05,lower,substitution,3,2,R,Z,False,False
+C,all_003801_row_01_lower,all_003801,W05,lower,deletion,5,4,U,,False,False
+C,all_003801_row_01_lower,all_003801,W05,lower,substitution,6,4, ,R,True,False
+C,all_003801_row_01_lower,all_003801,W05,lower,substitution,8,6,V,Z,False,False
+D,all_003801_row_01_lower,all_003801,W05,lower,deletion,1,1, ,,True,False
+D,all_003801_row_01_lower,all_003801,W05,lower,substitution,3,2,R,Z,False,False
+D,all_003801_row_01_lower,all_003801,W05,lower,deletion,5,4,U,,False,False
+D,all_003801_row_01_lower,all_003801,W05,lower,substitution,6,4, ,R,True,False
+D,all_003801_row_01_lower,all_003801,W05,lower,substitution,8,6,V,Z,False,False
+A,all_003801_row_02_upper,all_003801,W05,upper,substitution,0,0,E,Z,False,True
+A,all_003801_row_02_upper,all_003801,W05,upper,substitution,4,4,C,Y,False,True
+B,all_003801_row_02_upper,all_003801,W05,upper,substitution,0,0,E,Z,False,True
+B,all_003801_row_02_upper,all_003801,W05,upper,substitution,4,4,C,Y,False,True
+C,all_003801_row_02_upper,all_003801,W05,upper,substitution,0,0,E,Z,False,True
+C,all_003801_row_02_upper,all_003801,W05,upper,substitution,4,4,C,Y,False,True
+D,all_003801_row_02_upper,all_003801,W05,upper,substitution,0,0,E,Z,False,True
+D,all_003801_row_02_upper,all_003801,W05,upper,substitution,4,4,C,Y,False,True
+A,all_003801_row_02_count,all_003801,W05,count,substitution,0,0,x,r,False,False
+A,all_003801_row_02_count,all_003801,W05,count,deletion,2,2,k,,False,False
+A,all_003801_row_02_count,all_003801,W05,count,deletion,3,2,e,,False,False
+A,all_003801_row_02_count,all_003801,W05,count,substitution,4,2,k,h,False,False
+A,all_003801_row_02_count,all_003801,W05,count,substitution,5,3,f,d,False,False
+B,all_003801_row_02_count,all_003801,W05,count,substitution,0,0,x,r,False,False
+B,all_003801_row_02_count,all_003801,W05,count,substitution,2,2,k,h,False,False
+B,all_003801_row_02_count,all_003801,W05,count,substitution,3,3,e,i,False,False
+B,all_003801_row_02_count,all_003801,W05,count,substitution,4,4,k,o,False,False
+B,all_003801_row_02_count,all_003801,W05,count,substitution,5,5,f,o,False,False
+C,all_003801_row_02_count,all_003801,W05,count,substitution,0,0,x,r,False,False
+C,all_003801_row_02_count,all_003801,W05,count,deletion,2,2,k,,False,False
+C,all_003801_row_02_count,all_003801,W05,count,substitution,3,2,e,h,False,False
+C,all_003801_row_02_count,all_003801,W05,count,substitution,4,3,k,d,False,False
+C,all_003801_row_02_count,all_003801,W05,count,substitution,5,4,f,o,False,False
+D,all_003801_row_02_count,all_003801,W05,count,substitution,0,0,x,),False,False
+D,all_003801_row_02_count,all_003801,W05,count,deletion,2,2,k,,False,False
+D,all_003801_row_02_count,all_003801,W05,count,substitution,3,2,e,h,False,False
+D,all_003801_row_02_count,all_003801,W05,count,substitution,4,3,k,d,False,False
+D,all_003801_row_02_count,all_003801,W05,count,substitution,5,4,f,o,False,False
+A,all_003801_row_02_lower,all_003801,W05,lower,substitution,0,0,[,G,False,True
+B,all_003801_row_02_lower,all_003801,W05,lower,substitution,0,0,[,G,False,True
+C,all_003801_row_02_lower,all_003801,W05,lower,substitution,0,0,[,G,False,True
+D,all_003801_row_02_lower,all_003801,W05,lower,substitution,0,0,[,C,False,True
+A,all_003801_row_03_upper,all_003801,W05,upper,deletion,0,0,K,,False,False
+A,all_003801_row_03_upper,all_003801,W05,upper,deletion,1,0, ,,True,False
+A,all_003801_row_03_upper,all_003801,W05,upper,deletion,2,0, ,,True,False
+A,all_003801_row_03_upper,all_003801,W05,upper,deletion,3,0, ,,True,False
+A,all_003801_row_03_upper,all_003801,W05,upper,substitution,4,0, ,D,True,False
+A,all_003801_row_03_upper,all_003801,W05,upper,deletion,6,2,F,,False,False
+A,all_003801_row_03_upper,all_003801,W05,upper,substitution,8,3, ,H,True,False
+A,all_003801_row_03_upper,all_003801,W05,upper,deletion,10,5,I,,False,False
+A,all_003801_row_03_upper,all_003801,W05,upper,substitution,11,5,B,H,False,False
+B,all_003801_row_03_upper,all_003801,W05,upper,deletion,0,0,K,,False,False
+B,all_003801_row_03_upper,all_003801,W05,upper,deletion,1,0, ,,True,False
+B,all_003801_row_03_upper,all_003801,W05,upper,deletion,2,0, ,,True,False
+B,all_003801_row_03_upper,all_003801,W05,upper,deletion,3,0, ,,True,False
+B,all_003801_row_03_upper,all_003801,W05,upper,substitution,4,0, ,D,True,False
+B,all_003801_row_03_upper,all_003801,W05,upper,deletion,6,2,F,,False,False
+B,all_003801_row_03_upper,all_003801,W05,upper,substitution,8,3, ,H,True,False
+B,all_003801_row_03_upper,all_003801,W05,upper,substitution,10,5,I,H,False,False
+B,all_003801_row_03_upper,all_003801,W05,upper,substitution,11,6,B,H,False,False
+C,all_003801_row_03_upper,all_003801,W05,upper,deletion,0,0,K,,False,False
+C,all_003801_row_03_upper,all_003801,W05,upper,deletion,1,0, ,,True,False
+C,all_003801_row_03_upper,all_003801,W05,upper,deletion,2,0, ,,True,False
+C,all_003801_row_03_upper,all_003801,W05,upper,deletion,3,0, ,,True,False
+C,all_003801_row_03_upper,all_003801,W05,upper,deletion,4,0, ,,True,False
+C,all_003801_row_03_upper,all_003801,W05,upper,deletion,5,0, ,,True,False
+C,all_003801_row_03_upper,all_003801,W05,upper,substitution,6,0,F,D,False,False
+C,all_003801_row_03_upper,all_003801,W05,upper,deletion,10,4,I,,False,False
+C,all_003801_row_03_upper,all_003801,W05,upper,substitution,11,4,B,H,False,False
+D,all_003801_row_03_upper,all_003801,W05,upper,deletion,0,0,K,,False,False
+D,all_003801_row_03_upper,all_003801,W05,upper,deletion,1,0, ,,True,False
+D,all_003801_row_03_upper,all_003801,W05,upper,deletion,2,0, ,,True,False
+D,all_003801_row_03_upper,all_003801,W05,upper,substitution,3,0, ,D,True,False
+D,all_003801_row_03_upper,all_003801,W05,upper,deletion,6,3,F,,False,False
+D,all_003801_row_03_upper,all_003801,W05,upper,substitution,8,4, ,H,True,False
+D,all_003801_row_03_upper,all_003801,W05,upper,substitution,10,6,I,H,False,False
+D,all_003801_row_03_upper,all_003801,W05,upper,substitution,11,7,B,H,False,False
+A,all_003801_row_03_count,all_003801,W05,count,substitution,2,2,n,c,False,False
+A,all_003801_row_03_count,all_003801,W05,count,substitution,4,4,m,e,False,False
+A,all_003801_row_03_count,all_003801,W05,count,substitution,5,5,c,i,False,False
+A,all_003801_row_03_count,all_003801,W05,count,substitution,6,6,e,i,False,False
+A,all_003801_row_03_count,all_003801,W05,count,substitution,7,7,k,i,False,False
+A,all_003801_row_03_count,all_003801,W05,count,substitution,8,8,e,Q,False,True
+A,all_003801_row_03_count,all_003801,W05,count,substitution,9,9,h,a,False,False
+A,all_003801_row_03_count,all_003801,W05,count,substitution,10,10,c,i,False,False
+A,all_003801_row_03_count,all_003801,W05,count,substitution,11,11,a,E,False,True
+B,all_003801_row_03_count,all_003801,W05,count,substitution,2,2,n,c,False,False
+B,all_003801_row_03_count,all_003801,W05,count,substitution,4,4,m,e,False,False
+B,all_003801_row_03_count,all_003801,W05,count,substitution,5,5,c,i,False,False
+B,all_003801_row_03_count,all_003801,W05,count,substitution,6,6,e,c,False,False
+B,all_003801_row_03_count,all_003801,W05,count,substitution,7,7,k,c,False,False
+B,all_003801_row_03_count,all_003801,W05,count,substitution,8,8,e,Q,False,True
+B,all_003801_row_03_count,all_003801,W05,count,substitution,9,9,h,a,False,False
+B,all_003801_row_03_count,all_003801,W05,count,substitution,10,10,c,Q,False,True
+B,all_003801_row_03_count,all_003801,W05,count,substitution,11,11,a,F,False,True
+C,all_003801_row_03_count,all_003801,W05,count,substitution,2,2,n,c,False,False
+C,all_003801_row_03_count,all_003801,W05,count,substitution,4,4,m,e,False,False
+C,all_003801_row_03_count,all_003801,W05,count,substitution,5,5,c,i,False,False
+C,all_003801_row_03_count,all_003801,W05,count,substitution,6,6,e,i,False,False
+C,all_003801_row_03_count,all_003801,W05,count,substitution,7,7,k,i,False,False
+C,all_003801_row_03_count,all_003801,W05,count,substitution,8,8,e,Q,False,True
+C,all_003801_row_03_count,all_003801,W05,count,substitution,9,9,h,a,False,False
+C,all_003801_row_03_count,all_003801,W05,count,substitution,10,10,c,Q,False,True
+C,all_003801_row_03_count,all_003801,W05,count,substitution,11,11,a,E,False,True
+D,all_003801_row_03_count,all_003801,W05,count,substitution,2,2,n,c,False,False
+D,all_003801_row_03_count,all_003801,W05,count,substitution,4,4,m,i,False,False
+D,all_003801_row_03_count,all_003801,W05,count,deletion,6,6,e,,False,False
+D,all_003801_row_03_count,all_003801,W05,count,substitution,7,6,k,c,False,False
+D,all_003801_row_03_count,all_003801,W05,count,substitution,8,7,e,Q,False,True
+D,all_003801_row_03_count,all_003801,W05,count,substitution,9,8,h,a,False,False
+D,all_003801_row_03_count,all_003801,W05,count,substitution,10,9,c,Q,False,True
+D,all_003801_row_03_count,all_003801,W05,count,substitution,11,10,a,F,False,True
+A,all_003801_row_03_lower,all_003801,W05,lower,substitution,0,0,^,_,False,False
+A,all_003801_row_03_lower,all_003801,W05,lower,deletion,2,2,W,,False,False
+A,all_003801_row_03_lower,all_003801,W05,lower,substitution,3,2, ,\,True,False
+A,all_003801_row_03_lower,all_003801,W05,lower,deletion,5,4,W,,False,False
+A,all_003801_row_03_lower,all_003801,W05,lower,substitution,6,4, ,\,True,False
+A,all_003801_row_03_lower,all_003801,W05,lower,substitution,7,5,^,_,False,False
+B,all_003801_row_03_lower,all_003801,W05,lower,substitution,0,0,^,_,False,False
+B,all_003801_row_03_lower,all_003801,W05,lower,deletion,3,3, ,,True,False
+B,all_003801_row_03_lower,all_003801,W05,lower,deletion,5,4,W,,False,False
+B,all_003801_row_03_lower,all_003801,W05,lower,substitution,6,4, ,Q,True,True
+B,all_003801_row_03_lower,all_003801,W05,lower,substitution,7,5,^,_,False,False
+C,all_003801_row_03_lower,all_003801,W05,lower,substitution,0,0,^,_,False,False
+C,all_003801_row_03_lower,all_003801,W05,lower,deletion,2,2,W,,False,False
+C,all_003801_row_03_lower,all_003801,W05,lower,substitution,3,2, ,\,True,False
+C,all_003801_row_03_lower,all_003801,W05,lower,deletion,5,4,W,,False,False
+C,all_003801_row_03_lower,all_003801,W05,lower,substitution,6,4, ,\,True,False
+C,all_003801_row_03_lower,all_003801,W05,lower,substitution,7,5,^,_,False,False
+D,all_003801_row_03_lower,all_003801,W05,lower,substitution,0,0,^,_,False,False
+D,all_003801_row_03_lower,all_003801,W05,lower,deletion,3,3, ,,True,False
+D,all_003801_row_03_lower,all_003801,W05,lower,deletion,5,4,W,,False,False
+D,all_003801_row_03_lower,all_003801,W05,lower,substitution,6,4, ,\,True,False
+D,all_003801_row_03_lower,all_003801,W05,lower,substitution,7,5,^,_,False,False
+A,all_003191_row_00_upper,all_003191,W05,upper,deletion,0,0,P,,False,False
+A,all_003191_row_00_upper,all_003191,W05,upper,substitution,1,0, ,F,True,False
+A,all_003191_row_00_upper,all_003191,W05,upper,deletion,5,4,F,,False,False
+B,all_003191_row_00_upper,all_003191,W05,upper,deletion,0,0,P,,False,False
+B,all_003191_row_00_upper,all_003191,W05,upper,substitution,1,0, ,F,True,False
+B,all_003191_row_00_upper,all_003191,W05,upper,substitution,5,4,F,H,False,False
+C,all_003191_row_00_upper,all_003191,W05,upper,deletion,0,0,P,,False,False
+C,all_003191_row_00_upper,all_003191,W05,upper,substitution,1,0, ,F,True,False
+C,all_003191_row_00_upper,all_003191,W05,upper,deletion,5,4,F,,False,False
+D,all_003191_row_00_upper,all_003191,W05,upper,deletion,0,0,P,,False,False
+D,all_003191_row_00_upper,all_003191,W05,upper,substitution,1,0, ,L,True,False
+D,all_003191_row_00_upper,all_003191,W05,upper,substitution,5,4,F,H,False,False
+A,all_003191_row_00_count,all_003191,W05,count,substitution,0,0,s,z,False,False
+A,all_003191_row_00_count,all_003191,W05,count,substitution,1,1,l,i,False,False
+A,all_003191_row_00_count,all_003191,W05,count,insertion,3,3,,q,False,False
+A,all_003191_row_00_count,all_003191,W05,count,substitution,3,4,j,{,False,False
+A,all_003191_row_00_count,all_003191,W05,count,substitution,4,5,d,|,False,False
+A,all_003191_row_00_count,all_003191,W05,count,substitution,5,6,f,c,False,False
+B,all_003191_row_00_count,all_003191,W05,count,substitution,0,0,s,z,False,False
+B,all_003191_row_00_count,all_003191,W05,count,substitution,1,1,l,i,False,False
+B,all_003191_row_00_count,all_003191,W05,count,substitution,3,3,j,M,False,True
+B,all_003191_row_00_count,all_003191,W05,count,substitution,4,4,d,{,False,False
+B,all_003191_row_00_count,all_003191,W05,count,substitution,5,5,f,|,False,False
+C,all_003191_row_00_count,all_003191,W05,count,substitution,0,0,s,z,False,False
+C,all_003191_row_00_count,all_003191,W05,count,substitution,1,1,l,i,False,False
+C,all_003191_row_00_count,all_003191,W05,count,substitution,3,3,j,i,False,False
+C,all_003191_row_00_count,all_003191,W05,count,substitution,4,4,d,{,False,False
+C,all_003191_row_00_count,all_003191,W05,count,substitution,5,5,f,I,False,True
+D,all_003191_row_00_count,all_003191,W05,count,substitution,0,0,s,z,False,False
+D,all_003191_row_00_count,all_003191,W05,count,substitution,1,1,l,i,False,False
+D,all_003191_row_00_count,all_003191,W05,count,substitution,3,3,j,',False,False
+D,all_003191_row_00_count,all_003191,W05,count,substitution,4,4,d,{,False,False
+A,all_003191_row_00_lower,all_003191,W05,lower,substitution,0,0,R,F,False,True
+A,all_003191_row_00_lower,all_003191,W05,lower,substitution,2,2,],J,False,True
+B,all_003191_row_00_lower,all_003191,W05,lower,substitution,0,0,R,F,False,True
+B,all_003191_row_00_lower,all_003191,W05,lower,substitution,2,2,],J,False,True
+C,all_003191_row_00_lower,all_003191,W05,lower,substitution,0,0,R,F,False,True
+D,all_003191_row_00_lower,all_003191,W05,lower,substitution,0,0,R,F,False,True
