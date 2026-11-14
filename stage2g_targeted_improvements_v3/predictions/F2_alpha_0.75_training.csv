@@ -1,0 +1,109 @@
+﻿id,source_id,writer_id,role,truth,prediction,substitutions,deletions,insertions,no_space_substitutions,no_space_deletions,no_space_insertions,edit_distance,loss,exact
+all_000500_row_00_upper,all_000500,W01,upper,I H   Q   M,I A    M   M,2,0,1,2,0,0,3,2.674466133117676,False
+all_000500_row_00_count,all_000500,W01,count,",hpdkajbjba",rqrMqaqiiic,10,0,0,10,0,0,10,10.110206604003906,False
+all_000500_row_00_lower,all_000500,W01,lower,R   W\,R  [\,1,1,0,1,0,0,2,3.817754030227661,False
+all_000500_row_01_upper,all_000500,W01,upper,C N   NL,B N   QF,3,0,0,3,0,0,3,2.86181640625,False
+all_000500_row_01_count,all_000500,W01,count,)gofmikggb,ccirri,5,4,0,5,4,0,9,7.563098907470703,False
+all_000500_row_01_lower,all_000500,W01,lower,R     ],T     J,2,0,0,2,0,0,2,0.8797426819801331,False
+all_000917_row_00_upper,all_000917,W01,upper,M AMB,G AMB,1,0,0,1,0,0,1,0.8238332867622375,False
+all_000917_row_00_count,all_000917,W01,count,xgcdc,rcc,1,2,0,1,2,0,3,5.773223400115967,False
+all_000917_row_01_upper,all_000917,W01,upper,E      M,F      M,1,0,0,1,0,0,1,0.9034921526908875,False
+all_000917_row_01_count,all_000917,W01,count,qhnhjgac,ohrhl,3,3,0,3,3,0,6,7.272567272186279,False
+all_000917_row_01_lower,all_000917,W01,lower,] X U,J B U,2,0,0,2,0,0,2,3.623687744140625,False
+all_001009_row_00_upper,all_001009,W01,upper,N Q,B M,2,0,0,2,0,0,2,2.982546091079712,False
+all_001009_row_00_count,all_001009,W01,count,+ihb,rihi,2,0,0,2,0,0,2,6.744836807250977,False
+all_001009_row_00_lower,all_001009,W01,lower,S,S,0,0,0,0,0,0,0,0.00021215526794549078,True
+all_001486_row_00_count,all_001486,W01,count,'hl,oho,2,0,0,2,0,0,2,5.578628063201904,False
+all_001486_row_00_lower,all_001486,W01,lower,] T,J T,1,0,0,1,0,0,1,0.8667757511138916,False
+all_001958_row_00_upper,all_001958,W01,upper,MQ NPJ,MM MPJ,2,0,0,2,0,0,2,1.7172785997390747,False
+all_001958_row_00_count,all_001958,W01,count,ybgagfafaa,riiiioiihQ,10,0,0,10,0,0,10,8.118873596191406,False
+all_001958_row_00_lower,all_001958,W01,lower,Z \  _   \,Z \  L   \,1,0,0,1,0,0,1,0.3688164949417114,False
+all_001958_row_01_upper,all_001958,W01,upper,F  K CPD,F   L MPF,3,0,1,3,0,0,4,4.62914514541626,False
+all_001958_row_01_count,all_001958,W01,count,ljdphoia,qqihol,4,2,0,4,2,0,6,6.67678165435791,False
+all_001958_row_01_lower,all_001958,W01,lower,_,_,0,0,0,0,0,0,0,0.31875622272491455,True
+all_002028_row_00_upper,all_002028,W01,upper,A B C Q,A  F Q,1,1,0,1,1,0,2,2.687579870223999,False
+all_002028_row_00_count,all_002028,W01,count,*bnijgjikcb,[iqq[i,4,5,0,4,5,0,9,9.71500015258789,False
+all_002028_row_00_lower,all_002028,W01,lower,X _,BL,2,1,0,2,0,0,3,0.7376034259796143,False
+all_002028_row_01_upper,all_002028,W01,upper,J J BI,J  MI,1,1,0,1,1,0,2,1.0697993040084839,False
+all_002028_row_01_count,all_002028,W01,count,|kvgbc,rr{,3,3,0,3,3,0,6,11.004169464111328,False
+all_002028_row_01_lower,all_002028,W01,lower,X,X,0,0,0,0,0,0,0,0.38260015845298767,True
+all_002028_row_02_upper,all_002028,W01,upper,H,P,1,0,0,1,0,0,1,0.7209048867225647,False
+all_002028_row_02_count,all_002028,W01,count,{iyba,rod,3,2,0,3,2,0,5,12.628398895263672,False
+all_002028_row_02_lower,all_002028,W01,lower,_ \,E I,2,0,0,2,0,0,2,7.667234420776367,False
+all_002028_row_03_upper,all_002028,W01,upper,A BFEH  HKN,A MFhM MLQ,6,1,0,6,0,0,7,5.087324142456055,False
+all_002028_row_03_count,all_002028,W01,count,yghvadkgheb,rioiiirici,10,1,0,10,1,0,11,10.988495826721191,False
+all_002028_row_03_lower,all_002028,W01,lower,[,[,0,0,0,0,0,0,0,0.00045281811617314816,True
+all_002430_row_00_upper,all_002430,W01,upper,Q L JC M,M E JE M,3,0,0,3,0,0,3,3.0861411094665527,False
+all_002430_row_00_count,all_002430,W01,count,tfgfbjaca,riicciq,7,2,0,7,2,0,9,9.440951347351074,False
+all_002430_row_00_lower,all_002430,W01,lower,T    T,F    Q,2,0,0,2,0,0,2,5.442288875579834,False
+all_002430_row_01_upper,all_002430,W01,upper,C   K L,\   R L,2,0,0,2,0,0,2,3.830761671066284,False
+all_002430_row_01_count,all_002430,W01,count,qbjejfjejh,qioh,2,6,0,2,6,0,8,10.524040222167969,False
+all_002430_row_01_lower,all_002430,W01,lower,V   _,{   Z,2,0,0,2,0,0,2,0.6856664419174194,False
+all_002430_row_02_upper,all_002430,W01,upper,M K,\ _,2,0,0,2,0,0,2,7.087095260620117,False
+all_002430_row_02_count,all_002430,W01,count,ridleh,oiic,3,2,0,3,2,0,5,7.180346965789795,False
+all_002430_row_02_lower,all_002430,W01,lower,R X,Q X,1,0,0,1,0,0,1,2.135376214981079,False
+all_002430_row_03_upper,all_002430,W01,upper,J G K,J  Q ^,2,0,1,2,0,0,3,7.06698751449585,False
+all_002430_row_03_count,all_002430,W01,count,ndnakbjgb,oiici,5,4,0,5,4,0,9,10.395867347717285,False
+all_002430_row_03_lower,all_002430,W01,lower,W _,QE,2,1,0,2,0,0,3,10.924530029296875,False
+all_002851_row_00_upper,all_002851,W01,upper,P M G   J LF,Q M I  JEF,3,2,0,3,0,0,5,4.36014986038208,False
+all_002851_row_00_count,all_002851,W01,count,jijgjekcbaaa,(ooocqi,6,5,0,6,5,0,11,9.957627296447754,False
+all_002851_row_00_lower,all_002851,W01,lower,^  U,_  U,1,0,0,1,0,0,1,1.9861749410629272,False
+all_004233_row_00_upper,all_004233,W06,upper,P,P,0,0,0,0,0,0,0,1.0314289331436157,True
+all_004233_row_00_count,all_004233,W06,count,sfgba,mfgf{,3,0,0,3,0,0,3,6.09561014175415,False
+all_004233_row_00_lower,all_004233,W06,lower,V W V,V W V,0,0,0,0,0,0,0,0.02896677516400814,True
+all_004233_row_01_upper,all_004233,W06,upper,E  L  C,F   LE,3,1,0,2,0,0,4,6.208950996398926,False
+all_004233_row_01_count,all_004233,W06,count,jghkfoaaaaa,kfhof|hiha,7,1,0,7,1,0,8,3.8326737880706787,False
+all_004233_row_01_lower,all_004233,W06,lower,]  Y   V RX,]  Y  VRX,0,2,0,0,0,0,2,0.3684670627117157,False
+all_004233_row_02_upper,all_004233,W06,upper,K M  G,K B B,2,1,0,2,0,0,3,6.01933479309082,False
+all_004233_row_02_count,all_004233,W06,count,rgbjbe,{fW{Wf,6,0,0,6,0,0,6,8.831496238708496,False
+all_004233_row_02_lower,all_004233,W06,lower,X,X,0,0,0,0,0,0,0,0.4915889501571655,True
+all_004233_row_03_upper,all_004233,W06,upper,D,D,0,0,0,0,0,0,0,1.2408296242938377e-05,True
+all_004233_row_03_count,all_004233,W06,count,tdb,zdf,2,0,0,2,0,0,2,6.783937931060791,False
+all_004233_row_03_lower,all_004233,W06,lower,]\,]\,0,0,0,0,0,0,0,0.1943463534116745,True
+all_004254_row_00_upper,all_004254,W06,upper,N E,\ Z,2,0,0,2,0,0,2,4.134080410003662,False
+all_004254_row_00_count,all_004254,W06,count,uggkba,MQQiQ,5,1,0,5,1,0,6,10.535962104797363,False
+all_004254_row_00_lower,all_004254,W06,lower,X W,] A,2,0,0,2,0,0,2,4.288427829742432,False
+all_004254_row_01_upper,all_004254,W06,upper,P AK,F  Ai,2,0,1,2,0,0,3,9.04849910736084,False
+all_004254_row_01_count,all_004254,W06,count,xbbc,rdQi,4,0,0,4,0,0,4,9.00355339050293,False
+all_004254_row_01_lower,all_004254,W06,lower,_,F,1,0,0,1,0,0,1,20.136686325073242,False
+all_004254_row_02_upper,all_004254,W06,upper,J K Q GBH,B E C MF,5,1,0,5,1,0,6,5.086512565612793,False
+all_004254_row_02_count,all_004254,W06,count,jhrdkdjfabaa,jhqfmcqfhihh,9,0,0,9,0,0,9,6.529670238494873,False
+all_004254_row_02_lower,all_004254,W06,lower,U          ],B        J,2,2,0,2,0,0,4,2.436657667160034,False
+all_004254_row_03_upper,all_004254,W06,upper,Q    J,M   J,1,1,0,1,0,0,2,2.2267322540283203,False
+all_004254_row_03_count,all_004254,W06,count,vfjafac,oilifii,6,0,0,6,0,0,6,8.095144271850586,False
+all_004254_row_03_lower,all_004254,W06,lower,RZX W,FEM Q,4,0,0,4,0,0,4,6.569430351257324,False
+all_004383_row_00_upper,all_004383,W04,upper,J L,B  \,2,0,1,2,0,0,3,9.417468070983887,False
+all_004383_row_00_count,all_004383,W04,count,",fdncba",",CE)QQF",6,0,0,6,0,0,6,6.012637138366699,False
+all_004383_row_00_lower,all_004383,W04,lower,Z ]   ],E J     J,3,0,2,3,0,0,5,3.8007946014404297,False
+all_004383_row_01_upper,all_004383,W04,upper,J   M   P QE,B   B  F EE,4,1,0,4,0,0,5,1.40499746799469,False
+all_004383_row_01_count,all_004383,W04,count,odzikdkgjbia,*ExQeQcaccQQ,12,0,0,12,0,0,12,9.639900207519531,False
+all_004383_row_01_lower,all_004383,W04,lower,\   R,E    E,2,0,1,2,0,0,3,8.418539047241211,False
+all_004383_row_02_upper,all_004383,W04,upper,J B,B   A,2,0,2,2,0,0,4,13.637110710144043,False
+all_004383_row_02_count,all_004383,W04,count,|htfb,cFR[Q,5,0,0,5,0,0,5,9.91898250579834,False
+all_004383_row_02_lower,all_004383,W04,lower,S,J,1,0,0,1,0,0,1,11.577260971069336,False
+all_004383_row_03_upper,all_004383,W04,upper,I K FQGNJ,B M FQQBB,5,0,0,5,0,0,5,4.12099027633667,False
+all_004383_row_03_count,all_004383,W04,count,tcuambhbjcjg,cQcQqccQcicB,9,1,1,9,1,1,11,9.379227638244629,False
+all_004383_row_03_lower,all_004383,W04,lower,Z,E,1,0,0,1,0,0,1,2.5704731941223145,False
+all_007011_row_00_upper,all_007011,W03,upper,N Q DP,\  R __,4,0,1,4,0,0,5,5.686028003692627,False
+all_007011_row_00_count,all_007011,W03,count,lenead,phrehd,4,0,0,4,0,0,4,4.339568138122559,False
+all_007011_row_01_upper,all_007011,W03,upper,C,XX,1,0,1,1,0,1,2,13.725630760192871,False
+all_007011_row_01_count,all_007011,W03,count,mand,ihkW,4,0,0,4,0,0,4,8.774657249450684,False
+all_007011_row_01_lower,all_007011,W03,lower,R,E,1,0,0,1,0,0,1,18.618173599243164,False
+all_007011_row_02_upper,all_007011,W03,upper,K,M,1,0,0,1,0,0,1,13.988726615905762,False
+all_007011_row_02_count,all_007011,W03,count,re,iQ,2,0,0,2,0,0,2,8.78794002532959,False
+all_007011_row_02_lower,all_007011,W03,lower,W,W,0,0,0,0,0,0,0,0.0021025491878390312,True
+all_007011_row_03_upper,all_007011,W03,upper,J H,J F,1,0,0,1,0,0,1,6.956087589263916,False
+all_007011_row_03_count,all_007011,W03,count,nelgaaa,peihhqq,6,0,0,6,0,0,6,8.159562110900879,False
+all_007011_row_03_lower,all_007011,W03,lower,T ]  W,F J  M,3,0,0,3,0,0,3,7.568247318267822,False
+all_007516_row_00_upper,all_007516,W01,upper,B  E  L,\  F  _,3,0,0,3,0,0,3,2.3295445442199707,False
+all_007516_row_00_count,all_007516,W01,count,kbnodea,crr,3,4,0,3,4,0,7,9.216829299926758,False
+all_007516_row_00_lower,all_007516,W01,lower,U  [,U   I,1,0,1,1,0,0,2,2.451056480407715,False
+all_008342_row_00_upper,all_008342,W03,upper,FLB MJCFI,AMB QJEii,6,0,0,6,0,0,6,4.708014488220215,False
+all_008342_row_00_count,all_008342,W03,count,pafiebcbaaa,raficfcJE,5,2,0,5,2,0,7,4.95785665512085,False
+all_008342_row_00_lower,all_008342,W03,lower,X    R,\    \,2,0,0,2,0,0,2,3.3810842037200928,False
+all_008342_row_01_upper,all_008342,W03,upper,E M Q  J E,\ M F   J M,3,0,1,3,0,0,4,1.7341930866241455,False
+all_008342_row_01_count,all_008342,W03,count,jhnbjccjbc,ohcJiQQTWQ,9,0,0,9,0,0,9,8.334554672241211,False
+all_008342_row_01_lower,all_008342,W03,lower,V,V,0,0,0,0,0,0,0,0.00016523589147254825,True
+all_009637_row_00_upper,all_009637,W01,upper,E H,P H,1,0,0,1,0,0,1,3.6483466625213623,False
+all_009637_row_00_count,all_009637,W01,count,paia,rhc,3,1,0,3,1,0,4,8.414183616638184,False
+all_009637_row_00_lower,all_009637,W01,lower,S,T,1,0,0,1,0,0,1,5.369762420654297,False

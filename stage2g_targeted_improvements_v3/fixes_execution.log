@@ -1,0 +1,20 @@
+EVAL F1_role_mask_regression 250 / 1139
+EVAL F1_role_mask_regression 500 / 1139
+EVAL F1_role_mask_regression 750 / 1139
+EVAL F1_role_mask_regression 1000 / 1139
+EVAL F2_alpha_0.25_regression 250 / 1139
+EVAL F2_alpha_0.25_regression 500 / 1139
+EVAL F2_alpha_0.25_regression 750 / 1139
+EVAL F2_alpha_0.25_regression 1000 / 1139
+ALPHA 0.25 train_macro 0.6661816211253577 safe {'passed': True, 'checks': {'clean_historical_regression_cer': True, 'clean_historical_regression_exact': True, 'clean_validation_cer': True, 'clean_validation_exact': True, 'positive_development_cer': True, 'long_positive_development_cer': True}}
+EVAL F2_alpha_0.5_regression 250 / 1139
+EVAL F2_alpha_0.5_regression 500 / 1139
+EVAL F2_alpha_0.5_regression 750 / 1139
+EVAL F2_alpha_0.5_regression 1000 / 1139
+ALPHA 0.5 train_macro 0.6598834085510492 safe {'passed': True, 'checks': {'clean_historical_regression_cer': True, 'clean_historical_regression_exact': True, 'clean_validation_cer': True, 'clean_validation_exact': True, 'positive_development_cer': True, 'long_positive_development_cer': True}}
+EVAL F2_alpha_0.75_regression 250 / 1139
+EVAL F2_alpha_0.75_regression 500 / 1139
+EVAL F2_alpha_0.75_regression 750 / 1139
+EVAL F2_alpha_0.75_regression 1000 / 1139
+ALPHA 0.75 train_macro 0.6648843777311229 safe {'passed': False, 'checks': {'clean_historical_regression_cer': True, 'clean_historical_regression_exact': True, 'clean_validation_cer': True, 'clean_validation_exact': True, 'positive_development_cer': False, 'long_positive_development_cer': False}}
+V3 COMPLETE [{'name': 'F1_authentic_role_mask', 'evaluated': True, 'errors': 59, 'cer': 0.5841584158415841, 'cer_no_whitespace': 0.7313432835820896, 'exact_tiers': 1, 'passed': True, 'failed_gates': ''}, {'name': 'F2_shrunk_CNN', 'evaluated': True, 'errors': 61, 'cer': 0.6039603960396039, 'cer_no_whitespace': 0.7611940298507462, 'exact_tiers': 1, 'passed': False, 'failed_gates': 'minimum_three_fewer_handwritten_edits'}]

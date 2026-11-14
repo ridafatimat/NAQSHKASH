@@ -1,0 +1,121 @@
+﻿id,source_id,writer_id,role,truth,prediction,substitutions,deletions,insertions,no_space_substitutions,no_space_deletions,no_space_insertions,edit_distance,loss,exact,raw_prediction,raw_out_of_role_characters,role_restriction_changed_output
+normal_train_000471__clean_r0_upper,train_000471,synthetic,upper,I    IF,I    IF,0,0,0,0,0,0,0,0.000513056933414191,True,I    IF,,False
+normal_train_000471__clean_r1_upper,train_000471,synthetic,upper,P F J B KPJI,P F J B KPJI,0,0,0,0,0,0,0,8.636282291263342e-05,True,P F J B KPJI,,False
+normal_train_000471__clean_r2_upper,train_000471,synthetic,upper,D   L D,D   L D,0,0,0,0,0,0,0,0.00010933195881079882,True,D   L D,,False
+normal_train_000471__clean_r3_upper,train_000471,synthetic,upper,H  L H,H  L H,0,0,0,0,0,0,0,5.2539322496159e-05,True,H  L H,,False
+normal_train_000948__clean_r0_upper,train_000948,synthetic,upper,H C  PAH,H C  PAH,0,0,0,0,0,0,0,6.852857768535614e-05,True,H C  PAH,,False
+normal_train_000948__clean_r1_upper,train_000948,synthetic,upper,G   I   BQ A F,G   I   BQ A F,0,0,0,0,0,0,0,0.00013782766473013908,True,G   I   BQ A F,,False
+normal_train_000948__clean_r2_upper,train_000948,synthetic,upper,M   BH EG  NE,M   BH EG  NE,0,0,0,0,0,0,0,0.00045287510147318244,True,M   BH EG  NE,,False
+normal_train_000948__clean_r3_upper,train_000948,synthetic,upper,A  IN   Q  H   L,A  IN   Q  H   L,0,0,0,0,0,0,0,0.0001240577839780599,True,A  IN   Q  H   L,,False
+normal_train_001706__clean_r0_upper,train_001706,synthetic,upper,N    GL,N    GL,0,0,0,0,0,0,0,0.0004942620871588588,True,N    GL,,False
+normal_train_001706__clean_r1_upper,train_001706,synthetic,upper,H   FJ  M,H   FJ  M,0,0,0,0,0,0,0,0.00012256746413186193,True,H   FJ  M,,False
+normal_train_003718__clean_r0_upper,train_003718,synthetic,upper,K IPG,K IPG,0,0,0,0,0,0,0,3.0551695090252906e-05,True,K IPG,,False
+normal_train_005029__clean_r0_upper,train_005029,synthetic,upper,A   G,A   G,0,0,0,0,0,0,0,0.00023509131278842688,True,A   G,,False
+normal_train_005196__clean_r0_upper,train_005196,synthetic,upper,P F,P F,0,0,0,0,0,0,0,1.8835073205991648e-05,True,P F,,False
+normal_train_005196__clean_r1_upper,train_005196,synthetic,upper,C   IL B,C   IL B,0,0,0,0,0,0,0,0.0005132564110681415,True,C   IL B,,False
+normal_train_005196__clean_r2_upper,train_005196,synthetic,upper,EM I MB M,EM I MB M,0,0,0,0,0,0,0,3.561325866030529e-05,True,EM I MB M,,False
+normal_train_005196__clean_r3_upper,train_005196,synthetic,upper,F  H P    B,F  H P    B,0,0,0,0,0,0,0,0.0004012228164356202,True,F  H P    B,,False
+normal_train_007944__clean_r0_upper,train_007944,synthetic,upper,AG,AG,0,0,0,0,0,0,0,5.94856683164835e-05,True,AG,,False
+normal_train_007944__clean_r1_upper,train_007944,synthetic,upper,Q   J,Q   J,0,0,0,0,0,0,0,0.00015101114695426077,True,Q   J,,False
+normal_train_007944__clean_r2_upper,train_007944,synthetic,upper,M D  BK,M D  BK,0,0,0,0,0,0,0,4.5906690502306446e-05,True,M D  BK,,False
+normal_train_007944__clean_r3_upper,train_007944,synthetic,upper,C    J,C    J,0,0,0,0,0,0,0,0.0005931169725954533,True,C    J,,False
+normal_train_000471__clean_r0_count,train_000471,synthetic,count,vgmgfdc,vgmgfdc,0,0,0,0,0,0,0,2.7223539291298948e-05,True,vgmgfdc,,False
+normal_train_000471__clean_r1_count,train_000471,synthetic,count,sbfijbkclhacba,sbfijbkclhacba,0,0,0,0,0,0,0,1.3246933121990878e-05,True,sbfijbkclhacba,,False
+normal_train_000471__clean_r2_count,train_000471,synthetic,count,rdpcjbjfb,rdpcjbjfb,0,0,0,0,0,0,0,9.81655375653645e-06,True,rdpcjbjfb,,False
+normal_train_000471__clean_r3_count,train_000471,synthetic,count,vckbbgcibji,vckbbgcibji,0,0,0,0,0,0,0,1.80114420800237e-05,True,vckbbgcibji,,False
+normal_train_000948__clean_r0_count,train_000948,synthetic,count,",frdkabba",",frdkabba",0,0,0,0,0,0,0,1.3947900697530713e-05,True,",frdkabba",,False
+normal_train_000948__clean_r1_count,train_000948,synthetic,count,gmd(gkbkggkbkbfaa,gmd(gkbkggkbkbfaa,0,0,0,0,0,0,0,1.0811011634359602e-05,True,gmd(gkbkggkbkbfaa,,False
+normal_train_000948__clean_r2_count,train_000948,synthetic,count,ebsadmid|dbej,ebsadmid|dbej,0,0,0,0,0,0,0,1.740166771924123e-05,True,ebsadmid|dbej,,False
+normal_train_000948__clean_r3_count,train_000948,synthetic,count,i+fjhobgjjebacaaa,i+fjhobgjjebacaaa,0,0,0,0,0,0,0,0.0002620609593577683,True,i+fjhobgjjebacaaa,,False
+normal_train_001706__clean_r0_count,train_001706,synthetic,count,pfhjgbc,pfhjgbc,0,0,0,0,0,0,0,1.1842967978736851e-05,True,pfhjgbc,,False
+normal_train_001706__clean_r1_count,train_001706,synthetic,count,lbkdiliaa,lbkdiliaa,0,0,0,0,0,0,0,1.137248364102561e-05,True,lbkdiliaa,,False
+normal_train_003718__clean_r0_count,train_003718,synthetic,count,likadda,likadda,0,0,0,0,0,0,0,8.71718020789558e-06,True,likadda,,False
+normal_train_004873__clean_r0_count,train_004873,synthetic,count,dj,dj,0,0,0,0,0,0,0,1.3552606105804443e-05,True,dj,,False
+normal_train_005029__clean_r0_count,train_005029,synthetic,count,gaeca,gaeca,0,0,0,0,0,0,0,3.2473531064169947e-06,True,gaeca,,False
+normal_train_005196__clean_r0_count,train_005196,synthetic,count,|hsiaj,|hsiaj,0,0,0,0,0,0,0,1.2395282283250708e-05,True,|hsiaj,,False
+normal_train_005196__clean_r1_count,train_005196,synthetic,count,+ijagglicb,+ijagglicb,0,0,0,0,0,0,0,3.770114926737733e-05,True,+ijagglicb,,False
+normal_train_005196__clean_r2_count,train_005196,synthetic,count,|rfhbfecga,|rfhbfecga,0,0,0,0,0,0,0,3.9359925722237676e-05,True,|rfhbfecga,,False
+normal_train_005196__clean_r3_count,train_005196,synthetic,count,ewhuajajghag,ewhuajajghag,0,0,0,0,0,0,0,2.440685966575984e-05,True,ewhuajajghag,,False
+normal_train_007944__clean_r0_count,train_007944,synthetic,count,+eoeimf,+eoeimf,0,0,0,0,0,0,0,9.759111708262935e-05,True,+eoeimf,,False
+normal_train_007944__clean_r1_count,train_007944,synthetic,count,vayaahlbdkfb,vayaahlbdkfb,0,0,0,0,0,0,0,2.980294266308192e-05,True,vayaahlbdkfb,,False
+normal_train_007944__clean_r2_count,train_007944,synthetic,count,+hlidaofeaa,+hlidaofeaa,0,0,0,0,0,0,0,3.6509198253042996e-05,True,+hlidaofeaa,,False
+normal_train_000471__clean_r0_lower,train_000471,synthetic,lower,U Y,U Y,0,0,0,0,0,0,0,0.00018361490219831467,True,U Y,,False
+normal_train_000471__clean_r1_lower,train_000471,synthetic,lower,_  X,_  X,0,0,0,0,0,0,0,0.0013731266371905804,True,_  X,,False
+normal_train_000471__clean_r2_lower,train_000471,synthetic,lower,Y   \,Y   \,0,0,0,0,0,0,0,0.00018684261885937303,True,Y   \,,False
+normal_train_000471__clean_r3_lower,train_000471,synthetic,lower,Y Z  Z\ T,Y Z  Z\ T,0,0,0,0,0,0,0,6.430566281778738e-05,True,Y Z  Z\ T,,False
+normal_train_000948__clean_r0_lower,train_000948,synthetic,lower,ZX   T,ZX   T,0,0,0,0,0,0,0,0.000310855801217258,True,ZX   T,,False
+normal_train_000948__clean_r1_lower,train_000948,synthetic,lower,]T   [   ^R    Y,]T   [   ^R    Y,0,0,0,0,0,0,0,0.00025240553077310324,True,]T   [   ^R    Y,,False
+normal_train_000948__clean_r2_lower,train_000948,synthetic,lower,YW       Z,YW       Z,0,0,0,0,0,0,0,0.002583797788247466,True,YW       Z,,False
+normal_train_000948__clean_r3_lower,train_000948,synthetic,lower,T  X   VY Y^ Z_Z,T  X   VY Y^ Z_Z,0,0,0,0,0,0,0,9.827392204897478e-05,True,T  X   VY Y^ Z_Z,,False
+normal_train_001706__clean_r0_lower,train_001706,synthetic,lower,Z\,Z\,0,0,0,0,0,0,0,0.0006050114752724767,True,Z\,,False
+normal_train_001706__clean_r1_lower,train_001706,synthetic,lower,_    Z,_    Z,0,0,0,0,0,0,0,0.00123372592497617,True,_    Z,,False
+normal_train_003718__clean_r0_lower,train_003718,synthetic,lower,Z,Z,0,0,0,0,0,0,0,0.0004419433244038373,True,Z,,False
+normal_train_004873__clean_r0_lower,train_004873,synthetic,lower,[],[],0,0,0,0,0,0,0,4.2477622628211975e-05,True,[],,False
+normal_train_005029__clean_r0_lower,train_005029,synthetic,lower,R[V,R[V,0,0,0,0,0,0,0,2.419978591206018e-05,True,R[V,,False
+normal_train_005196__clean_r0_lower,train_005196,synthetic,lower,ZV,ZV,0,0,0,0,0,0,0,0.00011268490925431252,True,ZV,,False
+normal_train_005196__clean_r1_lower,train_005196,synthetic,lower,^ V ]    R,^ V ]    R,0,0,0,0,0,0,0,0.0004377170407678932,True,^ V ]    R,,False
+normal_train_005196__clean_r2_lower,train_005196,synthetic,lower,S  _ W,S  _ W,0,0,0,0,0,0,0,5.473222699947655e-05,True,S  _ W,,False
+normal_train_005196__clean_r3_lower,train_005196,synthetic,lower,\     ^ _ [,\     ^ _ [,0,0,0,0,0,0,0,0.000489510246552527,True,\     ^ _ [,,False
+normal_train_007944__clean_r0_lower,train_007944,synthetic,lower,S R,S R,0,0,0,0,0,0,0,1.6534249880351126e-05,True,S R,,False
+normal_train_007944__clean_r1_lower,train_007944,synthetic,lower,W _ \ ] X  X,W _ \ ] X  X,0,0,0,0,0,0,0,0.0002516167296562344,True,W _ \ ] X  X,,False
+normal_train_007944__clean_r2_lower,train_007944,synthetic,lower,X   [XV,X   [XV,0,0,0,0,0,0,0,0.0003915088891517371,True,X   [XV,,False
+positive_edge_00002__aug_01_shadow_r0_upper,edge_00002,synthetic,upper,A,A,0,0,0,0,0,0,0,9.205661626765504e-06,True,A,,False
+positive_edge_00002__aug_02_gaussian_blur_contrast_r0_upper,edge_00002,synthetic,upper,A,A,0,0,0,0,0,0,0,8.55490088724764e-06,True,A,,False
+positive_edge_00002__aug_03_perspective_shadow_r0_upper,edge_00002,synthetic,upper,A,A,0,0,0,0,0,0,0,9.068060535355471e-06,True,A,,False
+positive_edge_00002__clean_r0_upper,edge_00002,synthetic,upper,A,A,0,0,0,0,0,0,0,9.054205293068662e-06,True,A,,False
+positive_edge_00010__aug_01_resolution_r0_upper,edge_00010,synthetic,upper,A,A,0,0,0,0,0,0,0,7.492521945096087e-06,True,A,,False
+positive_edge_00010__aug_02_motion_blur_r0_upper,edge_00010,synthetic,upper,A,A,0,0,0,0,0,0,0,6.940014827705454e-06,True,A,,False
+positive_edge_00010__aug_03_gaussian_blur_contrast_r0_upper,edge_00010,synthetic,upper,A,A,0,0,0,0,0,0,0,7.405588348774472e-06,True,A,,False
+positive_edge_00010__clean_r0_upper,edge_00010,synthetic,upper,A,A,0,0,0,0,0,0,0,7.622586508659879e-06,True,A,,False
+positive_edge_00013__aug_01_rotation_r0_upper,edge_00013,synthetic,upper,A,A,0,0,0,0,0,0,0,8.116856406559236e-06,True,A,,False
+positive_edge_00013__aug_02_resolution_jpeg_r0_upper,edge_00013,synthetic,upper,A,A,0,0,0,0,0,0,0,8.595819053880405e-06,True,A,,False
+positive_edge_00013__aug_03_gaussian_blur_contrast_r0_upper,edge_00013,synthetic,upper,A,A,0,0,0,0,0,0,0,8.112433533824515e-06,True,A,,False
+positive_edge_00013__clean_r0_upper,edge_00013,synthetic,upper,A,A,0,0,0,0,0,0,0,7.618977178935893e-06,True,A,,False
+positive_edge_00024__aug_01_jpeg_r0_upper,edge_00024,synthetic,upper,A,A,0,0,0,0,0,0,0,3.924360498785973e-06,True,A,,False
+positive_edge_00024__aug_02_gaussian_blur_r0_upper,edge_00024,synthetic,upper,A,A,0,0,0,0,0,0,0,3.705848939716816e-06,True,A,,False
+positive_edge_00024__aug_03_brightness_r0_upper,edge_00024,synthetic,upper,A,A,0,0,0,0,0,0,0,3.7934514693915844e-06,True,A,,False
+positive_edge_00024__clean_r0_upper,edge_00024,synthetic,upper,A,A,0,0,0,0,0,0,0,3.930064849555492e-06,True,A,,False
+positive_edge_00039__aug_01_jpeg_r0_upper,edge_00039,synthetic,upper,A,A,0,0,0,0,0,0,0,7.991215170477517e-06,True,A,,False
+positive_edge_00039__aug_02_resolution_r0_upper,edge_00039,synthetic,upper,A,A,0,0,0,0,0,0,0,8.19872639112873e-06,True,A,,False
+positive_edge_00039__aug_03_perspective_shadow_r0_upper,edge_00039,synthetic,upper,A,A,0,0,0,0,0,0,0,8.21403409645427e-06,True,A,,False
+positive_edge_00039__clean_r0_upper,edge_00039,synthetic,upper,A,A,0,0,0,0,0,0,0,7.618977178935893e-06,True,A,,False
+positive_edge_00002__aug_01_shadow_r0_count,edge_00002,synthetic,count,aa,aa,0,0,0,0,0,0,0,2.4633831344544888e-05,True,aa,,False
+positive_edge_00002__aug_02_gaussian_blur_contrast_r0_count,edge_00002,synthetic,count,aa,aa,0,0,0,0,0,0,0,2.6523717679083347e-05,True,aa,,False
+positive_edge_00002__aug_03_perspective_shadow_r0_count,edge_00002,synthetic,count,aa,aa,0,0,0,0,0,0,0,0.00019471935229375958,True,aa,,False
+positive_edge_00002__clean_r0_count,edge_00002,synthetic,count,aa,aa,0,0,0,0,0,0,0,4.488870035856962e-05,True,aa,,False
+positive_edge_00010__aug_01_resolution_r0_count,edge_00010,synthetic,count,jb,jb,0,0,0,0,0,0,0,5.368143320083618e-06,True,jb,,False
+positive_edge_00010__aug_02_motion_blur_r0_count,edge_00010,synthetic,count,jb,jb,0,0,0,0,0,0,0,4.641711711883545e-06,True,jb,,False
+positive_edge_00010__aug_03_gaussian_blur_contrast_r0_count,edge_00010,synthetic,count,jb,jb,0,0,0,0,0,0,0,4.230067133903503e-06,True,jb,,False
+positive_edge_00010__clean_r0_count,edge_00010,synthetic,count,jb,jb,0,0,0,0,0,0,0,4.760921001434326e-06,True,jb,,False
+positive_edge_00013__aug_01_rotation_r0_count,edge_00013,synthetic,count,ka,ka,0,0,0,0,0,0,0,3.320392715977505e-05,True,ka,,False
+positive_edge_00013__aug_02_resolution_jpeg_r0_count,edge_00013,synthetic,count,ka,ka,0,0,0,0,0,0,0,1.2045715266140178e-05,True,ka,,False
+positive_edge_00013__aug_03_gaussian_blur_contrast_r0_count,edge_00013,synthetic,count,ka,ka,0,0,0,0,0,0,0,1.5155615983530879e-05,True,ka,,False
+positive_edge_00013__clean_r0_count,edge_00013,synthetic,count,ka,ka,0,0,0,0,0,0,0,4.757952410727739e-06,True,ka,,False
+positive_edge_00016__aug_01_resolution_r0_count,edge_00016,synthetic,count,ki,ki,0,0,0,0,0,0,0,4.4629909098148346e-05,True,ki,,False
+positive_edge_00016__aug_02_gaussian_blur_contrast_r0_count,edge_00016,synthetic,count,ki,ki,0,0,0,0,0,0,0,9.217238402925432e-05,True,ki,,False
+positive_edge_00016__aug_03_shadow_r0_count,edge_00016,synthetic,count,ki,ki,0,0,0,0,0,0,0,1.1056687981181312e-05,True,ki,,False
+positive_edge_00016__clean_r0_count,edge_00016,synthetic,count,ki,ki,0,0,0,0,0,0,0,8.434068149654195e-06,True,ki,,False
+positive_edge_00024__aug_01_jpeg_r0_count,edge_00024,synthetic,count,m,m,0,0,0,0,0,0,0,1.3233977369964123e-05,True,m,,False
+positive_edge_00024__aug_02_gaussian_blur_r0_count,edge_00024,synthetic,count,m,m,0,0,0,0,0,0,0,0.009749514050781727,True,m,,False
+positive_edge_00024__aug_03_brightness_r0_count,edge_00024,synthetic,count,m,m,0,0,0,0,0,0,0,6.919872248545289e-06,True,m,,False
+positive_edge_00024__clean_r0_count,edge_00024,synthetic,count,m,m,0,0,0,0,0,0,0,7.514681783504784e-06,True,m,,False
+positive_edge_00002__aug_01_shadow_r0_lower,edge_00002,synthetic,lower,R,R,0,0,0,0,0,0,0,2.3126869564293884e-05,True,R,,False
+positive_edge_00002__aug_02_gaussian_blur_contrast_r0_lower,edge_00002,synthetic,lower,R,R,0,0,0,0,0,0,0,2.3961352781043388e-05,True,R,,False
+positive_edge_00002__aug_03_perspective_shadow_r0_lower,edge_00002,synthetic,lower,R,R,0,0,0,0,0,0,0,2.1338690203265287e-05,True,R,,False
+positive_edge_00002__clean_r0_lower,edge_00002,synthetic,lower,R,R,0,0,0,0,0,0,0,4.80425005662255e-05,True,R,,False
+positive_edge_00016__aug_01_resolution_r0_lower,edge_00016,synthetic,lower,R,R,0,0,0,0,0,0,0,6.556664629897568e-06,True,R,,False
+positive_edge_00016__aug_02_gaussian_blur_contrast_r0_lower,edge_00016,synthetic,lower,R,R,0,0,0,0,0,0,0,6.199062681844225e-06,True,R,,False
+positive_edge_00016__aug_03_shadow_r0_lower,edge_00016,synthetic,lower,R,R,0,0,0,0,0,0,0,6.318141913652653e-06,True,R,,False
+positive_edge_00016__clean_r0_lower,edge_00016,synthetic,lower,R,R,0,0,0,0,0,0,0,8.106245331873652e-06,True,R,,False
+positive_edge_00042__aug_01_rotation_jpeg_r0_lower,edge_00042,synthetic,lower,R,R,0,0,0,0,0,0,0,5.96080190007342e-06,True,R,,False
+positive_edge_00042__aug_02_gaussian_blur_contrast_r0_lower,edge_00042,synthetic,lower,R,R,0,0,0,0,0,0,0,6.437449428631226e-06,True,R,,False
+positive_edge_00042__aug_03_shadow_r0_lower,edge_00042,synthetic,lower,R,R,0,0,0,0,0,0,0,7.033437668724218e-06,True,R,,False
+positive_edge_00042__clean_r0_lower,edge_00042,synthetic,lower,R,R,0,0,0,0,0,0,0,8.106245331873652e-06,True,R,,False
+positive_edge_00049__aug_01_perspective_r0_lower,edge_00049,synthetic,lower,R,R,0,0,0,0,0,0,0,5.960559064988047e-06,True,R,,False
+positive_edge_00049__aug_02_gaussian_blur_contrast_r0_lower,edge_00049,synthetic,lower,R,R,0,0,0,0,0,0,0,6.199063136591576e-06,True,R,,False
+positive_edge_00049__aug_03_noise_r0_lower,edge_00049,synthetic,lower,R,R,0,0,0,0,0,0,0,7.7486647569458e-06,True,R,,False
+positive_edge_00049__clean_r0_lower,edge_00049,synthetic,lower,R,R,0,0,0,0,0,0,0,8.10624987934716e-06,True,R,,False
+positive_edge_00053__aug_01_brightness_noise_r0_lower,edge_00053,synthetic,lower,R,R,0,0,0,0,0,0,0,5.090308332000859e-05,True,R,,False
+positive_edge_00053__aug_02_rotation_r0_lower,edge_00053,synthetic,lower,R,R,0,0,0,0,0,0,0,2.5630130039644428e-05,True,R,,False
+positive_edge_00053__aug_03_perspective_r0_lower,edge_00053,synthetic,lower,R,R,0,0,0,0,0,0,0,2.8372056476655416e-05,True,R,,False
+positive_edge_00053__clean_r0_lower,edge_00053,synthetic,lower,R,R,0,0,0,0,0,0,0,6.306298018898815e-05,True,R,,False
