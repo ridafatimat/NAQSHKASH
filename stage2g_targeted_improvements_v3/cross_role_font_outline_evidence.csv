@@ -1,0 +1,6 @@
+﻿upper,lower,upper_glyph,lower_glyph,simple_outline_comparison,translation_equivalent_outlines,ordered_translation_equivalent,upper_points,lower_points,upper_bounds,lower_bounds
+E,Z,27,48,True,False,False,4,4,"[146, 92, 833, 318]","[148, 532, 833, 758]"
+C,Y,25,47,True,True,True,24,24,"[236, 91, 725, 265]","[236, 541, 725, 715]"
+K,^,33,52,True,False,False,12,12,"[138, 64, 848, 699]","[148, 166, 846, 797]"
+G,[,29,49,True,False,False,8,8,"[300, 62, 639, 583]","[340, 222, 679, 743]"
+I,\,31,50,True,False,False,30,36,"[305, 90, 715, 650]","[335, 200, 745, 761]"

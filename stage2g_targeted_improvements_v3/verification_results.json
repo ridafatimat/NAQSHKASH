@@ -1,0 +1,20 @@
+{
+  "all_14_original_W05_tiers_compared": true,
+  "saved_error_alignment_counts_match_V2": true,
+  "targeted_fix_metrics_independently_recomputed": true,
+  "F1_parameters_fixed_before_W05": true,
+  "F2_coefficient_fixed_before_W05": true,
+  "no_W05_coefficient_sweep": true,
+  "raw_unmasked_evidence_preserved": true,
+  "authentic_role_mask_respected": true,
+  "original_regression_gates_unchanged": true,
+  "all_previous_V2_files_and_E1_unchanged": true,
+  "three_reused_traces_have_verified_input_and_artifact_hashes": true,
+  "CNN_shrinkage_exact_and_recurrent_classifier_states_preserved": true,
+  "no_new_training_optimizer_state": true,
+  "saved_blend_artifact_hash_matches": true,
+  "inspected_font_matches_frozen_rendering_profile": true,
+  "C_Y_exact_ordered_outline_equivalence": true,
+  "integrity_checks_pass": true,
+  "scripts_parse": true
+}

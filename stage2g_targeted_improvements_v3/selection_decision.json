@@ -1,0 +1,7 @@
+{
+  "status": "PROVISIONAL",
+  "eligible_targeted_fix": "F1_authentic_role_mask",
+  "operational_default_unchanged": "C:\\NAQSHKASH\\stage2\\stage2e_finetuning\\checkpoints\\selected_model\\best.pt",
+  "no_automatic_promotion": true,
+  "reason": "Any eligible result is conditional development evidence. Role-mask inference requires reliable roles on valid tiers and must not sanitize invalid-notation evidence for Stage2F. New-writer and reader verification remain outstanding."
+}

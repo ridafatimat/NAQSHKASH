@@ -1,0 +1,15 @@
+﻿id,source_id,writer_id,role,truth,prediction,substitutions,deletions,insertions,no_space_substitutions,no_space_deletions,no_space_insertions,edit_distance,loss,exact,raw_prediction,raw_out_of_role_characters,role_restriction_changed_output
+all_003801_row_00_count,all_003801,W05,count,|bee,{i{c,4,0,0,4,0,0,4,8.09262752532959,False,{i{c,,False
+all_003801_row_00_lower,all_003801,W05,lower,X [S,X [S,0,0,0,0,0,0,0,0.020921366289258003,True,X [S,,False
+all_003801_row_01_upper,all_003801,W05,upper,K   K   HI,K   L   FM,3,0,0,3,0,0,3,4.013638496398926,False,^   _   F\,^_\,True
+all_003801_row_01_count,all_003801,W05,count,xbjgdjdcjaa,oce{a{ccaa,7,1,0,7,1,0,8,5.816577911376953,False,oce{a{ccaa,,False
+all_003801_row_01_lower,all_003801,W05,lower,X  R U  V,X Z R S,3,2,0,3,0,0,5,4.199300765991211,False,X Z R S,,False
+all_003801_row_02_upper,all_003801,W05,upper,E   C,E   ,0,1,0,0,1,0,1,4.181689262390137,False,Z   Y,ZY,True
+all_003801_row_02_count,all_003801,W05,count,xakekf,rahioo,5,0,0,5,0,0,5,7.150454998016357,False,rahioo,,False
+all_003801_row_02_lower,all_003801,W05,lower,[,W,1,0,0,1,0,0,1,11.273514747619629,False,G,G,True
+all_003801_row_03_upper,all_003801,W05,upper,K     F   IB,D  H HH,4,5,0,4,0,0,9,6.421327590942383,False,D  H HH,,False
+all_003801_row_03_count,all_003801,W05,count,ofnamcekehca,ofcaeicciaii,9,0,0,9,0,0,9,7.465948581695557,False,ofcaeiccQaQF,QQF,True
+all_003801_row_03_lower,all_003801,W05,lower,^ W  W ^,_ W \_,3,2,0,3,0,0,5,2.8766820430755615,False,_ W Q_,Q,True
+all_003191_row_00_upper,all_003191,W05,upper,P    F,F   H,2,1,0,2,0,0,3,3.6302433013916016,False,F   H,,False
+all_003191_row_00_count,all_003191,W05,count,slijdfa,ziir{|a,5,0,0,5,0,0,5,5.898355007171631,False,ziiM{|a,M,True
+all_003191_row_00_lower,all_003191,W05,lower,R ]  V,\ ]  V,1,0,0,1,0,0,1,3.927516222000122,False,F J  V,FJ,True

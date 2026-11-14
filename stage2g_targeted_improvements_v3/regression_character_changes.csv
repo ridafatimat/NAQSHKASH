@@ -1,0 +1,15 @@
+﻿role,operation,reference,predicted,count_A,count_B,count_D,weight_delta,total_delta
+upper,deletion,I,,0,1,0,-1,0
+upper,substitution,A,U,0,2,2,0,2
+count,substitution,),t,1,1,2,1,1
+count,substitution,*,u,0,0,1,1,1
+count,substitution,",",u,0,0,1,1,1
+count,substitution,",",w,0,1,0,-1,0
+count,substitution,",",z,1,0,0,0,-1
+count,substitution,a,L,0,0,1,1,1
+count,substitution,m,u,0,0,2,2,2
+count,substitution,u,),1,1,0,-1,-1
+count,substitution,u,t,0,0,1,1,1
+count,substitution,v,u,0,0,4,4,4
+count,substitution,w,z,3,3,2,-1,-1
+lower,deletion, ,,175,176,187,11,12

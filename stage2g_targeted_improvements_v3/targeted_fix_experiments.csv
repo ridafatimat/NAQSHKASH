@@ -1,0 +1,3 @@
+﻿name,evaluated,errors,cer,cer_no_whitespace,exact_tiers,passed,failed_gates
+F1_authentic_role_mask,True,59,0.5841584158415841,0.7313432835820896,1,True,
+F2_shrunk_CNN,True,61,0.6039603960396039,0.7611940298507462,1,False,minimum_three_fewer_handwritten_edits

@@ -1,0 +1,9 @@
+{
+  "previous_V2_files_and_E1_unchanged": true,
+  "no_optimizer_or_backward": true,
+  "no_synthetic_generation": true,
+  "no_test_or_quarantined_images_loaded": true,
+  "normalization_reused_without_tuning": true,
+  "all_new_parameters_selected_before_W05": true,
+  "original_labels_unchanged": true
+}

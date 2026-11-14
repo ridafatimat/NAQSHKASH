@@ -1,0 +1,207 @@
+{
+  "font": "C:\\FYP Dataset Generation\\Assets\\Talamat.ttf",
+  "sha256": "db845e7da53991c2531dbe49b71e19cab4d5b6da314140e16a7e992f6c67381c",
+  "method": "Read existing TrueType simple contours via cmap/loca/glyf; compare translated canonical points, contour boundaries and on-curve flags. No rasterization, generated image, training or inference. Exact equivalence is stronger than visual similarity; a negative result does not prove dissimilarity.",
+  "glyphs": {
+    "E": {
+      "status": "simple_outline",
+      "glyph_id": 27,
+      "points": 4,
+      "contours": 1,
+      "coordinate_bounds": [
+        146,
+        92,
+        833,
+        318
+      ],
+      "declared_bounds": [
+        146,
+        92,
+        833,
+        318
+      ],
+      "translation_invariant_outline_sha256": "8cc588ef5505911c30835ef673e750d666d6475f3f0ac5998aeecc60eee40554",
+      "ordered_translation_sha256": "a557e3e5d38cfa3a25bf57215f4e26e4bcbbe8913032ddfb4111184b40cbdc03"
+    },
+    "Z": {
+      "status": "simple_outline",
+      "glyph_id": 48,
+      "points": 4,
+      "contours": 1,
+      "coordinate_bounds": [
+        148,
+        532,
+        833,
+        758
+      ],
+      "declared_bounds": [
+        148,
+        532,
+        833,
+        758
+      ],
+      "translation_invariant_outline_sha256": "2e169ad60b09b2fd9f85dff4956a447616cc1ddd3c9cdd79ca3256ef0b18afdc",
+      "ordered_translation_sha256": "f421d6d3f0120c6c9b2f9d1e12413f751aea04fe19299be4050c4ce16c785c1f"
+    },
+    "C": {
+      "status": "simple_outline",
+      "glyph_id": 25,
+      "points": 24,
+      "contours": 2,
+      "coordinate_bounds": [
+        236,
+        91,
+        725,
+        265
+      ],
+      "declared_bounds": [
+        236,
+        91,
+        725,
+        265
+      ],
+      "translation_invariant_outline_sha256": "964f680c96d56fd626bb5f220ee447b9432158e205cbfda524b6ce5a5f54a5a2",
+      "ordered_translation_sha256": "0cef0a7bc0e0fe6bcfe49bc2762d7a8f19242a49e716c61735890d26519e44a9"
+    },
+    "Y": {
+      "status": "simple_outline",
+      "glyph_id": 47,
+      "points": 24,
+      "contours": 2,
+      "coordinate_bounds": [
+        236,
+        541,
+        725,
+        715
+      ],
+      "declared_bounds": [
+        236,
+        541,
+        725,
+        715
+      ],
+      "translation_invariant_outline_sha256": "964f680c96d56fd626bb5f220ee447b9432158e205cbfda524b6ce5a5f54a5a2",
+      "ordered_translation_sha256": "0cef0a7bc0e0fe6bcfe49bc2762d7a8f19242a49e716c61735890d26519e44a9"
+    },
+    "K": {
+      "status": "simple_outline",
+      "glyph_id": 33,
+      "points": 12,
+      "contours": 3,
+      "coordinate_bounds": [
+        138,
+        64,
+        848,
+        699
+      ],
+      "declared_bounds": [
+        138,
+        64,
+        848,
+        699
+      ],
+      "translation_invariant_outline_sha256": "28aaccb2e7506ccaa52bb8143445cea43d5b6d79ef4855316d3622d4bff7a6e9",
+      "ordered_translation_sha256": "c3b216c4a8a881a89e2c0ee8fe40bd155fef07fa97cc7346b5858f3c86fdcfd6"
+    },
+    "^": {
+      "status": "simple_outline",
+      "glyph_id": 52,
+      "points": 12,
+      "contours": 3,
+      "coordinate_bounds": [
+        148,
+        166,
+        846,
+        797
+      ],
+      "declared_bounds": [
+        148,
+        166,
+        846,
+        797
+      ],
+      "translation_invariant_outline_sha256": "681ee76fa0cd65968efcc5d0ca0b52b6b9f3a3808972f916016fdf6a3d5bbf1e",
+      "ordered_translation_sha256": "566948e7a0e117c04bbd60e1cd17dc848a9aa962780889d4a353027be18e8e6f"
+    },
+    "G": {
+      "status": "simple_outline",
+      "glyph_id": 29,
+      "points": 8,
+      "contours": 2,
+      "coordinate_bounds": [
+        300,
+        62,
+        639,
+        583
+      ],
+      "declared_bounds": [
+        300,
+        62,
+        639,
+        583
+      ],
+      "translation_invariant_outline_sha256": "b6b6efd35d6d5aaa051df9cc2d95b0e09235989e339ccaeb08c0545f5ff02147",
+      "ordered_translation_sha256": "1dd9f67196672d864dc5ca24cc98d858594a2814c4bef740d86f571d91bc2e70"
+    },
+    "[": {
+      "status": "simple_outline",
+      "glyph_id": 49,
+      "points": 8,
+      "contours": 2,
+      "coordinate_bounds": [
+        340,
+        222,
+        679,
+        743
+      ],
+      "declared_bounds": [
+        340,
+        222,
+        679,
+        743
+      ],
+      "translation_invariant_outline_sha256": "fb9e4f3823fc9690fe7fa4a9a046cc01ad15c2e92bd0735c9295a61cb305f874",
+      "ordered_translation_sha256": "0aad4c2ed629b7da9db6e458d894450d85d57f42f3cb9ebbf2788655b3a58851"
+    },
+    "I": {
+      "status": "simple_outline",
+      "glyph_id": 31,
+      "points": 30,
+      "contours": 1,
+      "coordinate_bounds": [
+        305,
+        90,
+        715,
+        650
+      ],
+      "declared_bounds": [
+        305,
+        90,
+        715,
+        650
+      ],
+      "translation_invariant_outline_sha256": "158e5237505a8333665b2538b807e0c52cdb107eec59a470085f91fd877fdd5a",
+      "ordered_translation_sha256": "79a9fac67dd616b8647618e09b50d933e5745260301aa09762e83e395186f86c"
+    },
+    "\\": {
+      "status": "simple_outline",
+      "glyph_id": 50,
+      "points": 36,
+      "contours": 1,
+      "coordinate_bounds": [
+        335,
+        200,
+        745,
+        761
+      ],
+      "declared_bounds": [
+        335,
+        200,
+        745,
+        761
+      ],
+      "translation_invariant_outline_sha256": "1c4eae77ee3df2e22dbf6b2455a32ce206fc262c1008d23ea681561151add725",
+      "ordered_translation_sha256": "72814b6dbc286901584e76bb4ba3f209bdee154041fa177b57585b890462bbb5"
+    }
+  }
+}

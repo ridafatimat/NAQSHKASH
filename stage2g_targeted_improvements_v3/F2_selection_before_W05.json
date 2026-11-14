@@ -1,0 +1,17 @@
+{
+  "selected_alpha": 0.5,
+  "training_macro_CER": 0.6598834085510492,
+  "source": "Training writers + full existing synthetic development only; no W05 alpha comparison",
+  "safety": {
+    "passed": true,
+    "checks": {
+      "clean_historical_regression_cer": true,
+      "clean_historical_regression_exact": true,
+      "clean_validation_cer": true,
+      "clean_validation_exact": true,
+      "positive_development_cer": true,
+      "long_positive_development_cer": true
+    }
+  },
+  "no_training": true
+}

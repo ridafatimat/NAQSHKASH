@@ -1,0 +1,1140 @@
+﻿id,source_id,writer_id,role,truth,prediction,substitutions,deletions,insertions,no_space_substitutions,no_space_deletions,no_space_insertions,edit_distance,loss,exact,raw_prediction,raw_out_of_role_characters,role_restriction_changed_output
+normal_train_000471__clean_r0_upper,train_000471,synthetic,upper,I    IF,I    IF,0,0,0,0,0,0,0,0.000513056933414191,True,I    IF,,False
+normal_train_000471__clean_r0_count,train_000471,synthetic,count,vgmgfdc,vgmgfdc,0,0,0,0,0,0,0,2.7223539291298948e-05,True,vgmgfdc,,False
+normal_train_000471__clean_r0_lower,train_000471,synthetic,lower,U Y,U Y,0,0,0,0,0,0,0,0.00018361490219831467,True,U Y,,False
+normal_train_000471__clean_r1_upper,train_000471,synthetic,upper,P F J B KPJI,P F J B KPJI,0,0,0,0,0,0,0,8.636282291263342e-05,True,P F J B KPJI,,False
+normal_train_000471__clean_r1_count,train_000471,synthetic,count,sbfijbkclhacba,sbfijbkclhacba,0,0,0,0,0,0,0,1.3246933121990878e-05,True,sbfijbkclhacba,,False
+normal_train_000471__clean_r1_lower,train_000471,synthetic,lower,_  X,_  X,0,0,0,0,0,0,0,0.0013731266371905804,True,_  X,,False
+normal_train_000471__clean_r2_upper,train_000471,synthetic,upper,D   L D,D   L D,0,0,0,0,0,0,0,0.00010933195881079882,True,D   L D,,False
+normal_train_000471__clean_r2_count,train_000471,synthetic,count,rdpcjbjfb,rdpcjbjfb,0,0,0,0,0,0,0,9.81655375653645e-06,True,rdpcjbjfb,,False
+normal_train_000471__clean_r2_lower,train_000471,synthetic,lower,Y   \,Y   \,0,0,0,0,0,0,0,0.00018684261885937303,True,Y   \,,False
+normal_train_000471__clean_r3_upper,train_000471,synthetic,upper,H  L H,H  L H,0,0,0,0,0,0,0,5.2539322496159e-05,True,H  L H,,False
+normal_train_000471__clean_r3_count,train_000471,synthetic,count,vckbbgcibji,vckbbgcibji,0,0,0,0,0,0,0,1.80114420800237e-05,True,vckbbgcibji,,False
+normal_train_000471__clean_r3_lower,train_000471,synthetic,lower,Y Z  Z\ T,Y Z  Z\ T,0,0,0,0,0,0,0,6.430566281778738e-05,True,Y Z  Z\ T,,False
+normal_train_000948__clean_r0_upper,train_000948,synthetic,upper,H C  PAH,H C  PAH,0,0,0,0,0,0,0,6.852857768535614e-05,True,H C  PAH,,False
+normal_train_000948__clean_r0_count,train_000948,synthetic,count,",frdkabba",",frdkabba",0,0,0,0,0,0,0,1.3947900697530713e-05,True,",frdkabba",,False
+normal_train_000948__clean_r0_lower,train_000948,synthetic,lower,ZX   T,ZX   T,0,0,0,0,0,0,0,0.000310855801217258,True,ZX   T,,False
+normal_train_000948__clean_r1_upper,train_000948,synthetic,upper,G   I   BQ A F,G   I   BQ A F,0,0,0,0,0,0,0,0.00013782766473013908,True,G   I   BQ A F,,False
+normal_train_000948__clean_r1_count,train_000948,synthetic,count,gmd(gkbkggkbkbfaa,gmd(gkbkggkbkbfaa,0,0,0,0,0,0,0,1.0811011634359602e-05,True,gmd(gkbkggkbkbfaa,,False
+normal_train_000948__clean_r1_lower,train_000948,synthetic,lower,]T   [   ^R    Y,]T   [   ^R    Y,0,0,0,0,0,0,0,0.00025240553077310324,True,]T   [   ^R    Y,,False
+normal_train_000948__clean_r2_upper,train_000948,synthetic,upper,M   BH EG  NE,M   BH EG  NE,0,0,0,0,0,0,0,0.00045287510147318244,True,M   BH EG  NE,,False
+normal_train_000948__clean_r2_count,train_000948,synthetic,count,ebsadmid|dbej,ebsadmid|dbej,0,0,0,0,0,0,0,1.740166771924123e-05,True,ebsadmid|dbej,,False
+normal_train_000948__clean_r2_lower,train_000948,synthetic,lower,YW       Z,YW       Z,0,0,0,0,0,0,0,0.002583797788247466,True,YW       Z,,False
+normal_train_000948__clean_r3_upper,train_000948,synthetic,upper,A  IN   Q  H   L,A  IN   Q  H   L,0,0,0,0,0,0,0,0.0001240577839780599,True,A  IN   Q  H   L,,False
+normal_train_000948__clean_r3_count,train_000948,synthetic,count,i+fjhobgjjebacaaa,i+fjhobgjjebacaaa,0,0,0,0,0,0,0,0.0002620609593577683,True,i+fjhobgjjebacaaa,,False
+normal_train_000948__clean_r3_lower,train_000948,synthetic,lower,T  X   VY Y^ Z_Z,T  X   VY Y^ Z_Z,0,0,0,0,0,0,0,9.827392204897478e-05,True,T  X   VY Y^ Z_Z,,False
+normal_train_001706__clean_r0_upper,train_001706,synthetic,upper,N    GL,N    GL,0,0,0,0,0,0,0,0.0004942620871588588,True,N    GL,,False
+normal_train_001706__clean_r0_count,train_001706,synthetic,count,pfhjgbc,pfhjgbc,0,0,0,0,0,0,0,1.1842967978736851e-05,True,pfhjgbc,,False
+normal_train_001706__clean_r0_lower,train_001706,synthetic,lower,Z\,Z\,0,0,0,0,0,0,0,0.0006050114752724767,True,Z\,,False
+normal_train_001706__clean_r1_upper,train_001706,synthetic,upper,H   FJ  M,H   FJ  M,0,0,0,0,0,0,0,0.00012256746413186193,True,H   FJ  M,,False
+normal_train_001706__clean_r1_count,train_001706,synthetic,count,lbkdiliaa,lbkdiliaa,0,0,0,0,0,0,0,1.137248364102561e-05,True,lbkdiliaa,,False
+normal_train_001706__clean_r1_lower,train_001706,synthetic,lower,_    Z,_    Z,0,0,0,0,0,0,0,0.00123372592497617,True,_    Z,,False
+normal_train_003718__clean_r0_upper,train_003718,synthetic,upper,K IPG,K IPG,0,0,0,0,0,0,0,3.0551695090252906e-05,True,K IPG,,False
+normal_train_003718__clean_r0_count,train_003718,synthetic,count,likadda,likadda,0,0,0,0,0,0,0,8.71718020789558e-06,True,likadda,,False
+normal_train_003718__clean_r0_lower,train_003718,synthetic,lower,Z,Z,0,0,0,0,0,0,0,0.0004419433244038373,True,Z,,False
+normal_train_004873__clean_r0_count,train_004873,synthetic,count,dj,dj,0,0,0,0,0,0,0,1.3552606105804443e-05,True,dj,,False
+normal_train_004873__clean_r0_lower,train_004873,synthetic,lower,[],[],0,0,0,0,0,0,0,4.2477622628211975e-05,True,[],,False
+normal_train_005029__clean_r0_upper,train_005029,synthetic,upper,A   G,A   G,0,0,0,0,0,0,0,0.00023509131278842688,True,A   G,,False
+normal_train_005029__clean_r0_count,train_005029,synthetic,count,gaeca,gaeca,0,0,0,0,0,0,0,3.2473531064169947e-06,True,gaeca,,False
+normal_train_005029__clean_r0_lower,train_005029,synthetic,lower,R[V,R[V,0,0,0,0,0,0,0,2.419978591206018e-05,True,R[V,,False
+normal_train_005196__clean_r0_upper,train_005196,synthetic,upper,P F,P F,0,0,0,0,0,0,0,1.8835073205991648e-05,True,P F,,False
+normal_train_005196__clean_r0_count,train_005196,synthetic,count,|hsiaj,|hsiaj,0,0,0,0,0,0,0,1.2395282283250708e-05,True,|hsiaj,,False
+normal_train_005196__clean_r0_lower,train_005196,synthetic,lower,ZV,ZV,0,0,0,0,0,0,0,0.00011268490925431252,True,ZV,,False
+normal_train_005196__clean_r1_upper,train_005196,synthetic,upper,C   IL B,C   IL B,0,0,0,0,0,0,0,0.0005132564110681415,True,C   IL B,,False
+normal_train_005196__clean_r1_count,train_005196,synthetic,count,+ijagglicb,+ijagglicb,0,0,0,0,0,0,0,3.770114926737733e-05,True,+ijagglicb,,False
+normal_train_005196__clean_r1_lower,train_005196,synthetic,lower,^ V ]    R,^ V ]    R,0,0,0,0,0,0,0,0.0004377170407678932,True,^ V ]    R,,False
+normal_train_005196__clean_r2_upper,train_005196,synthetic,upper,EM I MB M,EM I MB M,0,0,0,0,0,0,0,3.561325866030529e-05,True,EM I MB M,,False
+normal_train_005196__clean_r2_count,train_005196,synthetic,count,|rfhbfecga,|rfhbfecga,0,0,0,0,0,0,0,3.9359925722237676e-05,True,|rfhbfecga,,False
+normal_train_005196__clean_r2_lower,train_005196,synthetic,lower,S  _ W,S  _ W,0,0,0,0,0,0,0,5.473222699947655e-05,True,S  _ W,,False
+normal_train_005196__clean_r3_upper,train_005196,synthetic,upper,F  H P    B,F  H P    B,0,0,0,0,0,0,0,0.0004012228164356202,True,F  H P    B,,False
+normal_train_005196__clean_r3_count,train_005196,synthetic,count,ewhuajajghag,ewhuajajghag,0,0,0,0,0,0,0,2.440685966575984e-05,True,ewhuajajghag,,False
+normal_train_005196__clean_r3_lower,train_005196,synthetic,lower,\     ^ _ [,\     ^ _ [,0,0,0,0,0,0,0,0.000489510246552527,True,\     ^ _ [,,False
+normal_train_007944__clean_r0_upper,train_007944,synthetic,upper,AG,AG,0,0,0,0,0,0,0,5.94856683164835e-05,True,AG,,False
+normal_train_007944__clean_r0_count,train_007944,synthetic,count,+eoeimf,+eoeimf,0,0,0,0,0,0,0,9.759111708262935e-05,True,+eoeimf,,False
+normal_train_007944__clean_r0_lower,train_007944,synthetic,lower,S R,S R,0,0,0,0,0,0,0,1.6534249880351126e-05,True,S R,,False
+normal_train_007944__clean_r1_upper,train_007944,synthetic,upper,Q   J,Q   J,0,0,0,0,0,0,0,0.00015101114695426077,True,Q   J,,False
+normal_train_007944__clean_r1_count,train_007944,synthetic,count,vayaahlbdkfb,vayaahlbdkfb,0,0,0,0,0,0,0,2.980294266308192e-05,True,vayaahlbdkfb,,False
+normal_train_007944__clean_r1_lower,train_007944,synthetic,lower,W _ \ ] X  X,W _ \ ] X  X,0,0,0,0,0,0,0,0.0002516167296562344,True,W _ \ ] X  X,,False
+normal_train_007944__clean_r2_upper,train_007944,synthetic,upper,M D  BK,M D  BK,0,0,0,0,0,0,0,4.5906690502306446e-05,True,M D  BK,,False
+normal_train_007944__clean_r2_count,train_007944,synthetic,count,+hlidaofeaa,+hlidaofeaa,0,0,0,0,0,0,0,3.6509198253042996e-05,True,+hlidaofeaa,,False
+normal_train_007944__clean_r2_lower,train_007944,synthetic,lower,X   [XV,X   [XV,0,0,0,0,0,0,0,0.0003915088891517371,True,X   [XV,,False
+normal_train_007944__clean_r3_upper,train_007944,synthetic,upper,C    J,C    J,0,0,0,0,0,0,0,0.0005931169725954533,True,C    J,,False
+normal_train_007944__clean_r3_count,train_007944,synthetic,count,wiki{bbc,wiki{bbc,0,0,0,0,0,0,0,1.0800356903928332e-05,True,wiki{bbc,,False
+normal_train_007944__clean_r3_lower,train_007944,synthetic,lower,[   T X,[   T X,0,0,0,0,0,0,0,0.0004324458714108914,True,[   T X,,False
+normal_train_010569__clean_r0_upper,train_010569,synthetic,upper,J,J,0,0,0,0,0,0,0,2.0952982595190406e-05,True,J,,False
+normal_train_010569__clean_r0_count,train_010569,synthetic,count,fj,fj,0,0,0,0,0,0,0,1.9431114196777344e-05,True,fj,,False
+normal_train_010569__clean_r0_lower,train_010569,synthetic,lower,V,V,0,0,0,0,0,0,0,1.4305214790510945e-05,True,V,,False
+normal_train_010569__clean_r1_upper,train_010569,synthetic,upper,EA,EA,0,0,0,0,0,0,0,0.0007941633812151849,True,EA,,False
+normal_train_010569__clean_r1_count,train_010569,synthetic,count,jaabaa,jaabaa,0,0,0,0,0,0,0,3.4601741845108336e-06,True,jaabaa,,False
+normal_train_010569__clean_r1_lower,train_010569,synthetic,lower,X   _Z,X   _Z,0,0,0,0,0,0,0,0.0005813065799884498,True,X   _Z,,False
+normal_train_010569__clean_r2_count,train_010569,synthetic,count,jdaa,jdaa,0,0,0,0,0,0,0,6.496906735264929e-06,True,jdaa,,False
+normal_train_010569__clean_r2_lower,train_010569,synthetic,lower,^ ]^,^ ]^,0,0,0,0,0,0,0,4.712746158475056e-05,True,^ ]^,,False
+normal_train_010569__clean_r3_upper,train_010569,synthetic,upper,I  M,I  M,0,0,0,0,0,0,0,7.294760143849999e-05,True,I  M,,False
+normal_train_010569__clean_r3_count,train_010569,synthetic,count,jdaa,jdaa,0,0,0,0,0,0,0,6.5513891058799345e-06,True,jdaa,,False
+normal_train_010569__clean_r3_lower,train_010569,synthetic,lower,^\,^\,0,0,0,0,0,0,0,3.557506715878844e-05,True,^\,,False
+normal_train_010944__clean_r0_upper,train_010944,synthetic,upper,H A  B   M,H A  B   M,0,0,0,0,0,0,0,0.00014986090536694974,True,H A  B   M,,False
+normal_train_010944__clean_r0_count,train_010944,synthetic,count,|enjcncaba,|enjcncaba,0,0,0,0,0,0,0,4.090107904630713e-05,True,|enjcncaba,,False
+normal_train_010944__clean_r0_lower,train_010944,synthetic,lower,[   [^,[   [^,0,0,0,0,0,0,0,0.00015858870756346732,True,[   [^,,False
+normal_train_010944__clean_r1_upper,train_010944,synthetic,upper,E N KQ,E N KQ,0,0,0,0,0,0,0,3.288383595645428e-05,True,E N KQ,,False
+normal_train_010944__clean_r1_count,train_010944,synthetic,count,oi)eka,oi)eka,0,0,0,0,0,0,0,7.716063555562869e-05,True,oi)eka,,False
+normal_train_010944__clean_r2_upper,train_010944,synthetic,upper,J I     E B G E,J I     E B G E,0,0,0,0,0,0,0,0.0005379993817768991,True,J I     E B G E,,False
+normal_train_010944__clean_r2_count,train_010944,synthetic,count,ae{cbcmdlcfeefjgda,ae{cbcmdlcfeefjgda,0,0,0,0,0,0,0,1.7375943571096286e-05,True,ae{cbcmdlcfeefjgda,,False
+normal_train_010944__clean_r2_lower,train_010944,synthetic,lower,W  _^\    X ^  _R,W  _^\    X ^  _R,0,0,0,0,0,0,0,0.00016400794265791774,True,W  _^\    X ^  _R,,False
+normal_train_010944__clean_r3_upper,train_010944,synthetic,upper,J L J   A FNB,J L J   A FNB,0,0,0,0,0,0,0,0.0001360382593702525,True,J L J   A FNB,,False
+normal_train_010944__clean_r3_count,train_010944,synthetic,count,tbtikdkdcfkacab,tbtikdkdcfkacab,0,0,0,0,0,0,0,1.0352333447372075e-05,True,tbtikdkdcfkacab,,False
+normal_train_010944__clean_r3_lower,train_010944,synthetic,lower,S       \V,S       \V,0,0,0,0,0,0,0,0.0051437923684716225,True,S       \V,,False
+normal_train_011358__clean_r0_upper,train_011358,synthetic,upper,L,L,0,0,0,0,0,0,0,4.4108608562964946e-05,True,L,,False
+normal_train_011358__clean_r0_count,train_011358,synthetic,count,niika,niika,0,0,0,0,0,0,0,1.5361036275862716e-05,True,niika,,False
+normal_train_011358__clean_r0_lower,train_011358,synthetic,lower,\ ^,\ ^,0,0,0,0,0,0,0,3.746648508240469e-05,True,\ ^,,False
+normal_train_011358__clean_r1_upper,train_011358,synthetic,upper,F G       E,F G       E,0,0,0,0,0,0,0,0.002153694862499833,True,F G       E,,False
+normal_train_011358__clean_r1_count,train_011358,synthetic,count,kajcjghhgibd,kajcjghhgibd,0,0,0,0,0,0,0,7.122757324395934e-06,True,kajcjghhgibd,,False
+normal_train_011358__clean_r1_lower,train_011358,synthetic,lower,S \U_^ _,S \U_^ _,0,0,0,0,0,0,0,3.085968637606129e-05,True,S \U_^ _,,False
+normal_train_011358__clean_r2_upper,train_011358,synthetic,upper,B,B,0,0,0,0,0,0,0,0.8313870429992676,True,X,X,True
+normal_train_011358__clean_r2_count,train_011358,synthetic,count,cpcbiaa,cpcbiaa,0,0,0,0,0,0,0,1.781460377969779e-05,True,cpcbiaa,,False
+normal_train_011358__clean_r2_lower,train_011358,synthetic,lower,R[ S XT,R[ S XT,0,0,0,0,0,0,0,2.7128695364808664e-05,True,R[ S XT,,False
+normal_train_011358__clean_r3_upper,train_011358,synthetic,upper,A J  J E,A J  J E,0,0,0,0,0,0,0,6.50960355415009e-05,True,A J  J E,,False
+normal_train_011358__clean_r3_count,train_011358,synthetic,count,dmgafhjajb,dmgafhjajb,0,0,0,0,0,0,0,1.274077203561319e-05,True,dmgafhjajb,,False
+normal_train_011358__clean_r3_lower,train_011358,synthetic,lower,Y   TS,Y   TS,0,0,0,0,0,0,0,9.318627417087555e-05,True,Y   TS,,False
+normal_train_011808__clean_r0_count,train_011808,synthetic,count,",ascjeb",",ascjeb",0,0,0,0,0,0,0,1.4810158063482959e-05,True,",ascjeb",,False
+normal_train_011808__clean_r0_lower,train_011808,synthetic,lower,R Z R_V,R Z R_V,0,0,0,0,0,0,0,3.158833351335488e-05,True,R Z R_V,,False
+normal_train_011808__clean_r1_upper,train_011808,synthetic,upper,EF     L  M J,EF     L  M J,0,0,0,0,0,0,0,0.0004247847246006131,True,EF     L  M J,,False
+normal_train_011808__clean_r1_count,train_011808,synthetic,count,epdf)cialdhja,epdf)cialdhja,0,0,0,0,0,0,0,0.00015538930892944336,True,epdf)cialdhja,,False
+normal_train_011808__clean_r1_lower,train_011808,synthetic,lower,ZS W Z  Y,ZS W Z  Y,0,0,0,0,0,0,0,4.019465995952487e-05,True,ZS W Z  Y,,False
+normal_train_011808__clean_r2_upper,train_011808,synthetic,upper,J   M  D,J   M  D,0,0,0,0,0,0,0,0.0002022646804107353,True,J   M  D,,False
+normal_train_011808__clean_r2_count,train_011808,synthetic,count,vdshdodmgefc,vdshdodmgefc,0,0,0,0,0,0,0,2.209266858699266e-05,True,vdshdodmgefc,,False
+normal_train_011808__clean_r2_lower,train_011808,synthetic,lower,^  ]   ZVT,^  ]   ZVT,0,0,0,0,0,0,0,8.976848039310426e-05,True,^  ]   ZVT,,False
+normal_train_011808__clean_r3_upper,train_011808,synthetic,upper,HPM AN,HPM AN,0,0,0,0,0,0,0,2.1900807041674852e-05,True,HPM AN,,False
+normal_train_011808__clean_r3_count,train_011808,synthetic,count,",batabcb",",batabcb",0,0,0,0,0,0,0,2.3018557840259746e-05,True,",batabcb",,False
+normal_train_011808__clean_r3_lower,train_011808,synthetic,lower,X      _,X      _,0,0,0,0,0,0,0,0.0023607336916029453,True,X      _,,False
+normal_train_012954__clean_r0_upper,train_012954,synthetic,upper,H   J C D,H   J C D,0,0,0,0,0,0,0,0.00012429352500475943,True,H   J C D,,False
+normal_train_012954__clean_r0_count,train_012954,synthetic,count,rhjacajda,rhjacajda,0,0,0,0,0,0,0,7.487006314477185e-06,True,rhjacajda,,False
+normal_train_012954__clean_r0_lower,train_012954,synthetic,lower,Z  X,Z  X,0,0,0,0,0,0,0,0.00697852298617363,True,Z  X,,False
+normal_train_012954__clean_r1_upper,train_012954,synthetic,upper,L,L,0,0,0,0,0,0,0,2.1948091671220027e-05,True,L,,False
+normal_train_012954__clean_r1_count,train_012954,synthetic,count,ufb,ufb,0,0,0,0,0,0,0,3.6527711927192286e-05,True,ufb,,False
+normal_train_012954__clean_r1_lower,train_012954,synthetic,lower,\,\,0,0,0,0,0,0,0,2.398931246716529e-05,True,\,,False
+normal_train_012954__clean_r2_count,train_012954,synthetic,count,teffa,teffa,0,0,0,0,0,0,0,1.0446715350553859e-05,True,teffa,,False
+normal_train_012954__clean_r2_lower,train_012954,synthetic,lower,T XSW,T XSW,0,0,0,0,0,0,0,5.2044913900317624e-05,True,T XSW,,False
+normal_train_012954__clean_r3_upper,train_012954,synthetic,upper,C    I,C    I,0,0,0,0,0,0,0,0.0007530595175921917,True,C    I,,False
+normal_train_012954__clean_r3_count,train_012954,synthetic,count,crckecac,crckecac,0,0,0,0,0,0,0,1.5483245078939945e-05,True,crckecac,,False
+normal_train_012954__clean_r3_lower,train_012954,synthetic,lower,T  Y T V,T  Y T V,0,0,0,0,0,0,0,5.00493188155815e-05,True,T  Y T V,,False
+normal_train_014758__clean_r0_upper,train_014758,synthetic,upper,C N,C N,0,0,0,0,0,0,0,9.352327469969168e-05,True,C N,,False
+normal_train_014758__clean_r0_count,train_014758,synthetic,count,rihjhaba,rihjhaba,0,0,0,0,0,0,0,9.412760846316814e-06,True,rihjhaba,,False
+normal_train_014758__clean_r0_lower,train_014758,synthetic,lower,_ W]  R,_ W]  R,0,0,0,0,0,0,0,2.844083428499289e-05,True,_ W]  R,,False
+normal_train_014773__clean_r0_upper,train_014773,synthetic,upper,J,J,0,0,0,0,0,0,0,2.433296322124079e-05,True,J,,False
+normal_train_014773__clean_r0_count,train_014773,synthetic,count,dhaa,dhaa,0,0,0,0,0,0,0,1.9564293324947357e-05,True,dhaa,,False
+normal_train_014773__clean_r0_lower,train_014773,synthetic,lower,]^Y,]^Y,0,0,0,0,0,0,0,9.686181874712929e-05,True,]^Y,,False
+normal_train_015227__clean_r0_upper,train_015227,synthetic,upper,CM  K N,CM  K N,0,0,0,0,0,0,0,0.00020879055955447257,True,CM  K N,,False
+normal_train_015227__clean_r0_count,train_015227,synthetic,count,wfgkhbkba,wfgkhbkba,0,0,0,0,0,0,0,1.1574787095014472e-05,True,wfgkhbkba,,False
+normal_train_015227__clean_r0_lower,train_015227,synthetic,lower,^    S,^    S,0,0,0,0,0,0,0,0.0007659588009119034,True,^    S,,False
+normal_train_015227__clean_r1_upper,train_015227,synthetic,upper,MC,MC,0,0,0,0,0,0,0,0.0003259180812165141,True,MC,,False
+normal_train_015227__clean_r1_count,train_015227,synthetic,count,{jhabe,{jhabe,0,0,0,0,0,0,0,1.3858080819773022e-05,True,{jhabe,,False
+normal_train_015227__clean_r1_lower,train_015227,synthetic,lower,[X S,[X S,0,0,0,0,0,0,0,3.737956649274565e-05,True,[X S,,False
+normal_train_016260__clean_r0_upper,train_016260,synthetic,upper,I   H A,I   H A,0,0,0,0,0,0,0,0.00023181801952887326,True,I   H A,,False
+normal_train_016260__clean_r0_count,train_016260,synthetic,count,+dsaahj,+dsaahj,0,0,0,0,0,0,0,3.116711013717577e-05,True,+dsaahj,,False
+normal_train_016260__clean_r0_lower,train_016260,synthetic,lower,T  X,T  X,0,0,0,0,0,0,0,0.0016749470960348845,True,T  X,,False
+normal_train_016260__clean_r1_upper,train_016260,synthetic,upper,C I,C I,0,0,0,0,0,0,0,0.0005341519718058407,True,C I,,False
+normal_train_016260__clean_r1_count,train_016260,synthetic,count,ufvjneleeab,ufvjneleeab,0,0,0,0,0,0,0,5.294416405376978e-05,True,ufvjneleeab,,False
+normal_train_016260__clean_r1_lower,train_016260,synthetic,lower,_ V\    _[U,_ V\    _[U,0,0,0,0,0,0,0,0.001674454309977591,True,_ V\    _[U,,False
+normal_train_016260__clean_r2_upper,train_016260,synthetic,upper,L  Q  DN,L  Q  DN,0,0,0,0,0,0,0,8.173775859177113e-05,True,L  Q  DN,,False
+normal_train_016260__clean_r2_count,train_016260,synthetic,count,yfwakbebifjba,yfwakbebifjba,0,0,0,0,0,0,0,2.084722655126825e-05,True,yfwakbebifjba,,False
+normal_train_016260__clean_r2_lower,train_016260,synthetic,lower,\   W ]Z  U ],\   W ]Z  U ],0,0,0,0,0,0,0,9.334779315395281e-05,True,\   W ]Z  U ],,False
+normal_train_016260__clean_r3_upper,train_016260,synthetic,upper,J,J,0,0,0,0,0,0,0,4.388684101286344e-05,True,J,,False
+normal_train_016260__clean_r3_count,train_016260,synthetic,count,g+iasg,g+iasg,0,0,0,0,0,0,0,0.0005024087731726468,True,g+iasg,,False
+normal_train_016260__clean_r3_lower,train_016260,synthetic,lower,^  ]WT,^  ]WT,0,0,0,0,0,0,0,7.587136497022584e-05,True,^  ]WT,,False
+normal_train_016477__clean_r0_upper,train_016477,synthetic,upper,D,D,0,0,0,0,0,0,0,7.539992111560423e-06,True,D,,False
+normal_train_016477__clean_r0_count,train_016477,synthetic,count,gj,gj,0,0,0,0,0,0,0,9.162351489067078e-06,True,gj,,False
+normal_train_016477__clean_r0_lower,train_016477,synthetic,lower,R,R,0,0,0,0,0,0,0,5.054601570009254e-05,True,R,,False
+normal_train_016758__clean_r0_upper,train_016758,synthetic,upper,M I G,M I G,0,0,0,0,0,0,0,2.0312820197432302e-05,True,M I G,,False
+normal_train_016758__clean_r0_count,train_016758,synthetic,count,nijeif,nijeif,0,0,0,0,0,0,0,1.2065555893059354e-05,True,nijeif,,False
+normal_train_016758__clean_r0_lower,train_016758,synthetic,lower,X,X,0,0,0,0,0,0,0,0.5689035058021545,True,X,,False
+normal_train_016758__clean_r1_upper,train_016758,synthetic,upper,MNBP ED  Q,MNBP ED  Q,0,0,0,0,0,0,0,6.357098754961044e-05,True,MNBP ED  Q,,False
+normal_train_016758__clean_r1_count,train_016758,synthetic,count,ldhddjbijeab,ldhddjbijeab,0,0,0,0,0,0,0,7.97530356067e-06,True,ldhddjbijeab,,False
+normal_train_016758__clean_r1_lower,train_016758,synthetic,lower,W         W,W        W,0,1,0,0,0,0,1,0.0711059421300888,False,W        W,,False
+normal_train_016758__clean_r2_upper,train_016758,synthetic,upper,A C P,A C P,0,0,0,0,0,0,0,3.54459261870943e-05,True,A C P,,False
+normal_train_016758__clean_r2_count,train_016758,synthetic,count,mbkgk,mbkgk,0,0,0,0,0,0,0,9.98973882815335e-06,True,mbkgk,,False
+normal_train_016758__clean_r3_upper,train_016758,synthetic,upper,GQ  G,GQ  G,0,0,0,0,0,0,0,9.528118971502408e-05,True,GQ  G,,False
+normal_train_016758__clean_r3_count,train_016758,synthetic,count,eodjhb,eodjhb,0,0,0,0,0,0,0,0.00013441438204608858,True,eodjhb,,False
+normal_train_016758__clean_r3_lower,train_016758,synthetic,lower,^ V,^ V,0,0,0,0,0,0,0,2.3859322027419694e-05,True,^ V,,False
+normal_train_018282__clean_r0_upper,train_018282,synthetic,upper,I,I,0,0,0,0,0,0,0,5.340749703464098e-05,True,I,,False
+normal_train_018282__clean_r0_count,train_018282,synthetic,count,qkia,qkia,0,0,0,0,0,0,0,2.2384338080883026e-05,True,qkia,,False
+normal_train_018282__clean_r0_lower,train_018282,synthetic,lower,Z  ^,Z  ^,0,0,0,0,0,0,0,8.66206391947344e-05,True,Z  ^,,False
+normal_train_018282__clean_r1_count,train_018282,synthetic,count,sia,sia,0,0,0,0,0,0,0,1.1406528756197076e-05,True,sia,,False
+normal_train_018282__clean_r1_lower,train_018282,synthetic,lower,_ Z,_ Z,0,0,0,0,0,0,0,0.00011685234494507313,True,_ Z,,False
+normal_train_018282__clean_r2_upper,train_018282,synthetic,upper,H IMN,H IMN,0,0,0,0,0,0,0,2.6994694053428248e-05,True,H IMN,,False
+normal_train_018282__clean_r2_count,train_018282,synthetic,count,pdjdjaja,pdjdjaja,0,0,0,0,0,0,0,9.463635251449887e-06,True,pdjdjaja,,False
+normal_train_018282__clean_r2_lower,train_018282,synthetic,lower,R,R,0,0,0,0,0,0,0,1.5139627066673711e-05,True,R,,False
+normal_train_018282__clean_r3_upper,train_018282,synthetic,upper,J M,J M,0,0,0,0,0,0,0,3.336494410177693e-05,True,J M,,False
+normal_train_018282__clean_r3_count,train_018282,synthetic,count,jhnihjfi,jhnihjfi,0,0,0,0,0,0,0,2.1557352738454938e-05,True,jhnihjfi,,False
+normal_train_018282__clean_r3_lower,train_018282,synthetic,lower,X    W Z,X    W Z,0,0,0,0,0,0,0,0.0008814702741801739,True,X    W Z,,False
+normal_train_018972__clean_r0_upper,train_018972,synthetic,upper,K     AD,K     AD,0,0,0,0,0,0,0,0.005610855296254158,True,K     AD,,False
+normal_train_018972__clean_r0_count,train_018972,synthetic,count,'bisfbab,'bisfbab,0,0,0,0,0,0,0,2.086162567138672e-05,True,'bisfbab,,False
+normal_train_018972__clean_r0_lower,train_018972,synthetic,lower,S_ [,S_ [,0,0,0,0,0,0,0,1.4033517800271511e-05,True,S_ [,,False
+normal_train_018972__clean_r1_upper,train_018972,synthetic,upper,P HM CM,P HM CM,0,0,0,0,0,0,0,2.316066274943296e-05,True,P HM CM,,False
+normal_train_018972__clean_r1_count,train_018972,synthetic,count,|hpfalcajc,|hpfalcajc,0,0,0,0,0,0,0,3.185272362316027e-05,True,|hpfalcajc,,False
+normal_train_018972__clean_r1_lower,train_018972,synthetic,lower,Y,Y,0,0,0,0,0,0,0,0.0007578004733659327,True,Y,,False
+normal_train_018972__clean_r2_upper,train_018972,synthetic,upper,FK  C,FK  C,0,0,0,0,0,0,0,0.00020853713795077056,True,FK  C,,False
+normal_train_018972__clean_r2_count,train_018972,synthetic,count,cg{idrckf,cg{idrckf,0,0,0,0,0,0,0,3.647366975201294e-05,True,cg{idrckf,,False
+normal_train_018972__clean_r2_lower,train_018972,synthetic,lower,S   T  ],S   T  ],0,0,0,0,0,0,0,7.813593401806429e-05,True,S   T  ],,False
+normal_train_018972__clean_r3_upper,train_018972,synthetic,upper,F  C    MNBP,F  C    MNBP,0,0,0,0,0,0,0,0.00023985425650607795,True,F  C    MNBP,,False
+normal_train_018972__clean_r3_count,train_018972,synthetic,count,ybdhthijfcaa,ybdhthijfcaa,0,0,0,0,0,0,0,3.90615314245224e-05,True,ybdhthijfcaa,,False
+normal_train_018972__clean_r3_lower,train_018972,synthetic,lower,S Z [S,S Z [S,0,0,0,0,0,0,0,2.4983042749227025e-05,True,S Z [S,,False
+normal_train_019755__clean_r0_upper,train_019755,synthetic,upper,GL  HLI,GL  HLI,0,0,0,0,0,0,0,6.35960532235913e-05,True,GL  HLI,,False
+normal_train_019755__clean_r0_count,train_019755,synthetic,count,xhhkkgbaaa,xhhkkgbaaa,0,0,0,0,0,0,0,1.098923348763492e-05,True,xhhkkgbaaa,,False
+normal_train_019755__clean_r0_lower,train_019755,synthetic,lower,[ Y   R,[ Y   R,0,0,0,0,0,0,0,9.738691005622968e-05,True,[ Y   R,,False
+normal_train_019755__clean_r1_upper,train_019755,synthetic,upper,N  B    K,N  B    K,0,0,0,0,0,0,0,0.00046850217040628195,True,N  B    K,,False
+normal_train_019755__clean_r1_count,train_019755,synthetic,count,mghwijaba,mghwijaba,0,0,0,0,0,0,0,1.759092447173316e-05,True,mghwijaba,,False
+normal_train_019755__clean_r1_lower,train_019755,synthetic,lower,V  X ^,V  X ^,0,0,0,0,0,0,0,7.490158168366179e-05,True,V  X ^,,False
+normal_train_019755__clean_r2_upper,train_019755,synthetic,upper,H     M,H     M,0,0,0,0,0,0,0,0.0021514385007321835,True,H     M,,False
+normal_train_019755__clean_r2_count,train_019755,synthetic,count,ydjhbhjidc,ydjhbhjidc,0,0,0,0,0,0,0,2.140756623703055e-05,True,ydjhbhjidc,,False
+normal_train_019755__clean_r2_lower,train_019755,synthetic,lower,S   VWY  Z,S   VWY  Z,0,0,0,0,0,0,0,0.00010248056059936062,True,S   VWY  Z,,False
+normal_train_019755__clean_r3_count,train_019755,synthetic,count,f(b,f(b,0,0,0,0,0,0,0,5.312822759151459e-05,True,f(b,,False
+normal_train_019755__clean_r3_lower,train_019755,synthetic,lower,WR,WR,0,0,0,0,0,0,0,3.7063262425363064e-05,True,WR,,False
+normal_train_020888__clean_r0_upper,train_020888,synthetic,upper,K NHM J,K NHM J,0,0,0,0,0,0,0,3.9500064303865656e-05,True,K NHM J,,False
+normal_train_020888__clean_r0_count,train_020888,synthetic,count,'atcbda,'atcbda,0,0,0,0,0,0,0,1.70551775227068e-05,True,'atcbda,,False
+normal_train_020888__clean_r0_lower,train_020888,synthetic,lower,S,S,0,0,0,0,0,0,0,6.198982191563118e-06,True,S,,False
+normal_train_020888__clean_r1_upper,train_020888,synthetic,upper,P   C    M,P   C    M,0,0,0,0,0,0,0,0.000301501655485481,True,P   C    M,,False
+normal_train_020888__clean_r1_count,train_020888,synthetic,count,wbqdpcjaja,wbqdpcjaja,0,0,0,0,0,0,0,1.5075042028911412e-05,True,wbqdpcjaja,,False
+normal_train_020888__clean_r1_lower,train_020888,synthetic,lower,X   Y \,X   Y \,0,0,0,0,0,0,0,0.0011286119697615504,True,X   Y \,,False
+normal_train_022262__clean_r0_upper,train_022262,synthetic,upper,L    KA,L    KA,0,0,0,0,0,0,0,0.00040721314144320786,True,L    KA,,False
+normal_train_022262__clean_r0_count,train_022262,synthetic,count,qejjeda,qejjeda,0,0,0,0,0,0,0,1.095448351406958e-05,True,qejjeda,,False
+normal_train_022262__clean_r0_lower,train_022262,synthetic,lower,]W,]W,0,0,0,0,0,0,0,5.7104669394902885e-05,True,]W,,False
+normal_train_022262__clean_r1_upper,train_022262,synthetic,upper,HGEL  DK,HGEL  DK,0,0,0,0,0,0,0,7.545432163169608e-05,True,HGEL  DK,,False
+normal_train_022262__clean_r1_count,train_022262,synthetic,count,pgjfajddba,pgjfajddba,0,0,0,0,0,0,0,1.1240202184126247e-05,True,pgjfajddba,,False
+normal_train_022262__clean_r1_lower,train_022262,synthetic,lower,X      V,X      V,0,0,0,0,0,0,0,0.003594040870666504,True,X      V,,False
+normal_train_022732__clean_r0_upper,train_022732,synthetic,upper,H B,H B,0,0,0,0,0,0,0,0.00013783438771497458,True,H B,,False
+normal_train_022732__clean_r0_count,train_022732,synthetic,count,{bscgj,{bscgj,0,0,0,0,0,0,0,9.538450285617728e-06,True,{bscgj,,False
+normal_train_022732__clean_r0_lower,train_022732,synthetic,lower,RW_,RW_,0,0,0,0,0,0,0,2.6971101760864258e-05,True,RW_,,False
+normal_train_022864__clean_r0_upper,train_022864,synthetic,upper,H   D CB,H   D CB,0,0,0,0,0,0,0,0.00026961666299030185,True,H   D CB,,False
+normal_train_022864__clean_r0_count,train_022864,synthetic,count,(esdjacb,(esdjacb,0,0,0,0,0,0,0,1.1805910617113113e-05,True,(esdjacb,,False
+normal_train_022864__clean_r0_lower,train_022864,synthetic,lower,U,U,0,0,0,0,0,0,0,2.5400338927283883e-05,True,U,,False
+normal_train_024810__clean_r0_upper,train_024810,synthetic,upper,B   D I,B   D I,0,0,0,0,0,0,0,0.00016349810175597668,True,B   D I,,False
+normal_train_024810__clean_r0_count,train_024810,synthetic,count,rbjcbhg,rbjcbhg,0,0,0,0,0,0,0,4.905629339191364e-06,True,rbjcbhg,,False
+normal_train_024810__clean_r0_lower,train_024810,synthetic,lower,_  _,_  _,0,0,0,0,0,0,0,0.00010003783972933888,True,_  _,,False
+normal_train_024810__clean_r1_upper,train_024810,synthetic,upper,A  C FI,A  C FI,0,0,0,0,0,0,0,8.051261102082208e-05,True,A  C FI,,False
+normal_train_024810__clean_r1_count,train_024810,synthetic,count,ascjdac,ascjdac,0,0,0,0,0,0,0,9.79561355052283e-06,True,ascjdac,,False
+normal_train_024810__clean_r1_lower,train_024810,synthetic,lower,Y,Y,0,0,0,0,0,0,0,0.0008051633485592902,True,Y,,False
+normal_train_024810__clean_r2_upper,train_024810,synthetic,upper,F,F,0,0,0,0,0,0,0,7.9038341937121e-05,True,F,,False
+normal_train_024810__clean_r2_count,train_024810,synthetic,count,tbgab,tbgab,0,0,0,0,0,0,0,8.711218470125459e-06,True,tbgab,,False
+normal_train_024810__clean_r2_lower,train_024810,synthetic,lower,R ]Z,R ]Z,0,0,0,0,0,0,0,0.00010147624561795965,True,R ]Z,,False
+normal_train_024810__clean_r3_upper,train_024810,synthetic,upper,G       M,G       M,0,0,0,0,0,0,0,0.004632251802831888,True,G       M,,False
+normal_train_024810__clean_r3_count,train_024810,synthetic,count,dpgfjdgffaa,dpgfjdgffaa,0,0,0,0,0,0,0,3.584200021577999e-05,True,dpgfjdgffaa,,False
+normal_train_024810__clean_r3_lower,train_024810,synthetic,lower,[  WZ _S_ ^,[  WZ _S_ ^,0,0,0,0,0,0,0,5.418889850261621e-05,True,[  WZ _S_ ^,,False
+normal_train_025056__clean_r0_upper,train_025056,synthetic,upper,D BH,D BH,0,0,0,0,0,0,0,3.7517398595809937e-05,True,D BH,,False
+normal_train_025056__clean_r0_count,train_025056,synthetic,count,'ctdea,'ctdea,0,0,0,0,0,0,0,2.2468468159786426e-05,True,'ctdea,,False
+normal_train_025056__clean_r0_lower,train_025056,synthetic,lower,S,S,0,0,0,0,0,0,0,1.5287299902411178e-05,True,S,,False
+normal_train_025056__clean_r1_upper,train_025056,synthetic,upper,G    H,G    H,0,0,0,0,0,0,0,0.0007912870496511459,True,G    H,,False
+normal_train_025056__clean_r1_count,train_025056,synthetic,count,)bkiioc,)bkiioc,0,0,0,0,0,0,0,2.3313930796575733e-05,True,)bkiioc,,False
+normal_train_025056__clean_r1_lower,train_025056,synthetic,lower,R ^,R ^,0,0,0,0,0,0,0,2.2166828784975223e-05,True,R ^,,False
+normal_train_025056__clean_r2_upper,train_025056,synthetic,upper,B KF  FM M,B KF  FM M,0,0,0,0,0,0,0,0.0001162998378276825,True,B KF  FM M,,False
+normal_train_025056__clean_r2_count,train_025056,synthetic,count,saf|dbfdcfa,saf|dbfdcfa,0,0,0,0,0,0,0,4.197674206807278e-05,True,saf|dbfdcfa,,False
+normal_train_025056__clean_r2_lower,train_025056,synthetic,lower,^  Z R,^  Z R,0,0,0,0,0,0,0,8.085838635452092e-05,True,^  Z R,,False
+normal_train_025056__clean_r3_upper,train_025056,synthetic,upper,E,E,0,0,0,0,0,0,0,0.00019605735724326223,True,E,,False
+normal_train_025056__clean_r3_count,train_025056,synthetic,count,pi+ca,pi+ca,0,0,0,0,0,0,0,0.00017861989908851683,True,pi+ca,,False
+normal_train_025056__clean_r3_lower,train_025056,synthetic,lower,T   W,T   W,0,0,0,0,0,0,0,9.212792065227404e-05,True,T   W,,False
+normal_train_025160__clean_r0_upper,train_025160,synthetic,upper,C  D,C  D,0,0,0,0,0,0,0,0.00021473692322615534,True,C  D,,False
+normal_train_025160__clean_r0_count,train_025160,synthetic,count,)itecaa,)itecaa,0,0,0,0,0,0,0,2.5753466616151854e-05,True,)itecaa,,False
+normal_train_025160__clean_r0_lower,train_025160,synthetic,lower,V   \ _,V   \ _,0,0,0,0,0,0,0,0.00015285458357539028,True,V   \ _,,False
+normal_train_025160__clean_r1_upper,train_025160,synthetic,upper,E   PD,E   PD,0,0,0,0,0,0,0,0.00018978964362759143,True,E   PD,,False
+normal_train_025160__clean_r1_count,train_025160,synthetic,count,zhqgdmiagajdec,zhqgdmiagajdec,0,0,0,0,0,0,0,1.557138966745697e-05,True,zhqgdmiagajdec,,False
+normal_train_025160__clean_r1_lower,train_025160,synthetic,lower,\ W  Z _  _ WU,\ W  Z _  _ WU,0,0,0,0,0,0,0,6.0826125263702124e-05,True,\ W  Z _  _ WU,,False
+normal_train_025198__clean_r0_upper,train_025198,synthetic,upper,K     B,K     B,0,0,0,0,0,0,0,0.0009349866886623204,True,K     B,,False
+normal_train_025198__clean_r0_count,train_025198,synthetic,count,rijdjae,rijdjae,0,0,0,0,0,0,0,7.907617145974655e-06,True,rijdjae,,False
+normal_train_025198__clean_r0_lower,train_025198,synthetic,lower,\ V,\ V,0,0,0,0,0,0,0,1.4373997146321926e-05,True,\ V,,False
+normal_train_026050__clean_r0_upper,train_026050,synthetic,upper,K G  QE G,K G  QE G,0,0,0,0,0,0,0,6.088016743888147e-05,True,K G  QE G,,False
+normal_train_026050__clean_r0_count,train_026050,synthetic,count,mbjafjaaa,mbjafjaaa,0,0,0,0,0,0,0,3.7691659144911682e-06,True,mbjafjaaa,,False
+normal_train_026050__clean_r0_lower,train_026050,synthetic,lower,U  ^,U  ^,0,0,0,0,0,0,0,6.735661736456677e-05,True,U  ^,,False
+normal_train_027595__clean_r0_upper,train_027595,synthetic,upper,I   P,I   P,0,0,0,0,0,0,0,0.00021005645976401865,True,I   P,,False
+normal_train_027595__clean_r0_count,train_027595,synthetic,count,thmhjaa,thmhjaa,0,0,0,0,0,0,0,1.3209879398345947e-05,True,thmhjaa,,False
+normal_train_027595__clean_r0_lower,train_027595,synthetic,lower,\   X,\   X,0,0,0,0,0,0,0,0.0007897956529632211,True,\   X,,False
+normal_train_028292__clean_r0_upper,train_028292,synthetic,upper,P I   KP,P I   KP,0,0,0,0,0,0,0,0.00010418712918180972,True,P I   KP,,False
+normal_train_028292__clean_r0_count,train_028292,synthetic,count,(bqfjhgbbda,(bqfjhgbbda,0,0,0,0,0,0,0,1.3188881894166116e-05,True,(bqfjhgbbda,,False
+normal_train_028292__clean_r0_lower,train_028292,synthetic,lower,^     _R  _,^     _R  _,0,0,0,0,0,0,0,0.0005625052726827562,True,^     _R  _,,False
+normal_train_028292__clean_r1_upper,train_028292,synthetic,upper,F H  G,F H  G,0,0,0,0,0,0,0,7.712874503340572e-05,True,F H  G,,False
+normal_train_028292__clean_r1_count,train_028292,synthetic,count,'dudaba,'dudaba,0,0,0,0,0,0,0,2.626871173561085e-05,True,'dudaba,,False
+normal_train_028292__clean_r1_lower,train_028292,synthetic,lower,V X,V X,0,0,0,0,0,0,0,0.0008147096377797425,True,V X,,False
+normal_train_028309__clean_r0_count,train_028309,synthetic,count,dj,dj,0,0,0,0,0,0,0,1.354515552520752e-05,True,dj,,False
+normal_train_028309__clean_r0_lower,train_028309,synthetic,lower,XT,XT,0,0,0,0,0,0,0,0.0006788463797420263,True,XT,,False
+normal_train_028409__clean_r0_count,train_028409,synthetic,count,bj,bj,0,0,0,0,0,0,0,1.1444091796875e-05,True,bj,,False
+normal_train_028409__clean_r0_lower,train_028409,synthetic,lower,SR,SR,0,0,0,0,0,0,0,1.4036893844604492e-05,True,SR,,False
+normal_train_028409__clean_r1_upper,train_028409,synthetic,upper,DG,DG,0,0,0,0,0,0,0,1.3861339539289474e-05,True,DG,,False
+normal_train_028409__clean_r1_count,train_028409,synthetic,count,hd,hd,0,0,0,0,0,0,0,4.755065674544312e-06,True,hd,,False
+normal_train_028553__clean_r0_upper,train_028553,synthetic,upper,F,F,0,0,0,0,0,0,0,6.233595195226371e-05,True,F,,False
+normal_train_028553__clean_r0_count,train_028553,synthetic,count,bj,bj,0,0,0,0,0,0,0,8.337201506947167e-06,True,bj,,False
+normal_train_028553__clean_r0_lower,train_028553,synthetic,lower,Z,Z,0,0,0,0,0,0,0,0.0007168149459175766,True,Z,,False
+normal_train_028553__clean_r1_count,train_028553,synthetic,count,jaa,jaa,0,0,0,0,0,0,0,4.367282144812634e-06,True,jaa,,False
+normal_train_028553__clean_r1_lower,train_028553,synthetic,lower,[ Y,[ Y,0,0,0,0,0,0,0,0.00015767950389999896,True,[ Y,,False
+normal_train_028829__clean_r0_upper,train_028829,synthetic,upper,K,K,0,0,0,0,0,0,0,1.5020493265183177e-05,True,K,,False
+normal_train_028829__clean_r0_count,train_028829,synthetic,count,hj,hj,0,0,0,0,0,0,0,7.555820047855377e-06,True,hj,,False
+normal_train_028829__clean_r0_lower,train_028829,synthetic,lower,U,U,0,0,0,0,0,0,0,2.381362719461322e-05,True,U,,False
+normal_train_028829__clean_r1_upper,train_028829,synthetic,upper,C,C,0,0,0,0,0,0,0,9.659095667302608e-05,True,C,,False
+normal_train_028829__clean_r1_count,train_028829,synthetic,count,jadc,jadc,0,0,0,0,0,0,0,6.152433343231678e-06,True,jadc,,False
+normal_train_028829__clean_r1_lower,train_028829,synthetic,lower,W  T,W  T,0,0,0,0,0,0,0,6.568227399839088e-05,True,W  T,,False
+normal_train_029465__clean_r0_upper,train_029465,synthetic,upper,JLFIKB,JLFIKB,0,0,0,0,0,0,0,0.00021579355234280229,True,JLFIKB,,False
+normal_train_029465__clean_r0_count,train_029465,synthetic,count,ecadaa,ecadaa,0,0,0,0,0,0,0,4.097820692550158e-06,True,ecadaa,,False
+normal_train_029465__clean_r1_upper,train_029465,synthetic,upper,H J,H J,0,0,0,0,0,0,0,3.108643795712851e-05,True,H J,,False
+normal_train_029465__clean_r1_count,train_029465,synthetic,count,jad,jad,0,0,0,0,0,0,0,4.6138588913891e-06,True,jad,,False
+normal_train_029871__clean_r0_upper,train_029871,synthetic,upper,L  EF,L  EF,0,0,0,0,0,0,0,2.3379552658298053e-05,True,L  EF,,False
+normal_train_029871__clean_r0_count,train_029871,synthetic,count,ugikkib,ugikkib,0,0,0,0,0,0,0,4.561032619676553e-05,True,ugikkib,,False
+normal_train_029871__clean_r0_lower,train_029871,synthetic,lower,V   V,V   V,0,0,0,0,0,0,0,0.00015708857972640544,True,V   V,,False
+normal_train_029871__clean_r1_upper,train_029871,synthetic,upper,Q,Q,0,0,0,0,0,0,0,1.4318981811811682e-05,True,Q,,False
+normal_train_029871__clean_r1_count,train_029871,synthetic,count,{fa,{fa,0,0,0,0,0,0,0,1.5942612662911415e-05,True,{fa,,False
+normal_train_029871__clean_r1_lower,train_029871,synthetic,lower,^,^,0,0,0,0,0,0,0,5.579403295996599e-05,True,^,,False
+normal_train_029871__clean_r2_upper,train_029871,synthetic,upper,I P,I P,0,0,0,0,0,0,0,2.1845569790457375e-05,True,I P,,False
+normal_train_029871__clean_r2_count,train_029871,synthetic,count,{adaa,{adaa,0,0,0,0,0,0,0,1.0995568118232768e-05,True,{adaa,,False
+normal_train_029871__clean_r2_lower,train_029871,synthetic,lower,ZT,ZT,0,0,0,0,0,0,0,4.673520743381232e-05,True,ZT,,False
+normal_train_029871__clean_r3_upper,train_029871,synthetic,upper,KN      K G,KN      K G,0,0,0,0,0,0,0,0.0009658198687247932,True,KN      K G,,False
+normal_train_029871__clean_r3_count,train_029871,synthetic,count,ekrckfkbbhja,ekrckfkbbhja,0,0,0,0,0,0,0,3.8139522075653076e-05,True,ekrckfkbbhja,,False
+normal_train_029871__clean_r3_lower,train_029871,synthetic,lower,^ U R  R,^ U R  R,0,0,0,0,0,0,0,5.59688669454772e-05,True,^ U R  R,,False
+normal_train_030947__clean_r0_upper,train_030947,synthetic,upper,P,P,0,0,0,0,0,0,0,2.44382354139816e-05,True,P,,False
+normal_train_030947__clean_r0_count,train_030947,synthetic,count,xfmieea,xfmieea,0,0,0,0,0,0,0,9.330388820671942e-06,True,xfmieea,,False
+normal_train_030947__clean_r0_lower,train_030947,synthetic,lower,\ T ] \,\ T ] \,0,0,0,0,0,0,0,1.9300005078548566e-05,True,\ T ] \,,False
+normal_train_030947__clean_r1_upper,train_030947,synthetic,upper,M G C DC,M G C DC,0,0,0,0,0,0,0,5.956646054983139e-05,True,M G C DC,,False
+normal_train_030947__clean_r1_count,train_030947,synthetic,count,rcggsgaa,rcggsgaa,0,0,0,0,0,0,0,1.1896714568138123e-05,True,rcggsgaa,,False
+normal_train_030947__clean_r1_lower,train_030947,synthetic,lower,V,V,0,0,0,0,0,0,0,5.960579801467247e-05,True,V,,False
+normal_train_031379__clean_r0_upper,train_031379,synthetic,upper,C   I,C   I,0,0,0,0,0,0,0,0.0004556771891657263,True,C   I,,False
+normal_train_031379__clean_r0_count,train_031379,synthetic,count,sdkcjijafa,sdkcjijafa,0,0,0,0,0,0,0,8.548517143935896e-06,True,sdkcjijafa,,False
+normal_train_031379__clean_r0_lower,train_031379,synthetic,lower,R X   \  [,R X   \  [,0,0,0,0,0,0,0,0.0001511433074483648,True,R X   \  [,,False
+normal_train_031379__clean_r1_upper,train_031379,synthetic,upper,H Q,H Q,0,0,0,0,0,0,0,8.713144779903814e-06,True,H Q,,False
+normal_train_031379__clean_r1_count,train_031379,synthetic,count,rfcoda,rfcoda,0,0,0,0,0,0,0,3.846486288239248e-05,True,rfcoda,,False
+normal_train_031379__clean_r1_lower,train_031379,synthetic,lower,X S,X S,0,0,0,0,0,0,0,0.00032782185007818043,True,X S,,False
+normal_train_031584__clean_r0_upper,train_031584,synthetic,upper,I E L Q   FQ  HF,I E L Q   FQ  HF,0,0,0,0,0,0,0,8.952325879363343e-05,True,I E L Q   FQ  HF,,False
+normal_train_031584__clean_r0_count,train_031584,synthetic,count,*elekgjbgbgkbeba,*elekgjbgbgkbeba,0,0,0,0,0,0,0,2.4681066861376166e-05,True,*elekgjbgbgkbeba,,False
+normal_train_031584__clean_r0_lower,train_031584,synthetic,lower,W[   X,W[   X,0,0,0,0,0,0,0,0.0005090601043775678,True,W[   X,,False
+normal_train_031584__clean_r1_upper,train_031584,synthetic,upper,N A C,N A C,0,0,0,0,0,0,0,4.1152317862724885e-05,True,N A C,,False
+normal_train_031584__clean_r1_count,train_031584,synthetic,count,sgikhgdjh{aa,sgikhgdjh{aa,0,0,0,0,0,0,0,1.4638218090112787e-05,True,sgikhgdjh{aa,,False
+normal_train_031584__clean_r1_lower,train_031584,synthetic,lower,Y \Z  ^    R,Y \Z  ^    R,0,0,0,0,0,0,0,0.0011941344710066915,True,Y \Z  ^    R,,False
+normal_train_031584__clean_r2_upper,train_031584,synthetic,upper,KL  L  N  G      PEN,KL  L  N  G      PEN,0,0,0,0,0,0,0,0.0009079837473109365,True,KL  L  N  G      PEN,,False
+normal_train_031584__clean_r2_count,train_031584,synthetic,count,cfcmbubhgribjfdkfffbba,cfcmbubhgribjfdkfffbba,0,0,0,0,0,0,0,2.3203012460726313e-05,True,cfcmbubhgribjfdkfffbba,,False
+normal_train_031584__clean_r2_lower,train_031584,synthetic,lower,U  T   _ T  ^ ZU \   ],U  T   _ T  ^ ZU \   ],0,0,0,0,0,0,0,0.00011891195754287764,True,U  T   _ T  ^ ZU \   ],,False
+normal_train_031584__clean_r3_upper,train_031584,synthetic,upper,MG  DG,MG  DG,0,0,0,0,0,0,0,5.7220826420234516e-05,True,MG  DG,,False
+normal_train_031584__clean_r3_count,train_031584,synthetic,count,e|hwhbaa,e|hwhbaa,0,0,0,0,0,0,0,0.00013573281466960907,True,e|hwhbaa,,False
+normal_train_031584__clean_r3_lower,train_031584,synthetic,lower,Z  Z   \,Z  Z   \,0,0,0,0,0,0,0,0.0002807360724546015,True,Z  Z   \,,False
+normal_train_034516__clean_r0_upper,train_034516,synthetic,upper,N  QG,N  QG,0,0,0,0,0,0,0,7.844452920835465e-05,True,N  QG,,False
+normal_train_034516__clean_r0_count,train_034516,synthetic,count,+htdcba,+htdcba,0,0,0,0,0,0,0,0.00010359686712035909,True,+htdcba,,False
+normal_train_034516__clean_r0_lower,train_034516,synthetic,lower,V   T,V   T,0,0,0,0,0,0,0,0.00013133890752214938,True,V   T,,False
+normal_train_034588__clean_r0_upper,train_034588,synthetic,upper,H  E   D BL,H  E   D BL,0,0,0,0,0,0,0,6.123811181169003e-05,True,H  E   D BL,,False
+normal_train_034588__clean_r0_count,train_034588,synthetic,count,{fliaclfaijajead,{fliaclfaijajead,0,0,0,0,0,0,0,1.099457404052373e-05,True,{fliaclfaijajead,,False
+normal_train_034588__clean_r0_lower,train_034588,synthetic,lower,\ T [ Y  UT,\ T [ Y  UT,0,0,0,0,0,0,0,3.8397585740312934e-05,True,\ T [ Y  UT,,False
+normal_train_034980__clean_r0_upper,train_034980,synthetic,upper,D   K FN,D   K FN,0,0,0,0,0,0,0,7.769644435029477e-05,True,D   K FN,,False
+normal_train_034980__clean_r0_count,train_034980,synthetic,count,'drajhja,'drajhja,0,0,0,0,0,0,0,1.9813076505670324e-05,True,'drajhja,,False
+normal_train_034980__clean_r0_lower,train_034980,synthetic,lower,X,X,0,0,0,0,0,0,0,0.5877811312675476,True,X,,False
+normal_train_034980__clean_r1_upper,train_034980,synthetic,upper,G I  H,G I  H,0,0,0,0,0,0,0,6.90767410560511e-05,True,G I  H,,False
+normal_train_034980__clean_r1_count,train_034980,synthetic,count,)infcjgji,)infcjgji,0,0,0,0,0,0,0,2.4894874513847753e-05,True,)infcjgji,,False
+normal_train_034980__clean_r1_lower,train_034980,synthetic,lower,V    _,V    _,0,0,0,0,0,0,0,0.001067567034624517,True,V    _,,False
+normal_train_034980__clean_r2_upper,train_034980,synthetic,upper,B E    F,B E    F,0,0,0,0,0,0,0,0.0004615709185600281,True,B E    F,,False
+normal_train_034980__clean_r2_count,train_034980,synthetic,count,'csjcdbb,'csjcdbb,0,0,0,0,0,0,0,1.994660124182701e-05,True,'csjcdbb,,False
+normal_train_034980__clean_r2_lower,train_034980,synthetic,lower,U V],U V],0,0,0,0,0,0,0,2.2766005713492632e-05,True,U V],,False
+normal_train_034980__clean_r3_upper,train_034980,synthetic,upper,G   FH,G   FH,0,0,0,0,0,0,0,0.0001601415715413168,True,G   FH,,False
+normal_train_034980__clean_r3_count,train_034980,synthetic,count,g'asifa,g'asifa,0,0,0,0,0,0,0,3.430992364883423e-05,True,g'asifa,,False
+normal_train_034980__clean_r3_lower,train_034980,synthetic,lower,R  U,R  U,0,0,0,0,0,0,0,3.8459915231214836e-05,True,R  U,,False
+normal_train_035170__clean_r0_upper,train_035170,synthetic,upper,D   E,D   E,0,0,0,0,0,0,0,0.00012228364357724786,True,D   E,,False
+normal_train_035170__clean_r0_count,train_035170,synthetic,count,pbkee,pbkee,0,0,0,0,0,0,0,1.2099743798898999e-05,True,pbkee,,False
+normal_train_035170__clean_r0_lower,train_035170,synthetic,lower,[,[,0,0,0,0,0,0,0,1.945631993294228e-05,True,[,,False
+normal_train_036978__clean_r0_upper,train_036978,synthetic,upper,E,E,0,0,0,0,0,0,0,0.00019569980213418603,True,E,,False
+normal_train_036978__clean_r0_count,train_036978,synthetic,count,pdjejbc,pdjejbc,0,0,0,0,0,0,0,1.0772236237244215e-05,True,pdjejbc,,False
+normal_train_036978__clean_r0_lower,train_036978,synthetic,lower,^   R \,^   R \,0,0,0,0,0,0,0,5.854069968336262e-05,True,^   R \,,False
+normal_train_036978__clean_r1_upper,train_036978,synthetic,upper,GBH  F E,GBH  F E,0,0,0,0,0,0,0,6.161212513688952e-05,True,GBH  F E,,False
+normal_train_036978__clean_r1_count,train_036978,synthetic,count,jciccldeifjdfaa,jciccldeifjdfaa,0,0,0,0,0,0,0,1.2276072993699927e-05,True,jciccldeifjdfaa,,False
+normal_train_036978__clean_r1_lower,train_036978,synthetic,lower,] T    _ X  UXZ,] T    _ X  UXZ,0,0,0,0,0,0,0,0.0011493590427562594,True,] T    _ X  UXZ,,False
+normal_train_036978__clean_r2_count,train_036978,synthetic,count,sac,sac,0,0,0,0,0,0,0,8.602006346336566e-06,True,sac,,False
+normal_train_036978__clean_r2_lower,train_036978,synthetic,lower,[ Y,[ Y,0,0,0,0,0,0,0,0.0001682281872490421,True,[ Y,,False
+normal_train_036978__clean_r3_upper,train_036978,synthetic,upper,PK H,PK H,0,0,0,0,0,0,0,1.0290766113030259e-05,True,PK H,,False
+normal_train_036978__clean_r3_count,train_036978,synthetic,count,fqfjb,fqfjb,0,0,0,0,0,0,0,2.495674380043056e-05,True,fqfjb,,False
+normal_train_037229__clean_r0_upper,train_037229,synthetic,upper,E,E,0,0,0,0,0,0,0,0.00026008885470218956,True,E,,False
+normal_train_037229__clean_r0_count,train_037229,synthetic,count,bj,bj,0,0,0,0,0,0,0,8.597971827839501e-06,True,bj,,False
+normal_train_037229__clean_r0_lower,train_037229,synthetic,lower,W,W,0,0,0,0,0,0,0,2.6226773115922697e-05,True,W,,False
+normal_train_037229__clean_r1_upper,train_037229,synthetic,upper,E,E,0,0,0,0,0,0,0,0.00021251171710900962,True,E,,False
+normal_train_037229__clean_r1_count,train_037229,synthetic,count,fdaa,fdaa,0,0,0,0,0,0,0,1.3507098628906533e-05,True,fdaa,,False
+normal_train_037229__clean_r1_lower,train_037229,synthetic,lower,VU Z,VU Z,0,0,0,0,0,0,0,0.00010647380986483768,True,VU Z,,False
+normal_train_038850__clean_r0_upper,train_038850,synthetic,upper,CL  FB,CL  FB,0,0,0,0,0,0,0,0.00011161749716848135,True,CL  FB,,False
+normal_train_038850__clean_r0_count,train_038850,synthetic,count,rbjjfaba,rbjjfaba,0,0,0,0,0,0,0,4.595378413796425e-06,True,rbjjfaba,,False
+normal_train_038850__clean_r0_lower,train_038850,synthetic,lower,W    V,W    V,0,0,0,0,0,0,0,0.00038729378138668835,True,W    V,,False
+normal_train_038850__clean_r1_upper,train_038850,synthetic,upper,AD      CA,AD      CA,0,0,0,0,0,0,0,0.0016703220317140222,True,AD      CA,,False
+normal_train_038850__clean_r1_count,train_038850,synthetic,count,gcpdjibjeb,gcpdjibjeb,0,0,0,0,0,0,0,7.712840670137666e-06,True,gcpdjibjeb,,False
+normal_train_038850__clean_r1_lower,train_038850,synthetic,lower,\ R ][,\ R ][,0,0,0,0,0,0,0,3.145371374557726e-05,True,\ R ][,,False
+normal_train_038850__clean_r2_upper,train_038850,synthetic,upper,G,G,0,0,0,0,0,0,0,7.225855370052159e-05,True,G,,False
+normal_train_038850__clean_r2_count,train_038850,synthetic,count,tiba,tiba,0,0,0,0,0,0,0,1.121661625802517e-05,True,tiba,,False
+normal_train_038850__clean_r2_lower,train_038850,synthetic,lower,V W,V W,0,0,0,0,0,0,0,1.1105715202575084e-05,True,V W,,False
+normal_train_038850__clean_r3_upper,train_038850,synthetic,upper,F LN   B,F LN   B,0,0,0,0,0,0,0,0.00016634489293210208,True,F LN   B,,False
+normal_train_038850__clean_r3_count,train_038850,synthetic,count,macngjgd,macngjgd,0,0,0,0,0,0,0,3.19555401802063e-05,True,macngjgd,,False
+normal_train_038850__clean_r3_lower,train_038850,synthetic,lower,\,\,0,0,0,0,0,0,0,3.221581573598087e-05,True,\,,False
+normal_train_039196__clean_r0_upper,train_039196,synthetic,upper,I A   H,I A   H,0,0,0,0,0,0,0,9.75706716417335e-05,True,I A   H,,False
+normal_train_039196__clean_r0_count,train_039196,synthetic,count,(hscidca,(hscidca,0,0,0,0,0,0,0,1.8548918887972832e-05,True,(hscidca,,False
+normal_train_039196__clean_r0_lower,train_039196,synthetic,lower,YU Z,YU Z,0,0,0,0,0,0,0,0.00014816236216574907,True,YU Z,,False
+normal_train_039461__clean_r0_upper,train_039461,synthetic,upper,N Q,N Q,0,0,0,0,0,0,0,2.671297079359647e-05,True,N Q,,False
+normal_train_039461__clean_r0_count,train_039461,synthetic,count,babg,babg,0,0,0,0,0,0,0,3.719818778336048e-06,True,babg,,False
+normal_train_039461__clean_r0_lower,train_039461,synthetic,lower,V ],V ],0,0,0,0,0,0,0,6.983677303651348e-05,True,V ],,False
+normal_train_039461__clean_r1_upper,train_039461,synthetic,upper,I,I,0,0,0,0,0,0,0,4.530112346401438e-05,True,I,,False
+normal_train_039461__clean_r1_count,train_039461,synthetic,count,jaa,jaa,0,0,0,0,0,0,0,4.373491265141638e-06,True,jaa,,False
+normal_train_039461__clean_r1_lower,train_039461,synthetic,lower,[ Y,[ Y,0,0,0,0,0,0,0,0.00015564482600893825,True,[ Y,,False
+normal_train_040417__clean_r0_upper,train_040417,synthetic,upper,L  C,L  C,0,0,0,0,0,0,0,6.482849130406976e-05,True,L  C,,False
+normal_train_040417__clean_r0_count,train_040417,synthetic,count,gfca,gfca,0,0,0,0,0,0,0,1.806952423066832e-05,True,gfca,,False
+normal_train_040417__clean_r0_lower,train_040417,synthetic,lower,W^,W^,0,0,0,0,0,0,0,1.2262492418813054e-05,True,W^,,False
+normal_train_041264__clean_r0_upper,train_041264,synthetic,upper,E,E,0,0,0,0,0,0,0,0.00018234661547467113,True,E,,False
+normal_train_041264__clean_r0_count,train_041264,synthetic,count,",etaaga",",etaaga",0,0,0,0,0,0,0,2.646180109877605e-05,True,",etaaga",,False
+normal_train_041264__clean_r0_lower,train_041264,synthetic,lower,V _ ^ V,V _ ^ V,0,0,0,0,0,0,0,3.2471580198034644e-05,True,V _ ^ V,,False
+normal_train_041264__clean_r1_upper,train_041264,synthetic,upper,A     N E,A     N E,0,0,0,0,0,0,0,0.0045468974858522415,True,A     N E,,False
+normal_train_041264__clean_r1_count,train_041264,synthetic,count,s'ikijfjgd,s'ikijfjgd,0,0,0,0,0,0,0,6.685555126750842e-05,True,s'ikijfjgd,,False
+normal_train_041264__clean_r1_lower,train_041264,synthetic,lower,Z  T S,Z  T S,0,0,0,0,0,0,0,7.484474190277979e-05,True,Z  T S,,False
+normal_train_042778__clean_r0_upper,train_042778,synthetic,upper,B  LE,B  LE,0,0,0,0,0,0,0,0.00025124906096607447,True,B  LE,,False
+normal_train_042778__clean_r0_count,train_042778,synthetic,count,qdebkba,qdebkba,0,0,0,0,0,0,0,1.1712046216416638e-05,True,qdebkba,,False
+normal_train_042778__clean_r0_lower,train_042778,synthetic,lower,Z   T,Z   T,0,0,0,0,0,0,0,0.00012371859338600188,True,Z   T,,False
+normal_train_043796__clean_r0_upper,train_043796,synthetic,upper,C,C,0,0,0,0,0,0,0,0.00010263617150485516,True,C,,False
+normal_train_043796__clean_r0_count,train_043796,synthetic,count,+hsgjc,+hsgjc,0,0,0,0,0,0,0,3.8564205169677734e-05,True,+hsgjc,,False
+normal_train_043796__clean_r0_lower,train_043796,synthetic,lower,R T  ],R T  ],0,0,0,0,0,0,0,4.654606163967401e-05,True,R T  ],,False
+normal_train_043796__clean_r1_upper,train_043796,synthetic,upper,N A JF H,N A JF H,0,0,0,0,0,0,0,3.645266406238079e-05,True,N A JF H,,False
+normal_train_043796__clean_r1_count,train_043796,synthetic,count,uc(akjca,uc(akjca,0,0,0,0,0,0,0,0.00011911988258361816,True,uc(akjca,,False
+normal_train_044289__clean_r0_upper,train_044289,synthetic,upper,Q  FK,Q  FK,0,0,0,0,0,0,0,9.485147893428802e-05,True,Q  FK,,False
+normal_train_044289__clean_r0_count,train_044289,synthetic,count,caadca,caadca,0,0,0,0,0,0,0,7.374283086392097e-06,True,caadca,,False
+normal_train_044289__clean_r0_lower,train_044289,synthetic,lower,WX  [,WX  [,0,0,0,0,0,0,0,9.850654896581545e-05,True,WX  [,,False
+normal_train_044289__clean_r1_upper,train_044289,synthetic,upper,J N,J N,0,0,0,0,0,0,0,1.4926287803973537e-05,True,J N,,False
+normal_train_044289__clean_r1_count,train_044289,synthetic,count,hda,hda,0,0,0,0,0,0,0,1.1640600860118866e-05,True,hda,,False
+normal_train_044289__clean_r1_lower,train_044289,synthetic,lower,U,U,0,0,0,0,0,0,0,5.1023351261392236e-05,True,U,,False
+normal_train_044289__clean_r2_upper,train_044289,synthetic,upper,GAF,GAF,0,0,0,0,0,0,0,4.478296614252031e-05,True,GAF,,False
+normal_train_044289__clean_r2_count,train_044289,synthetic,count,hcaa,hcaa,0,0,0,0,0,0,0,4.753472239826806e-06,True,hcaa,,False
+normal_train_044289__clean_r2_lower,train_044289,synthetic,lower,_,_,0,0,0,0,0,0,0,8.249537495430559e-05,True,_,,False
+normal_train_044289__clean_r3_count,train_044289,synthetic,count,jba,jba,0,0,0,0,0,0,0,4.322268068790436e-06,True,jba,,False
+normal_train_044289__clean_r3_lower,train_044289,synthetic,lower,R ^,R ^,0,0,0,0,0,0,0,4.717750198324211e-05,True,R ^,,False
+normal_train_044361__clean_r0_upper,train_044361,synthetic,upper,IE,IE,0,0,0,0,0,0,0,0.00017405817925464362,True,IE,,False
+normal_train_044361__clean_r0_count,train_044361,synthetic,count,cj,cj,0,0,0,0,0,0,0,1.4010707673151046e-05,True,cj,,False
+normal_train_044361__clean_r1_upper,train_044361,synthetic,upper,B,B,0,0,0,0,0,0,0,0.8151634335517883,True,X,X,True
+normal_train_044361__clean_r1_count,train_044361,synthetic,count,jba,jba,0,0,0,0,0,0,0,4.292310677556088e-06,True,jba,,False
+normal_train_044361__clean_r1_lower,train_044361,synthetic,lower,^,^,0,0,0,0,0,0,0,1.0967614798573777e-05,True,^,,False
+normal_train_044361__clean_r2_upper,train_044361,synthetic,upper,KD,KD,0,0,0,0,0,0,0,6.78916258038953e-05,True,KD,,False
+normal_train_044361__clean_r2_count,train_044361,synthetic,count,jab,jab,0,0,0,0,0,0,0,4.255523435858777e-06,True,jab,,False
+normal_train_044361__clean_r2_lower,train_044361,synthetic,lower,X,X,0,0,0,0,0,0,0,0.5805980563163757,True,X,,False
+normal_train_044361__clean_r3_upper,train_044361,synthetic,upper,M,M,0,0,0,0,0,0,0,2.5630401069065556e-05,True,M,,False
+normal_train_044361__clean_r3_count,train_044361,synthetic,count,bja,bja,0,0,0,0,0,0,0,3.877035396726569e-06,True,bja,,False
+normal_train_044361__clean_r3_lower,train_044361,synthetic,lower,X,X,0,0,0,0,0,0,0,0.6293460130691528,True,X,,False
+normal_train_045285__clean_r0_upper,train_045285,synthetic,upper,M,M,0,0,0,0,0,0,0,2.6704950869316235e-05,True,M,,False
+normal_train_045285__clean_r0_count,train_045285,synthetic,count,ihb,ihb,0,0,0,0,0,0,0,7.5642019510269165e-06,True,ihb,,False
+normal_train_045285__clean_r0_lower,train_045285,synthetic,lower,_ V,_ V,0,0,0,0,0,0,0,2.089801819238346e-05,True,_ V,,False
+normal_train_045285__clean_r1_upper,train_045285,synthetic,upper,I,I,0,0,0,0,0,0,0,1.53864202729892e-05,True,I,,False
+normal_train_045285__clean_r1_count,train_045285,synthetic,count,jha,jha,0,0,0,0,0,0,0,1.1040596291422844e-05,True,jha,,False
+normal_train_045285__clean_r1_lower,train_045285,synthetic,lower,X,X,0,0,0,0,0,0,0,0.5858567357063293,True,X,,False
+normal_train_045285__clean_r2_upper,train_045285,synthetic,upper,DQ,DQ,0,0,0,0,0,0,0,2.72318757197354e-05,True,DQ,,False
+normal_train_045285__clean_r2_count,train_045285,synthetic,count,bcjca,bcjca,0,0,0,0,0,0,0,7.066826128721004e-06,True,bcjca,,False
+normal_train_045285__clean_r2_lower,train_045285,synthetic,lower,V  SU,V  SU,0,0,0,0,0,0,0,4.317015554988757e-05,True,V  SU,,False
+normal_train_045285__clean_r3_upper,train_045285,synthetic,upper,C AB,C AB,0,0,0,0,0,0,0,0.00013148775906302035,True,C AB,,False
+normal_train_045285__clean_r3_count,train_045285,synthetic,count,jbbe,jbbe,0,0,0,0,0,0,0,4.447997980605578e-06,True,jbbe,,False
+normal_train_045646__clean_r0_upper,train_045646,synthetic,upper,N   H,N   H,0,0,0,0,0,0,0,0.00019036531739402562,True,N   H,,False
+normal_train_045646__clean_r0_count,train_045646,synthetic,count,qakead,qakead,0,0,0,0,0,0,0,1.1547371286724228e-05,True,qakead,,False
+normal_train_045646__clean_r0_lower,train_045646,synthetic,lower,Z  W,Z  W,0,0,0,0,0,0,0,5.356603651307523e-05,True,Z  W,,False
+normal_train_046752__clean_r0_upper,train_046752,synthetic,upper,C  F,C  F,0,0,0,0,0,0,0,9.445560863241553e-05,True,C  F,,False
+normal_train_046752__clean_r0_count,train_046752,synthetic,count,{gbnini,{gbnini,0,0,0,0,0,0,0,3.138610554742627e-05,True,{gbnini,,False
+normal_train_046752__clean_r0_lower,train_046752,synthetic,lower,[  Y,[  Y,0,0,0,0,0,0,0,0.00016443993081338704,True,[  Y,,False
+normal_train_046752__clean_r1_upper,train_046752,synthetic,upper,QM BQK J I,QM BQK J I,0,0,0,0,0,0,0,4.879314292338677e-05,True,QM BQK J I,,False
+normal_train_046752__clean_r1_count,train_046752,synthetic,count,j(ghbgdglhjaba,j(ghbgdglhjaba,0,0,0,0,0,0,0,1.3064526683592703e-05,True,j(ghbgdglhjaba,,False
+normal_train_046752__clean_r1_lower,train_046752,synthetic,lower,\S^  R       R,\S^  R       R,0,0,0,0,0,0,0,0.0030679514165967703,True,\S^  R       R,,False
+normal_train_046752__clean_r2_upper,train_046752,synthetic,upper,M,M,0,0,0,0,0,0,0,1.420593798684422e-05,True,M,,False
+normal_train_046752__clean_r2_count,train_046752,synthetic,count,wikcrdjejabjc,wikcrdjejabjc,0,0,0,0,0,0,0,1.375491774524562e-05,True,wikcrdjejabjc,,False
+normal_train_046752__clean_r2_lower,train_046752,synthetic,lower,U Y Z _   _^,U Y Z _   _^,0,0,0,0,0,0,0,6.621129432460293e-05,True,U Y Z _   _^,,False
+normal_train_046752__clean_r3_upper,train_046752,synthetic,upper,L G,L G,0,0,0,0,0,0,0,4.615977013600059e-05,True,L G,,False
+normal_train_046752__clean_r3_count,train_046752,synthetic,count,wawgjfba,wawgjfba,0,0,0,0,0,0,0,2.141878940165043e-05,True,wawgjfba,,False
+normal_train_046752__clean_r3_lower,train_046752,synthetic,lower,Y     SZ,Y     SZ,0,0,0,0,0,0,0,0.0008558314293622971,True,Y     SZ,,False
+normal_train_047826__clean_r0_upper,train_047826,synthetic,upper,G  CI,G  CI,0,0,0,0,0,0,0,9.341105032945052e-05,True,G  CI,,False
+normal_train_047826__clean_r0_count,train_047826,synthetic,count,qfkfac,qfkfac,0,0,0,0,0,0,0,1.5009039088909049e-05,True,qfkfac,,False
+normal_train_047826__clean_r0_lower,train_047826,synthetic,lower,[  \,[  \,0,0,0,0,0,0,0,0.00011375732719898224,True,[  \,,False
+normal_train_047826__clean_r1_upper,train_047826,synthetic,upper,A P,A P,0,0,0,0,0,0,0,1.6683248759363778e-05,True,A P,,False
+normal_train_047826__clean_r1_count,train_047826,synthetic,count,sajda,sajda,0,0,0,0,0,0,0,1.2087823051842861e-05,True,sajda,,False
+normal_train_047826__clean_r1_lower,train_047826,synthetic,lower,W,W,0,0,0,0,0,0,0,2.1308773284545168e-05,True,W,,False
+normal_train_047826__clean_r2_upper,train_047826,synthetic,upper,QJ,QJ,0,0,0,0,0,0,0,4.936669211019762e-05,True,QJ,,False
+normal_train_047826__clean_r2_count,train_047826,synthetic,count,sjf,sjf,0,0,0,0,0,0,0,1.5654522940167226e-05,True,sjf,,False
+normal_train_047826__clean_r3_upper,train_047826,synthetic,upper,J D N,J D N,0,0,0,0,0,0,0,1.2341226465650834e-05,True,J D N,,False
+normal_train_047826__clean_r3_count,train_047826,synthetic,count,qhjajg,qhjajg,0,0,0,0,0,0,0,1.624071410333272e-05,True,qhjajg,,False
+normal_train_047826__clean_r3_lower,train_047826,synthetic,lower,T [,T [,0,0,0,0,0,0,0,2.8895214200019836e-05,True,T [,,False
+normal_train_048392__clean_r0_upper,train_048392,synthetic,upper,K   BA CL,K   BA CL,0,0,0,0,0,0,0,0.00011032630573026836,True,K   BA CL,,False
+normal_train_048392__clean_r0_count,train_048392,synthetic,count,|gdqdggafdaea,|gdqdggafdaea,0,0,0,0,0,0,0,2.2516800527228042e-05,True,|gdqdggafdaea,,False
+normal_train_048392__clean_r0_lower,train_048392,synthetic,lower,U  ^ W  X  SY,U  ^ W  X  SY,0,0,0,0,0,0,0,9.681265510153025e-05,True,U  ^ W  X  SY,,False
+normal_train_048392__clean_r1_upper,train_048392,synthetic,upper,A   Q   D,A   Q   D,0,0,0,0,0,0,0,0.00014755461597815156,True,A   Q   D,,False
+normal_train_048392__clean_r1_count,train_048392,synthetic,count,mstkdjikac,mstkdjikac,0,0,0,0,0,0,0,3.469893636065535e-05,True,mstkdjikac,,False
+normal_train_048392__clean_r1_lower,train_048392,synthetic,lower,T YR   W,T YR   W,0,0,0,0,0,0,0,6.475972622865811e-05,True,T YR   W,,False
+normal_train_049789__clean_r0_upper,train_049789,synthetic,upper,EBF,EBF,0,0,0,0,0,0,0,0.0007950912113301456,True,EBF,,False
+normal_train_049789__clean_r0_count,train_049789,synthetic,count,adea,adea,0,0,0,0,0,0,0,5.996378604322672e-06,True,adea,,False
+normal_train_049789__clean_r0_lower,train_049789,synthetic,lower,T,T,0,0,0,0,0,0,0,1.4066792573430575e-05,True,T,,False
+normal_train_050923__clean_r0_upper,train_050923,synthetic,upper,K,K,0,0,0,0,0,0,0,1.896650792332366e-05,True,K,,False
+normal_train_050923__clean_r0_count,train_050923,synthetic,count,tmajbbe,tmajbbe,0,0,0,0,0,0,0,8.993915798782837e-06,True,tmajbbe,,False
+normal_train_050923__clean_r0_lower,train_050923,synthetic,lower,Z V RT,Z V RT,0,0,0,0,0,0,0,4.0471553802490234e-05,True,Z V RT,,False
+normal_train_052522__clean_r0_upper,train_052522,synthetic,upper,NA,NA,0,0,0,0,0,0,0,5.785376924904995e-05,True,NA,,False
+normal_train_052522__clean_r0_count,train_052522,synthetic,count,rijch,rijch,0,0,0,0,0,0,0,1.185246310342336e-05,True,rijch,,False
+normal_train_052522__clean_r0_lower,train_052522,synthetic,lower,V   R,V   R,0,0,0,0,0,0,0,0.0001293407694902271,True,V   R,,False
+normal_train_052900__clean_r0_upper,train_052900,synthetic,upper,K B   CI BG QG P,K B   CI BG QG P,0,0,0,0,0,0,0,8.265243377536535e-05,True,K B   CI BG QG P,,False
+normal_train_052900__clean_r0_count,train_052900,synthetic,count,'dmgkbekdbjadbba,'dmgkbekdbjadbba,0,0,0,0,0,0,0,1.2620032066479325e-05,True,'dmgkbekdbjadbba,,False
+normal_train_052900__clean_r0_lower,train_052900,synthetic,lower,V         T,V        T,0,1,0,0,0,0,1,0.0733618512749672,False,V        T,,False
+normal_train_053680__clean_r0_upper,train_053680,synthetic,upper,DH,DH,0,0,0,0,0,0,0,1.6858568415045738e-05,True,DH,,False
+normal_train_053680__clean_r0_count,train_053680,synthetic,count,*iatacbc,*iatacbc,0,0,0,0,0,0,0,2.52034114964772e-05,True,*iatacbc,,False
+normal_train_053680__clean_r0_lower,train_053680,synthetic,lower,S XS   ],S XS   ],0,0,0,0,0,0,0,0.0001228495966643095,True,S XS   ],,False
+normal_train_054310__clean_r0_upper,train_054310,synthetic,upper,H  M,H  M,0,0,0,0,0,0,0,4.9233436584472656e-05,True,H  M,,False
+normal_train_054310__clean_r0_count,train_054310,synthetic,count,qghjaja,qghjaja,0,0,0,0,0,0,0,1.3983284588903189e-05,True,qghjaja,,False
+normal_train_054310__clean_r0_lower,train_054310,synthetic,lower,]  ^,]  ^,0,0,0,0,0,0,0,7.755404658382758e-05,True,]  ^,,False
+normal_train_054376__clean_r0_upper,train_054376,synthetic,upper,G D   A L,G D   A L,0,0,0,0,0,0,0,7.991815800778568e-05,True,G D   A L,,False
+normal_train_054376__clean_r0_count,train_054376,synthetic,count,",ckhlalijci",",ckhlalijci",0,0,0,0,0,0,0,2.426383252895903e-05,True,",ckhlalijci",,False
+normal_train_054376__clean_r0_lower,train_054376,synthetic,lower,X  [  _,X  [  _,0,0,0,0,0,0,0,0.0003366250602994114,True,X  [  _,,False
+normal_train_054488__clean_r0_upper,train_054488,synthetic,upper,C I B  MHG,C I B  MHG,0,0,0,0,0,0,0,0.00011992052895948291,True,C I B  MHG,,False
+normal_train_054488__clean_r0_count,train_054488,synthetic,count,'aehsacaaa,'aehsacaaa,0,0,0,0,0,0,0,1.669869561737869e-05,True,'aehsacaaa,,False
+normal_train_054488__clean_r0_lower,train_054488,synthetic,lower,U  Y,U  Y,0,0,0,0,0,0,0,0.0003440454602241516,True,U  Y,,False
+normal_train_054488__clean_r1_upper,train_054488,synthetic,upper,L    C,L    C,0,0,0,0,0,0,0,0.0010852881241589785,True,L    C,,False
+normal_train_054488__clean_r1_count,train_054488,synthetic,count,mb'eilbkeh,mb'eilbkeh,0,0,0,0,0,0,0,1.650536978559103e-05,True,mb'eilbkeh,,False
+normal_train_054488__clean_r1_lower,train_054488,synthetic,lower,^ Z  R T,^ Z  R T,0,0,0,0,0,0,0,6.058889994164929e-05,True,^ Z  R T,,False
+normal_train_054683__clean_r0_upper,train_054683,synthetic,upper,QN B,QN B,0,0,0,0,0,0,0,0.00010576220665825531,True,QN B,,False
+normal_train_054683__clean_r0_count,train_054683,synthetic,count,znfd,znfd,0,0,0,0,0,0,0,7.56978988647461e-05,True,znfd,,False
+normal_train_054683__clean_r1_upper,train_054683,synthetic,upper,I KG,I KG,0,0,0,0,0,0,0,3.2689975341781974e-05,True,I KG,,False
+normal_train_054683__clean_r1_count,train_054683,synthetic,count,)fca,)fca,0,0,0,0,0,0,0,3.307311999378726e-05,True,)fca,,False
+normal_train_055577__clean_r0_upper,train_055577,synthetic,upper,BJB,BJB,0,0,0,0,0,0,0,0.0014295056462287903,True,BJB,,False
+normal_train_055577__clean_r0_count,train_055577,synthetic,count,hia,hia,0,0,0,0,0,0,0,1.1879019439220428e-05,True,hia,,False
+normal_train_055577__clean_r1_upper,train_055577,synthetic,upper,L  N,L  N,0,0,0,0,0,0,0,3.5947345168096945e-05,True,L  N,,False
+normal_train_055577__clean_r1_count,train_055577,synthetic,count,cjda,cjda,0,0,0,0,0,0,0,1.1429195183154661e-05,True,cjda,,False
+normal_train_055577__clean_r1_lower,train_055577,synthetic,lower,RV,RV,0,0,0,0,0,0,0,5.589456486632116e-05,True,RV,,False
+normal_train_056675__clean_r0_upper,train_056675,synthetic,upper,Q  N J,Q  N J,0,0,0,0,0,0,0,5.555171810556203e-05,True,Q  N J,,False
+normal_train_056675__clean_r0_count,train_056675,synthetic,count,shbhkfjefba,shbhkfjefba,0,0,0,0,0,0,0,9.33900628297124e-06,True,shbhkfjefba,,False
+normal_train_056675__clean_r0_lower,train_056675,synthetic,lower,\ ^ X    V_,\ ^ X    V_,0,0,0,0,0,0,0,0.00024253950687125325,True,\ ^ X    V_,,False
+normal_train_056675__clean_r1_upper,train_056675,synthetic,upper,H K,H K,0,0,0,0,0,0,0,2.7235417292104103e-05,True,H K,,False
+normal_train_056675__clean_r1_count,train_056675,synthetic,count,xgja,xgja,0,0,0,0,0,0,0,1.4609351637773216e-05,True,xgja,,False
+normal_train_056675__clean_r1_lower,train_056675,synthetic,lower,S,S,0,0,0,0,0,0,0,1.0848076271940954e-05,True,S,,False
+normal_train_056734__clean_r0_upper,train_056734,synthetic,upper,F  K,F  K,0,0,0,0,0,0,0,0.00012176485324744135,True,F  K,,False
+normal_train_056734__clean_r0_count,train_056734,synthetic,count,ockceb,ockceb,0,0,0,0,0,0,0,1.2452404007490259e-05,True,ockceb,,False
+normal_train_056734__clean_r0_lower,train_056734,synthetic,lower,^   Y,^   Y,0,0,0,0,0,0,0,0.0001309228246100247,True,^   Y,,False
+normal_train_056999__clean_r0_upper,train_056999,synthetic,upper,PK H C,PK H C,0,0,0,0,0,0,0,6.997989839874208e-05,True,PK H C,,False
+normal_train_056999__clean_r0_count,train_056999,synthetic,count,sielhidca,sielhidca,0,0,0,0,0,0,0,2.3351776690105908e-05,True,sielhidca,,False
+normal_train_056999__clean_r0_lower,train_056999,synthetic,lower,V     U U,V     U U,0,0,0,0,0,0,0,0.0008665327914059162,True,V     U U,,False
+normal_train_056999__clean_r1_upper,train_056999,synthetic,upper,J  M E  A,J  M E  A,0,0,0,0,0,0,0,5.3498682973440737e-05,True,J  M E  A,,False
+normal_train_056999__clean_r1_count,train_056999,synthetic,count,huekbjaaaa,huekbjaaaa,0,0,0,0,0,0,0,4.3026357161579654e-05,True,huekbjaaaa,,False
+normal_train_056999__clean_r1_lower,train_056999,synthetic,lower,W     [ T,W     [ T,0,0,0,0,0,0,0,0.0005314090522006154,True,W     [ T,,False
+normal_train_057483__clean_r0_count,train_057483,synthetic,count,xmhjb,xmhjb,0,0,0,0,0,0,0,1.4810264474363066e-05,True,xmhjb,,False
+normal_train_057483__clean_r0_lower,train_057483,synthetic,lower,ZX ^,ZX ^,0,0,0,0,0,0,0,0.0002581459120847285,True,ZX ^,,False
+normal_train_057483__clean_r1_upper,train_057483,synthetic,upper,C      H BN  L,C      H BN  L,0,0,0,0,0,0,0,0.0013790955999866128,True,C      H BN  L,,False
+normal_train_057483__clean_r1_count,train_057483,synthetic,count,ejegjhjdngjpgeb,ejegjhjdngjpgeb,0,0,0,0,0,0,0,1.5037258890515659e-05,True,ejegjhjdngjpgeb,,False
+normal_train_057483__clean_r1_lower,train_057483,synthetic,lower,T  ^\ U      _,T  ^\ U      _,0,0,0,0,0,0,0,0.0012711577583104372,True,T  ^\ U      _,,False
+normal_train_057483__clean_r2_upper,train_057483,synthetic,upper,JG,JG,0,0,0,0,0,0,0,2.484756987541914e-05,True,JG,,False
+normal_train_057483__clean_r2_count,train_057483,synthetic,count,xo,xo,0,0,0,0,0,0,0,9.167275129584596e-05,True,xo,,False
+normal_train_057483__clean_r3_upper,train_057483,synthetic,upper,Q    G MIE,Q    G MIE,0,0,0,0,0,0,0,0.00036717316834256053,True,Q    G MIE,,False
+normal_train_057483__clean_r3_count,train_057483,synthetic,count,weilfjfbaa,weilfjfbaa,0,0,0,0,0,0,0,9.886175575957168e-06,True,weilfjfbaa,,False
+normal_train_057483__clean_r3_lower,train_057483,synthetic,lower,SU[,SU[,0,0,0,0,0,0,0,2.580486579972785e-05,True,SU[,,False
+normal_train_058909__clean_r0_upper,train_058909,synthetic,upper,C,C,0,0,0,0,0,0,0,0.0001198361860588193,True,C,,False
+normal_train_058909__clean_r0_count,train_058909,synthetic,count,ddcaaa,ddcaaa,0,0,0,0,0,0,0,7.116548658814281e-06,True,ddcaaa,,False
+normal_train_058909__clean_r0_lower,train_058909,synthetic,lower,WT[T Y,WT[T Y,0,0,0,0,0,0,0,4.1293620597571135e-05,True,WT[T Y,,False
+normal_train_059083__clean_r0_upper,train_059083,synthetic,upper,M HG  GLE,M HG  GLE,0,0,0,0,0,0,0,8.284548675874248e-05,True,M HG  GLE,,False
+normal_train_059083__clean_r0_count,train_059083,synthetic,count,xgcckbdhjc,xgcckbdhjc,0,0,0,0,0,0,0,9.936094102158677e-06,True,xgcckbdhjc,,False
+normal_train_059083__clean_r0_lower,train_059083,synthetic,lower,^  Y,^  Y,0,0,0,0,0,0,0,6.266566197155043e-05,True,^  Y,,False
+normal_train_059409__clean_r0_upper,train_059409,synthetic,upper,D,D,0,0,0,0,0,0,0,7.656461093574762e-06,True,D,,False
+normal_train_059409__clean_r0_count,train_059409,synthetic,count,cai,cai,0,0,0,0,0,0,0,2.158407551178243e-05,True,cai,,False
+normal_train_059409__clean_r0_lower,train_059409,synthetic,lower,\S,\S,0,0,0,0,0,0,0,8.737669304537121e-06,True,\S,,False
+normal_train_059409__clean_r1_count,train_059409,synthetic,count,jab,jab,0,0,0,0,0,0,0,4.5336787479755e-06,True,jab,,False
+normal_train_059409__clean_r1_lower,train_059409,synthetic,lower,Z V,Z V,0,0,0,0,0,0,0,4.045278183184564e-05,True,Z V,,False
+normal_train_059409__clean_r2_upper,train_059409,synthetic,upper,P,P,0,0,0,0,0,0,0,1.692786463536322e-05,True,P,,False
+normal_train_059409__clean_r2_count,train_059409,synthetic,count,di,di,0,0,0,0,0,0,0,8.227994840126485e-06,True,di,,False
+normal_train_059409__clean_r2_lower,train_059409,synthetic,lower,T,T,0,0,0,0,0,0,0,1.0456897143740207e-05,True,T,,False
+normal_train_059409__clean_r3_upper,train_059409,synthetic,upper,C,C,0,0,0,0,0,0,0,0.00014840048970654607,True,C,,False
+normal_train_059409__clean_r3_count,train_059409,synthetic,count,jab,jab,0,0,0,0,0,0,0,4.516293756751111e-06,True,jab,,False
+normal_train_059409__clean_r3_lower,train_059409,synthetic,lower,V,V,0,0,0,0,0,0,0,3.790909249801189e-05,True,V,,False
+normal_train_061685__clean_r0_upper,train_061685,synthetic,upper,PN,PN,0,0,0,0,0,0,0,3.993472637375817e-05,True,PN,,False
+normal_train_061685__clean_r0_count,train_061685,synthetic,count,efca,efca,0,0,0,0,0,0,0,1.927558332681656e-05,True,efca,,False
+normal_train_061685__clean_r0_lower,train_061685,synthetic,lower,\  _,\  _,0,0,0,0,0,0,0,5.06457217852585e-05,True,\  _,,False
+normal_train_061685__clean_r1_upper,train_061685,synthetic,upper,NJB,NJB,0,0,0,0,0,0,0,0.0003606640675570816,True,NJB,,False
+normal_train_061685__clean_r1_count,train_061685,synthetic,count,hfa,hfa,0,0,0,0,0,0,0,2.1340945750125684e-05,True,hfa,,False
+normal_train_062629__clean_r0_upper,train_062629,synthetic,upper,C H,C H,0,0,0,0,0,0,0,0.00017993997607845813,True,C H,,False
+normal_train_062629__clean_r0_count,train_062629,synthetic,count,gfd,gfd,0,0,0,0,0,0,0,8.888542652130127e-06,True,gfd,,False
+normal_train_062629__clean_r0_lower,train_062629,synthetic,lower,W,W,0,0,0,0,0,0,0,1.8954367988044396e-05,True,W,,False
+normal_train_063013__clean_r0_upper,train_063013,synthetic,upper,FQ,FQ,0,0,0,0,0,0,0,0.00017710775136947632,True,FQ,,False
+normal_train_063013__clean_r0_count,train_063013,synthetic,count,dacea,dacea,0,0,0,0,0,0,0,7.235194971144665e-06,True,dacea,,False
+normal_train_063013__clean_r0_lower,train_063013,synthetic,lower,T  V[,T  V[,0,0,0,0,0,0,0,0.00011808277486125007,True,T  V[,,False
+normal_train_063509__clean_r0_upper,train_063509,synthetic,upper,NP K,NP K,0,0,0,0,0,0,0,8.606234041508287e-05,True,NP K,,False
+normal_train_063509__clean_r0_count,train_063509,synthetic,count,baah,baah,0,0,0,0,0,0,0,1.3142825082468335e-05,True,baah,,False
+normal_train_063509__clean_r0_lower,train_063509,synthetic,lower,^,^,0,0,0,0,0,0,0,2.4797767764539458e-05,True,^,,False
+normal_train_063509__clean_r1_upper,train_063509,synthetic,upper,BD,BD,0,0,0,0,0,0,0,0.000286247581243515,True,BD,,False
+normal_train_063509__clean_r1_count,train_063509,synthetic,count,jb,jb,0,0,0,0,0,0,0,8.434813935309649e-06,True,jb,,False
+normal_train_064538__clean_r0_upper,train_064538,synthetic,upper,F,F,0,0,0,0,0,0,0,2.3701943064224906e-05,True,F,,False
+normal_train_064538__clean_r0_count,train_064538,synthetic,count,ldkaeca,ldkaeca,0,0,0,0,0,0,0,9.5452587629552e-06,True,ldkaeca,,False
+normal_train_064538__clean_r0_lower,train_064538,synthetic,lower,V TW^,V TW^,0,0,0,0,0,0,0,4.44056568085216e-05,True,V TW^,,False
+normal_train_064538__clean_r1_upper,train_064538,synthetic,upper,I  EM,I  EM,0,0,0,0,0,0,0,5.110204074298963e-05,True,I  EM,,False
+normal_train_064538__clean_r1_count,train_064538,synthetic,count,fmdaica,fmdaica,0,0,0,0,0,0,0,1.1290823749732226e-05,True,fmdaica,,False
+normal_train_064538__clean_r1_lower,train_064538,synthetic,lower,T  \  \,T  \  \,0,0,0,0,0,0,0,8.749961125431582e-05,True,T  \  \,,False
+normal_train_064740__clean_r0_upper,train_064740,synthetic,upper,H   C     C,H   C     C,0,0,0,0,0,0,0,0.0010270514758303761,True,H   C     C,,False
+normal_train_064740__clean_r0_count,train_064740,synthetic,count,'ddkhngdfadaidaa,'ddkhngdfadaidaa,0,0,0,0,0,0,0,2.05520773306489e-05,True,'ddkhngdfadaidaa,,False
+normal_train_064740__clean_r0_lower,train_064740,synthetic,lower,_W R YS^ ZRYR^,_W R YS^ ZRYR^,0,0,0,0,0,0,0,5.819264697493054e-05,True,_W R YS^ ZRYR^,,False
+normal_train_064740__clean_r1_upper,train_064740,synthetic,upper,N   Q,N   Q,0,0,0,0,0,0,0,0.00011023879051208496,True,N   Q,,False
+normal_train_064740__clean_r1_count,train_064740,synthetic,count,scjf|cjb,scjf|cjb,0,0,0,0,0,0,0,3.894045948982239e-05,True,scjf|cjb,,False
+normal_train_064740__clean_r1_lower,train_064740,synthetic,lower,[   W,[   W,0,0,0,0,0,0,0,0.00012352400517556816,True,[   W,,False
+normal_train_064740__clean_r2_upper,train_064740,synthetic,upper,B     CM,B     CM,0,0,0,0,0,0,0,0.0015371832996606827,True,B     CM,,False
+normal_train_064740__clean_r2_count,train_064740,synthetic,count,*gpheaba,*gpheaba,0,0,0,0,0,0,0,2.401845995336771e-05,True,*gpheaba,,False
+normal_train_064740__clean_r2_lower,train_064740,synthetic,lower,Z W[,Z W[,0,0,0,0,0,0,0,3.055535489693284e-05,True,Z W[,,False
+normal_train_064740__clean_r3_upper,train_064740,synthetic,upper,PH   Q H,PH   Q H,0,0,0,0,0,0,0,9.91339111351408e-05,True,PH   Q H,,False
+normal_train_064740__clean_r3_count,train_064740,synthetic,count,htbzhjbgcd,htbzhjbgcd,0,0,0,0,0,0,0,4.515442924457602e-05,True,htbzhjbgcd,,False
+normal_train_064740__clean_r3_lower,train_064740,synthetic,lower,\    UZ,\    UZ,0,0,0,0,0,0,0,0.0009299797238782048,True,\    UZ,,False
+normal_train_069087__clean_r0_upper,train_069087,synthetic,upper,J  E HQD P,J  E HQD P,0,0,0,0,0,0,0,3.029188883374445e-05,True,J  E HQD P,,False
+normal_train_069087__clean_r0_count,train_069087,synthetic,count,zaglegbaec,zaglegbaec,0,0,0,0,0,0,0,1.473912016081158e-05,True,zaglegbaec,,False
+normal_train_069087__clean_r0_lower,train_069087,synthetic,lower,S     S,S     S,0,0,0,0,0,0,0,0.0006897234125062823,True,S     S,,False
+normal_train_069087__clean_r1_upper,train_069087,synthetic,upper,BP  L   P,BP  L   P,0,0,0,0,0,0,0,0.0001827610976761207,True,BP  L   P,,False
+normal_train_069087__clean_r1_count,train_069087,synthetic,count,dbveeqcaa,dbveeqcaa,0,0,0,0,0,0,0,5.370585495256819e-05,True,dbveeqcaa,,False
+normal_train_069087__clean_r1_lower,train_069087,synthetic,lower,Y  [ S,Y  [ S,0,0,0,0,0,0,0,0.00010015210136771202,True,Y  [ S,,False
+normal_train_069087__clean_r2_upper,train_069087,synthetic,upper,LN,LN,0,0,0,0,0,0,0,3.0765164410695434e-05,True,LN,,False
+normal_train_069087__clean_r2_count,train_069087,synthetic,count,tcsgfad,tcsgfad,0,0,0,0,0,0,0,2.5653413104009815e-05,True,tcsgfad,,False
+normal_train_069087__clean_r2_lower,train_069087,synthetic,lower,Z U   V,Z U   V,0,0,0,0,0,0,0,0.0001442402135580778,True,Z U   V,,False
+normal_train_069087__clean_r3_upper,train_069087,synthetic,upper,G H AC,G H AC,0,0,0,0,0,0,0,9.291884634876624e-05,True,G H AC,,False
+normal_train_069087__clean_r3_count,train_069087,synthetic,count,hoeggsfkhee,hoeggsfkhee,0,0,0,0,0,0,0,3.657557681435719e-05,True,hoeggsfkhee,,False
+normal_train_069087__clean_r3_lower,train_069087,synthetic,lower,_X [\,_X [\,0,0,0,0,0,0,0,3.482537067611702e-05,True,_X [\,,False
+normal_train_069744__clean_r0_upper,train_069744,synthetic,upper,C E B,C E B,0,0,0,0,0,0,0,0.00024579832097515464,True,C E B,,False
+normal_train_069744__clean_r0_count,train_069744,synthetic,count,",eghsda",",eghsda",0,0,0,0,0,0,0,2.8776277758879587e-05,True,",eghsda",,False
+normal_train_069744__clean_r0_lower,train_069744,synthetic,lower,U  T,U  T,0,0,0,0,0,0,0,6.996037700446323e-05,True,U  T,,False
+normal_train_069744__clean_r1_upper,train_069744,synthetic,upper,M  FJCGD A,M  FJCGD A,0,0,0,0,0,0,0,8.485512807965279e-05,True,M  FJCGD A,,False
+normal_train_069744__clean_r1_count,train_069744,synthetic,count,'dbhweibda,'dbhweibda,0,0,0,0,0,0,0,6.298638618318364e-05,True,'dbhweibda,,False
+normal_train_069744__clean_r1_lower,train_069744,synthetic,lower,_     S,_     S,0,0,0,0,0,0,0,0.0005410899175330997,True,_     S,,False
+normal_train_069744__clean_r2_upper,train_069744,synthetic,upper,N        F B,N        F B,0,0,0,0,0,0,0,0.03595152497291565,True,N        F B,,False
+normal_train_069744__clean_r2_count,train_069744,synthetic,count,uegiadreopca,uegiadreopca,0,0,0,0,0,0,0,6.16908073425293e-05,True,uegiadreopca,,False
+normal_train_069744__clean_r2_lower,train_069744,synthetic,lower,Z\ZYW U,Z\ZYW U,0,0,0,0,0,0,0,6.974941061343998e-05,True,Z\ZYW U,,False
+normal_train_069744__clean_r3_upper,train_069744,synthetic,upper,L    Q   H E,L    Q   H E,0,0,0,0,0,0,0,0.0003018641727976501,True,L    Q   H E,,False
+normal_train_069744__clean_r3_count,train_069744,synthetic,count,d+ephecigjdj,d+ephecigjdj,0,0,0,0,0,0,0,0.00016063202929217368,True,d+ephecigjdj,,False
+normal_train_069744__clean_r3_lower,train_069744,synthetic,lower,T Y  _ZU,T Y  _ZU,0,0,0,0,0,0,0,8.313931903103366e-05,True,T Y  _ZU,,False
+normal_train_070900__clean_r0_upper,train_070900,synthetic,upper,L   J  G   D,L   J  G   D,0,0,0,0,0,0,0,0.00011820604413514957,True,L   J  G   D,,False
+normal_train_070900__clean_r0_count,train_070900,synthetic,count,)dpgajckadaba,)dpgajckadaba,0,0,0,0,0,0,0,1.4477409422397614e-05,True,)dpgajckadaba,,False
+normal_train_070900__clean_r0_lower,train_070900,synthetic,lower,R  U   XS S,R  U   XS S,0,0,0,0,0,0,0,0.00010481675417395309,True,R  U   XS S,,False
+normal_train_070955__clean_r0_upper,train_070955,synthetic,upper,B D,B D,0,0,0,0,0,0,0,0.00018193449068348855,True,B D,,False
+normal_train_070955__clean_r0_count,train_070955,synthetic,count,xho,xho,0,0,0,0,0,0,0,8.579840505262837e-05,True,xho,,False
+normal_train_070955__clean_r1_upper,train_070955,synthetic,upper,D QP     P,D QP     P,0,0,0,0,0,0,0,0.00043619718053378165,True,D QP     P,,False
+normal_train_070955__clean_r1_count,train_070955,synthetic,count,uddcofjfaca,uddcofjfaca,0,0,0,0,0,0,0,4.404105857247487e-05,True,uddcofjfaca,,False
+normal_train_070955__clean_r1_lower,train_070955,synthetic,lower,Z [ ] \,Z [ ] \,0,0,0,0,0,0,0,6.206922989804298e-05,True,Z [ ] \,,False
+normal_train_070997__clean_r0_upper,train_070997,synthetic,upper,FBLJCM,FBLJCM,0,0,0,0,0,0,0,0.00015271687880158424,True,FBLJCM,,False
+normal_train_070997__clean_r0_count,train_070997,synthetic,count,bdaaaba,bdaaaba,0,0,0,0,0,0,0,5.558948032557964e-06,True,bdaaaba,,False
+normal_train_070997__clean_r0_lower,train_070997,synthetic,lower,U,U,0,0,0,0,0,0,0,2.096036223520059e-05,True,U,,False
+normal_train_070997__clean_r1_upper,train_070997,synthetic,upper,N,N,0,0,0,0,0,0,0,2.8245982321095653e-05,True,N,,False
+normal_train_070997__clean_r1_count,train_070997,synthetic,count,jaa,jaa,0,0,0,0,0,0,0,4.409502707858337e-06,True,jaa,,False
+normal_train_070997__clean_r1_lower,train_070997,synthetic,lower,[ ],[ ],0,0,0,0,0,0,0,5.83558612561319e-05,True,[ ],,False
+normal_train_072366__clean_r0_upper,train_072366,synthetic,upper,L,L,0,0,0,0,0,0,0,4.243966395733878e-05,True,L,,False
+normal_train_072366__clean_r0_count,train_072366,synthetic,count,jal,jal,0,0,0,0,0,0,0,1.0450680747453589e-05,True,jal,,False
+normal_train_072366__clean_r0_lower,train_072366,synthetic,lower,[,[,0,0,0,0,0,0,0,3.7676640204153955e-05,True,[,,False
+normal_train_072366__clean_r1_upper,train_072366,synthetic,upper,DH  N,DH  N,0,0,0,0,0,0,0,8.875238563632593e-05,True,DH  N,,False
+normal_train_072366__clean_r1_count,train_072366,synthetic,count,cbikbabb,cbikbabb,0,0,0,0,0,0,0,6.996096090006176e-06,True,cbikbabb,,False
+normal_train_072366__clean_r1_lower,train_072366,synthetic,lower,U  Z  TX,U  Z  TX,0,0,0,0,0,0,0,0.00036447637830860913,True,U  Z  TX,,False
+normal_train_072366__clean_r2_upper,train_072366,synthetic,upper,B P,B P,0,0,0,0,0,0,0,0.0003566606028471142,True,B P,,False
+normal_train_072366__clean_r2_count,train_072366,synthetic,count,cjdjefab,cjdjefab,0,0,0,0,0,0,0,7.078051567077637e-06,True,cjdjefab,,False
+normal_train_072366__clean_r2_lower,train_072366,synthetic,lower,W    _VR,W    _VR,0,0,0,0,0,0,0,0.0004955721087753773,True,W    _VR,,False
+normal_train_072366__clean_r3_upper,train_072366,synthetic,upper,D,D,0,0,0,0,0,0,0,1.622621675778646e-05,True,D,,False
+normal_train_072366__clean_r3_count,train_072366,synthetic,count,jbijdf,jbijdf,0,0,0,0,0,0,0,6.365008175635012e-06,True,jbijdf,,False
+normal_train_072366__clean_r3_lower,train_072366,synthetic,lower,X S  V,X S  V,0,0,0,0,0,0,0,0.00021850813936907798,True,X S  V,,False
+normal_train_072832__clean_r0_upper,train_072832,synthetic,upper,I F P,I F P,0,0,0,0,0,0,0,2.2701022317050956e-05,True,I F P,,False
+normal_train_072832__clean_r0_count,train_072832,synthetic,count,)gsdjbac,)gsdjbac,0,0,0,0,0,0,0,1.8967257346957922e-05,True,)gsdjbac,,False
+normal_train_072832__clean_r0_lower,train_072832,synthetic,lower,]      ^,]      ^,0,0,0,0,0,0,0,0.0013350972440093756,True,]      ^,,False
+normal_train_075366__clean_r0_upper,train_075366,synthetic,upper,B   H,B   H,0,0,0,0,0,0,0,0.0008989014895632863,True,B   H,,False
+normal_train_075366__clean_r0_count,train_075366,synthetic,count,maaakdd,maaakdd,0,0,0,0,0,0,0,5.891852197237313e-06,True,maaakdd,,False
+normal_train_075366__clean_r0_lower,train_075366,synthetic,lower,V  SX,V  SX,0,0,0,0,0,0,0,0.0003479623410385102,True,V  SX,,False
+normal_train_075366__clean_r1_upper,train_075366,synthetic,upper,J NK M B,J NK M B,0,0,0,0,0,0,0,0.00018131243996322155,True,J NK M B,,False
+normal_train_075366__clean_r1_count,train_075366,synthetic,count,cefjilfb,cefjilfb,0,0,0,0,0,0,0,1.0587275937723462e-05,True,cefjilfb,,False
+normal_train_075366__clean_r1_lower,train_075366,synthetic,lower,Y,Y,0,0,0,0,0,0,0,0.0007722956361249089,True,Y,,False
+normal_train_075366__clean_r2_upper,train_075366,synthetic,upper,LB M,LB M,0,0,0,0,0,0,0,5.1273033022880554e-05,True,LB M,,False
+normal_train_075366__clean_r2_count,train_075366,synthetic,count,ceikcikb,ceikcikb,0,0,0,0,0,0,0,1.1232907127123326e-05,True,ceikcikb,,False
+normal_train_075366__clean_r2_lower,train_075366,synthetic,lower,ST    ],ST    ],0,0,0,0,0,0,0,0.000674275797791779,True,ST    ],,False
+normal_train_075366__clean_r3_upper,train_075366,synthetic,upper,J Q,J Q,0,0,0,0,0,0,0,3.866814586217515e-05,True,J Q,,False
+normal_train_075366__clean_r3_count,train_075366,synthetic,count,hkikcja,hkikcja,0,0,0,0,0,0,0,1.3427893463813234e-05,True,hkikcja,,False
+normal_train_075366__clean_r3_lower,train_075366,synthetic,lower,R^,R^,0,0,0,0,0,0,0,2.5894498321576975e-05,True,R^,,False
+normal_train_075376__clean_r0_upper,train_075376,synthetic,upper,B        BG B,B        BG B,0,0,0,0,0,0,0,0.03207209333777428,True,B        BG B,,False
+normal_train_075376__clean_r0_count,train_075376,synthetic,count,)ccmilchejjaa,)ccmilchejjaa,0,0,0,0,0,0,0,1.6164322005352005e-05,True,)ccmilchejjaa,,False
+normal_train_075376__clean_r0_lower,train_075376,synthetic,lower,^T \ [\,^T \ [\,0,0,0,0,0,0,0,2.6615494789439254e-05,True,^T \ [\,,False
+normal_train_075938__clean_r0_upper,train_075938,synthetic,upper,M P,M P,0,0,0,0,0,0,0,1.621525370865129e-05,True,M P,,False
+normal_train_075938__clean_r0_count,train_075938,synthetic,count,rdakah,rdakah,0,0,0,0,0,0,0,8.513751708960626e-06,True,rdakah,,False
+normal_train_075938__clean_r0_lower,train_075938,synthetic,lower,W V,W V,0,0,0,0,0,0,0,3.887990897055715e-05,True,W V,,False
+normal_train_075938__clean_r1_upper,train_075938,synthetic,upper,A    A    IE   DL,A    A    IE   DL,0,0,0,0,0,0,0,0.0009546864894218743,True,A    A    IE   DL,,False
+normal_train_075938__clean_r1_count,train_075938,synthetic,count,ijfbdfjfjfjijghbadbb,ijfbdfjfjfjijghbadbb,0,0,0,0,0,0,0,8.784430974628776e-06,True,ijfbdfjfjfjijghbadbb,,False
+normal_train_075938__clean_r1_lower,train_075938,synthetic,lower,Y  SV]  ^ ]   ZV  [Z,Y  SV]  ^ ]   ZV  [Z,0,0,0,0,0,0,0,9.762346599018201e-05,True,Y  SV]  ^ ]   ZV  [Z,,False
+normal_train_075991__clean_r0_upper,train_075991,synthetic,upper,I  B  NL,I  B  NL,0,0,0,0,0,0,0,9.480901644565165e-05,True,I  B  NL,,False
+normal_train_075991__clean_r0_count,train_075991,synthetic,count,vgflehib,vgflehib,0,0,0,0,0,0,0,2.8442125767469406e-05,True,vgflehib,,False
+normal_train_075991__clean_r0_lower,train_075991,synthetic,lower,Z  S,Z  S,0,0,0,0,0,0,0,7.150341116357595e-05,True,Z  S,,False
+normal_train_078019__clean_r0_upper,train_078019,synthetic,upper,P   F,P   F,0,0,0,0,0,0,0,0.00012987207446713,True,P   F,,False
+normal_train_078019__clean_r0_count,train_078019,synthetic,count,ydemjcb,ydemjcb,0,0,0,0,0,0,0,2.722761382756289e-05,True,ydemjcb,,False
+normal_train_078019__clean_r0_lower,train_078019,synthetic,lower,T  R^,T  R^,0,0,0,0,0,0,0,7.55941728129983e-05,True,T  R^,,False
+normal_train_079690__clean_r0_upper,train_079690,synthetic,upper,D  IL C N,D  IL C N,0,0,0,0,0,0,0,5.536996104638092e-05,True,D  IL C N,,False
+normal_train_079690__clean_r0_count,train_079690,synthetic,count,mbdejahaa,mbdejahaa,0,0,0,0,0,0,0,0.0056005120277404785,True,mbdejahaa,,False
+normal_train_079690__clean_r0_lower,train_079690,synthetic,lower,[    _,[    _,0,0,0,0,0,0,0,2.487945079803467,True,G    L,GL,True
+positive_edge_00002__aug_01_shadow_r0_upper,edge_00002,synthetic,upper,A,A,0,0,0,0,0,0,0,9.205661626765504e-06,True,A,,False
+positive_edge_00002__aug_01_shadow_r0_count,edge_00002,synthetic,count,aa,aa,0,0,0,0,0,0,0,2.4633831344544888e-05,True,aa,,False
+positive_edge_00002__aug_01_shadow_r0_lower,edge_00002,synthetic,lower,R,R,0,0,0,0,0,0,0,2.3126869564293884e-05,True,R,,False
+positive_edge_00002__aug_02_gaussian_blur_contrast_r0_upper,edge_00002,synthetic,upper,A,A,0,0,0,0,0,0,0,8.55490088724764e-06,True,A,,False
+positive_edge_00002__aug_02_gaussian_blur_contrast_r0_count,edge_00002,synthetic,count,aa,aa,0,0,0,0,0,0,0,2.6523717679083347e-05,True,aa,,False
+positive_edge_00002__aug_02_gaussian_blur_contrast_r0_lower,edge_00002,synthetic,lower,R,R,0,0,0,0,0,0,0,2.3961352781043388e-05,True,R,,False
+positive_edge_00002__aug_03_perspective_shadow_r0_upper,edge_00002,synthetic,upper,A,A,0,0,0,0,0,0,0,9.068060535355471e-06,True,A,,False
+positive_edge_00002__aug_03_perspective_shadow_r0_count,edge_00002,synthetic,count,aa,aa,0,0,0,0,0,0,0,0.00019471935229375958,True,aa,,False
+positive_edge_00002__aug_03_perspective_shadow_r0_lower,edge_00002,synthetic,lower,R,R,0,0,0,0,0,0,0,2.1338690203265287e-05,True,R,,False
+positive_edge_00002__clean_r0_upper,edge_00002,synthetic,upper,A,A,0,0,0,0,0,0,0,9.054205293068662e-06,True,A,,False
+positive_edge_00002__clean_r0_count,edge_00002,synthetic,count,aa,aa,0,0,0,0,0,0,0,4.488870035856962e-05,True,aa,,False
+positive_edge_00002__clean_r0_lower,edge_00002,synthetic,lower,R,R,0,0,0,0,0,0,0,4.80425005662255e-05,True,R,,False
+positive_edge_00010__aug_01_resolution_r0_upper,edge_00010,synthetic,upper,A,A,0,0,0,0,0,0,0,7.492521945096087e-06,True,A,,False
+positive_edge_00010__aug_01_resolution_r0_count,edge_00010,synthetic,count,jb,jb,0,0,0,0,0,0,0,5.368143320083618e-06,True,jb,,False
+positive_edge_00010__aug_02_motion_blur_r0_upper,edge_00010,synthetic,upper,A,A,0,0,0,0,0,0,0,6.940014827705454e-06,True,A,,False
+positive_edge_00010__aug_02_motion_blur_r0_count,edge_00010,synthetic,count,jb,jb,0,0,0,0,0,0,0,4.641711711883545e-06,True,jb,,False
+positive_edge_00010__aug_03_gaussian_blur_contrast_r0_upper,edge_00010,synthetic,upper,A,A,0,0,0,0,0,0,0,7.405588348774472e-06,True,A,,False
+positive_edge_00010__aug_03_gaussian_blur_contrast_r0_count,edge_00010,synthetic,count,jb,jb,0,0,0,0,0,0,0,4.230067133903503e-06,True,jb,,False
+positive_edge_00010__clean_r0_upper,edge_00010,synthetic,upper,A,A,0,0,0,0,0,0,0,7.622586508659879e-06,True,A,,False
+positive_edge_00010__clean_r0_count,edge_00010,synthetic,count,jb,jb,0,0,0,0,0,0,0,4.760921001434326e-06,True,jb,,False
+positive_edge_00013__aug_01_rotation_r0_upper,edge_00013,synthetic,upper,A,A,0,0,0,0,0,0,0,8.116856406559236e-06,True,A,,False
+positive_edge_00013__aug_01_rotation_r0_count,edge_00013,synthetic,count,ka,ka,0,0,0,0,0,0,0,3.320392715977505e-05,True,ka,,False
+positive_edge_00013__aug_02_resolution_jpeg_r0_upper,edge_00013,synthetic,upper,A,A,0,0,0,0,0,0,0,8.595819053880405e-06,True,A,,False
+positive_edge_00013__aug_02_resolution_jpeg_r0_count,edge_00013,synthetic,count,ka,ka,0,0,0,0,0,0,0,1.2045715266140178e-05,True,ka,,False
+positive_edge_00013__aug_03_gaussian_blur_contrast_r0_upper,edge_00013,synthetic,upper,A,A,0,0,0,0,0,0,0,8.112433533824515e-06,True,A,,False
+positive_edge_00013__aug_03_gaussian_blur_contrast_r0_count,edge_00013,synthetic,count,ka,ka,0,0,0,0,0,0,0,1.5155615983530879e-05,True,ka,,False
+positive_edge_00013__clean_r0_upper,edge_00013,synthetic,upper,A,A,0,0,0,0,0,0,0,7.618977178935893e-06,True,A,,False
+positive_edge_00013__clean_r0_count,edge_00013,synthetic,count,ka,ka,0,0,0,0,0,0,0,4.757952410727739e-06,True,ka,,False
+positive_edge_00016__aug_01_resolution_r0_count,edge_00016,synthetic,count,ki,ki,0,0,0,0,0,0,0,4.4629909098148346e-05,True,ki,,False
+positive_edge_00016__aug_01_resolution_r0_lower,edge_00016,synthetic,lower,R,R,0,0,0,0,0,0,0,6.556664629897568e-06,True,R,,False
+positive_edge_00016__aug_02_gaussian_blur_contrast_r0_count,edge_00016,synthetic,count,ki,ki,0,0,0,0,0,0,0,9.217238402925432e-05,True,ki,,False
+positive_edge_00016__aug_02_gaussian_blur_contrast_r0_lower,edge_00016,synthetic,lower,R,R,0,0,0,0,0,0,0,6.199062681844225e-06,True,R,,False
+positive_edge_00016__aug_03_shadow_r0_count,edge_00016,synthetic,count,ki,ki,0,0,0,0,0,0,0,1.1056687981181312e-05,True,ki,,False
+positive_edge_00016__aug_03_shadow_r0_lower,edge_00016,synthetic,lower,R,R,0,0,0,0,0,0,0,6.318141913652653e-06,True,R,,False
+positive_edge_00016__clean_r0_count,edge_00016,synthetic,count,ki,ki,0,0,0,0,0,0,0,8.434068149654195e-06,True,ki,,False
+positive_edge_00016__clean_r0_lower,edge_00016,synthetic,lower,R,R,0,0,0,0,0,0,0,8.106245331873652e-06,True,R,,False
+positive_edge_00024__aug_01_jpeg_r0_upper,edge_00024,synthetic,upper,A,A,0,0,0,0,0,0,0,3.924360498785973e-06,True,A,,False
+positive_edge_00024__aug_01_jpeg_r0_count,edge_00024,synthetic,count,m,m,0,0,0,0,0,0,0,1.3233977369964123e-05,True,m,,False
+positive_edge_00024__aug_02_gaussian_blur_r0_upper,edge_00024,synthetic,upper,A,A,0,0,0,0,0,0,0,3.705848939716816e-06,True,A,,False
+positive_edge_00024__aug_02_gaussian_blur_r0_count,edge_00024,synthetic,count,m,m,0,0,0,0,0,0,0,0.009749514050781727,True,m,,False
+positive_edge_00024__aug_03_brightness_r0_upper,edge_00024,synthetic,upper,A,A,0,0,0,0,0,0,0,3.7934514693915844e-06,True,A,,False
+positive_edge_00024__aug_03_brightness_r0_count,edge_00024,synthetic,count,m,m,0,0,0,0,0,0,0,6.919872248545289e-06,True,m,,False
+positive_edge_00024__clean_r0_upper,edge_00024,synthetic,upper,A,A,0,0,0,0,0,0,0,3.930064849555492e-06,True,A,,False
+positive_edge_00024__clean_r0_count,edge_00024,synthetic,count,m,m,0,0,0,0,0,0,0,7.514681783504784e-06,True,m,,False
+positive_edge_00039__aug_01_jpeg_r0_upper,edge_00039,synthetic,upper,A,A,0,0,0,0,0,0,0,7.991215170477517e-06,True,A,,False
+positive_edge_00039__aug_01_jpeg_r0_count,edge_00039,synthetic,count,oa,oa,0,0,0,0,0,0,0,1.0077976185129955e-05,True,oa,,False
+positive_edge_00039__aug_02_resolution_r0_upper,edge_00039,synthetic,upper,A,A,0,0,0,0,0,0,0,8.19872639112873e-06,True,A,,False
+positive_edge_00039__aug_02_resolution_r0_count,edge_00039,synthetic,count,oa,oa,0,0,0,0,0,0,0,0.0007072769803926349,True,oa,,False
+positive_edge_00039__aug_03_perspective_shadow_r0_upper,edge_00039,synthetic,upper,A,A,0,0,0,0,0,0,0,8.21403409645427e-06,True,A,,False
+positive_edge_00039__aug_03_perspective_shadow_r0_count,edge_00039,synthetic,count,oa,oa,0,0,0,0,0,0,0,5.669519305229187e-05,True,oa,,False
+positive_edge_00039__clean_r0_upper,edge_00039,synthetic,upper,A,A,0,0,0,0,0,0,0,7.618977178935893e-06,True,A,,False
+positive_edge_00039__clean_r0_count,edge_00039,synthetic,count,oa,oa,0,0,0,0,0,0,0,1.2177064490970224e-05,True,oa,,False
+positive_edge_00042__aug_01_rotation_jpeg_r0_count,edge_00042,synthetic,count,oi,oi,0,0,0,0,0,0,0,1.5730372979305685e-05,True,oi,,False
+positive_edge_00042__aug_01_rotation_jpeg_r0_lower,edge_00042,synthetic,lower,R,R,0,0,0,0,0,0,0,5.96080190007342e-06,True,R,,False
+positive_edge_00042__aug_02_gaussian_blur_contrast_r0_count,edge_00042,synthetic,count,oi,oi,0,0,0,0,0,0,0,4.517845809459686e-05,True,oi,,False
+positive_edge_00042__aug_02_gaussian_blur_contrast_r0_lower,edge_00042,synthetic,lower,R,R,0,0,0,0,0,0,0,6.437449428631226e-06,True,R,,False
+positive_edge_00042__aug_03_shadow_r0_count,edge_00042,synthetic,count,oi,oi,0,0,0,0,0,0,0,1.3671819033334032e-05,True,oi,,False
+positive_edge_00042__aug_03_shadow_r0_lower,edge_00042,synthetic,lower,R,R,0,0,0,0,0,0,0,7.033437668724218e-06,True,R,,False
+positive_edge_00042__clean_r0_count,edge_00042,synthetic,count,oi,oi,0,0,0,0,0,0,0,1.646579403313808e-05,True,oi,,False
+positive_edge_00042__clean_r0_lower,edge_00042,synthetic,lower,R,R,0,0,0,0,0,0,0,8.106245331873652e-06,True,R,,False
+positive_edge_00049__aug_01_perspective_r0_count,edge_00049,synthetic,count,pi,pi,0,0,0,0,0,0,0,9.214506462740246e-06,True,pi,,False
+positive_edge_00049__aug_01_perspective_r0_lower,edge_00049,synthetic,lower,R,R,0,0,0,0,0,0,0,5.960559064988047e-06,True,R,,False
+positive_edge_00049__aug_02_gaussian_blur_contrast_r0_count,edge_00049,synthetic,count,pi,pi,0,0,0,0,0,0,0,2.3609623895026743e-05,True,pi,,False
+positive_edge_00049__aug_02_gaussian_blur_contrast_r0_lower,edge_00049,synthetic,lower,R,R,0,0,0,0,0,0,0,6.199063136591576e-06,True,R,,False
+positive_edge_00049__aug_03_noise_r0_count,edge_00049,synthetic,count,pi,pi,0,0,0,0,0,0,0,1.1213125617359765e-05,True,pi,,False
+positive_edge_00049__aug_03_noise_r0_lower,edge_00049,synthetic,lower,R,R,0,0,0,0,0,0,0,7.7486647569458e-06,True,R,,False
+positive_edge_00049__clean_r0_count,edge_00049,synthetic,count,pi,pi,0,0,0,0,0,0,0,1.2218954907439183e-05,True,pi,,False
+positive_edge_00049__clean_r0_lower,edge_00049,synthetic,lower,R,R,0,0,0,0,0,0,0,8.10624987934716e-06,True,R,,False
+positive_edge_00053__aug_01_brightness_noise_r0_upper,edge_00053,synthetic,upper,A,A,0,0,0,0,0,0,0,1.9925866581615992e-05,True,A,,False
+positive_edge_00053__aug_01_brightness_noise_r0_count,edge_00053,synthetic,count,aqa,aqa,0,0,0,0,0,0,0,6.254182517295703e-05,True,aqa,,False
+positive_edge_00053__aug_01_brightness_noise_r0_lower,edge_00053,synthetic,lower,R,R,0,0,0,0,0,0,0,5.090308332000859e-05,True,R,,False
+positive_edge_00053__aug_02_rotation_r0_upper,edge_00053,synthetic,upper,A,A,0,0,0,0,0,0,0,2.301554377481807e-05,True,A,,False
+positive_edge_00053__aug_02_rotation_r0_count,edge_00053,synthetic,count,aqa,aqa,0,0,0,0,0,0,0,3.4841399610741064e-05,True,aqa,,False
+positive_edge_00053__aug_02_rotation_r0_lower,edge_00053,synthetic,lower,R,R,0,0,0,0,0,0,0,2.5630130039644428e-05,True,R,,False
+positive_edge_00053__aug_03_perspective_r0_upper,edge_00053,synthetic,upper,A,A,0,0,0,0,0,0,0,2.0749745090142824e-05,True,A,,False
+positive_edge_00053__aug_03_perspective_r0_count,edge_00053,synthetic,count,aqa,aqa,0,0,0,0,0,0,0,3.239514262531884e-05,True,aqa,,False
+positive_edge_00053__aug_03_perspective_r0_lower,edge_00053,synthetic,lower,R,R,0,0,0,0,0,0,0,2.8372056476655416e-05,True,R,,False
+positive_edge_00053__clean_r0_upper,edge_00053,synthetic,upper,A,A,0,0,0,0,0,0,0,2.051791852863971e-05,True,A,,False
+positive_edge_00053__clean_r0_count,edge_00053,synthetic,count,aqa,aqa,0,0,0,0,0,0,0,7.081101648509502e-05,True,aqa,,False
+positive_edge_00053__clean_r0_lower,edge_00053,synthetic,lower,R,R,0,0,0,0,0,0,0,6.306298018898815e-05,True,R,,False
+positive_edge_00058__aug_01_shadow_r0_count,edge_00058,synthetic,count,qi,qi,0,0,0,0,0,0,0,4.966594133293256e-05,True,qi,,False
+positive_edge_00058__aug_01_shadow_r0_lower,edge_00058,synthetic,lower,R,R,0,0,0,0,0,0,0,7.5102225309819914e-06,True,R,,False
+positive_edge_00058__aug_02_jpeg_r0_count,edge_00058,synthetic,count,qi,qi,0,0,0,0,0,0,0,3.101121910731308e-05,True,qi,,False
+positive_edge_00058__aug_02_jpeg_r0_lower,edge_00058,synthetic,lower,R,R,0,0,0,0,0,0,0,7.748679308861028e-06,True,R,,False
+positive_edge_00058__aug_03_gaussian_blur_r0_count,edge_00058,synthetic,count,qi,qi,0,0,0,0,0,0,0,4.71397906949278e-05,True,qi,,False
+positive_edge_00058__aug_03_gaussian_blur_r0_lower,edge_00058,synthetic,lower,R,R,0,0,0,0,0,0,0,6.5566759985813405e-06,True,R,,False
+positive_edge_00099__aug_01_rotation_jpeg_r0_upper,edge_00099,synthetic,upper,A,A,0,0,0,0,0,0,0,1.82688618224347e-05,True,A,,False
+positive_edge_00099__aug_01_rotation_jpeg_r0_count,edge_00099,synthetic,count,aui,a)i,1,0,0,1,0,0,1,1.995244026184082,False,a)i,,False
+positive_edge_00099__aug_01_rotation_jpeg_r0_lower,edge_00099,synthetic,lower,R,R,0,0,0,0,0,0,0,4.3631367589114234e-05,True,R,,False
+positive_edge_00099__aug_02_gaussian_blur_contrast_r0_upper,edge_00099,synthetic,upper,A,A,0,0,0,0,0,0,0,1.7542126443004236e-05,True,A,,False
+positive_edge_00099__aug_02_gaussian_blur_contrast_r0_count,edge_00099,synthetic,count,aui,aui,0,0,0,0,0,0,0,0.00914884451776743,True,aui,,False
+positive_edge_00099__aug_02_gaussian_blur_contrast_r0_lower,edge_00099,synthetic,lower,R,R,0,0,0,0,0,0,0,2.4080489311018027e-05,True,R,,False
+positive_edge_00099__aug_03_gaussian_blur_r0_upper,edge_00099,synthetic,upper,A,A,0,0,0,0,0,0,0,1.5879541024332866e-05,True,A,,False
+positive_edge_00099__aug_03_gaussian_blur_r0_count,edge_00099,synthetic,count,aui,aui,0,0,0,0,0,0,0,0.0019913590513169765,True,aui,,False
+positive_edge_00099__aug_03_gaussian_blur_r0_lower,edge_00099,synthetic,lower,R,R,0,0,0,0,0,0,0,2.4080498405965045e-05,True,R,,False
+positive_edge_00099__clean_r0_upper,edge_00099,synthetic,upper,A,A,0,0,0,0,0,0,0,1.6080473869806156e-05,True,A,,False
+positive_edge_00099__clean_r0_count,edge_00099,synthetic,count,aui,aui,0,0,0,0,0,0,0,0.00018084577459376305,True,aui,,False
+positive_edge_00099__clean_r0_lower,edge_00099,synthetic,lower,R,R,0,0,0,0,0,0,0,3.7909143429715186e-05,True,R,,False
+positive_edge_00107__aug_01_brightness_r0_upper,edge_00107,synthetic,upper,A,A,0,0,0,0,0,0,0,2.0164054149063304e-05,True,A,,False
+positive_edge_00107__aug_01_brightness_r0_count,edge_00107,synthetic,count,avb,avb,0,0,0,0,0,0,0,9.520185267319903e-05,True,avb,,False
+positive_edge_00107__aug_01_brightness_r0_lower,edge_00107,synthetic,lower,R,R,0,0,0,0,0,0,0,4.136607458349317e-05,True,R,,False
+positive_edge_00107__aug_02_motion_blur_r0_upper,edge_00107,synthetic,upper,A,A,0,0,0,0,0,0,0,3.07661211991217e-05,True,A,,False
+positive_edge_00107__aug_02_motion_blur_r0_count,edge_00107,synthetic,count,avb,avb,0,0,0,0,0,0,0,8.618225547252223e-05,True,avb,,False
+positive_edge_00107__aug_02_motion_blur_r0_lower,edge_00107,synthetic,lower,R,R,0,0,0,0,0,0,0,3.802809806074947e-05,True,R,,False
+positive_edge_00107__aug_03_contrast_r0_upper,edge_00107,synthetic,upper,A,A,0,0,0,0,0,0,0,1.968752076209057e-05,True,A,,False
+positive_edge_00107__aug_03_contrast_r0_count,edge_00107,synthetic,count,avb,avb,0,0,0,0,0,0,0,0.00010536541230976582,True,avb,,False
+positive_edge_00107__aug_03_contrast_r0_lower,edge_00107,synthetic,lower,R,R,0,0,0,0,0,0,0,4.5776934712193906e-05,True,R,,False
+positive_edge_00107__clean_r0_upper,edge_00107,synthetic,upper,A,A,0,0,0,0,0,0,0,2.1471723812283017e-05,True,A,,False
+positive_edge_00107__clean_r0_count,edge_00107,synthetic,count,avb,avb,0,0,0,0,0,0,0,0.00014862311945762485,True,avb,,False
+positive_edge_00107__clean_r0_lower,edge_00107,synthetic,lower,R,R,0,0,0,0,0,0,0,6.365902663674206e-05,True,R,,False
+positive_edge_00109__aug_01_resolution_r0_upper,edge_00109,synthetic,upper,A,A,0,0,0,0,0,0,0,1.621318187972065e-05,True,A,,False
+positive_edge_00109__aug_01_resolution_r0_count,edge_00109,synthetic,count,avb,avb,0,0,0,0,0,0,0,0.0032134850043803453,True,avb,,False
+positive_edge_00109__aug_01_resolution_r0_lower,edge_00109,synthetic,lower,R,R,0,0,0,0,0,0,0,2.336523357371334e-05,True,R,,False
+positive_edge_00109__aug_02_gaussian_blur_r0_upper,edge_00109,synthetic,upper,A,A,0,0,0,0,0,0,0,1.5710853404016234e-05,True,A,,False
+positive_edge_00109__aug_02_gaussian_blur_r0_count,edge_00109,synthetic,count,avb,avb,0,0,0,0,0,0,0,0.0005772511358372867,True,avb,,False
+positive_edge_00109__aug_02_gaussian_blur_r0_lower,edge_00109,synthetic,lower,R,R,0,0,0,0,0,0,0,2.4438139007543214e-05,True,R,,False
+positive_edge_00109__aug_03_resolution_jpeg_r0_upper,edge_00109,synthetic,upper,A,A,0,0,0,0,0,0,0,1.6822503312141635e-05,True,A,,False
+positive_edge_00109__aug_03_resolution_jpeg_r0_count,edge_00109,synthetic,count,avb,avb,0,0,0,0,0,0,0,0.0011289293179288507,True,avb,,False
+positive_edge_00109__aug_03_resolution_jpeg_r0_lower,edge_00109,synthetic,lower,R,R,0,0,0,0,0,0,0,2.3603652152814902e-05,True,R,,False
+positive_edge_00109__clean_r0_upper,edge_00109,synthetic,upper,A,A,0,0,0,0,0,0,0,1.549956141388975e-05,True,A,,False
+positive_edge_00109__clean_r0_count,edge_00109,synthetic,count,avb,avb,0,0,0,0,0,0,0,0.0005029042367823422,True,avb,,False
+positive_edge_00109__clean_r0_lower,edge_00109,synthetic,lower,R,R,0,0,0,0,0,0,0,3.635937173385173e-05,True,R,,False
+positive_edge_00111__aug_01_contrast_r0_upper,edge_00111,synthetic,upper,A,A,0,0,0,0,0,0,0,1.9686443920363672e-05,True,A,,False
+positive_edge_00111__aug_01_contrast_r0_count,edge_00111,synthetic,count,avi,avi,0,0,0,0,0,0,0,9.00129452929832e-05,True,avi,,False
+positive_edge_00111__aug_01_contrast_r0_lower,edge_00111,synthetic,lower,R,R,0,0,0,0,0,0,0,5.2095238061156124e-05,True,R,,False
+positive_edge_00111__aug_02_brightness_r0_upper,edge_00111,synthetic,upper,A,A,0,0,0,0,0,0,0,1.8611479390528984e-05,True,A,,False
+positive_edge_00111__aug_02_brightness_r0_count,edge_00111,synthetic,count,avi,avi,0,0,0,0,0,0,0,7.95125961303711e-05,True,avi,,False
+positive_edge_00111__aug_02_brightness_r0_lower,edge_00111,synthetic,lower,R,R,0,0,0,0,0,0,0,4.2558207496767864e-05,True,R,,False
+positive_edge_00111__aug_03_perspective_shadow_r0_upper,edge_00111,synthetic,upper,A,A,0,0,0,0,0,0,0,1.812282789614983e-05,True,A,,False
+positive_edge_00111__aug_03_perspective_shadow_r0_count,edge_00111,synthetic,count,avi,avi,0,0,0,0,0,0,0,0.061410319060087204,True,avi,,False
+positive_edge_00111__aug_03_perspective_shadow_r0_lower,edge_00111,synthetic,lower,R,R,0,0,0,0,0,0,0,2.253074308100622e-05,True,R,,False
+positive_edge_00111__clean_r0_upper,edge_00111,synthetic,upper,A,A,0,0,0,0,0,0,0,2.075605334539432e-05,True,A,,False
+positive_edge_00111__clean_r0_count,edge_00111,synthetic,count,avi,avi,0,0,0,0,0,0,0,0.00012060502922395244,True,avi,,False
+positive_edge_00111__clean_r0_lower,edge_00111,synthetic,lower,R,R,0,0,0,0,0,0,0,6.282455433392897e-05,True,R,,False
+positive_edge_00118__aug_01_rotation_jpeg_r0_count,edge_00118,synthetic,count,wa,za,1,0,0,1,0,0,1,5.195939540863037,False,za,,False
+positive_edge_00118__aug_01_rotation_jpeg_r0_lower,edge_00118,synthetic,lower,R,R,0,0,0,0,0,0,0,5.960681846772786e-06,True,R,,False
+positive_edge_00118__aug_02_brightness_r0_count,edge_00118,synthetic,count,wa,wa,0,0,0,0,0,0,0,0.00025680556427687407,True,wa,,False
+positive_edge_00118__aug_02_brightness_r0_lower,edge_00118,synthetic,lower,R,R,0,0,0,0,0,0,0,8.583093404013198e-06,True,R,,False
+positive_edge_00118__aug_03_brightness_noise_r0_count,edge_00118,synthetic,count,wa,wa,0,0,0,0,0,0,0,0.00013525463873520494,True,wa,,False
+positive_edge_00118__aug_03_brightness_noise_r0_lower,edge_00118,synthetic,lower,R,R,0,0,0,0,0,0,0,9.417603905603755e-06,True,R,,False
+positive_edge_00118__clean_r0_count,edge_00118,synthetic,count,wa,wa,0,0,0,0,0,0,0,0.00018623669166117907,True,wa,,False
+positive_edge_00118__clean_r0_lower,edge_00118,synthetic,lower,R,R,0,0,0,0,0,0,0,8.702296327101067e-06,True,R,,False
+positive_edge_00119__aug_01_rotation_jpeg_r0_upper,edge_00119,synthetic,upper,A,A,0,0,0,0,0,0,0,1.3971244698041119e-05,True,A,,False
+positive_edge_00119__aug_01_rotation_jpeg_r0_count,edge_00119,synthetic,count,awa,awa,0,0,0,0,0,0,0,0.0006702542304992676,True,awa,,False
+positive_edge_00119__aug_01_rotation_jpeg_r0_lower,edge_00119,synthetic,lower,R,R,0,0,0,0,0,0,0,4.1485196561552584e-05,True,R,,False
+positive_edge_00119__aug_02_perspective_shadow_r0_upper,edge_00119,synthetic,upper,A,A,0,0,0,0,0,0,0,0.0178028903901577,True,A,,False
+positive_edge_00119__aug_02_perspective_shadow_r0_count,edge_00119,synthetic,count,awa,aza,1,0,0,1,0,0,1,0.5700519680976868,False,aza,,False
+positive_edge_00119__aug_02_perspective_shadow_r0_lower,edge_00119,synthetic,lower,R,R,0,0,0,0,0,0,0,4.6492139517795295e-05,True,R,,False
+positive_edge_00119__aug_03_noise_r0_upper,edge_00119,synthetic,upper,A,A,0,0,0,0,0,0,0,1.5475226973649114e-05,True,A,,False
+positive_edge_00119__aug_03_noise_r0_count,edge_00119,synthetic,count,awa,awa,0,0,0,0,0,0,0,0.00047359862946905196,True,awa,,False
+positive_edge_00119__aug_03_noise_r0_lower,edge_00119,synthetic,lower,R,R,0,0,0,0,0,0,0,5.9128564316779375e-05,True,R,,False
+positive_edge_00119__clean_r0_upper,edge_00119,synthetic,upper,A,A,0,0,0,0,0,0,0,1.5493156752199866e-05,True,A,,False
+positive_edge_00119__clean_r0_count,edge_00119,synthetic,count,awa,awa,0,0,0,0,0,0,0,0.0006245474214665592,True,awa,,False
+positive_edge_00119__clean_r0_lower,edge_00119,synthetic,lower,R,R,0,0,0,0,0,0,0,5.674431304214522e-05,True,R,,False
+positive_edge_00122__aug_01_rotation_r0_count,edge_00122,synthetic,count,wb,zb,1,0,0,1,0,0,1,4.641361713409424,False,zb,,False
+positive_edge_00122__aug_01_rotation_r0_lower,edge_00122,synthetic,lower,R,R,0,0,0,0,0,0,0,9.060076081368607e-06,True,R,,False
+positive_edge_00122__aug_02_gaussian_blur_r0_count,edge_00122,synthetic,count,wb,wb,0,0,0,0,0,0,0,0.0003283947007730603,True,wb,,False
+positive_edge_00122__aug_02_gaussian_blur_r0_lower,edge_00122,synthetic,lower,R,R,0,0,0,0,0,0,0,6.556591415574076e-06,True,R,,False
+positive_edge_00122__aug_03_brightness_noise_r0_count,edge_00122,synthetic,count,wb,wb,0,0,0,0,0,0,0,0.00015712593449279666,True,wb,,False
+positive_edge_00122__aug_03_brightness_noise_r0_lower,edge_00122,synthetic,lower,R,R,0,0,0,0,0,0,0,6.675807981082471e-06,True,R,,False
+positive_edge_00122__clean_r0_count,edge_00122,synthetic,count,wb,wb,0,0,0,0,0,0,0,0.00020388980919960886,True,wb,,False
+positive_edge_00122__clean_r0_lower,edge_00122,synthetic,lower,R,R,0,0,0,0,0,0,0,7.748621101200115e-06,True,R,,False
+positive_edge_00130__aug_01_resolution_jpeg_r0_upper,edge_00130,synthetic,upper,A,A,0,0,0,0,0,0,0,8.730424269742798e-06,True,A,,False
+positive_edge_00130__aug_01_resolution_jpeg_r0_count,edge_00130,synthetic,count,xa,xa,0,0,0,0,0,0,0,0.0008384585380554199,True,xa,,False
+positive_edge_00130__aug_02_gaussian_blur_r0_upper,edge_00130,synthetic,upper,A,A,0,0,0,0,0,0,0,8.108970178000163e-06,True,A,,False
+positive_edge_00130__aug_02_gaussian_blur_r0_count,edge_00130,synthetic,count,xa,xa,0,0,0,0,0,0,0,0.0018253177404403687,True,xa,,False
+positive_edge_00130__aug_03_brightness_r0_upper,edge_00130,synthetic,upper,A,A,0,0,0,0,0,0,0,7.757628736726474e-06,True,A,,False
+positive_edge_00130__aug_03_brightness_r0_count,edge_00130,synthetic,count,xa,xa,0,0,0,0,0,0,0,3.1352046789834276e-05,True,xa,,False
+positive_edge_00130__clean_r0_upper,edge_00130,synthetic,upper,A,A,0,0,0,0,0,0,0,7.850353540561628e-06,True,A,,False
+positive_edge_00130__clean_r0_count,edge_00130,synthetic,count,xa,xa,0,0,0,0,0,0,0,1.7896300050779246e-05,True,xa,,False
+positive_edge_00136__aug_01_brightness_r0_count,edge_00136,synthetic,count,xb,xb,0,0,0,0,0,0,0,2.7447938919067383e-05,True,xb,,False
+positive_edge_00136__aug_01_brightness_r0_lower,edge_00136,synthetic,lower,R,R,0,0,0,0,0,0,0,6.318171926977811e-06,True,R,,False
+positive_edge_00136__aug_02_resolution_r0_count,edge_00136,synthetic,count,xb,xb,0,0,0,0,0,0,0,0.00013133510947227478,True,xb,,False
+positive_edge_00136__aug_02_resolution_r0_lower,edge_00136,synthetic,lower,R,R,0,0,0,0,0,0,0,5.960591806797311e-06,True,R,,False
+positive_edge_00136__aug_03_rotation_jpeg_r0_count,edge_00136,synthetic,count,xb,xb,0,0,0,0,0,0,0,0.00479915551841259,True,xb,,False
+positive_edge_00136__aug_03_rotation_jpeg_r0_lower,edge_00136,synthetic,lower,R,R,0,0,0,0,0,0,0,1.4663452020613477e-05,True,R,,False
+positive_edge_00136__clean_r0_count,edge_00136,synthetic,count,xb,xb,0,0,0,0,0,0,0,1.874566078186035e-05,True,xb,,False
+positive_edge_00136__clean_r0_lower,edge_00136,synthetic,lower,R,R,0,0,0,0,0,0,0,7.510200248361798e-06,True,R,,False
+positive_edge_00159__aug_01_rotation_r0_upper,edge_00159,synthetic,upper,A,A,0,0,0,0,0,0,0,7.6205487857805565e-06,True,A,,False
+positive_edge_00159__aug_01_rotation_r0_count,edge_00159,synthetic,count,za,za,0,0,0,0,0,0,0,0.000844806432723999,True,za,,False
+positive_edge_00159__aug_02_gaussian_blur_contrast_r0_upper,edge_00159,synthetic,upper,A,A,0,0,0,0,0,0,0,8.943202374211978e-06,True,A,,False
+positive_edge_00159__aug_02_gaussian_blur_contrast_r0_count,edge_00159,synthetic,count,za,za,0,0,0,0,0,0,0,0.0002293735888088122,True,za,,False
+positive_edge_00159__aug_03_shadow_r0_upper,edge_00159,synthetic,upper,A,A,0,0,0,0,0,0,0,7.720434041402768e-06,True,A,,False
+positive_edge_00159__aug_03_shadow_r0_count,edge_00159,synthetic,count,za,za,0,0,0,0,0,0,0,0.00010146945714950562,True,za,,False
+positive_edge_00159__clean_r0_upper,edge_00159,synthetic,upper,A,A,0,0,0,0,0,0,0,7.850353540561628e-06,True,A,,False
+positive_edge_00159__clean_r0_count,edge_00159,synthetic,count,za,za,0,0,0,0,0,0,0,0.00013844668865203857,True,za,,False
+positive_edge_00176__aug_01_rotation_r0_count,edge_00176,synthetic,count,{b,{b,0,0,0,0,0,0,0,0.0002256333827972412,True,{b,,False
+positive_edge_00176__aug_01_rotation_r0_lower,edge_00176,synthetic,lower,R,R,0,0,0,0,0,0,0,6.556565494975075e-06,True,R,,False
+positive_edge_00176__aug_02_shadow_r0_count,edge_00176,synthetic,count,{b,{b,0,0,0,0,0,0,0,1.1369585990905762e-05,True,{b,,False
+positive_edge_00176__aug_02_shadow_r0_lower,edge_00176,synthetic,lower,R,R,0,0,0,0,0,0,0,6.198970822879346e-06,True,R,,False
+positive_edge_00176__aug_03_perspective_r0_count,edge_00176,synthetic,count,{b,{b,0,0,0,0,0,0,0,1.3892538845539093e-05,True,{b,,False
+positive_edge_00176__aug_03_perspective_r0_lower,edge_00176,synthetic,lower,R,R,0,0,0,0,0,0,0,6.1989449022803456e-06,True,R,,False
+positive_edge_00176__clean_r0_count,edge_00176,synthetic,count,{b,{b,0,0,0,0,0,0,0,1.2218952178955078e-05,True,{b,,False
+positive_edge_00176__clean_r0_lower,edge_00176,synthetic,lower,R,R,0,0,0,0,0,0,0,7.74861837271601e-06,True,R,,False
+positive_edge_00186__aug_01_rotation_jpeg_r0_upper,edge_00186,synthetic,upper,A,A,0,0,0,0,0,0,0,1.4311752238427289e-05,True,A,,False
+positive_edge_00186__aug_01_rotation_jpeg_r0_count,edge_00186,synthetic,count,a|a,a|a,0,0,0,0,0,0,0,0.0067390031181275845,True,a|a,,False
+positive_edge_00186__aug_01_rotation_jpeg_r0_lower,edge_00186,synthetic,lower,R,R,0,0,0,0,0,0,0,2.1338570149964653e-05,True,R,,False
+positive_edge_00186__aug_02_brightness_r0_upper,edge_00186,synthetic,upper,A,A,0,0,0,0,0,0,0,1.9089000488747843e-05,True,A,,False
+positive_edge_00186__aug_02_brightness_r0_count,edge_00186,synthetic,count,a|a,a|a,0,0,0,0,0,0,0,8.736635936656967e-05,True,a|a,,False
+positive_edge_00186__aug_02_brightness_r0_lower,edge_00186,synthetic,lower,R,R,0,0,0,0,0,0,0,6.365907029248774e-05,True,R,,False
+positive_edge_00186__aug_03_motion_blur_r0_upper,edge_00186,synthetic,upper,A,A,0,0,0,0,0,0,0,1.4548431863659061e-05,True,A,,False
+positive_edge_00186__aug_03_motion_blur_r0_count,edge_00186,synthetic,count,a|a,a|a,0,0,0,0,0,0,0,6.570395635208115e-05,True,a|a,,False
+positive_edge_00186__aug_03_motion_blur_r0_lower,edge_00186,synthetic,lower,R,R,0,0,0,0,0,0,0,2.5272518541896716e-05,True,R,,False
+positive_edge_00186__clean_r0_upper,edge_00186,synthetic,upper,A,A,0,0,0,0,0,0,0,2.051791852863971e-05,True,A,,False
+positive_edge_00186__clean_r0_count,edge_00186,synthetic,count,a|a,a|a,0,0,0,0,0,0,0,8.841438830131665e-05,True,a|a,,False
+positive_edge_00186__clean_r0_lower,edge_00186,synthetic,lower,R,R,0,0,0,0,0,0,0,6.306298018898815e-05,True,R,,False
+positive_edge_00193__aug_01_perspective_r0_count,edge_00193,synthetic,count,|i,|i,0,0,0,0,0,0,0,2.5388017093064263e-05,True,|i,,False
+positive_edge_00193__aug_01_perspective_r0_lower,edge_00193,synthetic,lower,R,R,0,0,0,0,0,0,0,7.629518222529441e-06,True,R,,False
+positive_edge_00193__aug_02_shadow_r0_count,edge_00193,synthetic,count,|i,|i,0,0,0,0,0,0,0,1.9020666513824835e-05,True,|i,,False
+positive_edge_00193__aug_02_shadow_r0_lower,edge_00193,synthetic,lower,R,R,0,0,0,0,0,0,0,6.437414413085207e-06,True,R,,False
+positive_edge_00193__aug_03_brightness_noise_r0_count,edge_00193,synthetic,count,|i,|i,0,0,0,0,0,0,0,1.8121636458090506e-05,True,|i,,False
+positive_edge_00193__aug_03_brightness_noise_r0_lower,edge_00193,synthetic,lower,R,R,0,0,0,0,0,0,0,7.629439096490387e-06,True,R,,False
+positive_edge_00203__aug_01_brightness_noise_r0_upper,edge_00203,synthetic,upper,A  A,A  A,0,0,0,0,0,0,0,6.485311314463615e-05,True,A  A,,False
+positive_edge_00203__aug_01_brightness_noise_r0_count,edge_00203,synthetic,count,a'aa,a'aa,0,0,0,0,0,0,0,0.00013803597539663315,True,a'aa,,False
+positive_edge_00203__aug_01_brightness_noise_r0_lower,edge_00203,synthetic,lower,R,R,0,0,0,0,0,0,0,3.111383193754591e-05,True,R,,False
+positive_edge_00203__aug_02_brightness_r0_upper,edge_00203,synthetic,upper,A  A,A  A,0,0,0,0,0,0,0,5.700462497770786e-05,True,A  A,,False
+positive_edge_00203__aug_02_brightness_r0_count,edge_00203,synthetic,count,a'aa,a'aa,0,0,0,0,0,0,0,0.00026299222372472286,True,a'aa,,False
+positive_edge_00203__aug_02_brightness_r0_lower,edge_00203,synthetic,lower,R,R,0,0,0,0,0,0,0,3.695522900670767e-05,True,R,,False
+positive_edge_00203__aug_03_shadow_r0_upper,edge_00203,synthetic,upper,A  A,A  A,0,0,0,0,0,0,0,5.398830398917198e-05,True,A  A,,False
+positive_edge_00203__aug_03_shadow_r0_count,edge_00203,synthetic,count,a'aa,a'aa,0,0,0,0,0,0,0,0.0001606286969035864,True,a'aa,,False
+positive_edge_00203__aug_03_shadow_r0_lower,edge_00203,synthetic,lower,R,R,0,0,0,0,0,0,0,2.479570139257703e-05,True,R,,False
+positive_edge_00203__clean_r0_upper,edge_00203,synthetic,upper,A  A,A  A,0,0,0,0,0,0,0,5.712732672691345e-05,True,A  A,,False
+positive_edge_00203__clean_r0_count,edge_00203,synthetic,count,a'aa,a'aa,0,0,0,0,0,0,0,0.00020149489864706993,True,a'aa,,False
+positive_edge_00203__clean_r0_lower,edge_00203,synthetic,lower,R,R,0,0,0,0,0,0,0,6.520895840367302e-05,True,R,,False
+positive_edge_00206__aug_01_jpeg_r0_count,edge_00206,synthetic,count,'b,'b,0,0,0,0,0,0,0,3.284556805738248e-05,True,'b,,False
+positive_edge_00206__aug_01_jpeg_r0_lower,edge_00206,synthetic,lower,R,R,0,0,0,0,0,0,0,6.318204668787075e-06,True,R,,False
+positive_edge_00206__aug_02_motion_blur_r0_count,edge_00206,synthetic,count,'b,'b,0,0,0,0,0,0,0,1.504823740106076e-05,True,'b,,False
+positive_edge_00206__aug_02_motion_blur_r0_lower,edge_00206,synthetic,lower,R,R,0,0,0,0,0,0,0,7.271823960763868e-06,True,R,,False
+positive_edge_00206__aug_03_rotation_r0_count,edge_00206,synthetic,count,'b,'b,0,0,0,0,0,0,0,2.9632908990606666e-05,True,'b,,False
+positive_edge_00206__aug_03_rotation_r0_lower,edge_00206,synthetic,lower,R,R,0,0,0,0,0,0,0,5.245249212748604e-06,True,R,,False
+positive_edge_00206__clean_r0_count,edge_00206,synthetic,count,'b,'b,0,0,0,0,0,0,0,3.5001474316231906e-05,True,'b,,False
+positive_edge_00206__clean_r0_lower,edge_00206,synthetic,lower,R,R,0,0,0,0,0,0,0,7.629411811649334e-06,True,R,,False
+positive_edge_00210__aug_01_resolution_jpeg_r0_count,edge_00210,synthetic,count,'i,'i,0,0,0,0,0,0,0,0.00014763469516765326,True,'i,,False
+positive_edge_00210__aug_01_resolution_jpeg_r0_lower,edge_00210,synthetic,lower,R,R,0,0,0,0,0,0,0,8.463979611406103e-06,True,R,,False
+positive_edge_00210__aug_02_gaussian_blur_contrast_r0_count,edge_00210,synthetic,count,'i,'i,0,0,0,0,0,0,0,1.7712358385324478e-05,True,'i,,False
+positive_edge_00210__aug_02_gaussian_blur_contrast_r0_lower,edge_00210,synthetic,lower,R,R,0,0,0,0,0,0,0,6.318296982499305e-06,True,R,,False
+positive_edge_00210__aug_03_perspective_shadow_r0_count,edge_00210,synthetic,count,'i,'i,0,0,0,0,0,0,0,2.9638409614562988e-05,True,'i,,False
+positive_edge_00210__aug_03_perspective_shadow_r0_lower,edge_00210,synthetic,lower,R,R,0,0,0,0,0,0,0,6.437559932237491e-06,True,R,,False
+positive_edge_00210__clean_r0_count,edge_00210,synthetic,count,'i,'i,0,0,0,0,0,0,0,3.953278064727783e-05,True,'i,,False
+positive_edge_00210__clean_r0_lower,edge_00210,synthetic,lower,R,R,0,0,0,0,0,0,0,7.987039680301677e-06,True,R,,False
+positive_edge_00211__aug_01_rotation_r0_upper,edge_00211,synthetic,upper,A,A,0,0,0,0,0,0,0,2.780559407256078e-05,True,A,,False
+positive_edge_00211__aug_01_rotation_r0_count,edge_00211,synthetic,count,a'i,a'i,0,0,0,0,0,0,0,0.0019012182019650936,True,a'i,,False
+positive_edge_00211__aug_01_rotation_r0_lower,edge_00211,synthetic,lower,R,R,0,0,0,0,0,0,0,3.1590843718731776e-05,True,R,,False
+positive_edge_00211__aug_02_perspective_r0_upper,edge_00211,synthetic,upper,A,A,0,0,0,0,0,0,0,1.6221796613535844e-05,True,A,,False
+positive_edge_00211__aug_02_perspective_r0_count,edge_00211,synthetic,count,a'i,a'i,0,0,0,0,0,0,0,0.00013284478336572647,True,a'i,,False
+positive_edge_00211__aug_02_perspective_r0_lower,edge_00211,synthetic,lower,R,R,0,0,0,0,0,0,0,2.9921877285232767e-05,True,R,,False
+positive_edge_00211__aug_03_gaussian_blur_r0_upper,edge_00211,synthetic,upper,A,A,0,0,0,0,0,0,0,1.623449134058319e-05,True,A,,False
+positive_edge_00211__aug_03_gaussian_blur_r0_count,edge_00211,synthetic,count,a'i,a'i,0,0,0,0,0,0,0,0.000175226348801516,True,a'i,,False
+positive_edge_00211__aug_03_gaussian_blur_r0_lower,edge_00211,synthetic,lower,R,R,0,0,0,0,0,0,0,3.0875591619405895e-05,True,R,,False
+positive_edge_00211__clean_r0_upper,edge_00211,synthetic,upper,A,A,0,0,0,0,0,0,0,1.6080473869806156e-05,True,A,,False
+positive_edge_00211__clean_r0_count,edge_00211,synthetic,count,a'i,a'i,0,0,0,0,0,0,0,0.00031313207000494003,True,a'i,,False
+positive_edge_00211__clean_r0_lower,edge_00211,synthetic,lower,R,R,0,0,0,0,0,0,0,3.814756928477436e-05,True,R,,False
+positive_edge_00219__aug_01_perspective_r0_upper,edge_00219,synthetic,upper,A,A,0,0,0,0,0,0,0,8.11514019005699e-06,True,A,,False
+positive_edge_00219__aug_01_perspective_r0_count,edge_00219,synthetic,count,(b,(b,0,0,0,0,0,0,0,1.99858914129436e-05,True,(b,,False
+positive_edge_00219__aug_02_brightness_noise_r0_upper,edge_00219,synthetic,upper,A,A,0,0,0,0,0,0,0,7.40186305847601e-06,True,A,,False
+positive_edge_00219__aug_02_brightness_noise_r0_count,edge_00219,synthetic,count,(b,(b,0,0,0,0,0,0,0,1.6972306184470654e-05,True,(b,,False
+positive_edge_00219__aug_03_rotation_r0_upper,edge_00219,synthetic,upper,A,A,0,0,0,0,0,0,0,6.924968147359323e-06,True,A,,False
+positive_edge_00219__aug_03_rotation_r0_count,edge_00219,synthetic,count,(b,(b,0,0,0,0,0,0,0,1.4156103134155273e-05,True,(b,,False
+positive_edge_00219__clean_r0_upper,edge_00219,synthetic,upper,A,A,0,0,0,0,0,0,0,7.371245374088176e-06,True,A,,False
+positive_edge_00219__clean_r0_count,edge_00219,synthetic,count,(b,(b,0,0,0,0,0,0,0,1.835059083532542e-05,True,(b,,False
+positive_edge_00220__aug_01_shadow_r0_upper,edge_00220,synthetic,upper,A,A,0,0,0,0,0,0,0,1.8253895177622326e-05,True,A,,False
+positive_edge_00220__aug_01_shadow_r0_count,edge_00220,synthetic,count,a(b,a(b,0,0,0,0,0,0,0,3.8293848774628714e-05,True,a(b,,False
+positive_edge_00220__aug_01_shadow_r0_lower,edge_00220,synthetic,lower,R,R,0,0,0,0,0,0,0,6.163231591926888e-05,True,R,,False
+positive_edge_00220__aug_02_brightness_noise_r0_upper,edge_00220,synthetic,upper,A,A,0,0,0,0,0,0,0,2.016211874433793e-05,True,A,,False
+positive_edge_00220__aug_02_brightness_noise_r0_count,edge_00220,synthetic,count,a(b,a(b,0,0,0,0,0,0,0,1.8461614672560245e-05,True,a(b,,False
+positive_edge_00220__aug_02_brightness_noise_r0_lower,edge_00220,synthetic,lower,R,R,0,0,0,0,0,0,0,6.151312845759094e-05,True,R,,False
+positive_edge_00220__aug_03_noise_r0_upper,edge_00220,synthetic,upper,A,A,0,0,0,0,0,0,0,2.147471604985185e-05,True,A,,False
+positive_edge_00220__aug_03_noise_r0_count,edge_00220,synthetic,count,a(b,a(b,0,0,0,0,0,0,0,1.7038641090039164e-05,True,a(b,,False
+positive_edge_00220__aug_03_noise_r0_lower,edge_00220,synthetic,lower,R,R,0,0,0,0,0,0,0,4.828039163840003e-05,True,R,,False
+positive_edge_00220__clean_r0_upper,edge_00220,synthetic,upper,A,A,0,0,0,0,0,0,0,2.1471723812283017e-05,True,A,,False
+positive_edge_00220__clean_r0_count,edge_00220,synthetic,count,a(b,a(b,0,0,0,0,0,0,0,2.3088919988367707e-05,True,a(b,,False
+positive_edge_00220__clean_r0_lower,edge_00220,synthetic,lower,R,R,0,0,0,0,0,0,0,6.365902663674206e-05,True,R,,False
+positive_edge_00221__aug_01_gaussian_blur_contrast_r0_count,edge_00221,synthetic,count,(b,(b,0,0,0,0,0,0,0,2.039191167568788e-05,True,(b,,False
+positive_edge_00221__aug_01_gaussian_blur_contrast_r0_lower,edge_00221,synthetic,lower,R,R,0,0,0,0,0,0,0,6.1990735957806464e-06,True,R,,False
+positive_edge_00221__aug_02_brightness_r0_count,edge_00221,synthetic,count,(b,(b,0,0,0,0,0,0,0,1.5654732123948634e-05,True,(b,,False
+positive_edge_00221__aug_02_brightness_r0_lower,edge_00221,synthetic,lower,R,R,0,0,0,0,0,0,0,6.795015451643849e-06,True,R,,False
+positive_edge_00221__aug_03_brightness_noise_r0_count,edge_00221,synthetic,count,(b,(b,0,0,0,0,0,0,0,2.0925548597006127e-05,True,(b,,False
+positive_edge_00221__aug_03_brightness_noise_r0_lower,edge_00221,synthetic,lower,R,R,0,0,0,0,0,0,0,5.9605163187370636e-06,True,R,,False
+positive_edge_00221__clean_r0_count,edge_00221,synthetic,count,(b,(b,0,0,0,0,0,0,0,1.9170111045241356e-05,True,(b,,False
+positive_edge_00221__clean_r0_lower,edge_00221,synthetic,lower,R,R,0,0,0,0,0,0,0,7.629411811649334e-06,True,R,,False
+positive_edge_00230__aug_01_gaussian_blur_r0_upper,edge_00230,synthetic,upper,A,A,0,0,0,0,0,0,0,1.7888442016555928e-05,True,A,,False
+positive_edge_00230__aug_01_gaussian_blur_r0_count,edge_00230,synthetic,count,a),at,1,0,0,1,0,0,1,3.691169023513794,False,at,,False
+positive_edge_00230__aug_01_gaussian_blur_r0_lower,edge_00230,synthetic,lower,R,U,1,0,0,1,0,0,1,1.921204924583435,False,U,,False
+positive_edge_00230__aug_02_contrast_r0_upper,edge_00230,synthetic,upper,A,A,0,0,0,0,0,0,0,8.84652035892941e-06,True,A,,False
+positive_edge_00230__aug_02_contrast_r0_count,edge_00230,synthetic,count,a),a),0,0,0,0,0,0,0,0.0002468526363372803,True,a),,False
+positive_edge_00230__aug_02_contrast_r0_lower,edge_00230,synthetic,lower,R,R,0,0,0,0,0,0,0,1.9788936697295867e-05,True,R,,False
+positive_edge_00230__aug_03_perspective_shadow_r0_upper,edge_00230,synthetic,upper,A,A,0,0,0,0,0,0,0,1.3261691492516547e-05,True,A,,False
+positive_edge_00230__aug_03_perspective_shadow_r0_count,edge_00230,synthetic,count,a),a),0,0,0,0,0,0,0,0.0010680928826332092,True,a),,False
+positive_edge_00230__aug_03_perspective_shadow_r0_lower,edge_00230,synthetic,lower,R,R,0,0,0,0,0,0,0,3.027961793122813e-05,True,R,,False
+positive_edge_00230__clean_r0_upper,edge_00230,synthetic,upper,A,A,0,0,0,0,0,0,0,8.949315997597296e-06,True,A,,False
+positive_edge_00230__clean_r0_count,edge_00230,synthetic,count,a),a),0,0,0,0,0,0,0,0.0004096180200576782,True,a),,False
+positive_edge_00230__clean_r0_lower,edge_00230,synthetic,lower,R,R,0,0,0,0,0,0,0,5.7102879509329796e-05,True,R,,False
+positive_edge_00231__aug_01_perspective_r0_upper,edge_00231,synthetic,upper,A A,A A,0,0,0,0,0,0,0,1.9775719920289703e-05,True,A A,,False
+positive_edge_00231__aug_01_perspective_r0_count,edge_00231,synthetic,count,a)a,a)a,0,0,0,0,0,0,0,0.0002427808940410614,True,a)a,,False
+positive_edge_00231__aug_01_perspective_r0_lower,edge_00231,synthetic,lower,R,R,0,0,0,0,0,0,0,3.0994753615232185e-05,True,R,,False
+positive_edge_00231__aug_02_contrast_r0_upper,edge_00231,synthetic,upper,A A,A A,0,0,0,0,0,0,0,1.4913578525010962e-05,True,A A,,False
+positive_edge_00231__aug_02_contrast_r0_count,edge_00231,synthetic,count,a)a,a)a,0,0,0,0,0,0,0,0.00022010656539350748,True,a)a,,False
+positive_edge_00231__aug_02_contrast_r0_lower,edge_00231,synthetic,lower,R,R,0,0,0,0,0,0,0,6.592371209990233e-05,True,R,,False
+positive_edge_00231__aug_03_resolution_r0_upper,edge_00231,synthetic,upper,A A,A A,0,0,0,0,0,0,0,2.0825033061555587e-05,True,A A,,False
+positive_edge_00231__aug_03_resolution_r0_count,edge_00231,synthetic,count,a)a,a)a,0,0,0,0,0,0,0,0.0010975529439747334,True,a)a,,False
+positive_edge_00231__aug_03_resolution_r0_lower,edge_00231,synthetic,lower,R,R,0,0,0,0,0,0,0,3.4690165193751454e-05,True,R,,False
+positive_edge_00231__clean_r0_upper,edge_00231,synthetic,upper,A A,A A,0,0,0,0,0,0,0,1.4719863429490943e-05,True,A A,,False
+positive_edge_00231__clean_r0_count,edge_00231,synthetic,count,a)a,a)a,0,0,0,0,0,0,0,0.000305785215459764,True,a)a,,False
+positive_edge_00231__clean_r0_lower,edge_00231,synthetic,lower,R,R,0,0,0,0,0,0,0,5.734037404181436e-05,True,R,,False
+positive_edge_00238__aug_01_resolution_jpeg_r0_count,edge_00238,synthetic,count,)b,)b,0,0,0,0,0,0,0,0.0003779754042625427,True,)b,,False
+positive_edge_00238__aug_01_resolution_jpeg_r0_lower,edge_00238,synthetic,lower,R,R,0,0,0,0,0,0,0,5.7222564464609604e-06,True,R,,False
+positive_edge_00238__aug_02_rotation_jpeg_r0_count,edge_00238,synthetic,count,)b,)b,0,0,0,0,0,0,0,1.8730759620666504e-05,True,)b,,False
+positive_edge_00238__aug_02_rotation_jpeg_r0_lower,edge_00238,synthetic,lower,R,R,0,0,0,0,0,0,0,6.079831564420601e-06,True,R,,False
+positive_edge_00238__aug_03_perspective_r0_count,edge_00238,synthetic,count,)b,(b,1,0,0,1,0,0,1,0.6002263426780701,False,(b,,False
+positive_edge_00238__aug_03_perspective_r0_lower,edge_00238,synthetic,lower,R,R,0,0,0,0,0,0,0,5.841306574438931e-06,True,R,,False
+positive_edge_00238__clean_r0_count,edge_00238,synthetic,count,)b,)b,0,0,0,0,0,0,0,4.3720006942749023e-05,True,)b,,False
+positive_edge_00238__clean_r0_lower,edge_00238,synthetic,lower,R,R,0,0,0,0,0,0,0,7.748619282210711e-06,True,R,,False
+positive_edge_00242__aug_01_resolution_r0_upper,edge_00242,synthetic,upper,A,A,0,0,0,0,0,0,0,2.2898595489095896e-05,True,A,,False
+positive_edge_00242__aug_01_resolution_r0_count,edge_00242,synthetic,count,a)ia,a)ia,0,0,0,0,0,0,0,0.00041347742080688477,True,a)ia,,False
+positive_edge_00242__aug_01_resolution_r0_lower,edge_00242,synthetic,lower,R  R,R  R,0,0,0,0,0,0,0,0.0004701531433966011,True,R  R,,False
+positive_edge_00242__aug_02_perspective_shadow_r0_upper,edge_00242,synthetic,upper,A,A,0,0,0,0,0,0,0,0.00013674687943421304,True,A,,False
+positive_edge_00242__aug_02_perspective_shadow_r0_count,edge_00242,synthetic,count,a)ia,a)ia,0,0,0,0,0,0,0,0.0014635114930570126,True,a)ia,,False
+positive_edge_00242__aug_02_perspective_shadow_r0_lower,edge_00242,synthetic,lower,R  R,R R,0,1,0,0,0,0,1,0.8004691004753113,False,R R,,False
+positive_edge_00242__aug_03_jpeg_r0_upper,edge_00242,synthetic,upper,A,A,0,0,0,0,0,0,0,2.6360969059169292e-05,True,A,,False
+positive_edge_00242__aug_03_jpeg_r0_count,edge_00242,synthetic,count,a)ia,a)ia,0,0,0,0,0,0,0,0.0004630833864212036,True,a)ia,,False
+positive_edge_00242__aug_03_jpeg_r0_lower,edge_00242,synthetic,lower,R  R,R  R,0,0,0,0,0,0,0,4.556795101962052e-05,True,R  R,,False
+positive_edge_00242__clean_r0_upper,edge_00242,synthetic,upper,A,A,0,0,0,0,0,0,0,2.7431027774582617e-05,True,A,,False
+positive_edge_00242__clean_r0_count,edge_00242,synthetic,count,a)ia,a)ia,0,0,0,0,0,0,0,0.000709928572177887,True,a)ia,,False
+positive_edge_00242__clean_r0_lower,edge_00242,synthetic,lower,R  R,R  R,0,0,0,0,0,0,0,4.826999065699056e-05,True,R  R,,False
+positive_edge_00243__aug_01_contrast_r0_count,edge_00243,synthetic,count,)i,)i,0,0,0,0,0,0,0,4.5248067181091756e-05,True,)i,,False
+positive_edge_00243__aug_01_contrast_r0_lower,edge_00243,synthetic,lower,R,R,0,0,0,0,0,0,0,7.629449100932106e-06,True,R,,False
+positive_edge_00243__aug_02_perspective_r0_count,edge_00243,synthetic,count,)i,)i,0,0,0,0,0,0,0,2.1556392312049866e-05,True,)i,,False
+positive_edge_00243__aug_02_perspective_r0_lower,edge_00243,synthetic,lower,R,R,0,0,0,0,0,0,0,6.199078143254155e-06,True,R,,False
+positive_edge_00243__aug_03_resolution_r0_count,edge_00243,synthetic,count,)i,)i,0,0,0,0,0,0,0,1.0064462912851013e-05,True,)i,,False
+positive_edge_00243__aug_03_resolution_r0_lower,edge_00243,synthetic,lower,R,R,0,0,0,0,0,0,0,6.675817076029489e-06,True,R,,False
+positive_edge_00243__clean_r0_count,edge_00243,synthetic,count,)i,)i,0,0,0,0,0,0,0,0.0029193833470344543,True,)i,,False
+positive_edge_00243__clean_r0_lower,edge_00243,synthetic,lower,R,R,0,0,0,0,0,0,0,8.225457349908538e-06,True,R,,False
+positive_edge_00250__aug_01_brightness_r0_upper,edge_00250,synthetic,upper,A,A,0,0,0,0,0,0,0,1.944821451616008e-05,True,A,,False
+positive_edge_00250__aug_01_brightness_r0_count,edge_00250,synthetic,count,a*a,a*a,0,0,0,0,0,0,0,0.0014226874336600304,True,a*a,,False
+positive_edge_00250__aug_01_brightness_r0_lower,edge_00250,synthetic,lower,R,R,0,0,0,0,0,0,0,6.473201210610569e-05,True,R,,False
+positive_edge_00250__aug_02_brightness_noise_r0_upper,edge_00250,synthetic,upper,A,C,1,0,0,1,0,0,1,13.201407432556152,False,U,U,True
+positive_edge_00250__aug_02_brightness_noise_r0_count,edge_00250,synthetic,count,a*a,a*a,0,0,0,0,0,0,0,0.0025276627857238054,True,a*a,,False
+positive_edge_00250__aug_02_brightness_noise_r0_lower,edge_00250,synthetic,lower,R,R,0,0,0,0,0,0,0,6.258608482312411e-05,True,R,,False
+positive_edge_00250__aug_03_resolution_jpeg_r0_upper,edge_00250,synthetic,upper,A,A,0,0,0,0,0,0,0,1.3952158951724414e-05,True,A,,False
+positive_edge_00250__aug_03_resolution_jpeg_r0_count,edge_00250,synthetic,count,a*a,a*a,0,0,0,0,0,0,0,0.000556664599571377,True,a*a,,False
+positive_edge_00250__aug_03_resolution_jpeg_r0_lower,edge_00250,synthetic,lower,R,R,0,0,0,0,0,0,0,1.204020645673154e-05,True,R,,False
+positive_edge_00250__clean_r0_upper,edge_00250,synthetic,upper,A,A,0,0,0,0,0,0,0,2.051791852863971e-05,True,A,,False
+positive_edge_00250__clean_r0_count,edge_00250,synthetic,count,a*a,a*a,0,0,0,0,0,0,0,0.001463916152715683,True,a*a,,False
+positive_edge_00250__clean_r0_lower,edge_00250,synthetic,lower,R,R,0,0,0,0,0,0,0,6.306298018898815e-05,True,R,,False
+positive_edge_00262__aug_01_gaussian_blur_contrast_r0_upper,edge_00262,synthetic,upper,A,A,0,0,0,0,0,0,0,1.3362689060159028e-05,True,A,,False
+positive_edge_00262__aug_01_gaussian_blur_contrast_r0_count,edge_00262,synthetic,count,a+,a+,0,0,0,0,0,0,0,0.0011206914205104113,True,a+,,False
+positive_edge_00262__aug_01_gaussian_blur_contrast_r0_lower,edge_00262,synthetic,lower,R,R,0,0,0,0,0,0,0,1.931202132254839e-05,True,R,,False
+positive_edge_00262__aug_02_jpeg_r0_upper,edge_00262,synthetic,upper,A,A,0,0,0,0,0,0,0,1.5395678929053247e-05,True,A,,False
+positive_edge_00262__aug_02_jpeg_r0_count,edge_00262,synthetic,count,a+,a+,0,0,0,0,0,0,0,0.0007720172870904207,True,a+,,False
+positive_edge_00262__aug_02_jpeg_r0_lower,edge_00262,synthetic,lower,R,R,0,0,0,0,0,0,0,3.1829255021875724e-05,True,R,,False
+positive_edge_00262__aug_03_resolution_jpeg_r0_upper,edge_00262,synthetic,upper,A,A,0,0,0,0,0,0,0,1.2167132808826864e-05,True,A,,False
+positive_edge_00262__aug_03_resolution_jpeg_r0_count,edge_00262,synthetic,count,a+,a+,0,0,0,0,0,0,0,0.005619705189019442,True,a+,,False
+positive_edge_00262__aug_03_resolution_jpeg_r0_lower,edge_00262,synthetic,lower,R,R,0,0,0,0,0,0,0,7.2718016781436745e-06,True,R,,False
+positive_edge_00262__clean_r0_upper,edge_00262,synthetic,upper,A,A,0,0,0,0,0,0,0,1.65910751093179e-05,True,A,,False
+positive_edge_00262__clean_r0_count,edge_00262,synthetic,count,a+,a+,0,0,0,0,0,0,0,0.0010114304022863507,True,a+,,False
+positive_edge_00262__clean_r0_lower,edge_00262,synthetic,lower,R,R,0,0,0,0,0,0,0,6.628230039495975e-05,True,R,,False
+positive_edge_00270__aug_01_contrast_r0_upper,edge_00270,synthetic,upper,A,A,0,0,0,0,0,0,0,7.371245374088176e-06,True,A,,False
+positive_edge_00270__aug_01_contrast_r0_count,edge_00270,synthetic,count,+b,+b,0,0,0,0,0,0,0,7.548928260803223e-05,True,+b,,False
+positive_edge_00270__aug_02_shadow_r0_upper,edge_00270,synthetic,upper,A,A,0,0,0,0,0,0,0,7.2583229666634e-06,True,A,,False
+positive_edge_00270__aug_02_shadow_r0_count,edge_00270,synthetic,count,+b,+b,0,0,0,0,0,0,0,0.0005093216896057129,True,+b,,False
+positive_edge_00270__aug_03_rotation_jpeg_r0_upper,edge_00270,synthetic,upper,A,A,0,0,0,0,0,0,0,7.494993496948155e-06,True,A,,False
+positive_edge_00270__aug_03_rotation_jpeg_r0_count,edge_00270,synthetic,count,+b,+b,0,0,0,0,0,0,0,0.0003554821014404297,True,+b,,False
+positive_edge_00270__clean_r0_upper,edge_00270,synthetic,upper,A,A,0,0,0,0,0,0,0,7.369673767243512e-06,True,A,,False
+positive_edge_00270__clean_r0_count,edge_00270,synthetic,count,+b,+b,0,0,0,0,0,0,0,9.009242057800293e-05,True,+b,,False
+positive_edge_00274__aug_01_resolution_r0_upper,edge_00274,synthetic,upper,A,A,0,0,0,0,0,0,0,7.377445399470162e-06,True,A,,False
+positive_edge_00274__aug_01_resolution_r0_count,edge_00274,synthetic,count,+i,+i,0,0,0,0,0,0,0,0.00014750844275113195,True,+i,,False
+positive_edge_00274__aug_02_gaussian_blur_r0_upper,edge_00274,synthetic,upper,A,A,0,0,0,0,0,0,0,8.224396879086271e-06,True,A,,False
+positive_edge_00274__aug_02_gaussian_blur_r0_count,edge_00274,synthetic,count,+i,+i,0,0,0,0,0,0,0,0.012897615320980549,True,+i,,False
+positive_edge_00274__aug_03_jpeg_r0_upper,edge_00274,synthetic,upper,A,A,0,0,0,0,0,0,0,7.728583113930654e-06,True,A,,False
+positive_edge_00274__aug_03_jpeg_r0_count,edge_00274,synthetic,count,+i,+i,0,0,0,0,0,0,0,8.786533726379275e-05,True,+i,,False
+positive_edge_00274__clean_r0_upper,edge_00274,synthetic,upper,A,A,0,0,0,0,0,0,0,7.848722816561349e-06,True,A,,False
+positive_edge_00274__clean_r0_count,edge_00274,synthetic,count,+i,+i,0,0,0,0,0,0,0,0.0001436769962310791,True,+i,,False
+positive_edge_00289__aug_01_gaussian_blur_contrast_r0_upper,edge_00289,synthetic,upper,A,A,0,0,0,0,0,0,0,6.82007594150491e-05,True,A,,False
+positive_edge_00289__aug_01_gaussian_blur_contrast_r0_count,edge_00289,synthetic,count,"a,b",awb,1,0,0,1,0,0,1,1.6614279747009277,False,awb,,False
+positive_edge_00289__aug_01_gaussian_blur_contrast_r0_lower,edge_00289,synthetic,lower,R,U,1,0,0,1,0,0,1,2.4028966426849365,False,U,,False
+positive_edge_00289__aug_02_jpeg_r0_upper,edge_00289,synthetic,upper,A,A,0,0,0,0,0,0,0,1.6317842892021872e-05,True,A,,False
+positive_edge_00289__aug_02_jpeg_r0_count,edge_00289,synthetic,count,"a,b","a,b",0,0,0,0,0,0,0,0.00021485127217601985,True,"a,b",,False
+positive_edge_00289__aug_02_jpeg_r0_lower,edge_00289,synthetic,lower,R,R,0,0,0,0,0,0,0,3.397512773517519e-05,True,R,,False
+positive_edge_00289__aug_03_perspective_shadow_r0_upper,edge_00289,synthetic,upper,A,,0,1,0,0,1,0,1,9.870849609375,False,U,U,True
+positive_edge_00289__aug_03_perspective_shadow_r0_count,edge_00289,synthetic,count,"a,b","a,b",0,0,0,0,0,0,0,0.00034896531724371016,True,"a,b",,False
+positive_edge_00289__aug_03_perspective_shadow_r0_lower,edge_00289,synthetic,lower,R,R,0,0,0,0,0,0,0,3.135243241558783e-05,True,R,,False
+positive_edge_00289__clean_r0_upper,edge_00289,synthetic,upper,A,A,0,0,0,0,0,0,0,1.549653461552225e-05,True,A,,False
+positive_edge_00289__clean_r0_count,edge_00289,synthetic,count,"a,b","a,b",0,0,0,0,0,0,0,0.0009449185454286635,True,"a,b",,False
+positive_edge_00289__clean_r0_lower,edge_00289,synthetic,lower,R,R,0,0,0,0,0,0,0,3.719386222655885e-05,True,R,,False
+positive_edge_00296__aug_01_resolution_jpeg_r0_upper,edge_00296,synthetic,upper,D,D,0,0,0,0,0,0,0,5.343928933143616e-06,True,D,,False
+positive_edge_00296__aug_01_resolution_jpeg_r0_count,edge_00296,synthetic,count,a,a,0,0,0,0,0,0,0,6.759669486200437e-05,True,a,,False
+positive_edge_00296__aug_02_gaussian_blur_contrast_r0_upper,edge_00296,synthetic,upper,D,D,0,0,0,0,0,0,0,6.005170689604711e-06,True,D,,False
+positive_edge_00296__aug_02_gaussian_blur_contrast_r0_count,edge_00296,synthetic,count,a,a,0,0,0,0,0,0,0,9.35841235332191e-05,True,a,,False
+positive_edge_00296__aug_03_brightness_noise_r0_upper,edge_00296,synthetic,upper,D,D,0,0,0,0,0,0,0,5.722051355405711e-06,True,D,,False
+positive_edge_00296__aug_03_brightness_noise_r0_count,edge_00296,synthetic,count,a,a,0,0,0,0,0,0,0,2.5276232918258756e-05,True,a,,False
+positive_edge_00296__clean_r0_upper,edge_00296,synthetic,upper,D,D,0,0,0,0,0,0,0,6.407507498806808e-06,True,D,,False
+positive_edge_00296__clean_r0_count,edge_00296,synthetic,count,a,a,0,0,0,0,0,0,0,3.517025106702931e-05,True,a,,False
+positive_edge_00299__aug_01_gaussian_blur_contrast_r0_upper,edge_00299,synthetic,upper,G,G,0,0,0,0,0,0,0,6.723775004502386e-05,True,G,,False
+positive_edge_00299__aug_01_gaussian_blur_contrast_r0_count,edge_00299,synthetic,count,a,a,0,0,0,0,0,0,0,0.0003480327141005546,True,a,,False
+positive_edge_00299__aug_02_resolution_r0_upper,edge_00299,synthetic,upper,G,G,0,0,0,0,0,0,0,2.7311740268487483e-05,True,G,,False
+positive_edge_00299__aug_02_resolution_r0_count,edge_00299,synthetic,count,a,a,0,0,0,0,0,0,0,0.0011688742088153958,True,a,,False
+positive_edge_00299__aug_03_contrast_r0_upper,edge_00299,synthetic,upper,G,G,0,0,0,0,0,0,0,3.040870069526136e-05,True,G,,False
+positive_edge_00299__aug_03_contrast_r0_count,edge_00299,synthetic,count,a,a,0,0,0,0,0,0,0,2.0157887774985284e-05,True,a,,False
+positive_edge_00299__clean_r0_upper,edge_00299,synthetic,upper,G,G,0,0,0,0,0,0,0,3.433850361034274e-05,True,G,,False
+positive_edge_00299__clean_r0_count,edge_00299,synthetic,count,a,a,0,0,0,0,0,0,0,3.481269595795311e-05,True,a,,False
+positive_edge_00307__aug_01_perspective_shadow_r0_count,edge_00307,synthetic,count,a,a,0,0,0,0,0,0,0,0.0007170075550675392,True,a,,False
+positive_edge_00307__aug_01_perspective_shadow_r0_lower,edge_00307,synthetic,lower,S,S,0,0,0,0,0,0,0,2.6226464342471445e-06,True,S,,False
+positive_edge_00307__aug_02_resolution_r0_count,edge_00307,synthetic,count,a,a,0,0,0,0,0,0,0,0.0016664477298036218,True,a,,False
+positive_edge_00307__aug_02_resolution_r0_lower,edge_00307,synthetic,lower,S,S,0,0,0,0,0,0,0,8.353599696420133e-07,True,S,,False
+positive_edge_00307__aug_03_noise_r0_count,edge_00307,synthetic,count,a,a,0,0,0,0,0,0,0,5.315360613167286e-05,True,a,,False
+positive_edge_00307__aug_03_noise_r0_lower,edge_00307,synthetic,lower,S,S,0,0,0,0,0,0,0,2.2683780116494745e-06,True,S,,False
+positive_edge_00313__aug_01_motion_blur_r0_count,edge_00313,synthetic,count,ja,ja,0,0,0,0,0,0,0,4.125825398659799e-06,True,ja,,False
+positive_edge_00313__aug_01_motion_blur_r0_lower,edge_00313,synthetic,lower,X,X,0,0,0,0,0,0,0,0.6042836904525757,True,X,,False
+positive_edge_00313__aug_02_contrast_r0_count,edge_00313,synthetic,count,ja,ja,0,0,0,0,0,0,0,4.363766493042931e-06,True,ja,,False
+positive_edge_00313__aug_02_contrast_r0_lower,edge_00313,synthetic,lower,X,X,0,0,0,0,0,0,0,0.6387601494789124,True,X,,False
+positive_edge_00313__aug_03_resolution_jpeg_r0_count,edge_00313,synthetic,count,ja,ja,0,0,0,0,0,0,0,5.318739567883313e-06,True,ja,,False
+positive_edge_00313__aug_03_resolution_jpeg_r0_lower,edge_00313,synthetic,lower,X,X,0,0,0,0,0,0,0,0.5988662242889404,True,X,,False
+positive_edge_00313__clean_r0_count,edge_00313,synthetic,count,ja,ja,0,0,0,0,0,0,0,4.891553544439375e-06,True,ja,,False
+positive_edge_00313__clean_r0_lower,edge_00313,synthetic,lower,X,X,0,0,0,0,0,0,0,0.6537530422210693,True,X,,False
+positive_edge_00315__aug_01_rotation_jpeg_r0_count,edge_00315,synthetic,count,a,a,0,0,0,0,0,0,0,4.685093881562352e-05,True,a,,False
+positive_edge_00315__aug_01_rotation_jpeg_r0_lower,edge_00315,synthetic,lower,\,\,0,0,0,0,0,0,0,0.006616615690290928,True,\,,False
+positive_edge_00315__aug_02_gaussian_blur_contrast_r0_count,edge_00315,synthetic,count,a,a,0,0,0,0,0,0,0,2.7540601877262816e-05,True,a,,False
+positive_edge_00315__aug_02_gaussian_blur_contrast_r0_lower,edge_00315,synthetic,lower,\,\,0,0,0,0,0,0,0,6.594558362849057e-05,True,\,,False
+positive_edge_00315__aug_03_perspective_r0_count,edge_00315,synthetic,count,a,a,0,0,0,0,0,0,0,0.0013652215711772442,True,a,,False
+positive_edge_00315__aug_03_perspective_r0_lower,edge_00315,synthetic,lower,\,\,0,0,0,0,0,0,0,0.00011121819261461496,True,\,,False
+positive_edge_00315__clean_r0_count,edge_00315,synthetic,count,a,a,0,0,0,0,0,0,0,3.24286193063017e-05,True,a,,False
+positive_edge_00315__clean_r0_lower,edge_00315,synthetic,lower,\,\,0,0,0,0,0,0,0,4.221766721457243e-05,True,\,,False
+positive_edge_00323__aug_01_resolution_jpeg_r0_upper,edge_00323,synthetic,upper,ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ,ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ,0,49,0,0,1,0,49,0.10692338645458221,False,ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ,,False
+positive_edge_00323__aug_01_resolution_jpeg_r0_count,edge_00323,synthetic,count,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,0,0,0,0,0,0,0,0.003082794602960348,True,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,False
+positive_edge_00323__aug_01_resolution_jpeg_r0_lower,edge_00323,synthetic,lower,RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RST,RSTUVWXYZ[\]^_        RSTUVWXYZ[\]^_        RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_        RSTUVWXYZ[\]^_        RSTUVWXYZ\]^_         RSTUVWXYZ[\]^_        RST,0,62,0,0,1,0,62,0.08009347319602966,False,RSTUVWXYZ[\]^_        RSTUVWXYZ[\]^_        RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_        RSTUVWXYZ[\]^_        RSTUVWXYZ\]^_         RSTUVWXYZ[\]^_        RST,,False
+positive_edge_00323__aug_03_contrast_r0_upper,edge_00323,synthetic,upper,ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ,ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ,0,48,0,0,0,0,48,0.06969659775495529,False,ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ,,False
+positive_edge_00323__aug_03_contrast_r0_count,edge_00323,synthetic,count,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,0,0,0,0,0,0,0,3.7942470953566954e-05,True,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,False
+positive_edge_00323__aug_03_contrast_r0_lower,edge_00323,synthetic,lower,RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RST,RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RST,0,56,0,0,0,0,56,0.06477371603250504,False,RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RST,,False
+positive_edge_00323__clean_r0_upper,edge_00323,synthetic,upper,ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ,ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ,0,48,0,0,0,0,48,0.06815192103385925,False,ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ,,False
+positive_edge_00323__clean_r0_count,edge_00323,synthetic,count,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,0,0,0,0,0,0,0,5.7951579947257414e-05,True,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,False
+positive_edge_00323__clean_r0_lower,edge_00323,synthetic,lower,RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RSTUVWXYZ[\]^_                RST,RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RST,0,56,0,0,0,0,56,0.06447423249483109,False,RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RSTUVWXYZ[\]^_         RST,,False
+validation_000264_row_00_upper,validation_000264,synthetic,upper,A,A,0,0,0,0,0,0,0,2.2558293494512327e-05,True,A,,False
+validation_000301_row_00_upper,validation_000301,synthetic,upper,CA,CA,0,0,0,0,0,0,0,8.27312542241998e-05,True,CA,,False
+validation_000446_row_01_lower,validation_000446,synthetic,lower,T,T,0,0,0,0,0,0,0,1.5258903658832423e-05,True,T,,False
+validation_000733_row_00_lower,validation_000733,synthetic,lower,SXY,SXY,0,0,0,0,0,0,0,0.00010035311424871907,True,SXY,,False
+validation_001127_row_00_upper,validation_001127,synthetic,upper,JBK,JBK,0,0,0,0,0,0,0,0.00019334048556629568,True,JBK,,False
+validation_001127_row_01_count,validation_001127,synthetic,count,ringbhdgakba,ringbhdgakba,0,0,0,0,0,0,0,1.1366947546775918e-05,True,ringbhdgakba,,False
+validation_001375_row_00_upper,validation_001375,synthetic,upper,A D G  DQG,A D G  DQG,0,0,0,0,0,0,0,4.3207350245211273e-05,True,A D G  DQG,,False
+validation_001383_row_00_lower,validation_001383,synthetic,lower,SX,SX,0,0,0,0,0,0,0,0.001421608729287982,True,SX,,False
+validation_001463_row_00_upper,validation_001463,synthetic,upper,BML  JM A,BML  JM A,0,0,0,0,0,0,0,0.00019180943490937352,True,BML  JM A,,False
+validation_001624_row_00_count,validation_001624,synthetic,count,{ekcfqhba,{ekcfqhba,0,0,0,0,0,0,0,1.3194150596973486e-05,True,{ekcfqhba,,False
+validation_001902_row_01_count,validation_001902,synthetic,count,jhgchekd,jhgchekd,0,0,0,0,0,0,0,9.101350769924466e-06,True,jhgchekd,,False
+validation_002178_row_02_lower,validation_002178,synthetic,lower,W Y,W Y,0,0,0,0,0,0,0,7.146890129661188e-05,True,W Y,,False
+validation_002294_row_00_lower,validation_002294,synthetic,lower,Y W    R,Y W    R,0,0,0,0,0,0,0,0.0006476128473877907,True,Y W    R,,False
+validation_002482_row_00_count,validation_002482,synthetic,count,rdkbac,rdkbac,0,0,0,0,0,0,0,8.354119017894845e-06,True,rdkbac,,False
+validation_002562_row_00_lower,validation_002562,synthetic,lower,UV,UV,0,0,0,0,0,0,0,1.7991407730733044e-05,True,UV,,False
+validation_002585_row_01_count,validation_002585,synthetic,count,jeaaa,jeaaa,0,0,0,0,0,0,0,4.035234724142356e-06,True,jeaaa,,False
+validation_002652_row_01_lower,validation_002652,synthetic,lower,T U       WX,T U       WX,0,0,0,0,0,0,0,0.016197366639971733,True,T U       WX,,False
+validation_003487_row_00_upper,validation_003487,synthetic,upper,F Q  L M L,F Q  L M L,0,0,0,0,0,0,0,3.315248613944277e-05,True,F Q  L M L,,False
+validation_003710_row_00_count,validation_003710,synthetic,count,lgbkdbaa,lgbkdbaa,0,0,0,0,0,0,0,1.0933144949376583e-05,True,lgbkdbaa,,False
+validation_003803_row_01_lower,validation_003803,synthetic,lower,S  V  Z,S  V  Z,0,0,0,0,0,0,0,7.894501322880387e-05,True,S  V  Z,,False
+validation_003879_row_00_upper,validation_003879,synthetic,upper,LD K  E,LD K  E,0,0,0,0,0,0,0,4.513203748501837e-05,True,LD K  E,,False
+validation_003948_row_00_lower,validation_003948,synthetic,lower,U  \,U  \,0,0,0,0,0,0,0,9.08872825675644e-05,True,U  \,,False
+validation_004038_row_01_upper,validation_004038,synthetic,upper,A NJI,A NJI,0,0,0,0,0,0,0,3.262385871494189e-05,True,A NJI,,False
+validation_004100_row_00_lower,validation_004100,synthetic,lower,^,^,0,0,0,0,0,0,0,4.18336276197806e-05,True,^,,False
+validation_004299_row_03_upper,validation_004299,synthetic,upper,I DA,I DA,0,0,0,0,0,0,0,2.1457675757119432e-05,True,I DA,,False
+validation_004386_row_02_upper,validation_004386,synthetic,upper,NJG   HD E,NJG   HD E,0,0,0,0,0,0,0,0.00011027008440578356,True,NJG   HD E,,False
+validation_004647_row_03_lower,validation_004647,synthetic,lower,Z   ],Z   ],0,0,0,0,0,0,0,0.0004149353189859539,True,Z   ],,False
+validation_004659_row_03_lower,validation_004659,synthetic,lower,V Y] Z,V Y] Z,0,0,0,0,0,0,0,8.703453931957483e-05,True,V Y] Z,,False
+validation_004788_row_01_count,validation_004788,synthetic,count,hvdaonctbaeaa,hvdaonctbaeaa,0,0,0,0,0,0,0,4.96194334118627e-05,True,hvdaonctbaeaa,,False
+validation_004788_row_01_lower,validation_004788,synthetic,lower,U    RX,U    RX,0,0,0,0,0,0,0,0.0008106112363748252,True,U    RX,,False
+validation_005159_row_00_count,validation_005159,synthetic,count,simjj,simjj,0,0,0,0,0,0,0,1.7288684830418788e-05,True,simjj,,False
+validation_005179_row_00_count,validation_005179,synthetic,count,tdeamdia,tdeamdia,0,0,0,0,0,0,0,9.712297469377518e-06,True,tdeamdia,,False
+validation_005351_row_00_lower,validation_005351,synthetic,lower,YX  ZV  [ R,YX  ZV  [ R,0,0,0,0,0,0,0,0.00012482998135965317,True,YX  ZV  [ R,,False
+validation_005486_row_01_upper,validation_005486,synthetic,upper,MD C,MD C,0,0,0,0,0,0,0,0.00011147559416713193,True,MD C,,False
+validation_005552_row_00_upper,validation_005552,synthetic,upper,FHA K BNE,FHA K BNE,0,0,0,0,0,0,0,0.00011996892862953246,True,FHA K BNE,,False
+validation_005626_row_00_count,validation_005626,synthetic,count,ofkdbbaa,ofkdbbaa,0,0,0,0,0,0,0,8.499016985297203e-06,True,ofkdbbaa,,False
+validation_005658_row_03_upper,validation_005658,synthetic,upper,B,B,0,0,0,0,0,0,0,0.7399514317512512,True,X,X,True
+validation_005886_row_00_count,validation_005886,synthetic,count,makcfa,makcfa,0,0,0,0,0,0,0,5.767991297034314e-06,True,makcfa,,False
+validation_005886_row_03_upper,validation_005886,synthetic,upper,B,B,0,0,0,0,0,0,0,0.7567076683044434,True,X,X,True
+validation_005931_row_00_lower,validation_005931,synthetic,lower,W \ Y UT,W \ Y UT,0,0,0,0,0,0,0,3.75872477889061e-05,True,W \ Y UT,,False
+validation_005935_row_00_lower,validation_005935,synthetic,lower,] T ZR,] T ZR,0,0,0,0,0,0,0,3.5802717320621014e-05,True,] T ZR,,False
+validation_006035_row_01_count,validation_006035,synthetic,count,euefngjhdjc,euefngjhdjc,0,0,0,0,0,0,0,5.9005888033425435e-05,True,euefngjhdjc,,False
+validation_006134_row_00_count,validation_006134,synthetic,count,jckia,jckia,0,0,0,0,0,0,0,9.79602373263333e-06,True,jckia,,False
+validation_006447_row_03_lower,validation_006447,synthetic,lower,^      [,^      [,0,0,0,0,0,0,0,0.001304549165070057,True,^      [,,False
+validation_006533_row_00_count,validation_006533,synthetic,count,efaba,efaba,0,0,0,0,0,0,0,4.83337771584047e-06,True,efaba,,False
+validation_006726_row_00_upper,validation_006726,synthetic,upper,L  J,L  J,0,0,0,0,0,0,0,5.405204137787223e-05,True,L  J,,False
+validation_006812_row_01_count,validation_006812,synthetic,count,namefb|dheja,namefb|dheja,0,0,0,0,0,0,0,2.2538117264048196e-05,True,namefb|dheja,,False
+validation_006813_row_02_count,validation_006813,synthetic,count,jab,jab,0,0,0,0,0,0,0,4.560997240332654e-06,True,jab,,False
+validation_006975_row_03_upper,validation_006975,synthetic,upper,B AP     G,B AP     G,0,0,0,0,0,0,0,0.0007118703215382993,True,B AP     G,,False
+validation_007103_row_00_upper,validation_007103,synthetic,upper,G  N AQ   MQH,G  N AQ   MQH,0,0,0,0,0,0,0,8.701704791747034e-05,True,G  N AQ   MQH,,False
+validation_007160_row_01_lower,validation_007160,synthetic,lower,Y    YT,Y    YT,0,0,0,0,0,0,0,0.0008374866447411478,True,Y    YT,,False
+validation_007292_row_01_lower,validation_007292,synthetic,lower,X   S\ TX,X   S\ TX,0,0,0,0,0,0,0,0.0004885154194198549,True,X   S\ TX,,False
+validation_007640_row_01_lower,validation_007640,synthetic,lower,V \    ^ Y   X],V \    ^ Y   X],0,0,0,0,0,0,0,0.00022796806297264993,True,V \    ^ Y   X],,False
+validation_007665_row_01_upper,validation_007665,synthetic,upper,I D,I D,0,0,0,0,0,0,0,2.4418035536655225e-05,True,I D,,False
+validation_007889_row_01_count,validation_007889,synthetic,count,aja,aja,0,0,0,0,0,0,0,4.174214609520277e-06,True,aja,,False
+validation_008227_row_00_upper,validation_008227,synthetic,upper,N   AHD,N   AHD,0,0,0,0,0,0,0,0.00022469038958661258,True,N   AHD,,False
+validation_008285_row_01_upper,validation_008285,synthetic,upper,LG,LG,0,0,0,0,0,0,0,0.00013021071208640933,True,LG,,False
+validation_008322_row_01_lower,validation_008322,synthetic,lower,_T,_T,0,0,0,0,0,0,0,5.2160634368192405e-05,True,_T,,False
+validation_008656_row_00_lower,validation_008656,synthetic,lower,^,^,0,0,0,0,0,0,0,2.6566998712951317e-05,True,^,,False
+validation_008748_row_00_lower,validation_008748,synthetic,lower,W,W,0,0,0,0,0,0,0,3.600183117669076e-05,True,W,,False
+validation_009489_row_03_upper,validation_009489,synthetic,upper,P,P,0,0,0,0,0,0,0,1.6928101103985682e-05,True,P,,False
+validation_009620_row_00_lower,validation_009620,synthetic,lower,Z Y W,Z Y W,0,0,0,0,0,0,0,5.700513793271966e-05,True,Z Y W,,False
+validation_009807_row_01_upper,validation_009807,synthetic,upper,P H,P H,0,0,0,0,0,0,0,2.736163696681615e-05,True,P H,,False
