@@ -1,0 +1,11 @@
+{
+  "C:\\NAQSHKASH\\stage2\\stage2g_handwriting_domain_gap_diagnostics\\diagnose.py": "93e7df126ea8f7511f04a7551e6b7fd751c1112e9d52d2159daa18a0f9658bed",
+  "C:\\NAQSHKASH\\data\\collate.py": "74f39a431bca79c825e9690220eb861a6c7b4d3b59b3db5af08f7899bf5c246c",
+  "C:\\NAQSHKASH\\data\\ctc_decode.py": "44835d19fc48f7596a6c8615a21ab0cb0dd643b8db0476aa6adaa578244e3f34",
+  "C:\\NAQSHKASH\\models\\crnn.py": "04ab9cba3bbb734381cf5e9bbb67b0ed8ea7218392f51f483869fdc22d537daf",
+  "C:\\NAQSHKASH\\stage2\\stage2e_finetuning\\src\\context.py": "94f53fb068f11b56b868a7d32a23465835df227f1620b47fe6295e2582fdc680",
+  "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\pipeline_d1.py": "b6509e3fc26e8a5c8205ef2fafb7b197a11163dad9b20f6fc0e795f04d9afc9c",
+  "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\configs\\D1.json": "050cafcb7c26403a4e21cf6f1e764ba90350cb37ff0a8ee74bb7fedb73af3141",
+  "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\evaluation\\reference.py": "22559cedc9f8582c88dc92762d1ce4f344989c724dbec42c3672527cb03e09be",
+  "C:\\NAQSHKASH\\stage2\\stage2g_final_handwritten_e1_20261109\\dataset\\naqshkash_stage2g_handwritten_release_v1\\evidence\\scripts\\engine.py": "320b8b92ac4d6a772e30b9ee264f45369c546880b6fe4cec5edf0cb59671068e"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PROVISIONAL",
+  "model_checkpoint": "C:\\NAQSHKASH\\stage2\\stage2e_finetuning\\checkpoints\\selected_model\\best.pt",
+  "sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+  "seed": 42,
+  "torch": "2.4.1+cpu",
+  "python": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "no_training": true,
+  "decoder": "unchanged Stage2E greedy CTC; optional baseline-only width10 prefix beam is separate diagnostic",
+  "glyph_height_targets": {
+    "upper": 0.7714285714285715,
+    "count": 0.84,
+    "lower": 0.7645021645021646
+  },
+  "synthetic_convention": "Known renderer-slot masks, zero deskew, row-union width, xpad=0.25H, ypad=max(6,0.15H), keep_faint_v1. H=count ink span. Oracle isolation, not a replay of photograph-specific segmentation; no ruling present. Stroke halo kernel=odd max(3,int(2*max distance transform)).",
+  "transforms": {
+    "A_current": "unchanged release bytes",
+    "B_contrast": "foreground p5 blackpoint mapped to 0; white=255",
+    "C_otsu": "single global Otsu threshold",
+    "D_dilation": "grayscale one-pixel cross erosion at model height64 (dark ink dilation), no threshold",
+    "E_tight_vertical": "all nonwhite vertical bbox + 10% span white pad >=2px, full width",
+    "F_glyph_height": "vertical ink span remapped to synthetic per-role median fraction on unchanged canvas, no horizontal change"
+  },
+  "distribution_note": "Ink threshold<250; component area>=2px; stroke width proxy=2*distance on local medial ridges; multipart notation means components are not semantic glyphs. Padding and occupied span are threshold-dependent proxies, not reader verification."
+}
