@@ -1,0 +1,11 @@
+{
+  "independent_edit_distance_arithmetic": true,
+  "six_single_transformation_ablations": true,
+  "same_14_samples_targets_each_ablation": true,
+  "aggregate_metrics_recomputed": true,
+  "role_counts_and_errors_sum_to_overall": true,
+  "all_saved_posteriors_finite_and_normalized": true,
+  "script_parses": true,
+  "software_hashes_match": true,
+  "main_integrity_checks_pass": true
+}

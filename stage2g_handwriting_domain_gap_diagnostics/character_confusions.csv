@@ -1,0 +1,344 @@
+﻿domain,variant,role,operation,reference,prediction,count
+handwritten,A_current,upper,deletion,P,,1
+handwritten,A_current,upper,substitution, ,F,1
+handwritten,A_current,upper,deletion,F,,1
+handwritten,A_current,upper,substitution,N,B,1
+handwritten,A_current,upper,deletion, ,,1
+handwritten,A_current,upper,deletion,L,,1
+handwritten,A_current,upper,substitution, ,E,1
+handwritten,A_current,upper,deletion,Q,,1
+handwritten,A_current,upper,substitution,G,M,1
+handwritten,A_current,upper,substitution,N,E,1
+handwritten,A_current,upper,deletion,H,,1
+handwritten,A_current,upper,deletion,M,,1
+handwritten,A_current,upper,substitution,D, ,1
+handwritten,A_current,upper,substitution,J, ,1
+handwritten,A_current,upper,insertion,, ,1
+handwritten,A_current,upper,substitution,G,I,1
+handwritten,A_current,upper,insertion,,F,1
+handwritten,A_current,upper,substitution,P, ,1
+handwritten,A_current,upper,substitution,H,F,1
+handwritten,A_current,count,substitution,a,i,5
+handwritten,A_current,count,substitution,d,i,4
+handwritten,A_current,count,substitution,b,i,3
+handwritten,A_current,count,substitution,j,c,2
+handwritten,A_current,count,substitution,c,i,2
+handwritten,A_current,count,deletion,f,,2
+handwritten,A_current,count,deletion,w,,2
+handwritten,A_current,count,substitution,s,z,1
+handwritten,A_current,count,substitution,l,i,1
+handwritten,A_current,count,insertion,,q,1
+handwritten,A_current,count,substitution,j,{,1
+handwritten,A_current,count,substitution,d,|,1
+handwritten,A_current,count,substitution,f,c,1
+handwritten,A_current,count,deletion,p,,1
+handwritten,A_current,count,deletion,d,,1
+handwritten,A_current,count,deletion,j,,1
+handwritten,A_current,count,substitution,a,r,1
+handwritten,A_current,count,substitution,m,i,1
+handwritten,A_current,count,substitution,a,q,1
+handwritten,A_current,count,substitution,j,i,1
+handwritten,A_current,count,deletion,',,1
+handwritten,A_current,count,deletion,s,,1
+handwritten,A_current,count,deletion,c,,1
+handwritten,A_current,count,deletion,a,,1
+handwritten,A_current,count,substitution,a,c,1
+handwritten,A_current,lower,substitution, ,B,2
+handwritten,A_current,lower,substitution,R,F,1
+handwritten,A_current,lower,substitution,],J,1
+handwritten,A_current,lower,deletion,[,,1
+handwritten,A_current,lower,deletion, ,,1
+handwritten,A_current,lower,substitution,X,J,1
+handwritten,A_current,lower,deletion,Y,,1
+handwritten,A_current,lower,deletion,T,,1
+handwritten,A_current,lower,deletion,R,,1
+handwritten,A_current,lower,substitution,T,E,1
+handwritten,A_current,lower,substitution,U,X,1
+handwritten,A_current,lower,substitution,[,M,1
+handwritten,A_current,lower,deletion,S,,1
+handwritten,A_current,lower,substitution,Y,E,1
+handwritten,B_contrast,upper,substitution,G,M,2
+handwritten,B_contrast,upper,insertion,, ,2
+handwritten,B_contrast,upper,deletion,P,,1
+handwritten,B_contrast,upper,substitution, ,F,1
+handwritten,B_contrast,upper,substitution,F,H,1
+handwritten,B_contrast,upper,substitution,N,B,1
+handwritten,B_contrast,upper,deletion, ,,1
+handwritten,B_contrast,upper,deletion,L,,1
+handwritten,B_contrast,upper,substitution, ,E,1
+handwritten,B_contrast,upper,substitution,Q,M,1
+handwritten,B_contrast,upper,substitution,N,C,1
+handwritten,B_contrast,upper,substitution,H,P,1
+handwritten,B_contrast,upper,substitution,M,B,1
+handwritten,B_contrast,upper,substitution,D,F,1
+handwritten,B_contrast,upper,substitution,J,],1
+handwritten,B_contrast,upper,substitution,L,E,1
+handwritten,B_contrast,upper,substitution,H,F,1
+handwritten,B_contrast,count,substitution,a,i,5
+handwritten,B_contrast,count,substitution,j,c,2
+handwritten,B_contrast,count,substitution,a,c,2
+handwritten,B_contrast,count,substitution,j,i,2
+handwritten,B_contrast,count,substitution,d,i,2
+handwritten,B_contrast,count,substitution,c,i,2
+handwritten,B_contrast,count,substitution,f,i,2
+handwritten,B_contrast,count,substitution,s,z,1
+handwritten,B_contrast,count,substitution,l,i,1
+handwritten,B_contrast,count,substitution,j,M,1
+handwritten,B_contrast,count,substitution,d,{,1
+handwritten,B_contrast,count,substitution,f,|,1
+handwritten,B_contrast,count,deletion,p,,1
+handwritten,B_contrast,count,substitution,d,r,1
+handwritten,B_contrast,count,substitution,m,c,1
+handwritten,B_contrast,count,substitution,a,Q,1
+handwritten,B_contrast,count,substitution,b,Q,1
+handwritten,B_contrast,count,substitution,b,i,1
+handwritten,B_contrast,count,substitution,',l,1
+handwritten,B_contrast,count,substitution,s,c,1
+handwritten,B_contrast,count,substitution,w,r,1
+handwritten,B_contrast,count,substitution,b,d,1
+handwritten,B_contrast,count,substitution,w,m,1
+handwritten,B_contrast,count,substitution,d,c,1
+handwritten,B_contrast,count,substitution,a,M,1
+handwritten,B_contrast,count,substitution,d,Q,1
+handwritten,B_contrast,lower,substitution, ,B,2
+handwritten,B_contrast,lower,substitution,R,F,1
+handwritten,B_contrast,lower,substitution,],J,1
+handwritten,B_contrast,lower,deletion,[,,1
+handwritten,B_contrast,lower,deletion, ,,1
+handwritten,B_contrast,lower,substitution,X,J,1
+handwritten,B_contrast,lower,deletion,Y,,1
+handwritten,B_contrast,lower,deletion,T,,1
+handwritten,B_contrast,lower,deletion,R,,1
+handwritten,B_contrast,lower,substitution,T,E,1
+handwritten,B_contrast,lower,substitution,U,Q,1
+handwritten,B_contrast,lower,substitution,[,A,1
+handwritten,B_contrast,lower,substitution,S,F,1
+handwritten,B_contrast,lower,insertion,,Q,1
+handwritten,B_contrast,lower,substitution,Y,],1
+handwritten,C_otsu,upper,substitution,G,M,2
+handwritten,C_otsu,upper,deletion,P,,1
+handwritten,C_otsu,upper,substitution, ,A,1
+handwritten,C_otsu,upper,substitution,F,H,1
+handwritten,C_otsu,upper,substitution,N,B,1
+handwritten,C_otsu,upper,deletion, ,,1
+handwritten,C_otsu,upper,deletion,L,,1
+handwritten,C_otsu,upper,substitution, ,E,1
+handwritten,C_otsu,upper,substitution,Q,M,1
+handwritten,C_otsu,upper,insertion,,C,1
+handwritten,C_otsu,upper,substitution,N, ,1
+handwritten,C_otsu,upper,substitution,D,F,1
+handwritten,C_otsu,upper,substitution,J,],1
+handwritten,C_otsu,upper,insertion,,A,1
+handwritten,C_otsu,upper,substitution,F, ,1
+handwritten,C_otsu,upper,substitution,P,H,1
+handwritten,C_otsu,upper,substitution,L,E,1
+handwritten,C_otsu,upper,substitution,H,F,1
+handwritten,C_otsu,count,substitution,a,c,5
+handwritten,C_otsu,count,substitution,j,c,4
+handwritten,C_otsu,count,substitution,b,Q,3
+handwritten,C_otsu,count,substitution,d,i,2
+handwritten,C_otsu,count,substitution,a,i,2
+handwritten,C_otsu,count,deletion,a,,2
+handwritten,C_otsu,count,substitution,s,o,1
+handwritten,C_otsu,count,substitution,l,o,1
+handwritten,C_otsu,count,substitution,d,{,1
+handwritten,C_otsu,count,substitution,f,[,1
+handwritten,C_otsu,count,deletion,p,,1
+handwritten,C_otsu,count,deletion,d,,1
+handwritten,C_otsu,count,substitution,j,r,1
+handwritten,C_otsu,count,substitution,m,c,1
+handwritten,C_otsu,count,substitution,c,i,1
+handwritten,C_otsu,count,substitution,a,Q,1
+handwritten,C_otsu,count,deletion,',,1
+handwritten,C_otsu,count,substitution,f,r,1
+handwritten,C_otsu,count,substitution,s,c,1
+handwritten,C_otsu,count,substitution,w,r,1
+handwritten,C_otsu,count,substitution,f,I,1
+handwritten,C_otsu,count,substitution,w,o,1
+handwritten,C_otsu,count,substitution,d,B,1
+handwritten,C_otsu,count,substitution,d,Q,1
+handwritten,C_otsu,lower,substitution, ,B,2
+handwritten,C_otsu,lower,insertion,,Q,2
+handwritten,C_otsu,lower,substitution,R,F,1
+handwritten,C_otsu,lower,deletion,],,1
+handwritten,C_otsu,lower,substitution, ,J,1
+handwritten,C_otsu,lower,deletion,[,,1
+handwritten,C_otsu,lower,deletion, ,,1
+handwritten,C_otsu,lower,substitution,X,J,1
+handwritten,C_otsu,lower,deletion,Y,,1
+handwritten,C_otsu,lower,deletion,T,,1
+handwritten,C_otsu,lower,deletion,R,,1
+handwritten,C_otsu,lower,substitution,T,E,1
+handwritten,C_otsu,lower,substitution,U,Q,1
+handwritten,C_otsu,lower,substitution,[,A,1
+handwritten,C_otsu,lower,substitution,S,F,1
+handwritten,C_otsu,lower,substitution,Y,],1
+handwritten,D_dilation,upper,substitution,N,B,2
+handwritten,D_dilation,upper,deletion, ,,2
+handwritten,D_dilation,upper,deletion,P,,1
+handwritten,D_dilation,upper,substitution, ,F,1
+handwritten,D_dilation,upper,substitution,F,H,1
+handwritten,D_dilation,upper,deletion,L,,1
+handwritten,D_dilation,upper,substitution, ,E,1
+handwritten,D_dilation,upper,substitution,Q,M,1
+handwritten,D_dilation,upper,substitution,G,M,1
+handwritten,D_dilation,upper,deletion,H,,1
+handwritten,D_dilation,upper,deletion,M,,1
+handwritten,D_dilation,upper,deletion,D,,1
+handwritten,D_dilation,upper,deletion,J,,1
+handwritten,D_dilation,upper,substitution,G,I,1
+handwritten,D_dilation,upper,insertion,, ,1
+handwritten,D_dilation,upper,substitution,L,E,1
+handwritten,D_dilation,upper,substitution,H,F,1
+handwritten,D_dilation,count,substitution,a,i,5
+handwritten,D_dilation,count,substitution,b,i,3
+handwritten,D_dilation,count,substitution,a,c,2
+handwritten,D_dilation,count,substitution,c,i,2
+handwritten,D_dilation,count,deletion,w,,2
+handwritten,D_dilation,count,substitution,s,z,1
+handwritten,D_dilation,count,substitution,l,i,1
+handwritten,D_dilation,count,substitution,j,A,1
+handwritten,D_dilation,count,substitution,d,{,1
+handwritten,D_dilation,count,substitution,p,r,1
+handwritten,D_dilation,count,substitution,j,(,1
+handwritten,D_dilation,count,substitution,m,c,1
+handwritten,D_dilation,count,substitution,j,a,1
+handwritten,D_dilation,count,substitution,j,Q,1
+handwritten,D_dilation,count,substitution,d,i,1
+handwritten,D_dilation,count,deletion,',,1
+handwritten,D_dilation,count,deletion,f,,1
+handwritten,D_dilation,count,substitution,s,b,1
+handwritten,D_dilation,count,deletion,d,,1
+handwritten,D_dilation,count,deletion,i,,1
+handwritten,D_dilation,count,substitution,a,f,1
+handwritten,D_dilation,count,substitution,d,f,1
+handwritten,D_dilation,count,substitution,j,b,1
+handwritten,D_dilation,count,substitution,d,c,1
+handwritten,D_dilation,lower,deletion, ,,4
+handwritten,D_dilation,lower,substitution,R,F,1
+handwritten,D_dilation,lower,substitution,[,],1
+handwritten,D_dilation,lower,deletion,Y,,1
+handwritten,D_dilation,lower,substitution, ,X,1
+handwritten,D_dilation,lower,deletion,T,,1
+handwritten,D_dilation,lower,deletion,R,,1
+handwritten,D_dilation,lower,substitution,T,Y,1
+handwritten,D_dilation,lower,substitution,U,Z,1
+handwritten,D_dilation,lower,substitution,[,\,1
+handwritten,D_dilation,lower,substitution,S,Z,1
+handwritten,D_dilation,lower,substitution,Y,\,1
+handwritten,E_tight_vertical,upper,deletion, ,,4
+handwritten,E_tight_vertical,upper,deletion,P,,1
+handwritten,E_tight_vertical,upper,substitution, ,F,1
+handwritten,E_tight_vertical,upper,substitution,F,H,1
+handwritten,E_tight_vertical,upper,substitution,N,B,1
+handwritten,E_tight_vertical,upper,deletion,L,,1
+handwritten,E_tight_vertical,upper,substitution, ,E,1
+handwritten,E_tight_vertical,upper,deletion,Q,,1
+handwritten,E_tight_vertical,upper,substitution,G,M,1
+handwritten,E_tight_vertical,upper,deletion,N,,1
+handwritten,E_tight_vertical,upper,deletion,H,,1
+handwritten,E_tight_vertical,upper,deletion,M,,1
+handwritten,E_tight_vertical,upper,deletion,D,,1
+handwritten,E_tight_vertical,upper,substitution,J,Z,1
+handwritten,E_tight_vertical,upper,insertion,, ,1
+handwritten,E_tight_vertical,upper,substitution,G,I,1
+handwritten,E_tight_vertical,upper,insertion,,L,1
+handwritten,E_tight_vertical,upper,substitution,P, ,1
+handwritten,E_tight_vertical,upper,substitution,H,F,1
+handwritten,E_tight_vertical,count,substitution,a,i,4
+handwritten,E_tight_vertical,count,substitution,j,i,3
+handwritten,E_tight_vertical,count,substitution,a,c,2
+handwritten,E_tight_vertical,count,substitution,d,c,2
+handwritten,E_tight_vertical,count,substitution,j,c,2
+handwritten,E_tight_vertical,count,substitution,a,q,2
+handwritten,E_tight_vertical,count,substitution,d,i,2
+handwritten,E_tight_vertical,count,substitution,c,i,2
+handwritten,E_tight_vertical,count,substitution,b,i,2
+handwritten,E_tight_vertical,count,substitution,s,z,1
+handwritten,E_tight_vertical,count,substitution,l,i,1
+handwritten,E_tight_vertical,count,substitution,d,{,1
+handwritten,E_tight_vertical,count,insertion,,r,1
+handwritten,E_tight_vertical,count,substitution,p,i,1
+handwritten,E_tight_vertical,count,substitution,m,c,1
+handwritten,E_tight_vertical,count,substitution,a,Q,1
+handwritten,E_tight_vertical,count,substitution,b,Q,1
+handwritten,E_tight_vertical,count,deletion,',,1
+handwritten,E_tight_vertical,count,deletion,f,,1
+handwritten,E_tight_vertical,count,deletion,s,,1
+handwritten,E_tight_vertical,count,deletion,c,,1
+handwritten,E_tight_vertical,count,deletion,d,,1
+handwritten,E_tight_vertical,count,deletion,w,,1
+handwritten,E_tight_vertical,count,deletion,a,,1
+handwritten,E_tight_vertical,count,substitution,f,i,1
+handwritten,E_tight_vertical,count,substitution,w,i,1
+handwritten,E_tight_vertical,lower,substitution, ,B,2
+handwritten,E_tight_vertical,lower,substitution,R,F,1
+handwritten,E_tight_vertical,lower,deletion,[,,1
+handwritten,E_tight_vertical,lower,deletion, ,,1
+handwritten,E_tight_vertical,lower,substitution,X,M,1
+handwritten,E_tight_vertical,lower,deletion,Y,,1
+handwritten,E_tight_vertical,lower,deletion,T,,1
+handwritten,E_tight_vertical,lower,deletion,R,,1
+handwritten,E_tight_vertical,lower,substitution,T,E,1
+handwritten,E_tight_vertical,lower,substitution,U,B,1
+handwritten,E_tight_vertical,lower,substitution,[,\,1
+handwritten,E_tight_vertical,lower,substitution,Y,X,1
+handwritten,F_glyph_height,upper,deletion, ,,4
+handwritten,F_glyph_height,upper,deletion,P,,1
+handwritten,F_glyph_height,upper,substitution, ,F,1
+handwritten,F_glyph_height,upper,deletion,F,,1
+handwritten,F_glyph_height,upper,substitution,N,B,1
+handwritten,F_glyph_height,upper,deletion,L,,1
+handwritten,F_glyph_height,upper,substitution, ,E,1
+handwritten,F_glyph_height,upper,deletion,Q,,1
+handwritten,F_glyph_height,upper,substitution,G,M,1
+handwritten,F_glyph_height,upper,deletion,N,,1
+handwritten,F_glyph_height,upper,deletion,H,,1
+handwritten,F_glyph_height,upper,deletion,M,,1
+handwritten,F_glyph_height,upper,deletion,D,,1
+handwritten,F_glyph_height,upper,substitution,J,E,1
+handwritten,F_glyph_height,upper,deletion,G,,1
+handwritten,F_glyph_height,upper,insertion,,D,1
+handwritten,F_glyph_height,upper,substitution,P, ,1
+handwritten,F_glyph_height,upper,substitution,H,F,1
+handwritten,F_glyph_height,count,substitution,a,i,5
+handwritten,F_glyph_height,count,substitution,d,i,3
+handwritten,F_glyph_height,count,substitution,b,i,3
+handwritten,F_glyph_height,count,substitution,a,c,2
+handwritten,F_glyph_height,count,deletion,d,,2
+handwritten,F_glyph_height,count,substitution,j,c,2
+handwritten,F_glyph_height,count,deletion,f,,2
+handwritten,F_glyph_height,count,deletion,w,,2
+handwritten,F_glyph_height,count,substitution,s,z,1
+handwritten,F_glyph_height,count,substitution,l,i,1
+handwritten,F_glyph_height,count,substitution,j,q,1
+handwritten,F_glyph_height,count,substitution,d,{,1
+handwritten,F_glyph_height,count,deletion,p,,1
+handwritten,F_glyph_height,count,deletion,j,,1
+handwritten,F_glyph_height,count,substitution,a,r,1
+handwritten,F_glyph_height,count,substitution,m,i,1
+handwritten,F_glyph_height,count,substitution,a,q,1
+handwritten,F_glyph_height,count,substitution,j,i,1
+handwritten,F_glyph_height,count,substitution,c,i,1
+handwritten,F_glyph_height,count,deletion,',,1
+handwritten,F_glyph_height,count,deletion,s,,1
+handwritten,F_glyph_height,count,deletion,c,,1
+handwritten,F_glyph_height,count,substitution,c,M,1
+handwritten,F_glyph_height,count,deletion,a,,1
+handwritten,F_glyph_height,lower,substitution, ,B,2
+handwritten,F_glyph_height,lower,substitution,R,F,1
+handwritten,F_glyph_height,lower,substitution,],J,1
+handwritten,F_glyph_height,lower,deletion,[,,1
+handwritten,F_glyph_height,lower,deletion, ,,1
+handwritten,F_glyph_height,lower,substitution,X,M,1
+handwritten,F_glyph_height,lower,deletion,Y,,1
+handwritten,F_glyph_height,lower,deletion,T,,1
+handwritten,F_glyph_height,lower,deletion,R,,1
+handwritten,F_glyph_height,lower,substitution,T,E,1
+handwritten,F_glyph_height,lower,substitution,U,C,1
+handwritten,F_glyph_height,lower,substitution,[,\,1
+handwritten,F_glyph_height,lower,deletion,S,,1
+handwritten,F_glyph_height,lower,substitution,Y,\,1
+synthetic_handwriting_convention,original,upper,deletion, ,,1
+synthetic_handwriting_convention,original,count,substitution,s,t,1
+synthetic_handwriting_convention,original,count,substitution,w,z,1

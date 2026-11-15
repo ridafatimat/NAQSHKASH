@@ -1,0 +1,32 @@
+﻿source,pipeline,correct_segmentation,reason,expected_tiers,proposed_tiers
+all_003191,D1,True,,6,6
+all_003191_row_00_upper,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_003191_row_00_upper,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=42,1,1
+all_003191_row_00_count,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_003191_row_00_count,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=42,1,1
+all_003191_row_00_lower,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_003191_row_00_lower,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=42,1,1
+all_003191_row_01_upper,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_003191_row_01_upper,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=42,1,1
+all_003191_row_01_count,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_003191_row_01_count,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=42,1,1
+all_003191_row_01_lower,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_003191_row_01_lower,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=42,1,1
+all_003556,D1,True,,3,3
+all_003556_row_00_upper,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_003556_row_00_upper,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=39,1,1
+all_003556_row_00_count,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_003556_row_00_count,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=39,1,1
+all_003556_row_00_lower,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_003556_row_00_lower,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=39,1,1
+all_009197,D1,True,,5,5
+all_009197_row_00_upper,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_009197_row_00_upper,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=38,1,1
+all_009197_row_00_count,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_009197_row_00_count,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=38,1,1
+all_009197_row_00_lower,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_009197_row_00_lower,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=38,1,1
+all_009197_row_01_upper,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_009197_row_01_upper,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=42,1,1
+all_009197_row_01_count,D1_tier,True,retention=1.0; contamination=0.0,1,1
+all_009197_row_01_count,handwriting_convention_oracle,True,all assigned pixels retained=True; foreign dark pixels=0; H=42,1,1
