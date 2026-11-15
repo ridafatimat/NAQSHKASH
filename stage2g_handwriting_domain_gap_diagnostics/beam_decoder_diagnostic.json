@@ -1,0 +1,97 @@
+{
+  "note": "Width10 CTC prefix beam, no LM; separate from fixed greedy ablations, not tuned",
+  "overall": {
+    "tiers": 14,
+    "characters": 97,
+    "cer": 0.7319587628865979,
+    "cer_no_whitespace": 0.8732394366197183,
+    "exact_tiers": 0,
+    "exact_accuracy": 0.0,
+    "substitutions": 45,
+    "deletions": 24,
+    "insertions": 2,
+    "no_space_substitutions": 42,
+    "no_space_deletions": 20,
+    "no_space_insertions": 0,
+    "mean_blank_probability": 0.9380935515676226,
+    "mean_blank_argmax_fraction": 0.9391406741866725,
+    "empty_predictions": 0,
+    "mean_entropy": 0.034490264519783,
+    "mean_target_ctc_nll_per_char": 8.106038351456531,
+    "insufficient_ctc_samples": 0,
+    "repeated_path_frames": 38,
+    "collapsed_repeat_characters": 26
+  },
+  "predictions": [
+    {
+      "id": "all_003191_row_00_upper",
+      "truth": "P    F",
+      "prediction": "F   "
+    },
+    {
+      "id": "all_003191_row_00_count",
+      "truth": "slijdfa",
+      "prediction": "ziiq{|a"
+    },
+    {
+      "id": "all_003191_row_00_lower",
+      "truth": "R ]  V",
+      "prediction": "F J  V"
+    },
+    {
+      "id": "all_003191_row_01_upper",
+      "truth": "NI L   QG",
+      "prediction": "BIE  M"
+    },
+    {
+      "id": "all_003191_row_01_count",
+      "truth": "pdjamajjadcabba",
+      "prediction": "riqciiiiiiii"
+    },
+    {
+      "id": "all_003191_row_01_lower",
+      "truth": "[ X Y     TRT",
+      "prediction": "J B B  E"
+    },
+    {
+      "id": "all_003556_row_00_upper",
+      "truth": "N   HMDJ",
+      "prediction": "E     "
+    },
+    {
+      "id": "all_003556_row_00_count",
+      "truth": "'fscdcia",
+      "prediction": "iiii"
+    },
+    {
+      "id": "all_003556_row_00_lower",
+      "truth": "U",
+      "prediction": "X"
+    },
+    {
+      "id": "all_009197_row_00_upper",
+      "truth": "F G",
+      "prediction": "F  I"
+    },
+    {
+      "id": "all_009197_row_00_count",
+      "truth": "wiafba",
+      "prediction": "iii"
+    },
+    {
+      "id": "all_009197_row_00_lower",
+      "truth": "[ S Y",
+      "prediction": "M  E"
+    },
+    {
+      "id": "all_009197_row_01_upper",
+      "truth": "P L H",
+      "prediction": "F  L F"
+    },
+    {
+      "id": "all_009197_row_01_count",
+      "truth": "wdjad",
+      "prediction": "icci"
+    }
+  ]
+}
