@@ -1,0 +1,14 @@
+{
+  "no_training_or_optimizer": true,
+  "model_weights_unchanged": true,
+  "no_parameter_gradients": true,
+  "previous_experiment_and_selected_E1_unchanged": true,
+  "read_inputs_unchanged": true,
+  "baseline_predictions_exactly_reproduced": true,
+  "handwritten_samples_per_ablation": true,
+  "no_protected_test_inference": true,
+  "all_ctc_lengths_sufficient": true,
+  "all_paired_reference_targets_equal": true,
+  "supplementary_model_no_gradients": true,
+  "previous_hashes_reverified_after_supplement": true
+}
