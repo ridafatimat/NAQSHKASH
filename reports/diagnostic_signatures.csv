@@ -1,0 +1,11 @@
+candidate,signature,images,parents,representative
+C4,wrong proposal despite sole legal path (margin sentinel 99),39,13,all_006186__aug_03_rotation_jpeg
+C5,wrong proposal despite sole legal path (margin sentinel 99),39,13,all_006186__aug_03_rotation_jpeg
+C4,scale smaller than 65% of tallest band,355,117,all_000158__aug_01_rotation_jpeg
+C5,scale smaller than 65% of tallest band,357,117,all_000158__aug_01_rotation_jpeg
+C4,band taller than 1.6 component scales,331,109,all_000158__aug_01_rotation_jpeg
+C5,band taller than 1.6 component scales,330,109,all_000158__aug_01_rotation_jpeg
+C4,wrong row count,243,68,all_001016__aug_02_perspective
+C5,wrong row count,43,16,all_001016__aug_02_perspective
+C4,accepted wrong structure,291,99,all_000158__aug_01_rotation_jpeg
+C5,accepted wrong structure,90,47,all_000158__aug_01_rotation_jpeg

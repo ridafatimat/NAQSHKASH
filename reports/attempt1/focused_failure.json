@@ -1,0 +1,9 @@
+{
+  "tests": 12,
+  "passed": 11,
+  "failed": 1,
+  "failure": "test_disconnected_positive_dots_and_small_count: edge_00001 rejected, expected valid grouping",
+  "cause": "5px gap > round(22.7*.18)=4",
+  "correction": "gap ratio .25 with unchanged extent guard",
+  "validation_used": false
+}
