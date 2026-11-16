@@ -1,0 +1,19 @@
+{
+  "complete": true,
+  "before_D1_implementation": true,
+  "report_sha256": "b472fbc179db994d4aa61ce7f2ae21e19ea57da9eb4a91d121fa5a32444b65c4",
+  "search_audit": {
+    "random_sequences": 1350,
+    "maximum_bands": 9,
+    "top_two_scores_match": true,
+    "verified_search_defects": 0,
+    "notes": "Exhaustive full paths versus literal Stage 2C DP; tie path order is not a scoring defect. Morphology and priors can still be wrong."
+  },
+  "reproduction": {
+    "pages": 1612,
+    "candidate_outcomes": 3224,
+    "saved_acceptance_and_correctness_reproduced": true,
+    "elapsed_seconds": 458.5412001999939,
+    "small_actual_sequences_exhaustively_checked": 2696
+  }
+}

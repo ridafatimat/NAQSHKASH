@@ -1,0 +1,127 @@
+{
+  "C5_correct_D1_not_correct": [
+    {
+      "partition": "tuning",
+      "dataset": "general",
+      "parent_id": "all_005744",
+      "case_id": "all_005744__aug_01_jpeg",
+      "kind": "scanned",
+      "C5": "correct",
+      "D1": "rejected",
+      "D1_reason": "confidence:ambiguous_row_or_role"
+    },
+    {
+      "partition": "tuning",
+      "dataset": "general",
+      "parent_id": "all_005744",
+      "case_id": "all_005744__aug_03_noise",
+      "kind": "scanned",
+      "C5": "correct",
+      "D1": "rejected",
+      "D1_reason": "confidence:ambiguous_row_or_role"
+    },
+    {
+      "partition": "tuning",
+      "dataset": "general",
+      "parent_id": "all_009950",
+      "case_id": "all_009950__aug_01_noise",
+      "kind": "scanned",
+      "C5": "correct",
+      "D1": "rejected",
+      "D1_reason": "confidence:ambiguous_row_or_role"
+    },
+    {
+      "partition": "tuning",
+      "dataset": "general",
+      "parent_id": "all_009950",
+      "case_id": "all_009950__aug_02_perspective",
+      "kind": "scanned",
+      "C5": "correct",
+      "D1": "rejected",
+      "D1_reason": "confidence:ambiguous_row_or_role"
+    },
+    {
+      "partition": "tuning",
+      "dataset": "general",
+      "parent_id": "all_009950",
+      "case_id": "all_009950__aug_03_gaussian_blur_contrast",
+      "kind": "scanned",
+      "C5": "correct",
+      "D1": "rejected",
+      "D1_reason": "confidence:ambiguous_row_or_role"
+    },
+    {
+      "partition": "tuning",
+      "dataset": "general",
+      "parent_id": "all_009950",
+      "case_id": "all_009950__clean",
+      "kind": "clean",
+      "C5": "correct",
+      "D1": "rejected",
+      "D1_reason": "confidence:ambiguous_row_or_role"
+    },
+    {
+      "partition": "tuning",
+      "dataset": "positive",
+      "parent_id": "edge_00310",
+      "case_id": "edge_00310__aug_02_jpeg",
+      "kind": "scanned",
+      "C5": "correct",
+      "D1": "wrong",
+      "D1_reason": "row_count_mismatch"
+    },
+    {
+      "partition": "tuning",
+      "dataset": "positive",
+      "parent_id": "edge_00310",
+      "case_id": "edge_00310__aug_03_brightness_noise",
+      "kind": "scanned",
+      "C5": "correct",
+      "D1": "wrong",
+      "D1_reason": "row_count_mismatch"
+    },
+    {
+      "partition": "tuning",
+      "dataset": "positive",
+      "parent_id": "edge_00310",
+      "case_id": "edge_00310__clean",
+      "kind": "clean",
+      "C5": "correct",
+      "D1": "wrong",
+      "D1_reason": "row_count_mismatch"
+    },
+    {
+      "partition": "validation",
+      "dataset": "positive",
+      "parent_id": "edge_00323",
+      "case_id": "edge_00323__aug_02_perspective",
+      "kind": "scanned",
+      "C5": "correct",
+      "D1": "rejected",
+      "D1_reason": "components:unassigned_foreground"
+    }
+  ],
+  "long_parent_C4_errors_by_case": {
+    "edge_00323__aug_01_resolution_jpeg": {
+      "kind": "scanned",
+      "characters": 758,
+      "errors": 119
+    },
+    "edge_00323__aug_02_perspective": {
+      "kind": "scanned",
+      "characters": 758,
+      "errors": 479
+    },
+    "edge_00323__aug_03_contrast": {
+      "kind": "scanned",
+      "characters": 758,
+      "errors": 112
+    },
+    "edge_00323__clean": {
+      "kind": "clean",
+      "characters": 758,
+      "errors": 112
+    }
+  },
+  "notes": "No candidate or labels changed after exposed validation. Lower conditional CER cannot be credited to OCR improvement; D1 abstains on the long perspective page."
+}
