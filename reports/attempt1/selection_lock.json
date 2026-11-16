@@ -1,0 +1,102 @@
+{
+  "selected_grid": "E1.3_H0.85_M0.2",
+  "candidate": "D1",
+  "selection_partition": "tuning",
+  "validation_used_for_selection": false,
+  "independent_holdout_claim": false,
+  "ranking": [
+    {
+      "candidate": "E1.3_H0.85_M0.2",
+      "correct": 827,
+      "wrong": 3,
+      "positive_correct": 532,
+      "general_correct": 295,
+      "clean_correct": 277,
+      "safety_gate": true,
+      "wrong_reference": 75,
+      "correct_reference": {
+        "positive": 327,
+        "general": 271
+      }
+    },
+    {
+      "candidate": "E1.3_H0.85_M0.4",
+      "correct": 801,
+      "wrong": 3,
+      "positive_correct": 507,
+      "general_correct": 294,
+      "clean_correct": 267,
+      "safety_gate": true,
+      "wrong_reference": 75,
+      "correct_reference": {
+        "positive": 327,
+        "general": 271
+      }
+    },
+    {
+      "candidate": "E1.5_H0.85_M0.2",
+      "correct": 798,
+      "wrong": 32,
+      "positive_correct": 535,
+      "general_correct": 263,
+      "clean_correct": 268,
+      "safety_gate": true,
+      "wrong_reference": 75,
+      "correct_reference": {
+        "positive": 327,
+        "general": 271
+      }
+    },
+    {
+      "candidate": "E1.3_H0_M0.2",
+      "correct": 779,
+      "wrong": 22,
+      "positive_correct": 479,
+      "general_correct": 300,
+      "clean_correct": 261,
+      "safety_gate": true,
+      "wrong_reference": 75,
+      "correct_reference": {
+        "positive": 327,
+        "general": 271
+      }
+    },
+    {
+      "candidate": "E1.5_H0.85_M0.4",
+      "correct": 772,
+      "wrong": 32,
+      "positive_correct": 510,
+      "general_correct": 262,
+      "clean_correct": 258,
+      "safety_gate": true,
+      "wrong_reference": 75,
+      "correct_reference": {
+        "positive": 327,
+        "general": 271
+      }
+    },
+    {
+      "candidate": "E1.5_H0_M0.2",
+      "correct": 750,
+      "wrong": 51,
+      "positive_correct": 482,
+      "general_correct": 268,
+      "clean_correct": 252,
+      "safety_gate": false,
+      "wrong_reference": 75,
+      "correct_reference": {
+        "positive": 327,
+        "general": 271
+      }
+    }
+  ],
+  "locked_files": {
+    "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\engine.py": "19cfe9b79621c82129711906885742882cf665a027b92bf4bb01c594255c5213",
+    "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\pipeline_d1.py": "b6509e3fc26e8a5c8205ef2fafb7b197a11163dad9b20f6fc0e795f04d9afc9c",
+    "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\dcore.py": "266539567512c9b2ab0c4e8e32d8342b75eb594959d010308d7cb6c7216b0ab8",
+    "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\configs\\experiment_design.json": "03e5e867909725beb33eaa3aa4682b4a5f7d584ba401ac7646fb717996abc43f",
+    "C:\\NAQSHKASH\\stage2\\stage2d_experiments\\configs\\D1.json": "096b44f46651ac3316c0319479b61092796ea37f0652a698838b1f58e8acb075",
+    "C:\\NAQSHKASH\\stage2\\preprocessing_improvements\\manifests\\pages.csv": "8ff08ea20a4def021832ded03b6bb21e0a41a9990cb2c662e406cb9244dd636e"
+  },
+  "elapsed_seconds": 192.06426549999742
+}

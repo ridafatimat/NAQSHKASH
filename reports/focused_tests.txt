@@ -1,0 +1,17 @@
+test_adaptive_crops_do_not_cross_bands (test_engine.EngineTests.test_adaptive_crops_do_not_cross_bands) ... ok
+test_ambiguous_roles_rejected (test_engine.EngineTests.test_ambiguous_roles_rejected) ... ok
+test_blank_rejects (test_engine.EngineTests.test_blank_rejects) ... ok
+test_disconnected_positive_dots_and_small_count (test_engine.EngineTests.test_disconnected_positive_dots_and_small_count) ... ok
+test_fragment_merge_preserves_full_tiers (test_engine.EngineTests.test_fragment_merge_preserves_full_tiers) ... ok
+test_no_invented_confidence_for_single_path (test_engine.EngineTests.test_no_invented_confidence_for_single_path) ... ok
+test_original_image_immutable (test_engine.EngineTests.test_original_image_immutable) ... ok
+test_pixels_only_api (test_engine.EngineTests.test_pixels_only_api) ... ok
+test_search_matches_exhaustive (test_engine.EngineTests.test_search_matches_exhaustive) ... ok
+test_small_components_in_proposed_crops (test_engine.EngineTests.test_small_components_in_proposed_crops) ... ok
+test_unsupported_input_rejects (test_engine.EngineTests.test_unsupported_input_rejects) ... ok
+test_wrong_row_structure_not_verified (test_engine.EngineTests.test_wrong_row_structure_not_verified) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 4.389s
+
+OK
