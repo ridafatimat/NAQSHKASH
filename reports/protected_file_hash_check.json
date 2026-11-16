@@ -1,0 +1,12 @@
+{
+  "checked": 7051,
+  "changed": [],
+  "passed": true,
+  "unexpected_files_outside_stage2d": [],
+  "stage2c_artifacts_checked": 486,
+  "stage2c_changed": [],
+  "stage2d_locked_software_checked": 7,
+  "stage2d_software_changed": [],
+  "checkpoint_sha256": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f",
+  "original_source_locks_passed": true
+}
