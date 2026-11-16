@@ -1,0 +1,16 @@
+partition,dataset,kind,reason,images,parents,example
+clean_regression,normal,clean,bands:unresolved_vertical_merge,1,1,train_023357__clean
+clean_regression,normal,clean,confidence:ambiguous_row_or_role,1,1,train_073391__clean
+tuning,general,clean,confidence:ambiguous_row_or_role,1,1,all_009950__clean
+tuning,general,scanned,confidence:ambiguous_row_or_role,5,2,all_005744__aug_01_jpeg
+tuning,positive,clean,components:unassigned_foreground,1,1,edge_00326__clean
+tuning,positive,clean,confidence:ambiguous_row_or_role,1,1,edge_00060__clean
+tuning,positive,clean,row_count_mismatch,1,1,edge_00310__clean
+tuning,positive,scanned,bands:unresolved_vertical_merge,2,2,edge_00068__aug_01_rotation_jpeg
+tuning,positive,scanned,components:unassigned_foreground,3,1,edge_00326__aug_01_jpeg
+tuning,positive,scanned,confidence:ambiguous_row_or_role,3,1,edge_00060__aug_01_gaussian_blur
+tuning,positive,scanned,row_count_mismatch,3,1,edge_00310__aug_01_perspective_shadow
+validation,general,scanned,bands:unresolved_vertical_merge,1,1,all_004200__aug_01_brightness
+validation,positive,clean,confidence:ambiguous_row_or_role,2,2,edge_00058__clean
+validation,positive,clean,row_count_mismatch,1,1,edge_00307__clean
+validation,positive,scanned,components:unassigned_foreground,1,1,edge_00323__aug_02_perspective

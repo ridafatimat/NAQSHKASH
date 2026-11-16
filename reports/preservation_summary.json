@@ -1,0 +1,41 @@
+{
+  "scope": "Original frozen 90-page diagnostic, descriptive only; all candidates frozen beforehand",
+  "rows": [
+    {
+      "candidate": "C4",
+      "pages": 90,
+      "proposals": 90,
+      "structurally_aligned": 70,
+      "components_in_aligned": 6254,
+      "components_lost_in_aligned": 0,
+      "components_with_weak_content_in_aligned": 4,
+      "aligned_pages_preserving_all_components": 70,
+      "reference_correct_pages_with_component_loss": 0
+    },
+    {
+      "candidate": "C5",
+      "pages": 90,
+      "proposals": 77,
+      "structurally_aligned": 70,
+      "components_in_aligned": 6261,
+      "components_lost_in_aligned": 0,
+      "components_with_weak_content_in_aligned": 4,
+      "aligned_pages_preserving_all_components": 70,
+      "reference_correct_pages_with_component_loss": 0
+    },
+    {
+      "candidate": "D1",
+      "pages": 90,
+      "proposals": 88,
+      "structurally_aligned": 87,
+      "components_in_aligned": 6157,
+      "components_lost_in_aligned": 0,
+      "components_with_weak_content_in_aligned": 0,
+      "aligned_pages_preserving_all_components": 87,
+      "reference_correct_pages_with_component_loss": 0
+    }
+  ],
+  "geometry_threshold": 0.95,
+  "minimum_reference_component_pixels": 3,
+  "content_support": "Otsu foreground within 1px of mapped ideal-ink pixels; approximation, not human verification"
+}
