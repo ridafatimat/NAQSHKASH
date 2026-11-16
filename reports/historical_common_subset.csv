@@ -1,0 +1,13 @@
+partition,dataset,kind,candidate,historical_common_pages,retained_common_pages,tiers,characters,errors,cer,exact_tier_accuracy
+validation,positive,scanned,C0,32,32,64,96,3,0.03125,0.953125
+validation,positive,scanned,C4,32,32,64,96,3,0.03125,0.953125
+validation,positive,scanned,C5,32,32,64,96,3,0.03125,0.953125
+validation,positive,scanned,D1,32,32,64,96,3,0.03125,0.953125
+validation,general,scanned,C0,111,111,697,4305,276,0.06411149825783972,0.8622668579626973
+validation,general,scanned,C4,111,111,697,4305,79,0.01835075493612079,0.9282639885222381
+validation,general,scanned,C5,111,111,697,4305,76,0.017653890824622532,0.9325681492109039
+validation,general,scanned,D1,111,111,697,4305,76,0.017653890824622532,0.9325681492109039
+clean_regression,normal,clean,C0,88,88,570,3667,7,0.0019089173711480775,0.9894736842105263
+clean_regression,normal,clean,C4,88,88,570,3667,7,0.0019089173711480775,0.9894736842105263
+clean_regression,normal,clean,C5,88,88,570,3667,7,0.0019089173711480775,0.9894736842105263
+clean_regression,normal,clean,D1,88,88,570,3667,7,0.0019089173711480775,0.9894736842105263
