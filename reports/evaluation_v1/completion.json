@@ -1,0 +1,13 @@
+{
+  "pages": 1612,
+  "tiers": 7162,
+  "model_inputs": 1108,
+  "exact_pixel_cache_hits": 6054,
+  "uncached_replay_equal": true,
+  "weights_unchanged": true,
+  "checkpoint_sha256": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f",
+  "vocabulary_hash": "3a6a370c6940b737301025ac5182bf1862490b2e93d55307488c86c86c674bb5",
+  "elapsed_seconds": 621.0733113999886,
+  "selection_unchanged": true,
+  "independent_test_claim": false
+}

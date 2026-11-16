@@ -1,0 +1,91 @@
+{
+  "date_local": "2026-11-06",
+  "pages": 1612,
+  "parents": 478,
+  "D1_correct": 1585,
+  "D1_wrong": 5,
+  "D1_rejected": 22,
+  "positive_scanned_validation": {
+    "pages": 138,
+    "parents": 46,
+    "correct": 137,
+    "wrong": 0,
+    "rejected": 1
+  },
+  "general_scanned_validation": {
+    "pages": 150,
+    "parents": 50,
+    "correct": 149,
+    "wrong": 0,
+    "rejected": 1
+  },
+  "clean_regression": {
+    "pages": 100,
+    "parents": 100,
+    "correct": 98,
+    "wrong": 0,
+    "rejected": 2
+  },
+  "readiness": {
+    "positive_images": 912,
+    "source_parents": 228,
+    "buckets": {
+      "training_ready": {
+        "images": 714,
+        "parents": 179
+      },
+      "manual_review": {
+        "images": 14,
+        "parents": 5
+      },
+      "excluded": {
+        "images": 184,
+        "parents": 46
+      }
+    },
+    "eligible_tiers": 1794,
+    "unique_crop_pixel_hashes": 1655,
+    "unique_target_strings": 145,
+    "tiers_by_role": {
+      "upper": 530,
+      "count": 738,
+      "lower": 526
+    },
+    "label_parents_reverified": 228,
+    "human_reviewed": 0,
+    "annotation_limit": "Recorded renderer/augmentation ideal-ink reference, not manual polygons; 3px minimum component, 1px content-support tolerance",
+    "no_training_performed": true
+  },
+  "tests": {
+    "tests": 109,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 109,
+    "deselected": 1,
+    "seconds": 21.686,
+    "initial_focused_failure_corrected": true
+  },
+  "independent_test_claim": false,
+  "deployment_approved": false,
+  "training_performed": false,
+  "git_operations": false,
+  "protected_history": {
+    "checked": 7051,
+    "changed": [],
+    "passed": true,
+    "unexpected_files_outside_stage2d": [],
+    "stage2c_artifacts_checked": 486,
+    "stage2c_changed": [],
+    "stage2d_locked_software_checked": 7,
+    "stage2d_software_changed": [],
+    "checkpoint_sha256": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f",
+    "original_source_locks_passed": true
+  },
+  "required_deliverables_present": true,
+  "visual_review_examples": [
+    "positive_edge_00001__aug_01_noise: recovered three-dot upper glyph, visible components preserved",
+    "positive_edge_00310__aug_02_jpeg: lower V split into extra count rows, residual wrong acceptance",
+    "positive_edge_00323__aug_02_perspective: difficult long page rejected, no accepted crops"
+  ]
+}
