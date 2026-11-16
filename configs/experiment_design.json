@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "baseline": "C5 preprocessing, historical candidates untouched",
+  "development_partition": "original Stage 2C tuning only",
+  "comparison_partition": "Stage 2C validation already exposed; no independent claim",
+  "selection_rule": "Require <=50% C5 tuning scanned wrong acceptances, >=95% C5 correct scanned pages in EACH dataset. Among passing configurations maximize total correct then minimize wrong then lexical name. If none pass, minimize wrong then maximize correct; report failed gate and no promotion.",
+  "grid": {
+    "E1.3_H0_M0.2": {
+      "merge_extent": 1.3,
+      "maximum_band_extent": 1.65,
+      "band_height_weight": 0,
+      "margin": 0.2,
+      "minimum_count_evidence": 0.1,
+      "gap_ratio": 0.25
+    },
+    "E1.3_H0.85_M0.2": {
+      "merge_extent": 1.3,
+      "maximum_band_extent": 1.65,
+      "band_height_weight": 0.85,
+      "margin": 0.2,
+      "minimum_count_evidence": 0.1,
+      "gap_ratio": 0.25
+    },
+    "E1.3_H0.85_M0.4": {
+      "merge_extent": 1.3,
+      "maximum_band_extent": 1.65,
+      "band_height_weight": 0.85,
+      "margin": 0.4,
+      "minimum_count_evidence": 0.1,
+      "gap_ratio": 0.25
+    },
+    "E1.5_H0_M0.2": {
+      "merge_extent": 1.5,
+      "maximum_band_extent": 1.65,
+      "band_height_weight": 0,
+      "margin": 0.2,
+      "minimum_count_evidence": 0.1,
+      "gap_ratio": 0.25
+    },
+    "E1.5_H0.85_M0.2": {
+      "merge_extent": 1.5,
+      "maximum_band_extent": 1.65,
+      "band_height_weight": 0.85,
+      "margin": 0.2,
+      "minimum_count_evidence": 0.1,
+      "gap_ratio": 0.25
+    },
+    "E1.5_H0.85_M0.4": {
+      "merge_extent": 1.5,
+      "maximum_band_extent": 1.65,
+      "band_height_weight": 0.85,
+      "margin": 0.4,
+      "minimum_count_evidence": 0.1,
+      "gap_ratio": 0.25
+    }
+  },
+  "revision_reason": "Focused training-parent regression edge_00001: 5-pixel inter-dot gap exceeds 4-pixel allowance. Use 0.25 scale gap, still extent-limited. No validation input used."
+}
