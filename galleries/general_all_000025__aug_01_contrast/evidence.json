@@ -1,0 +1,490 @@
+{
+  "page": {
+    "dataset": "general",
+    "parent_id": "all_000025",
+    "partition": "tuning",
+    "scope": "exploratory_development_only",
+    "source_image": "images/all_000025.png",
+    "source_json": "json/all_000025.json",
+    "source_sha256": "f8e889bc9616ad5d6d1689656e7bf5739e38a6f6521c6270c66955eae2c6c969",
+    "case_id": "all_000025__aug_01_contrast",
+    "kind": "scanned",
+    "image_member": "talim_10000_scanned/images/all_000025__aug_01_contrast.jpg",
+    "image_sha256": "41cf8ef3d45b9d40eac2b422d604bdfd5b19b09d42ca20609b090b979c71019f",
+    "augmentation": "contrast",
+    "parameters": "{\"operations\":[{\"factor\":1.062139,\"type\":\"contrast\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"medium\",\"version\":\"1.2.0\"}",
+    "width": "373",
+    "height": "222"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "upper",
+      "raw": "M  EK",
+      "truth": "M  EK",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "mbecaa",
+      "truth": "mbecaa",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": "  T  ^",
+      "truth": "T  ^",
+      "leading_offset": 2
+    }
+  ],
+  "predictions": [
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000025",
+      "case_id": "all_000025__aug_01_contrast",
+      "kind": "scanned",
+      "augmentation": "contrast",
+      "row": "0",
+      "role": "upper",
+      "truth": "M  EK",
+      "prediction": "M  EK",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "71d869d17c1776d863604a99531215a8ecf6aba1c31537922ff0966227056bc1",
+      "resized_width": "496",
+      "ctc_steps": "124",
+      "ctc_required": "6",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000025",
+      "case_id": "all_000025__aug_01_contrast",
+      "kind": "scanned",
+      "augmentation": "contrast",
+      "row": "0",
+      "role": "count",
+      "truth": "mbecaa",
+      "prediction": "mbecaa",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "ae65690b59ddafb4d7ba6dd3d6421e032ae5a8159092d01e3273c7276395a0ff",
+      "resized_width": "387",
+      "ctc_steps": "96",
+      "ctc_required": "7",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000025",
+      "case_id": "all_000025__aug_01_contrast",
+      "kind": "scanned",
+      "augmentation": "contrast",
+      "row": "0",
+      "role": "lower",
+      "truth": "T  ^",
+      "prediction": "T  ^",
+      "leading_offset": "2",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "3d7de047527e81acc1ca6f71dea702decf723d1bb74419fcd01f1b4aefe40b15",
+      "resized_width": "522",
+      "ctc_steps": "130",
+      "ctc_required": "5",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    }
+  ],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "M  EK",
+            "truth": "M  EK",
+            "leading_offset": 0,
+            "box": [
+              34,
+              34,
+              336,
+              73
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "mbecaa",
+            "truth": "mbecaa",
+            "leading_offset": 0,
+            "box": [
+              34,
+              84,
+              336,
+              134
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 3,
+            "row": 0,
+            "role": "lower",
+            "raw": "  T  ^",
+            "truth": "T  ^",
+            "leading_offset": 2,
+            "box": [
+              34,
+              134,
+              336,
+              171
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              34,
+              34,
+              336,
+              73
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              34,
+              84,
+              336,
+              134
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              34,
+              134,
+              336,
+              171
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 99.0,
+        "band_count": 3,
+        "component_scale": 35.449999999999996,
+        "perspective_applied": true,
+        "reason": "supported_baseline_convergence",
+        "slope_a": -0.009988971997901242,
+        "slope_b": 9.258900593414848e-05,
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "M  EK",
+            "truth": "M  EK",
+            "leading_offset": 0,
+            "box": [
+              34,
+              34,
+              336,
+              73
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "mbecaa",
+            "truth": "mbecaa",
+            "leading_offset": 0,
+            "box": [
+              34,
+              84,
+              336,
+              134
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 3,
+            "row": 0,
+            "role": "lower",
+            "raw": "  T  ^",
+            "truth": "T  ^",
+            "leading_offset": 2,
+            "box": [
+              34,
+              134,
+              336,
+              171
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              34,
+              34,
+              336,
+              73
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              34,
+              84,
+              336,
+              134
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              34,
+              134,
+              336,
+              171
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 99.0,
+        "band_count": 3,
+        "component_scale": 35.449999999999996,
+        "perspective_applied": true,
+        "reason": "supported_baseline_convergence",
+        "slope_a": -0.009988971997901242,
+        "slope_b": 9.258900593414848e-05,
+        "noise_filter_applied": false
+      }
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "M  EK",
+            "truth": "M  EK",
+            "leading_offset": 0,
+            "box": [
+              34,
+              34,
+              336,
+              73
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "mbecaa",
+            "truth": "mbecaa",
+            "leading_offset": 0,
+            "box": [
+              34,
+              84,
+              336,
+              134
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 3,
+            "row": 0,
+            "role": "lower",
+            "raw": "  T  ^",
+            "truth": "T  ^",
+            "leading_offset": 2,
+            "box": [
+              34,
+              134,
+              336,
+              171
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              34,
+              34,
+              336,
+              73
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              34,
+              84,
+              336,
+              134
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              34,
+              134,
+              336,
+              171
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": true,
+        "reason": "supported_baseline_convergence",
+        "slope_a": -0.009988971997901242,
+        "slope_b": 9.258900593414848e-05,
+        "noise_filter_applied": false,
+        "component_scale": 35.449999999999996,
+        "band_aware_scale": 38.7,
+        "bands": [
+          [
+            38,
+            69
+          ],
+          [
+            88,
+            130
+          ],
+          [
+            138,
+            167
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.4773507820933274,
+            "height": 31,
+            "component_height": 14.200000000000003,
+            "width": 32.0,
+            "mass": 841
+          },
+          {
+            "prob": 0.736577609284712,
+            "height": 42,
+            "component_height": 38.0,
+            "width": 34.3,
+            "mass": 2925
+          },
+          {
+            "prob": 0.4598508387962557,
+            "height": 29,
+            "component_height": 11.2,
+            "width": 32.0,
+            "mass": 694
+          }
+        ],
+        "legal_alternatives": 1,
+        "heuristic_scores": [
+          -2.98164254397651
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": null,
+        "path": [
+          [
+            0,
+            [
+              "upper",
+              "count",
+              "lower"
+            ]
+          ]
+        ],
+        "inferred_rows": 1,
+        "rejection": ""
+      }
+    }
+  }
+}

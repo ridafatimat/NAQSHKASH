@@ -1,0 +1,234 @@
+{
+  "page": {
+    "dataset": "general",
+    "parent_id": "all_004200",
+    "partition": "validation",
+    "scope": "exploratory_development_only",
+    "source_image": "images/all_004200.png",
+    "source_json": "json/all_004200.json",
+    "source_sha256": "68c2d37b7365e197538a40e2590ec8acd9d1bffffe16c01c4ef18d2b10a38cd9",
+    "case_id": "all_004200__aug_01_brightness",
+    "kind": "scanned",
+    "image_member": "talim_10000_scanned/images/all_004200__aug_01_brightness.jpg",
+    "image_sha256": "a278d2ec79ea1f07426bd712c88f490426485aa3be280865729bfcd540d59d0f",
+    "augmentation": "brightness",
+    "parameters": "{\"operations\":[{\"factor\":1.093714,\"type\":\"brightness\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"medium\",\"version\":\"1.2.0\"}",
+    "width": "973",
+    "height": "732"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "upper",
+      "raw": "   P G CQL",
+      "truth": "P G CQL",
+      "leading_offset": 3
+    },
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "pcgsaabeac",
+      "truth": "pcgsaabeac",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": "R \\   Y",
+      "truth": "R \\   Y",
+      "leading_offset": 0
+    },
+    {
+      "row": 1,
+      "role": "upper",
+      "raw": "    P NF A  G LQK",
+      "truth": "P NF A  G LQK",
+      "leading_offset": 4
+    },
+    {
+      "row": 1,
+      "role": "count",
+      "raw": "lcmifdlkhjddjgbcba",
+      "truth": "lcmifdlkhjddjgbcba",
+      "leading_offset": 0
+    },
+    {
+      "row": 1,
+      "role": "lower",
+      "raw": "Y S  Y     ^     Z",
+      "truth": "Y S  Y     ^     Z",
+      "leading_offset": 0
+    },
+    {
+      "row": 2,
+      "role": "upper",
+      "raw": "D",
+      "truth": "D",
+      "leading_offset": 0
+    },
+    {
+      "row": 2,
+      "role": "count",
+      "raw": "|c",
+      "truth": "|c",
+      "leading_offset": 0
+    },
+    {
+      "row": 3,
+      "role": "upper",
+      "raw": "EG",
+      "truth": "EG",
+      "leading_offset": 0
+    },
+    {
+      "row": 3,
+      "role": "count",
+      "raw": "voc",
+      "truth": "voc",
+      "leading_offset": 0
+    }
+  ],
+  "predictions": [],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "tier_role_or_grouping_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              26,
+              57,
+              495,
+              102
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              26,
+              107,
+              495,
+              197
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "upper",
+            "box": [
+              26,
+              226,
+              934,
+              267
+            ]
+          },
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              26,
+              276,
+              934,
+              368
+            ]
+          }
+        ],
+        [
+          {
+            "row": 2,
+            "role": "upper",
+            "box": [
+              26,
+              387,
+              118,
+              414
+            ]
+          },
+          {
+            "row": 2,
+            "role": "count",
+            "box": [
+              26,
+              434,
+              118,
+              477
+            ]
+          }
+        ],
+        [
+          {
+            "row": 3,
+            "role": "upper",
+            "box": [
+              26,
+              545,
+              162,
+              578
+            ]
+          },
+          {
+            "row": 3,
+            "role": "count",
+            "box": [
+              26,
+              590,
+              162,
+              639
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 0.06218232393475809,
+        "band_count": 8,
+        "component_scale": 35.95,
+        "perspective_applied": true,
+        "reason": "supported_baseline_convergence",
+        "slope_a": 0.046454093361159084,
+        "slope_b": -0.00020006116181542537,
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": false,
+      "assessment": {
+        "correct": false,
+        "reason": "ambiguous_role_or_row_assignment",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [],
+      "diagnostics": {}
+    },
+    "D1": {
+      "accepted": false,
+      "assessment": {
+        "correct": false,
+        "reason": "bands:unresolved_vertical_merge",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [],
+      "diagnostics": {
+        "perspective_applied": true,
+        "reason": "supported_baseline_convergence",
+        "slope_a": 0.046454093361159084,
+        "slope_b": -0.00020006116181542537,
+        "noise_filter_applied": false
+      }
+    }
+  }
+}

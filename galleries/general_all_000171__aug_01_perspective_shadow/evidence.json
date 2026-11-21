@@ -1,0 +1,1184 @@
+{
+  "page": {
+    "dataset": "general",
+    "parent_id": "all_000171",
+    "partition": "validation",
+    "scope": "exploratory_development_only",
+    "source_image": "images/all_000171.png",
+    "source_json": "json/all_000171.json",
+    "source_sha256": "5ec724fb324d0008a356042a676bd1a7e2c3efcfb588b7e1221112cd6be3c0bb",
+    "case_id": "all_000171__aug_01_perspective_shadow",
+    "kind": "scanned",
+    "image_member": "talim_10000_scanned/images/all_000171__aug_01_perspective_shadow.jpg",
+    "image_sha256": "fa10cb970d87f3af7bde84a6d5bc0c5cbde11dc4a4b052efbc32c7e0df8ef04e",
+    "augmentation": "perspective+shadow",
+    "parameters": "{\"operations\":[{\"axis\":\"vertical\",\"inset\":0.062725,\"reverse\":true,\"type\":\"perspective\"},{\"direction\":\"left\",\"softness\":2.16681,\"strength\":0.148338,\"type\":\"shadow\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"strong\",\"version\":\"1.2.0\"}",
+    "width": "623",
+    "height": "732"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "upper",
+      "raw": "L     G",
+      "truth": "L     G",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "{hmfjac",
+      "truth": "{hmfjac",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": "  T R",
+      "truth": "T R",
+      "leading_offset": 2
+    },
+    {
+      "row": 1,
+      "role": "upper",
+      "raw": "C   J",
+      "truth": "C   J",
+      "leading_offset": 0
+    },
+    {
+      "row": 1,
+      "role": "count",
+      "raw": "(ckaida",
+      "truth": "(ckaida",
+      "leading_offset": 0
+    },
+    {
+      "row": 1,
+      "role": "lower",
+      "raw": "  Z  [\\",
+      "truth": "Z  [\\",
+      "leading_offset": 2
+    },
+    {
+      "row": 2,
+      "role": "upper",
+      "raw": "E   GP   G",
+      "truth": "E   GP   G",
+      "leading_offset": 0
+    },
+    {
+      "row": 2,
+      "role": "count",
+      "raw": "sdnibnajijc",
+      "truth": "sdnibnajijc",
+      "leading_offset": 0
+    },
+    {
+      "row": 2,
+      "role": "lower",
+      "raw": "  ]    ]",
+      "truth": "]    ]",
+      "leading_offset": 2
+    },
+    {
+      "row": 3,
+      "role": "upper",
+      "raw": "  K",
+      "truth": "K",
+      "leading_offset": 2
+    },
+    {
+      "row": 3,
+      "role": "count",
+      "raw": "whpckeb",
+      "truth": "whpckeb",
+      "leading_offset": 0
+    },
+    {
+      "row": 3,
+      "role": "lower",
+      "raw": "\\   _ S",
+      "truth": "\\   _ S",
+      "leading_offset": 0
+    }
+  ],
+  "predictions": [
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "0",
+      "role": "upper",
+      "truth": "L     G",
+      "prediction": "L     G",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "923ed9b33853909f7f436588a5be04c689924ebceb968fdbe9e26d97b22e698c",
+      "resized_width": "696",
+      "ctc_steps": "174",
+      "ctc_required": "11",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "0",
+      "role": "count",
+      "truth": "{hmfjac",
+      "prediction": "{hmfjac",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "2d22c1bf32e2ac952af9ef1cbaa2d39d6a5e0f86501d66673d8147fe121bfc80",
+      "resized_width": "455",
+      "ctc_steps": "113",
+      "ctc_required": "7",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "0",
+      "role": "lower",
+      "truth": "T R",
+      "prediction": "T R",
+      "leading_offset": "2",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "94f80e292862bcd674048deef0575b75885f516bad184e092b571b24d3f8446c",
+      "resized_width": "768",
+      "ctc_steps": "192",
+      "ctc_required": "3",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "1",
+      "role": "upper",
+      "truth": "C   J",
+      "prediction": "C   J",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "0ba8a267b5310ff70d80b4d22c3664b9939a14f6f8a179d9f890cce7412faaea",
+      "resized_width": "739",
+      "ctc_steps": "184",
+      "ctc_required": "7",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "1",
+      "role": "count",
+      "truth": "(ckaida",
+      "prediction": "(ckaida",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "ff8370ce9315962cee94bd90ece7189b0ba63df92307c7a538d1321817aee101",
+      "resized_width": "476",
+      "ctc_steps": "119",
+      "ctc_required": "7",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "1",
+      "role": "lower",
+      "truth": "Z  [\\",
+      "prediction": "Z  [\\",
+      "leading_offset": "2",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "436d9394841ca902d41b2b757d783de54a607219cae3819d717308022e19f313",
+      "resized_width": "692",
+      "ctc_steps": "173",
+      "ctc_required": "6",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "2",
+      "role": "upper",
+      "truth": "E   GP   G",
+      "prediction": "E   GP   G",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "fa1e3d79385bb49044672bcacfd0d08386ab7057dbfea74f1092567d9856f677",
+      "resized_width": "1057",
+      "ctc_steps": "264",
+      "ctc_required": "14",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "2",
+      "role": "count",
+      "truth": "sdnibnajijc",
+      "prediction": "sdnibnajijc",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "3f1b6b5ff46d0416cbd8dcd3fd0191c0bfed450d23341a3c10d504417faadcb6",
+      "resized_width": "762",
+      "ctc_steps": "190",
+      "ctc_required": "11",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "2",
+      "role": "lower",
+      "truth": "]    ]",
+      "prediction": "J    ]",
+      "leading_offset": "2",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "99571a63225296983139c177cd6616c3f6c5649762dcfae301a92b74232f8eee",
+      "resized_width": "1260",
+      "ctc_steps": "315",
+      "ctc_required": "9",
+      "substitutions": "1",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "3",
+      "role": "upper",
+      "truth": "K",
+      "prediction": "K",
+      "leading_offset": "2",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "56d8b4a7f602b87fce32e1f951e2982c0f8739796297ec320d9bb1eaffaeef55",
+      "resized_width": "603",
+      "ctc_steps": "150",
+      "ctc_required": "1",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "3",
+      "role": "count",
+      "truth": "whpckeb",
+      "prediction": "whpckeb",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "37fe3a8eb97669dadca6f489b6c80ebb01c68111b1dfbb62746a51ee4d88a5c7",
+      "resized_width": "485",
+      "ctc_steps": "121",
+      "ctc_required": "7",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000171",
+      "case_id": "all_000171__aug_01_perspective_shadow",
+      "kind": "scanned",
+      "augmentation": "perspective+shadow",
+      "row": "3",
+      "role": "lower",
+      "truth": "\\   _ S",
+      "prediction": "\\   _ S",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "60cdaf60125befa674e46d500ad3d523bdd3213fa75ab802ad44b61bf3f97eef",
+      "resized_width": "686",
+      "ctc_steps": "171",
+      "ctc_required": "9",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    }
+  ],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "tier_role_or_grouping_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              38,
+              78,
+              386,
+              110
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              38,
+              126,
+              386,
+              175
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              38,
+              175,
+              386,
+              204
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "upper",
+            "box": [
+              46,
+              240,
+              381,
+              269
+            ]
+          },
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              46,
+              286,
+              381,
+              331
+            ]
+          },
+          {
+            "row": 1,
+            "role": "lower",
+            "box": [
+              46,
+              331,
+              381,
+              362
+            ]
+          }
+        ],
+        [
+          {
+            "row": 2,
+            "role": "upper",
+            "box": [
+              54,
+              392,
+              566,
+              423
+            ]
+          },
+          {
+            "row": 2,
+            "role": "count",
+            "box": [
+              54,
+              435,
+              566,
+              504
+            ]
+          }
+        ],
+        [
+          {
+            "row": 3,
+            "role": "upper",
+            "box": [
+              62,
+              535,
+              373,
+              568
+            ]
+          },
+          {
+            "row": 3,
+            "role": "count",
+            "box": [
+              62,
+              575,
+              373,
+              645
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 0.8372081128747801,
+        "band_count": 10,
+        "component_scale": 31.5,
+        "perspective_applied": false,
+        "reason": "no_image_only_score_gain",
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "tier_role_or_grouping_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              38,
+              78,
+              386,
+              110
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              38,
+              126,
+              386,
+              175
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              38,
+              175,
+              386,
+              204
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "upper",
+            "box": [
+              46,
+              240,
+              381,
+              269
+            ]
+          },
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              46,
+              286,
+              381,
+              331
+            ]
+          },
+          {
+            "row": 1,
+            "role": "lower",
+            "box": [
+              46,
+              331,
+              381,
+              362
+            ]
+          }
+        ],
+        [
+          {
+            "row": 2,
+            "role": "upper",
+            "box": [
+              54,
+              392,
+              566,
+              423
+            ]
+          },
+          {
+            "row": 2,
+            "role": "count",
+            "box": [
+              54,
+              435,
+              566,
+              504
+            ]
+          }
+        ],
+        [
+          {
+            "row": 3,
+            "role": "upper",
+            "box": [
+              62,
+              535,
+              373,
+              568
+            ]
+          },
+          {
+            "row": 3,
+            "role": "count",
+            "box": [
+              62,
+              575,
+              373,
+              645
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 0.8372081128747801,
+        "band_count": 10,
+        "component_scale": 31.5,
+        "perspective_applied": false,
+        "reason": "no_image_only_score_gain",
+        "noise_filter_applied": false
+      }
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "L     G",
+            "truth": "L     G",
+            "leading_offset": 0,
+            "box": [
+              38,
+              78,
+              386,
+              110
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "{hmfjac",
+            "truth": "{hmfjac",
+            "leading_offset": 0,
+            "box": [
+              38,
+              126,
+              386,
+              175
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 3,
+            "row": 0,
+            "role": "lower",
+            "raw": "  T R",
+            "truth": "T R",
+            "leading_offset": 2,
+            "box": [
+              38,
+              175,
+              386,
+              204
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 4,
+            "row": 1,
+            "role": "upper",
+            "raw": "C   J",
+            "truth": "C   J",
+            "leading_offset": 0,
+            "box": [
+              46,
+              240,
+              381,
+              269
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 5,
+            "row": 1,
+            "role": "count",
+            "raw": "(ckaida",
+            "truth": "(ckaida",
+            "leading_offset": 0,
+            "box": [
+              46,
+              286,
+              381,
+              331
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 6,
+            "row": 1,
+            "role": "lower",
+            "raw": "  Z  [\\",
+            "truth": "Z  [\\",
+            "leading_offset": 2,
+            "box": [
+              46,
+              331,
+              381,
+              362
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 7,
+            "row": 2,
+            "role": "upper",
+            "raw": "E   GP   G",
+            "truth": "E   GP   G",
+            "leading_offset": 0,
+            "box": [
+              54,
+              392,
+              566,
+              423
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 8,
+            "row": 2,
+            "role": "count",
+            "raw": "sdnibnajijc",
+            "truth": "sdnibnajijc",
+            "leading_offset": 0,
+            "box": [
+              54,
+              435,
+              566,
+              478
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 9,
+            "row": 2,
+            "role": "lower",
+            "raw": "  ]    ]",
+            "truth": "]    ]",
+            "leading_offset": 2,
+            "box": [
+              54,
+              478,
+              566,
+              504
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 10,
+            "row": 3,
+            "role": "upper",
+            "raw": "  K",
+            "truth": "K",
+            "leading_offset": 2,
+            "box": [
+              62,
+              535,
+              373,
+              568
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 11,
+            "row": 3,
+            "role": "count",
+            "raw": "whpckeb",
+            "truth": "whpckeb",
+            "leading_offset": 0,
+            "box": [
+              62,
+              575,
+              373,
+              616
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 12,
+            "row": 3,
+            "role": "lower",
+            "raw": "\\   _ S",
+            "truth": "\\   _ S",
+            "leading_offset": 0,
+            "box": [
+              62,
+              616,
+              373,
+              645
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              38,
+              78,
+              386,
+              110
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              38,
+              126,
+              386,
+              175
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              38,
+              175,
+              386,
+              204
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "upper",
+            "box": [
+              46,
+              240,
+              381,
+              269
+            ]
+          },
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              46,
+              286,
+              381,
+              331
+            ]
+          },
+          {
+            "row": 1,
+            "role": "lower",
+            "box": [
+              46,
+              331,
+              381,
+              362
+            ]
+          }
+        ],
+        [
+          {
+            "row": 2,
+            "role": "upper",
+            "box": [
+              54,
+              392,
+              566,
+              423
+            ]
+          },
+          {
+            "row": 2,
+            "role": "count",
+            "box": [
+              54,
+              435,
+              566,
+              478
+            ]
+          },
+          {
+            "row": 2,
+            "role": "lower",
+            "box": [
+              54,
+              478,
+              566,
+              504
+            ]
+          }
+        ],
+        [
+          {
+            "row": 3,
+            "role": "upper",
+            "box": [
+              62,
+              535,
+              373,
+              568
+            ]
+          },
+          {
+            "row": 3,
+            "role": "count",
+            "box": [
+              62,
+              575,
+              373,
+              616
+            ]
+          },
+          {
+            "row": 3,
+            "role": "lower",
+            "box": [
+              62,
+              616,
+              373,
+              645
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "no_image_only_score_gain",
+        "noise_filter_applied": false,
+        "component_scale": 31.5,
+        "band_aware_scale": 36.7,
+        "bands": [
+          [
+            82,
+            106
+          ],
+          [
+            130,
+            171
+          ],
+          [
+            179,
+            200
+          ],
+          [
+            244,
+            265
+          ],
+          [
+            290,
+            328
+          ],
+          [
+            335,
+            358
+          ],
+          [
+            396,
+            419
+          ],
+          [
+            439,
+            475
+          ],
+          [
+            481,
+            500
+          ],
+          [
+            539,
+            564
+          ],
+          [
+            579,
+            613
+          ],
+          [
+            619,
+            641
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.48121796973432135,
+            "height": 24,
+            "component_height": 24.0,
+            "width": 32.0,
+            "mass": 522
+          },
+          {
+            "prob": 0.6214823213865165,
+            "height": 41,
+            "component_height": 36.2,
+            "width": 25.199999999999985,
+            "mass": 3590
+          },
+          {
+            "prob": 0.36945303041528227,
+            "height": 21,
+            "component_height": 10.0,
+            "width": 26.599999999999994,
+            "mass": 453
+          },
+          {
+            "prob": 0.23264789767288283,
+            "height": 21,
+            "component_height": 15.8,
+            "width": 8.0,
+            "mass": 209
+          },
+          {
+            "prob": 0.7964450581156978,
+            "height": 38,
+            "component_height": 33.0,
+            "width": 40.0,
+            "mass": 3261
+          },
+          {
+            "prob": 0.3555383914986312,
+            "height": 23,
+            "component_height": 22.4,
+            "width": 19.299999999999997,
+            "mass": 455
+          },
+          {
+            "prob": 0.41309502183015945,
+            "height": 23,
+            "component_height": 21.0,
+            "width": 27.899999999999988,
+            "mass": 782
+          },
+          {
+            "prob": 0.748207228560071,
+            "height": 36,
+            "component_height": 32.0,
+            "width": 40.199999999999996,
+            "mass": 4866
+          },
+          {
+            "prob": 0.22094340493119993,
+            "height": 19,
+            "component_height": 19.0,
+            "width": 4.7,
+            "mass": 146
+          },
+          {
+            "prob": 0.4339141153932528,
+            "height": 25,
+            "component_height": 9.6,
+            "width": 30.0,
+            "mass": 370
+          },
+          {
+            "prob": 0.5355541068872274,
+            "height": 34,
+            "component_height": 31.0,
+            "width": 22.0,
+            "mass": 2683
+          },
+          {
+            "prob": 0.39407753342129187,
+            "height": 22,
+            "component_height": 9.0,
+            "width": 28.5,
+            "mass": 592
+          }
+        ],
+        "legal_alternatives": 2,
+        "heuristic_scores": [
+          -9.347029130310455,
+          -10.699466931467194
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": 1.3524378011567393,
+        "path": [
+          [
+            0,
+            [
+              "upper",
+              "count",
+              "lower"
+            ]
+          ],
+          [
+            3,
+            [
+              "upper",
+              "count",
+              "lower"
+            ]
+          ],
+          [
+            6,
+            [
+              "upper",
+              "count",
+              "lower"
+            ]
+          ],
+          [
+            9,
+            [
+              "upper",
+              "count",
+              "lower"
+            ]
+          ]
+        ],
+        "inferred_rows": 4,
+        "rejection": ""
+      }
+    }
+  }
+}

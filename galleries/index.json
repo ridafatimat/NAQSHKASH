@@ -1,0 +1,262 @@
+[
+  {
+    "folder": "positive_edge_00025__aug_01_brightness_noise",
+    "dataset": "positive",
+    "case_id": "edge_00025__aug_01_brightness_noise",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00025__aug_02_motion_blur",
+    "dataset": "positive",
+    "case_id": "edge_00025__aug_02_motion_blur",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "general_all_000158__aug_01_rotation_jpeg",
+    "dataset": "general",
+    "case_id": "all_000158__aug_01_rotation_jpeg",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "general_all_000655__aug_03_rotation_jpeg",
+    "dataset": "general",
+    "case_id": "all_000655__aug_03_rotation_jpeg",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00001__aug_01_noise",
+    "dataset": "positive",
+    "case_id": "edge_00001__aug_01_noise",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00001__aug_02_brightness_noise",
+    "dataset": "positive",
+    "case_id": "edge_00001__aug_02_brightness_noise",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00173__aug_01_shadow",
+    "dataset": "positive",
+    "case_id": "edge_00173__aug_01_shadow",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00003__aug_01_gaussian_blur",
+    "dataset": "positive",
+    "case_id": "edge_00003__aug_01_gaussian_blur",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00003__aug_02_gaussian_blur_contrast",
+    "dataset": "positive",
+    "case_id": "edge_00003__aug_02_gaussian_blur_contrast",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "general_all_000025__aug_01_contrast",
+    "dataset": "general",
+    "case_id": "all_000025__aug_01_contrast",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "general_all_000025__aug_02_gaussian_blur_contrast",
+    "dataset": "general",
+    "case_id": "all_000025__aug_02_gaussian_blur_contrast",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "general_all_000873__aug_02_perspective_shadow",
+    "dataset": "general",
+    "case_id": "all_000873__aug_02_perspective_shadow",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00323__clean",
+    "dataset": "positive",
+    "case_id": "edge_00323__clean",
+    "partition": "validation",
+    "kind": "clean",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00310__aug_02_jpeg",
+    "dataset": "positive",
+    "case_id": "edge_00310__aug_02_jpeg",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": false,
+    "reason": "row_count_mismatch"
+  },
+  {
+    "folder": "positive_edge_00310__aug_01_perspective_shadow",
+    "dataset": "positive",
+    "case_id": "edge_00310__aug_01_perspective_shadow",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": false,
+    "reason": "row_count_mismatch"
+  },
+  {
+    "folder": "positive_edge_00068__aug_01_rotation_jpeg",
+    "dataset": "positive",
+    "case_id": "edge_00068__aug_01_rotation_jpeg",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": false,
+    "D1_correct": false,
+    "reason": "bands:unresolved_vertical_merge"
+  },
+  {
+    "folder": "general_all_005744__aug_01_jpeg",
+    "dataset": "general",
+    "case_id": "all_005744__aug_01_jpeg",
+    "partition": "tuning",
+    "kind": "scanned",
+    "D1_accepted": false,
+    "D1_correct": false,
+    "reason": "confidence:ambiguous_row_or_role"
+  },
+  {
+    "folder": "positive_edge_00049__aug_03_noise",
+    "dataset": "positive",
+    "case_id": "edge_00049__aug_03_noise",
+    "partition": "validation",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00024__aug_01_jpeg",
+    "dataset": "positive",
+    "case_id": "edge_00024__aug_01_jpeg",
+    "partition": "validation",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "positive_edge_00323__aug_02_perspective",
+    "dataset": "positive",
+    "case_id": "edge_00323__aug_02_perspective",
+    "partition": "validation",
+    "kind": "scanned",
+    "D1_accepted": false,
+    "D1_correct": false,
+    "reason": "components:unassigned_foreground"
+  },
+  {
+    "folder": "positive_edge_00307__clean",
+    "dataset": "positive",
+    "case_id": "edge_00307__clean",
+    "partition": "validation",
+    "kind": "clean",
+    "D1_accepted": true,
+    "D1_correct": false,
+    "reason": "row_count_mismatch"
+  },
+  {
+    "folder": "general_all_000171__aug_01_perspective_shadow",
+    "dataset": "general",
+    "case_id": "all_000171__aug_01_perspective_shadow",
+    "partition": "validation",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "general_all_004200__aug_02_gaussian_blur_contrast",
+    "dataset": "general",
+    "case_id": "all_004200__aug_02_gaussian_blur_contrast",
+    "partition": "validation",
+    "kind": "scanned",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "general_all_004200__aug_01_brightness",
+    "dataset": "general",
+    "case_id": "all_004200__aug_01_brightness",
+    "partition": "validation",
+    "kind": "scanned",
+    "D1_accepted": false,
+    "D1_correct": false,
+    "reason": "bands:unresolved_vertical_merge"
+  },
+  {
+    "folder": "normal_train_057483__clean",
+    "dataset": "normal",
+    "case_id": "train_057483__clean",
+    "partition": "clean_regression",
+    "kind": "clean",
+    "D1_accepted": true,
+    "D1_correct": true,
+    "reason": ""
+  },
+  {
+    "folder": "normal_train_073391__clean",
+    "dataset": "normal",
+    "case_id": "train_073391__clean",
+    "partition": "clean_regression",
+    "kind": "clean",
+    "D1_accepted": false,
+    "D1_correct": false,
+    "reason": "confidence:ambiguous_row_or_role"
+  }
+]

@@ -1,0 +1,642 @@
+{
+  "page": {
+    "dataset": "general",
+    "parent_id": "all_000158",
+    "partition": "tuning",
+    "scope": "exploratory_development_only",
+    "source_image": "images/all_000158.png",
+    "source_json": "json/all_000158.json",
+    "source_sha256": "eed37bbd233a80ec951085882d3298b41cfaf371b86482d32a1f0cf95a50f384",
+    "case_id": "all_000158__aug_01_rotation_jpeg",
+    "kind": "scanned",
+    "image_member": "talim_10000_scanned/images/all_000158__aug_01_rotation_jpeg.jpg",
+    "image_sha256": "f015c2119414c0244f590c52d60098bdd01dfe8e82255126eb57b0316b6b363e",
+    "augmentation": "rotation+jpeg",
+    "parameters": "{\"operations\":[{\"degrees\":-0.866653,\"type\":\"rotation\"},{\"quality\":87,\"type\":\"jpeg\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"mild\",\"version\":\"1.2.0\"}",
+    "width": "479",
+    "height": "400"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "upper",
+      "raw": "    F",
+      "truth": "F",
+      "leading_offset": 4
+    },
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "zejeje",
+      "truth": "zejeje",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": "R Z",
+      "truth": "R Z",
+      "leading_offset": 0
+    },
+    {
+      "row": 1,
+      "role": "upper",
+      "raw": "D  C JE",
+      "truth": "D  C JE",
+      "leading_offset": 0
+    },
+    {
+      "row": 1,
+      "role": "count",
+      "raw": "|adcaabc",
+      "truth": "|adcaabc",
+      "leading_offset": 0
+    },
+    {
+      "row": 1,
+      "role": "lower",
+      "raw": "  Y ^  S",
+      "truth": "Y ^  S",
+      "leading_offset": 2
+    }
+  ],
+  "predictions": [
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000158",
+      "case_id": "all_000158__aug_01_rotation_jpeg",
+      "kind": "scanned",
+      "augmentation": "rotation+jpeg",
+      "row": "0",
+      "role": "upper",
+      "truth": "F",
+      "prediction": "F",
+      "leading_offset": "4",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "494ae84277a3206a18eb91c15bc1d098aee94d45b5dd60b427803ca7104c94c4",
+      "resized_width": "713",
+      "ctc_steps": "178",
+      "ctc_required": "1",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000158",
+      "case_id": "all_000158__aug_01_rotation_jpeg",
+      "kind": "scanned",
+      "augmentation": "rotation+jpeg",
+      "row": "0",
+      "role": "count",
+      "truth": "zejeje",
+      "prediction": "vejeje",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "a3ce2f5089a47fe225b873a0047c0c3606238071d8298a0648dd19e4cd42c1ac",
+      "resized_width": "378",
+      "ctc_steps": "94",
+      "ctc_required": "6",
+      "substitutions": "1",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000158",
+      "case_id": "all_000158__aug_01_rotation_jpeg",
+      "kind": "scanned",
+      "augmentation": "rotation+jpeg",
+      "row": "0",
+      "role": "lower",
+      "truth": "R Z",
+      "prediction": "R Z",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "b55035b1703ddc9cda79420d68213eb7bef6daa7a18106873134c2f83a936874",
+      "resized_width": "664",
+      "ctc_steps": "166",
+      "ctc_required": "3",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000158",
+      "case_id": "all_000158__aug_01_rotation_jpeg",
+      "kind": "scanned",
+      "augmentation": "rotation+jpeg",
+      "row": "1",
+      "role": "upper",
+      "truth": "D  C JE",
+      "prediction": "D  C JE",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "4d8083044ac1c6559470f57cfdeb068aa39f23f4cd3c26e6b4990ed1e4237e51",
+      "resized_width": "741",
+      "ctc_steps": "185",
+      "ctc_required": "8",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000158",
+      "case_id": "all_000158__aug_01_rotation_jpeg",
+      "kind": "scanned",
+      "augmentation": "rotation+jpeg",
+      "row": "1",
+      "role": "count",
+      "truth": "|adcaabc",
+      "prediction": "|adcaab",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "96364ee51d92a09b83af4a4881ef0e9c0926055dcd860cec0d905d0210cad8a9",
+      "resized_width": "518",
+      "ctc_steps": "129",
+      "ctc_required": "9",
+      "substitutions": "0",
+      "deletions": "1",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000158",
+      "case_id": "all_000158__aug_01_rotation_jpeg",
+      "kind": "scanned",
+      "augmentation": "rotation+jpeg",
+      "row": "1",
+      "role": "lower",
+      "truth": "Y ^  S",
+      "prediction": "Y ^  S",
+      "leading_offset": "2",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "b8e6cbe421f998ef4b8d642e264c5a4cb38128be8fcc816f7cda96e705f1d79c",
+      "resized_width": "648",
+      "ctc_steps": "162",
+      "ctc_required": "7",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    }
+  ],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "tier_role_or_grouping_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              36,
+              36,
+              337,
+              63
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              36,
+              84,
+              337,
+              164
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "upper",
+            "box": [
+              34,
+              203,
+              439,
+              238
+            ]
+          },
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              34,
+              254,
+              439,
+              304
+            ]
+          },
+          {
+            "row": 1,
+            "role": "lower",
+            "box": [
+              34,
+              305,
+              439,
+              345
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 1.6545344129554662,
+        "band_count": 5,
+        "component_scale": 37.05,
+        "perspective_applied": false,
+        "reason": "no_image_only_score_gain",
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "tier_role_or_grouping_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              36,
+              36,
+              337,
+              63
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              36,
+              84,
+              337,
+              164
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "upper",
+            "box": [
+              34,
+              203,
+              439,
+              238
+            ]
+          },
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              34,
+              254,
+              439,
+              304
+            ]
+          },
+          {
+            "row": 1,
+            "role": "lower",
+            "box": [
+              34,
+              305,
+              439,
+              345
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 1.6545344129554662,
+        "band_count": 5,
+        "component_scale": 37.05,
+        "perspective_applied": false,
+        "reason": "no_image_only_score_gain",
+        "noise_filter_applied": false
+      }
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "    F",
+            "truth": "F",
+            "leading_offset": 4,
+            "box": [
+              36,
+              36,
+              337,
+              63
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "zejeje",
+            "truth": "zejeje",
+            "leading_offset": 0,
+            "box": [
+              36,
+              84,
+              337,
+              135
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 3,
+            "row": 0,
+            "role": "lower",
+            "raw": "R Z",
+            "truth": "R Z",
+            "leading_offset": 0,
+            "box": [
+              36,
+              135,
+              337,
+              164
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 4,
+            "row": 1,
+            "role": "upper",
+            "raw": "D  C JE",
+            "truth": "D  C JE",
+            "leading_offset": 0,
+            "box": [
+              34,
+              203,
+              439,
+              238
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 5,
+            "row": 1,
+            "role": "count",
+            "raw": "|adcaabc",
+            "truth": "|adcaabc",
+            "leading_offset": 0,
+            "box": [
+              34,
+              254,
+              439,
+              304
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 6,
+            "row": 1,
+            "role": "lower",
+            "raw": "  Y ^  S",
+            "truth": "Y ^  S",
+            "leading_offset": 2,
+            "box": [
+              34,
+              305,
+              439,
+              345
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              36,
+              36,
+              337,
+              63
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              36,
+              84,
+              337,
+              135
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              36,
+              135,
+              337,
+              164
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "upper",
+            "box": [
+              34,
+              203,
+              439,
+              238
+            ]
+          },
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              34,
+              254,
+              439,
+              304
+            ]
+          },
+          {
+            "row": 1,
+            "role": "lower",
+            "box": [
+              34,
+              305,
+              439,
+              345
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "no_image_only_score_gain",
+        "noise_filter_applied": false,
+        "component_scale": 37.05,
+        "band_aware_scale": 42.5,
+        "bands": [
+          [
+            40,
+            59
+          ],
+          [
+            88,
+            132
+          ],
+          [
+            138,
+            160
+          ],
+          [
+            207,
+            234
+          ],
+          [
+            258,
+            300
+          ],
+          [
+            309,
+            341
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.29779427321913426,
+            "height": 19,
+            "component_height": 10.4,
+            "width": 25.799999999999997,
+            "mass": 225
+          },
+          {
+            "prob": 0.610044672404527,
+            "height": 44,
+            "component_height": 38.0,
+            "width": 33.0,
+            "mass": 3249
+          },
+          {
+            "prob": 0.36144044810556364,
+            "height": 22,
+            "component_height": 9.8,
+            "width": 32.1,
+            "mass": 435
+          },
+          {
+            "prob": 0.27510332901716417,
+            "height": 27,
+            "component_height": 10.8,
+            "width": 13.799999999999983,
+            "mass": 686
+          },
+          {
+            "prob": 0.6827951393255547,
+            "height": 42,
+            "component_height": 35.0,
+            "width": 36.0,
+            "mass": 4033
+          },
+          {
+            "prob": 0.4372878682182279,
+            "height": 32,
+            "component_height": 10.0,
+            "width": 32.0,
+            "mass": 967
+          }
+        ],
+        "legal_alternatives": 2,
+        "heuristic_scores": [
+          -4.8600499608314145,
+          -6.978775358755289
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": 2.1187253979238747,
+        "path": [
+          [
+            0,
+            [
+              "upper",
+              "count",
+              "lower"
+            ]
+          ],
+          [
+            3,
+            [
+              "upper",
+              "count",
+              "lower"
+            ]
+          ]
+        ],
+        "inferred_rows": 2,
+        "rejection": ""
+      }
+    }
+  }
+}

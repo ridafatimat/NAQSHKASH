@@ -1,0 +1,360 @@
+{
+  "page": {
+    "dataset": "general",
+    "parent_id": "all_000655",
+    "partition": "tuning",
+    "scope": "exploratory_development_only",
+    "source_image": "images/all_000655.png",
+    "source_json": "json/all_000655.json",
+    "source_sha256": "840b0398e0c00c55c8ce36c0b1ace3787a05f6607daaeddd610efefe321b31fe",
+    "case_id": "all_000655__aug_03_rotation_jpeg",
+    "kind": "scanned",
+    "image_member": "talim_10000_scanned/images/all_000655__aug_03_rotation_jpeg.jpg",
+    "image_sha256": "11d8fd5d430af81858973e3a58a2482fd7da28bae4049cde58489e48a8c0028f",
+    "augmentation": "rotation+jpeg",
+    "parameters": "{\"operations\":[{\"degrees\":1.717734,\"type\":\"rotation\"},{\"quality\":93,\"type\":\"jpeg\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"mild\",\"version\":\"1.2.0\"}",
+    "width": "481",
+    "height": "238"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "upper",
+      "raw": "  P   PC",
+      "truth": "P   PC",
+      "leading_offset": 2
+    },
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "xdjembba",
+      "truth": "xdjembba",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": "V   Z",
+      "truth": "V   Z",
+      "leading_offset": 0
+    }
+  ],
+  "predictions": [
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000655",
+      "case_id": "all_000655__aug_03_rotation_jpeg",
+      "kind": "scanned",
+      "augmentation": "rotation+jpeg",
+      "row": "0",
+      "role": "upper",
+      "truth": "P   PC",
+      "prediction": "P   PC",
+      "leading_offset": "2",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "73e1a7b9e1cb16537fd280439922132516d7dcb0648b9726ce35dc3d5e030986",
+      "resized_width": "598",
+      "ctc_steps": "149",
+      "ctc_required": "8",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000655",
+      "case_id": "all_000655__aug_03_rotation_jpeg",
+      "kind": "scanned",
+      "augmentation": "rotation+jpeg",
+      "row": "0",
+      "role": "count",
+      "truth": "xdjembba",
+      "prediction": "ikembba",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "67dec3f967ad8340cc9181ab6ce9094a78c8f06f9663ab183952f96ec0be8ecd",
+      "resized_width": "459",
+      "ctc_steps": "114",
+      "ctc_required": "9",
+      "substitutions": "2",
+      "deletions": "1",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "general",
+      "scope": "exploratory_development_only",
+      "parent_id": "all_000655",
+      "case_id": "all_000655__aug_03_rotation_jpeg",
+      "kind": "scanned",
+      "augmentation": "rotation+jpeg",
+      "row": "0",
+      "role": "lower",
+      "truth": "V   Z",
+      "prediction": "V   Y",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "4817b68d5a5048dec2060bea18fcf1b950dfb2b3a1b1d6c754176af11f0ab0d8",
+      "resized_width": "660",
+      "ctc_steps": "165",
+      "ctc_required": "7",
+      "substitutions": "1",
+      "deletions": "0",
+      "insertions": "0"
+    }
+  ],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "tier_role_or_grouping_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              36,
+              35,
+              438,
+              78
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              36,
+              85,
+              438,
+              180
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 1.5648245614035088,
+        "band_count": 2,
+        "component_scale": 38.0,
+        "perspective_applied": false,
+        "reason": "insufficient_vertical_support",
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "tier_role_or_grouping_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              36,
+              35,
+              438,
+              78
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              36,
+              85,
+              438,
+              180
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 1.5648245614035088,
+        "band_count": 2,
+        "component_scale": 38.0,
+        "perspective_applied": false,
+        "reason": "insufficient_vertical_support",
+        "noise_filter_applied": false
+      }
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "  P   PC",
+            "truth": "P   PC",
+            "leading_offset": 2,
+            "box": [
+              36,
+              35,
+              438,
+              78
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "xdjembba",
+            "truth": "xdjembba",
+            "leading_offset": 0,
+            "box": [
+              36,
+              85,
+              438,
+              141
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 3,
+            "row": 0,
+            "role": "lower",
+            "raw": "V   Z",
+            "truth": "V   Z",
+            "leading_offset": 0,
+            "box": [
+              36,
+              141,
+              438,
+              180
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              36,
+              35,
+              438,
+              78
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              36,
+              85,
+              438,
+              141
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              36,
+              141,
+              438,
+              180
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "insufficient_vertical_support",
+        "noise_filter_applied": false,
+        "component_scale": 38.0,
+        "band_aware_scale": 41.0,
+        "bands": [
+          [
+            39,
+            74
+          ],
+          [
+            89,
+            139
+          ],
+          [
+            143,
+            176
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.4801628570766553,
+            "height": 35,
+            "component_height": 12.0,
+            "width": 32.0,
+            "mass": 892
+          },
+          {
+            "prob": 0.7148105666824767,
+            "height": 50,
+            "component_height": 38.4,
+            "width": 29.199999999999996,
+            "mass": 4160
+          },
+          {
+            "prob": 0.4338354336408577,
+            "height": 33,
+            "component_height": 9.4,
+            "width": 28.199999999999996,
+            "mass": 491
+          }
+        ],
+        "legal_alternatives": 1,
+        "heuristic_scores": [
+          -2.9684588518602957
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": null,
+        "path": [
+          [
+            0,
+            [
+              "upper",
+              "count",
+              "lower"
+            ]
+          ]
+        ],
+        "inferred_rows": 1,
+        "rejection": ""
+      }
+    }
+  }
+}
