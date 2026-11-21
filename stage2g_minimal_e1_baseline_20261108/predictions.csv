@@ -1,0 +1,4 @@
+source_id,split,status,prediction,cer,exact_tier_accuracy,reason
+all_003191,validation,BLOCKED,,,,"Frozen D1 preprocessing: geometry.py:27, for x0,y0,x1,y1 in lines[:,0], TypeError: cannot unpack non-iterable numpy.int32 object"
+all_003556,validation,NOT_RUN,,,,Stopped after existing preprocessing incompatibility; no new pipeline authorized
+all_009197,validation,NOT_RUN,,,,Stopped after existing preprocessing incompatibility; no new pipeline authorized
