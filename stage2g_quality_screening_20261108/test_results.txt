@@ -1,0 +1,11 @@
+test_complete_inventory_and_preserved_split (__main__.ScreeningTests) ... ok
+test_input_integrity (__main__.ScreeningTests) ... ok
+test_known_crop_foreground_coverage (__main__.ScreeningTests) ... ok
+test_objective_blank_rule (__main__.ScreeningTests) ... ok
+test_queue_and_dashboard_isolation (__main__.ScreeningTests) ... ok
+test_registration_and_unresolved_case (__main__.ScreeningTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.780s
+
+OK
