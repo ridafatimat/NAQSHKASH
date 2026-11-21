@@ -1,0 +1,27 @@
+{
+  "total_images": 920,
+  "quality_results": {
+    "PASS_AUTOMATED_CHECKS": 467,
+    "FLAGGED": 453
+  },
+  "human_verification_images": 920,
+  "accepted_images": 0,
+  "source_label_reviews": 30,
+  "source_label_corrections": "NOT_ESTABLISHED; exact TXT/JSON consistency passed prior audit, physical source-label correctness unverified",
+  "source_split": {
+    "train": 24,
+    "test": 3,
+    "validation": 3
+  },
+  "automatic_flags": {
+    "GEOMETRIC_RECIPE_RISK": 330,
+    "LIKELY_CLIPPING_PROXY": 103,
+    "SEVERE_BLUR_PROXY": 115,
+    "PARTIAL_CROP_RECIPE_RISK": 30,
+    "VERY_LOW_CONTRAST_PROXY": 7,
+    "PARENT_REGISTRATION_UNRESOLVED": 27,
+    "SATURATION_OR_BACKGROUND_PROXY": 2,
+    "MISSING_OR_UNREADABLE_FOREGROUND_PROXY": 11
+  },
+  "objectively_excluded_images": 0
+}
