@@ -1,0 +1,296 @@
+{
+  "page": {
+    "dataset": "positive",
+    "parent_id": "edge_00173",
+    "partition": "tuning",
+    "scope": "confirmed_training_parent",
+    "source_image": "images/edge_00173.png",
+    "source_json": "json/edge_00173.json",
+    "source_sha256": "a36e9fcb81dacea2f57f106f7ec93a5aa15c66c39b6d843a21ff6ed9ace0365b",
+    "case_id": "edge_00173__aug_01_shadow",
+    "kind": "scanned",
+    "image_member": "talim_edge_cases_positive_scanned_v1/images/edge_00173__aug_01_shadow.jpg",
+    "image_sha256": "330458203f5ccf86368f5ebf68c6d6965f60c14691ce4274bbbfa6331d14f6ec",
+    "augmentation": "shadow",
+    "parameters": "{\"operations\":[{\"direction\":\"top\",\"softness\":1.864702,\"strength\":0.067058,\"type\":\"shadow\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"mild\",\"version\":\"1.2.0\"}",
+    "width": "171",
+    "height": "213"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "{a",
+      "truth": "{a",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": "R",
+      "truth": "R",
+      "leading_offset": 0
+    }
+  ],
+  "predictions": [
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "positive",
+      "scope": "confirmed_training_parent",
+      "parent_id": "edge_00173",
+      "case_id": "edge_00173__aug_01_shadow",
+      "kind": "scanned",
+      "augmentation": "shadow",
+      "row": "0",
+      "role": "count",
+      "truth": "{a",
+      "prediction": "{a",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "b90eaa80df78dee44b7a29edfd88c828383677136c3b0c0cb6f82523fef30693",
+      "resized_width": "138",
+      "ctc_steps": "34",
+      "ctc_required": "2",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "positive",
+      "scope": "confirmed_training_parent",
+      "parent_id": "edge_00173",
+      "case_id": "edge_00173__aug_01_shadow",
+      "kind": "scanned",
+      "augmentation": "shadow",
+      "row": "0",
+      "role": "lower",
+      "truth": "R",
+      "prediction": "R",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "07eac7cb1e8bdca8873e21a49ecbdd02c0038ed0699ee284eb2836ba8d13fa6b",
+      "resized_width": "209",
+      "ctc_steps": "52",
+      "ctc_required": "1",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    }
+  ],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "count",
+            "raw": "{a",
+            "truth": "{a",
+            "leading_offset": 0,
+            "box": [
+              32,
+              79,
+              133,
+              126
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "lower",
+            "raw": "R",
+            "truth": "R",
+            "leading_offset": 0,
+            "box": [
+              32,
+              126,
+              133,
+              157
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              32,
+              79,
+              133,
+              126
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              32,
+              126,
+              133,
+              157
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 0.3413402061855666,
+        "band_count": 2,
+        "component_scale": 19.39999999999999,
+        "perspective_applied": false,
+        "reason": "insufficient_vertical_support",
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": false,
+      "assessment": {
+        "correct": false,
+        "reason": "ambiguous_role_or_row_assignment",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [],
+      "diagnostics": {}
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "count",
+            "raw": "{a",
+            "truth": "{a",
+            "leading_offset": 0,
+            "box": [
+              32,
+              79,
+              133,
+              126
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "lower",
+            "raw": "R",
+            "truth": "R",
+            "leading_offset": 0,
+            "box": [
+              32,
+              126,
+              133,
+              157
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              32,
+              79,
+              133,
+              126
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              32,
+              126,
+              133,
+              157
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "insufficient_vertical_support",
+        "noise_filter_applied": true,
+        "component_scale": 18.54999999999999,
+        "band_aware_scale": 36.6,
+        "bands": [
+          [
+            83,
+            122
+          ],
+          [
+            130,
+            153
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.399104509672145,
+            "height": 39,
+            "component_height": 18.0,
+            "width": 4.0,
+            "mass": 1236
+          },
+          {
+            "prob": 0.32306986849045405,
+            "height": 23,
+            "component_height": 10.4,
+            "width": 18.599999999999998,
+            "mass": 278
+          }
+        ],
+        "legal_alternatives": 2,
+        "heuristic_scores": [
+          -2.71633810151556,
+          -3.0468398402140204
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": 0.33050173869846056,
+        "path": [
+          [
+            0,
+            [
+              "count",
+              "lower"
+            ]
+          ]
+        ],
+        "inferred_rows": 1,
+        "rejection": ""
+      }
+    }
+  }
+}

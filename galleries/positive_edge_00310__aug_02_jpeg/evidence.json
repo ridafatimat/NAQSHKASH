@@ -1,0 +1,306 @@
+{
+  "page": {
+    "dataset": "positive",
+    "parent_id": "edge_00310",
+    "partition": "tuning",
+    "scope": "confirmed_training_parent",
+    "source_image": "images/edge_00310.png",
+    "source_json": "json/edge_00310.json",
+    "source_sha256": "e4321b95824e73a99cb277796b054883a9e3976ceb9e202705bf239c89fa5fd6",
+    "case_id": "edge_00310__aug_02_jpeg",
+    "kind": "scanned",
+    "image_member": "talim_edge_cases_positive_scanned_v1/images/edge_00310__aug_02_jpeg.jpg",
+    "image_sha256": "2cd3213aee8315afad3404e50f131d2017d9e48eb8a683c7b5f5d2de5afba604",
+    "augmentation": "jpeg",
+    "parameters": "{\"operations\":[{\"quality\":61,\"type\":\"jpeg\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"strong\",\"version\":\"1.2.0\"}",
+    "width": "120",
+    "height": "198"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "a",
+      "truth": "a",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": "V",
+      "truth": "V",
+      "leading_offset": 0
+    }
+  ],
+  "predictions": [],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "count",
+            "raw": "a",
+            "truth": "a",
+            "leading_offset": 0,
+            "box": [
+              38,
+              74,
+              83,
+              111
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "lower",
+            "raw": "V",
+            "truth": "V",
+            "leading_offset": 0,
+            "box": [
+              38,
+              116,
+              83,
+              151
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              38,
+              74,
+              83,
+              111
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              38,
+              116,
+              83,
+              151
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 1.5712215056154797,
+        "band_count": 2,
+        "component_scale": 17.0,
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "count",
+            "raw": "a",
+            "truth": "a",
+            "leading_offset": 0,
+            "box": [
+              38,
+              74,
+              83,
+              111
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "lower",
+            "raw": "V",
+            "truth": "V",
+            "leading_offset": 0,
+            "box": [
+              38,
+              116,
+              83,
+              151
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              38,
+              74,
+              83,
+              111
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              38,
+              116,
+              83,
+              151
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 1.5712215056154797,
+        "band_count": 2,
+        "component_scale": 17.0,
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false
+      }
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "row_count_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              38,
+              74,
+              83,
+              111
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              39,
+              116,
+              81,
+              138
+            ]
+          },
+          {
+            "row": 1,
+            "role": "lower",
+            "box": [
+              39,
+              138,
+              81,
+              151
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false,
+        "component_scale": 17.0,
+        "band_aware_scale": 19.999999999999996,
+        "bands": [
+          [
+            78,
+            107
+          ],
+          [
+            120,
+            137
+          ],
+          [
+            139,
+            147
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.97,
+            "height": 29,
+            "component_height": 29.0,
+            "width": 35.0,
+            "mass": 467
+          },
+          {
+            "prob": 0.5209876607065324,
+            "height": 17,
+            "component_height": 8.6,
+            "width": 18.199999999999996,
+            "mass": 273
+          },
+          {
+            "prob": 0.2630841041665798,
+            "height": 8,
+            "component_height": 8.0,
+            "width": 9.0,
+            "mass": 54
+          }
+        ],
+        "legal_alternatives": 2,
+        "heuristic_scores": [
+          -3.7562422722145974,
+          -4.870242272214598
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": 1.1140000000000003,
+        "path": [
+          [
+            0,
+            [
+              "count"
+            ]
+          ],
+          [
+            1,
+            [
+              "count",
+              "lower"
+            ]
+          ]
+        ],
+        "inferred_rows": 2,
+        "rejection": ""
+      }
+    }
+  }
+}

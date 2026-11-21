@@ -1,0 +1,240 @@
+{
+  "page": {
+    "dataset": "positive",
+    "parent_id": "edge_00307",
+    "partition": "validation",
+    "scope": "confirmed_training_parent",
+    "source_image": "images/edge_00307.png",
+    "source_json": "json/edge_00307.json",
+    "source_sha256": "d80ef77a29ebb4d84e6b6dbcf730f829a04faa82c4124bba66d6fa56d1230207",
+    "case_id": "edge_00307__clean",
+    "kind": "clean",
+    "image_member": "talim_edge_cases_positive_v1/images/edge_00307.png",
+    "image_sha256": "d80ef77a29ebb4d84e6b6dbcf730f829a04faa82c4124bba66d6fa56d1230207",
+    "augmentation": "clean",
+    "parameters": "",
+    "width": "96",
+    "height": "183"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "a",
+      "truth": "a",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": "S",
+      "truth": "S",
+      "leading_offset": 0
+    }
+  ],
+  "predictions": [],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "row_count_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              44,
+              74,
+              91,
+              109
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              34,
+              120,
+              79,
+              153
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 99.0,
+        "band_count": 2,
+        "component_scale": 18.449999999999996,
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "row_count_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              44,
+              74,
+              91,
+              109
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              34,
+              120,
+              79,
+              153
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 99.0,
+        "band_count": 2,
+        "component_scale": 18.449999999999996,
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false
+      }
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "row_count_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              44,
+              74,
+              91,
+              109
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              34,
+              120,
+              79,
+              139
+            ]
+          },
+          {
+            "row": 1,
+            "role": "lower",
+            "box": [
+              34,
+              139,
+              79,
+              153
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false,
+        "component_scale": 18.449999999999996,
+        "band_aware_scale": 18.449999999999996,
+        "bands": [
+          [
+            78,
+            105
+          ],
+          [
+            124,
+            138
+          ],
+          [
+            141,
+            149
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.97,
+            "height": 27,
+            "component_height": 27.0,
+            "width": 37.0,
+            "mass": 448
+          },
+          {
+            "prob": 0.7506686432360543,
+            "height": 14,
+            "component_height": 5.8,
+            "width": 33.0,
+            "mass": 305
+          },
+          {
+            "prob": 0.2694238999620871,
+            "height": 8,
+            "component_height": 8.0,
+            "width": 8.0,
+            "mass": 52
+          }
+        ],
+        "legal_alternatives": 2,
+        "heuristic_scores": [
+          -3.015297355184355,
+          -5.115026352474329
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": 2.099728997289974,
+        "path": [
+          [
+            0,
+            [
+              "count"
+            ]
+          ],
+          [
+            1,
+            [
+              "count",
+              "lower"
+            ]
+          ]
+        ],
+        "inferred_rows": 2,
+        "rejection": ""
+      }
+    }
+  }
+}

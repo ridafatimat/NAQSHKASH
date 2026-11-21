@@ -1,0 +1,273 @@
+{
+  "page": {
+    "dataset": "positive",
+    "parent_id": "edge_00001",
+    "partition": "tuning",
+    "scope": "confirmed_training_parent",
+    "source_image": "images/edge_00001.png",
+    "source_json": "json/edge_00001.json",
+    "source_sha256": "6c578ae2376b21d5dcf9b8f5ebc09b6a344f67cf147b04bde4ba9936fe0c15a2",
+    "case_id": "edge_00001__aug_02_brightness_noise",
+    "kind": "scanned",
+    "image_member": "talim_edge_cases_positive_scanned_v1/images/edge_00001__aug_02_brightness_noise.jpg",
+    "image_sha256": "00f9acd496cf94900886f3b9f880767b3f491bf2bb86a7e74ab649b6bd3dcffb",
+    "augmentation": "brightness+noise",
+    "parameters": "{\"operations\":[{\"factor\":1.024052,\"type\":\"brightness\"},{\"noise_seed\":176934540,\"sigma\":3.649873,\"type\":\"noise\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"strong\",\"version\":\"1.2.0\"}",
+    "width": "120",
+    "height": "198"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "upper",
+      "raw": "A",
+      "truth": "A",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "a",
+      "truth": "a",
+      "leading_offset": 0
+    }
+  ],
+  "predictions": [
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "positive",
+      "scope": "confirmed_training_parent",
+      "parent_id": "edge_00001",
+      "case_id": "edge_00001__aug_02_brightness_noise",
+      "kind": "scanned",
+      "augmentation": "brightness+noise",
+      "row": "0",
+      "role": "upper",
+      "truth": "A",
+      "prediction": "A",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "a033e601e88df97d8bd6b18858408b85a91a83dcdf7349da1fce180ea0b1a713",
+      "resized_width": "99",
+      "ctc_steps": "24",
+      "ctc_required": "1",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "tuning",
+      "dataset": "positive",
+      "scope": "confirmed_training_parent",
+      "parent_id": "edge_00001",
+      "case_id": "edge_00001__aug_02_brightness_noise",
+      "kind": "scanned",
+      "augmentation": "brightness+noise",
+      "row": "0",
+      "role": "count",
+      "truth": "a",
+      "prediction": "a",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "9f448b253ce0a159cf617ed407490fef5cd71858a21b34cbc5ee81868001bc86",
+      "resized_width": "78",
+      "ctc_steps": "19",
+      "ctc_required": "1",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    }
+  ],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "row_count_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              42,
+              32,
+              75,
+              46
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              42,
+              46,
+              75,
+              61
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              38,
+              74,
+              83,
+              111
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 0.0,
+        "band_count": 3,
+        "component_scale": 19.549999999999997,
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": false,
+      "assessment": {
+        "correct": false,
+        "reason": "ambiguous_role_or_row_assignment",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [],
+      "diagnostics": {}
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "A",
+            "truth": "A",
+            "leading_offset": 0,
+            "box": [
+              38,
+              32,
+              83,
+              61
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "a",
+            "truth": "a",
+            "leading_offset": 0,
+            "box": [
+              38,
+              74,
+              83,
+              111
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              38,
+              32,
+              83,
+              61
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              38,
+              74,
+              83,
+              111
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false,
+        "component_scale": 19.549999999999997,
+        "band_aware_scale": 22.7,
+        "bands": [
+          [
+            36,
+            57
+          ],
+          [
+            78,
+            107
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.38191410290132244,
+            "height": 21,
+            "component_height": 8.0,
+            "width": 9.0,
+            "mass": 162
+          },
+          {
+            "prob": 0.960587352281083,
+            "height": 29,
+            "component_height": 29.0,
+            "width": 35.0,
+            "mass": 465
+          }
+        ],
+        "legal_alternatives": 2,
+        "heuristic_scores": [
+          -2.04851164660716,
+          -3.4276597813332232
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": 1.3791481347260635,
+        "path": [
+          [
+            0,
+            [
+              "upper",
+              "count"
+            ]
+          ]
+        ],
+        "inferred_rows": 1,
+        "rejection": ""
+      }
+    }
+  }
+}

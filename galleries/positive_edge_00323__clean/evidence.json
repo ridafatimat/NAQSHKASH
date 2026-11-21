@@ -1,0 +1,484 @@
+{
+  "page": {
+    "dataset": "positive",
+    "parent_id": "edge_00323",
+    "partition": "validation",
+    "scope": "confirmed_training_parent",
+    "source_image": "images/edge_00323.png",
+    "source_json": "json/edge_00323.json",
+    "source_sha256": "de84d1a809f985627e0ec66a050009a82e1d30fe66867d7376d0afa0ffdd71e3",
+    "case_id": "edge_00323__clean",
+    "kind": "clean",
+    "image_member": "talim_edge_cases_positive_v1/images/edge_00323.png",
+    "image_sha256": "de84d1a809f985627e0ec66a050009a82e1d30fe66867d7376d0afa0ffdd71e3",
+    "augmentation": "clean",
+    "parameters": "",
+    "width": "12480",
+    "height": "186"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "upper",
+      "raw": "ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ",
+      "truth": "ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "truth": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": "                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RST",
+      "truth": "RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RST",
+      "leading_offset": 16
+    }
+  ],
+  "predictions": [
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "positive",
+      "scope": "confirmed_training_parent",
+      "parent_id": "edge_00323",
+      "case_id": "edge_00323__clean",
+      "kind": "clean",
+      "augmentation": "clean",
+      "row": "0",
+      "role": "upper",
+      "truth": "ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ",
+      "prediction": "ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ        ABCDEFGHIJKLMNPQ",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "2f400224745cefb1177176c06cb16919204c8002b2dea308e55f154b814134c5",
+      "resized_width": "20396",
+      "ctc_steps": "5099",
+      "ctc_required": "360",
+      "substitutions": "0",
+      "deletions": "48",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "positive",
+      "scope": "confirmed_training_parent",
+      "parent_id": "edge_00323",
+      "case_id": "edge_00323__clean",
+      "kind": "clean",
+      "augmentation": "clean",
+      "row": "0",
+      "role": "count",
+      "truth": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "prediction": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "05bd37a1609f744beb6dba2c60116d3eafa426f778a241042c428d32f449360e",
+      "resized_width": "21499",
+      "ctc_steps": "5374",
+      "ctc_required": "517",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "positive",
+      "scope": "confirmed_training_parent",
+      "parent_id": "edge_00323",
+      "case_id": "edge_00323__clean",
+      "kind": "clean",
+      "augmentation": "clean",
+      "row": "0",
+      "role": "lower",
+      "truth": "RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RST",
+      "prediction": "RSTUVWXYZ[\\]^_        RSTUVWXYZ[\\]^_        RSTUVWXYZ[\\]^_        RSTUVWXYZ[\\]^_        RSTUVWXYZ[\\]^_        RSTUVWXYZ[\\]^_        RSTUVWXYZ[\\]^_        RSTUVWXYZ[\\]^_        RST",
+      "leading_offset": "16",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "ac5ff008196334afab133b859325517334870945712ae39c5c79b1029eb0ff4a",
+      "resized_width": "20396",
+      "ctc_steps": "5099",
+      "ctc_required": "363",
+      "substitutions": "0",
+      "deletions": "64",
+      "insertions": "0"
+    }
+  ],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ",
+            "truth": "ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ",
+            "leading_offset": 0,
+            "box": [
+              26,
+              20,
+              12455,
+              59
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "truth": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "leading_offset": 0,
+            "box": [
+              26,
+              66,
+              12455,
+              103
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 3,
+            "row": 0,
+            "role": "lower",
+            "raw": "                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RST",
+            "truth": "RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RST",
+            "leading_offset": 16,
+            "box": [
+              26,
+              112,
+              12455,
+              151
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              26,
+              20,
+              12455,
+              59
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              26,
+              66,
+              12455,
+              103
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              26,
+              112,
+              12455,
+              151
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 99.0,
+        "band_count": 3,
+        "component_scale": 29.0,
+        "perspective_applied": false,
+        "reason": "no_safe_projective_evidence",
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ",
+            "truth": "ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ",
+            "leading_offset": 0,
+            "box": [
+              26,
+              20,
+              12455,
+              59
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "truth": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "leading_offset": 0,
+            "box": [
+              26,
+              66,
+              12455,
+              103
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 3,
+            "row": 0,
+            "role": "lower",
+            "raw": "                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RST",
+            "truth": "RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RST",
+            "leading_offset": 16,
+            "box": [
+              26,
+              112,
+              12455,
+              151
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              26,
+              20,
+              12455,
+              59
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              26,
+              66,
+              12455,
+              103
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              26,
+              112,
+              12455,
+              151
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 99.0,
+        "band_count": 3,
+        "component_scale": 29.0,
+        "perspective_applied": false,
+        "reason": "no_safe_projective_evidence",
+        "noise_filter_applied": false
+      }
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ",
+            "truth": "ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ              ABCDEFGHIJKLMNPQ",
+            "leading_offset": 0,
+            "box": [
+              26,
+              20,
+              12455,
+              59
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "truth": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "leading_offset": 0,
+            "box": [
+              26,
+              66,
+              12455,
+              103
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 3,
+            "row": 0,
+            "role": "lower",
+            "raw": "                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RST",
+            "truth": "RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RSTUVWXYZ[\\]^_                RST",
+            "leading_offset": 16,
+            "box": [
+              26,
+              112,
+              12455,
+              151
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              26,
+              20,
+              12455,
+              59
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              26,
+              66,
+              12455,
+              103
+            ]
+          },
+          {
+            "row": 0,
+            "role": "lower",
+            "box": [
+              26,
+              112,
+              12455,
+              151
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "no_safe_projective_evidence",
+        "noise_filter_applied": false,
+        "component_scale": 29.0,
+        "band_aware_scale": 31.0,
+        "bands": [
+          [
+            24,
+            55
+          ],
+          [
+            70,
+            99
+          ],
+          [
+            116,
+            147
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.6199555886256157,
+            "height": 31,
+            "component_height": 17.0,
+            "width": 32.0,
+            "mass": 32501
+          },
+          {
+            "prob": 0.8918246613933212,
+            "height": 29,
+            "component_height": 29.0,
+            "width": 35.0,
+            "mass": 121790
+          },
+          {
+            "prob": 0.609910371227091,
+            "height": 31,
+            "component_height": 11.0,
+            "width": 32.0,
+            "mass": 27168
+          }
+        ],
+        "legal_alternatives": 1,
+        "heuristic_scores": [
+          -3.448301466718616
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": null,
+        "path": [
+          [
+            0,
+            [
+              "upper",
+              "count",
+              "lower"
+            ]
+          ]
+        ],
+        "inferred_rows": 1,
+        "rejection": ""
+      }
+    }
+  }
+}

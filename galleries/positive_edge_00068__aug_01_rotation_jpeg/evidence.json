@@ -1,0 +1,85 @@
+{
+  "page": {
+    "dataset": "positive",
+    "parent_id": "edge_00068",
+    "partition": "tuning",
+    "scope": "confirmed_training_parent",
+    "source_image": "images/edge_00068.png",
+    "source_json": "json/edge_00068.json",
+    "source_sha256": "7e0cc5dacc3e2d6edbc3d1712147ebc80c898122cb163a68ac1bcd42b7678938",
+    "case_id": "edge_00068__aug_01_rotation_jpeg",
+    "kind": "scanned",
+    "image_member": "talim_edge_cases_positive_scanned_v1/images/edge_00068__aug_01_rotation_jpeg.jpg",
+    "image_sha256": "bde893f5e5e201f7200d9ae474746f1f3ec40a5a3ce70f3fa65e0bbcfa76221a",
+    "augmentation": "rotation+jpeg",
+    "parameters": "{\"operations\":[{\"degrees\":-7.764209,\"type\":\"rotation\"},{\"quality\":63,\"type\":\"jpeg\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"strong\",\"version\":\"1.2.0\"}",
+    "width": "248",
+    "height": "241"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "upper",
+      "raw": "A",
+      "truth": "A",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "ari",
+      "truth": "ari",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "lower",
+      "raw": " R",
+      "truth": "R",
+      "leading_offset": 1
+    }
+  ],
+  "predictions": [],
+  "candidates": {
+    "C4": {
+      "accepted": false,
+      "assessment": {
+        "correct": false,
+        "reason": "no_valid_row_grammar",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [],
+      "diagnostics": {}
+    },
+    "C5": {
+      "accepted": false,
+      "assessment": {
+        "correct": false,
+        "reason": "no_valid_row_grammar",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [],
+      "diagnostics": {}
+    },
+    "D1": {
+      "accepted": false,
+      "assessment": {
+        "correct": false,
+        "reason": "bands:unresolved_vertical_merge",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "insufficient_vertical_support",
+        "noise_filter_applied": false
+      }
+    }
+  }
+}

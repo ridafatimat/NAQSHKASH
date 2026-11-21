@@ -1,0 +1,273 @@
+{
+  "page": {
+    "dataset": "positive",
+    "parent_id": "edge_00024",
+    "partition": "validation",
+    "scope": "confirmed_training_parent",
+    "source_image": "images/edge_00024.png",
+    "source_json": "json/edge_00024.json",
+    "source_sha256": "83e51c6208130a60fa6b73f273b2d3fd3120408efc5adfaeb3dc8ef0400c6901",
+    "case_id": "edge_00024__aug_01_jpeg",
+    "kind": "scanned",
+    "image_member": "talim_edge_cases_positive_scanned_v1/images/edge_00024__aug_01_jpeg.jpg",
+    "image_sha256": "b2c715c12b548bb45155b6c73cb68bbf29aa59bac453e069852847ce2a7f2d0b",
+    "augmentation": "jpeg",
+    "parameters": "{\"operations\":[{\"quality\":93,\"type\":\"jpeg\"}],\"output_jpeg_quality\":95,\"padding\":12,\"severity\":\"mild\",\"version\":\"1.2.0\"}",
+    "width": "123",
+    "height": "222"
+  },
+  "expected": [
+    {
+      "row": 0,
+      "role": "upper",
+      "raw": "A",
+      "truth": "A",
+      "leading_offset": 0
+    },
+    {
+      "row": 0,
+      "role": "count",
+      "raw": "m",
+      "truth": "m",
+      "leading_offset": 0
+    }
+  ],
+  "predictions": [
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "positive",
+      "scope": "confirmed_training_parent",
+      "parent_id": "edge_00024",
+      "case_id": "edge_00024__aug_01_jpeg",
+      "kind": "scanned",
+      "augmentation": "jpeg",
+      "row": "0",
+      "role": "upper",
+      "truth": "A",
+      "prediction": "A",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "60d51dfc7138274783a92ebf0427d0ba53bd109bd69b147a92684766a886cb23",
+      "resized_width": "128",
+      "ctc_steps": "32",
+      "ctc_required": "1",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    },
+    {
+      "candidate": "D1",
+      "partition": "validation",
+      "dataset": "positive",
+      "scope": "confirmed_training_parent",
+      "parent_id": "edge_00024",
+      "case_id": "edge_00024__aug_01_jpeg",
+      "kind": "scanned",
+      "augmentation": "jpeg",
+      "row": "0",
+      "role": "count",
+      "truth": "m",
+      "prediction": "m",
+      "leading_offset": "0",
+      "retention": "1.0",
+      "contamination": "0.0",
+      "crop_sha256": "1a1848557530e94b8b36375c6a07b83e3a147ceab5a748b201dae61a09630f79",
+      "resized_width": "76",
+      "ctc_steps": "19",
+      "ctc_required": "1",
+      "substitutions": "0",
+      "deletions": "0",
+      "insertions": "0"
+    }
+  ],
+  "candidates": {
+    "C4": {
+      "accepted": true,
+      "assessment": {
+        "correct": false,
+        "reason": "row_count_mismatch",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              43,
+              32,
+              76,
+              46
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              43,
+              46,
+              76,
+              61
+            ]
+          }
+        ],
+        [
+          {
+            "row": 1,
+            "role": "count",
+            "box": [
+              32,
+              83,
+              90,
+              132
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "role_margin": 0.0,
+        "band_count": 3,
+        "component_scale": 8.0,
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false
+      }
+    },
+    "C5": {
+      "accepted": false,
+      "assessment": {
+        "correct": false,
+        "reason": "ambiguous_role_or_row_assignment",
+        "structure": false,
+        "geometry": false,
+        "tiers": []
+      },
+      "rows": [],
+      "diagnostics": {}
+    },
+    "D1": {
+      "accepted": true,
+      "assessment": {
+        "correct": true,
+        "reason": "",
+        "structure": true,
+        "geometry": true,
+        "tiers": [
+          {
+            "id": 1,
+            "row": 0,
+            "role": "upper",
+            "raw": "A",
+            "truth": "A",
+            "leading_offset": 0,
+            "box": [
+              32,
+              32,
+              90,
+              61
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          },
+          {
+            "id": 2,
+            "row": 0,
+            "role": "count",
+            "raw": "m",
+            "truth": "m",
+            "leading_offset": 0,
+            "box": [
+              32,
+              83,
+              90,
+              132
+            ],
+            "retention": 1.0,
+            "contamination": 0.0,
+            "geometry_ok": true
+          }
+        ]
+      },
+      "rows": [
+        [
+          {
+            "row": 0,
+            "role": "upper",
+            "box": [
+              32,
+              32,
+              90,
+              61
+            ]
+          },
+          {
+            "row": 0,
+            "role": "count",
+            "box": [
+              32,
+              83,
+              90,
+              132
+            ]
+          }
+        ]
+      ],
+      "diagnostics": {
+        "perspective_applied": false,
+        "reason": "weak_line_support",
+        "noise_filter_applied": false,
+        "component_scale": 8.0,
+        "band_aware_scale": 31.099999999999998,
+        "bands": [
+          [
+            36,
+            57
+          ],
+          [
+            87,
+            128
+          ]
+        ],
+        "features": [
+          {
+            "prob": 0.27678485598357194,
+            "height": 21,
+            "component_height": 8.0,
+            "width": 9.0,
+            "mass": 162
+          },
+          {
+            "prob": 0.5171757151967231,
+            "height": 41,
+            "component_height": 13.800000000000006,
+            "width": 6.0,
+            "mass": 718
+          }
+        ],
+        "legal_alternatives": 2,
+        "heuristic_scores": [
+          -2.4967899824842323,
+          -3.5259861239633326
+        ],
+        "score_is_calibrated_probability": false,
+        "role_margin": 1.0291961414791002,
+        "path": [
+          [
+            0,
+            [
+              "upper",
+              "count"
+            ]
+          ]
+        ],
+        "inferred_rows": 1,
+        "rejection": ""
+      }
+    }
+  }
+}
