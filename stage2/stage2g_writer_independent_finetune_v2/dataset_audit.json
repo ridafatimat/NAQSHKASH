@@ -1,0 +1,36 @@
+{
+  "status": "PROVISIONAL",
+  "passed": true,
+  "archive_paths": {
+    "naqshkash_stage2g_writer_split_v2_final": "C:\\Users\\hp\\Downloads\\naqshkash_stage2g_writer_split_v2_final.zip",
+    "naqshkash_stage2g_augmented_training_v1_1": "C:\\Users\\hp\\Downloads\\naqshkash_stage2g_augmented_training_v1_1.zip",
+    "naqshkash_stage2g_handwritten_release_v1": "C:\\Users\\hp\\Downloads\\naqshkash_stage2g_handwritten_release_v1.zip"
+  },
+  "archive_sha256": {
+    "naqshkash_stage2g_writer_split_v2_final": "eda39581621fc5bb1eb469ae10a65eeb3886be34ed6eb93bee5fc8d5b4f148cd",
+    "naqshkash_stage2g_augmented_training_v1_1": "b0550bdc3247f054637565edfbd11135d87572ad85ec03f6122682042407e420",
+    "naqshkash_stage2g_handwritten_release_v1": "7c3c901c4963f9aa4906d14f0868b1fadcdf131f6c49ec4803bfe3e3035f075b"
+  },
+  "train_originals": 108,
+  "train_augmented": 2469,
+  "validation_originals": 14,
+  "validation_augmented": 312,
+  "train_writer_original_counts": {
+    "W01": 55,
+    "W03": 17,
+    "W04": 12,
+    "W06": 24
+  },
+  "train_sources": 15,
+  "validation_sources": [
+    "all_003191",
+    "all_003801"
+  ],
+  "forbidden_image_or_label_members_opened": 0,
+  "quarantined_tiers": 9,
+  "no_cross_split_image_hash_duplicates": true,
+  "prior_split_not_reused": true,
+  "writer_provenance": "PROVISIONAL, assignment/replacement-capture evidence incomplete",
+  "talim_reader_verified": false,
+  "normalization_not_yet_selected": true
+}
