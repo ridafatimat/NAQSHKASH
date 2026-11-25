@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "synthetic_tiers_per_model": 4,
+  "synthetic_ids": [
+    "normal_train_000471__clean_r0_upper",
+    "validation_000264_row_00_upper",
+    "positive_edge_00002__aug_01_shadow_r0_upper",
+    "positive_edge_00323__aug_01_resolution_jpeg_r0_upper"
+  ],
+  "model_forwards": 8,
+  "W05_evaluated": false,
+  "training_updates": 0,
+  "gate_views_exercised": [
+    "raw",
+    "role_mask",
+    "whitespace",
+    "no_whitespace"
+  ],
+  "config_unchanged": true,
+  "full_report_unchanged": true,
+  "test_outputs_deleted": true,
+  "selected_checkpoint_sha256": "f394064f18b8360154e8b30b4d9777923e955a226d77ef9125e987dea7ca1b17"
+}
