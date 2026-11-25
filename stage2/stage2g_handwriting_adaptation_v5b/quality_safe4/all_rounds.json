@@ -1,0 +1,439 @@
+[
+  {
+    "round": 1,
+    "passed": false,
+    "checks": {
+      "darkness_median": true,
+      "dot_diameter_median": true,
+      "visibility_rejection_rate": false
+    },
+    "visibility_rejection_rate": 0.1388888888888889,
+    "counters": {
+      "proposals": 2147,
+      "visibility_checked": 684,
+      "component_count_rejections": 289,
+      "accepted": 200,
+      "boundary_rejections": 1463,
+      "dot_diameter_rejections": 98,
+      "visibility_rejections": 95,
+      "exhausted_sources": 5,
+      "hole_rejections": 2
+    },
+    "statistics": {
+      "augmented": {
+        "stroke_width": {
+          "n": 200,
+          "median": 4.0,
+          "p10": 2.0,
+          "p90": 4.0
+        },
+        "ink_darkness": {
+          "n": 200,
+          "median": 42.5000012665987,
+          "p10": 19.0000007674098,
+          "p90": 76.0000030696392
+        },
+        "dot_diameter": {
+          "n": 765,
+          "median": 5.0,
+          "p10": 4.0,
+          "p90": 6.48074069840786
+        }
+      },
+      "real_handwriting": {
+        "stroke_width": {
+          "n": 105,
+          "median": 2.799999952316284,
+          "p10": 2.0,
+          "p90": 6.0
+        },
+        "ink_darkness": {
+          "n": 105,
+          "median": 39.719998240470886,
+          "p10": 17.153373576700687,
+          "p90": 65.53866586089137
+        },
+        "dot_diameter": {
+          "n": 170,
+          "median": 6.964101615137754,
+          "p10": 4.0,
+          "p90": 13.04164078649987
+        }
+      },
+      "clean_synthetic": {
+        "stroke_width": {
+          "n": 200,
+          "median": 8.0,
+          "p10": 6.0,
+          "p90": 11.628839778900144
+        },
+        "ink_darkness": {
+          "n": 200,
+          "median": 3.000000058673322,
+          "p10": 3.000000058673322,
+          "p90": 3.000000058673322
+        },
+        "dot_diameter": {
+          "n": 776,
+          "median": 13.490737563232042,
+          "p10": 5.0,
+          "p90": 16.492422502470642
+        }
+      }
+    },
+    "configuration": {
+      "version": "safe4",
+      "stroke_width": [
+        1.5,
+        4.0
+      ],
+      "darkness_range": [
+        15,
+        90
+      ],
+      "darkness_offset": -5,
+      "source_dot_diameter": [
+        5.0,
+        7.0
+      ],
+      "accepted_dot_diameter": [
+        4.0,
+        7.0
+      ],
+      "component_darkest_max": 120,
+      "scale": [
+        0.7,
+        1.1
+      ],
+      "rotation": [
+        -8,
+        8
+      ],
+      "pitch": [
+        0.7,
+        1.3
+      ],
+      "slant": [
+        -0.12,
+        0.12
+      ],
+      "elastic_sigma": 5,
+      "elastic_amplitude": 2,
+      "blur_probability": 0.4,
+      "blur_sigma": [
+        0.1,
+        0.5
+      ],
+      "low_resolution_probability": 0.3,
+      "resolution_ratio": [
+        0.7,
+        0.95
+      ],
+      "jpeg_probability": 0.3,
+      "jpeg_quality": [
+        65,
+        96
+      ],
+      "ruled_gap_probability": 0.35,
+      "max_attempts": 100,
+      "prepared_cache_size": 128,
+      "unconfirmed_variants": false,
+      "qa_samples": 200,
+      "qa_max_rounds": 3,
+      "maximum_visibility_rejection_rate": 0.05,
+      "darkness_median_tolerance": 15
+    }
+  },
+  {
+    "round": 2,
+    "passed": false,
+    "checks": {
+      "darkness_median": true,
+      "dot_diameter_median": true,
+      "visibility_rejection_rate": false
+    },
+    "visibility_rejection_rate": 0.14586466165413534,
+    "counters": {
+      "proposals": 2078,
+      "visibility_checked": 665,
+      "visibility_rejections": 97,
+      "accepted": 200,
+      "boundary_rejections": 1413,
+      "component_count_rejections": 302,
+      "dot_diameter_rejections": 60,
+      "hole_rejections": 1,
+      "exhausted_sources": 8,
+      "correspondence_rejections": 5
+    },
+    "statistics": {
+      "augmented": {
+        "stroke_width": {
+          "n": 200,
+          "median": 4.0,
+          "p10": 2.0,
+          "p90": 4.0
+        },
+        "ink_darkness": {
+          "n": 200,
+          "median": 33.00000183284283,
+          "p10": 17.00000088661909,
+          "p90": 67.10000360012054
+        },
+        "dot_diameter": {
+          "n": 687,
+          "median": 5.0,
+          "p10": 4.47213595499958,
+          "p90": 6.48074069840786
+        }
+      },
+      "real_handwriting": {
+        "stroke_width": {
+          "n": 105,
+          "median": 2.799999952316284,
+          "p10": 2.0,
+          "p90": 6.0
+        },
+        "ink_darkness": {
+          "n": 105,
+          "median": 39.719998240470886,
+          "p10": 17.153373576700687,
+          "p90": 65.53866586089137
+        },
+        "dot_diameter": {
+          "n": 170,
+          "median": 6.964101615137754,
+          "p10": 4.0,
+          "p90": 13.04164078649987
+        }
+      },
+      "clean_synthetic": {
+        "stroke_width": {
+          "n": 200,
+          "median": 8.0,
+          "p10": 6.0,
+          "p90": 11.628839778900144
+        },
+        "ink_darkness": {
+          "n": 200,
+          "median": 3.000000058673322,
+          "p10": 3.000000058673322,
+          "p90": 3.000000058673322
+        },
+        "dot_diameter": {
+          "n": 776,
+          "median": 13.490737563232042,
+          "p10": 5.0,
+          "p90": 16.492422502470642
+        }
+      }
+    },
+    "configuration": {
+      "version": "safe4",
+      "stroke_width": [
+        1.5,
+        4.0
+      ],
+      "darkness_range": [
+        15,
+        90
+      ],
+      "darkness_offset": -12,
+      "source_dot_diameter": [
+        5.0,
+        7.0
+      ],
+      "accepted_dot_diameter": [
+        4.0,
+        7.0
+      ],
+      "component_darkest_max": 120,
+      "scale": [
+        0.7,
+        1.1
+      ],
+      "rotation": [
+        -8,
+        8
+      ],
+      "pitch": [
+        0.7,
+        1.3
+      ],
+      "slant": [
+        -0.12,
+        0.12
+      ],
+      "elastic_sigma": 5,
+      "elastic_amplitude": 2,
+      "blur_probability": 0.4,
+      "blur_sigma": [
+        0.1,
+        0.5
+      ],
+      "low_resolution_probability": 0.3,
+      "resolution_ratio": [
+        0.7,
+        0.95
+      ],
+      "jpeg_probability": 0.3,
+      "jpeg_quality": [
+        65,
+        96
+      ],
+      "ruled_gap_probability": 0.35,
+      "max_attempts": 100,
+      "prepared_cache_size": 128,
+      "unconfirmed_variants": false,
+      "qa_samples": 200,
+      "qa_max_rounds": 3,
+      "maximum_visibility_rejection_rate": 0.05,
+      "darkness_median_tolerance": 15
+    }
+  },
+  {
+    "round": 3,
+    "passed": false,
+    "checks": {
+      "darkness_median": true,
+      "dot_diameter_median": true,
+      "visibility_rejection_rate": false
+    },
+    "visibility_rejection_rate": 0.09305993690851735,
+    "counters": {
+      "proposals": 1816,
+      "boundary_rejections": 1182,
+      "visibility_checked": 634,
+      "component_count_rejections": 299,
+      "accepted": 200,
+      "visibility_rejections": 59,
+      "dot_diameter_rejections": 74,
+      "exhausted_sources": 7,
+      "hole_rejections": 1,
+      "correspondence_rejections": 1
+    },
+    "statistics": {
+      "augmented": {
+        "stroke_width": {
+          "n": 200,
+          "median": 4.0,
+          "p10": 2.0,
+          "p90": 4.0
+        },
+        "ink_darkness": {
+          "n": 200,
+          "median": 29.000000171363354,
+          "p10": 15.000000055879354,
+          "p90": 61.1000001579523
+        },
+        "dot_diameter": {
+          "n": 717,
+          "median": 5.0,
+          "p10": 4.0,
+          "p90": 6.0
+        }
+      },
+      "real_handwriting": {
+        "stroke_width": {
+          "n": 105,
+          "median": 2.799999952316284,
+          "p10": 2.0,
+          "p90": 6.0
+        },
+        "ink_darkness": {
+          "n": 105,
+          "median": 39.719998240470886,
+          "p10": 17.153373576700687,
+          "p90": 65.53866586089137
+        },
+        "dot_diameter": {
+          "n": 170,
+          "median": 6.964101615137754,
+          "p10": 4.0,
+          "p90": 13.04164078649987
+        }
+      },
+      "clean_synthetic": {
+        "stroke_width": {
+          "n": 200,
+          "median": 8.0,
+          "p10": 6.0,
+          "p90": 11.628839778900144
+        },
+        "ink_darkness": {
+          "n": 200,
+          "median": 3.000000058673322,
+          "p10": 3.000000058673322,
+          "p90": 3.000000058673322
+        },
+        "dot_diameter": {
+          "n": 776,
+          "median": 13.490737563232042,
+          "p10": 5.0,
+          "p90": 16.492422502470642
+        }
+      }
+    },
+    "configuration": {
+      "version": "safe4",
+      "stroke_width": [
+        1.5,
+        4.0
+      ],
+      "darkness_range": [
+        15,
+        90
+      ],
+      "darkness_offset": -19,
+      "source_dot_diameter": [
+        5.0,
+        7.0
+      ],
+      "accepted_dot_diameter": [
+        4.0,
+        7.0
+      ],
+      "component_darkest_max": 120,
+      "scale": [
+        0.7,
+        1.1
+      ],
+      "rotation": [
+        -8,
+        8
+      ],
+      "pitch": [
+        0.7,
+        1.3
+      ],
+      "slant": [
+        -0.12,
+        0.12
+      ],
+      "elastic_sigma": 5,
+      "elastic_amplitude": 2,
+      "blur_probability": 0.4,
+      "blur_sigma": [
+        0.1,
+        0.5
+      ],
+      "low_resolution_probability": 0.3,
+      "resolution_ratio": [
+        0.7,
+        0.95
+      ],
+      "jpeg_probability": 0.3,
+      "jpeg_quality": [
+        65,
+        96
+      ],
+      "ruled_gap_probability": 0.35,
+      "max_attempts": 100,
+      "prepared_cache_size": 128,
+      "unconfirmed_variants": false,
+      "qa_samples": 200,
+      "qa_max_rounds": 3,
+      "maximum_visibility_rejection_rate": 0.05,
+      "darkness_median_tolerance": 15
+    }
+  }
+]
