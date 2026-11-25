@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "weights_only_load": true,
+  "model_optimizer_and_RNG_reload_executed": true,
+  "completed_step_checkpoint_resume_without_extra_updates": true,
+  "torch_RNG_restored_exactly": true,
+  "checkpoint_step": 20,
+  "source_checkpoint_sha256": "4988e2922f545f81d6a875c97ac3831702041962c5bb07a1c7ea213b456332b5"
+}
