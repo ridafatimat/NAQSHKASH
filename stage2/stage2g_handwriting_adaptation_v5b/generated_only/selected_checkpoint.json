@@ -1,0 +1,9 @@
+{
+    "checkpoint":  "attempt_001_step_00750.pt",
+    "checkpoint_sha256":  "f394064f18b8360154e8b30b4d9777923e955a226d77ef9125e987dea7ca1b17",
+    "selected_step":  750,
+    "selection_reason":  "Explicit user instruction to stop and retain update 750",
+    "selected_unix":  1794325312.0310004,
+    "gates_run":  false,
+    "W05_run":  false
+}
