@@ -41,4 +41,54 @@ def main():
   for name in ['baseline','e1','e2']:
    s=summaries[name][cohort];label='E0' if name=='baseline' else name.upper()
    lines.append(f"| {cohort} | {label} | {s['tiers']} / {s['parents']} | {pct(s['cer'])} | {pct(s['exact_accuracy'])} | {pct(s['macro_parent_cer'])} | {s['substitutions']}/{s['deletions']}/{s['insertions']} |")
- lines+=['','Every candidate is evaluated on the same 2,493 ordered input/label pairs and the original decoder. Fresh E0 inference reproduced all 2,430 Stage2D predictions exactly; the extra63 clean validation tiers are separat
+ lines+=['','Every candidate is evaluated on the same 2,493 ordered input/label pairs and the original decoder. Fresh E0 inference reproduced all 2,430 Stage2D predictions exactly; the extra63 clean validation tiers are separately reported. The 180-tier selection-development subset is frozen before training; curves use that subset, whereas the final table uses the full cohorts. CER counts meaningful spaces. Space-normalized diagnostics, lengths, distortion recipes, roles and unique-parent aggregates are in metrics/.','', '## Segmentation and end-to-end coverage','The fixed 484-page ledger contains 477 correctly segmented pages, one wrong acceptance and six rejections. All models share the same frozen D1 crops, so fine-tuning does not change these outcomes. Positive development:180/184 correctly segmented pages (one wrong, three rejected); general exploratory:199/200 correct (one rejected); historical clean:98/100 correct (two rejected). CER remains conditional on verified crops; the rejected/wrong pages are not disguised as recognition successes. metrics/end_to_end_pages.csv reports exact page success over all pages. The additional63 original clean-validation tiers are partial original tier inputs, not a complete-page coverage evaluation.','', '## Model selection and frozen checkpoint',json.dumps(selected,indent=2),'Selected-checkpoint actual exposures: '+json.dumps(chosen_usage),'','The rule was predefined: improve space-sensitive positive CER, prevent macro-parent worsening, allow at most0.1 percentage point clean CER increase and1 percentage point clean exact drop, and at most0.5 percentage point long CER increase. Full selection applies both clean cohorts. E0 is the fallback if no fine-tuned candidate satisfies all gates. Checkpoint files are distinct immutable generations; original weights and prior reports remain untouched. No untouched test was run; independent prospective evidence is still required.','', '## Forgetting, long sequences and semantic errors','Read all clean rows above; mixed replay is not assumed better merely because it contains replay. Model selection and actual error counts decide. See experiment_comparison.md, model_selection.md and error_analysis.md.','', 'edge_00323 remains in the correctly segmented clean/scan diagnostic. Its rejected perspective variant remains an explicit D1 coverage failure and is not credited with OCR improvement. Internal spaces encode horizontal alignment in canonical_row (ljust/rjust with count-encoding widths), so missing spaces may shift symbol/count association. Space-normalized CER is only diagnostic. Production decoding and carpet generation were not changed, and rendered-carpet equivalence was not asserted.','', 'Measured training loss and development CER: training_curves.png and training_curves.svg. Actual development CTC losses: development_loss_curves.png and development_loss_curves.svg. Original/processed tier inputs, exact expected/E0/selected predictions and errors are in galleries/error_comparison.html; audit gallery and original page context are in galleries/data_quality_review.html.','', '## Tests and integrity',json.dumps(tests,indent=2),json.dumps(protected,indent=2),'','Original checkpoint, vocabulary, decoder, datasets and all Stage1/2A/2B/2C/2D artifacts remain unchanged. The pre-existing Stage2D ZIP is protected too. No Git operations, final carpet-module edits, negative training or handwriting training occurred. Inference timings include different resource contention and exact-input cache reuse; they are not a controlled latency ranking. CPU PyTorch remains2.2.2+cpu; CUDA is unavailable. An optional Transformer-library availability message appears when checkpoint support loads; no Transformer model/framework is used, and real CRNN gradients/reloads passed. Cross-hardware bitwise reproducibility is not claimed.','', '## Readiness and remaining limits','The configured E1/E2 experiments, paired evaluations, immutable checkpoint lineage and tests are complete and suitable for freezing as research artifacts. This is a short conservative fine-tuning study, not proof of convergence, deployment safety or unseen real-capture/handwriting robustness. The selected result must be judged against its clean and macro-parent gates, not training loss alone.','', 'Keep the14 manual-review positives excluded until resolved. Review remaining long spacing/glyph errors and D1 layout failures, then define a prospective independent evaluation before integration or generalization claims. Negative-edge-case rejection work is a separate subsequent task with its own data, leakage and calibration protocol; no such training began here. The selected checkpoint can serve as the documented experimental starting point, not an automatically deployed recognizer.']
+ (E/'reports/stage2e_final_report.md').write_text('\n'.join(lines),encoding='utf-8')
+ readonly=r'''# Stage2E positive CRNN-CTC fine-tuning
+
+All new artifacts are under C:\NAQSHKASH\stage2\stage2e_finetuning. Original stages, data, vocabulary, decoder and trained checkpoint are unchanged. No Git operations occurred.
+
+Measured fixed-development results:
+| Candidate | Positive CER | Positive exact tiers | Historical clean CER | Long CER |
+|---|---:|---:|---:|---:|
+| E0 | 12.305% | 93.735% | 0.173% | 15.084% |
+| E1 selected | 11.085% | 96.288% | 0.148% | 13.940% |
+| E2 | 11.559% | 96.056% | 0.173% | 14.512% |
+
+E1 completed406 updates on1,624 distinct positive tiers from179 parents. E2 stopped at306 updates after612 positive and612 replay tiers; its compared best checkpoint was step102, with204 positive and204 replay exposures. All source labels, preprocessing and decoder are unchanged. Long spacing errors remain substantial; results are exposed development evidence, not an independent unseen benchmark.
+
+Read reports/stage2e_final_report.md, experiment_comparison.md, model_selection.md and test_results.md for actual measured outcomes. Checkpoints/selected_model/best.pt is isolated; lineage is recorded beside it and in reports/selected_checkpoint.json.
+
+The architecture and tier input unit are original. Data audit verifies original source labels, crop hashes, CTC repeats and parent isolation. Exact normalized duplicates were excluded from training, not evaluation. 1,624 positive tiers and1,222 replay tiers are available; actual usage/selected-checkpoint exposure can be lower and is recorded. All verification is algorithmic, not human review. Previously exposed validation remains development evidence.
+
+Configs/*.yaml contain JSON, a valid YAML1.2 subset. No extra YAML dependency is needed. E1/E2 load the same original weights, fresh optimizer and original vocabulary. Microbatch1 accumulates4; E2 uses a50:50 effective mixture; wide activations are checkpointed, not truncated. Early stopping and clean/parent/long-sequence gates are frozen. Checkpoint generations refuse overwrite. E0 remains selectable when no trained candidate passes.
+
+Use the measured Python:
+C:\Users\hp\AppData\Local\Programs\Python\Python312\python.exe
+
+Read-only verification:
+    python.exe -B C:\NAQSHKASH\stage2\stage2e_finetuning\tools\verify.py
+
+Run tests:
+    & C:\NAQSHKASH\stage2\stage2e_finetuning\reports\test_command.ps1
+
+Training commands used:
+    python.exe -B C:\NAQSHKASH\stage2\stage2e_finetuning\src\training.py --experiment e1
+    python.exe -B C:\NAQSHKASH\stage2\stage2e_finetuning\src\training.py --experiment e2
+
+Existing run directories refuse fresh runs. Resume is only for an interrupted run using its last completed immutable step checkpoint:
+    python.exe -B ...\src\training.py --experiment e1 --resume ...\checkpoints\e1\step_00102.pt
+
+Do not resume or overwrite a completed frozen experiment. For a new experiment, create a versioned workspace/protocol and preserve these outputs. The environment supports --device cpu or cuda when available; this study actually tested CPU only. On OOM, microbatch is already1 and wide CNN recomputation is enabled; do not skip a sample or truncate labels. Resume the last complete checkpoint on suitable hardware under the same frozen manifest/config, or report the resource limitation.
+
+Full original-checkpoint evaluation used:
+    python.exe -B ...\src\evaluation.py --name baseline
+
+The evaluator refuses an existing output name. Candidate full evaluations use their recorded candidate_checkpoint from reports/e1_completion.json or e2_completion.json. Source/software hashes are in configs/software_lock.json; input hashes in configs/input_lock.json; original and selected hashes in reports/checkpoint_hashes.json. Actual deterministic save/reload/next-update behavior is tested.
+
+Metrics retain full transcriptions, predictions, SDI errors, spaces, lengths, parent IDs, distortion recipes and end-to-end failures. Space normalization is diagnostic only. Loss curves are reports/training_curves.png/.svg. Human review remains pending; no independent unseen-test or production-readiness claim is made. Final Talim/carpet-generation code is unchanged.
+'''
+ (E/'README.md').write_text(readonly,encoding='utf-8')
+ dump('reports/stage2e_summary.json',dict(date='2026-11-06',selected=selected,experiments=completions,training_usage=usage,selected_usage=chosen_usage,summaries=summaries,tests=tests,protected=protected,configured_study_complete=True,independent_test=False,negative_or_handwritten_training=False))
+ print('Final report and README written; tests',tests,flush=True)
+if __name__=='__main__':main()
+
