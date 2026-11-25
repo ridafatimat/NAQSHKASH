@@ -1,0 +1,42 @@
+{
+  "model": "V8",
+  "checkpoint": "C:\\NAQSHKASH\\stage2\\stage2g_handwriting_adaptation_v6\\outputs\\v8_run\\training\\checkpoints\\step_00500.pt",
+  "checkpoint_sha256": "9af6b4424368caa05d2f6181785f59a4f2b7807377b3f1d375895bd69ae20cd7",
+  "input": "contrast",
+  "decoder": "role_mask",
+  "geometry_alignment": true,
+  "geometry_settings": {
+    "gap": 0.05,
+    "speck": 0.35,
+    "width_tol": 0.03
+  },
+  "geo_uniform": true,
+  "geo_classread": false,
+  "frozen_unix": 1794679489.4637086,
+  "chosen_on": "validation only (W05, W24, W30, W31); test writers never used",
+  "geometry2_sha256": "22df4c23126407899b3c53af46be37272ee45c481402d54e2f274905ae7aa555",
+  "count_reader": "argmax",
+  "mark_fusion": true,
+  "report_only_alt_classifiers": {
+    "oval": {
+      "path": "C:\\NAQSHKASH\\stage2\\stage2g_handwriting_adaptation_v6\\oval_classifier_v2.pt",
+      "sha256": "e563196ffdf21b66baea8630c38e69c1da358d7b74aac3613b4ad06ee3690aee"
+    },
+    "mark": {
+      "path": "C:\\NAQSHKASH\\stage2\\stage2g_handwriting_adaptation_v6\\mark_classifier_v2.pt",
+      "sha256": "9b0caca9f52451ba57f6f87ed3d20c524723eca929e879fcd2f871101c325719"
+    },
+    "shape": {
+      "path": "C:\\NAQSHKASH\\stage2\\stage2g_handwriting_adaptation_v6\\shape_classifier_v2.pt",
+      "sha256": "20f79ba21b3e939221a0e3254cc9fb4bff43955e84fc5cfc92d81e10dd64f293"
+    }
+  },
+  "count_reader_sha256": "1f388b1f5e716a07fb4d08ec89a40be8b9d51420e22a8c69587fde1e62480f5f",
+  "mark_fuse_sha256": "105ed0f51ae00c9c6632e8433b2825a6ae84592958d4eb290fcc5ebc713e6ec4",
+  "oval_classifier": "C:\\NAQSHKASH\\stage2\\stage2g_handwriting_adaptation_v6\\oval_classifier.pt",
+  "oval_classifier_sha256": "85ab74d865efa2bfca1d18ec93076887ddd1ae45ea8393a8a1a320daacb3c8c8",
+  "mark_classifier": "C:\\NAQSHKASH\\stage2\\stage2g_handwriting_adaptation_v6\\mark_classifier.pt",
+  "mark_classifier_sha256": "41b24317661828b059eab83662edf7914d39db2dc6a617111d3ee9bc722abc13",
+  "shape_classifier": "C:\\NAQSHKASH\\stage2\\stage2g_handwriting_adaptation_v6\\shape_classifier.pt",
+  "shape_classifier_sha256": "f1b03793225bb6f0cf053a041eab4c1e7d3f05f6af070c5bde561115f846e1fc"
+}
