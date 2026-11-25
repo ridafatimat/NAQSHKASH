@@ -1,0 +1,9 @@
+{
+  "definition": "Distance-transform ridges after removing compact-mark components; supplemental heuristic body-only view",
+  "p10_median_p90": [
+    2.0,
+    4.0,
+    4.0
+  ],
+  "n": 198
+}
