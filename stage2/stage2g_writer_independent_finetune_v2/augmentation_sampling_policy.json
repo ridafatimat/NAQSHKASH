@@ -1,0 +1,18 @@
+{
+  "available_augmented": 2469,
+  "eligible_variants": [
+    "brightness",
+    "contrast",
+    "exposure",
+    "gaussian_blur",
+    "jpeg_compression",
+    "local_shadow"
+  ],
+  "eligible_samples": 261,
+  "eligible_original_parents": 108,
+  "not_sampled_reasons": {
+    "near_duplicate": 293,
+    "outside_bounded_appearance_variant_list": 1915
+  },
+  "policy": "One original per update, at most one augmentation from its exact tier parent, two replay tiers. Unique augmentation hash per parent across both epochs. Missing augmentation is not replaced by another parent; original receives the full handwritten half-loss. Writer inverse-frequency weights make original-parent effective contribution equal per writer across a full pass. Both branches use the identical saved schedule."
+}
