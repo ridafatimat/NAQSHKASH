@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "accepted_round": 1,
+  "checks": {
+    "darkness_median": true,
+    "dot_diameter_median": true,
+    "visibility_rejection_rate": true
+  },
+  "rejection_denominator": "All sampled augmentation proposals, including boundary/topology failures",
+  "visibility_rejection_rate": 0.04424778761061947,
+  "conditional_rendered_visibility_rejection_rate": 0.1388888888888889,
+  "statistics": {
+    "augmented": {
+      "stroke_width": {
+        "n": 200,
+        "median": 4.0,
+        "p10": 2.0,
+        "p90": 4.0
+      },
+      "ink_darkness": {
+        "n": 200,
+        "median": 42.5000012665987,
+        "p10": 19.0000007674098,
+        "p90": 76.0000030696392
+      },
+      "dot_diameter": {
+        "n": 765,
+        "median": 5.0,
+        "p10": 4.0,
+        "p90": 6.48074069840786
+      }
+    },
+    "real_handwriting": {
+      "stroke_width": {
+        "n": 105,
+        "median": 2.799999952316284,
+        "p10": 2.0,
+        "p90": 6.0
+      },
+      "ink_darkness": {
+        "n": 105,
+        "median": 39.719998240470886,
+        "p10": 17.153373576700687,
+        "p90": 65.53866586089137
+      },
+      "dot_diameter": {
+        "n": 170,
+        "median": 6.964101615137754,
+        "p10": 4.0,
+        "p90": 13.04164078649987
+      }
+    },
+    "clean_synthetic": {
+      "stroke_width": {
+        "n": 200,
+        "median": 8.0,
+        "p10": 6.0,
+        "p90": 11.628839778900144
+      },
+      "ink_darkness": {
+        "n": 200,
+        "median": 3.000000058673322,
+        "p10": 3.000000058673322,
+        "p90": 3.000000058673322
+      },
+      "dot_diameter": {
+        "n": 776,
+        "median": 13.490737563232042,
+        "p10": 5.0,
+        "p90": 16.492422502470642
+      }
+    }
+  },
+  "all_accepted_components_darkest_pixel_at_most": 120,
+  "extra_QA_rounds": 0
+}

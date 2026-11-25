@@ -1,0 +1,7 @@
+{
+  "phase": "stopped_training_gates_complete",
+  "selected_step": 750,
+  "gates_pending_local_execution": false,
+  "W05_evaluated": true,
+  "training_restarted": false
+}

@@ -1,0 +1,8 @@
+{
+  "scope_correction": "Two unnecessary frozen-E1 secondary augmented-validation baseline passes from the handoff workflow completed. Their ancillary files are preserved, but excluded from calibration, all model selection and final original-tier comparisons. No candidate augmented-validation evaluation is performed.",
+  "recovery": "Stopped a brief preliminary C run before any candidate checkpoint. Four completed updates were durably logged; the exact final in-memory interruption step is not recoverable. Preserved partial history/exposures under protocol_history. Both final branches restart from frozen E1 under identical fixed schedules and original hyperparameters. The final branch exposure totals exclude this discarded transient run.",
+  "completed_work_reused": "A/B primary original-tier predictions, A/B full synthetic regression and all calibration/audit outputs reused without rerunning.",
+  "parameters_and_gates_changed": false,
+  "normalization_changed": false,
+  "preliminary_logged_steps": 4
+}

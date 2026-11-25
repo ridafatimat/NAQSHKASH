@@ -1,0 +1,9 @@
+test_annotations_and_acceptance_gate (__main__.PreparationTests) ... ok
+test_inventory_and_paths (__main__.PreparationTests) ... ok
+test_original_inputs_unchanged (__main__.PreparationTests) ... ok
+test_source_split_no_leakage (__main__.PreparationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.869s
+
+OK

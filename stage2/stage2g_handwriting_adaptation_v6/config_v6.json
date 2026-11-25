@@ -1,0 +1,18 @@
+{
+  "version": "V6-collection-v3",
+  "seed": 42,
+  "image_cache_size": 256,
+  "collection_v3_crops_dir": "C:/NAQSHKASH/stage2/stage2g_handwriting_adaptation_v6/handwritten_tier_crops",
+  "initial_checkpoint": "C:/NAQSHKASH/stage2/stage2g_handwriting_adaptation_v5b/local_run/outputs/final_1794380015655170100/training/checkpoints/attempt_001_step_02000.pt",
+  "initial_checkpoint_sha256": "0dc250f14555ce881f10d68bba8b8d9c4494a7f163f2889961f041d84d185d88",
+  "validation_writers": ["W05", "W24", "W30", "W31"],
+  "test_writers": ["W02", "W07", "W14", "W17", "W20", "W25", "W27", "W28"],
+  "training": {
+    "min_updates": 1000,
+    "max_updates": 3000,
+    "evaluate_every": 250,
+    "patience": 4,
+    "selection": "validation macro-writer CER, raw decoder",
+    "batch": {"synthetic_augmented": 6, "handwritten_original": 4, "handwritten_augmented": 2, "synthetic_clean": 4}
+  }
+}

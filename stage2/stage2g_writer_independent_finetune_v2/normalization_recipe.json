@@ -1,0 +1,28 @@
+{
+  "selected_name": "contrast",
+  "input": "Original grayscale /255; established bilinear aspect-preserving resize to height 64, align_corners=False; float32, unchanged width, no uint8 intermediate",
+  "foreground_for_blackpoint": "pixels with float intensity <0.98",
+  "blackpoint": "5th percentile of foreground using NumPy default linear percentile; if no foreground then 0",
+  "mapping": "clip((pixel-blackpoint) / max(1-blackpoint,0.01), 0, 1)",
+  "synthetic_and_handwritten_scope": "Same algorithm for all inputs of B/D, including replay and every synthetic regression cohort",
+  "no_dilation_selected": true,
+  "no_geometry_change": true,
+  "candidate_thickness_guard_parameters": {
+    "cross_kernel": [
+      3,
+      3
+    ],
+    "max_float_blend_strength": 0.5,
+    "fallback_strength": "half requested, then zero",
+    "adaptive_strength": "min(0.5,max(0,(synthetic-role stroke target - measured stroke)/2))",
+    "topology_thresholds_fraction_above_foreground_blackpoint": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "component_min_area_pixels": 2,
+    "reject_component_disappearance_or_merging": true,
+    "reject_hole_count_change": true
+  },
+  "semantic_caveat": "These operational safeguards and representative appearance inspection do not establish independent Talim correctness. Thickness variants were rejected by the training-only ranking."
+}

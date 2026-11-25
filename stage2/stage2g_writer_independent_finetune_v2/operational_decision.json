@@ -1,0 +1,15 @@
+{
+  "operational_default_checkpoint": "C:\\NAQSHKASH\\stage2\\stage2e_finetuning\\checkpoints\\selected_model\\best.pt",
+  "operational_default_sha256": "27f2da50795e2fca8f327afefdce10645f3e60e5320060a8cee93994fabdcdf1",
+  "retain_frozen_E1_as_default": true,
+  "best_observed_handwriting_approach": "D",
+  "best_observed_handwriting_CER": 0.5643564356435643,
+  "best_numerical_gate_passing_finetuned_checkpoint": {
+    "path": "C:\\NAQSHKASH\\stage2\\stage2g_writer_independent_finetune_v2\\checkpoints\\C_raw_epoch_1.pt",
+    "sha256": "f393c32074bab8e28b3e95500eec6be5791539e366ee240646088628b7840d92"
+  },
+  "numerical_gate_ranking_winner": "C",
+  "interpretation": "D improves handwriting most but fails positive-edge and long-sequence absolute regression gates. C epoch 1 passes the fixed numerical gates, but ties frozen E1 plus contrast B on space-sensitive CER (62 errors), has zero exact tiers versus B one, and has slightly worse clean/positive/long regression. Its one-error no-whitespace advantage over B is not convincing evidence that replacing E1 weights is worthwhile on one writer/two sources. Keep the gate-passing C checkpoint for further controlled development review, without changing the operational selected-model file. B is an exploratory normalization-only option; no deployment/rejection-policy claim.",
+  "gates_changed_after_results": false,
+  "selection_status_note": "selected_under_gates and frozen_E1_retained in final_comparison.json describe the recorded numerical experiment ranking, not any modification of the operational model file."
+}
