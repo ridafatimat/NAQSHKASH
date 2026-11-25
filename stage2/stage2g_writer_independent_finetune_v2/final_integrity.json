@@ -1,0 +1,10 @@
+{
+  "original_e1_unchanged": true,
+  "all_previous_experiment_hashes_unchanged": true,
+  "all_allowed_source_images_labels_unchanged": true,
+  "test_quarantine_payloads_not_extracted": true,
+  "writer_split_unchanged": true,
+  "normalization_chosen_before_W05": true,
+  "raw_and_normalized_candidates_distinct": true,
+  "all_recurrent_classifier_weights_frozen": true
+}
