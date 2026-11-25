@@ -1,0 +1,54 @@
+{
+  "configuration": {
+    "name": "contrast",
+    "contrast": true
+  },
+  "selection": {
+    "name": "contrast",
+    "train_cer": 0.64171974522293,
+    "train_cer_no_whitespace": 0.7890295358649789,
+    "writer_macro_cer": 0.6673876475714837,
+    "synthetic_cer": 0.0,
+    "safe_on_each_synthetic_control": true,
+    "guard_fallbacks": 0,
+    "mean_dilation_strength": 0.0
+  },
+  "calibrated_on": "108 training-writer originals plus 120 existing synthetic development controls only; no W05 pixels/inference used for calibration",
+  "selection_rule": "No individual synthetic development-control edit increase; lowest training macro-writer CER, tie no-whitespace CER",
+  "all_candidates": [
+    {
+      "name": "identity"
+    },
+    {
+      "name": "contrast",
+      "contrast": true
+    },
+    {
+      "name": "guarded_fixed_thickness",
+      "strength": 0.5
+    },
+    {
+      "name": "guarded_adaptive_stroke",
+      "strength": 0.5,
+      "adaptive": true,
+      "stroke_targets": {
+        "upper": 13.79379940032959,
+        "count": 6.0,
+        "lower": 10.0
+      }
+    },
+    {
+      "name": "contrast_guarded_adaptive",
+      "contrast": true,
+      "strength": 0.5,
+      "adaptive": true,
+      "stroke_targets": {
+        "upper": 13.79379940032959,
+        "count": 6.0,
+        "lower": 10.0
+      }
+    }
+  ],
+  "semantic_safety": "Multi-threshold topology/holes guards and nonwhitening support checks are operational safeguards, not proof of Talim mark correctness. Representative train-only visual review required.",
+  "created_before_W05_evaluation": true
+}
