@@ -1,0 +1,23 @@
+{
+  "images": 920,
+  "sources": 30,
+  "extensions": {
+    ".jpg": 900,
+    ".png": 20
+  },
+  "status": {
+    "manual_review": 920,
+    "excluded": 0,
+    "accepted": 0
+  },
+  "source_splits": {
+    "train": 24,
+    "validation": 3,
+    "test": 3
+  },
+  "annotation_valid_sources": 30,
+  "unreadable_images": 0,
+  "source_image_errors": 0,
+  "duplicate_byte_groups": 0,
+  "duplicate_pixel_groups": 0
+}
