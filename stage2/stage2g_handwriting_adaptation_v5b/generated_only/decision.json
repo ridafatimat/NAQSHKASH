@@ -1,0 +1,12 @@
+{
+    "passed":  false,
+    "gates_passed":  false,
+    "macro_improvement_passed":  true,
+    "macro_writer_CER_improvement":  0.11686211798152102,
+    "checkpoint":  "attempt_001_step_00750.pt",
+    "checkpoint_sha256":  "f394064f18b8360154e8b30b4d9777923e955a226d77ef9125e987dea7ca1b17",
+    "selected_step":  750,
+    "decision_unix":  1794326263.9746816,
+    "W05_used_for_selection":  false,
+    "initialization_rule":  "update 750 iff all synthetic gates pass; otherwise frozen E1"
+}
