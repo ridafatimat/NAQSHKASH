@@ -1,0 +1,21 @@
+test_all_targets_ctc_feasible_and_hash_valid (test_contracts_e.ContractTests.test_all_targets_ctc_feasible_and_hash_valid) ... ok
+test_checkpointed_forward_preserves_architecture (test_contracts_e.ContractTests.test_checkpointed_forward_preserves_architecture) ... Disabling PyTorch because PyTorch >= 2.4 is required but found 2.2.2
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+ok
+test_ctc_encoder_preserves_meaningful_spaces (test_contracts_e.ContractTests.test_ctc_encoder_preserves_meaningful_spaces) ... ok
+test_frozen_batchnorm_running_statistics (test_contracts_e.ContractTests.test_frozen_batchnorm_running_statistics) ... ok
+test_metrics_keep_spaces_and_diagnostic_separate (test_contracts_e.ContractTests.test_metrics_keep_spaces_and_diagnostic_separate) ... ok
+test_mixed_replay_balanced_and_deterministic (test_contracts_e.ContractTests.test_mixed_replay_balanced_and_deterministic) ... ok
+test_model_selection_rejects_clean_regression (test_contracts_e.ContractTests.test_model_selection_rejects_clean_regression) ... ok
+test_model_selection_rejects_parent_instability (test_contracts_e.ContractTests.test_model_selection_rejects_parent_instability) ... ok
+test_no_normalized_pixel_leakage (test_contracts_e.ContractTests.test_no_normalized_pixel_leakage) ... ok
+test_original_checkpoint_vocabulary_and_architecture (test_contracts_e.ContractTests.test_original_checkpoint_vocabulary_and_architecture) ... ok
+test_original_normalization_and_width (test_contracts_e.ContractTests.test_original_normalization_and_width) ... ok
+test_parent_disjoint_and_no_test_training (test_contracts_e.ContractTests.test_parent_disjoint_and_no_test_training) ... ok
+test_pixel_only_inputs_cannot_receive_annotation_counts (test_contracts_e.ContractTests.test_pixel_only_inputs_cannot_receive_annotation_counts) ... ok
+test_replay_has_full_supported_vocabulary (test_contracts_e.ContractTests.test_replay_has_full_supported_vocabulary) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 36.128s
+
+OK
