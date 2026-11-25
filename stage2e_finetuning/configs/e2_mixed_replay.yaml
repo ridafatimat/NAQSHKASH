@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "learning_rate": 1e-05,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "scheduler": "cosine, floor10%, step-based",
+  "gradient_clip": 1.0,
+  "microbatch_size": 1,
+  "effective_batch_size": 4,
+  "max_steps": 406,
+  "evaluate_every": 102,
+  "patience": 2,
+  "checkpoint_width": 2048,
+  "batchnorm_running_statistics": "frozen; affine trainable",
+  "model": "original CRNN unchanged",
+  "original_sha256": "22450cbddd42968149739ea0293a6f4ad105f593e82387d707ecb6418a6bac0f",
+  "selection": "space-sensitive positive CER improves; macro-parent CER does not worsen; clean CER increase <=0.001 absolute, clean exact drop <=0.01; long CER increase <=0.005. Apply all clean cohorts when available. E0 fallback if no safe improvement.",
+  "claims": "bounded local CPU fine-tuning study, exposed parent-disjoint development, no independent test",
+  "mixed_replay": true,
+  "train": true
+}
